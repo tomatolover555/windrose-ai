@@ -1,0 +1,243 @@
+[
+  {
+    "name": "OpenAI API",
+    "url": "https://platform.openai.com/",
+    "summary": "API for text, image, and speech models; supports tool-using agents via developer-built runtimes.",
+    "category": "llm",
+    "tags": ["api", "llm", "agents"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Anthropic Claude",
+    "url": "https://www.anthropic.com/",
+    "summary": "Large language model family available via web and API through partners; used for chat and agent workflows.",
+    "category": "llm",
+    "tags": ["llm", "chat"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Google Gemini",
+    "url": "https://ai.google/",
+    "summary": "Google’s model family available across products and APIs for multimodal tasks.",
+    "category": "llm",
+    "tags": ["llm", "multimodal"],
+    "pricing": "paid"
+  },
+  {
+    "name": "AWS Bedrock",
+    "url": "https://aws.amazon.com/bedrock/",
+    "summary": "Managed service providing access to multiple foundation models with AWS-native security and governance.",
+    "category": "platform",
+    "tags": ["cloud", "llm", "api"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Azure AI Foundry",
+    "url": "https://azure.microsoft.com/en-us/products/ai-services/",
+    "summary": "Azure services for building and deploying AI applications with model access, evaluation, and monitoring.",
+    "category": "platform",
+    "tags": ["cloud", "platform", "llm"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com/",
+    "summary": "Frontend cloud platform for deploying Next.js apps with preview deployments and edge/network features.",
+    "category": "deployment",
+    "tags": ["nextjs", "hosting", "ci"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Upstash Redis",
+    "url": "https://upstash.com/redis",
+    "summary": "Serverless Redis compatible database with REST API; integrates with Vercel for storage and rate limiting.",
+    "category": "storage",
+    "tags": ["redis", "ratelimit", "serverless"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Sentry",
+    "url": "https://sentry.io/",
+    "summary": "Error tracking and performance monitoring for web and backend applications.",
+    "category": "observability",
+    "tags": ["monitoring", "errors", "tracing"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com/",
+    "summary": "Monitoring platform for metrics, logs, traces, and security signals.",
+    "category": "observability",
+    "tags": ["monitoring", "logs", "apm"],
+    "pricing": "paid"
+  },
+  {
+    "name": "OpenTelemetry",
+    "url": "https://opentelemetry.io/",
+    "summary": "Open standard for generating and exporting telemetry data (traces, metrics, logs).",
+    "category": "observability",
+    "tags": ["standards", "telemetry", "tracing"],
+    "pricing": "free"
+  },
+  {
+    "name": "PostgreSQL",
+    "url": "https://www.postgresql.org/",
+    "summary": "Open source relational database system.",
+    "category": "database",
+    "tags": ["sql", "database"],
+    "pricing": "free"
+  },
+  {
+    "name": "Neon",
+    "url": "https://neon.tech/",
+    "summary": "Serverless Postgres with branching and autoscaling.",
+    "category": "database",
+    "tags": ["postgres", "serverless"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com/",
+    "summary": "Backend platform built around Postgres with auth, storage, and edge functions.",
+    "category": "platform",
+    "tags": ["postgres", "auth", "storage"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Cloudflare Workers",
+    "url": "https://workers.cloudflare.com/",
+    "summary": "Edge compute platform for running JavaScript/TypeScript close to users.",
+    "category": "compute",
+    "tags": ["edge", "serverless"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Fly.io",
+    "url": "https://fly.io/",
+    "summary": "Platform for running apps close to users with region-based deployment and containers.",
+    "category": "deployment",
+    "tags": ["containers", "hosting"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Render",
+    "url": "https://render.com/",
+    "summary": "Cloud platform for deploying web services, background workers, and databases.",
+    "category": "deployment",
+    "tags": ["hosting", "ci"],
+    "pricing": "paid"
+  },
+  {
+    "name": "GitHub Actions",
+    "url": "https://github.com/features/actions",
+    "summary": "CI/CD automation for building, testing, and deploying workflows from GitHub repositories.",
+    "category": "ci",
+    "tags": ["ci", "automation"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Playwright",
+    "url": "https://playwright.dev/",
+    "summary": "Browser automation library for end-to-end testing across Chromium, Firefox, and WebKit.",
+    "category": "testing",
+    "tags": ["e2e", "browser", "testing"],
+    "pricing": "free"
+  },
+  {
+    "name": "Jest",
+    "url": "https://jestjs.io/",
+    "summary": "JavaScript testing framework for unit and integration tests.",
+    "category": "testing",
+    "tags": ["unit", "testing"],
+    "pricing": "free"
+  },
+  {
+    "name": "Vitest",
+    "url": "https://vitest.dev/",
+    "summary": "Vite-native test runner for unit and integration tests.",
+    "category": "testing",
+    "tags": ["unit", "testing"],
+    "pricing": "free"
+  },
+  {
+    "name": "Zod",
+    "url": "https://zod.dev/",
+    "summary": "TypeScript-first schema validation library.",
+    "category": "validation",
+    "tags": ["typescript", "validation"],
+    "pricing": "free"
+  },
+  {
+    "name": "Ajv",
+    "url": "https://ajv.js.org/",
+    "summary": "JSON Schema validator for JavaScript and TypeScript.",
+    "category": "validation",
+    "tags": ["jsonschema", "validation"],
+    "pricing": "free"
+  },
+  {
+    "name": "Next.js",
+    "url": "https://nextjs.org/",
+    "summary": "React framework with server components, routing, and build tooling.",
+    "category": "framework",
+    "tags": ["react", "web", "nextjs"],
+    "pricing": "free"
+  },
+  {
+    "name": "React",
+    "url": "https://react.dev/",
+    "summary": "JavaScript library for building user interfaces.",
+    "category": "framework",
+    "tags": ["ui", "react"],
+    "pricing": "free"
+  },
+  {
+    "name": "TypeScript",
+    "url": "https://www.typescriptlang.org/",
+    "summary": "Typed superset of JavaScript that compiles to plain JavaScript.",
+    "category": "language",
+    "tags": ["typescript", "language"],
+    "pricing": "free"
+  },
+  {
+    "name": "Node.js",
+    "url": "https://nodejs.org/",
+    "summary": "JavaScript runtime built on Chrome’s V8 engine.",
+    "category": "runtime",
+    "tags": ["javascript", "runtime"],
+    "pricing": "free"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com/",
+    "summary": "Payments platform offering APIs for payments, billing, and subscriptions.",
+    "category": "payments",
+    "tags": ["payments", "api"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Auth0",
+    "url": "https://auth0.com/",
+    "summary": "Authentication and authorization platform with SDKs and enterprise features.",
+    "category": "auth",
+    "tags": ["auth", "oidc"],
+    "pricing": "paid"
+  },
+  {
+    "name": "Clerk",
+    "url": "https://clerk.com/",
+    "summary": "User management and authentication service for web apps.",
+    "category": "auth",
+    "tags": ["auth", "users"],
+    "pricing": "freemium"
+  },
+  {
+    "name": "Keycloak",
+    "url": "https://www.keycloak.org/",
+    "summary": "Open source identity and access management solution.",
+    "category": "auth",
+    "tags": ["auth", "iam"],
+    "pricing": "free"
+  }
+]
+

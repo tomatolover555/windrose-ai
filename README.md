@@ -81,6 +81,8 @@ and the dashboard reads the last 100.
 - `Authorization: Bearer ...`, or
 - `x-admin-token: ...`
 
+**Important:** Set `ADMIN_TOKEN` in Vercel (Production) to a random value. Do not use `changeme`.
+
 ## Local Development
 
 ```bash

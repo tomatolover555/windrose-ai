@@ -40,6 +40,9 @@ yarn-error.log*
 # runtime logs
 /data/logs/
 
+# keep directory dataset committed
+!/data/directory.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

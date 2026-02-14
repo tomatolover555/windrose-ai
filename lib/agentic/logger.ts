@@ -58,6 +58,26 @@ async function upstashCommand<T>(pathName: string): Promise<T | null> {
   }
 }
 
+async function upstashPipeline(commands: Array<[string, ...string[]]>): Promise<boolean> {
+  const cfg = getUpstashConfig();
+  if (!cfg) return false;
+
+  try {
+    const res = await fetch(`${cfg.url}/pipeline`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${cfg.token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(commands),
+      cache: "no-store",
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
 export async function logFrameworkExecution(record: FrameworkLogRecord): Promise<void> {
   // Always keep a small in-memory tail for fast dashboard reads and as a fallback.
   const buf = getMemoryBuffer();
@@ -67,8 +87,10 @@ export async function logFrameworkExecution(record: FrameworkLogRecord): Promise
   // Prefer persistent storage when available (Upstash Redis via Vercel Integration).
   // This keeps the dashboard consistent across serverless instances.
   const serialized = JSON.stringify(record);
-  void upstashCommand<number>(`LPUSH/windrose:framework_logs/${encodeURIComponent(serialized)}`);
-  void upstashCommand<number>("LTRIM/windrose:framework_logs/0/999");
+  void upstashPipeline([
+    ["LPUSH", "windrose:framework_logs", serialized],
+    ["LTRIM", "windrose:framework_logs", "0", "999"],
+  ]);
 
   const filePath = getLogFilePath();
   const dir = path.dirname(filePath);

@@ -48,3 +48,6 @@ export function listFrameworks(): Array<AgenticFrameworkDefinition & { enabled: 
 // Register built-in placeholder frameworks (infrastructure only).
 import { pingFramework } from "@/lib/agentic/runtime/ping";
 registerFramework(pingFramework);
+
+import { directorySearchFramework } from "@/lib/agentic/runtime/directorySearch";
+registerFramework(directorySearchFramework);
