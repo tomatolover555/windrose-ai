@@ -5,11 +5,16 @@ export const dynamic = "force-dynamic";
 export default async function DashboardPage() {
   // Auth is enforced in middleware (401). If we reached here, token is valid.
   const logs = await readFrameworkLogs(100);
+  const persistent =
+    Boolean(process.env.UPSTASH_REDIS_REST_URL) && Boolean(process.env.UPSTASH_REDIS_REST_TOKEN);
 
   return (
     <main>
       <h1>Framework Activity</h1>
       <p>Last 100 executions</p>
+      <p style={{ color: "#666", marginTop: "0.25rem" }}>
+        Storage: {persistent ? "persistent (Upstash Redis)" : "ephemeral (filesystem/memory)"}
+      </p>
       <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead>
           <tr>
@@ -30,6 +35,12 @@ export default async function DashboardPage() {
             <tr>
               <td colSpan={3} style={{ padding: "10px 0", color: "#666" }}>
                 No executions logged yet.
+                {!persistent ? (
+                  <>
+                    {" "}
+                    Note: on Vercel, enable Upstash Redis to persist logs across serverless instances.
+                  </>
+                ) : null}
               </td>
             </tr>
           ) : null}
@@ -38,4 +49,3 @@ export default async function DashboardPage() {
     </main>
   );
 }
-

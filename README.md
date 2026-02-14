@@ -65,6 +65,14 @@ Log file location:
 - Local/dev: `./data/logs/framework-log.jsonl`
 - Vercel: `/tmp/data/logs/framework-log.jsonl` (ephemeral; best-effort)
 
+#### Persistent Logs On Vercel (Recommended)
+
+Vercel serverless instances do not share a filesystem, so a file-based log can’t reliably power a cross-instance dashboard.
+
+If you want the `/dashboard` to show executions consistently in production, connect an Upstash Redis integration in Vercel.
+When `UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN` are present, the runtime stores the last 1000 executions in Redis
+and the dashboard reads the last 100.
+
 ### Dashboard
 
 `/dashboard` is protected by `ADMIN_TOKEN` using middleware:

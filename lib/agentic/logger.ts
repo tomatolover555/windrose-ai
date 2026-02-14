@@ -33,11 +33,42 @@ function getLogFilePath(): string {
   return path.join(baseDir, "framework-log.jsonl");
 }
 
+function getUpstashConfig(): { url: string; token: string } | null {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  return { url, token };
+}
+
+async function upstashCommand<T>(pathName: string): Promise<T | null> {
+  const cfg = getUpstashConfig();
+  if (!cfg) return null;
+
+  try {
+    const res = await fetch(`${cfg.url}/${pathName}`, {
+      headers: { Authorization: `Bearer ${cfg.token}` },
+      // Avoid caching in edge/CDNs.
+      cache: "no-store",
+    });
+    if (!res.ok) return null;
+    const json = (await res.json()) as { result?: T };
+    return (json.result ?? null) as T | null;
+  } catch {
+    return null;
+  }
+}
+
 export async function logFrameworkExecution(record: FrameworkLogRecord): Promise<void> {
   // Always keep a small in-memory tail for fast dashboard reads and as a fallback.
   const buf = getMemoryBuffer();
   buf.push(record);
   if (buf.length > 1000) buf.splice(0, buf.length - 1000);
+
+  // Prefer persistent storage when available (Upstash Redis via Vercel Integration).
+  // This keeps the dashboard consistent across serverless instances.
+  const serialized = JSON.stringify(record);
+  void upstashCommand<number>(`LPUSH/windrose:framework_logs/${encodeURIComponent(serialized)}`);
+  void upstashCommand<number>("LTRIM/windrose:framework_logs/0/999");
 
   const filePath = getLogFilePath();
   const dir = path.dirname(filePath);
@@ -51,6 +82,25 @@ export async function logFrameworkExecution(record: FrameworkLogRecord): Promise
 }
 
 export async function readFrameworkLogs(limit: number): Promise<FrameworkLogRecord[]> {
+  // Try persistent storage first (if configured).
+  const upstash = getUpstashConfig();
+  if (upstash) {
+    const rows = await upstashCommand<string[]>(
+      `LRANGE/windrose:framework_logs/0/${Math.max(0, limit - 1)}`,
+    );
+    if (rows && Array.isArray(rows)) {
+      const parsed: FrameworkLogRecord[] = [];
+      for (const row of rows) {
+        try {
+          parsed.push(JSON.parse(row) as FrameworkLogRecord);
+        } catch {
+          // skip malformed row
+        }
+      }
+      return parsed;
+    }
+  }
+
   const filePath = getLogFilePath();
   try {
     const raw = await fs.readFile(filePath, "utf8");
