@@ -238,13 +238,13 @@ async function runSim(
   return { winner: parsed.winner, ranking: parsed.ranking };
 }
 
-function parseExperienceIdFromUrl(url: URL): ExperienceId | null {
+function parseExperienceIdFromUrl(url: URL): { id: ExperienceId | null; hadParam: boolean } {
   const raw = url.searchParams.get("id");
-  if (!raw) return null;
-  if (raw === "1") return 1;
-  if (raw === "2") return 2;
-  if (raw === "3") return 3;
-  return null;
+  if (raw === null) return { id: null, hadParam: false };
+  if (raw === "1") return { id: 1, hadParam: true };
+  if (raw === "2") return { id: 2, hadParam: true };
+  if (raw === "3") return { id: 3, hadParam: true };
+  return { id: null, hadParam: true };
 }
 
 async function experience1(): Promise<JsonValue> {
@@ -450,13 +450,12 @@ async function handle(req: Request): Promise<Response> {
   const url = new URL(req.url);
   const ip = getClientIp(req) ?? "unknown";
 
-  const idFromQuery = parseExperienceIdFromUrl(url);
-  // Backwards-compatible default: if no id is provided, treat as experience 1.
-  const id: ExperienceId | null = idFromQuery ?? 1;
-
-  if (id !== 1 && id !== 2 && id !== 3) {
+  const parsedId = parseExperienceIdFromUrl(url);
+  if (parsedId.hadParam && parsedId.id === null) {
     return NextResponse.json({ error: "invalid_experience_id" }, { status: 400 });
   }
+  // Backwards-compatible default: if no id is provided, treat as experience 1.
+  const id: ExperienceId = parsedId.id ?? 1;
 
   const rl = await checkFrameworkRateLimit(`ip:${ip}:world:experience:${id}`);
   if (rl.limited) {
