@@ -80,9 +80,10 @@ export async function GET(req: Request) {
     },
     {
       headers: {
-        "Cache-Control": "public, max-age=60, s-maxage=3600, stale-while-revalidate=86400",
+        // Vercel may normalize Cache-Control; provide CDN-specific header explicitly.
+        "Cache-Control": "public, max-age=60",
+        "CDN-Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
       },
     },
   );
 }
-
