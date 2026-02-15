@@ -17,22 +17,26 @@ const B_CANDIDATES = [
   { domain: "example.com", label: "Example" },
 ] as const;
 
-const WORLDS = [
-  { id: "balanced", weights: { trust_score: 0.7, availability: 0.3 } },
-  { id: "trust_dominant", weights: { trust_score: 0.9, availability: 0.1 } },
-] as const;
+const WORLD_PRESETS = {
+  balanced: { trust_score: 0.7, availability: 0.3 },
+  trust_dominant: { trust_score: 0.9, availability: 0.1 },
+  availability_dominant: { trust_score: 0.4, availability: 0.6 },
+} as const;
 
-type WorldRun = {
-  world_id: string;
+type ExperienceId = 1 | 2 | 3;
+
+type Ranked = { id: "a" | "b"; label: string; score: number };
+
+type Experience1Run = {
+  world_id: "balanced" | "trust_dominant";
   weights: Record<string, number>;
-  winner: { id: "a" | "b"; label: string; score: number };
-  ranking: Array<{ id: "a" | "b"; label: string; score: number }>;
-  _diff: number;
+  winner: Ranked;
+  ranking: Ranked[];
 };
 
-type Attempt = {
+type Experience1Attempt = {
   b: { domain: string; label: string };
-  world_runs: [WorldRun, WorldRun];
+  world_runs: [Experience1Run, Experience1Run];
   flipped: boolean;
   divergence: number;
 };
@@ -111,7 +115,24 @@ function getHttpErrorMeta(err: unknown): { status: number; code?: string } | nul
   return null;
 }
 
-function extractSignalsFromAudit(audit: unknown): { trust_score?: number; availability: boolean } {
+function normalizeDomain(input: string): string | null {
+  const raw = input.trim();
+  if (!raw) return null;
+  try {
+    const u = raw.includes("://") ? new URL(raw) : new URL(`https://${raw}`);
+    const host = u.hostname.toLowerCase().replace(/^www\\./, "");
+    if (!host.includes(".")) return null;
+    if (host.length > 255) return null;
+    if (!/^[a-z0-9.-]+$/.test(host)) return null;
+    if (/^\\d{1,3}(?:\\.\\d{1,3}){3}$/.test(host)) return null;
+    if (host.endsWith(".local")) return null;
+    return host;
+  } catch {
+    return null;
+  }
+}
+
+function extractSignalsFromAudit(audit: unknown): { trust_score?: number; availability: boolean; hints: string[]; wellKnownOk: boolean } {
   const rec = audit && typeof audit === "object" && !Array.isArray(audit) ? (audit as Record<string, unknown>) : null;
   const assessment =
     rec?.assessment && typeof rec.assessment === "object" && !Array.isArray(rec.assessment)
@@ -124,13 +145,23 @@ function extractSignalsFromAudit(audit: unknown): { trust_score?: number; availa
     rec?.results && typeof rec.results === "object" && !Array.isArray(rec.results)
       ? (rec.results as Record<string, unknown>)
       : null;
+  const wellKnown =
+    results?.well_known_mcp && typeof results.well_known_mcp === "object" && !Array.isArray(results.well_known_mcp)
+      ? (results.well_known_mcp as Record<string, unknown>)
+      : null;
+  const wellKnownOk = Boolean(wellKnown?.parse_ok);
+
   const homepage =
     results?.homepage_html && typeof results.homepage_html === "object" && !Array.isArray(results.homepage_html)
       ? (results.homepage_html as Record<string, unknown>)
       : null;
   const status = homepage?.status_code;
   const availability = status === 200;
-  return { trust_score, availability };
+  const hintsRaw = homepage?.matched_hints;
+  const hints = Array.isArray(hintsRaw) ? hintsRaw.filter((h) => typeof h === "string").map(String) : [];
+  hints.sort((a, b) => a.localeCompare(b));
+
+  return { trust_score, availability, hints, wellKnownOk };
 }
 
 function fnv1a32(s: string): number {
@@ -147,54 +178,36 @@ function pickStartIndex(): number {
   return fnv1a32(day) % B_CANDIDATES.length;
 }
 
-function parseSimOutput(out: AgenticResult): { winner: WorldRun["winner"]; ranking: WorldRun["ranking"]; diff: number } {
+function parseSimOutput(out: AgenticResult): { winner: { id: "a" | "b"; label: string; score: number }; ranking: Array<{ id: "a" | "b"; label: string; score: number }> } {
   const winnerRaw = out.winner as unknown;
   const rankingRaw = out.ranking as unknown;
-
-  if (!winnerRaw || typeof winnerRaw !== "object" || Array.isArray(winnerRaw)) {
-    throw new Error("invalid_sim_output");
-  }
+  if (!winnerRaw || typeof winnerRaw !== "object" || Array.isArray(winnerRaw)) throw new Error("invalid_sim_output");
   const w = winnerRaw as Record<string, unknown>;
-  const winnerId = w.id === "a" || w.id === "b" ? (w.id as "a" | "b") : null;
-  const winnerLabel = typeof w.label === "string" ? w.label : null;
-  const winnerScore = isFiniteNumber(w.score) ? (w.score as number) : null;
-  if (!winnerId || !winnerLabel || winnerScore === null) throw new Error("invalid_sim_output");
+  const id = w.id === "a" || w.id === "b" ? (w.id as "a" | "b") : null;
+  const label = typeof w.label === "string" ? w.label : null;
+  const score = isFiniteNumber(w.score) ? (w.score as number) : null;
+  if (!id || !label || score === null) throw new Error("invalid_sim_output");
 
-  const ranking: WorldRun["ranking"] = [];
+  const ranking: Array<{ id: "a" | "b"; label: string; score: number }> = [];
   if (Array.isArray(rankingRaw)) {
     for (const item of rankingRaw) {
       if (!item || typeof item !== "object" || Array.isArray(item)) continue;
       const r = item as Record<string, unknown>;
-      const id = r.id === "a" || r.id === "b" ? (r.id as "a" | "b") : null;
-      const label = typeof r.label === "string" ? r.label : null;
-      const score = isFiniteNumber(r.score) ? (r.score as number) : null;
-      if (!id || !label || score === null) continue;
-      ranking.push({ id, label, score });
+      const rid = r.id === "a" || r.id === "b" ? (r.id as "a" | "b") : null;
+      const rlabel = typeof r.label === "string" ? r.label : null;
+      const rscore = isFiniteNumber(r.score) ? (r.score as number) : null;
+      if (!rid || !rlabel || rscore === null) continue;
+      ranking.push({ id: rid, label: rlabel, score: rscore });
     }
   }
-
-  // Ensure top-2 present.
-  if (ranking.length < 2) {
-    const wItem = { id: winnerId, label: winnerLabel, score: winnerScore };
-    const otherId: "a" | "b" = winnerId === "a" ? "b" : "a";
-    ranking.length = 0;
-    ranking.push(wItem);
-    ranking.push({ id: otherId, label: otherId, score: otherId === "a" ? 0 : 0 });
-  }
-
-  const scoreA = ranking.find((x) => x.id === "a")?.score ?? 0;
-  const scoreB = ranking.find((x) => x.id === "b")?.score ?? 0;
-  const diff = scoreA - scoreB;
-
-  return { winner: { id: winnerId, label: winnerLabel, score: winnerScore }, ranking: ranking.slice(0, 2), diff };
+  return { winner: { id, label, score }, ranking: ranking.slice(0, 2) };
 }
 
-async function runWorld(
-  worldId: string,
-  weights: Record<string, number>,
+async function runSim(
   labels: { a: string; b: string },
   signals: { a: { trust_score?: number; availability: boolean }; b: { trust_score?: number; availability: boolean } },
-): Promise<WorldRun> {
+  weights: Record<string, number>,
+): Promise<{ winner: Ranked; ranking: Ranked[] }> {
   const candidates: JsonValue = [
     {
       id: "a",
@@ -216,25 +229,236 @@ async function runWorld(
 
   const simOut = await agentSelectionSimulateFramework.handler({
     requestId: crypto.randomUUID(),
-    input: {
-      goal: null,
-      candidates,
-      weights,
-      options: { normalize: true, explain: true },
-    } as unknown as JsonValue,
+    input: { goal: null, candidates, weights, options: { normalize: true, explain: true } } as unknown as JsonValue,
     ip: null,
     userAgent: null,
   });
 
   const parsed = parseSimOutput(simOut);
-  return { world_id: worldId, weights, winner: parsed.winner, ranking: parsed.ranking, _diff: parsed.diff };
+  return { winner: parsed.winner, ranking: parsed.ranking };
 }
 
-export async function GET(req: Request): Promise<Response> {
+function parseExperienceIdFromUrl(url: URL): ExperienceId | null {
+  const raw = url.searchParams.get("id");
+  if (!raw) return null;
+  if (raw === "1") return 1;
+  if (raw === "2") return 2;
+  if (raw === "3") return 3;
+  return null;
+}
+
+async function experience1(): Promise<JsonValue> {
+  const startIdx = pickStartIndex();
+  const attempts: Experience1Attempt[] = [];
+
+  for (let i = 0; i < Math.min(3, B_CANDIDATES.length); i++) {
+    const b = B_CANDIDATES[(startIdx + i) % B_CANDIDATES.length]!;
+
+    const cachedA = await getCachedAudit(A.domain);
+    const cachedB = await getCachedAudit(b.domain);
+
+    const auditA =
+      cachedA ??
+      (await siteAuditAgentReadyFramework.handler({
+        requestId: crypto.randomUUID(),
+        input: { domain: A.domain } as unknown as JsonValue,
+        ip: null,
+        userAgent: null,
+      }));
+    const auditB =
+      cachedB ??
+      (await siteAuditAgentReadyFramework.handler({
+        requestId: crypto.randomUUID(),
+        input: { domain: b.domain } as unknown as JsonValue,
+        ip: null,
+        userAgent: null,
+      }));
+
+    if (!cachedA) await setCachedAudit(A.domain, auditA, 300);
+    if (!cachedB) await setCachedAudit(b.domain, auditB, 300);
+
+    const sigA = extractSignalsFromAudit(auditA);
+    const sigB = extractSignalsFromAudit(auditB);
+
+    const labels = { a: A.label, b: b.label };
+    const runBalanced = await runSim(labels, { a: sigA, b: sigB }, WORLD_PRESETS.balanced);
+    const runTrust = await runSim(labels, { a: sigA, b: sigB }, WORLD_PRESETS.trust_dominant);
+
+    const flipped = runBalanced.winner.id !== runTrust.winner.id;
+    const divergence = Math.abs(runBalanced.winner.score - runTrust.winner.score);
+
+    attempts.push({
+      b,
+      world_runs: [
+        { world_id: "balanced", weights: WORLD_PRESETS.balanced, winner: runBalanced.winner, ranking: runBalanced.ranking },
+        { world_id: "trust_dominant", weights: WORLD_PRESETS.trust_dominant, winner: runTrust.winner, ranking: runTrust.ranking },
+      ],
+      flipped,
+      divergence,
+    });
+    if (flipped) break;
+  }
+
+  const chosen =
+    attempts.find((a) => a.flipped) ?? attempts.slice().sort((x, y) => y.divergence - x.divergence)[0]!;
+
+  return {
+    entities: {
+      a: { domain: A.domain, label: A.label },
+      b: { domain: chosen.b.domain, label: chosen.b.label },
+    },
+    world_runs: chosen.world_runs.map((wr) => ({
+      world_id: wr.world_id,
+      weights: wr.weights,
+      winner: wr.winner,
+      ranking: wr.ranking,
+    })),
+    surprise: {
+      winner_flipped: chosen.flipped,
+      one_liner: chosen.flipped ? "Same surface. Different physics. Different fate." : "The physics shifted. The verdict held.",
+      ...(chosen.flipped ? {} : { note: "No flip found today." }),
+    },
+    next: { reflect: `${BASE_URL}/api/world/reflect` },
+  };
+}
+
+function compactXray(domain: string, audit: unknown): JsonValue {
+  const rec = audit && typeof audit === "object" && !Array.isArray(audit) ? (audit as Record<string, unknown>) : null;
+  const assessment =
+    rec?.assessment && typeof rec.assessment === "object" && !Array.isArray(rec.assessment)
+      ? (rec.assessment as Record<string, unknown>)
+      : null;
+  const verification_status =
+    typeof assessment?.verification_status === "string" ? (assessment.verification_status as string) : "unverified";
+  const confidence = isFiniteNumber(assessment?.confidence) ? Math.max(0, Math.min(100, Math.floor(assessment!.confidence as number))) : 0;
+
+  const sig = extractSignalsFromAudit(audit);
+  const proofTypes: string[] = [];
+  if (sig.wellKnownOk) proofTypes.push("well_known_mcp_json");
+  if (sig.hints.length > 0) proofTypes.push("homepage_hints");
+  proofTypes.sort((a, b) => a.localeCompare(b));
+
+  const recs: string[] = [];
+  if (!sig.wellKnownOk) recs.push("Publish /.well-known/mcp.json.");
+  if (!sig.hints.includes("navigator.modelContext")) recs.push("Expose an agent-facing capability index (like /api/agent).");
+  if (!sig.availability) recs.push("Fix availability: ensure the homepage returns 200.");
+  while (recs.length < 3) recs.push("Keep the surface stable: predictable URLs and machine-readable metadata.");
+
+  return {
+    entity: { domain },
+    xray: {
+      verification_status,
+      confidence,
+      proof_types: proofTypes,
+      key_hints: sig.hints.slice(0, 5),
+      recommendations: recs.slice(0, 3),
+    },
+    next: { reflect: `${BASE_URL}/api/world/reflect` },
+  };
+}
+
+async function experience2(domain: string): Promise<JsonValue> {
+  const cached = await getCachedAudit(domain);
+  const audit =
+    cached ??
+    (await siteAuditAgentReadyFramework.handler({
+      requestId: crypto.randomUUID(),
+      input: { domain } as unknown as JsonValue,
+      ip: null,
+      userAgent: null,
+    }));
+  if (!cached) await setCachedAudit(domain, audit, 300);
+
+  return compactXray(domain, audit);
+}
+
+async function experience3(body: JsonValue | null): Promise<JsonValue> {
+  const obj = body && typeof body === "object" && !Array.isArray(body) ? (body as Record<string, unknown>) : null;
+  if (!obj) throw new Error("invalid_body");
+
+  const aRaw = typeof obj.domain_a === "string" ? (obj.domain_a as string) : "";
+  const bRaw = typeof obj.domain_b === "string" ? (obj.domain_b as string) : "";
+  const worldRaw = typeof obj.world === "string" ? (obj.world as string) : "";
+
+  const domainA = normalizeDomain(aRaw);
+  const domainB = normalizeDomain(bRaw);
+  if (!domainA) throw new Error("missing_domain_a");
+  if (!domainB) throw new Error("missing_domain_b");
+  if (worldRaw !== "balanced" && worldRaw !== "trust_dominant" && worldRaw !== "availability_dominant") {
+    throw new Error("invalid_world");
+  }
+
+  const weights = WORLD_PRESETS[worldRaw];
+
+  const cachedA = await getCachedAudit(domainA);
+  const cachedB = await getCachedAudit(domainB);
+
+  const auditA =
+    cachedA ??
+    (await siteAuditAgentReadyFramework.handler({
+      requestId: crypto.randomUUID(),
+      input: { domain: domainA } as unknown as JsonValue,
+      ip: null,
+      userAgent: null,
+    }));
+  const auditB =
+    cachedB ??
+    (await siteAuditAgentReadyFramework.handler({
+      requestId: crypto.randomUUID(),
+      input: { domain: domainB } as unknown as JsonValue,
+      ip: null,
+      userAgent: null,
+    }));
+
+  if (!cachedA) await setCachedAudit(domainA, auditA, 300);
+  if (!cachedB) await setCachedAudit(domainB, auditB, 300);
+
+  const sigA = extractSignalsFromAudit(auditA);
+  const sigB = extractSignalsFromAudit(auditB);
+  const labels = { a: domainA, b: domainB };
+
+  const sim = await runSim(labels, { a: sigA, b: sigB }, weights);
+
+  const whatChanged =
+    worldRaw === "availability_dominant"
+      ? "Availability dominates."
+      : worldRaw === "trust_dominant"
+        ? "Trust dominates."
+        : "Balanced weights.";
+
+  return {
+    entities: { a: { domain: domainA, label: domainA }, b: { domain: domainB, label: domainB } },
+    world: { id: worldRaw, weights },
+    winner: sim.winner,
+    ranking: sim.ranking,
+    note: whatChanged,
+    next: { reflect: `${BASE_URL}/api/world/reflect` },
+  };
+}
+
+function mapBodyErrorToResponse(err: unknown): { status: number; body: Record<string, string> } {
+  const msg = err instanceof Error ? err.message : "unknown";
+  if (msg === "invalid_body") return { status: 400, body: { error: "invalid_body" } };
+  if (msg === "missing_domain_a") return { status: 400, body: { error: "missing_domain_a" } };
+  if (msg === "missing_domain_b") return { status: 400, body: { error: "missing_domain_b" } };
+  if (msg === "invalid_world") return { status: 400, body: { error: "invalid_world" } };
+  return { status: 500, body: { error: "world_dial_failed" } };
+}
+
+async function handle(req: Request): Promise<Response> {
   const start = Date.now();
+  const url = new URL(req.url);
   const ip = getClientIp(req) ?? "unknown";
 
-  const rl = await checkFrameworkRateLimit(`ip:${ip}:world:experience`);
+  const idFromQuery = parseExperienceIdFromUrl(url);
+  // Backwards-compatible default: if no id is provided, treat as experience 1.
+  const id: ExperienceId | null = idFromQuery ?? 1;
+
+  if (id !== 1 && id !== 2 && id !== 3) {
+    return NextResponse.json({ error: "invalid_experience_id" }, { status: 400 });
+  }
+
+  const rl = await checkFrameworkRateLimit(`ip:${ip}:world:experience:${id}`);
   if (rl.limited) {
     const retryAfterSeconds = Math.max(0, Math.ceil((rl.resetMs - Date.now()) / 1000));
     return NextResponse.json(
@@ -252,93 +476,55 @@ export async function GET(req: Request): Promise<Response> {
 
   let status = 200;
   let output: JsonValue | null = null;
+  const frameworkId = `world.experience.${id}`;
 
   try {
-    const startIdx = pickStartIndex();
-    const attempts: Attempt[] = [];
-
-    for (let i = 0; i < Math.min(3, B_CANDIDATES.length); i++) {
-      const b = B_CANDIDATES[(startIdx + i) % B_CANDIDATES.length]!;
-
-      const cachedA = await getCachedAudit(A.domain);
-      const cachedB = await getCachedAudit(b.domain);
-
-      const auditA =
-        cachedA ??
-        (await siteAuditAgentReadyFramework.handler({
-          requestId: crypto.randomUUID(),
-          input: { domain: A.domain } as unknown as JsonValue,
-          ip: null,
-          userAgent: null,
-        }));
-      const auditB =
-        cachedB ??
-        (await siteAuditAgentReadyFramework.handler({
-          requestId: crypto.randomUUID(),
-          input: { domain: b.domain } as unknown as JsonValue,
-          ip: null,
-          userAgent: null,
-        }));
-
-      if (!cachedA) await setCachedAudit(A.domain, auditA, 300);
-      if (!cachedB) await setCachedAudit(b.domain, auditB, 300);
-
-      const sigA = extractSignalsFromAudit(auditA);
-      const sigB = extractSignalsFromAudit(auditB);
-      const labels = { a: A.label, b: b.label };
-
-      const run1 = await runWorld(WORLDS[0].id, WORLDS[0].weights as unknown as Record<string, number>, labels, {
-        a: sigA,
-        b: sigB,
-      });
-      const run2 = await runWorld(WORLDS[1].id, WORLDS[1].weights as unknown as Record<string, number>, labels, {
-        a: sigA,
-        b: sigB,
-      });
-
-      const flipped = run1.winner.id !== run2.winner.id;
-      const divergence = Math.abs(run1._diff - run2._diff);
-      attempts.push({ b, world_runs: [run1, run2], flipped, divergence });
-      if (flipped) break;
+    if (req.method === "GET") {
+      if (id === 3) return NextResponse.json({ error: "method_not_allowed" }, { status: 405 });
+      if (id === 1) {
+        output = await experience1();
+      } else {
+        const domainParam = url.searchParams.get("domain");
+        if (!domainParam) return NextResponse.json({ error: "missing_domain" }, { status: 400 });
+        const domain = normalizeDomain(domainParam);
+        if (!domain) return NextResponse.json({ error: "invalid_domain" }, { status: 400 });
+        output = await experience2(domain);
+      }
+    } else if (req.method === "POST") {
+      if (id !== 3) return NextResponse.json({ error: "method_not_allowed" }, { status: 405 });
+      let body: JsonValue | null = null;
+      try {
+        body = (await req.json()) as JsonValue;
+      } catch {
+        body = null;
+      }
+      output = await experience3(body);
+    } else {
+      return NextResponse.json({ error: "method_not_allowed" }, { status: 405 });
     }
-
-    const chosen =
-      attempts.find((a) => a.flipped) ?? attempts.slice().sort((x, y) => y.divergence - x.divergence)[0]!;
-
-    output = {
-      entities: {
-        a: { domain: A.domain, label: A.label },
-        b: { domain: chosen.b.domain, label: chosen.b.label },
-      },
-      world_runs: chosen.world_runs.map((wr) => ({
-        world_id: wr.world_id,
-        weights: wr.weights,
-        winner: wr.winner,
-        ranking: wr.ranking,
-      })),
-      surprise: {
-        winner_flipped: chosen.flipped,
-        one_liner: chosen.flipped
-          ? "Same surface. Different physics. Different fate."
-          : "The physics shifted. The verdict held.",
-        ...(chosen.flipped ? {} : { note: "No flip found today." }),
-      },
-      next: { reflect: `${BASE_URL}/api/world/reflect` },
-    };
   } catch (err) {
     const meta = getHttpErrorMeta(err);
-    status = meta?.status && meta.status >= 400 && meta.status <= 599 ? meta.status : 500;
-    output = {
-      error: meta?.code ?? "world_experience_failed",
-      message: err instanceof Error ? err.message : "Unknown error",
-    };
+    if (meta) {
+      status = meta.status;
+      output = { error: meta.code ?? "world_experience_failed", message: err instanceof Error ? err.message : "Unknown error" };
+    } else {
+      // Map known POST validation errors.
+      if (id === 3) {
+        const mapped = mapBodyErrorToResponse(err);
+        status = mapped.status;
+        output = mapped.body as unknown as JsonValue;
+      } else {
+        status = 500;
+        output = { error: "world_experience_failed", message: err instanceof Error ? err.message : "Unknown error" };
+      }
+    }
   }
 
   const body = output ?? { error: "world_experience_failed" };
   const latencyMs = Date.now() - start;
   await logFrameworkExecution({
     timestamp: new Date().toISOString(),
-    framework_id: "world.experience",
+    framework_id: frameworkId,
     input: null,
     output: body,
     latency_ms: latencyMs,
@@ -353,4 +539,12 @@ export async function GET(req: Request): Promise<Response> {
       "CDN-Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
     },
   });
+}
+
+export async function GET(req: Request): Promise<Response> {
+  return handle(req);
+}
+
+export async function POST(req: Request): Promise<Response> {
+  return handle(req);
 }

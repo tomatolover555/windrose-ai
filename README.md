@@ -155,16 +155,20 @@ Windrose exposes two public, cacheable endpoints for agent discovery:
 
 ## World (Agent Experience)
 
-Three public endpoints expose a minimal "world" an agent can explore:
+`/api/world` returns a stable numbered menu of 3 experiences.
 
-- `GET /api/world` (map)
-- `GET /api/world/experience` (runs the experience)
+- `GET /api/world` (menu)
+- `GET/POST /api/world/experience` (run an experience by id)
 - `GET /api/world/reflect` (reflection payload)
 
-Example:
+Examples:
 
 ```bash
-curl -sS https://windrose-ai.com/api/world/experience
+curl -sS "https://windrose-ai.com/api/world/experience?id=1"
+curl -sS "https://windrose-ai.com/api/world/experience?id=2&domain=example.com"
+curl -sS -X POST "https://windrose-ai.com/api/world/experience?id=3" \
+  -H "content-type: application/json" \
+  -d '{"domain_a":"windrose-ai.com","domain_b":"vercel.com","world":"trust_dominant"}'
 ```
 
 ## Directory Integrity Model (WebMCP)

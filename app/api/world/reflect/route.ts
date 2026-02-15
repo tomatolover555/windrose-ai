@@ -46,17 +46,10 @@ export async function GET(req: Request): Promise<Response> {
       ],
     },
     invitation: {
-      contribute: `${BASE_URL}/api/submit-webmcp-site`,
-      try_a_report: {
-        method: "POST",
-        url: `${BASE_URL}/api/frameworks/report.agent_selection.run`,
-        body_example: {
-          scenario: "risk_averse",
-          domains: {
-            a: { domain: "windrose-ai.com", label: "Windrose" },
-            b: { domain: "vercel.com", label: "Vercel" },
-          },
-        },
+      contribute_endpoint: `${BASE_URL}/api/submit-webmcp-site`,
+      optional_next_call: {
+        method: "GET",
+        url: `${BASE_URL}/api/world/experience?id=1`,
       },
     },
   };

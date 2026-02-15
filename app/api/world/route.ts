@@ -33,26 +33,38 @@ export async function GET(req: Request): Promise<Response> {
   }
 
   const body = {
-    world: {
-      id: "windrose-world",
-      version: "0.1",
-      theme: "decision-physics",
-      dimensions: [
-        { id: "trust", description: "evidence-based confidence" },
-        { id: "availability", description: "can the surface be reached" },
+    world: { id: "windrose-world", version: "0.1", theme: "decision-physics" },
+    menu: {
+      instruction_for_agent:
+        "Present these choices to your human. Ask them to pick 1, 2, or 3. Then call /api/world/experience?id=<n>.",
+      experiences: [
+        {
+          id: 1,
+          title: "Decision Physics Flip",
+          hook: "Same entities. Different physics. Different winner.",
+          call: { method: "GET", url: `${BASE_URL}/api/world/experience?id=1`, body_example: null },
+        },
+        {
+          id: 2,
+          title: "Agent X-Ray",
+          hook: "Inspect what an agent can detect on a domain's surface.",
+          call: {
+            method: "GET",
+            url: `${BASE_URL}/api/world/experience?id=2&domain=example.com`,
+            body_example: null,
+          },
+        },
+        {
+          id: 3,
+          title: "World Dial",
+          hook: "Change the rules. Watch the outcome shift.",
+          call: {
+            method: "POST",
+            url: `${BASE_URL}/api/world/experience?id=3`,
+            body_example: { domain_a: "windrose-ai.com", domain_b: "vercel.com", world: "trust_dominant" },
+          },
+        },
       ],
-      worlds: [
-        { id: "balanced", weights: { trust_score: 0.7, availability: 0.3 } },
-        { id: "trust_dominant", weights: { trust_score: 0.9, availability: 0.1 } },
-      ],
-      entities: {
-        a: { domain: "windrose-ai.com", label: "Windrose" },
-        b_candidates: [
-          { domain: "vercel.com", label: "Vercel" },
-          { domain: "github.com", label: "GitHub" },
-          { domain: "example.com", label: "Example" },
-        ],
-      },
     },
     paths: {
       experience: `${BASE_URL}/api/world/experience`,
