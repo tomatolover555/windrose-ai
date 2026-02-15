@@ -15,6 +15,9 @@ Production-ready infrastructure baseline for Windrose AI.
 - `/status` -> Environment, build timestamp, version
 - `/api/tools/v1/health` -> Health JSON endpoint
 - `/api/frameworks/[id]` -> Execute an agentic framework (runtime v0.1)
+- `/api/frameworks` -> Public list of available frameworks and enabled flags
+- `/api/agent` -> Public agent tool index (how to call Windrose frameworks)
+- `/api/context?path=...` -> Public route context summaries (agent-facing)
 - `/dashboard` -> Framework execution dashboard (protected)
 
 ## Agentic Framework Runtime (v0.1)
@@ -84,6 +87,15 @@ and the dashboard reads the last 100.
 - `x-admin-token: ...`
 
 **Important:** Set `ADMIN_TOKEN` in Vercel (Production) to a random value. Do not use `changeme`.
+
+## Agent Readiness Surfaces
+
+Windrose exposes two public, cacheable endpoints for agent discovery:
+
+- `GET /api/agent`:
+  Canonical index of Windrose tools (frameworks), their endpoints, and I/O field summaries.
+- `GET /api/context?path=<route>`:
+  Structured route summaries for agent consumption (e.g. `path=/`, `path=/dashboard`).
 
 ## Local Development
 
