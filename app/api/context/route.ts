@@ -22,7 +22,7 @@ function getContext(path: string): ContextResponse | null {
           "Check runtime availability via /api/frameworks/ping",
           "List available frameworks via /api/frameworks",
         ],
-        relevant_tools: ["ping", "directory.search", "directory.webmcp"],
+        relevant_tools: ["ping", "directory.search", "directory.webmcp", "site.audit.agent_ready"],
       };
     case "/dashboard":
       return {
@@ -33,7 +33,7 @@ function getContext(path: string): ContextResponse | null {
           "If authorized, open /dashboard in a browser with token to view recent executions",
           "For programmatic usage, prefer /api/frameworks/<id> and inspect responses",
         ],
-        relevant_tools: ["ping", "directory.search", "directory.webmcp"],
+        relevant_tools: ["ping", "directory.search", "directory.webmcp", "site.audit.agent_ready"],
       };
     case "/webmcp-directory":
       return {

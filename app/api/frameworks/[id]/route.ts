@@ -6,6 +6,17 @@ import { checkFrameworkRateLimit } from "@/lib/agentic/rateLimit";
 
 export const runtime = "nodejs";
 
+function getHttpErrorMeta(err: unknown): { status: number; code?: string } | null {
+  if (!err || typeof err !== "object") return null;
+  const rec = err as Record<string, unknown>;
+  const status = rec.status;
+  const code = rec.code;
+  if (typeof status === "number" && Number.isFinite(status)) {
+    return { status, code: typeof code === "string" ? code : undefined };
+  }
+  return null;
+}
+
 function getClientIp(req: Request): string | null {
   const xff = req.headers.get("x-forwarded-for");
   if (xff) return xff.split(",")[0]?.trim() || null;
@@ -15,6 +26,14 @@ function getClientIp(req: Request): string | null {
 function getInputFromSearchParams(url: URL): JsonValue | null {
   const sp = url.searchParams;
   if (sp.size === 0) return null;
+
+  const domain = sp.get("domain") ?? undefined;
+  const maxFetchRaw = sp.get("max_fetch_ms");
+  const max_fetch_ms = maxFetchRaw ? Number(maxFetchRaw) : undefined;
+  const wellKnownRaw = sp.get("well_known_mcp");
+  const homepageRaw = sp.get("homepage_html");
+  const well_known_mcp = wellKnownRaw ? wellKnownRaw === "1" || wellKnownRaw === "true" : undefined;
+  const homepage_html = homepageRaw ? homepageRaw === "1" || homepageRaw === "true" : undefined;
 
   const tagsRaw = sp.getAll("tags").flatMap((v) => v.split(","));
   const tags = tagsRaw.map((t) => t.trim()).filter(Boolean);
@@ -37,13 +56,20 @@ function getInputFromSearchParams(url: URL): JsonValue | null {
   if (Number.isFinite(minConfidence)) filters.min_confidence = minConfidence as number;
   if (types.length > 0) filters.type = types;
 
+  const checks: Record<string, JsonValue> = {};
+  if (typeof well_known_mcp === "boolean") checks.well_known_mcp = well_known_mcp;
+  if (typeof homepage_html === "boolean") checks.homepage_html = homepage_html;
+
   return {
+    ...(domain !== undefined ? { domain } : {}),
+    ...(Number.isFinite(max_fetch_ms) ? { max_fetch_ms: max_fetch_ms as number } : {}),
     ...(query !== undefined ? { query } : {}),
     ...(category !== undefined ? { category } : {}),
     ...(tags.length > 0 ? { tags } : {}),
     ...(budget !== undefined ? { budget } : {}),
     ...(Number.isFinite(limit) ? { limit } : {}),
     ...(Object.keys(filters).length > 0 ? { filters } : {}),
+    ...(Object.keys(checks).length > 0 ? { checks } : {}),
   };
 }
 
@@ -99,9 +125,13 @@ async function executeFramework(req: Request, frameworkId: string): Promise<Resp
   try {
     output = (await def.handler(context)) as unknown as JsonValue;
   } catch (err) {
-    status = 500;
+    const meta = getHttpErrorMeta(err);
+    const httpStatus = meta?.status ?? null;
+    const code = meta?.code ?? null;
+
+    status = httpStatus && httpStatus >= 400 && httpStatus <= 599 ? httpStatus : 500;
     output = {
-      error: "framework_execution_failed",
+      error: code ?? "framework_execution_failed",
       message: err instanceof Error ? err.message : "Unknown error",
     };
   }

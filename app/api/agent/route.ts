@@ -74,6 +74,28 @@ function tools(): ToolDoc[] {
         { name: "meta.latency_ms", type: "number" },
       ],
     },
+    {
+      id: "site.audit.agent_ready",
+      endpoint: "/api/frameworks/site.audit.agent_ready",
+      methods: ["GET", "POST"],
+      monetization_ready: true,
+      stability_level: "experimental",
+      input_fields_summary: [
+        { name: "domain", type: "string", required: true, notes: "hostname only (URL accepted, normalized)" },
+        { name: "max_fetch_ms", type: "number", required: false, notes: "default: 4500 (max: 10000)" },
+        { name: "checks.well_known_mcp", type: "boolean", required: false, notes: "default: true" },
+        { name: "checks.homepage_html", type: "boolean", required: false, notes: "default: true" },
+      ],
+      output_fields_summary: [
+        { name: "domain", type: "string" },
+        { name: "timestamp", type: "string", notes: "ISO timestamp" },
+        { name: "results.well_known_mcp", type: "object", notes: "{attempted,url,status_code,is_json,parse_ok}" },
+        { name: "results.homepage_html", type: "object", notes: "{attempted,url,status_code,matched_hints[]}" },
+        { name: "assessment", type: "object", notes: "{type[],confidence,verification_status,summary}" },
+        { name: "recommendations", type: "array", notes: "List of suggested readiness improvements" },
+        { name: "directory_entry", type: "object", notes: "If present in Windrose directory dataset" },
+      ],
+    },
   ];
 
   // Deterministic output.

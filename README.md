@@ -35,11 +35,20 @@ This repo includes a minimal placeholder framework:
 - `ping` (Connectivity Framework)
 - `directory.search` (Curated directory search; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `directory.webmcp` (WebMCP directory agent endpoint; disabled unless enabled via `ENABLED_FRAMEWORKS`)
+- `site.audit.agent_ready` (Agent readiness audit for a domain; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 
 Execute it:
 
 ```bash
 curl -sS https://windrose-ai.com/api/frameworks/ping
+```
+
+Agent readiness audit example:
+
+```bash
+curl -sS -X POST https://windrose-ai.com/api/frameworks/site.audit.agent_ready \
+  -H "content-type: application/json" \
+  -d '{"domain":"example.com"}'
 ```
 
 ### Add A Framework
@@ -54,7 +63,7 @@ curl -sS https://windrose-ai.com/api/frameworks/ping
 Frameworks are allowed by environment variable allowlist:
 
 ```bash
-ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp
+ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready
 ```
 
 Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag).
