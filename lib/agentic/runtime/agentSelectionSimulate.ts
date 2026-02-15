@@ -328,7 +328,6 @@ export const agentSelectionSimulateFramework: AgenticFrameworkDefinition = {
     "Deterministic simulation of agent selection from structured candidates + weights (no ML, no external fetch).",
   enabled: true,
   async handler(context): Promise<AgenticResult> {
-    const start = Date.now();
     const input = parseInput(context.input);
 
     const goal = input.goal ?? null;
@@ -399,7 +398,8 @@ export const agentSelectionSimulateFramework: AgenticFrameworkDefinition = {
         normalized: normalizedSorted,
       },
       sensitivity,
-      meta: { latency_ms: Date.now() - start },
+      // Keep framework output deterministic; actual request latency is already returned by the framework router.
+      meta: { latency_ms: 0 },
     };
 
     if (explanation) out.explanation = explanation as unknown as JsonValue;
@@ -407,4 +407,3 @@ export const agentSelectionSimulateFramework: AgenticFrameworkDefinition = {
     return out;
   },
 };
-
