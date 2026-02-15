@@ -153,6 +153,20 @@ Windrose exposes two public, cacheable endpoints for agent discovery:
 - `GET /api/context?path=<route>`:
   Structured route summaries for agent consumption (e.g. `path=/`, `path=/dashboard`).
 
+## World (Agent Experience)
+
+Three public endpoints expose a minimal "world" an agent can explore:
+
+- `GET /api/world` (map)
+- `GET /api/world/experience` (runs the experience)
+- `GET /api/world/reflect` (reflection payload)
+
+Example:
+
+```bash
+curl -sS https://windrose-ai.com/api/world/experience
+```
+
 ## Directory Integrity Model (WebMCP)
 
 The WebMCP directory dataset (`data/webmcp_directory.json`) includes both:
