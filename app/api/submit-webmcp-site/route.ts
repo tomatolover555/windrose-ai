@@ -85,14 +85,9 @@ async function storeSubmission(sub: WebmcpClaimRecord): Promise<void> {
 
   if (redis) {
     // Persistent on Vercel; keep a bounded list.
-    await redis
-      .pipeline()
-      // Index
-      .lpush("windrose:webmcp_submissions", serialized)
-      .ltrim("windrose:webmcp_submissions", 0, 999)
-      // Direct lookup by claim_id
-      .set(`windrose:webmcp_claim:${sub.claim_id}`, serialized)
-      .exec();
+    await redis.pipeline().lpush("windrose:webmcp_submissions", serialized).ltrim("windrose:webmcp_submissions", 0, 999).exec();
+    // Store separately to ensure claim lookup works even if pipeline chaining changes.
+    await redis.set(`windrose:webmcp_claim:${sub.claim_id}`, serialized);
     return;
   }
 
