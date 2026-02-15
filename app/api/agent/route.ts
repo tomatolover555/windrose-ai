@@ -8,6 +8,8 @@ type ToolDoc = {
   id: string;
   endpoint: string;
   methods: Array<"GET" | "POST">;
+  monetization_ready: boolean;
+  stability_level: "experimental" | "stable";
   input_fields_summary: Array<{ name: string; type: string; required: boolean; notes?: string }>;
   output_fields_summary: Array<{ name: string; type: string; notes?: string }>;
 };
@@ -18,6 +20,8 @@ function tools(): ToolDoc[] {
       id: "ping",
       endpoint: "/api/frameworks/ping",
       methods: ["GET", "POST"],
+      monetization_ready: true,
+      stability_level: "stable",
       input_fields_summary: [],
       output_fields_summary: [
         { name: "message", type: "string" },
@@ -28,6 +32,8 @@ function tools(): ToolDoc[] {
       id: "directory.search",
       endpoint: "/api/frameworks/directory.search",
       methods: ["GET", "POST"],
+      monetization_ready: true,
+      stability_level: "experimental",
       input_fields_summary: [
         { name: "query", type: "string", required: true },
         { name: "category", type: "string", required: false },
@@ -49,6 +55,8 @@ function tools(): ToolDoc[] {
       id: "directory.webmcp",
       endpoint: "/api/frameworks/directory.webmcp",
       methods: ["GET", "POST"],
+      monetization_ready: true,
+      stability_level: "experimental",
       input_fields_summary: [
         { name: "query", type: "string", required: false },
         { name: "filters.status", type: "\"verified\"|\"likely\"|\"unverified\"|\"dead\"", required: false },
@@ -89,4 +97,3 @@ export async function GET() {
     },
   );
 }
-

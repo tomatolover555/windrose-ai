@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-15T06:22:23.195Z",
+  "updated_at": "2026-02-15T08:50:13.175Z",
   "items": [
     {
       "domain": "mcp.vercel.com",
@@ -7,12 +7,16 @@
       "type": [],
       "confidence": 0,
       "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
       "evidence": [],
-      "last_checked": "2026-02-15T06:22:21.111Z",
+      "last_checked": "2026-02-15T08:50:11.146Z",
       "last_seen": "2026-02-15T06:22:21.111Z",
       "sponsored": false,
-      "verification_available": true,
-      "notes": "fail_streak:1"
+      "verification_available": true
     }
   ]
 }

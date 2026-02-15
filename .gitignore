@@ -45,6 +45,9 @@ yarn-error.log*
 !/data/webmcp_directory.json
 !/data/webmcp_seeds.json
 
+# user submissions (do not commit)
+/data/webmcp_submissions.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

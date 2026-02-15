@@ -45,9 +45,9 @@ curl -sS https://windrose-ai.com/api/frameworks/ping
 ### Add A Framework
 
 1. Create a definition that matches `AgenticFrameworkDefinition` in:
-   - `/Users/ziv.koren/Documents/windrose-ai/lib/agentic/types.ts`
+   - `lib/agentic/types.ts`
 2. Register it in the central registry:
-   - `/Users/ziv.koren/Documents/windrose-ai/lib/agentic/registry.ts`
+   - `lib/agentic/registry.ts`
 
 ### Enable / Disable Frameworks
 
@@ -96,6 +96,36 @@ Windrose exposes two public, cacheable endpoints for agent discovery:
   Canonical index of Windrose tools (frameworks), their endpoints, and I/O field summaries.
 - `GET /api/context?path=<route>`:
   Structured route summaries for agent consumption (e.g. `path=/`, `path=/dashboard`).
+
+## Directory Integrity Model (WebMCP)
+
+The WebMCP directory dataset (`data/webmcp_directory.json`) includes both:
+
+- `confidence` (0-100): evidence-weighted score (heuristics + GitHub hits + well-known endpoint).
+- `verification_status`: evidence-based state, independent of sponsorship/payment.
+  - `unverified`: default
+  - `verified`: strong evidence + high confidence
+  - `revoked`: previously verified, but repeated monitoring failures
+
+Monitoring semantics:
+
+- `last_checked` updates on every scan.
+- `last_verified_success` updates only when a strong evidence check succeeds.
+- `fail_streak` increments on failures; if `fail_streak >= 5` and previously verified, `verification_status` becomes `revoked`.
+
+## Submission (No UI)
+
+Public endpoint (rate limited):
+
+- `POST /api/submit-webmcp-site`
+
+Body:
+
+```json
+{ "domain": "example.com", "proof_url": "https://example.com/docs", "notes": "optional" }
+```
+
+Submissions are queued for review and are not auto-approved.
 
 ## Local Development
 

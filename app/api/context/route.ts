@@ -19,7 +19,8 @@ function getContext(path: string): ContextResponse | null {
         key_actions: [
           "Discover tools via /api/agent",
           "Call a tool via /api/frameworks/<id>",
-          "Check service health via /api/tools/v1/health",
+          "Check runtime availability via /api/frameworks/ping",
+          "List available frameworks via /api/frameworks",
         ],
         relevant_tools: ["ping", "directory.search", "directory.webmcp"],
       };
@@ -70,4 +71,3 @@ export async function GET(req: Request) {
     },
   });
 }
-

@@ -4,6 +4,14 @@ import path from "node:path";
 type EvidenceKind = "github_hit" | "well_known_mcp_json" | "heuristic_html";
 type Status = "verified" | "likely" | "unverified" | "dead";
 type ItemType = "webmcp" | "mcp-server";
+type VerificationStatus = "unverified" | "verified" | "revoked";
+type VerificationMethod = "well_known" | "modelContext_detected" | "manual" | null;
+
+type Proof = {
+  type: "well_known" | "homepage";
+  url: string;
+  last_success: string;
+};
 
 type Evidence = {
   kind: EvidenceKind;
@@ -17,6 +25,11 @@ type DirectoryItem = {
   type: ItemType[];
   confidence: number;
   status: Status;
+  verification_status?: VerificationStatus;
+  verification_method?: VerificationMethod;
+  proof?: Proof[];
+  last_verified_success?: string | null;
+  fail_streak?: number;
   evidence: Evidence[];
   last_checked: string;
   last_seen: string;
@@ -112,15 +125,15 @@ async function writeJsonFile<T>(filePath: string, data: T): Promise<void> {
   await fs.writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
 }
 
-function getFailStreak(notes: string | undefined): number {
-  const m = notes?.match(/fail_streak:(\d+)/);
+function getFailStreak(prev: DirectoryItem | undefined): number {
+  if (typeof prev?.fail_streak === "number" && Number.isFinite(prev.fail_streak)) return prev.fail_streak;
+  const m = prev?.notes?.match(/fail_streak:(\d+)/);
   return m ? Number(m[1]) : 0;
 }
 
-function setFailStreak(notes: string | undefined, streak: number): string {
+function stripFailStreak(notes: string | undefined): string | undefined {
   const base = (notes ?? "").replace(/(?:^|\s)fail_streak:\d+/g, "").trim();
-  const next = `${base}${base ? " " : ""}fail_streak:${streak}`.trim();
-  return next;
+  return base || undefined;
 }
 
 function evidenceKinds(evidence: Evidence[]): Set<EvidenceKind> {
@@ -159,6 +172,35 @@ function statusFromConfidence(conf: number, strong: boolean, failStreak: number)
   if (conf >= 80 && strong) return "verified";
   if (conf >= 50) return "likely";
   return "unverified";
+}
+
+function verificationStatusFrom(
+  prev: DirectoryItem | undefined,
+  strongSuccess: boolean,
+  confidence: number,
+  failStreak: number,
+): VerificationStatus {
+  const wasVerified = prev?.verification_status === "verified";
+  if (strongSuccess && confidence >= 80) return "verified";
+  if (wasVerified && failStreak >= 5 && !strongSuccess) return "revoked";
+  if (prev?.verification_status === "revoked" && strongSuccess && confidence >= 80) return "verified";
+  return prev?.verification_status ?? "unverified";
+}
+
+function verificationMethodFrom(prev: DirectoryItem | undefined, wkOk: boolean, modelContext: boolean): VerificationMethod {
+  if (wkOk) return "well_known";
+  if (modelContext) return "modelContext_detected";
+  return prev?.verification_method ?? null;
+}
+
+function upsertProof(proof: Proof[] | undefined, next: Proof): Proof[] {
+  const list = proof ? [...proof] : [];
+  const idx = list.findIndex((p) => p.type === next.type && p.url === next.url);
+  if (idx >= 0) list[idx] = next;
+  else list.push(next);
+  // deterministic
+  list.sort((a, b) => a.type.localeCompare(b.type) || a.url.localeCompare(b.url));
+  return list;
 }
 
 type GithubCodeSearchItem = {
@@ -246,22 +288,23 @@ async function stageCandidates(): Promise<Map<string, Evidence[]>> {
   return candidates;
 }
 
-async function checkWellKnown(domain: string): Promise<{ ok: boolean; evidence: Evidence[] }> {
+async function checkWellKnown(domain: string): Promise<{ ok: boolean; evidence: Evidence[]; url: string }> {
   const url = `https://${domain}/.well-known/mcp.json`;
   const res = await throttledFetch(url, { headers: { Accept: "application/json" } });
-  if (!res.ok) return { ok: false, evidence: [] };
+  if (!res.ok) return { ok: false, evidence: [], url };
   try {
     const json = (await res.json()) as unknown;
     if (json && typeof json === "object") {
       return {
         ok: true,
         evidence: [{ kind: "well_known_mcp_json", detail: "found .well-known/mcp.json", url }],
+        url,
       };
     }
   } catch {
     // ignore
   }
-  return { ok: false, evidence: [] };
+  return { ok: false, evidence: [], url };
 }
 
 async function checkHomepage(domain: string): Promise<{
@@ -269,10 +312,11 @@ async function checkHomepage(domain: string): Promise<{
   modelContext: boolean;
   other: boolean;
   evidence: Evidence[];
+  url: string;
 }> {
   const url = `https://${domain}/`;
   const res = await throttledFetch(url, { headers: { Accept: "text/html,*/*" } });
-  if (!res.ok) return { ok: false, modelContext: false, other: false, evidence: [] };
+  if (!res.ok) return { ok: false, modelContext: false, other: false, evidence: [], url };
   const html = await res.text();
   const lc = html.toLowerCase();
   const modelContext = lc.includes("navigator.modelcontext");
@@ -289,6 +333,7 @@ async function checkHomepage(domain: string): Promise<{
     modelContext,
     other,
     evidence: hits ? [{ kind: "heuristic_html", detail: "heuristic match in homepage html", url }] : [],
+    url,
   };
 }
 
@@ -325,15 +370,18 @@ async function main() {
 
     let wkOk = false;
     let wkEv: Evidence[] = [];
+    let wkUrl = `https://${domain}/.well-known/mcp.json`;
     let homeOk = false;
     let modelContext = false;
     let other = false;
     let homeEv: Evidence[] = [];
+    let homeUrl = `https://${domain}/`;
 
     try {
       const wk = await checkWellKnown(domain);
       wkOk = wk.ok;
       wkEv = wk.evidence;
+      wkUrl = wk.url;
     } catch {
       wkOk = false;
       wkEv = [];
@@ -345,6 +393,7 @@ async function main() {
       modelContext = h.modelContext;
       other = h.other;
       homeEv = h.evidence;
+      homeUrl = h.url;
     } catch {
       homeOk = false;
       homeEv = [];
@@ -356,13 +405,27 @@ async function main() {
     const strongEvidence = wkOk || modelContext;
     const successSeen = wkOk || modelContext || other;
 
-    const prevFail = getFailStreak(prev?.notes);
-    const failStreak = successSeen ? 0 : homeOk || wkOk ? prevFail : prevFail + 1;
+    const prevFail = getFailStreak(prev);
+    // Monitoring semantics:
+    // - Reset streak on strong success
+    // - Increment streak when both checks fail (timeouts/non-200/etc.)
+    const strongSuccess = wkOk || modelContext;
+    const checkFailed = !wkOk && !homeOk;
+    const failStreak = strongSuccess ? 0 : checkFailed ? prevFail + 1 : prevFail;
 
     const status = statusFromConfidence(confidence, strongEvidence, failStreak);
     const type = computeTypes(evidence, htmlSignals);
 
     const lastSeen = successSeen ? nowIso : prev?.last_seen ?? nowIso;
+
+    const verification_status = verificationStatusFrom(prev, strongSuccess, confidence, failStreak);
+    const verification_method = verificationMethodFrom(prev, wkOk, modelContext);
+
+    let proof = prev?.proof ?? [];
+    if (wkOk) proof = upsertProof(proof, { type: "well_known", url: wkUrl, last_success: nowIso });
+    if (modelContext) proof = upsertProof(proof, { type: "homepage", url: homeUrl, last_success: nowIso });
+
+    const last_verified_success = strongSuccess ? nowIso : prev?.last_verified_success ?? null;
 
     updatedItems.push({
       domain,
@@ -370,12 +433,17 @@ async function main() {
       type: type.length > 0 ? type : prev?.type ?? [],
       confidence,
       status,
+      verification_status,
+      verification_method,
+      proof,
+      last_verified_success,
+      fail_streak: failStreak,
       evidence,
       last_checked: nowIso,
       last_seen: lastSeen,
       sponsored: prev?.sponsored ?? false,
       verification_available: prev?.verification_available ?? true,
-      notes: setFailStreak(prev?.notes, failStreak),
+      notes: stripFailStreak(prev?.notes),
     });
   }
 
