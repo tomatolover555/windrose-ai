@@ -38,6 +38,7 @@ This repo includes a minimal placeholder framework:
 - `site.audit.agent_ready` (Agent readiness audit for a domain; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `agent.selection.simulate` (Deterministic decision simulator; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `report.agent_selection.v1` (Deterministic agent selection report artifact; disabled unless enabled via `ENABLED_FRAMEWORKS`)
+- `report.agent_selection.run` (One-call runner: audit + simulate + report for two domains; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 
 Execute it:
 
@@ -82,6 +83,21 @@ curl -sS -X POST https://windrose-ai.com/api/frameworks/report.agent_selection.v
   }'
 ```
 
+One-call runner example (live audits; simulation based on observed readiness signals, not a guarantee of real agent behavior):
+
+```bash
+curl -sS -X POST https://windrose-ai.com/api/frameworks/report.agent_selection.run \
+  -H "content-type: application/json" \
+  -d '{
+    "scenario":"risk_averse",
+    "domains":{
+      "a":{"domain":"windrose-ai.com","label":"Windrose"},
+      "b":{"domain":"vercel.com","label":"Vercel"}
+    },
+    "options":{"max_fetch_ms":4500,"checks":{"well_known_mcp":true,"homepage_html":true}}
+  }'
+```
+
 ### Add A Framework
 
 1. Create a definition that matches `AgenticFrameworkDefinition` in:
@@ -94,7 +110,7 @@ curl -sS -X POST https://windrose-ai.com/api/frameworks/report.agent_selection.v
 Frameworks are allowed by environment variable allowlist:
 
 ```bash
-ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready,agent.selection.simulate,report.agent_selection.v1
+ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready,agent.selection.simulate,report.agent_selection.v1,report.agent_selection.run
 ```
 
 Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag).

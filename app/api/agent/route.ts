@@ -145,6 +145,33 @@ function tools(): ToolDoc[] {
         { name: "next_steps", type: "string[]" },
       ],
     },
+    {
+      id: "report.agent_selection.run",
+      endpoint: "/api/frameworks/report.agent_selection.run",
+      methods: ["POST"],
+      monetization_ready: true,
+      stability_level: "experimental",
+      input_fields_summary: [
+        { name: "goal", type: "string", required: false },
+        {
+          name: "scenario",
+          type: "\"default_consumer\"|\"risk_averse\"|\"speed_first\"|\"custom\"",
+          required: true,
+        },
+        { name: "custom.weights", type: "object", required: false, notes: "required if scenario=custom" },
+        { name: "domains.a.domain", type: "string", required: true },
+        { name: "domains.a.label", type: "string", required: false },
+        { name: "domains.b.domain", type: "string", required: true },
+        { name: "domains.b.label", type: "string", required: false },
+        { name: "options.max_fetch_ms", type: "number", required: false, notes: "default: 4500 (max: 10000)" },
+        { name: "options.checks.well_known_mcp", type: "boolean", required: false, notes: "default: true" },
+        { name: "options.checks.homepage_html", type: "boolean", required: false, notes: "default: true" },
+      ],
+      output_fields_summary: [
+        { name: "report", type: "object", notes: "Same report object as report.agent_selection.v1" },
+        { name: "inputs", type: "object", notes: "{scenario, domains}" },
+      ],
+    },
   ];
 
   // Deterministic output.

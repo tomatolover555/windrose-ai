@@ -63,3 +63,6 @@ registerFramework(agentSelectionSimulateFramework);
 
 import { reportAgentSelectionV1Framework } from "@/lib/agentic/runtime/reportAgentSelectionV1";
 registerFramework(reportAgentSelectionV1Framework);
+
+import { reportAgentSelectionRunFramework } from "@/lib/agentic/runtime/reportAgentSelectionRun";
+registerFramework(reportAgentSelectionRunFramework);
