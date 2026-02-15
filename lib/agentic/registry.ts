@@ -60,3 +60,6 @@ registerFramework(siteAuditAgentReadyFramework);
 
 import { agentSelectionSimulateFramework } from "@/lib/agentic/runtime/agentSelectionSimulate";
 registerFramework(agentSelectionSimulateFramework);
+
+import { reportAgentSelectionV1Framework } from "@/lib/agentic/runtime/reportAgentSelectionV1";
+registerFramework(reportAgentSelectionV1Framework);

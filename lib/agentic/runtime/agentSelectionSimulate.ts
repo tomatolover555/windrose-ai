@@ -398,8 +398,11 @@ export const agentSelectionSimulateFramework: AgenticFrameworkDefinition = {
         normalized: normalizedSorted,
       },
       sensitivity,
-      // Keep framework output deterministic; actual request latency is already returned by the framework router.
-      meta: { latency_ms: 0 },
+      meta: {
+        version: "0.1.0",
+        scoring_model_id: "weighted-normalized-v1",
+        normalization_enabled: true,
+      },
     };
 
     if (explanation) out.explanation = explanation as unknown as JsonValue;

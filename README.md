@@ -37,6 +37,7 @@ This repo includes a minimal placeholder framework:
 - `directory.webmcp` (WebMCP directory agent endpoint; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `site.audit.agent_ready` (Agent readiness audit for a domain; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `agent.selection.simulate` (Deterministic decision simulator; disabled unless enabled via `ENABLED_FRAMEWORKS`)
+- `report.agent_selection.v1` (Deterministic agent selection report artifact; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 
 Execute it:
 
@@ -68,6 +69,19 @@ curl -sS -X POST https://windrose-ai.com/api/frameworks/agent.selection.simulate
   }'
 ```
 
+Agent selection report example (deterministic formatter, not a real-world prediction):
+
+```bash
+curl -sS -X POST https://windrose-ai.com/api/frameworks/report.agent_selection.v1 \
+  -H "content-type: application/json" \
+  -d '{
+    "goal":"choose between A and B",
+    "subjects":{"a":{"id":"a","label":"Option A","domain":"a.example.com"},"b":{"id":"b","label":"Option B","domain":"b.example.com"}},
+    "audit":{"a":{"assessment":{"verification_status":"unverified","confidence":10},"results":{"well_known_mcp":{"parse_ok":false},"homepage_html":{"matched_hints":[]}}},"b":{"assessment":{"verification_status":"verified","confidence":90},"results":{"well_known_mcp":{"parse_ok":true},"homepage_html":{"matched_hints":["navigator.modelContext"]}}}},
+    "simulation":{"output":{"winner":{"id":"b","label":"Option B","score":0.8},"ranking":[{"id":"b","label":"Option B","score":0.8},{"id":"a","label":"Option A","score":0.2}],"details":{"weights_used":{"trust_score":1,"price":1},"normalized":{"a":{"trust_score":0,"price":1},"b":{"trust_score":1,"price":0}}},"sensitivity":{"top2_flip":{"signals_ranked_by_influence":[{"signal":"price","delta_needed_in_weight":1}],"note":"example"}}}}
+  }'
+```
+
 ### Add A Framework
 
 1. Create a definition that matches `AgenticFrameworkDefinition` in:
@@ -80,7 +94,7 @@ curl -sS -X POST https://windrose-ai.com/api/frameworks/agent.selection.simulate
 Frameworks are allowed by environment variable allowlist:
 
 ```bash
-ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready,agent.selection.simulate
+ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready,agent.selection.simulate,report.agent_selection.v1
 ```
 
 Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag).

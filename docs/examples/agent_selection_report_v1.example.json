@@ -1,0 +1,53 @@
+{
+  "goal": "choose between A and B",
+  "scenario": {
+    "name": "baseline",
+    "weights": { "trust_score": 1, "price": 1 }
+  },
+  "subjects": {
+    "a": { "id": "a", "label": "Option A", "domain": "a.example.com" },
+    "b": { "id": "b", "label": "Option B", "domain": "b.example.com" }
+  },
+  "audit": {
+    "a": {
+      "domain": "a.example.com",
+      "results": {
+        "well_known_mcp": { "attempted": true, "url": "https://a.example.com/.well-known/mcp.json", "status_code": 404, "is_json": false, "parse_ok": false },
+        "homepage_html": { "attempted": true, "url": "https://a.example.com/", "status_code": 200, "matched_hints": [] }
+      },
+      "assessment": { "type": [], "confidence": 10, "verification_status": "unverified", "summary": "No strong agent-readiness signals detected." }
+    },
+    "b": {
+      "domain": "b.example.com",
+      "results": {
+        "well_known_mcp": { "attempted": true, "url": "https://b.example.com/.well-known/mcp.json", "status_code": 200, "is_json": true, "parse_ok": true },
+        "homepage_html": { "attempted": true, "url": "https://b.example.com/", "status_code": 200, "matched_hints": ["navigator.modelContext"] }
+      },
+      "assessment": { "type": ["mcp-server","webmcp"], "confidence": 100, "verification_status": "verified", "summary": "Strong MCP manifest and WebMCP hints detected." }
+    }
+  },
+  "simulation": {
+    "output": {
+      "goal": "choose between A and B",
+      "winner": { "id": "b", "label": "Option B", "score": 0.8 },
+      "ranking": [
+        { "id": "b", "label": "Option B", "score": 0.8 },
+        { "id": "a", "label": "Option A", "score": 0.2 }
+      ],
+      "details": {
+        "weights_used": { "trust_score": 1, "price": 1 },
+        "normalized": {
+          "a": { "trust_score": 0, "price": 1 },
+          "b": { "trust_score": 1, "price": 0 }
+        }
+      },
+      "sensitivity": {
+        "top2_flip": {
+          "signals_ranked_by_influence": [{ "signal": "price", "delta_needed_in_weight": 1 }],
+          "note": "Example only"
+        }
+      }
+    }
+  }
+}
+
