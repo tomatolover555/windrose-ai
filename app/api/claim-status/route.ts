@@ -40,7 +40,23 @@ export async function GET(req: Request) {
   if (redis) {
     try {
       const raw = await redis.get<string>(`windrose:webmcp_claim:${claimId}`);
-      if (raw) record = JSON.parse(raw) as WebmcpClaimRecord;
+      if (raw) {
+        record = JSON.parse(raw) as WebmcpClaimRecord;
+      } else {
+        // Fallback: scan recent submissions list for the claim_id.
+        const rows = await redis.lrange<string>("windrose:webmcp_submissions", 0, 999);
+        for (const row of rows) {
+          try {
+            const parsed = JSON.parse(row) as WebmcpClaimRecord;
+            if (parsed.claim_id === claimId) {
+              record = parsed;
+              break;
+            }
+          } catch {
+            // ignore malformed row
+          }
+        }
+      }
     } catch {
       record = null;
     }
@@ -66,4 +82,3 @@ export async function GET(req: Request) {
     },
   );
 }
-
