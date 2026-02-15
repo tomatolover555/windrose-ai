@@ -58,6 +58,29 @@ function getRedis(): Redis | null {
   return globalThis.__windroseSubmitRedis;
 }
 
+function getUpstashConfig(): { url: string; token: string } | null {
+  const url = process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  return { url, token };
+}
+
+async function upstashPipeline(commands: Array<[string, ...string[]]>): Promise<boolean> {
+  const cfg = getUpstashConfig();
+  if (!cfg) return false;
+
+  const res = await fetch(`${cfg.url}/pipeline`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${cfg.token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(commands),
+    cache: "no-store",
+  });
+  return res.ok;
+}
+
 async function rateLimit(req: Request): Promise<{ limited: boolean; retryAfter: number }> {
   const redis = getRedis();
   if (!redis) return { limited: false, retryAfter: 0 };
@@ -85,9 +108,12 @@ async function storeSubmission(sub: WebmcpClaimRecord): Promise<void> {
 
   if (redis) {
     // Persistent on Vercel; keep a bounded list.
-    await redis.pipeline().lpush("windrose:webmcp_submissions", serialized).ltrim("windrose:webmcp_submissions", 0, 999).exec();
-    // Store separately to ensure claim lookup works even if pipeline chaining changes.
-    await redis.set(`windrose:webmcp_claim:${sub.claim_id}`, serialized);
+    // Use REST pipeline for storage to avoid client differences across runtimes.
+    await upstashPipeline([
+      ["LPUSH", "windrose:webmcp_submissions", serialized],
+      ["LTRIM", "windrose:webmcp_submissions", "0", "999"],
+      ["SET", `windrose:webmcp_claim:${sub.claim_id}`, serialized],
+    ]);
     return;
   }
 

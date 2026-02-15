@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { Redis } from "@upstash/redis";
 import fs from "node:fs/promises";
 import path from "node:path";
 import type { WebmcpClaimRecord } from "@/app/api/submit-webmcp-site/route";
@@ -10,11 +9,33 @@ function isUuid(v: string): boolean {
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(v);
 }
 
-function getRedis(): Redis | null {
+function getUpstashConfig(): { url: string; token: string } | null {
   const url = process.env.UPSTASH_REDIS_REST_URL;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN;
   if (!url || !token) return null;
-  return new Redis({ url, token });
+  return { url, token };
+}
+
+type UpstashPipelineResponse<T> = Array<{ result?: T; error?: string }>;
+
+async function upstashPipeline<T>(commands: Array<[string, ...string[]]>): Promise<UpstashPipelineResponse<T> | null> {
+  const cfg = getUpstashConfig();
+  if (!cfg) return null;
+  try {
+    const res = await fetch(`${cfg.url}/pipeline`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${cfg.token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(commands),
+      cache: "no-store",
+    });
+    if (!res.ok) return null;
+    return (await res.json()) as UpstashPipelineResponse<T>;
+  } catch {
+    return null;
+  }
 }
 
 async function loadFromFile(claimId: string): Promise<WebmcpClaimRecord | null> {
@@ -36,15 +57,22 @@ export async function GET(req: Request) {
   }
 
   let record: WebmcpClaimRecord | null = null;
-  const redis = getRedis();
-  if (redis) {
-    try {
-      const raw = await redis.get<string>(`windrose:webmcp_claim:${claimId}`);
-      if (raw) {
+  const cfg = getUpstashConfig();
+  if (cfg) {
+    const key = `windrose:webmcp_claim:${claimId}`;
+    const getResp = await upstashPipeline<string>([["GET", key]]);
+    const raw = getResp?.[0]?.result ?? null;
+    if (raw) {
+      try {
         record = JSON.parse(raw) as WebmcpClaimRecord;
-      } else {
-        // Fallback: scan recent submissions list for the claim_id.
-        const rows = await redis.lrange<string>("windrose:webmcp_submissions", 0, 999);
+      } catch {
+        record = null;
+      }
+    }
+    if (!record) {
+      const listResp = await upstashPipeline<string[]>([["LRANGE", "windrose:webmcp_submissions", "0", "999"]]);
+      const rows = listResp?.[0]?.result ?? [];
+      if (Array.isArray(rows)) {
         for (const row of rows) {
           try {
             const parsed = JSON.parse(row) as WebmcpClaimRecord;
@@ -57,8 +85,6 @@ export async function GET(req: Request) {
           }
         }
       }
-    } catch {
-      record = null;
     }
   } else {
     record = await loadFromFile(claimId);
