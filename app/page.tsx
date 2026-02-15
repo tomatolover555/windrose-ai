@@ -9,7 +9,7 @@ export default function HomePage() {
           fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
         }}
       >
-        /api/agent
+        https://windrose-ai.com/api/agent
       </div>
       <div style={{ marginTop: "0.75rem" }}>Welcome to the agent-native web.</div>
     </main>
