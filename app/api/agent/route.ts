@@ -96,6 +96,29 @@ function tools(): ToolDoc[] {
         { name: "directory_entry", type: "object", notes: "If present in Windrose directory dataset" },
       ],
     },
+    {
+      id: "agent.selection.simulate",
+      endpoint: "/api/frameworks/agent.selection.simulate",
+      methods: ["POST"],
+      monetization_ready: true,
+      stability_level: "experimental",
+      input_fields_summary: [
+        { name: "goal", type: "string", required: false },
+        { name: "candidates", type: "array", required: true, notes: ">= 2; each: {id,label,signals{...}}" },
+        { name: "weights", type: "object", required: false, notes: "non-negative; if missing/all-zero => equal weights" },
+        { name: "options.normalize", type: "boolean", required: false, notes: "default: true" },
+        { name: "options.explain", type: "boolean", required: false, notes: "default: true" },
+      ],
+      output_fields_summary: [
+        { name: "winner", type: "object", notes: "{id,label,score}" },
+        { name: "ranking", type: "array", notes: "Sorted by score desc with deterministic tie-breaks" },
+        { name: "details.weights_used", type: "object" },
+        { name: "details.normalized", type: "object", notes: "Per-candidate normalized signal values (0..1)" },
+        { name: "explanation", type: "object", notes: "Short bullets: why_winner, top_tradeoffs (optional)" },
+        { name: "sensitivity.top2_flip", type: "object", notes: "Approximate single-weight flip analysis for top-2" },
+        { name: "meta.latency_ms", type: "number" },
+      ],
+    },
   ];
 
   // Deterministic output.

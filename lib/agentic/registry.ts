@@ -57,3 +57,6 @@ registerFramework(webmcpDirectoryFramework);
 
 import { siteAuditAgentReadyFramework } from "@/lib/agentic/runtime/siteAuditAgentReady";
 registerFramework(siteAuditAgentReadyFramework);
+
+import { agentSelectionSimulateFramework } from "@/lib/agentic/runtime/agentSelectionSimulate";
+registerFramework(agentSelectionSimulateFramework);

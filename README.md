@@ -36,6 +36,7 @@ This repo includes a minimal placeholder framework:
 - `directory.search` (Curated directory search; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `directory.webmcp` (WebMCP directory agent endpoint; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 - `site.audit.agent_ready` (Agent readiness audit for a domain; disabled unless enabled via `ENABLED_FRAMEWORKS`)
+- `agent.selection.simulate` (Deterministic decision simulator; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 
 Execute it:
 
@@ -51,6 +52,22 @@ curl -sS -X POST https://windrose-ai.com/api/frameworks/site.audit.agent_ready \
   -d '{"domain":"example.com"}'
 ```
 
+Decision simulator example (deterministic, not real-world prediction):
+
+```bash
+curl -sS -X POST https://windrose-ai.com/api/frameworks/agent.selection.simulate \
+  -H "content-type: application/json" \
+  -d '{
+    "goal":"pick best option",
+    "candidates":[
+      {"id":"a","label":"Option A","signals":{"price":20,"trust_score":80,"latency_ms":200,"refund_policy":true,"availability":true}},
+      {"id":"b","label":"Option B","signals":{"price":10,"trust_score":60,"latency_ms":350,"refund_policy":false,"availability":true}}
+    ],
+    "weights":{"price":1,"trust_score":2,"latency_ms":1,"refund_policy":0.5,"availability":0.5},
+    "options":{"normalize":true,"explain":true}
+  }'
+```
+
 ### Add A Framework
 
 1. Create a definition that matches `AgenticFrameworkDefinition` in:
@@ -63,7 +80,7 @@ curl -sS -X POST https://windrose-ai.com/api/frameworks/site.audit.agent_ready \
 Frameworks are allowed by environment variable allowlist:
 
 ```bash
-ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready
+ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready,agent.selection.simulate
 ```
 
 Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag).
