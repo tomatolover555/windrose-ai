@@ -6,11 +6,17 @@ import path from "node:path";
 
 export const runtime = "nodejs";
 
-type Submission = {
-  submitted_at: string;
+export type WebmcpClaimStatus = "pending" | "approved" | "rejected" | "revoked";
+
+export type WebmcpClaimRecord = {
+  claim_id: string;
+  created_at: string;
+  updated_at: string;
+  status: WebmcpClaimStatus;
   domain: string;
   proof_url?: string;
   notes?: string;
+  // Internal-only metadata (never returned from status API).
   ip: string | null;
   user_agent: string | null;
 };
@@ -73,22 +79,29 @@ async function rateLimit(req: Request): Promise<{ limited: boolean; retryAfter: 
   return { limited: true, retryAfter };
 }
 
-async function storeSubmission(sub: Submission): Promise<void> {
+async function storeSubmission(sub: WebmcpClaimRecord): Promise<void> {
   const redis = getRedis();
   const serialized = JSON.stringify(sub);
 
   if (redis) {
     // Persistent on Vercel; keep a bounded list.
-    await redis.pipeline().lpush("windrose:webmcp_submissions", serialized).ltrim("windrose:webmcp_submissions", 0, 999).exec();
+    await redis
+      .pipeline()
+      // Index
+      .lpush("windrose:webmcp_submissions", serialized)
+      .ltrim("windrose:webmcp_submissions", 0, 999)
+      // Direct lookup by claim_id
+      .set(`windrose:webmcp_claim:${sub.claim_id}`, serialized)
+      .exec();
     return;
   }
 
   // Local/dev fallback: append into an untracked file for auditability during development.
   const filePath = path.join(process.cwd(), "data", "webmcp_submissions.json");
   await fs.mkdir(path.dirname(filePath), { recursive: true });
-  let existing: Submission[] = [];
+  let existing: WebmcpClaimRecord[] = [];
   try {
-    existing = JSON.parse(await fs.readFile(filePath, "utf8")) as Submission[];
+    existing = JSON.parse(await fs.readFile(filePath, "utf8")) as WebmcpClaimRecord[];
   } catch {
     existing = [];
   }
@@ -121,8 +134,14 @@ export async function POST(req: Request) {
   const proofUrl = typeof obj?.proof_url === "string" ? obj.proof_url.trim() : undefined;
   const notes = typeof obj?.notes === "string" ? obj.notes.trim().slice(0, 1000) : undefined;
 
-  const submission: Submission = {
-    submitted_at: new Date().toISOString(),
+  const now = new Date().toISOString();
+  const claimId = crypto.randomUUID();
+
+  const submission: WebmcpClaimRecord = {
+    claim_id: claimId,
+    created_at: now,
+    updated_at: now,
+    status: "pending",
     domain,
     ...(proofUrl ? { proof_url: proofUrl } : {}),
     ...(notes ? { notes } : {}),
@@ -134,8 +153,8 @@ export async function POST(req: Request) {
 
   return NextResponse.json({
     status: "received",
+    claim_id: claimId,
     domain,
     queued: true,
   });
 }
-
