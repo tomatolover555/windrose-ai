@@ -31,6 +31,7 @@ This repo includes a minimal placeholder framework:
 
 - `ping` (Connectivity Framework)
 - `directory.search` (Curated directory search; disabled unless enabled via `ENABLED_FRAMEWORKS`)
+- `directory.webmcp` (WebMCP directory agent endpoint; disabled unless enabled via `ENABLED_FRAMEWORKS`)
 
 Execute it:
 
@@ -50,7 +51,7 @@ curl -sS https://windrose-ai.com/api/frameworks/ping
 Frameworks are allowed by environment variable allowlist:
 
 ```bash
-ENABLED_FRAMEWORKS=ping,directory.search
+ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp
 ```
 
 Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag).

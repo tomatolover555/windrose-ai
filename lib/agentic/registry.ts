@@ -51,3 +51,6 @@ registerFramework(pingFramework);
 
 import { directorySearchFramework } from "@/lib/agentic/runtime/directorySearch";
 registerFramework(directorySearchFramework);
+
+import { webmcpDirectoryFramework } from "@/lib/agentic/runtime/webmcpDirectory";
+registerFramework(webmcpDirectoryFramework);

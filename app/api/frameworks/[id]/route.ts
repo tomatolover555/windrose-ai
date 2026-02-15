@@ -26,12 +26,24 @@ function getInputFromSearchParams(url: URL): JsonValue | null {
   const query = sp.get("query") ?? undefined;
   const category = sp.get("category") ?? undefined;
 
+  const status = sp.get("status") ?? undefined;
+  const minConfidenceRaw = sp.get("min_confidence");
+  const minConfidence = minConfidenceRaw ? Number(minConfidenceRaw) : undefined;
+  const typesRaw = sp.getAll("type").flatMap((v) => v.split(","));
+  const types = typesRaw.map((t) => t.trim()).filter(Boolean);
+
+  const filters: Record<string, JsonValue> = {};
+  if (status) filters.status = status;
+  if (Number.isFinite(minConfidence)) filters.min_confidence = minConfidence as number;
+  if (types.length > 0) filters.type = types;
+
   return {
     ...(query !== undefined ? { query } : {}),
     ...(category !== undefined ? { category } : {}),
     ...(tags.length > 0 ? { tags } : {}),
     ...(budget !== undefined ? { budget } : {}),
     ...(Number.isFinite(limit) ? { limit } : {}),
+    ...(Object.keys(filters).length > 0 ? { filters } : {}),
   };
 }
 
