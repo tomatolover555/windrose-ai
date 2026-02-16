@@ -1,20 +1,4902 @@
 {
-  "updated_at": "2026-02-15T08:50:13.175Z",
+  "updated_at": "2026-02-16T05:19:04.122Z",
   "items": [
     {
-      "domain": "mcp.vercel.com",
-      "name": "mcp.vercel.com",
+      "domain": "2010.13.1-orange.svg",
+      "name": "2010.13.1-orange.svg",
       "type": [],
-      "confidence": 0,
+      "confidence": 30,
       "status": "unverified",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:09.643Z",
+      "last_seen": "2026-02-16T05:12:09.643Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2020.0.0-brightgreen.svg",
+      "name": "2020.0.0-brightgreen.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:11.472Z",
+      "last_seen": "2026-02-16T05:12:11.472Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "20components.png",
+      "name": "20components.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:13.562Z",
+      "last_seen": "2026-02-16T05:12:13.562Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "20problem.md",
+      "name": "20problem.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:15.480Z",
+      "last_seen": "2026-02-16T05:12:15.480Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "20with-pnpm-cc00ff.svg",
+      "name": "20with-pnpm-cc00ff.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:17.459Z",
+      "last_seen": "2026-02-16T05:12:17.459Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2505.06386-b31b1b.svg",
+      "name": "2505.06386-b31b1b.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:19.468Z",
+      "last_seen": "2026-02-16T05:12:19.468Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2b-blue.svg",
+      "name": "2b-blue.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:21.564Z",
+      "last_seen": "2026-02-16T05:12:21.564Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2fjay-file.md",
+      "name": "2fjay-file.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:23.520Z",
+      "last_seen": "2026-02-16T05:12:23.520Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2fjay-head.gif",
+      "name": "2fjay-head.gif",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:25.610Z",
+      "last_seen": "2026-02-16T05:12:25.610Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2freadme.md",
+      "name": "2freadme.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:27.467Z",
+      "last_seen": "2026-02-16T05:12:27.467Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "4.set",
+      "name": "4.set",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pawn-4-git/webmcp_test",
+          "url": "https://github.com/pawn-4-git/webmcp_test"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:29.678Z",
+      "last_seen": "2026-02-16T05:12:29.678Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "5.user",
+      "name": "5.user",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pawn-4-git/webmcp_test",
+          "url": "https://github.com/pawn-4-git/webmcp_test"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:31.483Z",
+      "last_seen": "2026-02-16T05:12:31.483Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "a11y-smoke.spec.ts",
+      "name": "a11y-smoke.spec.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:33.574Z",
+      "last_seen": "2026-02-16T05:12:33.574Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "a2aproject.github.io",
+      "name": "a2aproject.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:35.486Z",
+      "last_seen": "2026-02-16T05:12:35.486Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent.md",
+      "name": "agent.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:37.496Z",
+      "last_seen": "2026-02-16T05:12:37.496Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent.run",
+      "name": "agent.run",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:41.973Z",
+      "last_seen": "2026-02-16T05:12:41.973Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agents.md",
+      "name": "agents.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:43.361Z",
+      "last_seen": "2026-02-16T05:12:43.361Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agentskills.io",
+      "name": "agentskills.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:44.995Z",
+      "last_seen": "2026-02-16T05:12:44.995Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agentsmd.io",
+      "name": "agentsmd.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:47.102Z",
+      "last_seen": "2026-02-16T05:12:47.102Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ai-agents-analysis.md",
+      "name": "ai-agents-analysis.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:49.021Z",
+      "last_seen": "2026-02-16T05:12:49.021Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "altamedica.com",
+      "name": "altamedica.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:51.133Z",
+      "last_seen": "2026-02-16T05:12:51.133Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "anthropic.com",
+      "name": "anthropic.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:52.998Z",
+      "last_seen": "2026-02-16T05:12:52.998Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "api.md",
+      "name": "api.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:56.678Z",
+      "last_seen": "2026-02-16T05:12:56.678Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "api.ts",
+      "name": "api.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:12:58.900Z",
+      "last_seen": "2026-02-16T05:12:58.900Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "api.weather.gov",
+      "name": "api.weather.gov",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:00.672Z",
+      "last_seen": "2026-02-16T05:13:00.672Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "app.js",
+      "name": "app.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-bridge",
+          "url": "https://github.com/hemanth/webmcp-bridge"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:02.652Z",
+      "last_seen": "2026-02-16T05:13:02.652Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "apple.github.io",
+      "name": "apple.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:04.638Z",
+      "last_seen": "2026-02-16T05:13:04.638Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "appspot.com",
+      "name": "appspot.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:06.635Z",
+      "last_seen": "2026-02-16T05:13:06.635Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "architecture.md",
+      "name": "architecture.md",
+      "type": [],
+      "confidence": 90,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:08.980Z",
+      "last_seen": "2026-02-16T05:13:08.980Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "array.from",
+      "name": "array.from",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:10.738Z",
+      "last_seen": "2026-02-16T05:13:10.738Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "arxiv.org",
+      "name": "arxiv.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:12.628Z",
+      "last_seen": "2026-02-16T05:13:12.628Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "azukiazusa.dev",
+      "name": "azukiazusa.dev",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: azukiazusa1/sapper-blog-app",
+          "url": "https://github.com/azukiazusa1/sapper-blog-app"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://azukiazusa.dev/"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:14.603Z",
+      "last_seen": "2026-02-16T05:13:14.603Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "azukiazusa1.github.io",
+      "name": "azukiazusa1.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: azukiazusa1/sapper-blog-app",
+          "url": "https://github.com/azukiazusa1/sapper-blog-app"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:16.630Z",
+      "last_seen": "2026-02-16T05:13:16.630Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "badge.svg",
+      "name": "badge.svg",
+      "type": [],
+      "confidence": 90,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:18.650Z",
+      "last_seen": "2026-02-16T05:13:18.650Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blue.svg",
+      "name": "blue.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:20.609Z",
+      "last_seen": "2026-02-16T05:13:20.609Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bot.main",
+      "name": "bot.main",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:22.619Z",
+      "last_seen": "2026-02-16T05:13:22.619Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bot.mcp.base",
+      "name": "bot.mcp.base",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:24.711Z",
+      "last_seen": "2026-02-16T05:13:24.711Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "build.gn",
+      "name": "build.gn",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:26.669Z",
+      "last_seen": "2026-02-16T05:13:26.669Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bundle.verify",
+      "name": "bundle.verify",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:28.749Z",
+      "last_seen": "2026-02-16T05:13:28.749Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cdn.jsdelivr.net",
+      "name": "cdn.jsdelivr.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: NeverSight/skills_feed",
+          "url": "https://github.com/NeverSight/skills_feed"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:30.620Z",
+      "last_seen": "2026-02-16T05:13:30.620Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cdn.trypillar.com",
+      "name": "cdn.trypillar.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:32.770Z",
+      "last_seen": "2026-02-16T05:13:32.770Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "changelog.md",
+      "name": "changelog.md",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: yonatangross/orchestkit",
+          "url": "https://github.com/yonatangross/orchestkit"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:34.671Z",
+      "last_seen": "2026-02-16T05:13:34.671Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "chromewebstore.google.com",
+      "name": "chromewebstore.google.com",
+      "type": [],
+      "confidence": 90,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pawn-4-git/webmcp_test",
+          "url": "https://github.com/pawn-4-git/webmcp_test"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:36.831Z",
+      "last_seen": "2026-02-16T05:13:36.831Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ci-cd.yml",
+      "name": "ci-cd.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:38.721Z",
+      "last_seen": "2026-02-16T05:13:38.721Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ci.yml",
+      "name": "ci.yml",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:40.611Z",
+      "last_seen": "2026-02-16T05:13:40.611Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "claude.ai",
+      "name": "claude.ai",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: yonatangross/orchestkit",
+          "url": "https://github.com/yonatangross/orchestkit"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:42.634Z",
+      "last_seen": "2026-02-16T05:13:42.634Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "claude.md",
+      "name": "claude.md",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:44.623Z",
+      "last_seen": "2026-02-16T05:13:44.623Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "clawdhub.com",
+      "name": "clawdhub.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openclaw/skills",
+          "url": "https://github.com/openclaw/skills"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:46.967Z",
+      "last_seen": "2026-02-16T05:13:46.967Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.calltool",
+      "name": "client.calltool",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:48.685Z",
+      "last_seen": "2026-02-16T05:13:48.685Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "codecov.io",
+      "name": "codecov.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:50.725Z",
+      "last_seen": "2026-02-16T05:13:50.725Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "codeql.yml",
+      "name": "codeql.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:52.644Z",
+      "last_seen": "2026-02-16T05:13:52.644Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "companies-e2e-expansion-report.md",
+      "name": "companies-e2e-expansion-report.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:54.613Z",
+      "last_seen": "2026-02-16T05:13:54.613Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "component.jay",
+      "name": "component.jay",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:56.773Z",
+      "last_seen": "2026-02-16T05:13:56.773Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "components.png",
+      "name": "components.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:13:58.625Z",
+      "last_seen": "2026-02-16T05:13:58.625Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "config.py",
+      "name": "config.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:00.627Z",
+      "last_seen": "2026-02-16T05:14:00.627Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "configuration-guide.md",
+      "name": "configuration-guide.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:02.610Z",
+      "last_seen": "2026-02-16T05:14:02.610Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "configuration.md",
+      "name": "configuration.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:04.759Z",
+      "last_seen": "2026-02-16T05:14:04.759Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "console.log",
+      "name": "console.log",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:06.713Z",
+      "last_seen": "2026-02-16T05:14:06.713Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "content.ts",
+      "name": "content.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:08.619Z",
+      "last_seen": "2026-02-16T05:14:08.619Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "continuation-plan-completion-summary.md",
+      "name": "continuation-plan-completion-summary.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:10.632Z",
+      "last_seen": "2026-02-16T05:14:10.632Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "contrib.rocks",
+      "name": "contrib.rocks",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:12.757Z",
+      "last_seen": "2026-02-16T05:14:12.757Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "contribute.mdx",
+      "name": "contribute.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:14.632Z",
+      "last_seen": "2026-02-16T05:14:14.632Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "contributing.md",
+      "name": "contributing.md",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: yonatangross/orchestkit",
+          "url": "https://github.com/yonatangross/orchestkit"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:16.611Z",
+      "last_seen": "2026-02-16T05:14:16.611Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "contributors.md",
+      "name": "contributors.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:18.681Z",
+      "last_seen": "2026-02-16T05:14:18.681Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "conventionalcommits.org",
+      "name": "conventionalcommits.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:20.614Z",
+      "last_seen": "2026-02-16T05:14:20.614Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "copilot-instructions.md",
+      "name": "copilot-instructions.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: chromium/chromium",
+          "url": "https://github.com/chromium/chromium"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:22.637Z",
+      "last_seen": "2026-02-16T05:14:22.637Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "copilot-intructions.md",
+      "name": "copilot-intructions.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: chromium/chromium",
+          "url": "https://github.com/chromium/chromium"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:24.611Z",
+      "last_seen": "2026-02-16T05:14:24.611Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "counter.jay",
+      "name": "counter.jay",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:26.763Z",
+      "last_seen": "2026-02-16T05:14:26.763Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "credentials.json",
+      "name": "credentials.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cris-m/mcp_servers",
+          "url": "https://github.com/cris-m/mcp_servers"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:28.624Z",
+      "last_seen": "2026-02-16T05:14:28.624Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "creedspace.com",
+      "name": "creedspace.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:30.618Z",
+      "last_seen": "2026-02-16T05:14:30.618Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "crrev.com",
+      "name": "crrev.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:32.626Z",
+      "last_seen": "2026-02-16T05:14:32.626Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cs.hc",
+      "name": "cs.hc",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:34.651Z",
+      "last_seen": "2026-02-16T05:14:34.651Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "csm1token.parse",
+      "name": "csm1token.parse",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:36.712Z",
+      "last_seen": "2026-02-16T05:14:36.712Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "d.ts",
+      "name": "d.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:38.707Z",
+      "last_seen": "2026-02-16T05:14:38.707Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "d3.js",
+      "name": "d3.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: rohitg00/devrelguide",
+          "url": "https://github.com/rohitg00/devrelguide"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:40.612Z",
+      "last_seen": "2026-02-16T05:14:40.612Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "date.now",
+      "name": "date.now",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:42.607Z",
+      "last_seen": "2026-02-16T05:14:42.607Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "deepwiki.com",
+      "name": "deepwiki.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: azukiazusa1/sapper-blog-app",
+          "url": "https://github.com/azukiazusa1/sapper-blog-app"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:44.631Z",
+      "last_seen": "2026-02-16T05:14:44.631Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "deploy.md",
+      "name": "deploy.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:46.654Z",
+      "last_seen": "2026-02-16T05:14:46.654Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "deployment.md",
+      "name": "deployment.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:48.784Z",
+      "last_seen": "2026-02-16T05:14:48.784Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "design.md",
+      "name": "design.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:14:58.598Z",
+      "last_seen": "2026-02-16T05:14:58.598Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dev.to",
+      "name": "dev.to",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:00.351Z",
+      "last_seen": "2026-02-16T05:15:00.351Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "devalta.git",
+      "name": "devalta.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:02.211Z",
+      "last_seen": "2026-02-16T05:15:02.211Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "develop.html",
+      "name": "develop.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:04.305Z",
+      "last_seen": "2026-02-16T05:15:04.305Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "discord.gg",
+      "name": "discord.gg",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:06.268Z",
+      "last_seen": "2026-02-16T05:15:06.268Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "discussione.parlamento",
+      "name": "discussione.parlamento",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Movimento5StelleLazio/ParlamentoElettronicoM5S",
+          "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:08.240Z",
+      "last_seen": "2026-02-16T05:15:08.240Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docker-compose.dev.yml",
+      "name": "docker-compose.dev.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:10.267Z",
+      "last_seen": "2026-02-16T05:15:10.267Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docker-compose.yml",
+      "name": "docker-compose.yml",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:12.235Z",
+      "last_seen": "2026-02-16T05:15:12.235Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docs.mcp-b.ai",
+      "name": "docs.mcp-b.ai",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 100,
+      "status": "verified",
+      "verification_status": "verified",
+      "verification_method": "modelContext_detected",
+      "proof": [
+        {
+          "type": "homepage",
+          "url": "https://docs.mcp-b.ai/",
+          "last_success": "2026-02-16T05:15:14.203Z"
+        }
+      ],
+      "last_verified_success": "2026-02-16T05:15:14.203Z",
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://docs.mcp-b.ai/"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:14.203Z",
+      "last_seen": "2026-02-16T05:15:14.203Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docs.npmjs.com",
+      "name": "docs.npmjs.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: azukiazusa1/sapper-blog-app",
+          "url": "https://github.com/azukiazusa1/sapper-blog-app"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:16.420Z",
+      "last_seen": "2026-02-16T05:15:16.420Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "document.getelementbyid",
+      "name": "document.getelementbyid",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:18.203Z",
+      "last_seen": "2026-02-16T05:15:18.203Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "document.queryselectorall",
+      "name": "document.queryselectorall",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:20.302Z",
+      "last_seen": "2026-02-16T05:15:20.302Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "e.agentinvoked",
+      "name": "e.agentinvoked",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:22.279Z",
+      "last_seen": "2026-02-16T05:15:22.279Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "e.preventdefault",
+      "name": "e.preventdefault",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:24.223Z",
+      "last_seen": "2026-02-16T05:15:24.223Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "e.respondwith",
+      "name": "e.respondwith",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:26.219Z",
+      "last_seen": "2026-02-16T05:15:26.219Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "e2e.yml",
+      "name": "e2e.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:28.205Z",
+      "last_seen": "2026-02-16T05:15:28.205Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "easely.example",
+      "name": "easely.example",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:30.224Z",
+      "last_seen": "2026-02-16T05:15:30.224Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "easely.example`,",
+      "name": "easely.example`,",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:32.203Z",
+      "last_seen": "2026-02-16T05:15:32.203Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "el.dataset.price",
+      "name": "el.dataset.price",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:34.193Z",
+      "last_seen": "2026-02-16T05:15:34.193Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "el.getattribute",
+      "name": "el.getattribute",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:36.232Z",
+      "last_seen": "2026-02-16T05:15:36.232Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "el.textcontent.trim",
+      "name": "el.textcontent.trim",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:38.217Z",
+      "last_seen": "2026-02-16T05:15:38.217Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "embedding-atlas-dark.png",
+      "name": "embedding-atlas-dark.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:40.204Z",
+      "last_seen": "2026-02-16T05:15:40.204Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "embedding-atlas-light.png",
+      "name": "embedding-atlas-light.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:42.211Z",
+      "last_seen": "2026-02-16T05:15:42.211Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "emergency-response.spec.ts",
+      "name": "emergency-response.spec.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:44.317Z",
+      "last_seen": "2026-02-16T05:15:44.317Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "env.docker",
+      "name": "env.docker",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:46.302Z",
+      "last_seen": "2026-02-16T05:15:46.302Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "env.example",
+      "name": "env.example",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:48.263Z",
+      "last_seen": "2026-02-16T05:15:48.263Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "env.local",
+      "name": "env.local",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:50.204Z",
+      "last_seen": "2026-02-16T05:15:50.204Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "events.ts",
+      "name": "events.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:52.201Z",
+      "last_seen": "2026-02-16T05:15:52.201Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "example.com",
+      "name": "example.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:54.308Z",
+      "last_seen": "2026-02-16T05:15:54.308Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "explainer.md",
+      "name": "explainer.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:56.213Z",
+      "last_seen": "2026-02-16T05:15:56.213Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "facebook.com",
+      "name": "facebook.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Movimento5StelleLazio/ParlamentoElettronicoM5S",
+          "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
+        }
+      ],
+      "last_checked": "2026-02-16T05:15:58.356Z",
+      "last_seen": "2026-02-16T05:15:58.356Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "family.safe.guide",
+      "name": "family.safe.guide",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:00.391Z",
+      "last_seen": "2026-02-16T05:16:00.391Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "feed.json",
+      "name": "feed.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: NeverSight/skills_feed",
+          "url": "https://github.com/NeverSight/skills_feed"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:02.592Z",
+      "last_seen": "2026-02-16T05:16:02.592Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "feed.xml",
+      "name": "feed.xml",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: NeverSight/skills_feed",
+          "url": "https://github.com/NeverSight/skills_feed"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:04.307Z",
+      "last_seen": "2026-02-16T05:16:04.307Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "firebaseapp.com",
+      "name": "firebaseapp.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:06.221Z",
+      "last_seen": "2026-02-16T05:16:06.221Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "fix-monorepo.js",
+      "name": "fix-monorepo.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:08.639Z",
+      "last_seen": "2026-02-16T05:16:08.639Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "formatmedicalid.ts",
+      "name": "formatmedicalid.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:10.211Z",
+      "last_seen": "2026-02-16T05:16:10.211Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "forms.ts",
+      "name": "forms.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:12.310Z",
+      "last_seen": "2026-02-16T05:16:12.310Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "generate-test-harness.mjs",
+      "name": "generate-test-harness.mjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:14.216Z",
+      "last_seen": "2026-02-16T05:16:14.216Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "getting-started.md",
+      "name": "getting-started.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:16.307Z",
+      "last_seen": "2026-02-16T05:16:16.307Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "global-guide.md",
+      "name": "global-guide.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:18.353Z",
+      "last_seen": "2026-02-16T05:16:18.353Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "gmail.com",
+      "name": "gmail.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:20.348Z",
+      "last_seen": "2026-02-16T05:16:20.348Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "google.com",
+      "name": "google.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:22.749Z",
+      "last_seen": "2026-02-16T05:16:22.749Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "googlechromelabs.github.io",
+      "name": "googlechromelabs.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:24.275Z",
+      "last_seen": "2026-02-16T05:16:24.275Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "governance.md",
+      "name": "governance.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:26.286Z",
+      "last_seen": "2026-02-16T05:16:26.286Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "guia-definitiva-worktree-quality.md",
+      "name": "guia-definitiva-worktree-quality.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:28.227Z",
+      "last_seen": "2026-02-16T05:16:28.227Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "handlers.py",
+      "name": "handlers.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:30.350Z",
+      "last_seen": "2026-02-16T05:16:30.350Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "harbor.git",
+      "name": "harbor.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:32.303Z",
+      "last_seen": "2026-02-16T05:16:32.303Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "hatchet.run",
+      "name": "hatchet.run",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:34.222Z",
+      "last_seen": "2026-02-16T05:16:34.222Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "hipaa.md",
+      "name": "hipaa.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:36.319Z",
+      "last_seen": "2026-02-16T05:16:36.319Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "homepage.gif",
+      "name": "homepage.gif",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: rohitg00/devrelguide",
+          "url": "https://github.com/rohitg00/devrelguide"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:38.642Z",
+      "last_seen": "2026-02-16T05:16:38.642Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "host.docker.internal",
+      "name": "host.docker.internal",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:40.258Z",
+      "last_seen": "2026-02-16T05:16:40.258Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "host.docker.internal:8000",
+      "name": "host.docker.internal:8000",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:42.218Z",
+      "last_seen": "2026-02-16T05:16:42.218Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "http.server",
+      "name": "http.server",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-bridge",
+          "url": "https://github.com/hemanth/webmcp-bridge"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:44.199Z",
+      "last_seen": "2026-02-16T05:16:44.199Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "im-channel-setup-tutorial.md",
+      "name": "im-channel-setup-tutorial.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:46.305Z",
+      "last_seen": "2026-02-16T05:16:46.305Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "im-channels.md",
+      "name": "im-channels.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:48.362Z",
+      "last_seen": "2026-02-16T05:16:48.362Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "img.shields.io",
+      "name": "img.shields.io",
+      "type": [
+        "mcp-server"
+      ],
+      "confidence": 100,
+      "status": "verified",
+      "verification_status": "verified",
+      "verification_method": "well_known",
+      "proof": [
+        {
+          "type": "well_known",
+          "url": "https://img.shields.io/.well-known/mcp.json",
+          "last_success": "2026-02-16T05:16:50.350Z"
+        }
+      ],
+      "last_verified_success": "2026-02-16T05:16:50.350Z",
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: yonatangross/orchestkit",
+          "url": "https://github.com/yonatangross/orchestkit"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "well_known_mcp_json",
+          "detail": "found .well-known/mcp.json",
+          "url": "https://img.shields.io/.well-known/mcp.json"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:50.350Z",
+      "last_seen": "2026-02-16T05:16:50.350Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "index.html",
+      "name": "index.html",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-bridge",
+          "url": "https://github.com/hemanth/webmcp-bridge"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pawn-4-git/webmcp_test",
+          "url": "https://github.com/pawn-4-git/webmcp_test"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:52.275Z",
+      "last_seen": "2026-02-16T05:16:52.275Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "index.js",
+      "name": "index.js",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:54.201Z",
+      "last_seen": "2026-02-16T05:16:54.201Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "index.ts",
+      "name": "index.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:56.304Z",
+      "last_seen": "2026-02-16T05:16:56.304Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "install.sh",
+      "name": "install.sh",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:16:58.200Z",
+      "last_seen": "2026-02-16T05:16:58.200Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "internal.example.com",
+      "name": "internal.example.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:00.353Z",
+      "last_seen": "2026-02-16T05:17:00.353Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "io-technology.git",
+      "name": "io-technology.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:02.215Z",
+      "last_seen": "2026-02-16T05:17:02.215Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "io.svg",
+      "name": "io.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:04.200Z",
+      "last_seen": "2026-02-16T05:17:04.200Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "iodigital.com",
+      "name": "iodigital.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:06.304Z",
+      "last_seen": "2026-02-16T05:17:06.304Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "jay-file.md",
+      "name": "jay-file.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:09.060Z",
+      "last_seen": "2026-02-16T05:17:09.060Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "jay-head.gif",
+      "name": "jay-head.gif",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:10.816Z",
+      "last_seen": "2026-02-16T05:17:10.816Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "json.stringify",
+      "name": "json.stringify",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:12.752Z",
+      "last_seen": "2026-02-16T05:17:12.752Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "learn-skills.dev",
+      "name": "learn-skills.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: NeverSight/skills_feed",
+          "url": "https://github.com/NeverSight/skills_feed"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:14.677Z",
+      "last_seen": "2026-02-16T05:17:14.677Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "leo.lee",
+      "name": "leo.lee",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:17.342Z",
+      "last_seen": "2026-02-16T05:17:17.342Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "license-mit-blue.svg",
+      "name": "license-mit-blue.svg",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:18.656Z",
+      "last_seen": "2026-02-16T05:17:18.656Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "license-mit-yellow.svg",
+      "name": "license-mit-yellow.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:20.673Z",
+      "last_seen": "2026-02-16T05:17:20.673Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "linkedin.com",
+      "name": "linkedin.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:22.669Z",
+      "last_seen": "2026-02-16T05:17:22.669Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "liquidfeedback.org",
+      "name": "liquidfeedback.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Movimento5StelleLazio/ParlamentoElettronicoM5S",
+          "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:24.824Z",
+      "last_seen": "2026-02-16T05:17:24.824Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "llm_mlx_server:8000",
+      "name": "llm_mlx_server:8000",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:28.992Z",
+      "last_seen": "2026-02-16T05:17:28.992Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "llm_server:8000",
+      "name": "llm_server:8000",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:30.839Z",
+      "last_seen": "2026-02-16T05:17:30.839Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "llm-provider-setup-tutorial.md",
+      "name": "llm-provider-setup-tutorial.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:27.177Z",
+      "last_seen": "2026-02-16T05:17:27.177Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "llms.txt",
+      "name": "llms.txt",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:32.838Z",
+      "last_seen": "2026-02-16T05:17:32.838Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:11434",
+      "name": "localhost:11434",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: igrigorik/AgentBoard",
+          "url": "https://github.com/igrigorik/AgentBoard"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:34.867Z",
+      "last_seen": "2026-02-16T05:17:34.867Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3000",
+      "name": "localhost:3000",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: rohitg00/devrelguide",
+          "url": "https://github.com/rohitg00/devrelguide"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:36.831Z",
+      "last_seen": "2026-02-16T05:17:36.831Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3001",
+      "name": "localhost:3001",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:38.831Z",
+      "last_seen": "2026-02-16T05:17:38.831Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3002",
+      "name": "localhost:3002",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:40.829Z",
+      "last_seen": "2026-02-16T05:17:40.829Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3003",
+      "name": "localhost:3003",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:42.829Z",
+      "last_seen": "2026-02-16T05:17:42.829Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3004",
+      "name": "localhost:3004",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:44.826Z",
+      "last_seen": "2026-02-16T05:17:44.826Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3005",
+      "name": "localhost:3005",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:46.825Z",
+      "last_seen": "2026-02-16T05:17:46.825Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:3006",
+      "name": "localhost:3006",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:48.824Z",
+      "last_seen": "2026-02-16T05:17:48.824Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:8000",
+      "name": "localhost:8000",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:50.823Z",
+      "last_seen": "2026-02-16T05:17:50.823Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:8888",
+      "name": "localhost:8888",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:52.823Z",
+      "last_seen": "2026-02-16T05:17:52.823Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "logo-dark.svg",
+      "name": "logo-dark.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:54.823Z",
+      "last_seen": "2026-02-16T05:17:54.823Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "logo-light.svg",
+      "name": "logo-light.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:56.842Z",
+      "last_seen": "2026-02-16T05:17:56.842Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "logo.png",
+      "name": "logo.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:17:58.847Z",
+      "last_seen": "2026-02-16T05:17:58.847Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "main.py",
+      "name": "main.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heywood8/telegram-LeoLM-bot",
+          "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:00.941Z",
+      "last_seen": "2026-02-16T05:18:00.941Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "manifest.json",
+      "name": "manifest.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:02.848Z",
+      "last_seen": "2026-02-16T05:18:02.848Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp-b.ai",
+      "name": "mcp-b.ai",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://mcp-b.ai/"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:04.835Z",
+      "last_seen": "2026-02-16T05:18:04.835Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp-integration.md",
+      "name": "mcp-integration.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:07.615Z",
+      "last_seen": "2026-02-16T05:18:07.615Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.tool",
+      "name": "mcp.tool",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:08.980Z",
+      "last_seen": "2026-02-16T05:18:08.980Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.vercel.com",
+      "name": "mcp.vercel.com",
+      "type": [],
+      "confidence": 0,
+      "status": "dead",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 3,
       "evidence": [],
-      "last_checked": "2026-02-15T08:50:11.146Z",
+      "last_checked": "2026-02-16T05:18:10.857Z",
       "last_seen": "2026-02-15T06:22:21.111Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mdxjs.com",
+      "name": "mdxjs.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:12.862Z",
+      "last_seen": "2026-02-16T05:18:12.862Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "memory.md",
+      "name": "memory.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:14.833Z",
+      "last_seen": "2026-02-16T05:18:14.833Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "microsoft.com",
+      "name": "microsoft.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:16.941Z",
+      "last_seen": "2026-02-16T05:18:16.941Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "modelcontextprotocol.io",
+      "name": "modelcontextprotocol.io",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:18.927Z",
+      "last_seen": "2026-02-16T05:18:18.927Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "monorepo-validator.js",
+      "name": "monorepo-validator.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:20.988Z",
+      "last_seen": "2026-02-16T05:18:20.988Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "named-counter.jay",
+      "name": "named-counter.jay",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:25.808Z",
+      "last_seen": "2026-02-16T05:18:25.808Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontext",
+      "name": "navigator.modelcontext",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Creed-Space/VCP-SDK",
+          "url": "https://github.com/Creed-Space/VCP-SDK"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-bridge",
+          "url": "https://github.com/hemanth/webmcp-bridge"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:27.806Z",
+      "last_seen": "2026-02-16T05:18:27.806Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontext.registertool",
+      "name": "navigator.modelcontext.registertool",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:29.800Z",
+      "last_seen": "2026-02-16T05:18:29.800Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontexttesting",
+      "name": "navigator.modelcontexttesting",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: tech-sumit/react-webmcp",
+          "url": "https://github.com/tech-sumit/react-webmcp"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:31.789Z",
+      "last_seen": "2026-02-16T05:18:31.789Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "next.js",
+      "name": "next.js",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: rohitg00/devrelguide",
+          "url": "https://github.com/rohitg00/devrelguide"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: NeverSight/skills_feed",
+          "url": "https://github.com/NeverSight/skills_feed"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:33.884Z",
+      "last_seen": "2026-02-16T05:18:33.884Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "nextjs.org",
+      "name": "nextjs.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:35.887Z",
+      "last_seen": "2026-02-16T05:18:35.887Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "node.js",
+      "name": "node.js",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: iodigital-com/io-technology",
+          "url": "https://github.com/iodigital-com/io-technology"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:37.827Z",
+      "last_seen": "2026-02-16T05:18:37.827Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "nodejs.org",
+      "name": "nodejs.org",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:39.884Z",
+      "last_seen": "2026-02-16T05:18:39.884Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "npm-packages.git",
+      "name": "npm-packages.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:41.920Z",
+      "last_seen": "2026-02-16T05:18:41.920Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "npmjs.com",
+      "name": "npmjs.com",
+      "type": [],
+      "confidence": 90,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:43.882Z",
+      "last_seen": "2026-02-16T05:18:43.882Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ollama.com",
+      "name": "ollama.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:45.822Z",
+      "last_seen": "2026-02-16T05:18:45.822Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "openakita.git",
+      "name": "openakita.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:47.825Z",
+      "last_seen": "2026-02-16T05:18:47.825Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "opensource.org",
+      "name": "opensource.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/npm-packages",
+          "url": "https://github.com/WebMCP-org/npm-packages"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:49.799Z",
+      "last_seen": "2026-02-16T05:18:49.799Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "orchestkit.vercel.app",
+      "name": "orchestkit.vercel.app",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: yonatangross/orchestkit",
+          "url": "https://github.com/yonatangross/orchestkit"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:52.035Z",
+      "last_seen": "2026-02-16T05:18:52.035Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "overview.html",
+      "name": "overview.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apple/embedding-atlas",
+          "url": "https://github.com/apple/embedding-atlas"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:54.236Z",
+      "last_seen": "2026-02-16T05:18:54.236Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "package-lock.json",
+      "name": "package-lock.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:56.099Z",
+      "last_seen": "2026-02-16T05:18:56.099Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "package.json",
+      "name": "package.json",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pillarhq/pillar",
+          "url": "https://github.com/pillarhq/pillar"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        }
+      ],
+      "last_checked": "2026-02-16T05:18:58.030Z",
+      "last_seen": "2026-02-16T05:18:58.030Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "page.jay",
+      "name": "page.jay",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jay-framework/jay",
+          "url": "https://github.com/jay-framework/jay"
+        }
+      ],
+      "last_checked": "2026-02-16T05:19:00.112Z",
+      "last_seen": "2026-02-16T05:19:00.112Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "parelon.it",
+      "name": "parelon.it",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Movimento5StelleLazio/ParlamentoElettronicoM5S",
+          "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
+        }
+      ],
+      "last_checked": "2026-02-16T05:19:02.013Z",
+      "last_seen": "2026-02-16T05:19:02.013Z",
       "sponsored": false,
       "verification_available": true
     }
