@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-02-17T05:11:14.462Z",
+  "updated_at": "2026-02-18T05:11:47.285Z",
   "items": [
     {
       "domain": "2010.13.1-orange.svg",
       "name": "2010.13.1-orange.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19,7 +19,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:04:22.944Z",
+      "last_checked": "2026-02-18T05:04:52.371Z",
       "last_seen": "2026-02-16T05:12:09.643Z",
       "sponsored": false,
       "verification_available": true
@@ -29,12 +29,12 @@
       "name": "2020.0.0-brightgreen.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -42,7 +42,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:04:24.834Z",
+      "last_checked": "2026-02-18T05:04:54.214Z",
       "last_seen": "2026-02-16T05:12:11.472Z",
       "sponsored": false,
       "verification_available": true
@@ -98,12 +98,12 @@
       "name": "20with-pnpm-cc00ff.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -111,7 +111,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-17T05:04:31.091Z",
+      "last_checked": "2026-02-18T05:04:56.226Z",
       "last_seen": "2026-02-16T05:12:17.459Z",
       "sponsored": false,
       "verification_available": true
@@ -121,12 +121,12 @@
       "name": "2505.06386-b31b1b.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +134,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:04:32.744Z",
+      "last_checked": "2026-02-18T05:04:58.221Z",
       "last_seen": "2026-02-16T05:12:19.468Z",
       "sponsored": false,
       "verification_available": true
@@ -144,12 +144,12 @@
       "name": "2b-blue.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -157,7 +157,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:04:34.746Z",
+      "last_checked": "2026-02-18T05:05:00.200Z",
       "last_seen": "2026-02-16T05:12:21.564Z",
       "sponsored": false,
       "verification_available": true
@@ -287,7 +287,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -295,7 +295,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:04:42.734Z",
+      "last_checked": "2026-02-18T05:05:02.199Z",
       "last_seen": "2026-02-17T05:04:42.734Z",
       "sponsored": false,
       "verification_available": true
@@ -305,12 +305,12 @@
       "name": "a11y-smoke.spec.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -318,7 +318,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:04:44.742Z",
+      "last_checked": "2026-02-18T05:05:04.202Z",
       "last_seen": "2026-02-16T05:12:33.574Z",
       "sponsored": false,
       "verification_available": true
@@ -328,12 +328,12 @@
       "name": "a2aproject.github.io",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -341,8 +341,31 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:04:46.744Z",
+      "last_checked": "2026-02-18T05:05:06.227Z",
       "last_seen": "2026-02-16T05:12:35.486Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "addtocart.register",
+      "name": "addtocart.register",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-kit",
+          "url": "https://github.com/victorhuangwq/webmcp-kit"
+        }
+      ],
+      "last_checked": "2026-02-18T05:05:08.221Z",
+      "last_seen": "2026-02-18T05:05:08.221Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -356,7 +379,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -364,7 +387,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:04:48.897Z",
+      "last_checked": "2026-02-18T05:05:10.214Z",
       "last_seen": "2026-02-17T05:04:48.897Z",
       "sponsored": false,
       "verification_available": true
@@ -387,8 +410,31 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:04:50.754Z",
+      "last_checked": "2026-02-18T05:05:12.210Z",
       "last_seen": "2026-02-16T05:12:37.496Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent.requestuserinteraction",
+      "name": "agent.requestuserinteraction",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-kit",
+          "url": "https://github.com/victorhuangwq/webmcp-kit"
+        }
+      ],
+      "last_checked": "2026-02-18T05:05:14.244Z",
+      "last_seen": "2026-02-18T05:05:14.244Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -425,7 +471,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -433,7 +479,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:04:55.028Z",
+      "last_checked": "2026-02-18T05:05:16.242Z",
       "last_seen": "2026-02-17T05:04:55.028Z",
       "sponsored": false,
       "verification_available": true
@@ -448,7 +494,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -456,7 +502,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:04:56.838Z",
+      "last_checked": "2026-02-18T05:05:18.219Z",
       "last_seen": "2026-02-17T05:04:56.838Z",
       "sponsored": false,
       "verification_available": true
@@ -471,7 +517,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -479,7 +525,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:04:58.835Z",
+      "last_checked": "2026-02-18T05:05:20.301Z",
       "last_seen": "2026-02-17T05:04:58.835Z",
       "sponsored": false,
       "verification_available": true
@@ -494,7 +540,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -502,7 +548,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:00.885Z",
+      "last_checked": "2026-02-18T05:05:22.210Z",
       "last_seen": "2026-02-17T05:05:00.885Z",
       "sponsored": false,
       "verification_available": true
@@ -530,7 +576,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:02.881Z",
+      "last_checked": "2026-02-18T05:05:24.196Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -545,7 +591,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -553,7 +599,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:04.842Z",
+      "last_checked": "2026-02-18T05:05:26.210Z",
       "last_seen": "2026-02-17T05:05:04.842Z",
       "sponsored": false,
       "verification_available": true
@@ -576,7 +622,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:05:06.836Z",
+      "last_checked": "2026-02-18T05:05:28.212Z",
       "last_seen": "2026-02-16T05:12:44.995Z",
       "sponsored": false,
       "verification_available": true
@@ -599,7 +645,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:05:09.104Z",
+      "last_checked": "2026-02-18T05:05:30.547Z",
       "last_seen": "2026-02-16T05:12:47.102Z",
       "sponsored": false,
       "verification_available": true
@@ -614,7 +660,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -622,7 +668,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:10.838Z",
+      "last_checked": "2026-02-18T05:05:32.213Z",
       "last_seen": "2026-02-17T05:05:10.838Z",
       "sponsored": false,
       "verification_available": true
@@ -637,7 +683,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -645,7 +691,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:12.887Z",
+      "last_checked": "2026-02-18T05:05:34.216Z",
       "last_seen": "2026-02-17T05:05:12.887Z",
       "sponsored": false,
       "verification_available": true
@@ -660,7 +706,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -668,7 +714,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:14.933Z",
+      "last_checked": "2026-02-18T05:05:36.302Z",
       "last_seen": "2026-02-17T05:05:14.933Z",
       "sponsored": false,
       "verification_available": true
@@ -678,12 +724,12 @@
       "name": "ai-agents-analysis.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -691,7 +737,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:05:16.838Z",
+      "last_checked": "2026-02-18T05:05:38.220Z",
       "last_seen": "2026-02-16T05:12:49.021Z",
       "sponsored": false,
       "verification_available": true
@@ -714,7 +760,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:05:19.024Z",
+      "last_checked": "2026-02-18T05:05:40.356Z",
       "last_seen": "2026-02-16T05:12:51.133Z",
       "sponsored": false,
       "verification_available": true
@@ -729,7 +775,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -737,7 +783,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:20.842Z",
+      "last_checked": "2026-02-18T05:05:42.213Z",
       "last_seen": "2026-02-17T05:05:20.842Z",
       "sponsored": false,
       "verification_available": true
@@ -760,7 +806,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:05:22.903Z",
+      "last_checked": "2026-02-18T05:05:44.213Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -775,7 +821,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -783,7 +829,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:24.903Z",
+      "last_checked": "2026-02-18T05:05:46.284Z",
       "last_seen": "2026-02-17T05:05:24.903Z",
       "sponsored": false,
       "verification_available": true
@@ -798,7 +844,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -806,7 +852,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:26.883Z",
+      "last_checked": "2026-02-18T05:05:48.212Z",
       "last_seen": "2026-02-17T05:05:26.883Z",
       "sponsored": false,
       "verification_available": true
@@ -821,7 +867,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -829,7 +875,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:28.926Z",
+      "last_checked": "2026-02-18T05:05:50.274Z",
       "last_seen": "2026-02-17T05:05:28.926Z",
       "sponsored": false,
       "verification_available": true
@@ -844,7 +890,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -852,7 +898,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:30.889Z",
+      "last_checked": "2026-02-18T05:05:52.274Z",
       "last_seen": "2026-02-17T05:05:30.889Z",
       "sponsored": false,
       "verification_available": true
@@ -867,7 +913,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -875,7 +921,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:32.888Z",
+      "last_checked": "2026-02-18T05:05:54.228Z",
       "last_seen": "2026-02-17T05:05:32.888Z",
       "sponsored": false,
       "verification_available": true
@@ -890,7 +936,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -898,7 +944,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:34.889Z",
+      "last_checked": "2026-02-18T05:05:56.231Z",
       "last_seen": "2026-02-17T05:05:34.889Z",
       "sponsored": false,
       "verification_available": true
@@ -913,7 +959,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -921,7 +967,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:36.933Z",
+      "last_checked": "2026-02-18T05:05:58.316Z",
       "last_seen": "2026-02-17T05:05:36.933Z",
       "sponsored": false,
       "verification_available": true
@@ -944,7 +990,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:05:38.842Z",
+      "last_checked": "2026-02-18T05:06:00.317Z",
       "last_seen": "2026-02-16T05:12:56.678Z",
       "sponsored": false,
       "verification_available": true
@@ -959,7 +1005,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -967,7 +1013,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:05:41.254Z",
+      "last_checked": "2026-02-18T05:06:02.572Z",
       "last_seen": "2026-02-17T05:05:41.254Z",
       "sponsored": false,
       "verification_available": true
@@ -977,12 +1023,12 @@
       "name": "api.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -990,7 +1036,7 @@
           "url": "https://github.com/iodigital-com/io-technology"
         }
       ],
-      "last_checked": "2026-02-17T05:05:42.847Z",
+      "last_checked": "2026-02-18T05:06:04.245Z",
       "last_seen": "2026-02-16T05:12:58.900Z",
       "sponsored": false,
       "verification_available": true
@@ -1013,7 +1059,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:05:44.880Z",
+      "last_checked": "2026-02-18T05:06:06.232Z",
       "last_seen": "2026-02-16T05:13:00.672Z",
       "sponsored": false,
       "verification_available": true
@@ -1023,12 +1069,12 @@
       "name": "app.js",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1036,7 +1082,7 @@
           "url": "https://github.com/hemanth/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-02-17T05:05:47.042Z",
+      "last_checked": "2026-02-18T05:06:08.257Z",
       "last_seen": "2026-02-16T05:13:02.652Z",
       "sponsored": false,
       "verification_available": true
@@ -1051,7 +1097,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1059,7 +1105,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:48.842Z",
+      "last_checked": "2026-02-18T05:06:10.237Z",
       "last_seen": "2026-02-17T05:05:48.842Z",
       "sponsored": false,
       "verification_available": true
@@ -1082,7 +1128,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:05:50.844Z",
+      "last_checked": "2026-02-18T05:06:12.278Z",
       "last_seen": "2026-02-16T05:13:04.638Z",
       "sponsored": false,
       "verification_available": true
@@ -1105,7 +1151,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:05:52.922Z",
+      "last_checked": "2026-02-18T05:06:14.248Z",
       "last_seen": "2026-02-16T05:13:06.635Z",
       "sponsored": false,
       "verification_available": true
@@ -1138,7 +1184,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:05:55.155Z",
+      "last_checked": "2026-02-18T05:06:16.545Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -1148,12 +1194,12 @@
       "name": "array.from",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1161,7 +1207,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-02-17T05:05:56.883Z",
+      "last_checked": "2026-02-18T05:06:18.247Z",
       "last_seen": "2026-02-16T05:13:10.738Z",
       "sponsored": false,
       "verification_available": true
@@ -1176,7 +1222,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1184,7 +1230,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:05:58.884Z",
+      "last_checked": "2026-02-18T05:06:20.223Z",
       "last_seen": "2026-02-17T05:05:58.884Z",
       "sponsored": false,
       "verification_available": true
@@ -1207,7 +1253,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:06:00.838Z",
+      "last_checked": "2026-02-18T05:06:22.284Z",
       "last_seen": "2026-02-16T05:13:12.628Z",
       "sponsored": false,
       "verification_available": true
@@ -1222,7 +1268,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1230,7 +1276,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:06:02.889Z",
+      "last_checked": "2026-02-18T05:06:24.213Z",
       "last_seen": "2026-02-17T05:06:02.889Z",
       "sponsored": false,
       "verification_available": true
@@ -1245,7 +1291,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1253,7 +1299,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:04.830Z",
+      "last_checked": "2026-02-18T05:06:26.270Z",
       "last_seen": "2026-02-17T05:06:04.830Z",
       "sponsored": false,
       "verification_available": true
@@ -1268,7 +1314,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1276,7 +1322,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:06.838Z",
+      "last_checked": "2026-02-18T05:06:28.282Z",
       "last_seen": "2026-02-17T05:06:06.838Z",
       "sponsored": false,
       "verification_available": true
@@ -1291,7 +1337,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1299,7 +1345,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:08.838Z",
+      "last_checked": "2026-02-18T05:06:30.323Z",
       "last_seen": "2026-02-17T05:06:08.838Z",
       "sponsored": false,
       "verification_available": true
@@ -1329,8 +1375,8 @@
           "url": "https://azukiazusa.dev/"
         }
       ],
-      "last_checked": "2026-02-17T05:06:10.840Z",
-      "last_seen": "2026-02-17T05:06:10.840Z",
+      "last_checked": "2026-02-18T05:06:32.239Z",
+      "last_seen": "2026-02-18T05:06:32.239Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -1339,12 +1385,12 @@
       "name": "azukiazusa1.github.io",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1352,7 +1398,7 @@
           "url": "https://github.com/azukiazusa1/sapper-blog-app"
         }
       ],
-      "last_checked": "2026-02-17T05:06:12.889Z",
+      "last_checked": "2026-02-18T05:06:34.247Z",
       "last_seen": "2026-02-16T05:13:16.630Z",
       "sponsored": false,
       "verification_available": true
@@ -1362,12 +1408,12 @@
       "name": "badge.svg",
       "type": [],
       "confidence": 90,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1385,7 +1431,7 @@
           "url": "https://github.com/Creed-Space/VCP-SDK"
         }
       ],
-      "last_checked": "2026-02-17T05:06:14.931Z",
+      "last_checked": "2026-02-18T05:06:36.243Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -1400,7 +1446,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1408,7 +1454,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:16.840Z",
+      "last_checked": "2026-02-18T05:06:38.242Z",
       "last_seen": "2026-02-17T05:06:16.840Z",
       "sponsored": false,
       "verification_available": true
@@ -1423,7 +1469,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1431,7 +1477,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:18.893Z",
+      "last_checked": "2026-02-18T05:06:40.238Z",
       "last_seen": "2026-02-17T05:06:18.893Z",
       "sponsored": false,
       "verification_available": true
@@ -1446,7 +1492,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1454,7 +1500,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:20.937Z",
+      "last_checked": "2026-02-18T05:06:42.253Z",
       "last_seen": "2026-02-17T05:06:20.937Z",
       "sponsored": false,
       "verification_available": true
@@ -1469,7 +1515,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1477,7 +1523,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:22.851Z",
+      "last_checked": "2026-02-18T05:06:44.247Z",
       "last_seen": "2026-02-17T05:06:22.851Z",
       "sponsored": false,
       "verification_available": true
@@ -1487,12 +1533,12 @@
       "name": "blue.svg",
       "type": [],
       "confidence": 60,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1505,7 +1551,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:06:24.936Z",
+      "last_checked": "2026-02-18T05:06:46.227Z",
       "last_seen": "2026-02-16T05:13:20.609Z",
       "sponsored": false,
       "verification_available": true
@@ -1515,12 +1561,12 @@
       "name": "bot.main",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1528,7 +1574,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:06:26.937Z",
+      "last_checked": "2026-02-18T05:06:48.253Z",
       "last_seen": "2026-02-16T05:13:22.619Z",
       "sponsored": false,
       "verification_available": true
@@ -1538,12 +1584,12 @@
       "name": "bot.mcp.base",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1551,7 +1597,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:06:28.894Z",
+      "last_checked": "2026-02-18T05:06:50.285Z",
       "last_seen": "2026-02-16T05:13:24.711Z",
       "sponsored": false,
       "verification_available": true
@@ -1574,7 +1620,7 @@
           "url": "https://github.com/GoogleChromeLabs/webmcp-tools"
         }
       ],
-      "last_checked": "2026-02-17T05:06:30.888Z",
+      "last_checked": "2026-02-18T05:06:52.235Z",
       "last_seen": "2026-02-17T05:06:30.888Z",
       "sponsored": false,
       "verification_available": true
@@ -1584,12 +1630,12 @@
       "name": "build.gn",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1597,7 +1643,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:06:33.004Z",
+      "last_checked": "2026-02-18T05:06:54.642Z",
       "last_seen": "2026-02-16T05:13:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -1643,7 +1689,7 @@
           "url": "https://github.com/NeverSight/skills_feed"
         }
       ],
-      "last_checked": "2026-02-17T05:06:35.214Z",
+      "last_checked": "2026-02-18T05:06:56.336Z",
       "last_seen": "2026-02-16T05:13:30.620Z",
       "sponsored": false,
       "verification_available": true
@@ -1699,7 +1745,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:37.023Z",
+      "last_checked": "2026-02-18T05:06:58.389Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -1714,7 +1760,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1722,7 +1768,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:06:40.014Z",
+      "last_checked": "2026-02-18T05:07:01.192Z",
       "last_seen": "2026-02-17T05:06:40.014Z",
       "sponsored": false,
       "verification_available": true
@@ -1737,7 +1783,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1745,7 +1791,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:41.087Z",
+      "last_checked": "2026-02-18T05:07:02.603Z",
       "last_seen": "2026-02-17T05:06:41.087Z",
       "sponsored": false,
       "verification_available": true
@@ -1760,7 +1806,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1768,7 +1814,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:43.127Z",
+      "last_checked": "2026-02-18T05:07:04.484Z",
       "last_seen": "2026-02-17T05:06:43.127Z",
       "sponsored": false,
       "verification_available": true
@@ -1801,7 +1847,7 @@
           "url": "https://github.com/pawn-4-git/webmcp_test"
         }
       ],
-      "last_checked": "2026-02-17T05:06:45.084Z",
+      "last_checked": "2026-02-18T05:07:06.446Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -1811,12 +1857,12 @@
       "name": "ci-cd.yml",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1824,7 +1870,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:06:47.116Z",
+      "last_checked": "2026-02-18T05:07:08.521Z",
       "last_seen": "2026-02-16T05:13:38.721Z",
       "sponsored": false,
       "verification_available": true
@@ -1834,12 +1880,12 @@
       "name": "ci.yml",
       "type": [],
       "confidence": 100,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1862,7 +1908,7 @@
           "url": "https://github.com/Creed-Space/VCP-SDK"
         }
       ],
-      "last_checked": "2026-02-17T05:06:49.028Z",
+      "last_checked": "2026-02-18T05:07:10.495Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -1877,7 +1923,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1885,7 +1931,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:51.027Z",
+      "last_checked": "2026-02-18T05:07:12.449Z",
       "last_seen": "2026-02-17T05:06:51.027Z",
       "sponsored": false,
       "verification_available": true
@@ -1900,7 +1946,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1908,7 +1954,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:53.019Z",
+      "last_checked": "2026-02-18T05:07:14.439Z",
       "last_seen": "2026-02-17T05:06:53.019Z",
       "sponsored": false,
       "verification_available": true
@@ -1923,7 +1969,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1931,7 +1977,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:55.122Z",
+      "last_checked": "2026-02-18T05:07:16.437Z",
       "last_seen": "2026-02-17T05:06:55.122Z",
       "sponsored": false,
       "verification_available": true
@@ -1946,7 +1992,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1954,7 +2000,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:57.026Z",
+      "last_checked": "2026-02-18T05:07:18.435Z",
       "last_seen": "2026-02-17T05:06:57.026Z",
       "sponsored": false,
       "verification_available": true
@@ -1969,7 +2015,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1977,7 +2023,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:06:59.119Z",
+      "last_checked": "2026-02-18T05:07:20.448Z",
       "last_seen": "2026-02-17T05:06:59.119Z",
       "sponsored": false,
       "verification_available": true
@@ -1987,12 +2033,12 @@
       "name": "claude.ai",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2000,7 +2046,7 @@
           "url": "https://github.com/yonatangross/orchestkit"
         }
       ],
-      "last_checked": "2026-02-17T05:07:01.026Z",
+      "last_checked": "2026-02-18T05:07:22.462Z",
       "last_seen": "2026-02-16T05:13:42.634Z",
       "sponsored": false,
       "verification_available": true
@@ -2028,7 +2074,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:07:03.024Z",
+      "last_checked": "2026-02-18T05:07:24.428Z",
       "last_seen": "2026-02-16T05:13:44.623Z",
       "sponsored": false,
       "verification_available": true
@@ -2051,7 +2097,7 @@
           "url": "https://github.com/openclaw/skills"
         }
       ],
-      "last_checked": "2026-02-17T05:07:05.416Z",
+      "last_checked": "2026-02-18T05:07:26.783Z",
       "last_seen": "2026-02-16T05:13:46.967Z",
       "sponsored": false,
       "verification_available": true
@@ -2061,12 +2107,12 @@
       "name": "client.calltool",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2074,7 +2120,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-17T05:07:07.088Z",
+      "last_checked": "2026-02-18T05:07:28.478Z",
       "last_seen": "2026-02-16T05:13:48.685Z",
       "sponsored": false,
       "verification_available": true
@@ -2097,7 +2143,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:07:09.022Z",
+      "last_checked": "2026-02-18T05:07:30.435Z",
       "last_seen": "2026-02-17T05:07:09.022Z",
       "sponsored": false,
       "verification_available": true
@@ -2120,7 +2166,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-17T05:07:11.082Z",
+      "last_checked": "2026-02-18T05:07:32.449Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -2130,12 +2176,12 @@
       "name": "codeql.yml",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2143,7 +2189,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-17T05:07:13.106Z",
+      "last_checked": "2026-02-18T05:07:34.468Z",
       "last_seen": "2026-02-16T05:13:52.644Z",
       "sponsored": false,
       "verification_available": true
@@ -2153,12 +2199,12 @@
       "name": "companies-e2e-expansion-report.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2166,7 +2212,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:07:15.017Z",
+      "last_checked": "2026-02-18T05:07:36.451Z",
       "last_seen": "2026-02-16T05:13:54.613Z",
       "sponsored": false,
       "verification_available": true
@@ -2227,7 +2273,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2235,7 +2281,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:07:21.015Z",
+      "last_checked": "2026-02-18T05:07:38.582Z",
       "last_seen": "2026-02-17T05:07:21.015Z",
       "sponsored": false,
       "verification_available": true
@@ -2245,12 +2291,12 @@
       "name": "config.py",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2258,7 +2304,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:07:23.032Z",
+      "last_checked": "2026-02-18T05:07:40.455Z",
       "last_seen": "2026-02-16T05:14:00.627Z",
       "sponsored": false,
       "verification_available": true
@@ -2268,12 +2314,12 @@
       "name": "configuration-guide.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2281,7 +2327,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:07:25.023Z",
+      "last_checked": "2026-02-18T05:07:42.661Z",
       "last_seen": "2026-02-16T05:14:02.610Z",
       "sponsored": false,
       "verification_available": true
@@ -2291,12 +2337,12 @@
       "name": "configuration.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2304,7 +2350,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:07:27.208Z",
+      "last_checked": "2026-02-18T05:07:44.432Z",
       "last_seen": "2026-02-16T05:14:04.759Z",
       "sponsored": false,
       "verification_available": true
@@ -2314,12 +2360,12 @@
       "name": "console.log",
       "type": [],
       "confidence": 60,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2332,7 +2378,7 @@
           "url": "https://github.com/tech-sumit/react-webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:07:29.353Z",
+      "last_checked": "2026-02-18T05:07:46.713Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -2342,12 +2388,12 @@
       "name": "content.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2355,7 +2401,7 @@
           "url": "https://github.com/iodigital-com/io-technology"
         }
       ],
-      "last_checked": "2026-02-17T05:07:31.025Z",
+      "last_checked": "2026-02-18T05:07:48.544Z",
       "last_seen": "2026-02-16T05:14:08.619Z",
       "sponsored": false,
       "verification_available": true
@@ -2370,7 +2416,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2378,7 +2424,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:07:33.028Z",
+      "last_checked": "2026-02-18T05:07:50.498Z",
       "last_seen": "2026-02-17T05:07:33.028Z",
       "sponsored": false,
       "verification_available": true
@@ -2388,12 +2434,12 @@
       "name": "continuation-plan-completion-summary.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2401,7 +2447,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:07:35.117Z",
+      "last_checked": "2026-02-18T05:07:52.490Z",
       "last_seen": "2026-02-16T05:14:10.632Z",
       "sponsored": false,
       "verification_available": true
@@ -2424,7 +2470,7 @@
           "url": "https://github.com/iodigital-com/io-technology"
         }
       ],
-      "last_checked": "2026-02-17T05:07:37.164Z",
+      "last_checked": "2026-02-18T05:07:54.602Z",
       "last_seen": "2026-02-16T05:14:12.757Z",
       "sponsored": false,
       "verification_available": true
@@ -2434,12 +2480,12 @@
       "name": "contribute.mdx",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2447,7 +2493,7 @@
           "url": "https://github.com/iodigital-com/io-technology"
         }
       ],
-      "last_checked": "2026-02-17T05:07:39.025Z",
+      "last_checked": "2026-02-18T05:07:56.444Z",
       "last_seen": "2026-02-16T05:14:14.632Z",
       "sponsored": false,
       "verification_available": true
@@ -2500,7 +2546,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:07:41.075Z",
+      "last_checked": "2026-02-18T05:07:58.506Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -2523,7 +2569,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:07:44.262Z",
+      "last_checked": "2026-02-18T05:08:00.515Z",
       "last_seen": "2026-02-16T05:14:18.681Z",
       "sponsored": false,
       "verification_available": true
@@ -2546,7 +2592,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:07:45.277Z",
+      "last_checked": "2026-02-18T05:08:02.451Z",
       "last_seen": "2026-02-16T05:14:20.614Z",
       "sponsored": false,
       "verification_available": true
@@ -2561,7 +2607,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2569,7 +2615,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:07:51.764Z",
+      "last_checked": "2026-02-18T05:08:04.470Z",
       "last_seen": "2026-02-17T05:07:51.764Z",
       "sponsored": false,
       "verification_available": true
@@ -2592,7 +2638,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:07:52.781Z",
+      "last_checked": "2026-02-18T05:08:06.464Z",
       "last_seen": "2026-02-17T05:07:52.781Z",
       "sponsored": false,
       "verification_available": true
@@ -2607,7 +2653,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2615,7 +2661,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:07:54.808Z",
+      "last_checked": "2026-02-18T05:08:08.564Z",
       "last_seen": "2026-02-17T05:07:54.808Z",
       "sponsored": false,
       "verification_available": true
@@ -2630,7 +2676,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2638,7 +2684,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:07:56.771Z",
+      "last_checked": "2026-02-18T05:08:10.554Z",
       "last_seen": "2026-02-17T05:07:56.771Z",
       "sponsored": false,
       "verification_available": true
@@ -2648,12 +2694,12 @@
       "name": "copilot-instructions.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2661,7 +2707,7 @@
           "url": "https://github.com/chromium/chromium"
         }
       ],
-      "last_checked": "2026-02-17T05:07:58.781Z",
+      "last_checked": "2026-02-18T05:08:12.459Z",
       "last_seen": "2026-02-16T05:14:22.637Z",
       "sponsored": false,
       "verification_available": true
@@ -2671,12 +2717,12 @@
       "name": "copilot-intructions.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2684,7 +2730,7 @@
           "url": "https://github.com/chromium/chromium"
         }
       ],
-      "last_checked": "2026-02-17T05:08:01.208Z",
+      "last_checked": "2026-02-18T05:08:14.742Z",
       "last_seen": "2026-02-16T05:14:24.611Z",
       "sponsored": false,
       "verification_available": true
@@ -2699,7 +2745,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2707,7 +2753,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:02.962Z",
+      "last_checked": "2026-02-18T05:08:16.599Z",
       "last_seen": "2026-02-17T05:08:02.962Z",
       "sponsored": false,
       "verification_available": true
@@ -2740,12 +2786,12 @@
       "name": "credentials.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2753,7 +2799,7 @@
           "url": "https://github.com/cris-m/mcp_servers"
         }
       ],
-      "last_checked": "2026-02-17T05:08:06.771Z",
+      "last_checked": "2026-02-18T05:08:18.478Z",
       "last_seen": "2026-02-16T05:14:28.624Z",
       "sponsored": false,
       "verification_available": true
@@ -2791,7 +2837,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2799,7 +2845,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:08.770Z",
+      "last_checked": "2026-02-18T05:08:20.546Z",
       "last_seen": "2026-02-17T05:08:08.770Z",
       "sponsored": false,
       "verification_available": true
@@ -2814,7 +2860,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2822,7 +2868,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:10.770Z",
+      "last_checked": "2026-02-18T05:08:22.463Z",
       "last_seen": "2026-02-17T05:08:10.770Z",
       "sponsored": false,
       "verification_available": true
@@ -2845,7 +2891,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:08:12.768Z",
+      "last_checked": "2026-02-18T05:08:24.489Z",
       "last_seen": "2026-02-16T05:14:32.626Z",
       "sponsored": false,
       "verification_available": true
@@ -2860,7 +2906,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2868,7 +2914,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:14.837Z",
+      "last_checked": "2026-02-18T05:08:26.492Z",
       "last_seen": "2026-02-17T05:08:14.837Z",
       "sponsored": false,
       "verification_available": true
@@ -2878,12 +2924,12 @@
       "name": "cs.hc",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2891,7 +2937,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:08:17.111Z",
+      "last_checked": "2026-02-18T05:08:36.439Z",
       "last_seen": "2026-02-16T05:14:34.651Z",
       "sponsored": false,
       "verification_available": true
@@ -2929,7 +2975,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2937,7 +2983,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:18.861Z",
+      "last_checked": "2026-02-18T05:08:37.469Z",
       "last_seen": "2026-02-17T05:08:18.861Z",
       "sponsored": false,
       "verification_available": true
@@ -2952,7 +2998,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2960,7 +3006,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:20.766Z",
+      "last_checked": "2026-02-18T05:08:39.457Z",
       "last_seen": "2026-02-17T05:08:20.766Z",
       "sponsored": false,
       "verification_available": true
@@ -2975,7 +3021,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2983,7 +3029,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:22.861Z",
+      "last_checked": "2026-02-18T05:08:41.551Z",
       "last_seen": "2026-02-17T05:08:22.861Z",
       "sponsored": false,
       "verification_available": true
@@ -3016,12 +3062,12 @@
       "name": "d3.js",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3029,7 +3075,7 @@
           "url": "https://github.com/rohitg00/devrelguide"
         }
       ],
-      "last_checked": "2026-02-17T05:08:26.766Z",
+      "last_checked": "2026-02-18T05:08:43.557Z",
       "last_seen": "2026-02-16T05:14:40.612Z",
       "sponsored": false,
       "verification_available": true
@@ -3044,7 +3090,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3052,7 +3098,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:28.762Z",
+      "last_checked": "2026-02-18T05:08:45.465Z",
       "last_seen": "2026-02-17T05:08:28.762Z",
       "sponsored": false,
       "verification_available": true
@@ -3067,7 +3113,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3075,7 +3121,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:30.754Z",
+      "last_checked": "2026-02-18T05:08:47.456Z",
       "last_seen": "2026-02-17T05:08:30.754Z",
       "sponsored": false,
       "verification_available": true
@@ -3090,7 +3136,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3098,7 +3144,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:32.759Z",
+      "last_checked": "2026-02-18T05:08:49.467Z",
       "last_seen": "2026-02-17T05:08:32.759Z",
       "sponsored": false,
       "verification_available": true
@@ -3113,7 +3159,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3121,7 +3167,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:34.818Z",
+      "last_checked": "2026-02-18T05:08:51.462Z",
       "last_seen": "2026-02-17T05:08:34.818Z",
       "sponsored": false,
       "verification_available": true
@@ -3131,12 +3177,12 @@
       "name": "date.now",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3144,7 +3190,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-17T05:08:36.855Z",
+      "last_checked": "2026-02-18T05:08:53.478Z",
       "last_seen": "2026-02-16T05:14:42.607Z",
       "sponsored": false,
       "verification_available": true
@@ -3159,7 +3205,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3167,8 +3213,31 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:38.778Z",
+      "last_checked": "2026-02-18T05:08:55.476Z",
       "last_seen": "2026-02-17T05:08:38.778Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "db.products.search",
+      "name": "db.products.search",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-kit",
+          "url": "https://github.com/victorhuangwq/webmcp-kit"
+        }
+      ],
+      "last_checked": "2026-02-18T05:08:57.515Z",
+      "last_seen": "2026-02-18T05:08:57.515Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3182,7 +3251,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3190,7 +3259,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:40.760Z",
+      "last_checked": "2026-02-18T05:08:59.598Z",
       "last_seen": "2026-02-17T05:08:40.760Z",
       "sponsored": false,
       "verification_available": true
@@ -3205,7 +3274,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3213,7 +3282,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:42.854Z",
+      "last_checked": "2026-02-18T05:09:01.454Z",
       "last_seen": "2026-02-17T05:08:42.854Z",
       "sponsored": false,
       "verification_available": true
@@ -3228,7 +3297,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3236,7 +3305,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:44.851Z",
+      "last_checked": "2026-02-18T05:09:03.478Z",
       "last_seen": "2026-02-17T05:08:44.851Z",
       "sponsored": false,
       "verification_available": true
@@ -3251,7 +3320,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3259,7 +3328,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:46.803Z",
+      "last_checked": "2026-02-18T05:09:05.499Z",
       "last_seen": "2026-02-17T05:08:46.803Z",
       "sponsored": false,
       "verification_available": true
@@ -3274,7 +3343,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3282,7 +3351,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:48.763Z",
+      "last_checked": "2026-02-18T05:09:07.476Z",
       "last_seen": "2026-02-17T05:08:48.763Z",
       "sponsored": false,
       "verification_available": true
@@ -3297,7 +3366,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3305,7 +3374,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:08:50.853Z",
+      "last_checked": "2026-02-18T05:09:09.465Z",
       "last_seen": "2026-02-17T05:08:50.853Z",
       "sponsored": false,
       "verification_available": true
@@ -3328,7 +3397,7 @@
           "url": "https://github.com/azukiazusa1/sapper-blog-app"
         }
       ],
-      "last_checked": "2026-02-17T05:08:52.800Z",
+      "last_checked": "2026-02-18T05:09:11.473Z",
       "last_seen": "2026-02-16T05:14:44.631Z",
       "sponsored": false,
       "verification_available": true
@@ -3338,12 +3407,12 @@
       "name": "deploy.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3351,7 +3420,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-17T05:08:54.783Z",
+      "last_checked": "2026-02-18T05:09:13.494Z",
       "last_seen": "2026-02-16T05:14:46.654Z",
       "sponsored": false,
       "verification_available": true
@@ -3361,12 +3430,12 @@
       "name": "deployment.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3374,7 +3443,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:08:56.906Z",
+      "last_checked": "2026-02-18T05:09:15.673Z",
       "last_seen": "2026-02-16T05:14:48.784Z",
       "sponsored": false,
       "verification_available": true
@@ -3384,12 +3453,12 @@
       "name": "design.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3397,7 +3466,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:09:06.741Z",
+      "last_checked": "2026-02-18T05:09:25.443Z",
       "last_seen": "2026-02-16T05:14:58.598Z",
       "sponsored": false,
       "verification_available": true
@@ -3425,7 +3494,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:08.829Z",
+      "last_checked": "2026-02-18T05:09:27.269Z",
       "last_seen": "2026-02-16T05:15:00.351Z",
       "sponsored": false,
       "verification_available": true
@@ -3435,12 +3504,12 @@
       "name": "devalta.git",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3448,7 +3517,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:09:10.488Z",
+      "last_checked": "2026-02-18T05:09:29.120Z",
       "last_seen": "2026-02-16T05:15:02.211Z",
       "sponsored": false,
       "verification_available": true
@@ -3458,12 +3527,12 @@
       "name": "develop.html",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3471,8 +3540,31 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:09:12.465Z",
+      "last_checked": "2026-02-18T05:09:31.168Z",
       "last_seen": "2026-02-16T05:15:04.305Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "developer.chrome.com",
+      "name": "developer.chrome.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-kit",
+          "url": "https://github.com/victorhuangwq/webmcp-kit"
+        }
+      ],
+      "last_checked": "2026-02-18T05:09:33.132Z",
+      "last_seen": "2026-02-18T05:09:33.132Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3486,7 +3578,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3494,7 +3586,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:14.560Z",
+      "last_checked": "2026-02-18T05:09:35.345Z",
       "last_seen": "2026-02-17T05:09:14.560Z",
       "sponsored": false,
       "verification_available": true
@@ -3522,7 +3614,7 @@
           "url": "https://github.com/pillarhq/pillar"
         }
       ],
-      "last_checked": "2026-02-17T05:09:16.510Z",
+      "last_checked": "2026-02-18T05:09:37.124Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -3532,12 +3624,12 @@
       "name": "discussione.parlamento",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3545,7 +3637,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-02-17T05:09:18.481Z",
+      "last_checked": "2026-02-18T05:09:39.142Z",
       "last_seen": "2026-02-16T05:15:08.240Z",
       "sponsored": false,
       "verification_available": true
@@ -3555,12 +3647,12 @@
       "name": "docker-compose.dev.yml",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3568,7 +3660,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:09:20.466Z",
+      "last_checked": "2026-02-18T05:09:41.113Z",
       "last_seen": "2026-02-16T05:15:10.267Z",
       "sponsored": false,
       "verification_available": true
@@ -3578,12 +3670,12 @@
       "name": "docker-compose.yml",
       "type": [],
       "confidence": 60,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3596,7 +3688,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:09:22.582Z",
+      "last_checked": "2026-02-18T05:09:43.161Z",
       "last_seen": "2026-02-16T05:15:12.235Z",
       "sponsored": false,
       "verification_available": true
@@ -3619,8 +3711,31 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:24.467Z",
+      "last_checked": "2026-02-18T05:09:45.123Z",
       "last_seen": "2026-02-17T05:09:24.467Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docs.google.com",
+      "name": "docs.google.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-kit",
+          "url": "https://github.com/victorhuangwq/webmcp-kit"
+        }
+      ],
+      "last_checked": "2026-02-18T05:09:47.117Z",
+      "last_seen": "2026-02-18T05:09:47.117Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3638,10 +3753,10 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-02-17T05:09:26.455Z"
+          "last_success": "2026-02-18T05:09:49.556Z"
         }
       ],
-      "last_verified_success": "2026-02-17T05:09:26.455Z",
+      "last_verified_success": "2026-02-18T05:09:49.556Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -3655,8 +3770,8 @@
           "url": "https://docs.mcp-b.ai/"
         }
       ],
-      "last_checked": "2026-02-17T05:09:26.455Z",
-      "last_seen": "2026-02-17T05:09:26.455Z",
+      "last_checked": "2026-02-18T05:09:49.556Z",
+      "last_seen": "2026-02-18T05:09:49.556Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3678,7 +3793,7 @@
           "url": "https://github.com/azukiazusa1/sapper-blog-app"
         }
       ],
-      "last_checked": "2026-02-17T05:09:28.616Z",
+      "last_checked": "2026-02-18T05:09:51.233Z",
       "last_seen": "2026-02-16T05:15:16.420Z",
       "sponsored": false,
       "verification_available": true
@@ -3711,12 +3826,12 @@
       "name": "document.queryselectorall",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3724,8 +3839,31 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-02-17T05:09:32.564Z",
+      "last_checked": "2026-02-18T05:09:53.102Z",
       "last_seen": "2026-02-16T05:15:20.302Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "document.title",
+      "name": "document.title",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: apetcu/react-webmcp-utils",
+          "url": "https://github.com/apetcu/react-webmcp-utils"
+        }
+      ],
+      "last_checked": "2026-02-18T05:09:55.123Z",
+      "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3739,7 +3877,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3747,7 +3885,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:34.514Z",
+      "last_checked": "2026-02-18T05:09:57.105Z",
       "last_seen": "2026-02-17T05:09:34.514Z",
       "sponsored": false,
       "verification_available": true
@@ -3762,7 +3900,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3770,7 +3908,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:36.463Z",
+      "last_checked": "2026-02-18T05:09:59.148Z",
       "last_seen": "2026-02-17T05:09:36.463Z",
       "sponsored": false,
       "verification_available": true
@@ -3849,12 +3987,12 @@
       "name": "e2e.yml",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3862,7 +4000,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-17T05:09:38.467Z",
+      "last_checked": "2026-02-18T05:10:01.099Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -3872,12 +4010,12 @@
       "name": "easely.example",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3885,7 +4023,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:09:40.513Z",
+      "last_checked": "2026-02-18T05:10:03.111Z",
       "last_seen": "2026-02-16T05:15:30.224Z",
       "sponsored": false,
       "verification_available": true
@@ -3895,12 +4033,12 @@
       "name": "easely.example`,",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3908,7 +4046,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-17T05:09:42.557Z",
+      "last_checked": "2026-02-18T05:10:05.195Z",
       "last_seen": "2026-02-16T05:15:32.203Z",
       "sponsored": false,
       "verification_available": true
@@ -3923,7 +4061,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3931,7 +4069,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:44.445Z",
+      "last_checked": "2026-02-18T05:10:07.088Z",
       "last_seen": "2026-02-17T05:09:44.445Z",
       "sponsored": false,
       "verification_available": true
@@ -3941,12 +4079,12 @@
       "name": "el.dataset.price",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3954,7 +4092,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-02-17T05:09:46.464Z",
+      "last_checked": "2026-02-18T05:10:09.151Z",
       "last_seen": "2026-02-16T05:15:34.193Z",
       "sponsored": false,
       "verification_available": true
@@ -3964,12 +4102,12 @@
       "name": "el.getattribute",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3977,7 +4115,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-02-17T05:09:48.456Z",
+      "last_checked": "2026-02-18T05:10:11.183Z",
       "last_seen": "2026-02-16T05:15:36.232Z",
       "sponsored": false,
       "verification_available": true
@@ -3987,12 +4125,12 @@
       "name": "el.textcontent.trim",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4000,7 +4138,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-02-17T05:09:50.550Z",
+      "last_checked": "2026-02-18T05:10:13.098Z",
       "last_seen": "2026-02-16T05:15:38.217Z",
       "sponsored": false,
       "verification_available": true
@@ -4015,7 +4153,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4023,7 +4161,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:52.449Z",
+      "last_checked": "2026-02-18T05:10:15.156Z",
       "last_seen": "2026-02-17T05:09:52.449Z",
       "sponsored": false,
       "verification_available": true
@@ -4038,7 +4176,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4046,7 +4184,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:54.454Z",
+      "last_checked": "2026-02-18T05:10:17.196Z",
       "last_seen": "2026-02-17T05:09:54.454Z",
       "sponsored": false,
       "verification_available": true
@@ -4061,7 +4199,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4069,7 +4207,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:09:56.451Z",
+      "last_checked": "2026-02-18T05:10:19.091Z",
       "last_seen": "2026-02-17T05:09:56.451Z",
       "sponsored": false,
       "verification_available": true
@@ -4079,12 +4217,12 @@
       "name": "embedding-atlas-dark.png",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4092,7 +4230,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:09:58.445Z",
+      "last_checked": "2026-02-18T05:10:21.092Z",
       "last_seen": "2026-02-16T05:15:40.204Z",
       "sponsored": false,
       "verification_available": true
@@ -4102,12 +4240,12 @@
       "name": "embedding-atlas-light.png",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4115,7 +4253,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-02-17T05:10:00.447Z",
+      "last_checked": "2026-02-18T05:10:23.088Z",
       "last_seen": "2026-02-16T05:15:42.211Z",
       "sponsored": false,
       "verification_available": true
@@ -4125,12 +4263,12 @@
       "name": "emergency-response.spec.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4138,7 +4276,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:10:02.498Z",
+      "last_checked": "2026-02-18T05:10:25.136Z",
       "last_seen": "2026-02-16T05:15:44.317Z",
       "sponsored": false,
       "verification_available": true
@@ -4153,7 +4291,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4161,7 +4299,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:04.460Z",
+      "last_checked": "2026-02-18T05:10:27.105Z",
       "last_seen": "2026-02-17T05:10:04.460Z",
       "sponsored": false,
       "verification_available": true
@@ -4176,7 +4314,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4184,7 +4322,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:06.548Z",
+      "last_checked": "2026-02-18T05:10:29.085Z",
       "last_seen": "2026-02-17T05:10:06.548Z",
       "sponsored": false,
       "verification_available": true
@@ -4194,12 +4332,12 @@
       "name": "env.docker",
       "type": [],
       "confidence": 60,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4212,7 +4350,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-02-17T05:10:08.549Z",
+      "last_checked": "2026-02-18T05:10:31.137Z",
       "last_seen": "2026-02-16T05:15:46.302Z",
       "sponsored": false,
       "verification_available": true
@@ -4222,12 +4360,12 @@
       "name": "env.example",
       "type": [],
       "confidence": 100,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4255,7 +4393,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:10:10.452Z",
+      "last_checked": "2026-02-18T05:10:33.093Z",
       "last_seen": "2026-02-16T05:15:48.263Z",
       "sponsored": false,
       "verification_available": true
@@ -4265,12 +4403,12 @@
       "name": "env.local",
       "type": [],
       "confidence": 90,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4288,7 +4426,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:12.550Z",
+      "last_checked": "2026-02-18T05:10:35.134Z",
       "last_seen": "2026-02-16T05:15:50.204Z",
       "sponsored": false,
       "verification_available": true
@@ -4303,7 +4441,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4311,7 +4449,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:14.443Z",
+      "last_checked": "2026-02-18T05:10:37.078Z",
       "last_seen": "2026-02-17T05:10:14.443Z",
       "sponsored": false,
       "verification_available": true
@@ -4326,7 +4464,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4334,7 +4472,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:16.500Z",
+      "last_checked": "2026-02-18T05:10:39.138Z",
       "last_seen": "2026-02-17T05:10:16.500Z",
       "sponsored": false,
       "verification_available": true
@@ -4344,12 +4482,12 @@
       "name": "events.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4357,7 +4495,7 @@
           "url": "https://github.com/iodigital-com/io-technology"
         }
       ],
-      "last_checked": "2026-02-17T05:10:18.501Z",
+      "last_checked": "2026-02-18T05:10:41.077Z",
       "last_seen": "2026-02-16T05:15:52.201Z",
       "sponsored": false,
       "verification_available": true
@@ -4367,12 +4505,12 @@
       "name": "example.com",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4380,7 +4518,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-02-17T05:10:20.507Z",
+      "last_checked": "2026-02-18T05:10:43.183Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -4418,7 +4556,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4426,7 +4564,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:24.510Z",
+      "last_checked": "2026-02-18T05:10:45.076Z",
       "last_seen": "2026-02-17T05:10:24.510Z",
       "sponsored": false,
       "verification_available": true
@@ -4441,7 +4579,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4449,7 +4587,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:26.452Z",
+      "last_checked": "2026-02-18T05:10:47.131Z",
       "last_seen": "2026-02-17T05:10:26.452Z",
       "sponsored": false,
       "verification_available": true
@@ -4472,7 +4610,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-02-17T05:10:28.464Z",
+      "last_checked": "2026-02-18T05:10:49.087Z",
       "last_seen": "2026-02-16T05:15:58.356Z",
       "sponsored": false,
       "verification_available": true
@@ -4510,7 +4648,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4518,7 +4656,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:30.782Z",
+      "last_checked": "2026-02-18T05:10:51.269Z",
       "last_seen": "2026-02-17T05:10:30.782Z",
       "sponsored": false,
       "verification_available": true
@@ -4533,7 +4671,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4541,7 +4679,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:32.451Z",
+      "last_checked": "2026-02-18T05:10:53.071Z",
       "last_seen": "2026-02-17T05:10:32.451Z",
       "sponsored": false,
       "verification_available": true
@@ -4556,7 +4694,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4564,7 +4702,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:34.453Z",
+      "last_checked": "2026-02-18T05:10:55.089Z",
       "last_seen": "2026-02-17T05:10:34.453Z",
       "sponsored": false,
       "verification_available": true
@@ -4579,7 +4717,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4587,7 +4725,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:36.459Z",
+      "last_checked": "2026-02-18T05:10:57.088Z",
       "last_seen": "2026-02-17T05:10:36.459Z",
       "sponsored": false,
       "verification_available": true
@@ -4602,7 +4740,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4610,7 +4748,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:38.458Z",
+      "last_checked": "2026-02-18T05:10:59.086Z",
       "last_seen": "2026-02-17T05:10:38.458Z",
       "sponsored": false,
       "verification_available": true
@@ -4625,7 +4763,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4633,7 +4771,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:40.463Z",
+      "last_checked": "2026-02-18T05:11:01.167Z",
       "last_seen": "2026-02-17T05:10:40.463Z",
       "sponsored": false,
       "verification_available": true
@@ -4648,7 +4786,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4656,7 +4794,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:42.551Z",
+      "last_checked": "2026-02-18T05:11:03.125Z",
       "last_seen": "2026-02-17T05:10:42.551Z",
       "sponsored": false,
       "verification_available": true
@@ -4671,7 +4809,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4679,7 +4817,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:44.457Z",
+      "last_checked": "2026-02-18T05:11:05.080Z",
       "last_seen": "2026-02-17T05:10:44.457Z",
       "sponsored": false,
       "verification_available": true
@@ -4694,7 +4832,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4702,7 +4840,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-17T05:10:46.503Z",
+      "last_checked": "2026-02-18T05:11:07.092Z",
       "last_seen": "2026-02-17T05:10:46.503Z",
       "sponsored": false,
       "verification_available": true
@@ -4712,12 +4850,12 @@
       "name": "feed.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4725,7 +4863,7 @@
           "url": "https://github.com/NeverSight/skills_feed"
         }
       ],
-      "last_checked": "2026-02-17T05:10:48.519Z",
+      "last_checked": "2026-02-18T05:11:09.065Z",
       "last_seen": "2026-02-16T05:16:02.592Z",
       "sponsored": false,
       "verification_available": true
@@ -4740,7 +4878,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4748,7 +4886,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:50.505Z",
+      "last_checked": "2026-02-18T05:11:11.169Z",
       "last_seen": "2026-02-17T05:10:50.505Z",
       "sponsored": false,
       "verification_available": true
@@ -4758,12 +4896,12 @@
       "name": "feed.xml",
       "type": [],
       "confidence": 60,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4776,7 +4914,7 @@
           "url": "https://github.com/NeverSight/skills_feed"
         }
       ],
-      "last_checked": "2026-02-17T05:10:52.460Z",
+      "last_checked": "2026-02-18T05:11:13.063Z",
       "last_seen": "2026-02-16T05:16:04.307Z",
       "sponsored": false,
       "verification_available": true
@@ -4791,7 +4929,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4799,7 +4937,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:54.461Z",
+      "last_checked": "2026-02-18T05:11:15.066Z",
       "last_seen": "2026-02-17T05:10:54.461Z",
       "sponsored": false,
       "verification_available": true
@@ -4814,7 +4952,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4822,7 +4960,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:56.558Z",
+      "last_checked": "2026-02-18T05:11:17.070Z",
       "last_seen": "2026-02-17T05:10:56.558Z",
       "sponsored": false,
       "verification_available": true
@@ -4837,7 +4975,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4845,7 +4983,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:10:58.471Z",
+      "last_checked": "2026-02-18T05:11:19.126Z",
       "last_seen": "2026-02-17T05:10:58.471Z",
       "sponsored": false,
       "verification_available": true
@@ -4868,7 +5006,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:11:00.462Z",
+      "last_checked": "2026-02-18T05:11:21.078Z",
       "last_seen": "2026-02-16T05:16:06.221Z",
       "sponsored": false,
       "verification_available": true
@@ -4878,12 +5016,12 @@
       "name": "fix-monorepo.js",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4891,7 +5029,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:11:02.681Z",
+      "last_checked": "2026-02-18T05:11:23.263Z",
       "last_seen": "2026-02-16T05:16:08.639Z",
       "sponsored": false,
       "verification_available": true
@@ -4901,12 +5039,12 @@
       "name": "formatmedicalid.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4914,7 +5052,7 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-17T05:11:04.556Z",
+      "last_checked": "2026-02-18T05:11:25.084Z",
       "last_seen": "2026-02-16T05:16:10.211Z",
       "sponsored": false,
       "verification_available": true
@@ -4924,12 +5062,12 @@
       "name": "forms.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4937,7 +5075,7 @@
           "url": "https://github.com/iodigital-com/io-technology"
         }
       ],
-      "last_checked": "2026-02-17T05:11:06.467Z",
+      "last_checked": "2026-02-18T05:11:27.092Z",
       "last_seen": "2026-02-16T05:16:12.310Z",
       "sponsored": false,
       "verification_available": true
@@ -4952,7 +5090,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4960,7 +5098,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:11:08.465Z",
+      "last_checked": "2026-02-18T05:11:29.088Z",
       "last_seen": "2026-02-17T05:11:08.465Z",
       "sponsored": false,
       "verification_available": true
@@ -4975,7 +5113,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4983,7 +5121,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:11:10.458Z",
+      "last_checked": "2026-02-18T05:11:31.076Z",
       "last_seen": "2026-02-17T05:11:10.458Z",
       "sponsored": false,
       "verification_available": true
@@ -4998,7 +5136,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5006,7 +5144,7 @@
           "url": "https://github.com/HomenShum/nodebench-ai"
         }
       ],
-      "last_checked": "2026-02-17T05:11:12.553Z",
+      "last_checked": "2026-02-18T05:11:33.074Z",
       "last_seen": "2026-02-17T05:11:12.553Z",
       "sponsored": false,
       "verification_available": true
@@ -5044,7 +5182,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5052,7 +5190,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-02-16T05:16:16.307Z",
+      "last_checked": "2026-02-18T05:11:35.102Z",
       "last_seen": "2026-02-16T05:16:16.307Z",
       "sponsored": false,
       "verification_available": true
@@ -5067,7 +5205,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5075,7 +5213,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-16T05:16:18.353Z",
+      "last_checked": "2026-02-18T05:11:37.225Z",
       "last_seen": "2026-02-16T05:16:18.353Z",
       "sponsored": false,
       "verification_available": true
@@ -5084,8 +5222,8 @@
       "domain": "gmail.com",
       "name": "gmail.com",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -5096,9 +5234,14 @@
           "kind": "github_hit",
           "detail": "repo: openakita/openakita",
           "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pocketpaw/pocketpaw",
+          "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-02-16T05:16:20.348Z",
+      "last_checked": "2026-02-18T05:11:39.229Z",
       "last_seen": "2026-02-16T05:16:20.348Z",
       "sponsored": false,
       "verification_available": true
@@ -5121,7 +5264,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-16T05:16:22.749Z",
+      "last_checked": "2026-02-18T05:11:41.585Z",
       "last_seen": "2026-02-16T05:16:22.749Z",
       "sponsored": false,
       "verification_available": true
@@ -5173,8 +5316,8 @@
       "verification_available": true
     },
     {
-      "domain": "guia-definitiva-worktree-quality.md",
-      "name": "guia-definitiva-worktree-quality.md",
+      "domain": "groundtruthlookuptool.ts",
+      "name": "groundtruthlookuptool.ts",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -5186,11 +5329,34 @@
       "evidence": [
         {
           "kind": "github_hit",
+          "detail": "repo: HomenShum/nodebench-ai",
+          "url": "https://github.com/HomenShum/nodebench-ai"
+        }
+      ],
+      "last_checked": "2026-02-18T05:11:43.147Z",
+      "last_seen": "2026-02-18T05:11:43.147Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "guia-definitiva-worktree-quality.md",
+      "name": "guia-definitiva-worktree-quality.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
           "detail": "repo: ecucondorSA/Devaltamedica-Independent",
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-02-16T05:16:28.227Z",
+      "last_checked": "2026-02-18T05:11:45.080Z",
       "last_seen": "2026-02-16T05:16:28.227Z",
       "sponsored": false,
       "verification_available": true
