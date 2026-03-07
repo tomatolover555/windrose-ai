@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-06T04:59:26.376Z",
+  "updated_at": "2026-03-07T04:48:31.953Z",
   "items": [
     {
       "domain": "101.42.26.70:3000",
@@ -11,7 +11,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19,7 +19,7 @@
           "url": "https://github.com/evo-family/evo-chat"
         }
       ],
-      "last_checked": "2026-03-06T04:52:18.756Z",
+      "last_checked": "2026-03-07T04:41:40.969Z",
       "last_seen": "2026-03-01T05:03:12.519Z",
       "sponsored": false,
       "verification_available": true
@@ -34,7 +34,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -42,7 +42,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:52:28.533Z",
+      "last_checked": "2026-03-07T04:41:50.815Z",
       "last_seen": "2026-03-04T04:51:42.026Z",
       "sponsored": false,
       "verification_available": true
@@ -74,21 +74,26 @@
       "domain": "202.0-blue.svg",
       "name": "202.0-blue.svg",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: openakita/openakita",
           "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-06T04:52:29.602Z",
+      "last_checked": "2026-03-07T04:41:51.834Z",
       "last_seen": "2026-03-02T04:59:03.766Z",
       "sponsored": false,
       "verification_available": true
@@ -103,7 +108,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -111,7 +116,7 @@
           "url": "https://github.com/evo-family/evo-chat"
         }
       ],
-      "last_checked": "2026-03-06T04:52:31.556Z",
+      "last_checked": "2026-03-07T04:41:53.837Z",
       "last_seen": "2026-03-01T05:03:22.343Z",
       "sponsored": false,
       "verification_available": true
@@ -126,7 +131,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +139,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:03.760Z",
+      "last_checked": "2026-03-07T04:41:55.889Z",
       "last_seen": "2026-02-19T05:04:34.053Z",
       "sponsored": false,
       "verification_available": true
@@ -149,7 +154,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -157,7 +162,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:05.810Z",
+      "last_checked": "2026-03-07T04:41:57.973Z",
       "last_seen": "2026-02-19T05:04:36.061Z",
       "sponsored": false,
       "verification_available": true
@@ -172,7 +177,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -180,7 +185,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:08.117Z",
+      "last_checked": "2026-03-07T04:41:59.969Z",
       "last_seen": "2026-02-19T05:04:38.058Z",
       "sponsored": false,
       "verification_available": true
@@ -195,7 +200,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -203,7 +208,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:10.018Z",
+      "last_checked": "2026-03-07T04:42:02.164Z",
       "last_seen": "2026-02-19T05:04:40.068Z",
       "sponsored": false,
       "verification_available": true
@@ -218,7 +223,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -226,7 +231,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:11.837Z",
+      "last_checked": "2026-03-07T04:42:03.974Z",
       "last_seen": "2026-02-19T05:04:42.058Z",
       "sponsored": false,
       "verification_available": true
@@ -241,7 +246,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -249,7 +254,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:13.915Z",
+      "last_checked": "2026-03-07T04:42:05.972Z",
       "last_seen": "2026-02-19T05:04:44.071Z",
       "sponsored": false,
       "verification_available": true
@@ -264,7 +269,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -272,7 +277,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:15.815Z",
+      "last_checked": "2026-03-07T04:42:07.972Z",
       "last_seen": "2026-02-19T05:04:46.055Z",
       "sponsored": false,
       "verification_available": true
@@ -287,7 +292,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -295,7 +300,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:17.822Z",
+      "last_checked": "2026-03-07T04:42:09.970Z",
       "last_seen": "2026-02-19T05:04:48.057Z",
       "sponsored": false,
       "verification_available": true
@@ -310,7 +315,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -318,7 +323,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:20.238Z",
+      "last_checked": "2026-03-07T04:42:11.972Z",
       "last_seen": "2026-02-19T05:04:49.880Z",
       "sponsored": false,
       "verification_available": true
@@ -333,7 +338,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -341,7 +346,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:21.734Z",
+      "last_checked": "2026-03-07T04:42:13.978Z",
       "last_seen": "2026-02-19T05:04:52.055Z",
       "sponsored": false,
       "verification_available": true
@@ -356,7 +361,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -364,7 +369,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:23.823Z",
+      "last_checked": "2026-03-07T04:42:15.978Z",
       "last_seen": "2026-02-19T05:04:53.887Z",
       "sponsored": false,
       "verification_available": true
@@ -402,7 +407,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -410,7 +415,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:25.814Z",
+      "last_checked": "2026-03-07T04:42:17.981Z",
       "last_seen": "2026-02-19T05:04:56.069Z",
       "sponsored": false,
       "verification_available": true
@@ -425,7 +430,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -433,7 +438,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:27.814Z",
+      "last_checked": "2026-03-07T04:42:19.978Z",
       "last_seen": "2026-02-19T05:04:58.054Z",
       "sponsored": false,
       "verification_available": true
@@ -448,7 +453,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -456,7 +461,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:29.817Z",
+      "last_checked": "2026-03-07T04:42:21.978Z",
       "last_seen": "2026-02-19T05:05:00.056Z",
       "sponsored": false,
       "verification_available": true
@@ -471,7 +476,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -479,7 +484,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:31.817Z",
+      "last_checked": "2026-03-07T04:42:23.979Z",
       "last_seen": "2026-02-19T05:05:02.059Z",
       "sponsored": false,
       "verification_available": true
@@ -494,7 +499,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -502,7 +507,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:33.822Z",
+      "last_checked": "2026-03-07T04:42:25.986Z",
       "last_seen": "2026-02-19T05:05:04.064Z",
       "sponsored": false,
       "verification_available": true
@@ -517,7 +522,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -525,7 +530,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:35.730Z",
+      "last_checked": "2026-03-07T04:42:28.036Z",
       "last_seen": "2026-02-19T05:05:06.059Z",
       "sponsored": false,
       "verification_available": true
@@ -540,7 +545,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -548,7 +553,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:37.812Z",
+      "last_checked": "2026-03-07T04:42:29.995Z",
       "last_seen": "2026-02-19T05:05:08.068Z",
       "sponsored": false,
       "verification_available": true
@@ -563,7 +568,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -571,7 +576,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:39.821Z",
+      "last_checked": "2026-03-07T04:42:31.984Z",
       "last_seen": "2026-02-19T05:05:10.065Z",
       "sponsored": false,
       "verification_available": true
@@ -586,7 +591,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -594,7 +599,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:41.812Z",
+      "last_checked": "2026-03-07T04:42:33.983Z",
       "last_seen": "2026-02-19T05:05:12.068Z",
       "sponsored": false,
       "verification_available": true
@@ -609,7 +614,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -617,7 +622,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:43.809Z",
+      "last_checked": "2026-03-07T04:42:35.982Z",
       "last_seen": "2026-02-19T05:05:14.024Z",
       "sponsored": false,
       "verification_available": true
@@ -632,7 +637,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -640,7 +645,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:45.818Z",
+      "last_checked": "2026-03-07T04:42:37.983Z",
       "last_seen": "2026-02-19T05:05:16.060Z",
       "sponsored": false,
       "verification_available": true
@@ -655,7 +660,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -663,7 +668,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:47.819Z",
+      "last_checked": "2026-03-07T04:42:39.985Z",
       "last_seen": "2026-02-19T05:05:18.073Z",
       "sponsored": false,
       "verification_available": true
@@ -678,7 +683,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -686,7 +691,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:49.805Z",
+      "last_checked": "2026-03-07T04:42:41.984Z",
       "last_seen": "2026-02-19T05:05:20.072Z",
       "sponsored": false,
       "verification_available": true
@@ -701,7 +706,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -709,7 +714,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:51.729Z",
+      "last_checked": "2026-03-07T04:42:43.980Z",
       "last_seen": "2026-02-19T05:05:22.065Z",
       "sponsored": false,
       "verification_available": true
@@ -724,7 +729,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -732,7 +737,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:53.814Z",
+      "last_checked": "2026-03-07T04:42:45.985Z",
       "last_seen": "2026-02-19T05:05:24.069Z",
       "sponsored": false,
       "verification_available": true
@@ -747,7 +752,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -755,7 +760,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:55.817Z",
+      "last_checked": "2026-03-07T04:42:47.990Z",
       "last_seen": "2026-02-19T05:05:26.063Z",
       "sponsored": false,
       "verification_available": true
@@ -770,7 +775,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -778,7 +783,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:57.737Z",
+      "last_checked": "2026-03-07T04:42:49.986Z",
       "last_seen": "2026-02-19T05:05:28.069Z",
       "sponsored": false,
       "verification_available": true
@@ -793,7 +798,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -801,7 +806,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:57:59.815Z",
+      "last_checked": "2026-03-07T04:42:51.982Z",
       "last_seen": "2026-02-19T05:05:30.072Z",
       "sponsored": false,
       "verification_available": true
@@ -816,7 +821,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -824,7 +829,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:01.822Z",
+      "last_checked": "2026-03-07T04:42:53.984Z",
       "last_seen": "2026-02-19T05:05:32.068Z",
       "sponsored": false,
       "verification_available": true
@@ -839,7 +844,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -847,7 +852,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:03.816Z",
+      "last_checked": "2026-03-07T04:42:55.996Z",
       "last_seen": "2026-02-19T05:05:34.074Z",
       "sponsored": false,
       "verification_available": true
@@ -862,7 +867,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -870,7 +875,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:05.820Z",
+      "last_checked": "2026-03-07T04:42:57.985Z",
       "last_seen": "2026-02-19T05:05:36.066Z",
       "sponsored": false,
       "verification_available": true
@@ -885,7 +890,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -893,7 +898,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:07.809Z",
+      "last_checked": "2026-03-07T04:42:59.990Z",
       "last_seen": "2026-02-19T05:05:38.085Z",
       "sponsored": false,
       "verification_available": true
@@ -908,7 +913,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -916,7 +921,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:09.816Z",
+      "last_checked": "2026-03-07T04:43:01.987Z",
       "last_seen": "2026-02-19T05:05:40.081Z",
       "sponsored": false,
       "verification_available": true
@@ -931,7 +936,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -939,7 +944,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:11.728Z",
+      "last_checked": "2026-03-07T04:43:03.988Z",
       "last_seen": "2026-02-19T05:05:42.091Z",
       "sponsored": false,
       "verification_available": true
@@ -954,7 +959,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -962,7 +967,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:13.819Z",
+      "last_checked": "2026-03-07T04:43:05.986Z",
       "last_seen": "2026-02-19T05:05:44.075Z",
       "sponsored": false,
       "verification_available": true
@@ -977,7 +982,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -985,7 +990,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:15.825Z",
+      "last_checked": "2026-03-07T04:43:07.983Z",
       "last_seen": "2026-02-19T05:05:46.073Z",
       "sponsored": false,
       "verification_available": true
@@ -1000,7 +1005,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1008,7 +1013,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:17.815Z",
+      "last_checked": "2026-03-07T04:43:09.992Z",
       "last_seen": "2026-02-19T05:05:48.078Z",
       "sponsored": false,
       "verification_available": true
@@ -1023,7 +1028,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1031,7 +1036,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:19.817Z",
+      "last_checked": "2026-03-07T04:43:11.984Z",
       "last_seen": "2026-02-19T05:05:50.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1046,7 +1051,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1054,7 +1059,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:21.822Z",
+      "last_checked": "2026-03-07T04:43:13.987Z",
       "last_seen": "2026-02-19T05:05:52.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1069,7 +1074,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1077,7 +1082,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:23.824Z",
+      "last_checked": "2026-03-07T04:43:15.987Z",
       "last_seen": "2026-02-19T05:05:54.083Z",
       "sponsored": false,
       "verification_available": true
@@ -1092,7 +1097,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1100,7 +1105,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:25.835Z",
+      "last_checked": "2026-03-07T04:43:17.990Z",
       "last_seen": "2026-02-19T05:05:56.048Z",
       "sponsored": false,
       "verification_available": true
@@ -1115,7 +1120,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1123,7 +1128,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:27.824Z",
+      "last_checked": "2026-03-07T04:43:19.996Z",
       "last_seen": "2026-02-19T05:05:58.100Z",
       "sponsored": false,
       "verification_available": true
@@ -1138,7 +1143,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1146,7 +1151,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:29.738Z",
+      "last_checked": "2026-03-07T04:43:21.989Z",
       "last_seen": "2026-02-19T05:06:00.089Z",
       "sponsored": false,
       "verification_available": true
@@ -1161,7 +1166,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1169,7 +1174,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:31.740Z",
+      "last_checked": "2026-03-07T04:43:23.993Z",
       "last_seen": "2026-02-19T05:06:02.086Z",
       "sponsored": false,
       "verification_available": true
@@ -1184,7 +1189,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1192,7 +1197,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:33.743Z",
+      "last_checked": "2026-03-07T04:43:25.986Z",
       "last_seen": "2026-02-19T05:06:04.078Z",
       "sponsored": false,
       "verification_available": true
@@ -1207,7 +1212,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1215,7 +1220,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:35.835Z",
+      "last_checked": "2026-03-07T04:43:27.995Z",
       "last_seen": "2026-02-19T05:06:06.077Z",
       "sponsored": false,
       "verification_available": true
@@ -1230,7 +1235,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1238,7 +1243,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:37.831Z",
+      "last_checked": "2026-03-07T04:43:29.990Z",
       "last_seen": "2026-02-19T05:06:08.081Z",
       "sponsored": false,
       "verification_available": true
@@ -1253,7 +1258,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1261,7 +1266,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:39.744Z",
+      "last_checked": "2026-03-07T04:43:31.990Z",
       "last_seen": "2026-02-19T05:06:10.096Z",
       "sponsored": false,
       "verification_available": true
@@ -1276,7 +1281,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1284,7 +1289,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:41.828Z",
+      "last_checked": "2026-03-07T04:43:33.989Z",
       "last_seen": "2026-02-19T05:06:12.092Z",
       "sponsored": false,
       "verification_available": true
@@ -1299,7 +1304,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1307,7 +1312,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:43.839Z",
+      "last_checked": "2026-03-07T04:43:35.995Z",
       "last_seen": "2026-02-19T05:06:14.083Z",
       "sponsored": false,
       "verification_available": true
@@ -1322,7 +1327,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1330,7 +1335,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:45.747Z",
+      "last_checked": "2026-03-07T04:43:37.997Z",
       "last_seen": "2026-02-19T05:06:16.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1345,7 +1350,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1353,7 +1358,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:47.841Z",
+      "last_checked": "2026-03-07T04:43:39.999Z",
       "last_seen": "2026-02-19T05:06:18.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1368,7 +1373,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1376,7 +1381,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:49.836Z",
+      "last_checked": "2026-03-07T04:43:42.001Z",
       "last_seen": "2026-02-19T05:06:20.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1391,7 +1396,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1399,7 +1404,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:51.835Z",
+      "last_checked": "2026-03-07T04:43:43.999Z",
       "last_seen": "2026-02-19T05:06:22.080Z",
       "sponsored": false,
       "verification_available": true
@@ -1414,7 +1419,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1422,7 +1427,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:53.835Z",
+      "last_checked": "2026-03-07T04:43:46.003Z",
       "last_seen": "2026-02-19T05:06:24.081Z",
       "sponsored": false,
       "verification_available": true
@@ -1437,7 +1442,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1445,7 +1450,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:55.836Z",
+      "last_checked": "2026-03-07T04:43:48.007Z",
       "last_seen": "2026-02-19T05:06:26.077Z",
       "sponsored": false,
       "verification_available": true
@@ -1460,7 +1465,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1468,7 +1473,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:57.825Z",
+      "last_checked": "2026-03-07T04:43:50.005Z",
       "last_seen": "2026-02-19T05:06:28.045Z",
       "sponsored": false,
       "verification_available": true
@@ -1483,7 +1488,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1491,7 +1496,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:58:59.831Z",
+      "last_checked": "2026-03-07T04:43:52.020Z",
       "last_seen": "2026-02-19T05:06:30.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1506,7 +1511,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1514,7 +1519,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:01.830Z",
+      "last_checked": "2026-03-07T04:43:54.008Z",
       "last_seen": "2026-02-19T05:06:32.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1529,7 +1534,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1537,7 +1542,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:03.748Z",
+      "last_checked": "2026-03-07T04:43:55.857Z",
       "last_seen": "2026-02-19T05:06:34.087Z",
       "sponsored": false,
       "verification_available": true
@@ -1552,7 +1557,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1560,7 +1565,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:05.833Z",
+      "last_checked": "2026-03-07T04:43:58.001Z",
       "last_seen": "2026-02-19T05:06:36.044Z",
       "sponsored": false,
       "verification_available": true
@@ -1575,7 +1580,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1583,7 +1588,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:11.381Z",
+      "last_checked": "2026-03-07T04:44:00.006Z",
       "last_seen": "2026-02-19T05:06:38.090Z",
       "sponsored": false,
       "verification_available": true
@@ -1598,7 +1603,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1606,7 +1611,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:13.242Z",
+      "last_checked": "2026-03-07T04:44:02.000Z",
       "last_seen": "2026-02-19T05:06:39.973Z",
       "sponsored": false,
       "verification_available": true
@@ -1621,7 +1626,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1629,7 +1634,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:15.330Z",
+      "last_checked": "2026-03-07T04:44:04.000Z",
       "last_seen": "2026-02-19T05:06:42.080Z",
       "sponsored": false,
       "verification_available": true
@@ -1644,7 +1649,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1652,7 +1657,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:17.328Z",
+      "last_checked": "2026-03-07T04:44:06.002Z",
       "last_seen": "2026-02-19T05:06:44.091Z",
       "sponsored": false,
       "verification_available": true
@@ -1667,7 +1672,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1675,7 +1680,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:19.329Z",
+      "last_checked": "2026-03-07T04:44:08.010Z",
       "last_seen": "2026-02-19T05:06:46.082Z",
       "sponsored": false,
       "verification_available": true
@@ -1690,7 +1695,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1698,7 +1703,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:21.345Z",
+      "last_checked": "2026-03-07T04:44:10.007Z",
       "last_seen": "2026-02-19T05:06:47.905Z",
       "sponsored": false,
       "verification_available": true
@@ -1713,7 +1718,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1721,7 +1726,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:23.245Z",
+      "last_checked": "2026-03-07T04:44:12.007Z",
       "last_seen": "2026-02-19T05:06:50.080Z",
       "sponsored": false,
       "verification_available": true
@@ -1736,7 +1741,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1744,7 +1749,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:25.337Z",
+      "last_checked": "2026-03-07T04:44:14.017Z",
       "last_seen": "2026-02-19T05:06:51.919Z",
       "sponsored": false,
       "verification_available": true
@@ -1759,7 +1764,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1767,7 +1772,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:27.338Z",
+      "last_checked": "2026-03-07T04:44:16.002Z",
       "last_seen": "2026-02-19T05:06:54.092Z",
       "sponsored": false,
       "verification_available": true
@@ -1782,7 +1787,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1790,7 +1795,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:29.336Z",
+      "last_checked": "2026-03-07T04:44:18.005Z",
       "last_seen": "2026-02-19T05:06:56.085Z",
       "sponsored": false,
       "verification_available": true
@@ -1805,7 +1810,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1813,7 +1818,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:31.336Z",
+      "last_checked": "2026-03-07T04:44:20.010Z",
       "last_seen": "2026-02-19T05:06:58.047Z",
       "sponsored": false,
       "verification_available": true
@@ -1828,7 +1833,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1836,7 +1841,7 @@
           "url": "https://github.com/naver/fe-news"
         }
       ],
-      "last_checked": "2026-03-05T04:59:33.332Z",
+      "last_checked": "2026-03-07T04:44:22.007Z",
       "last_seen": "2026-03-05T04:59:33.332Z",
       "sponsored": false,
       "verification_available": true
@@ -1897,7 +1902,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1905,7 +1910,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-06T04:52:33.538Z",
+      "last_checked": "2026-03-07T04:44:24.015Z",
       "last_seen": "2026-02-21T04:51:00.085Z",
       "sponsored": false,
       "verification_available": true
@@ -1966,7 +1971,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1974,7 +1979,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-03-06T04:52:37.925Z",
+      "last_checked": "2026-03-07T04:44:25.861Z",
       "last_seen": "2026-02-16T05:12:19.468Z",
       "sponsored": false,
       "verification_available": true
@@ -2104,7 +2109,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2112,7 +2117,7 @@
           "url": "https://github.com/evo-family/evo-chat"
         }
       ],
-      "last_checked": "2026-03-06T04:52:41.561Z",
+      "last_checked": "2026-03-07T04:44:27.875Z",
       "last_seen": "2026-03-01T05:05:53.400Z",
       "sponsored": false,
       "verification_available": true
@@ -2242,7 +2247,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2250,7 +2255,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-06T04:52:45.589Z",
+      "last_checked": "2026-03-07T04:44:29.877Z",
       "last_seen": "2026-02-16T05:12:35.486Z",
       "sponsored": false,
       "verification_available": true
@@ -2265,7 +2270,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2273,7 +2278,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-06T04:52:47.536Z",
+      "last_checked": "2026-03-07T04:44:31.886Z",
       "last_seen": "2026-02-21T04:51:05.624Z",
       "sponsored": false,
       "verification_available": true
@@ -2288,7 +2293,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2296,7 +2301,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:52:49.589Z",
+      "last_checked": "2026-03-07T04:44:33.875Z",
       "last_seen": "2026-03-02T05:01:42.822Z",
       "sponsored": false,
       "verification_available": true
@@ -2311,7 +2316,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2319,7 +2324,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:52:51.756Z",
+      "last_checked": "2026-03-07T04:44:36.016Z",
       "last_seen": "2026-03-02T05:01:44.964Z",
       "sponsored": false,
       "verification_available": true
@@ -2334,7 +2339,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2342,7 +2347,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:52:53.687Z",
+      "last_checked": "2026-03-07T04:44:38.012Z",
       "last_seen": "2026-03-02T05:01:46.966Z",
       "sponsored": false,
       "verification_available": true
@@ -2357,7 +2362,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2365,7 +2370,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:52:55.687Z",
+      "last_checked": "2026-03-07T04:44:40.013Z",
       "last_seen": "2026-03-02T05:01:48.955Z",
       "sponsored": false,
       "verification_available": true
@@ -2380,7 +2385,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2388,7 +2393,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:52:57.806Z",
+      "last_checked": "2026-03-07T04:44:42.015Z",
       "last_seen": "2026-03-02T05:01:50.966Z",
       "sponsored": false,
       "verification_available": true
@@ -2403,7 +2408,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2411,7 +2416,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:52:59.691Z",
+      "last_checked": "2026-03-07T04:44:44.019Z",
       "last_seen": "2026-03-02T05:01:52.964Z",
       "sponsored": false,
       "verification_available": true
@@ -2426,7 +2431,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2434,7 +2439,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:53:01.691Z",
+      "last_checked": "2026-03-07T04:44:46.019Z",
       "last_seen": "2026-03-02T05:01:54.923Z",
       "sponsored": false,
       "verification_available": true
@@ -2486,6 +2491,75 @@
       "verification_available": true
     },
     {
+      "domain": "agent-analytics.png",
+      "name": "agent-analytics.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
+        }
+      ],
+      "last_checked": "2026-03-07T04:44:48.021Z",
+      "last_seen": "2026-03-07T04:44:48.021Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-detail.png",
+      "name": "agent-detail.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
+        }
+      ],
+      "last_checked": "2026-03-07T04:44:49.979Z",
+      "last_seen": "2026-03-07T04:44:49.979Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-history.png",
+      "name": "agent-history.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
+        }
+      ],
+      "last_checked": "2026-03-07T04:44:51.974Z",
+      "last_seen": "2026-03-07T04:44:51.974Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "agent-tail.md",
       "name": "agent-tail.md",
       "type": [],
@@ -2495,7 +2569,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2503,7 +2577,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:53:03.701Z",
+      "last_checked": "2026-03-07T04:44:53.921Z",
       "last_seen": "2026-03-02T05:01:56.965Z",
       "sponsored": false,
       "verification_available": true
@@ -2526,7 +2600,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-03-06T04:53:05.700Z",
+      "last_checked": "2026-03-07T04:44:56.019Z",
       "last_seen": "2026-02-16T05:12:37.496Z",
       "sponsored": false,
       "verification_available": true
@@ -2789,8 +2863,31 @@
           "url": "https://github.com/creuzerm/tinyinsulationcalculator"
         }
       ],
-      "last_checked": "2026-03-06T04:53:17.714Z",
+      "last_checked": "2026-03-07T04:44:57.952Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agents.png",
+      "name": "agents.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
+        }
+      ],
+      "last_checked": "2026-03-07T04:44:59.889Z",
+      "last_seen": "2026-03-07T04:44:59.889Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -2840,7 +2937,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-03-06T04:53:18.739Z",
+      "last_checked": "2026-03-07T04:45:01.972Z",
       "last_seen": "2026-02-16T05:12:44.995Z",
       "sponsored": false,
       "verification_available": true
@@ -2863,7 +2960,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-03-06T04:53:20.855Z",
+      "last_checked": "2026-03-07T04:45:04.009Z",
       "last_seen": "2026-02-16T05:12:47.102Z",
       "sponsored": false,
       "verification_available": true
@@ -3085,7 +3182,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3093,7 +3190,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:53:31.023Z",
+      "last_checked": "2026-03-07T04:45:05.883Z",
       "last_seen": "2026-03-02T05:02:09.893Z",
       "sponsored": false,
       "verification_available": true
@@ -3108,7 +3205,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3116,7 +3213,7 @@
           "url": "https://github.com/w3c/webref"
         }
       ],
-      "last_checked": "2026-03-06T04:53:32.864Z",
+      "last_checked": "2026-03-07T04:45:08.016Z",
       "last_seen": "2026-02-19T05:07:19.928Z",
       "sponsored": false,
       "verification_available": true
@@ -3145,8 +3242,8 @@
       "verification_available": true
     },
     {
-      "domain": "analytics.track",
-      "name": "analytics.track",
+      "domain": "analytics.png",
+      "name": "analytics.png",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -3158,11 +3255,39 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: hemanth/webmcp-connect",
-          "url": "https://github.com/hemanth/webmcp-connect"
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-02-20T05:02:27.341Z",
+      "last_checked": "2026-03-07T04:45:09.885Z",
+      "last_seen": "2026-03-07T04:45:09.885Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "analytics.track",
+      "name": "analytics.track",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MCPCat/webmcp-react",
+          "url": "https://github.com/MCPCat/webmcp-react"
+        }
+      ],
+      "last_checked": "2026-03-07T04:45:11.872Z",
       "last_seen": "2026-02-20T05:02:27.341Z",
       "sponsored": false,
       "verification_available": true
@@ -3200,7 +3325,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3208,7 +3333,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:53:34.766Z",
+      "last_checked": "2026-03-07T04:45:13.885Z",
       "last_seen": "2026-03-04T04:54:51.107Z",
       "sponsored": false,
       "verification_available": true
@@ -3223,7 +3348,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3231,7 +3356,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:53:36.825Z",
+      "last_checked": "2026-03-07T04:45:15.886Z",
       "last_seen": "2026-03-04T04:54:53.217Z",
       "sponsored": false,
       "verification_available": true
@@ -3264,7 +3389,7 @@
           "url": "https://github.com/punkpeye/awesome-mcp-servers"
         }
       ],
-      "last_checked": "2026-03-06T04:53:38.820Z",
+      "last_checked": "2026-03-07T04:45:17.967Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -3273,8 +3398,8 @@
       "domain": "apache.org",
       "name": "apache.org",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -3285,9 +3410,14 @@
           "kind": "github_hit",
           "detail": "repo: mcp-fe/mcp-fe",
           "url": "https://github.com/mcp-fe/mcp-fe"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-01T05:06:13.793Z",
+      "last_checked": "2026-03-07T04:45:22.197Z",
       "last_seen": "2026-02-27T04:59:53.446Z",
       "sponsored": false,
       "verification_available": true
@@ -3302,7 +3432,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3310,7 +3440,7 @@
           "url": "https://github.com/eser/aya.is"
         }
       ],
-      "last_checked": "2026-03-06T04:53:40.898Z",
+      "last_checked": "2026-03-07T04:45:24.124Z",
       "last_seen": "2026-03-03T05:00:52.123Z",
       "sponsored": false,
       "verification_available": true
@@ -3509,7 +3639,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3517,7 +3647,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:53:43.157Z",
+      "last_checked": "2026-03-07T04:45:26.444Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -3526,8 +3656,8 @@
       "domain": "api.md",
       "name": "api.md",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -3538,9 +3668,14 @@
           "kind": "github_hit",
           "detail": "repo: ecucondorSA/Devaltamedica-Independent",
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MCPCat/webmcp-react",
+          "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-02-18T05:06:00.317Z",
+      "last_checked": "2026-03-07T04:45:28.182Z",
       "last_seen": "2026-02-16T05:12:56.678Z",
       "sponsored": false,
       "verification_available": true
@@ -3601,7 +3736,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3619,7 +3754,7 @@
           "url": "https://github.com/punkpeye/awesome-mcp-servers"
         }
       ],
-      "last_checked": "2026-03-06T04:53:46.946Z",
+      "last_checked": "2026-03-07T04:45:30.422Z",
       "last_seen": "2026-02-20T05:02:36.897Z",
       "sponsored": false,
       "verification_available": true
@@ -3665,7 +3800,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-06T04:53:48.855Z",
+      "last_checked": "2026-03-07T04:45:32.176Z",
       "last_seen": "2026-02-16T05:13:00.672Z",
       "sponsored": false,
       "verification_available": true
@@ -3757,7 +3892,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-03-06T04:53:53.088Z",
+      "last_checked": "2026-03-07T04:45:34.255Z",
       "last_seen": "2026-02-16T05:13:04.638Z",
       "sponsored": false,
       "verification_available": true
@@ -3795,7 +3930,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3803,7 +3938,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:53:54.871Z",
+      "last_checked": "2026-03-07T04:45:36.155Z",
       "last_seen": "2026-03-02T05:02:25.675Z",
       "sponsored": false,
       "verification_available": true
@@ -3818,7 +3953,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3826,7 +3961,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:53:56.989Z",
+      "last_checked": "2026-03-07T04:45:38.128Z",
       "last_seen": "2026-03-02T05:02:27.919Z",
       "sponsored": false,
       "verification_available": true
@@ -3859,8 +3994,31 @@
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
         }
       ],
-      "last_checked": "2026-03-06T04:53:58.992Z",
+      "last_checked": "2026-03-07T04:45:40.277Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "architecture.svg",
+      "name": "architecture.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MCPCat/webmcp-react",
+          "url": "https://github.com/MCPCat/webmcp-react"
+        }
+      ],
+      "last_checked": "2026-03-07T04:45:42.161Z",
+      "last_seen": "2026-03-07T04:45:42.161Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3897,7 +4055,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3905,7 +4063,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-03-06T04:54:00.891Z",
+      "last_checked": "2026-03-07T04:45:44.147Z",
       "last_seen": "2026-02-27T05:00:07.348Z",
       "sponsored": false,
       "verification_available": true
@@ -3920,7 +4078,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3928,7 +4086,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-06T04:54:02.907Z",
+      "last_checked": "2026-03-07T04:45:46.178Z",
       "last_seen": "2026-02-16T05:13:10.738Z",
       "sponsored": false,
       "verification_available": true
@@ -3974,7 +4132,7 @@
           "url": "https://github.com/apple/embedding-atlas"
         }
       ],
-      "last_checked": "2026-03-06T04:54:04.863Z",
+      "last_checked": "2026-03-07T04:45:48.146Z",
       "last_seen": "2026-02-16T05:13:12.628Z",
       "sponsored": false,
       "verification_available": true
@@ -3997,7 +4155,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:54:06.843Z",
+      "last_checked": "2026-03-07T04:45:50.131Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -4020,7 +4178,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-03-06T04:54:08.843Z",
+      "last_checked": "2026-03-07T04:45:52.164Z",
       "last_seen": "2026-02-26T05:05:57.112Z",
       "sponsored": false,
       "verification_available": true
@@ -4066,7 +4224,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:12.863Z",
+      "last_checked": "2026-03-07T04:45:54.231Z",
       "last_seen": "2026-03-02T05:02:41.728Z",
       "sponsored": false,
       "verification_available": true
@@ -4081,7 +4239,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4089,7 +4247,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:14.876Z",
+      "last_checked": "2026-03-07T04:45:56.166Z",
       "last_seen": "2026-03-02T05:02:43.685Z",
       "sponsored": false,
       "verification_available": true
@@ -4104,7 +4262,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4112,7 +4270,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:16.992Z",
+      "last_checked": "2026-03-07T04:45:58.282Z",
       "last_seen": "2026-03-02T05:02:45.789Z",
       "sponsored": false,
       "verification_available": true
@@ -4127,7 +4285,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4135,7 +4293,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:18.996Z",
+      "last_checked": "2026-03-07T04:46:00.285Z",
       "last_seen": "2026-03-02T05:02:47.785Z",
       "sponsored": false,
       "verification_available": true
@@ -4150,7 +4308,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4158,7 +4316,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:20.994Z",
+      "last_checked": "2026-03-07T04:46:02.285Z",
       "last_seen": "2026-03-02T05:02:49.786Z",
       "sponsored": false,
       "verification_available": true
@@ -4204,7 +4362,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:23.004Z",
+      "last_checked": "2026-03-07T04:46:04.289Z",
       "last_seen": "2026-03-02T05:02:51.784Z",
       "sponsored": false,
       "verification_available": true
@@ -4265,7 +4423,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4273,7 +4431,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-06T04:54:32.839Z",
+      "last_checked": "2026-03-07T04:46:06.611Z",
       "last_seen": "2026-02-21T04:51:41.124Z",
       "sponsored": false,
       "verification_available": true
@@ -4315,10 +4473,10 @@
         {
           "type": "well_known",
           "url": "https://avatars.githubusercontent.com/.well-known/mcp.json",
-          "last_success": "2026-03-05T05:01:03.803Z"
+          "last_success": "2026-03-07T04:46:08.148Z"
         }
       ],
-      "last_verified_success": "2026-03-05T05:01:03.803Z",
+      "last_verified_success": "2026-03-07T04:46:08.148Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -4332,8 +4490,8 @@
           "url": "https://avatars.githubusercontent.com/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-03-05T05:01:03.803Z",
-      "last_seen": "2026-03-05T05:01:03.803Z",
+      "last_checked": "2026-03-07T04:46:08.148Z",
+      "last_seen": "2026-03-07T04:46:08.148Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4378,7 +4536,7 @@
           "url": "https://github.com/eser/aya.is"
         }
       ],
-      "last_checked": "2026-03-06T04:54:36.382Z",
+      "last_checked": "2026-03-07T04:46:10.184Z",
       "last_seen": "2026-03-03T05:01:37.608Z",
       "sponsored": false,
       "verification_available": true
@@ -4393,7 +4551,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4401,7 +4559,7 @@
           "url": "https://github.com/eser/aya.is"
         }
       ],
-      "last_checked": "2026-03-06T04:54:39.956Z",
+      "last_checked": "2026-03-07T04:46:14.352Z",
       "last_seen": "2026-03-03T05:01:41.223Z",
       "sponsored": false,
       "verification_available": true
@@ -4469,7 +4627,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4477,8 +4635,44 @@
           "url": "https://github.com/evo-family/evo-chat"
         }
       ],
-      "last_checked": "2026-03-06T04:54:40.969Z",
+      "last_checked": "2026-03-07T04:46:15.370Z",
       "last_seen": "2026-03-01T05:06:43.793Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "b23.tv",
+      "name": "b23.tv",
+      "type": [
+        "mcp-server"
+      ],
+      "confidence": 100,
+      "status": "verified",
+      "verification_status": "verified",
+      "verification_method": "well_known",
+      "proof": [
+        {
+          "type": "well_known",
+          "url": "https://b23.tv/.well-known/mcp.json",
+          "last_success": "2026-03-07T04:46:17.478Z"
+        }
+      ],
+      "last_verified_success": "2026-03-07T04:46:17.478Z",
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openakita/openakita",
+          "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "well_known_mcp_json",
+          "detail": "found .well-known/mcp.json",
+          "url": "https://b23.tv/.well-known/mcp.json"
+        }
+      ],
+      "last_checked": "2026-03-07T04:46:17.478Z",
+      "last_seen": "2026-03-07T04:46:17.478Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4492,7 +4686,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4500,7 +4694,7 @@
           "url": "https://github.com/eser/aya.is"
         }
       ],
-      "last_checked": "2026-03-06T04:54:42.966Z",
+      "last_checked": "2026-03-07T04:46:19.573Z",
       "last_seen": "2026-03-03T05:01:44.298Z",
       "sponsored": false,
       "verification_available": true
@@ -4538,7 +4732,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4546,7 +4740,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:54:46.964Z",
+      "last_checked": "2026-03-07T04:46:21.372Z",
       "last_seen": "2026-03-04T04:55:50.829Z",
       "sponsored": false,
       "verification_available": true
@@ -4561,7 +4755,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4569,7 +4763,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-06T04:54:49.063Z",
+      "last_checked": "2026-03-07T04:46:23.370Z",
       "last_seen": "2026-02-21T04:51:51.178Z",
       "sponsored": false,
       "verification_available": true
@@ -4584,7 +4778,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4615,9 +4809,14 @@
           "kind": "github_hit",
           "detail": "repo: punkpeye/awesome-mcp-servers",
           "url": "https://github.com/punkpeye/awesome-mcp-servers"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MCPCat/webmcp-react",
+          "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-03-06T04:54:51.070Z",
+      "last_checked": "2026-03-07T04:46:25.460Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -4665,6 +4864,29 @@
       ],
       "last_checked": "2026-02-18T05:06:38.242Z",
       "last_seen": "2026-02-17T05:06:16.840Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "banner.png",
+      "name": "banner.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
+        }
+      ],
+      "last_checked": "2026-03-07T04:46:27.419Z",
+      "last_seen": "2026-03-07T04:46:27.419Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4747,7 +4969,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4755,7 +4977,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:54:54.998Z",
+      "last_checked": "2026-03-07T04:46:29.456Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -4793,7 +5015,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4801,7 +5023,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:54:56.987Z",
+      "last_checked": "2026-03-07T04:46:31.491Z",
       "last_seen": "2026-03-02T05:03:13.956Z",
       "sponsored": false,
       "verification_available": true
@@ -4870,7 +5092,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-03-06T04:55:04.118Z",
+      "last_checked": "2026-03-07T04:46:33.357Z",
       "last_seen": "2026-03-03T05:02:00.343Z",
       "sponsored": false,
       "verification_available": true
@@ -5017,13 +5239,13 @@
       "domain": "blue.svg",
       "name": "blue.svg",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5034,9 +5256,14 @@
           "kind": "github_hit",
           "detail": "repo: pocketpaw/pocketpaw",
           "url": "https://github.com/pocketpaw/pocketpaw"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-06T04:55:14.821Z",
+      "last_checked": "2026-03-07T04:46:36.388Z",
       "last_seen": "2026-02-16T05:13:20.609Z",
       "sponsored": false,
       "verification_available": true
@@ -5074,7 +5301,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5082,7 +5309,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-03-06T04:55:18.663Z",
+      "last_checked": "2026-03-07T04:46:37.630Z",
       "last_seen": "2026-02-16T05:13:22.619Z",
       "sponsored": false,
       "verification_available": true
@@ -5097,7 +5324,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5105,7 +5332,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-03-06T04:55:20.628Z",
+      "last_checked": "2026-03-07T04:46:39.645Z",
       "last_seen": "2026-02-16T05:13:24.711Z",
       "sponsored": false,
       "verification_available": true
@@ -5120,7 +5347,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5128,7 +5355,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:22.629Z",
+      "last_checked": "2026-03-07T04:46:41.641Z",
       "last_seen": "2026-03-02T05:03:21.929Z",
       "sponsored": false,
       "verification_available": true
@@ -5143,7 +5370,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5151,7 +5378,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:24.757Z",
+      "last_checked": "2026-03-07T04:46:43.781Z",
       "last_seen": "2026-03-02T05:03:24.080Z",
       "sponsored": false,
       "verification_available": true
@@ -5166,7 +5393,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5174,7 +5401,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:26.919Z",
+      "last_checked": "2026-03-07T04:46:45.778Z",
       "last_seen": "2026-03-02T05:03:26.073Z",
       "sponsored": false,
       "verification_available": true
@@ -5189,7 +5416,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5197,7 +5424,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:28.756Z",
+      "last_checked": "2026-03-07T04:46:47.780Z",
       "last_seen": "2026-03-02T05:03:28.070Z",
       "sponsored": false,
       "verification_available": true
@@ -5212,7 +5439,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5220,7 +5447,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:30.929Z",
+      "last_checked": "2026-03-07T04:46:49.790Z",
       "last_seen": "2026-03-02T05:03:30.069Z",
       "sponsored": false,
       "verification_available": true
@@ -5327,7 +5554,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5335,7 +5562,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:55:34.754Z",
+      "last_checked": "2026-03-07T04:46:51.780Z",
       "last_seen": "2026-03-04T04:56:19.119Z",
       "sponsored": false,
       "verification_available": true
@@ -5350,7 +5577,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5358,7 +5585,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:55:36.627Z",
+      "last_checked": "2026-03-07T04:46:53.647Z",
       "last_seen": "2026-03-04T04:56:20.961Z",
       "sponsored": false,
       "verification_available": true
@@ -5381,7 +5608,7 @@
           "url": "https://github.com/GoogleChromeLabs/webmcp-tools"
         }
       ],
-      "last_checked": "2026-03-06T04:55:38.911Z",
+      "last_checked": "2026-03-07T04:46:55.788Z",
       "last_seen": "2026-02-17T05:06:30.888Z",
       "sponsored": false,
       "verification_available": true
@@ -5442,7 +5669,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5450,7 +5677,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:44.721Z",
+      "last_checked": "2026-03-07T04:46:58.062Z",
       "last_seen": "2026-03-02T05:03:34.433Z",
       "sponsored": false,
       "verification_available": true
@@ -5465,7 +5692,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5473,7 +5700,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-06T04:55:46.762Z",
+      "last_checked": "2026-03-07T04:46:59.799Z",
       "last_seen": "2026-02-16T05:13:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -5488,7 +5715,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5496,7 +5723,7 @@
           "url": "https://github.com/JetBrains/kotlin-wrappers"
         }
       ],
-      "last_checked": "2026-03-06T04:55:48.824Z",
+      "last_checked": "2026-03-07T04:47:01.882Z",
       "last_seen": "2026-02-19T05:08:01.444Z",
       "sponsored": false,
       "verification_available": true
@@ -5511,7 +5738,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5519,7 +5746,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:50.627Z",
+      "last_checked": "2026-03-07T04:47:03.736Z",
       "last_seen": "2026-03-02T05:03:39.927Z",
       "sponsored": false,
       "verification_available": true
@@ -5542,7 +5769,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-06T04:55:52.756Z",
+      "last_checked": "2026-03-07T04:47:05.784Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
       "sponsored": false,
       "verification_available": true
@@ -5580,7 +5807,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5588,7 +5815,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:55:54.651Z",
+      "last_checked": "2026-03-07T04:47:07.680Z",
       "last_seen": "2026-03-02T05:03:43.974Z",
       "sponsored": false,
       "verification_available": true
@@ -5603,7 +5830,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5611,7 +5838,7 @@
           "url": "https://github.com/evo-family/evo-chat"
         }
       ],
-      "last_checked": "2026-03-06T04:55:56.758Z",
+      "last_checked": "2026-03-07T04:47:09.785Z",
       "last_seen": "2026-03-01T05:07:05.743Z",
       "sponsored": false,
       "verification_available": true
@@ -5649,7 +5876,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5657,7 +5884,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:00.755Z",
+      "last_checked": "2026-03-07T04:47:11.641Z",
       "last_seen": "2026-03-02T05:03:47.919Z",
       "sponsored": false,
       "verification_available": true
@@ -5695,7 +5922,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5703,7 +5930,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:56:04.722Z",
+      "last_checked": "2026-03-07T04:47:13.781Z",
       "last_seen": "2026-03-04T04:56:41.097Z",
       "sponsored": false,
       "verification_available": true
@@ -5718,7 +5945,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5726,7 +5953,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:56:06.713Z",
+      "last_checked": "2026-03-07T04:47:15.697Z",
       "last_seen": "2026-03-04T04:56:42.948Z",
       "sponsored": false,
       "verification_available": true
@@ -5818,7 +6045,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:56:08.625Z",
+      "last_checked": "2026-03-07T04:47:17.632Z",
       "last_seen": "2026-03-04T04:56:44.945Z",
       "sponsored": false,
       "verification_available": true
@@ -5833,7 +6060,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5841,7 +6068,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:10.609Z",
+      "last_checked": "2026-03-07T04:47:19.639Z",
       "last_seen": "2026-03-02T05:03:50.065Z",
       "sponsored": false,
       "verification_available": true
@@ -5884,7 +6111,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:12.752Z",
+      "last_checked": "2026-03-07T04:47:21.784Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -5939,21 +6166,26 @@
       "domain": "chart.js",
       "name": "chart.js",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: creuzerm/tinyinsulationcalculator",
           "url": "https://github.com/creuzerm/tinyinsulationcalculator"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-02-21T04:52:19.307Z",
+      "last_checked": "2026-03-07T04:47:23.835Z",
       "last_seen": "2026-02-21T04:52:19.307Z",
       "sponsored": false,
       "verification_available": true
@@ -5968,7 +6200,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5976,7 +6208,7 @@
           "url": "https://github.com/JetBrains/kotlin-wrappers"
         }
       ],
-      "last_checked": "2026-03-06T04:56:16.628Z",
+      "last_checked": "2026-03-07T04:47:25.638Z",
       "last_seen": "2026-02-19T05:08:09.378Z",
       "sponsored": false,
       "verification_available": true
@@ -6091,7 +6323,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:56:22.695Z",
+      "last_checked": "2026-03-07T04:47:27.646Z",
       "last_seen": "2026-02-23T05:15:03.395Z",
       "sponsored": false,
       "verification_available": true
@@ -6180,7 +6412,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-03-06T04:56:26.781Z",
+      "last_checked": "2026-03-07T04:47:29.666Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -6264,7 +6496,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6272,7 +6504,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:28.699Z",
+      "last_checked": "2026-03-07T04:47:31.724Z",
       "last_seen": "2026-03-02T05:04:02.154Z",
       "sponsored": false,
       "verification_available": true
@@ -6287,7 +6519,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6308,9 +6540,14 @@
           "kind": "github_hit",
           "detail": "repo: Creed-Space/VCP-SDK",
           "url": "https://github.com/Creed-Space/VCP-SDK"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MCPCat/webmcp-react",
+          "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-03-06T04:56:30.597Z",
+      "last_checked": "2026-03-07T04:47:33.773Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -6454,6 +6691,29 @@
       "verification_available": true
     },
     {
+      "domain": "claude-code-karma.git",
+      "name": "claude-code-karma.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
+        }
+      ],
+      "last_checked": "2026-03-07T04:47:35.701Z",
+      "last_seen": "2026-03-07T04:47:35.701Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "claude-command-suite.git",
       "name": "claude-command-suite.git",
       "type": [],
@@ -6463,7 +6723,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6471,7 +6731,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:34.616Z",
+      "last_checked": "2026-03-07T04:47:37.645Z",
       "last_seen": "2026-03-02T05:04:05.997Z",
       "sponsored": false,
       "verification_available": true
@@ -6522,7 +6782,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:56:38.601Z",
+      "last_checked": "2026-03-07T04:47:39.691Z",
       "last_seen": "2026-02-23T05:15:11.409Z",
       "sponsored": false,
       "verification_available": true
@@ -6558,9 +6818,14 @@
           "kind": "github_hit",
           "detail": "repo: punkpeye/awesome-mcp-servers",
           "url": "https://github.com/punkpeye/awesome-mcp-servers"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: JayantDevkar/claude-code-karma",
+          "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-06T04:56:40.709Z",
+      "last_checked": "2026-03-07T04:47:41.742Z",
       "last_seen": "2026-02-16T05:13:44.623Z",
       "sponsored": false,
       "verification_available": true
@@ -6583,7 +6848,7 @@
           "url": "https://github.com/openclaw/skills"
         }
       ],
-      "last_checked": "2026-03-06T04:56:42.944Z",
+      "last_checked": "2026-03-07T04:47:44.069Z",
       "last_seen": "2026-02-16T05:13:46.967Z",
       "sponsored": false,
       "verification_available": true
@@ -6598,7 +6863,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6606,7 +6871,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:44.706Z",
+      "last_checked": "2026-03-07T04:47:45.821Z",
       "last_seen": "2026-03-02T05:04:14.234Z",
       "sponsored": false,
       "verification_available": true
@@ -6621,7 +6886,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6629,7 +6894,7 @@
           "url": "https://github.com/w3c/webref"
         }
       ],
-      "last_checked": "2026-03-06T04:56:46.743Z",
+      "last_checked": "2026-03-07T04:47:47.893Z",
       "last_seen": "2026-02-19T05:08:21.291Z",
       "sponsored": false,
       "verification_available": true
@@ -6644,7 +6909,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6652,7 +6917,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:48.624Z",
+      "last_checked": "2026-03-07T04:47:49.788Z",
       "last_seen": "2026-03-02T05:04:18.092Z",
       "sponsored": false,
       "verification_available": true
@@ -6667,7 +6932,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6675,7 +6940,7 @@
           "url": "https://github.com/w3c/webref"
         }
       ],
-      "last_checked": "2026-03-06T04:56:50.744Z",
+      "last_checked": "2026-03-07T04:47:51.890Z",
       "last_seen": "2026-02-19T05:08:23.187Z",
       "sponsored": false,
       "verification_available": true
@@ -6690,7 +6955,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6698,7 +6963,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:56:52.696Z",
+      "last_checked": "2026-03-07T04:47:53.748Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -6721,7 +6986,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:54.704Z",
+      "last_checked": "2026-03-07T04:47:55.816Z",
       "last_seen": "2026-03-02T05:04:24.113Z",
       "sponsored": false,
       "verification_available": true
@@ -6787,7 +7052,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6795,7 +7060,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:56:58.679Z",
+      "last_checked": "2026-03-07T04:47:58.037Z",
       "last_seen": "2026-03-02T05:04:26.562Z",
       "sponsored": false,
       "verification_available": true
@@ -6856,7 +7121,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6864,7 +7129,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-06T04:57:08.139Z",
+      "last_checked": "2026-03-07T04:47:59.962Z",
       "last_seen": "2026-02-21T04:52:37.154Z",
       "sponsored": false,
       "verification_available": true
@@ -6879,7 +7144,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6887,7 +7152,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:57:10.295Z",
+      "last_checked": "2026-03-07T04:48:01.958Z",
       "last_seen": "2026-03-02T05:04:30.467Z",
       "sponsored": false,
       "verification_available": true
@@ -6902,7 +7167,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6910,7 +7175,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:57:12.286Z",
+      "last_checked": "2026-03-07T04:48:03.958Z",
       "last_seen": "2026-03-02T05:04:32.471Z",
       "sponsored": false,
       "verification_available": true
@@ -6925,7 +7190,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6933,7 +7198,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:57:14.287Z",
+      "last_checked": "2026-03-07T04:48:05.955Z",
       "last_seen": "2026-03-02T05:04:34.465Z",
       "sponsored": false,
       "verification_available": true
@@ -6956,7 +7221,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-03-06T04:57:16.288Z",
+      "last_checked": "2026-03-07T04:48:07.958Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -6979,7 +7244,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-03-06T04:57:18.308Z",
+      "last_checked": "2026-03-07T04:48:10.058Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -7048,7 +7313,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:57:23.102Z",
+      "last_checked": "2026-03-07T04:48:11.859Z",
       "last_seen": "2026-03-02T05:04:38.608Z",
       "sponsored": false,
       "verification_available": true
@@ -7132,7 +7397,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7145,7 +7410,7 @@
           "url": "https://github.com/eser/aya.is"
         }
       ],
-      "last_checked": "2026-03-06T04:57:24.164Z",
+      "last_checked": "2026-03-07T04:48:13.821Z",
       "last_seen": "2026-02-17T05:07:21.015Z",
       "sponsored": false,
       "verification_available": true
@@ -7160,7 +7425,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7168,7 +7433,7 @@
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
         }
       ],
-      "last_checked": "2026-03-06T04:57:26.250Z",
+      "last_checked": "2026-03-07T04:48:15.902Z",
       "last_seen": "2026-02-16T05:14:00.627Z",
       "sponsored": false,
       "verification_available": true
@@ -7183,7 +7448,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7191,7 +7456,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-03-06T04:57:28.146Z",
+      "last_checked": "2026-03-07T04:48:17.929Z",
       "last_seen": "2026-02-16T05:14:02.610Z",
       "sponsored": false,
       "verification_available": true
@@ -7206,7 +7471,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7214,7 +7479,7 @@
           "url": "https://github.com/openakita/openakita"
         }
       ],
-      "last_checked": "2026-03-06T04:57:30.290Z",
+      "last_checked": "2026-03-07T04:48:19.957Z",
       "last_seen": "2026-02-16T05:14:04.759Z",
       "sponsored": false,
       "verification_available": true
@@ -7229,7 +7494,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7237,7 +7502,7 @@
           "url": "https://github.com/JetBrains/kotlin-wrappers"
         }
       ],
-      "last_checked": "2026-03-06T04:57:32.410Z",
+      "last_checked": "2026-03-07T04:48:22.188Z",
       "last_seen": "2026-02-19T05:08:39.389Z",
       "sponsored": false,
       "verification_available": true
@@ -7252,7 +7517,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7260,7 +7525,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-06T04:57:34.238Z",
+      "last_checked": "2026-03-07T04:48:23.896Z",
       "last_seen": "2026-02-23T05:15:43.722Z",
       "sponsored": false,
       "verification_available": true
@@ -7283,7 +7548,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-03-06T04:57:36.185Z",
+      "last_checked": "2026-03-07T04:48:25.809Z",
       "last_seen": "2026-02-20T05:03:49.144Z",
       "sponsored": false,
       "verification_available": true
@@ -7298,7 +7563,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7306,7 +7571,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-03-06T04:57:38.403Z",
+      "last_checked": "2026-03-07T04:48:28.056Z",
       "last_seen": "2026-03-04T04:57:55.957Z",
       "sponsored": false,
       "verification_available": true
@@ -7359,7 +7624,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7367,7 +7632,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-06T04:57:40.138Z",
+      "last_checked": "2026-03-07T04:48:29.902Z",
       "last_seen": "2026-03-02T05:04:54.706Z",
       "sponsored": false,
       "verification_available": true
