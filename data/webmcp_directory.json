@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-31T05:27:22.586Z",
+  "updated_at": "2026-04-01T05:39:17.862Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -11,7 +11,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19,7 +19,7 @@
           "url": "https://github.com/andresfelipe9619/portfolio"
         }
       ],
-      "last_checked": "2026-03-30T05:34:46.082Z",
+      "last_checked": "2026-04-01T05:32:35.875Z",
       "last_seen": "2026-03-30T05:34:46.082Z",
       "sponsored": false,
       "verification_available": true
@@ -186,6 +186,29 @@
       "verification_available": true
     },
     {
+      "domain": "127.0.0.1:5400",
+      "name": "127.0.0.1:5400",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
+        }
+      ],
+      "last_checked": "2026-04-01T05:32:37.673Z",
+      "last_seen": "2026-04-01T05:32:37.673Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "16.0.0.html",
       "name": "16.0.0.html",
       "type": [],
@@ -241,7 +264,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -254,7 +277,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:20:36.923Z",
+      "last_checked": "2026-04-01T05:32:39.673Z",
       "last_seen": "2026-03-02T04:59:03.766Z",
       "sponsored": false,
       "verification_available": true
@@ -1120,7 +1143,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1128,7 +1151,7 @@
           "url": "https://github.com/web-platform-dx/web-features"
         }
       ],
-      "last_checked": "2026-03-31T05:20:38.933Z",
+      "last_checked": "2026-04-01T05:32:41.889Z",
       "last_seen": "2026-03-13T04:57:26.527Z",
       "sponsored": false,
       "verification_available": true
@@ -2109,7 +2132,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2117,7 +2140,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:20:41.064Z",
+      "last_checked": "2026-04-01T05:32:43.821Z",
       "last_seen": "2026-02-21T04:51:00.085Z",
       "sponsored": false,
       "verification_available": true
@@ -2238,6 +2261,52 @@
       "verification_available": true
     },
     {
+      "domain": "252fbootstrap.inc",
+      "name": "252fbootstrap.inc",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
+        }
+      ],
+      "last_checked": "2026-04-01T05:32:45.766Z",
+      "last_seen": "2026-04-01T05:32:45.766Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "27index.php",
+      "name": "27index.php",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
+        }
+      ],
+      "last_checked": "2026-04-01T05:32:47.720Z",
+      "last_seen": "2026-04-01T05:32:47.720Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "2b-blue.svg",
       "name": "2b-blue.svg",
       "type": [],
@@ -2334,12 +2403,12 @@
       "name": "2fmajiayu000.github.io",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2347,7 +2416,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:20:42.929Z",
+      "last_checked": "2026-04-01T05:32:49.687Z",
       "last_seen": "2026-03-30T05:34:57.785Z",
       "sponsored": false,
       "verification_available": true
@@ -2403,12 +2472,12 @@
       "name": "2fstats.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2416,7 +2485,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:20:44.930Z",
+      "last_checked": "2026-04-01T05:32:51.681Z",
       "last_seen": "2026-03-30T05:34:59.771Z",
       "sponsored": false,
       "verification_available": true
@@ -2426,12 +2495,12 @@
       "name": "3178c6.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2439,7 +2508,7 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:20:46.928Z",
+      "last_checked": "2026-04-01T05:32:53.812Z",
       "last_seen": "2026-03-29T05:20:51.799Z",
       "sponsored": false,
       "verification_available": true
@@ -2449,12 +2518,12 @@
       "name": "3d18-339933.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2462,7 +2531,7 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:20:48.953Z",
+      "last_checked": "2026-04-01T05:32:55.885Z",
       "last_seen": "2026-03-29T05:20:53.798Z",
       "sponsored": false,
       "verification_available": true
@@ -2615,7 +2684,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2623,7 +2692,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:20:51.124Z",
+      "last_checked": "2026-04-01T05:32:57.809Z",
       "last_seen": "2026-02-16T05:12:35.486Z",
       "sponsored": false,
       "verification_available": true
@@ -2638,7 +2707,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2646,7 +2715,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:20:52.927Z",
+      "last_checked": "2026-04-01T05:32:59.684Z",
       "last_seen": "2026-02-21T04:51:05.624Z",
       "sponsored": false,
       "verification_available": true
@@ -2661,7 +2730,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2669,7 +2738,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:20:55.006Z",
+      "last_checked": "2026-04-01T05:33:01.770Z",
       "last_seen": "2026-03-24T05:07:25.405Z",
       "sponsored": false,
       "verification_available": true
@@ -2914,7 +2983,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2922,7 +2991,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:20:57.050Z",
+      "last_checked": "2026-04-01T05:33:03.822Z",
       "last_seen": "2026-03-07T04:44:48.021Z",
       "sponsored": false,
       "verification_available": true
@@ -2937,7 +3006,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2945,7 +3014,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:20:58.941Z",
+      "last_checked": "2026-04-01T05:33:05.892Z",
       "last_seen": "2026-03-07T04:44:49.979Z",
       "sponsored": false,
       "verification_available": true
@@ -2960,7 +3029,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2968,7 +3037,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:21:00.934Z",
+      "last_checked": "2026-04-01T05:33:07.689Z",
       "last_seen": "2026-03-07T04:44:51.974Z",
       "sponsored": false,
       "verification_available": true
@@ -3052,7 +3121,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3060,7 +3129,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:21:02.964Z",
+      "last_checked": "2026-04-01T05:33:09.692Z",
       "last_seen": "2026-03-24T05:07:43.507Z",
       "sponsored": false,
       "verification_available": true
@@ -3366,8 +3435,8 @@
           "url": "https://agents.keak.com/"
         }
       ],
-      "last_checked": "2026-03-31T05:21:05.047Z",
-      "last_seen": "2026-03-31T05:21:05.047Z",
+      "last_checked": "2026-04-01T05:33:11.819Z",
+      "last_seen": "2026-04-01T05:33:11.819Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3404,7 +3473,7 @@
           "url": "https://github.com/andresfelipe9619/portfolio"
         }
       ],
-      "last_checked": "2026-03-30T05:35:21.774Z",
+      "last_checked": "2026-04-01T05:33:13.712Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -3419,7 +3488,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3427,7 +3496,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:21:06.965Z",
+      "last_checked": "2026-04-01T05:33:15.702Z",
       "last_seen": "2026-03-07T04:44:59.889Z",
       "sponsored": false,
       "verification_available": true
@@ -3478,7 +3547,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-03-31T05:21:08.941Z",
+      "last_checked": "2026-04-01T05:33:17.773Z",
       "last_seen": "2026-02-16T05:12:44.995Z",
       "sponsored": false,
       "verification_available": true
@@ -3616,7 +3685,7 @@
           "url": "https://github.com/happyhj/webmcp-blackjack"
         }
       ],
-      "last_checked": "2026-03-30T05:35:29.712Z",
+      "last_checked": "2026-04-01T05:33:19.882Z",
       "last_seen": "2026-02-25T05:07:29.271Z",
       "sponsored": false,
       "verification_available": true
@@ -3845,7 +3914,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3853,7 +3922,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:21:11.120Z",
+      "last_checked": "2026-04-01T05:33:22.170Z",
       "last_seen": "2026-03-07T04:45:09.885Z",
       "sponsored": false,
       "verification_available": true
@@ -3868,7 +3937,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3881,7 +3950,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-03-31T05:21:12.928Z",
+      "last_checked": "2026-04-01T05:33:23.756Z",
       "last_seen": "2026-02-20T05:02:27.341Z",
       "sponsored": false,
       "verification_available": true
@@ -3942,7 +4011,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3950,7 +4019,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:21:14.930Z",
+      "last_checked": "2026-04-01T05:33:25.702Z",
       "last_seen": "2026-03-24T05:07:53.498Z",
       "sponsored": false,
       "verification_available": true
@@ -3965,7 +4034,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3973,7 +4042,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:21:17.076Z",
+      "last_checked": "2026-04-01T05:33:27.882Z",
       "last_seen": "2026-03-24T05:07:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -3988,7 +4057,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3996,7 +4065,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:21:19.059Z",
+      "last_checked": "2026-04-01T05:33:29.819Z",
       "last_seen": "2026-03-24T05:07:57.525Z",
       "sponsored": false,
       "verification_available": true
@@ -4080,7 +4149,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:21:21.060Z",
+      "last_checked": "2026-04-01T05:33:31.821Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -4090,12 +4159,12 @@
       "name": "anthropic.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4103,7 +4172,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:21:25.653Z",
+      "last_checked": "2026-04-01T05:33:34.551Z",
       "last_seen": "2026-03-30T05:35:43.752Z",
       "sponsored": false,
       "verification_available": true
@@ -4131,7 +4200,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:21:27.648Z",
+      "last_checked": "2026-04-01T05:33:36.472Z",
       "last_seen": "2026-02-27T04:59:53.446Z",
       "sponsored": false,
       "verification_available": true
@@ -4330,7 +4399,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4338,7 +4407,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-03-31T05:21:29.567Z",
+      "last_checked": "2026-04-01T05:33:38.462Z",
       "last_seen": "2026-02-20T05:02:34.916Z",
       "sponsored": false,
       "verification_available": true
@@ -4353,7 +4422,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4361,7 +4430,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:21:31.572Z",
+      "last_checked": "2026-04-01T05:33:40.463Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -4389,7 +4458,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-03-31T05:21:33.615Z",
+      "last_checked": "2026-04-01T05:33:42.570Z",
       "last_seen": "2026-02-16T05:12:56.678Z",
       "sponsored": false,
       "verification_available": true
@@ -4450,7 +4519,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 38,
+      "fail_streak": 39,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4473,7 +4542,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-03-31T05:21:35.830Z",
+      "last_checked": "2026-04-01T05:33:44.783Z",
       "last_seen": "2026-02-20T05:02:36.897Z",
       "sponsored": false,
       "verification_available": true
@@ -4519,7 +4588,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:21:38.084Z",
+      "last_checked": "2026-04-01T05:33:46.525Z",
       "last_seen": "2026-02-16T05:13:00.672Z",
       "sponsored": false,
       "verification_available": true
@@ -4565,7 +4634,7 @@
           "url": "https://github.com/web-platform-tests/wpt"
         }
       ],
-      "last_checked": "2026-03-27T05:22:50.008Z",
+      "last_checked": "2026-04-01T05:33:48.565Z",
       "last_seen": "2026-03-24T05:08:16.904Z",
       "sponsored": false,
       "verification_available": true
@@ -4718,7 +4787,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4726,7 +4795,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:21:39.633Z",
+      "last_checked": "2026-04-01T05:33:50.482Z",
       "last_seen": "2026-03-24T05:08:25.011Z",
       "sponsored": false,
       "verification_available": true
@@ -4769,7 +4838,7 @@
           "url": "https://github.com/andresfelipe9619/portfolio"
         }
       ],
-      "last_checked": "2026-03-31T05:21:41.697Z",
+      "last_checked": "2026-04-01T05:33:52.591Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -4784,7 +4853,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4792,7 +4861,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-03-31T05:21:43.583Z",
+      "last_checked": "2026-04-01T05:33:54.459Z",
       "last_seen": "2026-03-07T04:45:42.161Z",
       "sponsored": false,
       "verification_available": true
@@ -4807,7 +4876,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4815,7 +4884,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-03-31T05:21:45.570Z",
+      "last_checked": "2026-04-01T05:33:56.464Z",
       "last_seen": "2026-02-20T05:02:46.920Z",
       "sponsored": false,
       "verification_available": true
@@ -4991,7 +5060,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4999,7 +5068,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-31T05:21:47.772Z",
+      "last_checked": "2026-04-01T05:33:58.518Z",
       "last_seen": "2026-02-16T05:13:10.738Z",
       "sponsored": false,
       "verification_available": true
@@ -5068,7 +5137,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:21:49.602Z",
+      "last_checked": "2026-04-01T05:34:00.552Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -5452,7 +5521,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5460,7 +5529,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:21:53.708Z",
+      "last_checked": "2026-04-01T05:34:02.456Z",
       "last_seen": "2026-02-21T04:51:41.124Z",
       "sponsored": false,
       "verification_available": true
@@ -5789,7 +5858,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5797,7 +5866,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:21:55.600Z",
+      "last_checked": "2026-04-01T05:34:04.463Z",
       "last_seen": "2026-02-21T04:51:51.178Z",
       "sponsored": false,
       "verification_available": true
@@ -5812,7 +5881,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5865,7 +5934,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:21:57.710Z",
+      "last_checked": "2026-04-01T05:34:06.627Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -5926,7 +5995,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5939,7 +6008,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:21:59.652Z",
+      "last_checked": "2026-04-01T05:34:08.584Z",
       "last_seen": "2026-03-07T04:46:27.419Z",
       "sponsored": false,
       "verification_available": true
@@ -5977,7 +6046,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5985,7 +6054,7 @@
           "url": "https://github.com/web-platform-dx/web-features"
         }
       ],
-      "last_checked": "2026-03-31T05:22:01.648Z",
+      "last_checked": "2026-04-01T05:34:10.543Z",
       "last_seen": "2026-03-13T05:00:24.094Z",
       "sponsored": false,
       "verification_available": true
@@ -6023,7 +6092,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6031,7 +6100,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-03-31T05:22:03.695Z",
+      "last_checked": "2026-04-01T05:34:12.644Z",
       "last_seen": "2026-02-20T05:03:02.901Z",
       "sponsored": false,
       "verification_available": true
@@ -6046,7 +6115,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6054,7 +6123,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:22:05.569Z",
+      "last_checked": "2026-04-01T05:34:14.459Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -6092,7 +6161,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6100,7 +6169,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:22:07.690Z",
+      "last_checked": "2026-04-01T05:34:16.544Z",
       "last_seen": "2026-03-24T05:09:06.980Z",
       "sponsored": false,
       "verification_available": true
@@ -6261,7 +6330,7 @@
           "url": "https://github.com/ahastudio/til"
         }
       ],
-      "last_checked": "2026-03-31T05:22:09.597Z",
+      "last_checked": "2026-04-01T05:34:18.457Z",
       "last_seen": "2026-03-03T05:02:03.189Z",
       "sponsored": false,
       "verification_available": true
@@ -6414,7 +6483,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6432,7 +6501,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:22:11.713Z",
+      "last_checked": "2026-04-01T05:34:20.548Z",
       "last_seen": "2026-02-16T05:13:20.609Z",
       "sponsored": false,
       "verification_available": true
@@ -6546,7 +6615,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6554,7 +6623,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:22:19.559Z",
+      "last_checked": "2026-04-01T05:34:22.461Z",
       "last_seen": "2026-03-24T05:09:16.897Z",
       "sponsored": false,
       "verification_available": true
@@ -6799,7 +6868,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6807,7 +6876,7 @@
           "url": "https://github.com/hemanth/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-03-31T05:22:25.646Z",
+      "last_checked": "2026-04-01T05:34:24.460Z",
       "last_seen": "2026-02-21T04:52:03.171Z",
       "sponsored": false,
       "verification_available": true
@@ -6845,7 +6914,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6853,7 +6922,7 @@
           "url": "https://github.com/hemanth/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-03-31T05:22:30.031Z",
+      "last_checked": "2026-04-01T05:34:26.612Z",
       "last_seen": "2026-02-21T04:52:05.207Z",
       "sponsored": false,
       "verification_available": true
@@ -6891,7 +6960,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6899,7 +6968,7 @@
           "url": "https://github.com/hemanth/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-03-31T05:22:33.628Z",
+      "last_checked": "2026-04-01T05:34:28.600Z",
       "last_seen": "2026-02-21T04:52:07.134Z",
       "sponsored": false,
       "verification_available": true
@@ -6937,7 +7006,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6945,7 +7014,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:22:35.612Z",
+      "last_checked": "2026-04-01T05:34:30.473Z",
       "last_seen": "2026-03-24T05:09:34.904Z",
       "sponsored": false,
       "verification_available": true
@@ -7014,7 +7083,7 @@
           "url": "https://github.com/GoogleChromeLabs/webmcp-tools"
         }
       ],
-      "last_checked": "2026-03-31T05:22:37.760Z",
+      "last_checked": "2026-04-01T05:34:32.582Z",
       "last_seen": "2026-02-17T05:06:30.888Z",
       "sponsored": false,
       "verification_available": true
@@ -7098,7 +7167,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7106,7 +7175,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:22:39.685Z",
+      "last_checked": "2026-04-01T05:34:34.560Z",
       "last_seen": "2026-02-16T05:13:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -7180,7 +7249,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-03-31T05:22:41.675Z",
+      "last_checked": "2026-04-01T05:34:36.557Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
       "sponsored": false,
       "verification_available": true
@@ -7629,7 +7698,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7642,7 +7711,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:22:45.655Z",
+      "last_checked": "2026-04-01T05:34:38.519Z",
       "last_seen": "2026-02-21T04:52:19.307Z",
       "sponsored": false,
       "verification_available": true
@@ -7726,7 +7795,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7734,7 +7803,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:22:47.571Z",
+      "last_checked": "2026-04-01T05:34:40.585Z",
       "last_seen": "2026-03-24T05:10:07.095Z",
       "sponsored": false,
       "verification_available": true
@@ -7749,7 +7818,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7757,7 +7826,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:22:49.700Z",
+      "last_checked": "2026-04-01T05:34:43.126Z",
       "last_seen": "2026-03-24T05:10:09.026Z",
       "sponsored": false,
       "verification_available": true
@@ -7826,7 +7895,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:22:51.741Z",
+      "last_checked": "2026-04-01T05:34:44.643Z",
       "last_seen": "2026-02-23T05:15:03.395Z",
       "sponsored": false,
       "verification_available": true
@@ -7864,7 +7933,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7872,7 +7941,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-03-31T05:22:53.589Z",
+      "last_checked": "2026-04-01T05:34:46.473Z",
       "last_seen": "2026-02-20T05:03:25.018Z",
       "sponsored": false,
       "verification_available": true
@@ -7930,7 +7999,7 @@
           "url": "https://github.com/Doriandarko/webmcp-starter"
         }
       ],
-      "last_checked": "2026-03-31T05:22:55.570Z",
+      "last_checked": "2026-04-01T05:34:48.516Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -8037,7 +8106,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8070,7 +8139,7 @@
           "url": "https://github.com/block/goose"
         }
       ],
-      "last_checked": "2026-03-31T05:22:57.691Z",
+      "last_checked": "2026-04-01T05:34:50.556Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -8246,7 +8315,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8254,7 +8323,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:22:59.676Z",
+      "last_checked": "2026-04-01T05:34:52.559Z",
       "last_seen": "2026-03-07T04:47:35.701Z",
       "sponsored": false,
       "verification_available": true
@@ -8292,7 +8361,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8300,7 +8369,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:01.643Z",
+      "last_checked": "2026-04-01T05:34:54.463Z",
       "last_seen": "2026-03-24T05:10:24.892Z",
       "sponsored": false,
       "verification_available": true
@@ -8310,12 +8379,12 @@
       "name": "claude-skill-registry-core.git",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8323,7 +8392,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:23:03.591Z",
+      "last_checked": "2026-04-01T05:34:56.664Z",
       "last_seen": "2026-03-30T05:37:13.970Z",
       "sponsored": false,
       "verification_available": true
@@ -8374,7 +8443,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:05.570Z",
+      "last_checked": "2026-04-01T05:34:58.727Z",
       "last_seen": "2026-02-23T05:15:11.409Z",
       "sponsored": false,
       "verification_available": true
@@ -8427,7 +8496,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:07.674Z",
+      "last_checked": "2026-04-01T05:35:00.567Z",
       "last_seen": "2026-02-16T05:13:44.623Z",
       "sponsored": false,
       "verification_available": true
@@ -8557,7 +8626,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8565,7 +8634,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:09.971Z",
+      "last_checked": "2026-04-01T05:35:02.901Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -8636,6 +8705,29 @@
       ],
       "last_checked": "2026-02-26T05:06:56.413Z",
       "last_seen": "2026-02-16T05:13:48.685Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.run",
+      "name": "client.run",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
+        }
+      ],
+      "last_checked": "2026-04-01T05:35:04.536Z",
+      "last_seen": "2026-04-01T05:35:04.536Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8769,7 +8861,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8777,7 +8869,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:23:13.571Z",
+      "last_checked": "2026-04-01T05:35:06.948Z",
       "last_seen": "2026-02-21T04:52:37.154Z",
       "sponsored": false,
       "verification_available": true
@@ -8838,7 +8930,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8846,7 +8938,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:15.701Z",
+      "last_checked": "2026-04-01T05:35:08.597Z",
       "last_seen": "2026-03-24T05:10:49.014Z",
       "sponsored": false,
       "verification_available": true
@@ -8920,7 +9012,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:17.692Z",
+      "last_checked": "2026-04-01T05:35:10.609Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -8935,7 +9027,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8943,7 +9035,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:19.768Z",
+      "last_checked": "2026-04-01T05:35:12.725Z",
       "last_seen": "2026-03-24T05:10:55.044Z",
       "sponsored": false,
       "verification_available": true
@@ -9088,7 +9180,7 @@
           "url": "https://github.com/web-platform-tests/wpt"
         }
       ],
-      "last_checked": "2026-03-27T05:25:22.614Z",
+      "last_checked": "2026-04-01T05:35:14.599Z",
       "last_seen": "2026-03-24T05:11:00.900Z",
       "sponsored": false,
       "verification_available": true
@@ -9098,12 +9190,12 @@
       "name": "community.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9111,7 +9203,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:23:21.689Z",
+      "last_checked": "2026-04-01T05:35:16.553Z",
       "last_seen": "2026-03-30T05:37:32.306Z",
       "sponsored": false,
       "verification_available": true
@@ -9320,7 +9412,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9328,7 +9420,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:25.652Z",
+      "last_checked": "2026-04-01T05:35:18.474Z",
       "last_seen": "2026-02-23T05:15:43.722Z",
       "sponsored": false,
       "verification_available": true
@@ -9394,7 +9486,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9415,9 +9507,14 @@
           "kind": "github_hit",
           "detail": "repo: hemanth/webmcp-bridge",
           "url": "https://github.com/hemanth/webmcp-bridge"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-03-31T05:23:27.624Z",
+      "last_checked": "2026-04-01T05:35:20.475Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -9432,7 +9529,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9440,7 +9537,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:29.650Z",
+      "last_checked": "2026-04-01T05:35:22.472Z",
       "last_seen": "2026-03-24T05:11:12.959Z",
       "sponsored": false,
       "verification_available": true
@@ -9455,7 +9552,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9463,7 +9560,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:31.694Z",
+      "last_checked": "2026-04-01T05:35:24.619Z",
       "last_seen": "2026-03-24T05:11:15.008Z",
       "sponsored": false,
       "verification_available": true
@@ -9501,7 +9598,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 30,
+      "fail_streak": 31,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9509,7 +9606,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:33.767Z",
+      "last_checked": "2026-04-01T05:35:26.549Z",
       "last_seen": "2026-02-23T05:15:49.593Z",
       "sponsored": false,
       "verification_available": true
@@ -9547,7 +9644,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9555,7 +9652,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:35.587Z",
+      "last_checked": "2026-04-01T05:35:28.467Z",
       "last_seen": "2026-03-27T05:25:48.835Z",
       "sponsored": false,
       "verification_available": true
@@ -9570,7 +9667,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 28,
+      "fail_streak": 29,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9578,7 +9675,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:37.695Z",
+      "last_checked": "2026-04-01T05:35:31.138Z",
       "last_seen": "2026-02-23T05:15:51.592Z",
       "sponsored": false,
       "verification_available": true
@@ -9842,7 +9939,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:23:39.573Z",
+      "last_checked": "2026-04-01T05:35:32.465Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -9921,7 +10018,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-31T05:23:41.619Z",
+      "last_checked": "2026-04-01T05:35:34.523Z",
       "last_seen": "2026-02-16T05:14:20.614Z",
       "sponsored": false,
       "verification_available": true
@@ -9936,7 +10033,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9944,7 +10041,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:43.572Z",
+      "last_checked": "2026-04-01T05:35:36.463Z",
       "last_seen": "2026-03-28T05:08:10.773Z",
       "sponsored": false,
       "verification_available": true
@@ -10098,6 +10195,29 @@
       "verification_available": true
     },
     {
+      "domain": "core.autocrlf",
+      "name": "core.autocrlf",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: web-platform-tests/wpt",
+          "url": "https://github.com/web-platform-tests/wpt"
+        }
+      ],
+      "last_checked": "2026-04-01T05:35:38.590Z",
+      "last_seen": "2026-04-01T05:35:38.590Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "costdashboard.tsx",
       "name": "costdashboard.tsx",
       "type": [],
@@ -10153,7 +10273,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10161,7 +10281,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-03-31T05:23:45.700Z",
+      "last_checked": "2026-04-01T05:35:40.496Z",
       "last_seen": "2026-02-20T05:04:05.458Z",
       "sponsored": false,
       "verification_available": true
@@ -10222,7 +10342,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10230,7 +10350,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:47.635Z",
+      "last_checked": "2026-04-01T05:35:42.607Z",
       "last_seen": "2026-02-23T05:16:05.871Z",
       "sponsored": false,
       "verification_available": true
@@ -10483,7 +10603,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:23:49.574Z",
+      "last_checked": "2026-04-01T05:35:44.556Z",
       "last_seen": "2026-02-16T05:14:32.626Z",
       "sponsored": false,
       "verification_available": true
@@ -10815,12 +10935,12 @@
       "name": "cxetbzggx9by1aaf.public.blob.vercel-storage.com",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10828,7 +10948,7 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:23:51.610Z",
+      "last_checked": "2026-04-01T05:35:46.494Z",
       "last_seen": "2026-03-29T05:25:47.542Z",
       "sponsored": false,
       "verification_available": true
@@ -10843,7 +10963,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10851,7 +10971,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:53.571Z",
+      "last_checked": "2026-04-01T05:35:48.451Z",
       "last_seen": "2026-02-23T05:16:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -10866,7 +10986,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10874,7 +10994,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:55.604Z",
+      "last_checked": "2026-04-01T05:35:50.551Z",
       "last_seen": "2026-02-23T05:16:21.753Z",
       "sponsored": false,
       "verification_available": true
@@ -10889,7 +11009,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10897,7 +11017,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:23:57.597Z",
+      "last_checked": "2026-04-01T05:35:52.529Z",
       "last_seen": "2026-02-23T05:16:23.721Z",
       "sponsored": false,
       "verification_available": true
@@ -11004,7 +11124,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11012,7 +11132,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:23:59.593Z",
+      "last_checked": "2026-04-01T05:35:54.708Z",
       "last_seen": "2026-03-28T05:08:38.748Z",
       "sponsored": false,
       "verification_available": true
@@ -11027,7 +11147,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11035,7 +11155,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:24:01.736Z",
+      "last_checked": "2026-04-01T05:35:56.515Z",
       "last_seen": "2026-03-28T05:08:40.853Z",
       "sponsored": false,
       "verification_available": true
@@ -11142,7 +11262,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11150,7 +11270,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:24:05.679Z",
+      "last_checked": "2026-04-01T05:35:58.656Z",
       "last_seen": "2026-02-21T04:53:24.664Z",
       "sponsored": false,
       "verification_available": true
@@ -11173,7 +11293,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:07.611Z",
+      "last_checked": "2026-04-01T05:36:00.455Z",
       "last_seen": "2026-02-23T05:16:29.718Z",
       "sponsored": false,
       "verification_available": true
@@ -11196,7 +11316,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:14.071Z",
+      "last_checked": "2026-04-01T05:36:02.675Z",
       "last_seen": "2026-02-23T05:16:36.194Z",
       "sponsored": false,
       "verification_available": true
@@ -11234,7 +11354,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11242,7 +11362,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:15.143Z",
+      "last_checked": "2026-04-01T05:36:04.501Z",
       "last_seen": "2026-02-23T05:16:39.295Z",
       "sponsored": false,
       "verification_available": true
@@ -11257,7 +11377,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11265,7 +11385,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:17.084Z",
+      "last_checked": "2026-04-01T05:36:06.512Z",
       "last_seen": "2026-02-23T05:16:41.226Z",
       "sponsored": false,
       "verification_available": true
@@ -11510,7 +11630,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11523,7 +11643,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:24:19.174Z",
+      "last_checked": "2026-04-01T05:36:08.456Z",
       "last_seen": "2026-03-06T04:59:14.522Z",
       "sponsored": false,
       "verification_available": true
@@ -11538,7 +11658,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11546,8 +11666,31 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:24:21.223Z",
+      "last_checked": "2026-04-01T05:36:10.577Z",
       "last_seen": "2026-03-28T05:08:58.880Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "decision-classification-guide.md",
+      "name": "decision-classification-guide.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/ai-prompts",
+          "url": "https://github.com/escapeboy/ai-prompts"
+        }
+      ],
+      "last_checked": "2026-04-01T05:36:12.812Z",
+      "last_seen": "2026-04-01T05:36:12.812Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11676,7 +11819,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11684,8 +11827,31 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:23.222Z",
+      "last_checked": "2026-04-01T05:36:14.592Z",
       "last_seen": "2026-02-23T05:16:45.264Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "demo.png",
+      "name": "demo.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
+        }
+      ],
+      "last_checked": "2026-04-01T05:36:16.453Z",
+      "last_seen": "2026-04-01T05:36:16.453Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11699,7 +11865,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11707,7 +11873,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:25.092Z",
+      "last_checked": "2026-04-01T05:36:18.450Z",
       "last_seen": "2026-02-23T05:16:47.214Z",
       "sponsored": false,
       "verification_available": true
@@ -11883,7 +12049,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11891,7 +12057,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:24:27.421Z",
+      "last_checked": "2026-04-01T05:36:20.477Z",
       "last_seen": "2026-03-28T05:09:18.881Z",
       "sponsored": false,
       "verification_available": true
@@ -11906,7 +12072,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11914,7 +12080,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:24:29.220Z",
+      "last_checked": "2026-04-01T05:36:22.575Z",
       "last_seen": "2026-03-28T05:09:20.879Z",
       "sponsored": false,
       "verification_available": true
@@ -12046,8 +12212,31 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:24:31.215Z",
+      "last_checked": "2026-04-01T05:36:24.808Z",
       "last_seen": "2026-02-18T05:09:33.132Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "developer.wordpress.org",
+      "name": "developer.wordpress.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
+        }
+      ],
+      "last_checked": "2026-04-01T05:36:26.669Z",
+      "last_seen": "2026-04-01T05:36:26.669Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12069,7 +12258,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:33.315Z",
+      "last_checked": "2026-04-01T05:36:28.751Z",
       "last_seen": "2026-02-23T05:16:57.877Z",
       "sponsored": false,
       "verification_available": true
@@ -12079,12 +12268,12 @@
       "name": "development.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12092,7 +12281,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:24:35.114Z",
+      "last_checked": "2026-04-01T05:36:30.479Z",
       "last_seen": "2026-03-30T05:38:49.487Z",
       "sponsored": false,
       "verification_available": true
@@ -12370,7 +12559,7 @@
           "url": "https://github.com/eser/aya.is"
         }
       ],
-      "last_checked": "2026-03-31T05:24:45.169Z",
+      "last_checked": "2026-04-01T05:36:32.452Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -12385,7 +12574,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12393,7 +12582,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-03-31T05:24:47.136Z",
+      "last_checked": "2026-04-01T05:36:34.479Z",
       "last_seen": "2026-02-16T05:15:08.240Z",
       "sponsored": false,
       "verification_available": true
@@ -12482,7 +12671,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12490,7 +12679,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:24:49.092Z",
+      "last_checked": "2026-04-01T05:36:36.465Z",
       "last_seen": "2026-03-28T05:09:40.878Z",
       "sponsored": false,
       "verification_available": true
@@ -12582,7 +12771,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:51.217Z",
+      "last_checked": "2026-04-01T05:36:38.770Z",
       "last_seen": "2026-02-23T05:17:05.201Z",
       "sponsored": false,
       "verification_available": true
@@ -12605,7 +12794,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:53.249Z",
+      "last_checked": "2026-04-01T05:36:40.603Z",
       "last_seen": "2026-02-23T05:17:07.572Z",
       "sponsored": false,
       "verification_available": true
@@ -12647,10 +12836,10 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-03-31T05:24:55.103Z"
+          "last_success": "2026-04-01T05:36:42.472Z"
         }
       ],
-      "last_verified_success": "2026-03-31T05:24:55.103Z",
+      "last_verified_success": "2026-04-01T05:36:42.472Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -12679,8 +12868,8 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:24:55.103Z",
-      "last_seen": "2026-03-31T05:24:55.103Z",
+      "last_checked": "2026-04-01T05:36:42.472Z",
+      "last_seen": "2026-04-01T05:36:42.472Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12748,7 +12937,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:24:57.164Z",
+      "last_checked": "2026-04-01T05:36:44.529Z",
       "last_seen": "2026-02-23T05:17:15.259Z",
       "sponsored": false,
       "verification_available": true
@@ -12763,7 +12952,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12771,7 +12960,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-03-31T05:24:59.236Z",
+      "last_checked": "2026-04-01T05:36:46.524Z",
       "last_seen": "2026-02-20T05:04:54.457Z",
       "sponsored": false,
       "verification_available": true
@@ -12780,21 +12969,26 @@
       "domain": "document.getelementbyid",
       "name": "document.getelementbyid",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: r/Harbor",
           "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-02-17T05:09:30.459Z",
+      "last_checked": "2026-04-01T05:36:48.711Z",
       "last_seen": "2026-02-16T05:15:18.203Z",
       "sponsored": false,
       "verification_available": true
@@ -12804,12 +12998,12 @@
       "name": "document.queryselector",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12817,7 +13011,7 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:25:01.096Z",
+      "last_checked": "2026-04-01T05:36:50.592Z",
       "last_seen": "2026-03-29T05:27:13.385Z",
       "sponsored": false,
       "verification_available": true
@@ -12832,7 +13026,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12840,7 +13034,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-31T05:25:03.154Z",
+      "last_checked": "2026-04-01T05:36:52.454Z",
       "last_seen": "2026-02-16T05:15:20.302Z",
       "sponsored": false,
       "verification_available": true
@@ -12855,7 +13049,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12878,7 +13072,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-03-31T05:25:05.140Z",
+      "last_checked": "2026-04-01T05:36:54.508Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -13008,7 +13202,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13016,7 +13210,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:25:11.169Z",
+      "last_checked": "2026-04-01T05:36:56.468Z",
       "last_seen": "2026-02-23T05:17:21.244Z",
       "sponsored": false,
       "verification_available": true
@@ -13062,7 +13256,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:25:13.096Z",
+      "last_checked": "2026-04-01T05:36:58.452Z",
       "last_seen": "2026-03-28T05:10:02.815Z",
       "sponsored": false,
       "verification_available": true
@@ -13261,7 +13455,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13269,7 +13463,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:25:17.336Z",
+      "last_checked": "2026-04-01T05:37:00.635Z",
       "last_seen": "2026-02-16T05:15:30.224Z",
       "sponsored": false,
       "verification_available": true
@@ -13284,7 +13478,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13292,7 +13486,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:25:19.097Z",
+      "last_checked": "2026-04-01T05:37:02.460Z",
       "last_seen": "2026-02-16T05:15:32.203Z",
       "sponsored": false,
       "verification_available": true
@@ -13330,7 +13524,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13338,7 +13532,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-31T05:25:21.084Z",
+      "last_checked": "2026-04-01T05:37:04.447Z",
       "last_seen": "2026-02-16T05:15:34.193Z",
       "sponsored": false,
       "verification_available": true
@@ -13353,7 +13547,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13361,7 +13555,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-31T05:25:23.135Z",
+      "last_checked": "2026-04-01T05:37:06.473Z",
       "last_seen": "2026-02-16T05:15:36.232Z",
       "sponsored": false,
       "verification_available": true
@@ -13376,7 +13570,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13384,7 +13578,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-31T05:25:25.332Z",
+      "last_checked": "2026-04-01T05:37:08.468Z",
       "last_seen": "2026-02-16T05:15:38.217Z",
       "sponsored": false,
       "verification_available": true
@@ -13392,6 +13586,29 @@
     {
       "domain": "electron-claude-md-template.md",
       "name": "electron-claude-md-template.md",
+      "type": [],
+      "confidence": 30,
+      "status": "dead",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 5,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/ai-prompts",
+          "url": "https://github.com/escapeboy/ai-prompts"
+        }
+      ],
+      "last_checked": "2026-04-01T05:37:10.535Z",
+      "last_seen": "2026-03-28T05:10:12.718Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "electron-guide.md",
+      "name": "electron-guide.md",
       "type": [],
       "confidence": 30,
       "status": "dead",
@@ -13407,30 +13624,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:27.188Z",
-      "last_seen": "2026-03-28T05:10:12.718Z",
-      "sponsored": false,
-      "verification_available": true
-    },
-    {
-      "domain": "electron-guide.md",
-      "name": "electron-guide.md",
-      "type": [],
-      "confidence": 30,
-      "status": "dead",
-      "verification_status": "unverified",
-      "verification_method": null,
-      "proof": [],
-      "last_verified_success": null,
-      "fail_streak": 3,
-      "evidence": [
-        {
-          "kind": "github_hit",
-          "detail": "repo: escapeboy/ai-prompts",
-          "url": "https://github.com/escapeboy/ai-prompts"
-        }
-      ],
-      "last_checked": "2026-03-31T05:25:29.220Z",
+      "last_checked": "2026-04-01T05:37:12.579Z",
       "last_seen": "2026-03-28T05:10:14.883Z",
       "sponsored": false,
       "verification_available": true
@@ -13445,7 +13639,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13453,7 +13647,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:31.220Z",
+      "last_checked": "2026-04-01T05:37:14.583Z",
       "last_seen": "2026-03-28T05:10:16.881Z",
       "sponsored": false,
       "verification_available": true
@@ -13726,7 +13920,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13759,7 +13953,7 @@
           "url": "https://github.com/happyhj/webmcp-blackjack"
         }
       ],
-      "last_checked": "2026-03-30T05:39:45.636Z",
+      "last_checked": "2026-04-01T05:37:16.813Z",
       "last_seen": "2026-02-16T05:15:48.263Z",
       "sponsored": false,
       "verification_available": true
@@ -13802,12 +13996,12 @@
       "name": "error.message",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13815,7 +14009,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-03-31T05:25:33.219Z",
+      "last_checked": "2026-04-01T05:37:18.540Z",
       "last_seen": "2026-03-28T05:10:22.740Z",
       "sponsored": false,
       "verification_available": true
@@ -13968,7 +14162,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13976,7 +14170,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:35.091Z",
+      "last_checked": "2026-04-01T05:37:20.519Z",
       "last_seen": "2026-03-28T05:10:26.885Z",
       "sponsored": false,
       "verification_available": true
@@ -13991,7 +14185,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13999,7 +14193,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:37.335Z",
+      "last_checked": "2026-04-01T05:37:22.598Z",
       "last_seen": "2026-03-28T05:10:28.882Z",
       "sponsored": false,
       "verification_available": true
@@ -14014,7 +14208,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14022,7 +14216,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:25:39.226Z",
+      "last_checked": "2026-04-01T05:37:24.587Z",
       "last_seen": "2026-02-23T05:17:49.850Z",
       "sponsored": false,
       "verification_available": true
@@ -14037,7 +14231,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14055,7 +14249,7 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:25:41.208Z",
+      "last_checked": "2026-04-01T05:37:26.463Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -14208,7 +14402,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14216,7 +14410,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:25:43.095Z",
+      "last_checked": "2026-04-01T05:37:28.460Z",
       "last_seen": "2026-02-23T05:17:53.826Z",
       "sponsored": false,
       "verification_available": true
@@ -14231,7 +14425,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14239,7 +14433,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:25:45.482Z",
+      "last_checked": "2026-04-01T05:37:30.944Z",
       "last_seen": "2026-02-23T05:17:55.990Z",
       "sponsored": false,
       "verification_available": true
@@ -14262,7 +14456,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-03-31T05:25:47.121Z",
+      "last_checked": "2026-04-01T05:37:32.472Z",
       "last_seen": "2026-02-16T05:15:58.356Z",
       "sponsored": false,
       "verification_available": true
@@ -14469,7 +14663,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:49.392Z",
+      "last_checked": "2026-04-01T05:37:34.755Z",
       "last_seen": "2026-03-28T05:10:45.272Z",
       "sponsored": false,
       "verification_available": true
@@ -14502,12 +14696,12 @@
       "name": "featured.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14515,7 +14709,7 @@
           "url": "https://github.com/majiayu000/claude-skill-registry"
         }
       ],
-      "last_checked": "2026-03-31T05:25:51.152Z",
+      "last_checked": "2026-04-01T05:37:36.523Z",
       "last_seen": "2026-03-30T05:40:03.722Z",
       "sponsored": false,
       "verification_available": true
@@ -14727,7 +14921,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:25:53.167Z",
+      "last_checked": "2026-04-01T05:37:38.467Z",
       "last_seen": "2026-02-21T04:54:35.638Z",
       "sponsored": false,
       "verification_available": true
@@ -14806,12 +15000,12 @@
       "name": "flutter-claude-md-template.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14819,7 +15013,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:55.204Z",
+      "last_checked": "2026-04-01T05:37:40.558Z",
       "last_seen": "2026-03-30T05:40:07.600Z",
       "sponsored": false,
       "verification_available": true
@@ -14829,12 +15023,12 @@
       "name": "flutter-guide.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14842,7 +15036,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:57.216Z",
+      "last_checked": "2026-04-01T05:37:42.604Z",
       "last_seen": "2026-03-30T05:40:09.622Z",
       "sponsored": false,
       "verification_available": true
@@ -14852,12 +15046,12 @@
       "name": "flutter-subagent.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14865,7 +15059,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:25:59.211Z",
+      "last_checked": "2026-04-01T05:37:44.591Z",
       "last_seen": "2026-03-30T05:40:11.618Z",
       "sponsored": false,
       "verification_available": true
@@ -14986,8 +15180,8 @@
       "verification_available": true
     },
     {
-      "domain": "fts5.html",
-      "name": "fts5.html",
+      "domain": "from-local-system.html",
+      "name": "from-local-system.html",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -14995,7 +15189,30 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: web-platform-tests/wpt",
+          "url": "https://github.com/web-platform-tests/wpt"
+        }
+      ],
+      "last_checked": "2026-04-01T05:37:46.597Z",
+      "last_seen": "2026-04-01T05:37:46.597Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "fts5.html",
+      "name": "fts5.html",
+      "type": [],
+      "confidence": 30,
+      "status": "dead",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15003,7 +15220,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:26:03.087Z",
+      "last_checked": "2026-04-01T05:37:48.526Z",
       "last_seen": "2026-03-30T05:40:15.439Z",
       "sponsored": false,
       "verification_available": true
@@ -15064,7 +15281,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15072,7 +15289,7 @@
           "url": "https://github.com/happyhj/webmcp-blackjack"
         }
       ],
-      "last_checked": "2026-03-30T05:40:17.440Z",
+      "last_checked": "2026-04-01T05:37:50.555Z",
       "last_seen": "2026-03-30T05:40:17.440Z",
       "sponsored": false,
       "verification_available": true
@@ -15156,7 +15373,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15164,7 +15381,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:26:05.090Z",
+      "last_checked": "2026-04-01T05:37:52.478Z",
       "last_seen": "2026-02-21T04:54:43.747Z",
       "sponsored": false,
       "verification_available": true
@@ -15187,7 +15404,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:26:07.140Z",
+      "last_checked": "2026-04-01T05:37:54.465Z",
       "last_seen": "2026-03-30T05:40:23.544Z",
       "sponsored": false,
       "verification_available": true
@@ -15215,7 +15432,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:26:09.361Z",
+      "last_checked": "2026-04-01T05:37:57.057Z",
       "last_seen": "2026-02-21T04:54:45.623Z",
       "sponsored": false,
       "verification_available": true
@@ -15225,12 +15442,12 @@
       "name": "git-workflow.mdx",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15238,7 +15455,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:26:11.089Z",
+      "last_checked": "2026-04-01T05:37:58.460Z",
       "last_seen": "2026-03-30T05:40:27.478Z",
       "sponsored": false,
       "verification_available": true
@@ -15276,7 +15493,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15284,7 +15501,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-03-31T05:26:13.089Z",
+      "last_checked": "2026-04-01T05:38:00.480Z",
       "last_seen": "2026-02-20T05:05:45.395Z",
       "sponsored": false,
       "verification_available": true
@@ -15299,7 +15516,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15307,7 +15524,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-03-31T05:26:15.202Z",
+      "last_checked": "2026-04-01T05:38:02.610Z",
       "last_seen": "2026-02-20T05:05:47.256Z",
       "sponsored": false,
       "verification_available": true
@@ -15322,7 +15539,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15330,7 +15547,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-03-31T05:26:17.096Z",
+      "last_checked": "2026-04-01T05:38:04.487Z",
       "last_seen": "2026-02-20T05:05:49.251Z",
       "sponsored": false,
       "verification_available": true
@@ -15376,7 +15593,7 @@
           "url": "https://github.com/andresfelipe9619/portfolio"
         }
       ],
-      "last_checked": "2026-03-30T05:40:35.532Z",
+      "last_checked": "2026-04-01T05:38:06.482Z",
       "last_seen": "2026-03-30T05:40:35.532Z",
       "sponsored": false,
       "verification_available": true
@@ -15409,12 +15626,12 @@
       "name": "global-optimization.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15422,7 +15639,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:26:19.103Z",
+      "last_checked": "2026-04-01T05:38:08.480Z",
       "last_seen": "2026-03-30T05:40:37.504Z",
       "sponsored": false,
       "verification_available": true
@@ -15473,7 +15690,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:26:21.224Z",
+      "last_checked": "2026-04-01T05:38:10.583Z",
       "last_seen": "2026-03-30T05:40:41.996Z",
       "sponsored": false,
       "verification_available": true
@@ -15501,7 +15718,7 @@
           "url": "https://github.com/Doriandarko/webmcp-starter"
         }
       ],
-      "last_checked": "2026-03-31T05:26:23.110Z",
+      "last_checked": "2026-04-01T05:38:12.460Z",
       "last_seen": "2026-02-16T05:16:22.749Z",
       "sponsored": false,
       "verification_available": true
@@ -15557,12 +15774,12 @@
       "name": "green.svg",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15570,7 +15787,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:26:25.163Z",
+      "last_checked": "2026-04-01T05:38:14.500Z",
       "last_seen": "2026-03-30T05:40:45.574Z",
       "sponsored": false,
       "verification_available": true
@@ -15639,7 +15856,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:26:27.101Z",
+      "last_checked": "2026-04-01T05:38:16.545Z",
       "last_seen": "2026-03-30T05:40:47.542Z",
       "sponsored": false,
       "verification_available": true
@@ -15649,12 +15866,12 @@
       "name": "h2.overband",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15662,7 +15879,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:26:29.209Z",
+      "last_checked": "2026-04-01T05:38:18.519Z",
       "last_seen": "2026-03-30T05:40:49.631Z",
       "sponsored": false,
       "verification_available": true
@@ -15764,12 +15981,12 @@
       "name": "home.png",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15777,7 +15994,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:26:31.101Z",
+      "last_checked": "2026-04-01T05:38:20.454Z",
       "last_seen": "2026-03-30T05:40:51.473Z",
       "sponsored": false,
       "verification_available": true
@@ -15810,12 +16027,12 @@
       "name": "hooks.png",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15823,7 +16040,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:26:33.133Z",
+      "last_checked": "2026-04-01T05:38:22.533Z",
       "last_seen": "2026-03-30T05:40:53.580Z",
       "sponsored": false,
       "verification_available": true
@@ -15884,12 +16101,12 @@
       "name": "http.crossoriginprotection",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15897,7 +16114,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:26:35.109Z",
+      "last_checked": "2026-04-01T05:38:24.653Z",
       "last_seen": "2026-03-30T05:40:55.579Z",
       "sponsored": false,
       "verification_available": true
@@ -15912,7 +16129,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15930,7 +16147,7 @@
           "url": "https://github.com/gabrielreve96/webmcp"
         }
       ],
-      "last_checked": "2026-03-31T05:26:37.106Z",
+      "last_checked": "2026-04-01T05:38:26.471Z",
       "last_seen": "2026-02-16T05:16:44.199Z",
       "sponsored": false,
       "verification_available": true
@@ -15963,12 +16180,12 @@
       "name": "i18n.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15976,7 +16193,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:26:39.109Z",
+      "last_checked": "2026-04-01T05:38:28.550Z",
       "last_seen": "2026-03-30T05:40:59.483Z",
       "sponsored": false,
       "verification_available": true
@@ -16037,7 +16254,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16045,7 +16262,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-03-31T05:26:41.238Z",
+      "last_checked": "2026-04-01T05:38:30.586Z",
       "last_seen": "2026-02-20T05:06:13.321Z",
       "sponsored": false,
       "verification_available": true
@@ -16064,10 +16281,10 @@
         {
           "type": "well_known",
           "url": "https://img.shields.io/.well-known/mcp.json",
-          "last_success": "2026-03-31T05:26:43.126Z"
+          "last_success": "2026-04-01T05:38:32.536Z"
         }
       ],
-      "last_verified_success": "2026-03-31T05:26:43.126Z",
+      "last_verified_success": "2026-04-01T05:38:32.536Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -16186,8 +16403,8 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-03-31T05:26:43.126Z",
-      "last_seen": "2026-03-31T05:26:43.126Z",
+      "last_checked": "2026-04-01T05:38:32.536Z",
+      "last_seen": "2026-04-01T05:38:32.536Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -16201,7 +16418,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16242,9 +16459,14 @@
           "kind": "github_hit",
           "detail": "repo: tedneward/Research",
           "url": "https://github.com/tedneward/Research"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-03-31T05:26:45.166Z",
+      "last_checked": "2026-04-01T05:38:34.478Z",
       "last_seen": "2026-02-16T05:16:52.275Z",
       "sponsored": false,
       "verification_available": true
@@ -16253,13 +16475,13 @@
       "domain": "index.js",
       "name": "index.js",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16270,9 +16492,14 @@
           "kind": "github_hit",
           "detail": "repo: heywood8/telegram-LeoLM-bot",
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WordPress/wordpress-playground",
+          "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-02-22T05:07:12.920Z",
+      "last_checked": "2026-04-01T05:38:36.454Z",
       "last_seen": "2026-02-16T05:16:54.201Z",
       "sponsored": false,
       "verification_available": true
@@ -16364,7 +16591,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-03-31T05:26:49.141Z",
+      "last_checked": "2026-04-01T05:38:38.535Z",
       "last_seen": "2026-02-21T04:55:17.622Z",
       "sponsored": false,
       "verification_available": true
@@ -16425,12 +16652,12 @@
       "name": "installation-complete.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16438,7 +16665,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:26:53.558Z",
+      "last_checked": "2026-04-01T05:38:40.461Z",
       "last_seen": "2026-03-30T05:41:15.885Z",
       "sponsored": false,
       "verification_available": true
@@ -16499,7 +16726,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16507,7 +16734,7 @@
           "url": "https://github.com/igrigorik/AgentBoard"
         }
       ],
-      "last_checked": "2026-03-31T05:26:55.291Z",
+      "last_checked": "2026-04-01T05:38:42.651Z",
       "last_seen": "2026-02-16T05:17:00.353Z",
       "sponsored": false,
       "verification_available": true
@@ -16522,7 +16749,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16530,7 +16757,7 @@
           "url": "https://github.com/hemanth/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-03-31T05:26:57.114Z",
+      "last_checked": "2026-04-01T05:38:44.496Z",
       "last_seen": "2026-02-21T04:55:25.642Z",
       "sponsored": false,
       "verification_available": true
@@ -16609,12 +16836,12 @@
       "name": "ios-claude-md-template.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16622,7 +16849,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:26:59.118Z",
+      "last_checked": "2026-04-01T05:38:46.519Z",
       "last_seen": "2026-03-30T05:41:19.479Z",
       "sponsored": false,
       "verification_available": true
@@ -16632,12 +16859,12 @@
       "name": "ios-guide.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16645,7 +16872,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:27:01.267Z",
+      "last_checked": "2026-04-01T05:38:48.595Z",
       "last_seen": "2026-03-30T05:41:21.684Z",
       "sponsored": false,
       "verification_available": true
@@ -16655,12 +16882,12 @@
       "name": "ios-subagent.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16668,7 +16895,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-03-31T05:27:03.251Z",
+      "last_checked": "2026-04-01T05:38:50.588Z",
       "last_seen": "2026-03-30T05:41:23.633Z",
       "sponsored": false,
       "verification_available": true
@@ -16737,7 +16964,7 @@
           "url": "https://github.com/tedneward/Research"
         }
       ],
-      "last_checked": "2026-03-31T05:27:05.244Z",
+      "last_checked": "2026-04-01T05:38:52.581Z",
       "last_seen": "2026-03-30T05:41:25.632Z",
       "sponsored": false,
       "verification_available": true
@@ -16760,7 +16987,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:27:07.133Z",
+      "last_checked": "2026-04-01T05:38:54.486Z",
       "last_seen": "2026-03-31T05:27:07.133Z",
       "sponsored": false,
       "verification_available": true
@@ -16775,7 +17002,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16783,7 +17010,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:27:10.520Z",
+      "last_checked": "2026-04-01T05:38:57.862Z",
       "last_seen": "2026-03-31T05:27:10.520Z",
       "sponsored": false,
       "verification_available": true
@@ -16798,7 +17025,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16806,7 +17033,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:27:12.756Z",
+      "last_checked": "2026-04-01T05:39:00.212Z",
       "last_seen": "2026-03-31T05:27:12.756Z",
       "sponsored": false,
       "verification_available": true
@@ -16821,7 +17048,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16829,7 +17056,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:27:14.517Z",
+      "last_checked": "2026-04-01T05:39:01.987Z",
       "last_seen": "2026-03-31T05:27:14.517Z",
       "sponsored": false,
       "verification_available": true
@@ -16839,12 +17066,12 @@
       "name": "json.stringify",
       "type": [],
       "confidence": 60,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16857,7 +17084,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-03-31T05:27:16.504Z",
+      "last_checked": "2026-04-01T05:39:03.918Z",
       "last_seen": "2026-02-16T05:17:12.752Z",
       "sponsored": false,
       "verification_available": true
@@ -16880,7 +17107,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-03-31T05:27:18.507Z",
+      "last_checked": "2026-04-01T05:39:05.857Z",
       "last_seen": "2026-03-31T05:27:18.507Z",
       "sponsored": false,
       "verification_available": true
@@ -16908,8 +17135,100 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-03-31T05:27:20.856Z",
+      "last_checked": "2026-04-01T05:39:08.106Z",
       "last_seen": "2026-03-31T05:27:20.856Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "komarev.com",
+      "name": "komarev.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: andresfelipe9619/portfolio",
+          "url": "https://github.com/andresfelipe9619/portfolio"
+        }
+      ],
+      "last_checked": "2026-04-01T05:39:09.861Z",
+      "last_seen": "2026-04-01T05:39:09.861Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "landing.png",
+      "name": "landing.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: happyhj/webmcp-blackjack",
+          "url": "https://github.com/happyhj/webmcp-blackjack"
+        }
+      ],
+      "last_checked": "2026-04-01T05:39:12.617Z",
+      "last_seen": "2026-04-01T05:39:12.617Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "languagemodel.create",
+      "name": "languagemodel.create",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-01T05:39:13.934Z",
+      "last_seen": "2026-04-01T05:39:13.934Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "laraplugins.io",
+      "name": "laraplugins.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/ai-prompts",
+          "url": "https://github.com/escapeboy/ai-prompts"
+        }
+      ],
+      "last_checked": "2026-04-01T05:39:15.921Z",
+      "last_seen": "2026-04-01T05:39:15.921Z",
       "sponsored": false,
       "verification_available": true
     },
