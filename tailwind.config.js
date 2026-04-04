@@ -7,11 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cream: "#f9f6f1",
-        ember: "#c8590a",
+        cream: "#f8f6f0",
+        navy: "#1b3a6b",
+        gold: "#b8941e",
         ink: "#1c1c1e",
-        muted: "#888480",
-        rule: "#d4cfc8",
+        muted: "#6b7f96",
+        rule: "#ccc8bf",
       },
       fontFamily: {
         serif: ["Georgia", "Times New Roman", "serif"],
@@ -20,19 +21,19 @@ module.exports = {
       typography: (theme) => ({
         windrose: {
           css: {
-            "--tw-prose-body": theme("colors.ink"),
-            "--tw-prose-headings": theme("colors.ink"),
-            "--tw-prose-links": theme("colors.ember"),
-            "--tw-prose-bold": theme("colors.ink"),
+            "--tw-prose-body": "#2a2a2a",
+            "--tw-prose-headings": theme("colors.navy"),
+            "--tw-prose-links": theme("colors.navy"),
+            "--tw-prose-bold": "#1c1c1e",
             "--tw-prose-counters": theme("colors.muted"),
             "--tw-prose-bullets": theme("colors.rule"),
             "--tw-prose-hr": theme("colors.rule"),
-            "--tw-prose-quotes": theme("colors.ink"),
-            "--tw-prose-quote-borders": theme("colors.ember"),
+            "--tw-prose-quotes": "#2a2a2a",
+            "--tw-prose-quote-borders": theme("colors.gold"),
             "--tw-prose-captions": theme("colors.muted"),
-            "--tw-prose-code": theme("colors.ink"),
-            "--tw-prose-pre-code": "#f9f6f1",
-            "--tw-prose-pre-bg": "#1c1c1e",
+            "--tw-prose-code": "#1c1c1e",
+            "--tw-prose-pre-code": "#f8f6f0",
+            "--tw-prose-pre-bg": "#1b3a6b",
             "--tw-prose-th-borders": theme("colors.rule"),
             "--tw-prose-td-borders": theme("colors.rule"),
             fontFamily: "Georgia, 'Times New Roman', serif",
@@ -40,28 +41,34 @@ module.exports = {
             lineHeight: "1.75",
             maxWidth: "none",
             a: {
-              color: theme("colors.ember"),
+              color: theme("colors.navy"),
               textDecoration: "none",
               "&:hover": {
                 textDecoration: "underline",
+                color: theme("colors.gold"),
               },
             },
             "h1, h2, h3, h4": {
               fontFamily: "Georgia, 'Times New Roman', serif",
               fontWeight: "700",
+              color: theme("colors.navy"),
             },
             blockquote: {
               fontStyle: "italic",
-              borderLeftColor: theme("colors.ember"),
+              borderLeftColor: theme("colors.gold"),
               borderLeftWidth: "3px",
               paddingLeft: "1rem",
-              color: theme("colors.ink"),
+              color: "#2a2a2a",
+            },
+            hr: {
+              borderStyle: "dotted",
+              borderColor: theme("colors.rule"),
             },
             code: {
               fontFamily:
                 "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace",
               fontSize: "0.875em",
-              backgroundColor: "#eee9e2",
+              backgroundColor: "#edeae3",
               padding: "0.15em 0.3em",
               borderRadius: "3px",
               fontWeight: "400",
