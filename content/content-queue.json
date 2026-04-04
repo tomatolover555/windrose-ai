@@ -1,0 +1,35 @@
+[
+  {
+    "id": "q001",
+    "title": "What Is the Agentic Web? A Plain-Language Guide",
+    "slug": "what-is-the-agentic-web",
+    "angle": "Explain the agentic web to a smart non-technical reader. Define it clearly, give 3 concrete examples of agents buying or doing things autonomously, and explain why this matters now.",
+    "avoid": "Do not use jargon without defining it. Do not just list AI company names.",
+    "target_keyword": "agentic web explained",
+    "category": "explainer",
+    "audience": ["general", "founders"],
+    "priority": 1
+  },
+  {
+    "id": "q002",
+    "title": "How to Make Your Online Store Agent-Accessible",
+    "slug": "how-to-make-your-store-agent-accessible",
+    "angle": "Practical step-by-step guide for developers. Cover: structured discovery endpoints, machine-readable product data, agent authentication, and the x402 payment standard.",
+    "avoid": "Do not be vague. Every step should be actionable.",
+    "target_keyword": "agent-accessible online store",
+    "category": "how-to",
+    "audience": ["developers"],
+    "priority": 2
+  },
+  {
+    "id": "q003",
+    "title": "x402: The Payment Standard Built for AI Agents",
+    "slug": "x402-payment-standard-for-ai-agents",
+    "angle": "Explain x402 protocol clearly: what problem it solves, how the 402/PAYMENT-REQUIRED/PAYMENT-SIGNATURE flow works, and why it matters for autonomous agent commerce. Include a simple code example.",
+    "avoid": "Do not assume reader knows HTTP deeply. Explain the flow from scratch.",
+    "target_keyword": "x402 payment protocol agents",
+    "category": "explainer",
+    "audience": ["developers", "founders"],
+    "priority": 3
+  }
+]

@@ -1,0 +1,64 @@
+name: Generate Blog Post
+
+on:
+  schedule:
+    # Run Mon, Wed, Fri at 09:00 UTC
+    - cron: "0 9 * * 1,3,5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (skip actual generation)"
+        required: false
+        default: "false"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate post
+        id: generate
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            npx tsx scripts/generate-post.ts --dry-run
+          else
+            npx tsx scripts/generate-post.ts
+          fi
+
+      - name: Check for new post
+        id: check
+        run: |
+          if git diff --quiet HEAD -- content/blog/; then
+            echo "new_post=false" >> $GITHUB_OUTPUT
+          else
+            echo "new_post=true" >> $GITHUB_OUTPUT
+            NEW_FILE=$(git status --short content/blog/ | awk '{print $2}' | head -1)
+            echo "new_file=$NEW_FILE" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push (autonomous)
+        if: steps.check.outputs.new_post == 'true'
+        run: |
+          git config user.name "windrose-bot"
+          git config user.email "bot@windrose-ai.com"
+          git add content/blog/
+          git commit -m "feat(blog): auto-generate post"
+          git push
