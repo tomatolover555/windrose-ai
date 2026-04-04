@@ -2,4 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f9f6f1;
+}
+
+body {
+  background-color: #f9f6f1;
+  color: #1c1c1e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #c8590a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
