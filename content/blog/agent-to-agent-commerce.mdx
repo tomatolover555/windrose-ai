@@ -1,0 +1,25 @@
+The post is already fairly specific and useful overall. It does contain concrete information beyond a quick Google summary, especially in the sections on the transaction steps, protocol stack, and failure modes.
+
+The one section that feels least “earned” is **“What Exists Today”**: it names tools and gives broad roles, but it doesn’t add much that a reader couldn’t quickly find elsewhere. It would be stronger with more concrete examples of how these pieces actually fit together in a real agent-to-agent purchase flow.
+
+Here is a rewrite of just that section:
+
+## What Exists Today
+
+There is no single universal “AI commerce protocol” yet. What exists is a set of building blocks that can be combined into a transaction, but each one covers only part of the problem.
+
+**MCP, or Model Context Protocol**, gives an agent a standard way to discover and call tools. In practice, that means a seller can expose things like `list_products`, `get_quote`, `create_order`, or `check_status` through an MCP server. That is useful because it turns a normal API into something an agent can inspect and use without custom integration for every model.
+
+**x402** is aimed at paid access for machine clients. A typical use case is an agent hitting a resource that responds with a payment requirement before serving the content or API call. That makes it a fit for low-friction purchases like document access, API usage, or metered endpoints where the buyer does not need a human checkout flow.
+
+**Stripe** can already handle the money movement behind agent-initiated commerce, but usually through existing primitives: invoices, payment links, saved payment methods, or server-side charge creation. In other words, Stripe can settle the transaction, but your application still has to decide when the agent is allowed to spend, how much it can spend, and what counts as a valid purchase.
+
+On the model side, **OpenAI** and **Anthropic** make it easier to build agents that can compare options, call tools, and follow structured workflows. That matters because a seller agent often needs to do more than return a price: it may need to answer questions about usage limits, negotiate a bundle, or generate a machine-readable offer that another agent can evaluate.
+
+So the current reality is not a finished commerce layer. It is a chain of partial capabilities:
+- one layer for tool discovery,
+- one for paid access,
+- one for settlement,
+- and separate policy logic for deciding whether the purchase is allowed.
+
+That is enough to make narrow agent-to-agent transactions work today, but not enough to make them safe by default.

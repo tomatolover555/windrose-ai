@@ -1,0 +1,136 @@
+Yes — several sections are still fairly generic and could be improved with more concrete, non-obvious detail. Here are the sections I’d rewrite to add specificity and value:
+
+---
+
+## What x402 is trying to standardize
+
+x402 builds on the HTTP `402 Payment Required` status code, but the important part is not the status code itself — it is the machine-readable payment challenge that comes back with it.
+
+In a practical x402 flow, the server is not just saying “pay me.” It is returning the details a client needs to decide whether to continue, such as:
+
+- what resource was requested,
+- how much it costs,
+- what asset or rail is accepted,
+- whether the price is fixed or computed from usage,
+- and what proof the server expects on retry.
+
+That matters because agents need to automate the whole decision loop. A human can read a checkout page and click around. A program needs a response it can parse, compare against policy, and act on without guesswork.
+
+So the real standardization goal is not “use 402.” It is “make paid access look like a normal HTTP round trip, with enough structure for software to handle it deterministically.”
+
+---
+
+## The 402 / PAYMENT-REQUIRED / PAYMENT-SIGNATURE flow
+
+Different implementations may vary in details, but the useful part of x402 is the shape of the exchange.
+
+### 1) Client requests a protected or metered endpoint
+
+```http
+GET /api/report/weekly HTTP/1.1
+Host: example.com
+```
+
+At this point, the client does not need a separate pricing API or a pre-negotiated subscription. The request itself is the trigger.
+
+### 2) Server replies with `402 Payment Required`
+
+```http
+HTTP/1.1 402 Payment Required
+Content-Type: application/json
+
+{
+  "error": "PAYMENT_REQUIRED",
+  "amount": "0.01",
+  "currency": "USD",
+  "payment_method": "x402",
+  "accepts": ["base", "usdc"]
+}
+```
+
+In a real implementation, this response is doing more than indicating price. It is acting as a payment challenge that can be cached, inspected, or passed to a wallet flow. The client can use it to decide whether the request is worth paying for, whether the accepted rail matches its policy, and whether the amount is within budget.
+
+### 3) Client authorizes payment
+
+This is where the agent or app interacts with a wallet, payment SDK, or settlement layer. The important distinction is that the client is not opening a checkout page; it is producing a payment proof that can be attached to the retry.
+
+For agentic use, that proof needs to be:
+- quick to generate,
+- easy to verify,
+- and tied to the exact request being retried.
+
+### 4) Client retries with `PAYMENT-SIGNATURE`
+
+```http
+GET /api/report/weekly HTTP/1.1
+Host: example.com
+PAYMENT-SIGNATURE: eyJhbGciOi...
+```
+
+The signature is the bridge between authorization and access. It should let the server confirm that the client satisfied the payment conditions for this specific request, not just that “some payment happened somewhere.”
+
+That distinction is what makes the flow useful for metered APIs and one-off access.
+
+### 5) Server returns the resource
+
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "report": "..."
+}
+```
+
+If the proof checks out, the server can serve the resource immediately, without redirecting the client to a separate billing system.
+
+---
+
+## Why this matters for autonomous agent commerce
+
+Agents do not behave like human shoppers, and that changes the payment design requirements.
+
+A human can handle:
+- a login wall,
+- a subscription prompt,
+- a card form,
+- an email receipt,
+- and a manual approval step.
+
+An agent usually cannot, because those steps break automation and introduce ambiguity. If the agent is trying to complete a task on a deadline, it needs to know:
+
+- whether the resource is available,
+- what it costs,
+- whether the payment method is allowed,
+- and how to retry after payment without losing state.
+
+That is why x402 is interesting: it makes payment part of the same request/response cycle as the resource itself. For agent workflows, that can reduce the need for custom billing APIs, preloaded credits, or brittle “contact sales” paths.
+
+The most obvious use cases are not consumer shopping carts. They are things like:
+- paying a few cents for a premium API response,
+- buying a single document or dataset row,
+- unlocking a compute-heavy operation on demand,
+- or letting an agent spend from a constrained budget without human intervention.
+
+---
+
+## What to watch next
+
+The most important questions are not abstract; they are implementation questions that determine whether x402 is actually usable in production.
+
+- **Can the payment challenge be deterministic enough for clients to cache and compare?**
+  If the same request returns a different challenge every time, automation gets harder.
+
+- **Can verification happen fast enough for interactive APIs?**
+  If the payment proof takes seconds to validate, the protocol becomes awkward for real-time use.
+
+- **Can the protocol express variable pricing cleanly?**
+  Metered endpoints, dynamic pricing, and usage-based billing are much harder than a flat fee.
+
+- **Can retries be made idempotent?**
+  If a client pays and the retry fails, the system needs a clear way to avoid double-charging.
+
+- **Can humans and agents share the same endpoint without confusion?**
+  A good implementation should support both a browser user and a programmatic client without forcing separate infrastructure.
+
+Those details will decide whether x402 becomes a practical convention or stays a niche experiment.

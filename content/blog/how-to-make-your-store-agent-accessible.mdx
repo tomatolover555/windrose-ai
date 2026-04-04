@@ -1,0 +1,208 @@
+The post is solid, but several sections are still fairly generic and could be found quickly on Google. The sections that most need revision are the ones that currently give broad advice without enough implementation detail or concrete examples.
+
+Here are the sections I’d rewrite to make them more specific and valuable:
+
+---
+
+## Start with a discovery endpoint
+
+Humans can browse a homepage and figure out where to click. Agents should not have to infer your site structure from HTML.
+
+Create a discovery endpoint that tells agents what your store can do. Think of it as a compact map of capabilities. A good pattern is a single JSON document at a stable URL, such as `/.well-known/agent-store.json`, that includes:
+
+- store name and canonical base URL
+- supported locales and currencies
+- authentication schemes
+- rate limits and retry windows
+- links to machine-readable endpoints for search, product lookup, cart creation, checkout, order status, and returns
+- whether each action is read-only or mutating
+- the schema version of the document itself
+
+For example, an agent should be able to learn from one response that:
+
+- `GET /api/products/{id}` returns product details
+- `GET /api/search?q=` supports keyword search
+- `POST /api/cart` creates a cart
+- `POST /api/checkout` starts checkout
+- `GET /api/orders/{id}` returns order status
+
+If you already publish an OpenAPI spec, link to it from the discovery document rather than burying it in developer docs. If you do not have APIs yet, start with a read-only discovery file that points to product pages, shipping policy, and support contacts in structured form.
+
+The goal is not just “findability.” It is to remove ambiguity so an agent does not have to guess which endpoint is authoritative or whether a given action is safe to call.
+
+---
+
+## Publish machine-readable product data
+
+The next step is to make product information explicit. For agents, a product page should not be a bundle of marketing copy wrapped around a price. It should be a structured record with human-readable text attached.
+
+At minimum, expose:
+
+- product ID or SKU
+- title
+- description
+- price
+- currency
+- availability
+- variant attributes such as size, color, material, or bundle
+- shipping options
+- return policy
+- image URLs
+- canonical product URL
+
+The simplest path is to add schema.org Product markup to your pages, but do not stop at the basics. Include the fields that affect purchase decisions and fulfillment. In practice, that means using `Product`, `Offer`, and, where relevant, `AggregateOffer` or `OfferShippingDetails` so an agent can distinguish between:
+
+- one item with multiple variants
+- multiple sellers or price points
+- in-stock versus preorder versus backorder
+- region-specific shipping constraints
+- final-sale items versus returnable items
+
+A useful implementation pattern is to keep the page, the structured data, and the API response aligned on the same product record ID. That way, if a price changes, the update propagates consistently across all surfaces.
+
+Example fields an agent can use immediately:
+
+- `sku: "TSHIRT-RELAXED-001"`
+- `price: 29.00`
+- `currency: "USD"`
+- `availability: "https://schema.org/InStock"`
+- `shippingCountries: ["US", "CA"]`
+- `returnWindowDays: 30`
+- `variantOptions: { size: ["S", "M", "L"], color: ["black", "white"] }`
+
+Also, avoid hiding important commercial terms in rendered text only. If a product is final sale, ships only to certain regions, or requires a subscription, encode that explicitly. Agents should not have to infer policy from prose.
+
+A good test is this: if a support agent would need to ask a human merchant for clarification before placing the order, the data is not yet machine-readable enough.
+
+---
+
+## Design for agent authentication, not browser impersonation
+
+Many stores still assume a user logs in through a browser session and then clicks through checkout. That is fragile for agents and risky for users. Shared passwords, cookie replay, and headless browser automation create avoidable security problems.
+
+Instead, treat agent authentication as a first-class workflow.
+
+For read access, you may not need auth at all. Public catalog data can remain public. For write actions such as cart creation, order placement, or subscription changes, use scoped credentials.
+
+OAuth 2.0 is a practical baseline, but the important part is how you scope it. A store should issue tokens that are tied to a specific agent app, customer account, and permission set. For example:
+
+- `read:products` for catalog browsing
+- `read:inventory` for stock checks
+- `write:cart` for cart creation and updates
+- `write:orders` for order placement
+- `read:orders` for order status only
+- `write:returns` for return initiation, if supported
+
+You can also make the token audience explicit, so a token issued for one store cannot be replayed against another. Short expiration times and refresh tokens reduce the damage if credentials leak.
+
+If you need stronger verification, pair OAuth with signed requests or short-lived session tokens. For high-risk actions, require step-up authorization, such as a human confirmation for the first purchase or for changes above a dollar threshold.
+
+The key is to authenticate the agent’s application context, not to make it pretend to be a human browser. If your only option is “log in as the customer and hope the browser behaves,” the integration is not agent-safe yet.
+
+---
+
+## Make checkout legible to software
+
+Checkout is where many agent integrations fail. The problem is not just payment; it is ambiguity. Taxes, shipping, discounts, inventory reservation, and fraud checks all need deterministic handling.
+
+Expose a checkout flow that can be driven by structured inputs and returns structured outputs:
+
+- selected items and quantities
+- destination country and postal code
+- shipping method
+- applied discount codes
+- tax estimate
+- final amount due
+- order confirmation ID
+
+A more useful implementation is to split checkout into explicit steps:
+
+1. validate cart contents
+2. reserve inventory for a short window
+3. quote shipping and tax
+4. confirm payment method
+5. place order
+6. return a durable order ID and receipt URL
+
+That separation matters because agents need to know which step failed. If inventory disappears after shipping is quoted, the agent should receive a machine-readable error like `inventory_unavailable` rather than a generic “something went wrong” page.
+
+If you already have a backend order API, let the agent use that directly. If not, at least expose a checkout endpoint that returns structured validation errors, supported shipping methods, and a final payable amount before the agent commits.
+
+This is also where x402 becomes interesting.
+
+---
+
+## Where x402 fits
+
+The x402 payment standard is aimed at making web payments more machine-native. Instead of forcing software to imitate a human clicking through a checkout page, x402 is designed to support programmatic payment flows that fit the web more naturally.
+
+That matters for stores that sell digital goods, API access, subscriptions, downloadable assets, or small transactions where checkout overhead is the main friction.
+
+A concrete x402 flow might look like this:
+
+1. Agent requests `GET /premium/report`.
+2. Server responds with `402 Payment Required` and a payment challenge.
+3. Challenge includes the amount, asset ID, expiration time, and payment instructions.
+4. Agent submits payment through an x402-compatible wallet or payment client.
+5. Server verifies settlement and returns the resource or unlocks access.
+
+For commerce teams, the practical question is where this reduces operational burden. x402 is most useful when you want software to buy something without building a custom checkout UI for every transaction type. It may be a good fit for:
+
+- pay-per-use APIs
+- downloadable digital products
+- metered content access
+- low-value purchases where card checkout is too heavy
+
+But be careful: if your store already has reliable card payments, fraud tooling, and tax handling, do not replace them just to chase novelty. x402 is promising, but it should complement a stable commerce stack, not destabilize it.
+
+---
+
+## Test the store like an agent would
+
+Once the pieces are in place, test them without a browser.
+
+Ask a script or agent to:
+
+- discover your capabilities from the endpoint
+- fetch a product by ID
+- compare variants
+- verify stock and shipping
+- authenticate with limited scope
+- create a cart
+- complete a test payment or payment challenge
+- retrieve order status
+
+To make this test meaningful, use real edge cases, not just happy paths. For example:
+
+- a product with two variants, one in stock and one backordered
+- a shipping address outside your delivery zone
+- an expired token
+- a cart whose inventory becomes unavailable before checkout
+- a discount code that applies only to one category
+- a payment challenge that times out after 60 seconds
+
+If any step requires scraping, manual interpretation, or hidden state, the integration is not ready.
+
+Also test failure modes. Good agent access is not just about success paths; it is about predictable errors. An agent should be able to distinguish between `invalid_address`, `payment_expired`, `inventory_changed`, and `permission_denied` without guessing from a generic error page.
+
+---
+
+## The practical version of agent-accessible commerce
+
+The most useful stores for agents are not the most automated ones. They are the most legible ones.
+
+That means:
+
+- discovery is explicit
+- product data is structured
+- permissions are scoped
+- payments are machine-readable
+- errors are deterministic
+
+You can implement all of this incrementally. Start with read-only catalog data and a discovery document. Then add authenticated cart and order APIs. Then pilot x402 where it makes sense.
+
+The result is a store that can be used by both humans and software without forcing either side into the other’s interface.
+
+---
+
+If you want, I can also do a second pass and rewrite the whole post so every section has at least one concrete example, field name, endpoint, or failure mode.
