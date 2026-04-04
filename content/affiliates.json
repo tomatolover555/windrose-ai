@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "programs": [
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com/referral/windrose",
+      "context_tags": ["hosting", "deployment", "nextjs"],
+      "disclosure": "affiliate"
+    },
+    {
+      "id": "printful",
+      "name": "Printful",
+      "url": "https://www.printful.com/a/windrose",
+      "context_tags": ["fulfillment", "print-on-demand", "ecommerce"],
+      "disclosure": "affiliate"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/?ref=windrose",
+      "context_tags": ["llm", "ai-api", "content-generation"],
+      "disclosure": "affiliate"
+    }
+  ]
+}
