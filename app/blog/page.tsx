@@ -58,9 +58,8 @@ export default function BlogIndexPage() {
                 >
                   <Link
                     href={`/blog/${post.slug}`}
+                    className="hover:text-[#b8941e] transition-colors"
                     style={{ color: "#1b3a6b", textDecoration: "none" }}
-                    onMouseOver={(e) => (e.currentTarget.style.color = "#b8941e")}
-                    onMouseOut={(e) => (e.currentTarget.style.color = "#1b3a6b")}
                   >
                     {post.title}
                   </Link>
