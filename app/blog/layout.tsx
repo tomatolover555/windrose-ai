@@ -1,21 +1,23 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#f8f6f0" }}>
-      {/* Logo header on cream background */}
-      <header style={{ backgroundColor: "#f8f6f0", paddingTop: "1.25rem", paddingBottom: "1rem" }}>
-        <div className="max-w-[680px] mx-auto px-6">
-          <Link href="/blog" style={{ display: "inline-block", textDecoration: "none" }}>
-            <Image
-              src="/logo.png"
-              alt="Windrose AI"
-              width={150}
-              height={56}
-              style={{ display: "block" }}
-              priority
-            />
+      {/* Navy masthead */}
+      <header style={{ backgroundColor: "#1b3a6b" }}>
+        <div className="max-w-[680px] mx-auto px-6 py-5 flex justify-end">
+          <Link
+            href="/"
+            style={{
+              fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+              fontSize: "0.65rem",
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              color: "#b8941e",
+              textDecoration: "none",
+            }}
+          >
+            Windrose
           </Link>
         </div>
       </header>
