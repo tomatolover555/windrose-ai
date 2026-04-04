@@ -114,7 +114,7 @@ Output ONLY the complete MDX file starting with ---. Include:
     model: "gpt-5.4-mini",
     messages: [{ role: "user", content: contentPrompt }],
     temperature: 0.7,
-    max_tokens: 2500,
+    max_completion_tokens: 2500,
   });
   let mdx = contentResponse.choices[0].message.content!.trim();
 
@@ -130,7 +130,7 @@ ${mdx}`;
     model: "gpt-5.4-mini",
     messages: [{ role: "user", content: critiquePrompt }],
     temperature: 0.3,
-    max_tokens: 2700,
+    max_completion_tokens: 2700,
   });
 
   return critiqueResponse.choices[0].message.content!.trim();
