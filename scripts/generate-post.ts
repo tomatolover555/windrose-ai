@@ -119,11 +119,11 @@ Output ONLY the complete MDX file starting with ---. Include:
   let mdx = contentResponse.choices[0].message.content!.trim();
 
   // Self-critique pass
-  const critiquePrompt = `Does this blog post about the agentic web contain specific, concrete information a reader couldn't find in 30 seconds on Google? Does every section earn its place?
+  const critiquePrompt = `You are editing a blog post about the agentic web. Review each section: does it contain specific, concrete information a reader couldn't find in 30 seconds on Google?
 
-If NO for any section, rewrite just that section to be more specific and valuable. Otherwise return the post unchanged.
+For any weak section, rewrite it to be more specific and concrete. Do not include commentary or analysis — output ONLY the complete improved post, starting from the frontmatter (---), with no preamble.
 
-Post:
+Post to review:
 ${mdx}`;
 
   const critiqueResponse = await openai.chat.completions.create({
