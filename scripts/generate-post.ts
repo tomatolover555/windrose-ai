@@ -1,7 +1,9 @@
 import fs from "fs";
 import path from "path";
+import OpenAI from "openai";
 
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const QUEUE_PATH = path.join(process.cwd(), "content/content-queue.json");
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 const AFFILIATES_PATH = path.join(process.cwd(), "content/affiliates.json");
@@ -33,110 +35,197 @@ function getExistingPosts(): string[] {
     .map(f => f.replace(/\.(mdx|md)$/, ""));
 }
 
-function getRelevantAffiliates(content: string, affiliates: AffiliateProgram[]) {
-  return affiliates.filter(a =>
-    a.context_tags.some(tag => content.toLowerCase().includes(tag.toLowerCase()))
-  );
-}
+async function getTavilyStory(): Promise<{ title: string; url: string; content: string } | null> {
+  if (!TAVILY_API_KEY) {
+    console.warn("TAVILY_API_KEY not set — skipping news grounding");
+    return null;
+  }
 
-async function generatePost(item: QueueItem, existingSlugs: string[]): Promise<string> {
-  if (!OPENROUTER_API_KEY) throw new Error("OPENROUTER_API_KEY not set");
-
-  const affiliates: { programs: AffiliateProgram[] } = JSON.parse(
-    fs.readFileSync(AFFILIATES_PATH, "utf-8")
-  );
-
-  const existingCoverage = existingSlugs.join(", ") || "none yet";
-
-  const systemPrompt = `You are a skilled technology writer for Windrose AI, a publication about the agentic web.
-Write clearly, accurately, and engagingly. Avoid hype and buzzwords.
-The blog serves both human readers (developers, founders, general public) and AI agents.
-Each post must include an agent_context frontmatter block with structured key claims, tools mentioned, recommended actions, and related posts.`;
-
-  const userPrompt = `Write a complete MDX blog post with the following brief:
-
-Title: ${item.title}
-Slug: ${item.slug}
-Angle: ${item.angle}
-Avoid: ${item.avoid}
-Target keyword: ${item.target_keyword}
-Category: ${item.category}
-Audience: ${item.audience.join(", ")}
-
-Already covered (don't repeat): ${existingCoverage}
-
-Available affiliate programs (only mention if genuinely relevant):
-${affiliates.programs.map(a => `- ${a.name}: ${a.context_tags.join(", ")}`).join("\n")}
-
-Output ONLY the complete MDX file starting with --- frontmatter. Include:
-1. Full frontmatter (title, slug, date as ${new Date().toISOString().split("T")[0]}, updated, summary, tags, category, audience, affiliate_links, agent_context)
-2. agent_context block with: key_claims (3-5 factual claims), tools_mentioned (with name/role/url), recommended_actions (actionable steps), related (2-3 related post .md URLs from /blog/)
-3. Post body — well-structured with clear headings, 600-1000 words
-Do not include any text before the opening --- or after the final content.`;
-
-  const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+  const response = await fetch("https://api.tavily.com/search", {
     method: "POST",
-    headers: {
-      "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
-      "Content-Type": "application/json",
-      "HTTP-Referer": "https://windrose-ai.com",
-      "X-Title": "Windrose AI Blog Generator",
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      model: "anthropic/claude-sonnet-4-5",
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt },
-      ],
-      temperature: 0.7,
-      max_tokens: 2000,
+      api_key: TAVILY_API_KEY,
+      query: "AI agents agentic web autonomous payments protocol 2026",
+      search_depth: "basic",
+      max_results: 5,
+      days: 2,
     }),
   });
 
   if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`OpenRouter error: ${response.status} ${err}`);
+    console.warn(`Tavily error: ${response.status} — skipping news grounding`);
+    return null;
   }
 
-  const data = await response.json() as { choices: { message: { content: string } }[] };
-  return data.choices[0].message.content;
+  const data = await response.json() as { results: { title: string; url: string; content: string }[] };
+  const results = data.results || [];
+  if (!results.length) return null;
+  return results.sort((a, b) => b.title.length - a.title.length)[0];
+}
+
+async function generatePost(opts: {
+  title: string;
+  angle: string;
+  slug: string;
+  category: string;
+  audience: string[];
+  affiliates: { programs: AffiliateProgram[] };
+  existingSlugs: string[];
+  groundingContext: string;
+}): Promise<string> {
+  const { title, angle, slug, category, audience, affiliates, existingSlugs, groundingContext } = opts;
+  const today = new Date().toISOString().split("T")[0];
+  const existingCoverage = existingSlugs.join(", ") || "none yet";
+
+  const systemPrompt = `You are a skilled technology writer for Windrose AI, a publication about the agentic web.
+Write clearly, accurately, and engagingly. Avoid hype and buzzwords.
+The blog serves both human readers (developers, founders, general public) and AI agents.`;
+
+  const contentPrompt = `${systemPrompt}
+
+Write a complete MDX blog post:
+
+Title: ${title}
+Angle: ${angle}
+${groundingContext}
+Already covered (avoid repeating): ${existingCoverage}
+
+Available affiliate programs (only if genuinely relevant):
+${affiliates.programs.map(a => `- ${a.name}: ${a.context_tags.join(", ")}`).join("\n")}
+
+Non-negotiable quality constraints:
+- MUST name at least 2 real tools, companies, protocols, or projects
+- MUST include a contrarian or nuanced angle
+- End with "## The Bottom Line"
+- End with "## References" — 3-5 real links:
+  - [Title](URL)
+
+Output ONLY the complete MDX file starting with ---. Include:
+1. Full frontmatter with these fields: title, slug (${slug}), date (${today}), updated (${today}), summary, tags, category (${category}), audience (${JSON.stringify(audience)}), affiliate_links (array, empty if none relevant), reading_time_minutes (integer estimate), human_url (/blog/${slug}), agent_url (/blog/${slug}.md), canonical (https://windrose-ai.com/blog/${slug})
+2. agent_context YAML block (as part of frontmatter) with:
+   - key_claims: list of 3-5 specific factual claims
+   - tools_mentioned: list of objects with name, role, url
+   - recommended_actions: list of 3-4 actionable steps
+   - related: list of 2-3 related post paths like /blog/some-post.md
+3. Post body — 700-1000 words, ## headings, The Bottom Line section, References section`;
+
+  const contentResponse = await openai.chat.completions.create({
+    model: "gpt-5.4-mini",
+    messages: [{ role: "user", content: contentPrompt }],
+    temperature: 0.7,
+    max_tokens: 2500,
+  });
+  let mdx = contentResponse.choices[0].message.content!.trim();
+
+  // Self-critique pass
+  const critiquePrompt = `Does this blog post about the agentic web contain specific, concrete information a reader couldn't find in 30 seconds on Google? Does every section earn its place?
+
+If NO for any section, rewrite just that section to be more specific and valuable. Otherwise return the post unchanged.
+
+Post:
+${mdx}`;
+
+  const critiqueResponse = await openai.chat.completions.create({
+    model: "gpt-5.4-mini",
+    messages: [{ role: "user", content: critiquePrompt }],
+    temperature: 0.3,
+    max_tokens: 2700,
+  });
+
+  return critiqueResponse.choices[0].message.content!.trim();
 }
 
 async function main() {
+  const modeArg = process.argv.find(a => a.startsWith("--mode="));
+  const mode = modeArg ? modeArg.split("=")[1] : "news";
   const dryRun = process.argv.includes("--dry-run");
 
-  if (!fs.existsSync(QUEUE_PATH)) {
-    console.error("No content queue found at", QUEUE_PATH);
+  if (!["news", "evergreen"].includes(mode)) {
+    console.error("Unknown mode:", mode, "(use --mode=news or --mode=evergreen)");
     process.exit(1);
   }
 
-  const queue: QueueItem[] = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf-8"));
+  console.log(`Mode: ${mode}`);
+
   const existingSlugs = getExistingPosts();
-
-  // Pick highest-priority item not yet published
-  const next = queue
-    .filter(item => !existingSlugs.includes(item.slug))
-    .sort((a, b) => a.priority - b.priority)[0];
-
-  if (!next) {
-    console.log("Queue exhausted — no new posts to generate.");
-    process.exit(0);
-  }
-
-  console.log(`Generating: "${next.title}" (${next.slug})`);
+  const affiliates: { programs: AffiliateProgram[] } = JSON.parse(
+    fs.readFileSync(AFFILIATES_PATH, "utf-8")
+  );
 
   if (dryRun) {
     console.log("Dry run — skipping generation.");
     process.exit(0);
   }
 
-  const mdx = await generatePost(next, existingSlugs);
+  let mdx: string;
+  let outSlug: string;
 
-  const outPath = path.join(BLOG_DIR, `${next.slug}.mdx`);
+  if (mode === "news") {
+    const story = await getTavilyStory();
+    const groundingContext = story
+      ? `\nGround this post in:\nTitle: ${story.title}\nURL: ${story.url}\nContent: ${story.content?.slice(0, 400)}`
+      : "";
+
+    if (story) console.log(`News grounding: "${story.title}"`);
+
+    const today = new Date().toISOString().split("T")[0];
+    const topicResponse = await openai.chat.completions.create({
+      model: "gpt-5.4-mini",
+      messages: [{
+        role: "user",
+        content: `Today is ${today}. Suggest a blog post title, 1-2 sentence summary, and URL slug for Windrose AI (publication about the agentic web).${groundingContext}\nReturn JSON: {"title": "...", "summary": "...", "slug": "..."}`
+      }],
+      response_format: { type: "json_object" },
+    });
+    const topic = JSON.parse(topicResponse.choices[0].message.content!) as { title: string; summary: string; slug: string };
+    outSlug = topic.slug || `${today}-${topic.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`;
+
+    mdx = await generatePost({
+      title: topic.title,
+      angle: topic.summary,
+      slug: outSlug,
+      category: "news",
+      audience: ["developers", "founders"],
+      affiliates,
+      existingSlugs,
+      groundingContext,
+    });
+  } else {
+    // Evergreen: pull highest-priority unwritten item from queue
+    if (!fs.existsSync(QUEUE_PATH)) {
+      console.error("No content queue at", QUEUE_PATH);
+      process.exit(1);
+    }
+    const queue: QueueItem[] = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf-8"));
+    const next = queue
+      .filter(item => !existingSlugs.includes(item.slug))
+      .sort((a, b) => a.priority - b.priority)[0];
+
+    if (!next) {
+      console.log("Queue exhausted — no evergreen posts to generate.");
+      process.exit(0);
+    }
+
+    console.log(`Queue item: "${next.title}"`);
+    outSlug = next.slug;
+
+    mdx = await generatePost({
+      title: next.title,
+      angle: next.angle,
+      slug: next.slug,
+      category: next.category,
+      audience: next.audience,
+      affiliates,
+      existingSlugs,
+      groundingContext: "",
+    });
+  }
+
+  const outPath = path.join(BLOG_DIR, `${outSlug}.mdx`);
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   fs.writeFileSync(outPath, mdx, "utf-8");
-
-  console.log(`Written to ${outPath}`);
+  console.log(`Written: ${outPath}`);
 }
 
 main().catch(err => {
