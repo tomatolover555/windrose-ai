@@ -15,6 +15,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${post.title} — Windrose AI`,
     description: post.summary,
     alternates: { canonical: post.canonical },
+    openGraph: {
+      title: post.title,
+      description: post.summary,
+      type: "article",
+      url: post.canonical,
+      publishedTime: post.date,
+      modifiedTime: post.updated || post.date,
+      siteName: "Windrose AI",
+      tags: post.tags,
+    },
   };
 }
 
@@ -33,6 +43,32 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <article>
+      {/* Schema.org BlogPosting structured data — server-controlled data only */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: post.title,
+            description: post.summary,
+            datePublished: post.date,
+            dateModified: post.updated || post.date,
+            url: `https://windrose-ai.com/blog/${post.slug}`,
+            author: {
+              "@type": "Organization",
+              name: "Windrose AI",
+              url: "https://windrose-ai.com",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Windrose AI",
+              url: "https://windrose-ai.com",
+            },
+            keywords: (post.tags || []).join(", "),
+          }),
+        }}
+      />
       {/* Meta line */}
       <div style={{ ...metaSans, display: "flex", alignItems: "center", flexWrap: "wrap" as const, gap: "0.5em", marginBottom: "1rem" }}>
         <time dateTime={post.date}>
