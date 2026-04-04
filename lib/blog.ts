@@ -40,38 +40,39 @@ export type Post = PostMeta & {
   rawContent: string;
 };
 
-function slugToFilename(slug: string) {
-  return `${slug}.mdx`;
-}
-
 export function getAllPostSlugs(): string[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
-  return fs
+  const slugs = fs
     .readdirSync(BLOG_DIR)
     .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"))
     .map((f) => f.replace(/\.(mdx|md)$/, ""));
+  return [...new Set(slugs)];
 }
 
 export function getPostBySlug(slug: string): Post | null {
-  const mdxPath = path.join(BLOG_DIR, `${slug}.mdx`);
-  const mdPath = path.join(BLOG_DIR, `${slug}.md`);
-  const filePath = fs.existsSync(mdxPath) ? mdxPath : fs.existsSync(mdPath) ? mdPath : null;
+  try {
+    const mdxPath = path.join(BLOG_DIR, `${slug}.mdx`);
+    const mdPath = path.join(BLOG_DIR, `${slug}.md`);
+    const filePath = fs.existsSync(mdxPath) ? mdxPath : fs.existsSync(mdPath) ? mdPath : null;
 
-  if (!filePath) return null;
+    if (!filePath) return null;
 
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const { data, content } = matter(raw);
-  const rt = readingTime(content);
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const { data, content } = matter(raw);
+    const rt = readingTime(content);
 
-  return {
-    ...(data as PostMeta),
-    reading_time_minutes: Math.ceil(rt.minutes),
-    human_url: `/blog/${slug}`,
-    agent_url: `/blog/${slug}.md`,
-    canonical: `https://windrose-ai.com/blog/${slug}`,
-    content,
-    rawContent: raw,
-  };
+    return {
+      ...(data as PostMeta),
+      reading_time_minutes: Math.ceil(rt.minutes),
+      human_url: `/blog/${slug}`,
+      agent_url: `/blog/${slug}.md`,
+      canonical: `https://windrose-ai.com/blog/${slug}`,
+      content,
+      rawContent: raw,
+    };
+  } catch {
+    return null;
+  }
 }
 
 export function getAllPosts(): Post[] {
