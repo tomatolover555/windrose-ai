@@ -33,25 +33,28 @@ jobs:
         run: npm ci
 
       - name: Generate posts in loop
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          COUNT: ${{ github.event.inputs.count }}
+          MODE: ${{ github.event.inputs.mode }}
         run: |
-          COUNT=${{ github.event.inputs.count }}
-          MODE=${{ github.event.inputs.mode }}
           echo "Generating $COUNT posts in $MODE mode..."
           for i in $(seq 1 $COUNT); do
             echo "--- Post $i/$COUNT ---"
             npx tsx scripts/generate-post.ts --mode=$MODE || echo "Post $i failed, continuing..."
             sleep 3
           done
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
 
       - name: Commit and push all new posts
+        env:
+          MODE: ${{ github.event.inputs.mode }}
         run: |
           git config user.name "windrose-bot"
           git config user.email "bot@windrose-ai.com"
+          git pull --rebase origin main || true
           git add content/blog/ content/content-queue.json
           git diff --cached --quiet && echo "No new posts to commit." && exit 0
           POST_COUNT=$(git diff --cached --name-only content/blog/ | wc -l | tr -d ' ')
-          git commit -m "feat(blog): bulk-generated $POST_COUNT posts [mode=${{ github.event.inputs.mode }}]"
+          git commit -m "feat(blog): bulk-generated $POST_COUNT posts [mode=$MODE]"
           git push
