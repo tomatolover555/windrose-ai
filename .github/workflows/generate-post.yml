@@ -54,30 +54,11 @@ jobs:
             echo "new_file=$NEW_FILE" >> $GITHUB_OUTPUT
           fi
 
-      # PHASE 1: Open a PR for human review
-      # After Phase 1 is complete, replace this step with the Phase 2 direct commit step below
-      - name: Open PR (Phase 1 — human review)
+      - name: Commit and push (autonomous)
         if: steps.check.outputs.new_post == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "feat(blog): auto-generate post"
-          branch: "auto/blog-post-${{ github.run_number }}"
-          title: "New post: ${{ steps.check.outputs.new_file }}"
-          body: |
-            Auto-generated blog post. Please review before merging.
-
-            - Check factual accuracy
-            - Check agent_context block is useful
-            - Check affiliate links are appropriate
-            - Merge when satisfied
-
-      # PHASE 2 (uncomment when ready for autonomous operation):
-      # - name: Commit and push (Phase 2 — autonomous)
-      #   if: steps.check.outputs.new_post == 'true'
-      #   run: |
-      #     git config user.name "windrose-bot"
-      #     git config user.email "bot@windrose-ai.com"
-      #     git add content/blog/
-      #     git commit -m "feat(blog): auto-generate post"
-      #     git push
+        run: |
+          git config user.name "windrose-bot"
+          git config user.email "bot@windrose-ai.com"
+          git add content/blog/
+          git commit -m "feat(blog): auto-generate post"
+          git push
