@@ -222,8 +222,23 @@ async function main() {
     });
   }
 
-  if (!mdx || !mdx.startsWith("---")) {
-    console.error(`Skipping write — output is empty or missing frontmatter (${mdx?.length ?? 0} chars)`);
+  // Reject output that is empty, missing frontmatter, too short to be a real
+  // post, or contains tell-tale signs the critique pass got confused
+  // (e.g. "Post to review" as the title, or the model asking for input).
+  const suspiciousPhrases = [
+    "post to review",
+    "please paste",
+    "paste the full",
+    "i'm missing",
+    "rewrite just that section",
+  ];
+  const isSuspicious = suspiciousPhrases.some((p) =>
+    mdx?.toLowerCase().includes(p)
+  );
+  if (!mdx || !mdx.startsWith("---") || mdx.length < 1500 || isSuspicious) {
+    console.error(
+      `Skipping write — output failed quality check (${mdx?.length ?? 0} chars, suspicious=${isSuspicious})`
+    );
     process.exit(1);
   }
 
