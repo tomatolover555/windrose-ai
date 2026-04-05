@@ -78,7 +78,7 @@ export function getPostBySlug(slug: string): Post | null {
       human_url: `/blog/${slug}`,
       agent_url: `/blog/${slug}.md`,
       canonical: `https://windrose-ai.com/blog/${slug}`,
-      content: content.replace(/^#[^\n]*\n+/, ""),
+      content: content.replace(/^\s*#[^\n]*\n+/, ""),
       rawContent: raw,
     };
   } catch {
