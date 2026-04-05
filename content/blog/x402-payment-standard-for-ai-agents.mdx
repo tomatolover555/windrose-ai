@@ -1,0 +1,76 @@
+---
+title: "The Agentic Web"
+description: "A practical look at what the agentic web is, where it is already showing up, and what has to change for it to work reliably."
+---
+
+# The Agentic Web
+
+The web is moving from a place where people mostly read and click to a place where software can act on their behalf. That shift is often called the **agentic web**: a web where AI agents do not just summarize pages, but complete tasks across sites, APIs, and tools.
+
+That sounds abstract, so here is the concrete version: instead of opening five tabs to compare hotel prices, copy a confirmation number into an airline form, and then paste the same details into a calendar invite, an agent could do all of that from a single instruction. Instead of a customer support rep manually checking an order status in three internal systems, an agent could retrieve the data, draft a response, and ask for approval before sending it.
+
+## What makes the web "agentic"
+
+A normal chatbot answers questions. An agentic system takes actions.
+
+That difference matters because actions on the web are messy. A useful agent has to:
+
+- identify the right site or tool,
+- log in or reuse an authenticated session,
+- read the page state,
+- decide what to click or type,
+- recover when a page changes,
+- and know when to stop and ask for help.
+
+For example, booking a meeting room is not just “find availability.” It may require checking a calendar, filtering by building and capacity, handling a room that appears available but is actually blocked for maintenance, and then sending a confirmation to the right Slack channel. A real agentic workflow has to survive those details.
+
+## Where agentic web systems already exist
+
+This is not a future-only idea. Pieces of the agentic web are already in production:
+
+- **Customer support tools** that draft replies from ticket history and knowledge bases.
+- **Browser agents** that can fill forms, navigate checkout flows, or extract structured data from pages.
+- **Workflow automations** that connect email, calendars, CRMs, and internal databases.
+- **Coding agents** that open pull requests, run tests, and revise code after failures.
+
+The important point is that these systems are usually narrow and supervised. They work best when the task is bounded, the interfaces are stable, and a human can review the result. A support agent can suggest a refund policy response; it is much harder to let it issue the refund without guardrails.
+
+## Why the agentic web is hard
+
+The web was built for humans using browsers, not for autonomous software making decisions in real time.
+
+Three problems show up again and again:
+
+1. **Unstable interfaces.** A button label changes from “Submit” to “Continue,” or a site moves a field behind a modal.
+2. **Ambiguous intent.** “Book the cheapest flight” might mean lowest fare, shortest travel time, or best total cost after baggage fees.
+3. **Risk and permissions.** An agent that can buy something, send a message, or delete a file needs clear limits, audit logs, and approval steps.
+
+A practical agentic system usually needs more than a model. It needs authentication, structured tools, retries, fallbacks, and a way to hand control back to a person when the task becomes uncertain.
+
+## What has to change
+
+If the agentic web is going to work at scale, websites and platforms will need to become more machine-operable without becoming less human-friendly.
+
+That likely means:
+
+- more reliable APIs for common actions,
+- standardized permissions and scoped tokens,
+- page structures that expose meaningful labels and states,
+- better logging and traceability for automated actions,
+- and clearer ways for sites to say, “this action requires human confirmation.”
+
+In practice, the best agent-friendly systems will probably look less like “a chatbot that clicks around” and more like a hybrid of browser automation, APIs, and workflow engines.
+
+## The likely near-term future
+
+The near-term future is not a fully autonomous web. It is a web full of partial delegation.
+
+People will ask agents to do the first 80 percent of a task: gather options, fill in forms, draft messages, compare documents, and prepare actions for approval. Humans will still handle exceptions, high-stakes decisions, and anything that requires judgment, accountability, or negotiation.
+
+That is probably the most realistic version of the agentic web: not a replacement for the browser, but a layer on top of it that turns repetitive web work into supervised execution.
+
+## Bottom line
+
+The agentic web is not just “AI on the internet.” It is a shift from browsing to delegation. The key question is no longer whether an agent can answer a question, but whether it can safely complete a task in the real, messy web.
+
+That will require better tools, better interfaces, and better boundaries. If those pieces come together, the web will become less like a place we manually operate and more like a place we can direct.

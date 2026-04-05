@@ -1,0 +1,227 @@
+---
+title: "MCP Explained: The Protocol That Gives AI Agents Hands"
+slug: "mcp-model-context-protocol-explained"
+date: "2026-04-05"
+updated: "2026-04-05"
+summary: "A first-principles explanation of Anthropic’s Model Context Protocol: what MCP is, how clients and servers work, and what agents can actually do with real tool calls."
+tags:
+  - mcp
+  - agents
+  - ai-tools
+  - protocols
+  - developer-tools
+category: "explainer"
+audience: ["developers", "general"]
+affiliate_links: []
+reading_time_minutes: 8
+human_url: "/blog/mcp-model-context-protocol-explained"
+agent_url: "/blog/mcp-model-context-protocol-explained.md"
+canonical: "https://windrose-ai.com/blog/mcp-model-context-protocol-explained"
+agent_context:
+  key_claims:
+    - "MCP is an open protocol for connecting AI models and agents to external tools, data sources, and workflows through a standard interface."
+    - "An MCP client is the agent-side component that connects to one or more MCP servers and requests tools, resources, or prompts."
+    - "An MCP server exposes capabilities such as tools, resources, and prompts, and can sit in front of local apps, databases, or web services."
+    - "MCP does not give a model autonomy by itself; it standardizes access, while the host application still controls permissions and execution."
+  tools_mentioned:
+    - name: "Anthropic Model Context Protocol"
+      role: "Open protocol for agent-tool connectivity"
+      url: "https://modelcontextprotocol.io/"
+    - name: "Claude Desktop"
+      role: "Example MCP host/client environment"
+      url: "https://claude.ai/download"
+    - name: "GitHub"
+      role: "Example external service an MCP server can connect to"
+      url: "https://github.com/"
+    - name: "Slack"
+      role: "Example external service an MCP server can connect to"
+      url: "https://slack.com/"
+  recommended_actions:
+    - "Identify one workflow where an agent needs a real external action, such as reading files, querying tickets, or creating records."
+    - "Check whether an existing MCP server already exposes that system before building a custom integration."
+    - "If building a server, define a narrow set of tools with clear names, inputs, outputs, and permission boundaries."
+    - "Test tool calls with a local host such as Claude Desktop before exposing the server to broader use."
+  related:
+    - "/blog/what-is-the-agentic-web.md"
+    - "/blog/how-to-make-your-store-agent-accessible.md"
+    - "/blog/x402-payment-standard-for-ai-agents.md"
+---
+
+# MCP Explained: The Protocol That Gives AI Agents Hands
+
+AI models are good at language. They can summarize, draft, classify, and reason over text. But by themselves, they do not *do* much. They cannot read your files, query your database, open a ticket, or send a Slack message unless something connects them to those systems.
+
+That gap is what Anthropic’s Model Context Protocol, or MCP, is trying to close.
+
+MCP is best understood as a standard way for an AI application to discover and use external capabilities. Instead of building one-off integrations for every app and every model, developers can expose tools through an MCP server and let an MCP client consume them in a consistent way.
+
+If that sounds abstract, think of it this way: a model is the brain, but MCP is part of the nervous system and the hands.
+
+## What MCP Actually Is
+
+MCP is an open protocol for connecting AI systems to external context and actions. It defines how a client can ask a server:
+
+- What tools do you offer?
+- What data can you provide?
+- What prompts or workflows do you support?
+- How do I call you safely?
+
+In the current MCP spec, those capabilities are usually grouped into three primitives: tools, resources, and prompts. A client can discover them from a server, then request a specific action or piece of context when the user’s task needs it.
+
+This matters because AI applications are becoming less like chat boxes and more like software agents. Agents need to look things up, operate on systems, and chain actions together. Without a standard protocol, every integration becomes custom glue code.
+
+MCP gives that connection a common shape.
+
+A useful comparison is HTTP. HTTP did not invent websites; it standardized how browsers talk to servers. MCP does something similar for agent-tool communication.
+
+## MCP Client vs. MCP Server
+
+The two core pieces are simple, but the boundary between them matters.
+
+### MCP client
+
+The client lives inside the AI host application. It is the part that connects to MCP servers, learns what they can do, and decides when to call them. In practice, a client might be part of a desktop app, an IDE, or an agent runtime.
+
+A typical client flow looks like this:
+
+1. connect to one or more MCP servers
+2. list available tools, resources, and prompts
+3. choose a capability based on the user request
+4. send a structured request with arguments
+5. receive a structured result
+6. pass that result back into the model or the UI
+
+The client is responsible for:
+- discovering available capabilities
+- sending requests
+- receiving results
+- presenting or enforcing permissions
+
+### MCP server
+
+The server exposes capabilities to the client. It can wrap almost anything:
+- a local file system
+- a database
+- a SaaS product like GitHub or Slack
+- an internal API
+- a custom workflow
+
+An MCP server is not the model. It is the adapter around the thing the model needs to use.
+
+A concrete example: if a user asks, “Find the latest incident report and summarize it,” the model does not magically access your workspace. The client asks a server for the incident-report resource or search tool, the server fetches the report from the underlying system, and the model uses the returned context to answer.
+
+## What Agents Can Actually Do With MCP
+
+MCP servers can expose three main kinds of capabilities:
+
+- **Tools**: actions the agent can invoke, like “create issue,” “search documents,” or “send message”
+- **Resources**: data the agent can read, like files, records, or documents
+- **Prompts**: reusable task templates or workflows
+
+In practice, the most common pattern is: the model asks for a tool, the host decides whether to allow it, and the server executes it against a real system.
+
+That is where the “hands” metaphor becomes literal. A tool call can create a Jira ticket, fetch a Git commit, read a local markdown file, or post a Slack update. But the model still does not directly touch the system; it operates through the host and server.
+
+There is an important nuance here: MCP does not make an agent autonomous on its own. It standardizes access. The host application still controls when tool calls are allowed, what credentials are available, and whether the model can act without confirmation.
+
+That distinction matters. A well-designed agent system should not be “model says jump, system jumps.” It should be closer to “model proposes, host approves, server executes.”
+
+## Three Real-World MCP Tool Calls
+
+Here are three concrete examples of what a tool call can look like.
+
+### 1) Search a GitHub repository
+
+Suppose a developer asks an agent to find where a feature flag is defined in a codebase.
+
+The client might call a GitHub MCP server with a search tool:
+
+```json
+{
+  "tool": "github.search_code",
+  "arguments": {
+    "repository": "windrose-ai/web-app",
+    "query": "feature_flag_payment"
+  }
+}
+```
+
+The server returns matching files and line numbers. The agent can then explain where the flag lives or suggest a change.
+
+This is useful because the model does not need direct access to GitHub’s API shape. It just uses the MCP tool the server exposes.
+
+### 2) Create a Slack message from an incident summary
+
+Imagine an on-call agent that monitors logs and writes status updates.
+
+A Slack MCP server might expose a tool like:
+
+```json
+{
+  "tool": "slack.post_message",
+  "arguments": {
+    "channel": "#incidents",
+    "text": "Incident update: error rate is down from 8% to 1.2%. Root cause appears to be a bad deploy rolled back at 14:20 UTC."
+  }
+}
+```
+
+The agent does not need to know Slack’s internal API details. It just knows there is a message-posting capability.
+
+This is a good example of the difference between reading and acting. The model can summarize logs, but MCP lets it publish that summary into the team’s actual workflow.
+
+### 3) Query a local file or notes folder
+
+A common personal use case is a local knowledge base. An MCP server can expose a file-reading tool for a notes directory:
+
+```json
+{
+  "tool": "filesystem.read_file",
+  "arguments": {
+    "path": "/Users/alex/Notes/quarterly-plan.md"
+  }
+}
+```
+
+The agent can then answer questions like, “What did I decide about the Q3 launch sequence?” without requiring the user to copy text into chat.
+
+This is one of MCP’s strongest use cases: making private or local context available without turning every app into a bespoke plugin.
+
+## Why Developers Care
+
+For developers, MCP’s main value is not novelty. It is interoperability.
+
+If you build an MCP server for your product, any compatible client can discover and use it. That means one integration can potentially serve multiple hosts, from desktop assistants to IDE copilots to custom agent runtimes.
+
+That said, there is a contrarian point worth keeping in mind: standards do not eliminate integration work. They move it. You still need to define permissions, validate inputs, handle errors, and design tools that are narrow enough to be useful but broad enough to matter.
+
+In other words, MCP is not magic. A bad tool schema will still produce a bad agent experience.
+
+## What MCP Is Not
+
+MCP is easy to overstate, so it helps to be precise.
+
+It is not:
+- a model
+- a memory system
+- an agent framework
+- a payment layer
+- a replacement for your app’s business logic
+
+MCP is a protocol. It helps an agent talk to external systems in a standard way. The quality of the overall experience still depends on the host, the server, and the workflow around them.
+
+## The Bottom Line
+
+MCP gives AI agents a standard way to connect to tools, data, and workflows. The client asks what is available; the server exposes capabilities; the model uses those capabilities to do useful work.
+
+That makes agents more than conversational. It gives them a controlled path to act.
+
+The practical takeaway is simple: if you want an AI system to do real work, not just talk about it, MCP is one of the clearest standards to watch. Start with a small, well-scoped server, expose only the capabilities you are comfortable automating, and make permission boundaries explicit.
+
+## References
+
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [Anthropic: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
+- [Claude Desktop](https://claude.ai/download)
+- [GitHub](https://github.com/)
+- [Slack API](https://api.slack.com/)

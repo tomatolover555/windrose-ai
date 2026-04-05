@@ -1,0 +1,199 @@
+---
+title: Streaming Responses and Real-Time Tool Calls in LLM APIs
+slug: streaming-responses-tool-calls-llm-apis
+date: 2026-04-05
+updated: 2026-04-05
+summary: How streaming LLM responses work when models emit tool calls mid-generation, including SSE framing, partial argument assembly, and UI patterns for rendering responsive agent interfaces.
+tags:
+  - llm-apis
+  - streaming
+  - server-sent-events
+  - tool-calls
+  - agent-ux
+  - developer-guide
+category: how-to
+audience: ["developers"]
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/streaming-responses-tool-calls-llm-apis
+agent_url: /blog/streaming-responses-tool-calls-llm-apis.md
+canonical: https://windrose-ai.com/blog/streaming-responses-tool-calls-llm-apis
+agent_context:
+  key_claims:
+    - "Many LLM APIs stream output as Server-Sent Events (SSE), where each event carries a small JSON payload and the stream ends with a terminal marker such as [DONE]."
+    - "Tool calls are often emitted incrementally: the model may stream a function name first and then append argument fragments across multiple chunks."
+    - "A responsive UI should treat streamed text and streamed tool-call state separately, because tool execution may finish after the assistant has already started speaking."
+    - "In practice, robust clients need a per-tool-call accumulator keyed by call id or index to reassemble partial JSON arguments before execution."
+    - "OpenAI, Anthropic, and the WHATWG EventSource/SSE model are representative references for current streaming patterns."
+  tools_mentioned:
+    - name: OpenAI API
+      role: "Example of streaming chat/completions and tool-call event patterns"
+      url: "https://platform.openai.com/docs"
+    - name: Anthropic API
+      role: "Example of streamed messages and tool-use blocks"
+      url: "https://docs.anthropic.com/"
+    - name: Server-Sent Events (SSE)
+      role: "Transport format commonly used for token streaming over HTTP"
+      url: "https://html.spec.whatwg.org/multipage/server-sent-events.html"
+    - name: EventSource
+      role: "Browser API for consuming SSE streams"
+      url: "https://developer.mozilla.org/en-US/docs/Web/API/EventSource"
+  recommended_actions:
+    - "Build a streaming parser that can handle incremental text deltas and incremental tool-call arguments independently."
+    - "Use stable IDs for each tool call so partial fragments can be merged safely across multiple SSE events."
+    - "Render UI states explicitly: generating text, tool pending, tool running, and tool result received."
+    - "Test edge cases such as duplicated chunks, out-of-order retries, and malformed partial JSON before invoking tools."
+  related:
+    - "/blog/designing-apis-for-ai-agents.md"
+    - "/blog/agent-observability-logging.md"
+    - "/blog/testing-autonomous-agent-workflows.md"
+---
+
+# Streaming Responses and Real-Time Tool Calls in LLM APIs
+
+If you are building an agent UI, streaming is not just a nice-to-have. It changes how the product feels, how quickly users trust it, and how you structure the client-side state machine.
+
+The tricky part is that streaming text and tool calls do not always arrive as one clean sequence. A model may start by emitting a sentence, then decide it needs a tool, then continue streaming while the tool is still running. In some APIs, the tool call itself is also streamed in pieces: first the tool name, then fragments of arguments, then a final assembled call.
+
+That means the UI cannot assume “assistant message complete” equals “assistant is done.” It needs to understand intermediate states.
+
+## Why streaming exists
+
+Streaming is usually implemented so users see output sooner. Instead of waiting for the full completion, the server sends partial results as they are generated. This reduces perceived latency and makes the interface feel alive.
+
+For developer tools and agent products, there is a second benefit: streaming exposes the model’s decision process in a way that can be rendered progressively. A user can see that the assistant is thinking, searching, or calling a function rather than staring at a blank panel.
+
+The tradeoff is complexity. Once you stream, you are no longer handling a single response object. You are handling a sequence of events.
+
+## The SSE shape of a streamed response
+
+A common transport for streaming LLM output is Server-Sent Events, or SSE. It is plain HTTP with a response body that stays open and emits events over time.
+
+An SSE stream looks roughly like this:
+
+```text
+data: {"type":"message.delta","delta":"Hello"}
+
+data: {"type":"message.delta","delta":" world"}
+
+data: {"type":"tool_call.delta","id":"call_1","name":"search","arguments":"{\"query\":\""}
+
+data: {"type":"tool_call.delta","id":"call_1","arguments":"weather in SF\"}"}
+
+data: [DONE]
+```
+
+The exact event schema varies by provider. OpenAI, Anthropic, and others do not serialize tool calls in exactly the same way. But the core pattern is consistent:
+
+- each event contains a small chunk of state
+- text arrives as deltas
+- tool-call metadata may arrive incrementally
+- a terminal event marks completion
+
+On the browser side, `EventSource` is the standard SSE consumer. On the server side, many frameworks can stream chunked responses directly.
+
+## Partial tool call assembly
+
+This is where many implementations break.
+
+A model may emit a tool call whose arguments are not valid JSON until the final fragment arrives. If you try to execute the tool too early, you will either fail parsing or call the wrong thing.
+
+The safe pattern is to maintain an accumulator per tool call:
+
+- key it by `id` if the API provides one
+- otherwise key it by `index` or message position
+- append argument fragments in order
+- parse only when the tool call is marked complete
+
+A simple mental model is:
+
+1. receive `name`
+2. receive `arguments` fragments
+3. concatenate fragments
+4. validate JSON
+5. execute tool
+6. stream tool result back into the conversation
+
+In practice, you also want guards for malformed output. Even reliable APIs can produce truncated JSON if the connection drops or the model is interrupted. A robust client should treat the stream as a log of events, not as a promise that every fragment is immediately usable.
+
+## UI rendering patterns that actually work
+
+The best UI pattern is usually not “show everything the model emits verbatim.” It is to render distinct states.
+
+A useful layout is:
+
+- **assistant text area** for streamed natural language
+- **tool status area** for pending or running calls
+- **result area** for tool output
+- **final answer area** once the model incorporates the result
+
+This separation matters because users interpret text and tool activity differently. If the assistant says “I’m checking that now,” and the UI shows a spinner on a tool row, the interaction feels coherent. If the UI just appends raw JSON into the chat transcript, it feels broken.
+
+For example:
+
+```text
+Assistant: I’m checking live pricing.
+
+Tool: search_products(status: running)
+Tool result: 12 matches found
+
+Assistant: The lowest-priced option is...
+```
+
+You can also choose to hide intermediate tool details from casual users and expose them behind an expandable “activity” panel. That is often the right compromise for consumer products: keep the chat readable, but preserve transparency for debugging.
+
+## A contrarian view: do not stream everything
+
+Streaming is often treated as the default good. It is not always.
+
+If your tool call is the important part of the interaction, token-by-token text can distract from the real work. For example, if the model is about to call a database lookup, showing half-finished prose before the lookup completes may create a misleading sense of certainty.
+
+In some products, a hybrid approach is better:
+
+- stream only a short “working” indicator
+- wait for tool completion
+- then render a coherent answer
+
+This is especially true when tool latency is the dominant delay. Users care less about seeing every token than about understanding what the system is doing.
+
+Another nuance: streaming can make retries and cancellation harder. Once a user interrupts the assistant, you need to stop text generation, cancel any in-flight tool execution, and reconcile partial UI state. That requires explicit lifecycle handling, not just a streaming reader.
+
+## Practical implementation notes
+
+A few rules make these systems much easier to maintain:
+
+- **Separate transport from state.** Parse SSE events into a normalized internal model before rendering.
+- **Use idempotent tool execution.** If the same tool call is replayed after reconnect, avoid double side effects.
+- **Validate arguments before calling tools.** Treat streamed JSON as untrusted until parsed.
+- **Keep the assistant message mutable.** The final answer may change after tool results arrive.
+- **Log event boundaries.** Debugging streamed systems without event traces is painful.
+
+If you are building in React, this often means storing a conversation as a list of messages plus a list of active tool calls. Each incoming chunk updates one of those structures. The rendering layer simply reflects the current state.
+
+If you are building on a framework like Next.js, SSE is usually straightforward to proxy, but you should still watch for buffering at the edge or by intermediate infrastructure. A “streaming” API that batches chunks every few seconds is not really streaming from the user’s point of view.
+
+## Real-time tool calls and agent UX
+
+Tool calls change the meaning of streaming. You are no longer just showing language generation; you are showing a live control loop.
+
+That creates a useful design principle: make the handoff visible. Users should be able to tell when the model is talking, when it is asking for help from a tool, and when it is waiting on the result.
+
+The best systems feel less like a chatbot and more like a coordinated workflow. Not because they reveal every internal detail, but because they present state transitions clearly.
+
+OpenAI’s streaming APIs, Anthropic’s streamed message blocks, and the broader SSE/EventSource model all point in the same direction: the client must be stateful enough to assemble meaning from fragments.
+
+## The Bottom Line
+
+Streaming LLM responses is easy to demo and easy to get subtly wrong. The core challenge is not receiving tokens; it is managing partial state across text, tool calls, and tool results.
+
+If you are building a responsive agent UI, design for three things: incremental text, incremental tool-call assembly, and explicit UI states. Keep the stream parser separate from rendering, validate tool arguments before execution, and do not assume that more streaming always makes the experience better.
+
+The goal is not to expose every token. The goal is to make the system’s behavior understandable while it is still happening.
+
+## References
+
+- [Server-Sent Events (WHATWG HTML Standard)](https://html.spec.whatwg.org/multipage/server-sent-events.html)
+- [MDN: EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource)
+- [OpenAI API Docs](https://platform.openai.com/docs)
+- [Anthropic Docs](https://docs.anthropic.com/)
+- [Next.js Documentation](https://nextjs.org/docs)

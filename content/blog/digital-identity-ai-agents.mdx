@@ -1,0 +1,184 @@
+---
+title: The Future of Digital Identity for AI Agents
+slug: digital-identity-ai-agents
+date: 2026-04-05
+updated: 2026-04-05
+summary: AI agents need identities that are portable, scoped, and revocable. This post compares API keys, wallet-based identity, and OAuth-style delegation, and argues that the right model is a layered one.
+tags:
+  - AI agents
+  - digital identity
+  - authentication
+  - authorization
+  - wallets
+  - OAuth
+category: analysis
+audience:
+  - developers
+  - founders
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/digital-identity-ai-agents
+agent_url: /blog/digital-identity-ai-agents.md
+canonical: https://windrose-ai.com/blog/digital-identity-ai-agents
+agent_context:
+  key_claims:
+    - API keys identify an application or integration, but they are a poor fit for agent identity because they are usually long-lived, shared, and not tied to a specific session or intent.
+    - Wallet addresses can serve as a durable agent identity, but by themselves they do not express delegated authority, session scope, or human approval.
+    - OAuth 2.0 and related delegation patterns are the best-known model for scoped, revocable authorization, but they were designed primarily for user-to-app delegation, not autonomous agent behavior.
+    - A practical identity stack for agents likely combines a stable identifier, per-session credentials, and explicit scopes or capabilities.
+    - WebAuthn, OAuth 2.0, and wallet signatures can complement one another rather than compete as mutually exclusive standards.
+  tools_mentioned:
+    - name: OAuth 2.0
+      role: Delegated authorization framework for scoped access
+      url: https://oauth.net/2/
+    - name: WebAuthn
+      role: Phishing-resistant authentication and credential binding
+      url: https://www.w3.org/TR/webauthn-2/
+    - name: Ethereum
+      role: Wallet-address-based identity and signature verification
+      url: https://ethereum.org/
+    - name: Sign-In with Ethereum (SIWE)
+      role: Wallet-based authentication pattern for proving control of an address
+      url: https://login.xyz/
+  recommended_actions:
+    - Define a stable agent identity separate from the human user, then bind it to one or more human principals through explicit delegation.
+    - Issue short-lived, per-session credentials for agents instead of reusing long-lived shared secrets.
+    - Model agent permissions as scoped capabilities or grants, not as all-or-nothing account access.
+    - Log and expose revocation pathways so users can disable a specific agent session without rotating every credential.
+  related:
+    - /blog/designing-apis-for-ai-agents.md
+    - /blog/trust-in-ai-agent-transactions.md
+    - /blog/what-is-the-agentic-web.md
+---
+
+## Identity Is Not the Same as Permission
+
+When people talk about “identity” for AI agents, they often mean at least three different things:
+
+1. **Who is this agent?**
+2. **What is it allowed to do?**
+3. **Who approved that action, and for how long?**
+
+Those questions are easy to blur together in human systems. A person signs into a service, and the same login often implies identity, authorization, and session state. Agents are different. They may act on behalf of a user, across many services, for short bursts or long-running tasks. They may be created dynamically, destroyed after use, or cloned across environments.
+
+That means the old model — one user, one account, one password — does not translate cleanly.
+
+The future of agent identity is likely to be layered: a durable identifier for the agent, a way to prove control of that identifier, and a separate delegation mechanism that limits what the agent can do.
+
+## Why API Keys Are Not Enough
+
+API keys are the default identity mechanism for software integrations. They are simple, easy to issue, and easy to revoke. That makes them useful. It also makes them blunt.
+
+For agents, API keys have three major problems:
+
+- **They are usually too broad.** A key often maps to an entire account or project.
+- **They are hard to scope.** You can restrict endpoints or rate limits, but not always intent.
+- **They are rarely session-specific.** If a key leaks, it can be reused far beyond the moment it was intended for.
+
+In practice, an API key says, “this software may call these endpoints.” It does not say, “this agent may book one flight for this trip, during this time window, under this budget.”
+
+That distinction matters. An agent is not just a machine client. It is an actor with a task boundary.
+
+This is why many teams are moving toward short-lived tokens, signed assertions, and delegated grants instead of relying on static secrets. The goal is not just security. It is legibility: being able to tell what the agent is, what it can do, and why.
+
+## Wallet Addresses as Durable Identity
+
+Wallet addresses are interesting because they solve a problem API keys do not: they provide a stable, publicly verifiable identifier that is not issued by a single platform.
+
+A wallet address can represent an agent across services. It can sign messages. It can prove continuity over time. In systems built around Ethereum or similar networks, the address becomes a portable identity primitive.
+
+That makes wallets attractive for agent identity, especially when an agent needs to operate across organizational boundaries. A wallet can be:
+
+- a durable agent identifier,
+- a proof-of-control mechanism,
+- and a basis for reputation or history.
+
+But wallet identity has limits.
+
+A wallet address does **not** tell you whether the agent is acting under a user’s permission. It does not express scope. It does not encode session duration. And it does not solve revocation by itself.
+
+This is where many identity conversations go too far. A wallet is not a complete identity system for agents. It is a useful anchor.
+
+A useful comparison is **Sign-In with Ethereum (SIWE)**, which shows how wallet signatures can authenticate a user or agent to a web service. SIWE proves control of an address, but the service still needs a separate authorization layer to decide what that address may do.
+
+## OAuth Still Matters, Even for Agents
+
+If API keys are too coarse and wallets are too bare, OAuth-style delegation sits in the middle.
+
+OAuth 2.0 was designed to let a user grant an application limited access to a resource without sharing a password. That is exactly the kind of relationship many agents need. Not full account takeover. Not raw credential sharing. Delegation.
+
+The strength of OAuth is not just “login.” It is **scoped, revocable authorization**.
+
+That said, OAuth was built for a world where the delegated actor was usually a web app, not a semi-autonomous agent that can make decisions, chain tools, and continue working after the user leaves. So OAuth is necessary, but not sufficient.
+
+For agents, the missing pieces are often:
+
+- finer-grained scopes,
+- explicit task boundaries,
+- per-session credentials,
+- and machine-readable consent records.
+
+In other words, OAuth gives us the grammar of delegation, but not the full language of agent behavior.
+
+## The Contrarian View: Maybe Agents Should Not Have One Identity
+
+A common instinct is to give every agent a permanent identity, like a digital passport. That sounds tidy. It may also be wrong.
+
+In many systems, the safest design is not a single universal agent identity, but **multiple identities for different layers**:
+
+- one identity for the software runtime,
+- one identity for the task session,
+- one identity for the human principal,
+- and one identity for the wallet or economic actor.
+
+That sounds messy because it is messy. But it mirrors reality more accurately.
+
+A customer support agent, a procurement agent, and a research agent should not necessarily share the same identity model, even if they are all “agents.” A long-lived identity may be useful for auditability, but it can also become a tracking surface or a single point of failure.
+
+So the contrarian position is this: the best identity system for agents may be one that is deliberately fragmented, with explicit links between layers instead of one monolithic account.
+
+## A Practical Model: Stable ID, Session Key, Scoped Grant
+
+A workable architecture for agent identity could look like this:
+
+### 1. Stable identifier
+Use a durable identifier for the agent itself. This could be a wallet address, a public key, or another verifiable principal.
+
+### 2. Per-session key
+When the agent starts a task, issue a short-lived credential tied to that task. This key should expire automatically and be useless outside its session.
+
+### 3. Scoped delegation
+Attach a grant that says what the agent may do: which resources, which actions, which limits, and which duration.
+
+### 4. Human linkage
+Record which human or organization authorized the grant, so accountability is preserved without sharing raw credentials.
+
+This model is not exotic. It is a synthesis of familiar ideas from OAuth 2.0, WebAuthn, and wallet signatures. The difference is that agents force us to use them together more deliberately.
+
+## What Developers Should Build For
+
+If you are designing systems for agents, optimize for these properties:
+
+- **Portability:** the agent can move across services without re-registering from scratch.
+- **Revocability:** a single task or session can be canceled without breaking everything else.
+- **Scoping:** permissions are narrow and explicit.
+- **Auditability:** every action can be tied back to a grant and an identity.
+- **Separation:** identity, authentication, and authorization are distinct layers.
+
+The hard part is not choosing one perfect standard. It is accepting that no single standard covers the full problem.
+
+## The Bottom Line
+
+Agents need identities that are more precise than human logins and more flexible than API keys.
+
+Wallet addresses are promising as durable identifiers. OAuth-style delegation is still the best-known pattern for scoped permission. Per-session keys make agent activity safer and easier to revoke. But none of these, alone, is enough.
+
+The right model is layered: a stable agent identity, a short-lived session credential, and an explicit delegated grant tied to a human principal. That is the shape of identity that fits autonomous software.
+
+## References
+
+- [OAuth 2.0](https://oauth.net/2/)
+- [WebAuthn Level 2](https://www.w3.org/TR/webauthn-2/)
+- [Sign-In with Ethereum](https://login.xyz/)
+- [Ethereum](https://ethereum.org/)
+- [RFC 6749: The OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/rfc/rfc6749)

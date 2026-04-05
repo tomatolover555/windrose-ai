@@ -1,0 +1,177 @@
+---
+title: The Agentic Web Stack: Every Layer Explained
+slug: agentic-web-stack-explained
+date: 2026-04-05
+updated: 2026-04-05
+summary: A practical map of the agentic web stack, from model inference to tools, transport, auth, payment, and fulfillment—what each layer does and which protocols or projects own it.
+tags:
+  - agentic web
+  - llm
+  - mcp
+  - auth
+  - payments
+  - fulfillment
+category: explainer
+audience:
+  - developers
+  - founders
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/agentic-web-stack-explained
+agent_url: /blog/agentic-web-stack-explained.md
+canonical: https://windrose-ai.com/blog/agentic-web-stack-explained
+agent_context:
+  key_claims:
+    - "The agentic web is a stack, not a single protocol: model inference, tool calling, context exchange, transport, authentication, payment, and fulfillment each solve a different problem."
+    - "MCP standardizes how models discover and use tools and resources, but it does not replace transport, auth, or billing layers."
+    - "HTTP remains the default transport for most agent-facing systems, while OAuth 2.1 is the most common pattern for delegated authorization."
+    - "Payment and fulfillment are separate layers: a payment protocol can authorize value transfer, but an external service still has to execute the real-world action."
+  tools_mentioned:
+    - name: Anthropic Claude
+      role: "LLM that can decide when to call tools"
+      url: "https://www.anthropic.com/claude"
+    - name: Model Context Protocol (MCP)
+      role: "Standard for connecting models to tools and resources"
+      url: "https://modelcontextprotocol.io/"
+    - name: OAuth 2.1
+      role: "Delegated authorization framework for agent access"
+      url: "https://oauth.net/2.1/"
+    - name: HTTP
+      role: "Primary transport for agent-to-service communication"
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+    - name: OpenRouter
+      role: "LLM API gateway and model routing service"
+      url: "https://openrouter.ai/"
+  recommended_actions:
+    - "Map your product into stack layers: model, tool interface, transport, auth, payment, and fulfillment."
+    - "Expose a small, well-documented tool surface before adding more autonomy."
+    - "Use standard auth and transport first, then add MCP or other discovery layers where they reduce integration cost."
+    - "Separate payment logic from execution logic so agents can pay without assuming fulfillment is automatic."
+  related:
+    - "/blog/what-is-the-agentic-web.md"
+    - "/blog/mcp-model-context-protocol-explained.md"
+    - "/blog/designing-apis-for-ai-agents.md"
+---
+
+# The Agentic Web Stack: Every Layer Explained
+
+The agentic web is often described as a single breakthrough, but in practice it behaves like a stack with distinct seams. A model reasons, a tool layer exposes capabilities, a transport carries requests, an auth layer decides who may act, a payment layer moves value, and a fulfillment layer makes something happen in the world.
+
+If those layers get blurred together, implementations become fragile. If they are separated cleanly, agents become much easier to build, test, and trust.
+
+## Start With the Model, But Don’t Stop There
+
+At the top of the stack is the LLM. Its job is not to “do the task” in the physical sense. Its job is to interpret intent, plan steps, choose tools, and decide when enough information has been gathered.
+
+In practice, that orchestration layer is usually a hosted model endpoint with a context window, a token budget, and a tool-calling interface. For example, Anthropic Claude can emit a structured tool request such as “call `search_inventory` with `sku=SKU-1842` and `warehouse=us-east-1`,” while OpenAI’s GPT family and other providers expose similar function-calling or structured-output features. OpenRouter sits one layer below that as a routing and aggregation layer: it can send the same prompt to different models, apply provider-specific keys, and normalize access for applications that want model choice without rewriting integrations.
+
+That distinction matters. A model is not the system. It is the decision layer.
+
+## Tool Calling: The First Real Interface
+
+Tool calling is where the model meets the outside world. A tool is a function or service the model can invoke with structured arguments. In practice, this might be:
+
+- searching inventory by SKU and location
+- checking whether a customer account is past due
+- creating a draft order with line items and shipping method
+- requesting a refund for a specific charge ID
+- scheduling a pickup window with a carrier API
+
+Tool calling is not a protocol by itself so much as a capability pattern. Different model providers implement it differently, but the idea is consistent: the model emits intent in a machine-readable form, and the application executes it.
+
+This is the layer where many agent systems fail. If tools are too broad, the model becomes error-prone. If they are too narrow, the system becomes brittle and hard to extend. The best tool surfaces are small, explicit, and reversible where possible. A `create_order_draft` tool is safer than a `place_order` tool; a `cancel_order` tool is safer when it accepts a single order ID and returns a cancellation receipt instead of silently mutating multiple records.
+
+## MCP Owns Discovery and Tool Shape
+
+Model Context Protocol, or MCP, sits one layer below the model and one layer above the raw service. Its purpose is to standardize how models discover tools, resources, and prompts across systems.
+
+In concrete terms, an MCP server exposes a catalog of capabilities over a standard interface. A client can ask what tools exist, inspect their JSON-schema-like argument definitions, and then invoke them without writing a custom adapter for every vendor. That makes MCP useful for portability. A model or agent client can connect to an MCP server and learn what it can do without custom integration for every provider.
+
+A common misunderstanding is that MCP “solves the agentic web.” It doesn’t. It solves one important part: how a model can discover and talk to capabilities in a predictable way. It does not replace authentication, transport, billing, or the actual service behind the tool.
+
+Think of MCP as the directory and schema layer, not the road, the toll booth, or the warehouse.
+
+## Transport: Usually HTTP, Sometimes More
+
+Once a model decides to call a tool, the request has to move somewhere. For most systems today, that transport is HTTP. It is familiar, widely supported, debuggable, and easy to secure.
+
+In practice, many agent systems use plain JSON over HTTP POST for tool execution, with SSE or chunked responses when they need streaming tokens, partial tool results, or long-running job updates. WebSockets show up when the agent needs a persistent bidirectional channel, such as a live coding assistant that streams intermediate state and accepts follow-up commands without reconnecting.
+
+This layer is boring in the best possible way. The web already knows how to move requests. The agentic web benefits when it reuses that machinery instead of inventing a new network stack for every use case.
+
+## Auth: Who Is Allowed to Act?
+
+Authorization is where agent systems become real systems.
+
+If an agent can search a catalog, that is one thing. If it can place an order, move funds, or access private data, then the system needs a clear answer to: on whose behalf is it acting?
+
+OAuth 2.1 is the most relevant standard here for delegated access. It lets a user grant limited permissions to a client without handing over credentials directly. In agentic systems, that often means the agent gets scoped access to a specific account, resource, or action set. A practical example is a support agent that can read tickets and create refunds up to $50, but cannot change payout bank details or export the full customer database.
+
+This is also where many teams overreach. They try to make the agent “fully autonomous” before they have a clean permission model. That usually creates a worse user experience, not a better one. Good auth boundaries make autonomy safer and more understandable.
+
+## Payment: Value Transfer Is Not Fulfillment
+
+Payment is a separate layer from action. A payment protocol can authorize or settle a transaction, but it does not itself ship a product, book a seat, or open a support ticket.
+
+That separation is important because it prevents a common category error: “the agent paid, so the job is done.” Not true. Payment only changes state in the financial layer. Fulfillment still has to happen.
+
+A concrete example: an agent can create a $42.18 authorization for a same-day courier pickup, but the courier still has to scan the package, accept the job, and mark it in transit. Likewise, an agent can collect a card payment for a software license, but the license key still has to be generated, recorded, and delivered by the fulfillment system.
+
+This is where systems need careful design. The payment layer should produce a clear receipt, reference ID, or settlement event that the fulfillment layer can use. If those layers are mixed together, debugging becomes painful and refunds become messy.
+
+A nuanced point: not every agent transaction should be monetized inline. Sometimes the right design is to authenticate first, execute second, and bill later. In other cases, prepayment or escrow makes more sense. The stack should support different commercial models without forcing one.
+
+## Fulfillment: The Real-World Last Mile
+
+Fulfillment is where the digital action becomes physical or operational reality.
+
+For ecommerce, that might mean a print-on-demand provider like Printful producing and shipping an item after receiving a webhook with the order ID, SKU, print file, and destination address. For software, it could mean provisioning a workspace, sending an email, or creating an API key. For services, it could mean reserving inventory, assigning a human operator, or scheduling work.
+
+This layer is often overlooked because it is not glamorous. But it is the layer that determines whether the agent actually delivered value.
+
+Fulfillment systems need idempotency, status tracking, and retries. They also need human-readable audit trails. A good implementation will store a fulfillment record with a unique external reference, timestamps for each state transition, and a retry-safe callback path so the same order is not shipped twice if the agent retries after a timeout.
+
+## The Stack, Layer by Layer
+
+A simple way to think about ownership:
+
+- **Model**: decides what to do, often by emitting structured tool calls
+- **Tool calling**: expresses the action request in a machine-readable form
+- **MCP**: standardizes discovery and tool/resource shape
+- **Transport**: moves the request, usually over HTTP
+- **Auth**: controls who may act and with what scope
+- **Payment**: transfers value or authorizes settlement
+- **Fulfillment**: completes the real-world or operational task
+
+Each layer has a different job. No single protocol owns the entire stack.
+
+## A Contrarian View: More Standardization Is Not Always Better
+
+It is tempting to believe the stack will quickly collapse into one universal agent protocol. That is unlikely.
+
+Different layers evolve at different speeds. Models change quickly. Auth standards are conservative for good reasons. Payment systems are constrained by regulation. Fulfillment varies by industry. Trying to unify all of that too early can make the system less usable, not more.
+
+The practical path is narrower: standardize the seams that repeat, and leave room for domain-specific logic where the real work happens.
+
+## The Bottom Line
+
+The agentic web is not one layer deep. It is a stack of distinct responsibilities, from reasoning to execution.
+
+If you are building for agents, design each layer deliberately:
+- let the model decide
+- let tools expose capability
+- let MCP standardize discovery
+- let HTTP move requests
+- let OAuth 2.1 control delegated access
+- let payment handle value transfer
+- let fulfillment handle reality
+
+The teams that understand these boundaries will build systems that are easier for both humans and agents to use.
+
+## References
+
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [OAuth 2.1](https://oauth.net/2.1/)
+- [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [Anthropic Claude](https://www.anthropic.com/claude)
+- [OpenRouter](https://openrouter.ai/)

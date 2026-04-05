@@ -1,0 +1,219 @@
+---
+title: What Agents Actually Read on Your Website
+slug: what-agents-read-on-your-website
+date: 2026-04-05
+updated: 2026-04-05
+summary: A practical look at what AI agents consume when they visit your site: raw HTML, extracted text, Markdown, APIs, and structured data—and what they ignore.
+tags:
+  - agents
+  - web
+  - structured-data
+  - schema-org
+  - json-ld
+  - html
+  - markdown
+category: analysis
+audience: ["founders", "general", "developers"]
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/what-agents-read-on-your-website
+agent_url: /blog/what-agents-read-on-your-website.md
+canonical: https://windrose-ai.com/blog/what-agents-read-on-your-website
+agent_context:
+  key_claims:
+    - "Most agents do not 'see' a website the way humans do; they typically ingest raw HTML, extracted text, or API responses after a browser or crawler processes the page."
+    - "Structured data such as Schema.org JSON-LD can make entities, prices, availability, and organization details easier for machines to identify reliably."
+    - "Agents often ignore or down-rank content that is purely visual, hidden behind interaction, or embedded in scripts, canvases, and complex client-side UI states."
+    - "Markdown is often easier for extraction pipelines than heavily nested HTML, but it is usually a derived representation rather than the original source of truth."
+    - "No single format guarantees agent comprehension; the most robust sites present the same facts consistently in HTML, structured data, and machine-readable endpoints."
+  tools_mentioned:
+    - name: Schema.org
+      role: "Shared vocabulary for structured data markup"
+      url: "https://schema.org/"
+    - name: JSON-LD
+      role: "Machine-readable format commonly used to publish structured data in web pages"
+      url: "https://json-ld.org/"
+    - name: Google Rich Results Test
+      role: "Validates structured data that search and other parsers can read"
+      url: "https://search.google.com/test/rich-results"
+    - name: OpenGraph
+      role: "Metadata standard often used by crawlers and link previews"
+      url: "https://ogp.me/"
+  recommended_actions:
+    - "Add Schema.org JSON-LD for the core entities on each important page: organization, product, article, event, or FAQ."
+    - "Keep critical facts in visible HTML text, not only in images, scripts, or interactive widgets."
+    - "Expose a clean API or feed for data that changes often, such as inventory, pricing, schedules, or availability."
+    - "Test your pages with structured-data validators and inspect the rendered DOM, not just the source template."
+  related:
+    - "/blog/llms-txt-website-ai-readable.md"
+    - "/blog/designing-apis-for-ai-agents.md"
+    - "/blog/how-agents-discover-services.md"
+---
+
+# What Agents Actually Read on Your Website
+
+When people ask how to make a website “AI-readable,” they often imagine a single answer. In practice, there isn’t one.
+
+Different agents use different pipelines. A simple crawler may fetch raw HTML and extract text nodes. A browser-based agent may render the page, wait for JavaScript, then read the final DOM. A retrieval system may ignore the page entirely and call an API or feed. The result is simple: what an agent reads is often not what a human sees.
+
+That matters for developers, founders, and anyone publishing information on the web. If the facts on your site live in the wrong layer, agents may miss them, misread them, or treat them as less important than you expect.
+
+## The First Thing: Raw HTML
+
+For many crawlers and retrieval systems, raw HTML is still the starting point. That means the agent sees the document structure, headings, links, metadata, and text nodes before anything else.
+
+This is good news if your page is built with semantic HTML:
+
+- one clear `<h1>` that matches the page topic
+- `<h2>` and `<h3>` headings that describe sections, not just styling
+- `<ul>` and `<ol>` lists for grouped items
+- `<table>` elements for tabular data like pricing, schedules, or comparisons
+- links with descriptive anchor text such as “Pricing,” “API reference,” or “Book a demo”
+
+It is less good if the page is mostly a visual composition with little semantic structure. A human can infer meaning from layout, whitespace, color, and motion. An agent usually cannot.
+
+A page that looks polished in the browser may be hard to parse if the useful information is buried in nested `<div>`s, rendered as an image, or split across many client-side components. For example, a pricing page that shows “$49/month” only inside a hero graphic gives a crawler nothing to index except alt text, if that.
+
+## Rendered Pages and Extracted Text
+
+Some systems do not stop at raw HTML. They render the page in a headless browser, then extract the visible text from the final DOM. This helps with JavaScript-heavy sites, but it is not magic.
+
+Rendered extraction can still fail when:
+
+- content appears only after user interaction
+- important data is hidden in accordions or tabs
+- text is loaded too late or conditionally
+- the page depends on hover states, animations, or canvas rendering
+- the crawler times out before lazy-loaded sections appear
+
+In other words, if a human has to click three times to discover your pricing, an agent may never get there.
+
+This is one reason “just use a chatbot” is not a reliable strategy for web accessibility to agents. The agent still needs a clean, reachable representation of the facts. If the only copy of your cancellation policy lives behind a support widget, a browser agent may never treat it as page content.
+
+## Markdown Is Helpful, But Usually Derived
+
+Markdown is often easier for agents to read than complex HTML. It is flatter, more predictable, and less noisy. That is why many ingestion pipelines convert web pages to Markdown before passing them into an LLM.
+
+But Markdown is usually not the source of truth. It is a derived format.
+
+That distinction matters. If your site only produces Markdown through a conversion layer, you are depending on the converter to preserve meaning. Most of the time it does fine. Sometimes it does not:
+
+- nested tables become messy
+- callouts lose emphasis
+- footnotes disappear
+- embedded widgets vanish
+- image captions get detached
+- code samples lose line numbers or syntax labels
+
+For documentation, blog posts, and long-form editorial content, Markdown can be an excellent intermediate representation. For commerce, schedules, product specs, and other structured facts, it is not enough by itself. A Markdown export of a hotel page, for example, may preserve room descriptions but drop live availability, taxes, and check-in rules.
+
+## APIs Are Often the Cleanest Answer
+
+If a page exists mainly to expose data, an API is usually the most reliable way for an agent to read it.
+
+A product catalog, for example, is easier to consume through a structured endpoint than through HTML designed for humans. The same is true for:
+
+- pricing
+- inventory
+- event schedules
+- availability
+- location data
+- account-specific records
+- order status
+- search results
+
+This is where tools and standards like OpenAPI and JSON responses matter. Even if an agent starts on your website, it may prefer to switch to a machine-readable endpoint once it understands what it is looking at.
+
+A concrete pattern: a travel site might show a destination page in HTML, expose hotel and flight availability through `/api/search`, and publish a daily feed for partners. The page is for discovery; the endpoint is for exact answers.
+
+The practical lesson: if the data changes often or must be exact, do not make the agent reverse-engineer it from a page meant for people.
+
+## Why Schema.org and JSON-LD Matter
+
+Structured data is the bridge between human-facing pages and machine interpretation.
+
+Schema.org provides a shared vocabulary for describing things like:
+
+- organizations
+- products
+- articles
+- events
+- FAQs
+- local businesses
+- recipes
+- reviews
+
+JSON-LD is the common way to publish that vocabulary in a page without disturbing the visible layout.
+
+This does not mean agents will always trust structured data over everything else. But it does mean they have a much easier time identifying what the page is about and which facts belong together.
+
+For example, a product page can show the name, price, currency, availability, brand, and SKU in the visible text, while also exposing the same facts in JSON-LD. A local business page can do the same for address, opening hours, telephone number, and geo coordinates. That redundancy helps machines resolve ambiguity.
+
+It also helps humans indirectly. Search engines, preview systems, and other intermediaries often rely on the same metadata.
+
+Tools like the [Schema.org](https://schema.org/) vocabulary and Google’s [Rich Results Test](https://search.google.com/test/rich-results) are still useful because they force you to check whether the machine-readable layer is actually present and valid. If your JSON-LD says a product is in stock but the visible page says “sold out,” you have created a contradiction that parsers and users may both notice.
+
+## What Agents Commonly Skip
+
+There is a long list of things agents may ignore entirely or treat as low-value:
+
+- text inside images
+- text rendered only after animation
+- content hidden behind login walls
+- popovers and hover-only menus
+- infinite scroll without crawlable pagination
+- scripts that contain data but no accessible markup
+- decorative icons without labels
+- PDFs with poor text extraction
+- embedded video without transcripts
+- pricing or availability shown only after selecting a variant
+
+This is not because agents are careless. It is because they are often working with incomplete, lossy, or cost-constrained representations of the web.
+
+A contrarian point: not every page needs to be optimized for agents. If a page exists to create a brand impression, tell a story, or express a visual identity, then some machine readability tradeoffs may be acceptable. The goal is not to flatten the web into a database.
+
+But if the page contains facts you want agents to act on, those facts need a machine-friendly path.
+
+## A Useful Mental Model
+
+Think of your website as having layers:
+
+1. **Visible content** — what humans read in the browser
+2. **Semantic HTML** — what parsers can structure from headings, lists, tables, and links
+3. **Structured data** — what machines can label with entities and properties
+4. **API responses and feeds** — what agents can consume directly and repeatedly
+
+The more important the fact, the more layers it should appear in.
+
+If your business hours exist only in a footer image, that is fragile. If they appear in visible text, HTML, JSON-LD, and a feed, they are much harder to miss. The same is true for a product launch date, a support phone number, or a cancellation deadline.
+
+## Practical Guidance
+
+If you want agents to understand your site better, start with these steps:
+
+- Use semantic HTML for headings, lists, tables, and links.
+- Add Schema.org JSON-LD to key pages.
+- Keep critical facts visible in text, not only in scripts or images.
+- Provide APIs or feeds for dynamic data.
+- Validate your markup with real tools, not just assumptions.
+- Compare the rendered DOM to the source HTML on pages that rely on JavaScript.
+
+A good test is to ask: if the JavaScript failed, what facts would still be readable? If the answer is “almost none,” the page is fragile for both agents and users.
+
+You do not need to optimize every pixel for machines. You do need to make sure the facts survive translation across layers.
+
+## The Bottom Line
+
+Agents do not read your website like humans do. They read representations of it: HTML, extracted text, Markdown, structured data, or APIs. The more clearly you publish important facts in machine-readable forms, the less likely they are to be lost in translation.
+
+Structured data is not a bonus feature. It is one of the few reliable ways to tell agents, “this text is about a product, this number is a price, this page is an event, and this field is the source of truth.”
+
+If you want agents to understand your site, do not rely on visual design alone. Publish the meaning in the markup.
+
+## References
+
+- [Schema.org](https://schema.org/)
+- [JSON-LD 1.1](https://json-ld.org/)
+- [Google Rich Results Test](https://search.google.com/test/rich-results)
+- [Open Graph protocol](https://ogp.me/)
+- [MDN: Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)

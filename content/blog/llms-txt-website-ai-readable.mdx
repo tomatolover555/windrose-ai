@@ -1,0 +1,228 @@
+---
+title: "llms.txt: How to Make Your Website Readable by AI Agents"
+slug: llms-txt-website-ai-readable
+date: 2026-04-05
+updated: 2026-04-05
+summary: "What llms.txt is, why it matters for agent-native websites, and how to write one that helps AI systems find the right content without guessing."
+tags:
+  - llms.txt
+  - ai agents
+  - web standards
+  - developer experience
+  - seo
+category: how-to
+audience:
+  - developers
+  - founders
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/llms-txt-website-ai-readable
+agent_url: /blog/llms-txt-website-ai-readable.md
+canonical: "https://windrose-ai.com/blog/llms-txt-website-ai-readable"
+agent_context:
+  key_claims:
+    - "llms.txt is a proposed plain-text file placed at the root of a website to help AI systems find the site's most useful, human-written entry points."
+    - "The format is intentionally simple: a title, optional summary, then sections with Markdown links to important pages and resources."
+    - "llms.txt is not a replacement for robots.txt, sitemap.xml, or good site architecture; it complements them."
+    - "A well-written llms.txt can reduce ambiguity for agents by pointing them to docs, APIs, pricing, and policies instead of forcing them to crawl everything."
+    - "Real production sites, including Vercel and Anthropic, have published llms.txt files as examples of the pattern in use."
+  tools_mentioned:
+    - name: llms.txt
+      role: "Proposed website entry file for AI agents"
+      url: "https://llmstxt.org/"
+    - name: robots.txt
+      role: "Crawler control file for search engines and bots"
+      url: "https://www.robotstxt.org/"
+    - name: sitemap.xml
+      role: "Machine-readable index of site URLs"
+      url: "https://www.sitemaps.org/protocol.html"
+    - name: Vercel
+      role: "Example production site and hosting platform"
+      url: "https://vercel.com/"
+    - name: Anthropic
+      role: "Example production site that publishes an llms.txt file"
+      url: "https://www.anthropic.com/"
+  recommended_actions:
+    - "Create a root-level /llms.txt file that links to your most important pages for agents."
+    - "Keep the file short, stable, and focused on canonical pages rather than every URL on the site."
+    - "Use clear section labels such as Docs, APIs, Pricing, Policies, and Getting Started."
+    - "Review the file whenever you launch a major product area or change documentation structure."
+  related:
+    - "/blog/what-is-the-agentic-web.md"
+    - "/blog/mcp-model-context-protocol-explained.md"
+    - "/blog/how-to-make-your-store-agent-accessible.md"
+---
+
+# llms.txt: How to Make Your Website Readable by AI Agents
+
+If you want AI agents to understand your website, the first problem is not intelligence. It is navigation.
+
+Large language models can read a lot of text, but they are still bad at guessing which pages matter, which pages are current, and which pages are safe to rely on. A site can be perfectly usable for humans and still be awkward for agents because the important information is buried behind menus, scripts, search filters, or sprawling documentation trees.
+
+That is the problem `llms.txt` tries to solve.
+
+## What is llms.txt?
+
+`llms.txt` is a proposed plain-text file for websites, typically placed at the root of a domain as `/llms.txt`. The idea is simple: give AI systems a concise map of the site’s most useful, human-written entry points.
+
+Think of it as a curated guide for machines. Not a crawler directive. Not a full content dump. A guide.
+
+The file is written in Markdown-like plain text, so it is easy for humans to edit and easy for agents to parse. In practice, most implementations keep it to a single page of links and short descriptions rather than a long narrative. It usually includes:
+
+- a title
+- a short summary of the site
+- one or more sections with links to key pages
+- optional notes for agents about what the site is for
+
+The project is associated with the broader effort at [llmstxt.org](https://llmstxt.org/), which describes the format and its intended use.
+
+## Why it matters for agent-native sites
+
+For an agent, the web is not just a set of pages. It is a task environment.
+
+An agent trying to compare pricing, read docs, or complete a workflow needs fast access to the right source material. If the only path is through a homepage hero, a JavaScript-heavy navigation menu, and a search box with no obvious query terms, the agent has to spend tokens and time figuring out what humans already know.
+
+`llms.txt` helps by making the site legible at the top level.
+
+That matters most when the site has several distinct content types that agents need to distinguish quickly:
+
+- product documentation with setup steps and API references
+- pricing pages with plan limits, usage caps, and billing terms
+- policy pages with terms, privacy, security, and acceptable-use rules
+- support content with troubleshooting, status, and contact options
+- onboarding flows with account creation, verification, and first-run steps
+
+It also matters for founders and developers because it gives you some editorial control. Instead of leaving agents to infer importance from internal links, you can say: start here, then read this, then use that.
+
+## The spec format, in practice
+
+The format is intentionally lightweight. A common structure looks like this:
+
+```md
+# Site Name
+
+Short description of what this site does and who it is for.
+
+## Section Name
+- [Page title](https://example.com/page): one-line description
+- [Another page](https://example.com/another): one-line description
+
+## Another Section
+- [Doc](https://example.com/doc): one-line description
+```
+
+A few practical rules:
+
+- Use Markdown headings.
+- Link to canonical pages.
+- Keep descriptions short and specific.
+- Prefer a few high-value links over a giant index.
+- Avoid marketing language. Agents do better with plain descriptions than slogans.
+- Put the most actionable pages first: getting started, docs, API reference, pricing, policies, and support.
+
+There is no reason to include every blog post, tag page, or archive. If the file becomes a sitemap clone, it stops being useful.
+
+## A real production example
+
+A useful production example is [Vercel’s llms.txt](https://vercel.com/llms.txt). Vercel is a good case because its site spans product pages, docs, deployment guides, and platform information. Rather than forcing an agent to discover everything from scratch, the file points to the most relevant entry points, including documentation, platform pages, and other canonical resources.
+
+Another public example is [Anthropic’s llms.txt](https://www.anthropic.com/llms.txt). It shows the same basic pattern: a compact overview followed by links to the pages most likely to matter for a model or agent, such as product information, docs, and policy pages.
+
+These examples are useful not because they are perfect, but because they show how a production company can make a site more navigable without redesigning the whole information architecture.
+
+## How to write one for your site
+
+Start by asking what an agent would actually try to do on your site.
+
+For a software company, the answer is usually something like:
+
+- understand the product
+- read docs
+- inspect API references
+- check pricing
+- review terms or security policies
+- find onboarding instructions
+
+Then build the file around those tasks.
+
+A good `llms.txt` often includes sections like:
+
+- **Overview** — the homepage or product summary
+- **Docs** — getting started, tutorials, API reference
+- **Pricing** — pricing and plan limits
+- **Policies** — terms, privacy, security, acceptable use
+- **Support** — help center, status page, contact channels
+
+Example:
+
+```md
+# Acme AI
+
+Acme AI provides tools for automating customer support workflows.
+
+## Start here
+- [Homepage](https://acme.ai): Product overview and positioning
+- [Getting Started](https://acme.ai/docs/getting-started): Setup guide for new users
+
+## Documentation
+- [API Reference](https://acme.ai/docs/api): Endpoints, auth, and request examples
+- [Webhooks](https://acme.ai/docs/webhooks): Event delivery and retry behavior
+
+## Business
+- [Pricing](https://acme.ai/pricing): Plan tiers and usage limits
+- [Security](https://acme.ai/security): Security practices and compliance
+```
+
+This is enough to be useful. It is also easy to maintain because each link maps to a stable page that already exists for humans.
+
+## The contrarian view: do you actually need one?
+
+Not every website needs `llms.txt`.
+
+If your site is tiny, static, and already has a clean information structure, the file may not change much. If your important content is already in a few obvious pages with solid internal linking, agents may do fine without it.
+
+There is also a risk of treating `llms.txt` like a magic compatibility layer. It is not. It does not guarantee that every model will use it. It does not replace good HTML, structured data, or accessible navigation. And it will not fix content that is fragmented, outdated, or locked behind unnecessary friction.
+
+The most honest way to think about it is this: `llms.txt` is helpful when your site has enough surface area that a curated map saves time.
+
+## How it fits with robots.txt and sitemap.xml
+
+These files do different jobs.
+
+- `robots.txt` tells crawlers what they may or may not fetch.
+- `sitemap.xml` lists URLs you want search engines to know about.
+- `llms.txt` highlights the pages you want AI systems to read first.
+
+They are complementary. A site can have all three.
+
+If you are building an agent-native site, the combination is stronger than any one file alone. `robots.txt` manages access, `sitemap.xml` provides coverage, and `llms.txt` provides intent.
+
+## Implementation tips
+
+A few small choices make a big difference:
+
+- Put the file at `/llms.txt`
+- Serve it as plain text or Markdown
+- Keep URLs stable and canonical
+- Update it when docs or product structure changes
+- Avoid duplicating low-value pages
+- Write for clarity, not discoverability tricks
+- Include only pages that a human would confidently send a customer to
+
+If you use a framework like Next.js, adding a static root file is straightforward. If your site is on a platform like Vercel, deployment is also easy because the file can live alongside your other static assets.
+
+## The Bottom Line
+
+`llms.txt` is a simple idea with a practical goal: help AI agents find the right parts of your website without guessing.
+
+It is not a standard in the same sense as `robots.txt` or `sitemap.xml`, and it will not matter equally for every site. But for documentation-heavy products, SaaS companies, and any site that expects agents to browse, compare, or act on content, it is a low-cost way to make your site easier to understand.
+
+If your website already has a clear structure, `llms.txt` may be a small improvement. If your site is large or complex, it can be the difference between an agent getting lost and an agent getting to work.
+
+## References
+
+- [llms.txt specification](https://llmstxt.org/)
+- [Vercel llms.txt](https://vercel.com/llms.txt)
+- [Anthropic llms.txt](https://www.anthropic.com/llms.txt)
+- [robots.txt specification](https://www.robotstxt.org/)
+- [Sitemaps protocol](https://www.sitemaps.org/protocol.html)

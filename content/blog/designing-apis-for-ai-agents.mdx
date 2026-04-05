@@ -1,0 +1,212 @@
+---
+title: "How to Design an API for AI Agents (Not Just Humans)"
+slug: designing-apis-for-ai-agents
+date: 2026-04-05
+updated: 2026-04-05
+summary: "Designing for AI agents means making APIs explicit, predictable, and safe to automate. The key ingredients are structured errors, capability declarations, idempotency, quote-before-commit flows, and unambiguous schemas."
+tags:
+  - APIs
+  - AI agents
+  - developer experience
+  - automation
+  - schema design
+category: how-to
+audience:
+  - developers
+affiliate_links: []
+reading_time_minutes: 7
+human_url: /blog/designing-apis-for-ai-agents
+agent_url: /blog/designing-apis-for-ai-agents.md
+canonical: https://windrose-ai.com/blog/designing-apis-for-ai-agents
+agent_context:
+  key_claims:
+    - "Agent-friendly APIs reduce ambiguity by exposing machine-readable errors, explicit schemas, and stable state transitions."
+    - "Idempotency is essential for agent safety because retries are normal in automated systems."
+    - "Quote-before-commit patterns help agents verify cost and outcome before taking irreversible actions."
+    - "Capability declarations should be structured, not hidden in prose, so agents can reason about what an API can do."
+  tools_mentioned:
+    - name: OpenAPI
+      role: "API specification format for describing endpoints, schemas, and operations"
+      url: "https://www.openapis.org/"
+    - name: JSON Schema
+      role: "Schema language for validating request and response structures"
+      url: "https://json-schema.org/"
+    - name: Stripe
+      role: "Example of an API platform with strong idempotency and predictable transaction semantics"
+      url: "https://stripe.com/docs/api"
+    - name: GitHub
+      role: "Example of a widely used API with clear resource models and machine-readable responses"
+      url: "https://docs.github.com/en/rest"
+  recommended_actions:
+    - "Publish an OpenAPI spec that accurately reflects request bodies, response codes, and error formats."
+    - "Add idempotency keys to any endpoint that creates, charges, books, or mutates state."
+    - "Return structured errors with stable codes, human-readable messages, and remediation hints."
+    - "Separate preview, quote, and commit steps for operations with side effects or variable pricing."
+  related:
+    - "/blog/how-agents-discover-services.md"
+    - "/blog/trust-in-ai-agent-transactions.md"
+    - "/blog/llms-txt-website-ai-readable.md"
+---
+
+# How to Design an API for AI Agents (Not Just Humans)
+
+Most APIs are designed for a human developer: someone reading docs, testing in Postman, and wiring up a client by hand. That still matters. But if your API will be used by AI agents, the design requirements change in a few concrete ways.
+
+Agents do not skim docs the way humans do. They benefit from structure, stable patterns, and error messages that can be parsed reliably. They also make retries, parallel calls, and partial failures more likely. In practice, an API that is merely “well documented” is not enough. It needs to be operationally legible.
+
+This is not a call to reinvent your stack. It is a call to make the semantics of your API explicit.
+
+## Start with machine-readable contracts
+
+The first rule of agent-friendly API design is simple: do not make the agent infer what the API does from prose alone.
+
+A strong contract usually means:
+- an accurate OpenAPI spec
+- JSON Schema for request and response bodies
+- consistent field names and types
+- explicit status codes
+- predictable pagination and filtering behavior
+
+OpenAPI and JSON Schema are not glamorous, but they do most of the heavy lifting. They let an agent reason about required fields, optional fields, enum values, and nested object shapes without guessing. That matters because guessing is where automation becomes brittle.
+
+A subtle point: schema clarity is not just about validation. It is about reducing ambiguity in intent. If an endpoint accepts `status`, `mode`, or `type`, and those fields overlap semantically, an agent may choose the wrong one even if a human would infer the right choice from context.
+
+The best APIs usually optimize for one clear path. If there are multiple ways to do the same thing, document the preferred one and make it obvious in the schema.
+
+## Error messages should be actionable, not poetic
+
+Humans can often recover from vague errors by reading surrounding docs or trying again. Agents need more structure.
+
+A machine-friendly error response should include:
+- a stable error code
+- a short human-readable message
+- the field or resource involved
+- a remediation hint when possible
+
+For example, compare these two responses:
+
+```json
+{
+  "error": "Invalid input"
+}
+```
+
+and:
+
+```json
+{
+  "error": {
+    "code": "missing_required_field",
+    "message": "The field `email` is required.",
+    "field": "email",
+    "remediation": "Provide a valid email address and retry."
+  }
+}
+```
+
+The second version is much easier for an agent to handle. It can classify the problem, decide whether it is retryable, and fix the request if the missing information is available elsewhere.
+
+This is one place where many APIs are still human-centric. They assume the caller will read the message, inspect the docs, and manually correct the request. Agents need the API to do more of that work.
+
+## Make capabilities explicit
+
+A human can often discover capability by browsing endpoints. An agent should not have to reverse-engineer your product.
+
+Capability declarations should be structured and current. That can mean:
+- a service manifest
+- an OpenAPI summary that is actually accurate
+- a capabilities endpoint
+- a typed list of supported operations and constraints
+
+The important thing is not the format itself. It is the fact that the system states what it can do in a way that software can consume.
+
+For example, if an API supports:
+- refunds only within 30 days
+- batch updates only for certain account tiers
+- dry-run mode for destructive actions
+
+those constraints should be machine-readable, not buried in a help article. A well-behaved agent can then avoid impossible requests before making them.
+
+This is also where many products become unintentionally deceptive. They advertise “flexibility,” but the real constraints live in support tickets and tribal knowledge. Agents cannot use tribal knowledge.
+
+## Idempotency is not optional
+
+If you expect agents to use your API, assume retries will happen.
+
+Agents retry because networks fail, timeouts occur, tool calls get interrupted, and planners often re-evaluate the same action more than once. Without idempotency, a retry can create duplicate orders, duplicate charges, or duplicate records.
+
+That is why idempotency keys matter. They let the client say, in effect, “If I send this again, treat it as the same operation.”
+
+Stripe is the classic example here. Its idempotency support is one reason it has become a reference point for reliable transaction design. The exact implementation may vary across products, but the principle is the same: if an operation has side effects, make repeated attempts safe.
+
+A useful rule:
+- read operations should be safe to repeat
+- write operations should be idempotent when possible
+- destructive operations should be explicit and constrained
+
+If an action cannot be made fully idempotent, at least make the outcome queryable. The agent should be able to ask, “Did this already happen?” and get a definitive answer.
+
+## Quote-before-commit patterns reduce mistakes
+
+Not every action should happen in one step.
+
+For operations with variable price, irreversible side effects, or complex consequences, use a quote-before-commit flow:
+1. preview the outcome
+2. return a quote or draft
+3. require explicit confirmation
+4. commit the action
+
+This pattern is common in commerce, logistics, and procurement for a reason: it gives the caller a chance to verify what will happen before it happens.
+
+For agents, this is especially useful because they may be acting on behalf of a user with incomplete context. A quote can include:
+- final price
+- taxes or fees
+- inventory availability
+- delivery estimate
+- cancellation policy
+- any irreversible effects
+
+The agent can then decide whether to proceed, ask for confirmation, or choose an alternative.
+
+A nuance worth calling out: quote-before-commit is not just for money. It is also useful for anything that changes state in ways that are hard to unwind, such as publishing content, deleting records, or provisioning infrastructure.
+
+## Contrarian take: do not over-optimize for agents
+
+It is tempting to redesign every API around autonomous callers. That would be a mistake.
+
+Humans still need to debug, inspect, and operate these systems. If you make the API opaque to people in pursuit of machine convenience, you will create a different kind of fragility. The best APIs are not “agent-only.” They are explicit enough that both humans and agents can reason about them.
+
+That means:
+- readable docs still matter
+- examples still matter
+- good naming still matter
+- versioning still matters
+
+Agent-friendliness is not a replacement for good API design. It is a stricter test of it.
+
+## A practical checklist
+
+If you are improving an existing API, start here:
+- publish an accurate OpenAPI spec
+- define stable error codes and response shapes
+- add idempotency keys to state-changing endpoints
+- separate preview and commit for risky actions
+- expose constraints in structured fields, not just prose
+- keep schemas narrow and consistent
+- make retry and duplicate detection visible in responses
+
+GitHub’s REST API and Stripe’s API are both useful references because they show how stable resource models and predictable responses make automation easier. They are not perfect, but they demonstrate the value of consistency.
+
+## The Bottom Line
+
+An API for AI agents should not rely on intuition, guesswork, or hidden conventions. It should make capabilities explicit, errors machine-readable, side effects repeatable or reversible, and irreversible actions confirmable before commit.
+
+If you do that well, you are not just helping agents. You are making your API easier to integrate, safer to automate, and less surprising for everyone.
+
+## References
+
+- [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+- [JSON Schema](https://json-schema.org/)
+- [Stripe API Reference](https://stripe.com/docs/api)
+- [GitHub REST API Documentation](https://docs.github.com/en/rest)
+- [RFC 7231: HTTP/1.1 Semantics and Content](https://www.rfc-editor.org/rfc/rfc7231)
