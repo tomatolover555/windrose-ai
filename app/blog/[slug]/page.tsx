@@ -135,7 +135,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         }}
       >
         {/* Tags */}
-        {post.tags.length > 0 && (
+        {(post.tags ?? []).length > 0 && (
           <div
             style={{
               ...metaSans,
@@ -143,12 +143,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               marginBottom: "1rem",
             }}
           >
-            {post.tags.join("  ·  ")}
+            {(post.tags ?? []).join("  ·  ")}
           </div>
         )}
 
         {/* Affiliate disclosure */}
-        {post.affiliate_links.length > 0 && (
+        {(post.affiliate_links ?? []).length > 0 && (
           <p
             style={{
               fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",

@@ -61,9 +61,20 @@ export function getPostBySlug(slug: string): Post | null {
     const { data, content } = matter(raw);
     const rt = readingTime(content);
 
+    // Provide explicit defaults for every field so a malformed post never
+    // crashes the build. Arrays default to [] and strings to "".
     return {
-      ...(data as PostMeta),
-      reading_time_minutes: Math.ceil(rt.minutes),
+      title: data.title ?? "Untitled",
+      slug: data.slug ?? slug,
+      date: data.date ?? new Date().toISOString().split("T")[0],
+      updated: data.updated ?? data.date ?? new Date().toISOString().split("T")[0],
+      summary: data.summary ?? data.description ?? "",
+      tags: Array.isArray(data.tags) ? data.tags : [],
+      category: data.category ?? "general",
+      audience: Array.isArray(data.audience) ? data.audience : [],
+      affiliate_links: Array.isArray(data.affiliate_links) ? data.affiliate_links : [],
+      agent_context: data.agent_context ?? null,
+      reading_time_minutes: Math.max(1, Math.ceil(rt.minutes)),
       human_url: `/blog/${slug}`,
       agent_url: `/blog/${slug}.md`,
       canonical: `https://windrose-ai.com/blog/${slug}`,

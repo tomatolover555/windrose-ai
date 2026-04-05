@@ -7,7 +7,7 @@ export async function GET(req: Request) {
 
   let posts = getAllPosts();
   if (tag) {
-    posts = posts.filter((p) => p.tags.includes(tag));
+    posts = posts.filter((p) => (p.tags ?? []).includes(tag));
   }
 
   const index = {
