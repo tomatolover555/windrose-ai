@@ -222,6 +222,11 @@ async function main() {
     });
   }
 
+  if (!mdx || !mdx.startsWith("---")) {
+    console.error(`Skipping write — output is empty or missing frontmatter (${mdx?.length ?? 0} chars)`);
+    process.exit(1);
+  }
+
   const outPath = path.join(BLOG_DIR, `${outSlug}.mdx`);
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   fs.writeFileSync(outPath, mdx, "utf-8");
