@@ -246,14 +246,18 @@ async function main() {
     process.exit(1);
   }
 
-  // Validate YAML frontmatter parses without errors (catches unquoted colons)
+  // Detect unquoted YAML scalar values containing ': ' (colon-space) — a
+  // common cause of js-yaml parse failures (e.g. title: Foo: Bar).
+  // Pattern: key followed by unquoted value (no leading " ' [ { | >) that
+  // contains ': ' inside it.
   const fmMatch = mdx.match(/^---\n([\s\S]*?)\n---/);
   if (fmMatch) {
-    try {
-      const { load } = await import("js-yaml");
-      load(fmMatch[1]);
-    } catch (e) {
-      console.error(`Skipping write — frontmatter YAML parse error: ${e}`);
+    const badLine = fmMatch[1].split("\n").find((line) => {
+      const m = line.match(/^[a-z_][\w-]*:\s+([^"'\[{|>\s].*)$/);
+      return m && /:\s/.test(m[1]);
+    });
+    if (badLine) {
+      console.error(`Skipping write — unquoted YAML value with colon: ${badLine.trim()}`);
       process.exit(1);
     }
   }
