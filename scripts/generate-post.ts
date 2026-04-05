@@ -97,12 +97,16 @@ ${affiliates.programs.map(a => `- ${a.name}: ${a.context_tags.join(", ")}`).join
 Non-negotiable quality constraints:
 - MUST name at least 2 real tools, companies, protocols, or projects
 - MUST include a contrarian or nuanced angle
+- Open with a concrete scenario, example, or claim — NOT a generic "why this matters" paragraph
+- Section headings must be specific to the post topic, not generic ("Why This Matters", "Background", "Introduction" are forbidden)
+- Vary sentence and paragraph length — mix short punchy sentences with longer explanations
 - End with "## The Bottom Line"
 - End with "## References" — 3-5 real links:
   - [Title](URL)
 
 Output ONLY the complete MDX file starting with ---. Include:
 1. Full frontmatter with these fields: title, slug (${slug}), date (${today}), updated (${today}), summary, tags, category (${category}), audience (${JSON.stringify(audience)}), affiliate_links (array, empty if none relevant), reading_time_minutes (integer estimate), human_url (/blog/${slug}), agent_url (/blog/${slug}.md), canonical (https://windrose-ai.com/blog/${slug})
+   IMPORTANT: ALL string values in frontmatter (title, summary, etc.) MUST be wrapped in double quotes. Example: title: "My Post Title: A Subtitle"
 2. agent_context YAML block (as part of frontmatter) with:
    - key_claims: list of 3-5 specific factual claims
    - tools_mentioned: list of objects with name, role, url
@@ -240,6 +244,18 @@ async function main() {
       `Skipping write — output failed quality check (${mdx?.length ?? 0} chars, suspicious=${isSuspicious})`
     );
     process.exit(1);
+  }
+
+  // Validate YAML frontmatter parses without errors (catches unquoted colons)
+  const fmMatch = mdx.match(/^---\n([\s\S]*?)\n---/);
+  if (fmMatch) {
+    try {
+      const { load } = await import("js-yaml");
+      load(fmMatch[1]);
+    } catch (e) {
+      console.error(`Skipping write — frontmatter YAML parse error: ${e}`);
+      process.exit(1);
+    }
   }
 
   const outPath = path.join(BLOG_DIR, `${outSlug}.mdx`);
