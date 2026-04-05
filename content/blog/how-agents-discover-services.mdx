@@ -1,0 +1,247 @@
+---
+title: How AI Agents Discover Services: A Developer's Field Guide
+slug: how-agents-discover-services
+date: 2026-04-05
+updated: 2026-04-05
+summary: A practical guide to how AI agents find, understand, and use services today—from .well-known endpoints and llms.txt to OpenAPI specs and store manifests.
+tags:
+  - AI agents
+  - service discovery
+  - APIs
+  - web standards
+  - developer guide
+category: how-to
+audience:
+  - developers
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/how-agents-discover-services
+agent_url: /blog/how-agents-discover-services.md
+canonical: https://windrose-ai.com/blog/how-agents-discover-services
+agent_context:
+  key_claims:
+    - "Agents can discover services through several public entry points today, including .well-known endpoints, llms.txt, OpenAPI documents, and marketplace or store manifests."
+    - "OpenAPI remains the most machine-actionable way to describe requests, responses, auth, and error handling for many services."
+    - "llms.txt is useful as a navigation layer, but it does not replace a transactional API or formal schema."
+    - "Discovery is only the first step; an agent still needs authentication, permissioning, and a safe order-placement flow before it can complete a purchase."
+  tools_mentioned:
+    - name: OpenAPI
+      role: "API schema and operation catalog"
+      url: "https://www.openapis.org/"
+    - name: llms.txt
+      role: "Human-maintained entry point for AI-readable site navigation"
+      url: "https://llmstxt.org/"
+    - name: IETF .well-known URI registry
+      role: "Standard location for service metadata endpoints"
+      url: "https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml"
+    - name: OpenAI Apps SDK
+      role: "Example of an app integration surface with structured metadata"
+      url: "https://platform.openai.com/docs/apps"
+  recommended_actions:
+    - "Publish a stable .well-known endpoint that points agents to your canonical metadata and API docs."
+    - "Expose at least one machine-readable schema, ideally OpenAPI, for every action an agent can take."
+    - "Add an llms.txt file or similar summary page that explains what your service does, what it does not do, and where the transactional API lives."
+    - "Test discovery from a cold start: ask an agent to find your service, understand it, authenticate, and complete one safe task."
+  related:
+    - "/blog/what-agents-read-on-your-website.md"
+    - "/blog/designing-apis-for-ai-agents.md"
+    - "/blog/how-to-make-your-store-agent-accessible.md"
+---
+
+# How AI Agents Discover Services: A Developer's Field Guide
+
+An agent that starts with nothing has to answer a simple question: **what can I do here?**
+
+For humans, discovery is often visual. We scan a homepage, click around, maybe search the docs. Agents do something more literal. They look for structured clues: metadata, schemas, registries, and predictable URLs. If those clues are missing, they can still try to infer a service from public pages, but the process gets slower and less reliable.
+
+This guide walks through the main discovery mechanisms available today and shows how an agent can move from zero knowledge to placing an order.
+
+## The Discovery Problem
+
+Discovery is not the same as execution.
+
+An agent needs to find:
+
+1. **That a service exists**
+2. **What it does**
+3. **How to invoke it**
+4. **What it costs or requires**
+5. **How to authenticate**
+6. **How to confirm success**
+
+Most services only solve part of this. That is why agents often fail not at “using the API,” but at the earlier step of figuring out which API matters.
+
+## 1) .well-known Endpoints: The First Door
+
+The `.well-known` path is a standard place for site- or service-level metadata. The value here is not magic; it is predictability. If an agent knows to check `/.well-known/…`, it can find structured information without crawling the whole site.
+
+Examples include:
+
+- `/.well-known/openid-configuration` for identity metadata
+- `/.well-known/ai-plugin.json` in older plugin ecosystems
+- custom service discovery documents for your own app
+
+For agents, `.well-known` works best as a **pointer**, not a full manual. It should tell the agent where the canonical docs live, what auth is required, and where the transactional API is exposed.
+
+A good pattern is:
+
+- service name
+- short description
+- supported actions
+- auth method
+- links to OpenAPI or other machine-readable specs
+
+If you want a service to be agent-discoverable, this is one of the first places to make stable and boring.
+
+## 2) llms.txt: A Human-Maintained Map for Machines
+
+`llms.txt` is not a protocol in the strict sense; it is a convention. The idea is simple: provide a concise, curated entry point that helps language models understand a site without crawling every page.
+
+For discovery, `llms.txt` is useful because it can answer questions that are hard to infer from raw HTML:
+
+- What is this service for?
+- Which pages matter most?
+- Where are the docs?
+- Which workflows are supported?
+- Which pages should an agent ignore?
+
+That said, `llms.txt` is a **guide**, not a contract. It helps an agent orient itself, but it should not be the only source of truth. If the docs and the API disagree, the API wins.
+
+This is the contrarian part: `llms.txt` is often treated as a discovery silver bullet, but by itself it can be misleading. A well-written summary page can still drift out of date. Agents need a path to authoritative schemas and endpoints, not just a curated map.
+
+## 3) OpenAPI Specs: The Most Useful Machine Contract
+
+If discovery is about moving from “what is this?” to “how do I use it?”, OpenAPI is usually the most practical answer.
+
+An OpenAPI document can describe:
+
+- endpoints
+- parameters
+- request bodies
+- response schemas
+- auth schemes
+- error codes
+- examples
+
+That makes it much easier for an agent to plan a sequence of calls. It can inspect the spec, identify the relevant operation, and format a request with less guesswork.
+
+For example, a food ordering service might expose:
+
+- `GET /menu`
+- `POST /cart`
+- `POST /checkout`
+- `GET /orders/{id}`
+
+An agent that reads the spec can understand which call creates a cart, which call places the order, and which fields are required before checkout.
+
+OpenAPI is also valuable because it encourages **explicitness**. If a field is optional in practice but required for a successful order, the spec should say so. If a response can fail because inventory changed, the error schema should show that too.
+
+For agent discovery, this is the difference between a demo and a robust workflow.
+
+## 4) Store Manifests and Marketplace Listings
+
+Some services are not discovered directly from the web at all. They are discovered through an agent store, app directory, or marketplace manifest.
+
+Examples include:
+
+- app listing metadata
+- integration manifests
+- permission scopes
+- capability declarations
+- install-time configuration
+
+This matters because many agents will not “browse” a service the way a human does. They may instead search a catalog, compare capabilities, and install a connector. In that setting, the manifest becomes the discovery artifact.
+
+A good manifest should answer:
+
+- What can this service do?
+- What data does it need?
+- What permissions does it request?
+- What actions are supported?
+- What happens after installation?
+
+This is where projects like the **OpenAI Apps SDK** point toward a more structured future, even if the ecosystem is still evolving. The key idea is consistent: make the service legible before the first API call.
+
+## A Cold-Start Example: From Zero to Order
+
+Imagine an agent is asked: “Order two notebooks from Brand X.”
+
+A sensible discovery sequence might look like this:
+
+1. **Search the web or a catalog**
+   - Find Brand X’s storefront or app listing.
+
+2. **Check `.well-known`**
+   - Look for metadata that points to official docs or app manifests.
+
+3. **Read `llms.txt` or a summary page**
+   - Confirm the service sells notebooks, ships to the user’s region, and supports purchase workflows.
+
+4. **Load the OpenAPI spec**
+   - Identify endpoints for catalog, cart, checkout, and order status.
+
+5. **Authenticate**
+   - Use OAuth, API keys, or delegated user consent.
+
+6. **Validate the order**
+   - Confirm quantity, address, shipping method, and payment method.
+
+7. **Place the order**
+   - Submit the checkout request.
+
+8. **Verify completion**
+   - Fetch the order ID and status, then report back to the user.
+
+Notice what is happening here: discovery and execution are intertwined, but they are not identical. The agent can only place the order if the service makes the path legible at every step.
+
+## What Developers Should Optimize For
+
+If you are building for agents, prioritize three things:
+
+- **A stable entry point**: `.well-known` or a manifest that does not move around.
+- **A machine-readable contract**: OpenAPI or another formal schema.
+- **A concise overview**: `llms.txt` or equivalent navigation for orientation.
+
+Also make sure your docs distinguish between:
+
+- browsing
+- quoting
+- reserving
+- purchasing
+
+These are not the same operation, and agents need to know the boundary.
+
+## The Nuanced Reality
+
+It is tempting to think the “best” discovery mechanism will replace the others. That is unlikely.
+
+Agents will probably mix methods:
+
+- a registry to find candidates
+- `llms.txt` to orient themselves
+- `.well-known` to locate canonical metadata
+- OpenAPI to execute safely
+- a store manifest to install or authorize access
+
+In other words, discovery is becoming layered. The winning service is not the one with the fanciest front door. It is the one with consistent information across all of them.
+
+## The Bottom Line
+
+Agents do not discover services through intuition. They discover them through structure.
+
+If you want an agent to find your service, understand it, and place an order, give it:
+
+- a predictable `.well-known` entry point
+- a concise `llms.txt` or summary page
+- a real OpenAPI spec
+- a manifest or catalog listing if you distribute through a store
+
+Then test the full path from zero knowledge to completed transaction. If the agent gets stuck, the problem is usually not the model. It is the missing map.
+
+## References
+
+- [IANA: Well-Known URIs Registry](https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml)
+- [OpenAPI Initiative](https://www.openapis.org/)
+- [llms.txt](https://llmstxt.org/)
+- [OpenAI Apps SDK Docs](https://platform.openai.com/docs/apps)
+- [Google Open Source: Agentic web and structured discovery patterns](https://developers.googleblog.com/)
