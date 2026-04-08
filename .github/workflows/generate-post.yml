@@ -13,6 +13,10 @@ on:
         required: false
         default: "false"
 
+concurrency:
+  group: blog-publish
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -35,8 +39,10 @@ jobs:
 
       - name: Determine mode
         id: mode
+        env:
+          EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             echo "mode=news" >> $GITHUB_OUTPUT
           else
             DOW=$(date +%u)
@@ -53,11 +59,12 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
+          GEN_MODE: ${{ steps.mode.outputs.mode }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then
             npx tsx scripts/generate-post.ts --dry-run
           else
-            npx tsx scripts/generate-post.ts --mode=${{ steps.mode.outputs.mode }}
+            npx tsx scripts/generate-post.ts "--mode=$GEN_MODE"
           fi
 
       - name: Check for new post
@@ -73,9 +80,14 @@ jobs:
 
       - name: Commit and push (autonomous)
         if: steps.check.outputs.new_post == 'true'
+        env:
+          GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+          REPO: ${{ github.repository }}
+          GEN_MODE: ${{ steps.mode.outputs.mode }}
         run: |
-          git config user.name "windrose-bot"
-          git config user.email "bot@windrose-ai.com"
+          git pull origin main || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/
-          git commit -m "feat(blog): auto-generate post"
-          git push
+          git commit -m "post: AI-generated post for $(date +%Y-%m-%d) [mode=$GEN_MODE]"
+          git push "https://x-access-token:${GH_BOT_TOKEN}@github.com/${REPO}" main
