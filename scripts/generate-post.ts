@@ -3,6 +3,21 @@ import path from "path";
 import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+async function withRetry<T>(fn: () => Promise<T>, retries = 2): Promise<T> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (err: any) {
+      if (attempt === retries) throw err;
+      const delay = 2000 * (attempt + 1);
+      console.warn(`  Retry ${attempt + 1}/${retries} after error: ${err.message} (waiting ${delay}ms)`);
+      await new Promise((r) => setTimeout(r, delay));
+    }
+  }
+  throw new Error("unreachable");
+}
+
 const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const QUEUE_PATH = path.join(process.cwd(), "content/content-queue.json");
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
@@ -61,7 +76,7 @@ async function getTavilyStory(): Promise<{ title: string; url: string; content: 
   const data = await response.json() as { results: { title: string; url: string; content: string }[] };
   const results = data.results || [];
   if (!results.length) return null;
-  return results.sort((a, b) => b.title.length - a.title.length)[0];
+  return results.sort((a, b) => ((b as any).score || 0) - ((a as any).score || 0))[0];
 }
 
 async function generatePost(opts: {
@@ -114,30 +129,47 @@ Output ONLY the complete MDX file starting with ---. Include:
    - related: list of 2-3 related post paths like /blog/some-post.md
 3. Post body — 700-1000 words, ## headings, The Bottom Line section, References section`;
 
-  const contentResponse = await openai.chat.completions.create({
+  const contentResponse = await withRetry(() => openai.chat.completions.create({
     model: "gpt-5.4-mini",
     messages: [{ role: "user", content: contentPrompt }],
     temperature: 0.7,
     max_completion_tokens: 2500,
-  });
+  }));
+
+  if (contentResponse.choices[0].finish_reason === "length") {
+    console.warn("  WARNING: output was truncated (finish_reason=length)");
+  }
+
   let mdx = contentResponse.choices[0].message.content!.trim();
 
   // Self-critique pass
   const critiquePrompt = `You are editing a blog post about the agentic web. Review each section: does it contain specific, concrete information a reader couldn't find in 30 seconds on Google?
 
-For any weak section, rewrite it to be more specific and concrete. Do not include commentary or analysis — output ONLY the complete improved post, starting from the frontmatter (---), with no preamble.
+For any weak section, rewrite it to be more specific and concrete. Output ONLY the complete improved post — start with the frontmatter (---) and include the entire file. No commentary, no preamble, no "Here is the improved post:".
 
 Post to review:
 ${mdx}`;
 
-  const critiqueResponse = await openai.chat.completions.create({
+  const critiqueResponse = await withRetry(() => openai.chat.completions.create({
     model: "gpt-5.4-mini",
     messages: [{ role: "user", content: critiquePrompt }],
     temperature: 0.3,
     max_completion_tokens: 2700,
-  });
+  }));
 
-  return critiqueResponse.choices[0].message.content!.trim();
+  if (critiqueResponse.choices[0].finish_reason === "length") {
+    console.warn("  WARNING: critique pass was truncated (finish_reason=length)");
+  }
+
+  let critiqued = critiqueResponse.choices[0].message.content?.trim() || "";
+
+  // If critique returned empty or too short, fall back to pre-critique content
+  if (!critiqued || critiqued.length < 500 || !critiqued.startsWith("---")) {
+    console.warn("  WARNING: critique pass returned insufficient content, using pre-critique version");
+    return mdx;
+  }
+
+  return critiqued;
 }
 
 async function main() {
@@ -174,14 +206,19 @@ async function main() {
     if (story) console.log(`News grounding: "${story.title}"`);
 
     const today = new Date().toISOString().split("T")[0];
-    const topicResponse = await openai.chat.completions.create({
+    const topicResponse = await withRetry(() => openai.chat.completions.create({
       model: "gpt-5.4-mini",
       messages: [{
         role: "user",
         content: `Today is ${today}. Suggest a blog post title, 1-2 sentence summary, and URL slug for Windrose AI (publication about the agentic web).${groundingContext}\nReturn JSON: {"title": "...", "summary": "...", "slug": "..."}`
       }],
       response_format: { type: "json_object" },
-    });
+    }));
+
+    if (topicResponse.choices[0].finish_reason === "length") {
+      console.warn("  WARNING: output was truncated (finish_reason=length)");
+    }
+
     const topic = JSON.parse(topicResponse.choices[0].message.content!) as { title: string; summary: string; slug: string };
     outSlug = topic.slug || `${today}-${topic.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`;
 
