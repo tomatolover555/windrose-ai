@@ -3,6 +3,21 @@ import path from "path";
 import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+async function withRetry<T>(fn: () => Promise<T>, retries = 2): Promise<T> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (err: any) {
+      if (attempt === retries) throw err;
+      const delay = 2000 * (attempt + 1);
+      console.warn(`  Retry ${attempt + 1}/${retries} after error: ${err.message} (waiting ${delay}ms)`);
+      await new Promise((r) => setTimeout(r, delay));
+    }
+  }
+  throw new Error("unreachable");
+}
+
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 
 async function enrichPost(filePath: string) {
@@ -27,15 +42,23 @@ ${raw}`;
 
   console.log(`Enriching: ${path.basename(filePath)}`);
 
-  const response = await openai.chat.completions.create({
-    model: "gpt-5.4",
+  const response = await withRetry(() => openai.chat.completions.create({
+    model: "gpt-5.4-mini",
     messages: [{ role: "user", content: prompt }],
     temperature: 0.3,
     max_completion_tokens: 4000,
-  });
+  }));
 
-  const enriched = response.choices[0].message.content!.trim();
-  fs.writeFileSync(filePath + ".bak", raw);
+  if (response.choices[0].finish_reason === "length") {
+    console.warn("  WARNING: output was truncated (finish_reason=length)");
+  }
+
+  const enriched = response.choices[0].message.content?.trim() || "";
+  if (!enriched || enriched.length < 500) {
+    console.log("  SKIP — output too short or empty");
+    return;
+  }
+
   fs.writeFileSync(filePath, enriched);
   console.log(`  done`);
 }
@@ -57,7 +80,7 @@ async function main() {
     await new Promise(r => setTimeout(r, 1000));
   }
 
-  console.log("\nDone! Review posts, then:\n  rm content/blog/*.bak\n  git add content/blog/\n  git commit -m 'content: enrich posts with examples, takeaways, references'");
+  console.log("\nDone! Review posts, then:\n  git add content/blog/\n  git commit -m 'content: enrich posts with examples, takeaways, references'");
 }
 
 main().catch(err => {
