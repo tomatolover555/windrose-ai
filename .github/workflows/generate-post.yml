@@ -67,19 +67,7 @@ jobs:
             npx tsx scripts/generate-post.ts "--mode=$GEN_MODE"
           fi
 
-      - name: Check for new post
-        id: check
-        run: |
-          if git diff --quiet HEAD -- content/blog/; then
-            echo "new_post=false" >> $GITHUB_OUTPUT
-          else
-            echo "new_post=true" >> $GITHUB_OUTPUT
-            NEW_FILE=$(git status --short content/blog/ | awk '{print $2}' | head -1)
-            echo "new_file=$NEW_FILE" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push (autonomous)
-        if: steps.check.outputs.new_post == 'true'
+      - name: Commit and push
         env:
           GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
           REPO: ${{ github.repository }}
@@ -89,5 +77,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/
+          git diff --cached --quiet && echo "No new post to commit." && exit 0
           git commit -m "post: AI-generated post for $(date +%Y-%m-%d) [mode=$GEN_MODE]"
           git push "https://x-access-token:${GH_BOT_TOKEN}@github.com/${REPO}" main
