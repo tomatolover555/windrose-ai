@@ -1,0 +1,6 @@
+{
+  "name": "hot-take",
+  "word_count": "400-600",
+  "structure_prompt": "Write a short, punchy opinion piece. Open with your strongest claim. Support it with 1-2 sections of evidence. No References section — this is a take, not a research paper. End with '## The Bottom Line' (1-2 sentences, direct).",
+  "sections": ["opinion-driven heading", "evidence heading", "The Bottom Line"]
+}

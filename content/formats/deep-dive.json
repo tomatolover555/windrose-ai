@@ -1,0 +1,6 @@
+{
+  "name": "deep-dive",
+  "word_count": "800-1000",
+  "structure_prompt": "Write a thorough deep dive on a single topic. 3-4 sections that progressively build understanding. Start with the concrete problem, move to how it works technically, then to what defenders/builders should do. End with '## The Bottom Line' (2-3 actionable sentences) and '## References' (3-5 real links).",
+  "sections": ["topic-specific heading", "technical detail heading", "practical implications heading", "The Bottom Line", "References"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "tool-review",
+  "word_count": "700-900",
+  "structure_prompt": "Review a specific tool, protocol, or framework. Structure as: '## What It Is' (one paragraph), '## How It Works' (technical details), '## Where It Breaks' (honest limitations), '## Verdict' (would you use it, and when). End with '## References'.",
+  "sections": ["What It Is", "How It Works", "Where It Breaks", "Verdict", "References"]
+}

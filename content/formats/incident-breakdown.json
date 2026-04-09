@@ -1,0 +1,6 @@
+{
+  "name": "incident-breakdown",
+  "word_count": "600-800",
+  "structure_prompt": "Structure as an incident analysis: '## What Happened' (timeline and facts), '## Why It Worked' (the defensive gap or design flaw), '## What To Do About It' (specific remediation). End with '## The Bottom Line' and '## References'.",
+  "sections": ["What Happened", "Why It Worked", "What To Do About It", "The Bottom Line", "References"]
+}

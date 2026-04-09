@@ -1,0 +1,6 @@
+{
+  "name": "contrarian",
+  "word_count": "500-700",
+  "structure_prompt": "Open with the conventional wisdom that everyone repeats. Then dismantle it with evidence. Structure: '## The Standard Take' (what most people say), '## Why It's Wrong' (your counter-evidence), '## What To Do Instead' (the better approach). End with '## The Bottom Line'.",
+  "sections": ["The Standard Take", "Why It's Wrong", "What To Do Instead", "The Bottom Line"]
+}
