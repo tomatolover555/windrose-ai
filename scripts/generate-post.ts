@@ -22,6 +22,35 @@ const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const QUEUE_PATH = path.join(process.cwd(), "content/content-queue.json");
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 const AFFILIATES_PATH = path.join(process.cwd(), "content/affiliates.json");
+const VOICE_CARD_PATH = path.join(process.cwd(), "content/voice-card.json");
+const INCIDENT_BANK_PATH = path.join(process.cwd(), "content/incident-bank.json");
+const FORMATS_DIR = path.join(process.cwd(), "content/formats");
+
+type VoiceCard = {
+  persona: string;
+  tone: string;
+  pet_peeves: string[];
+  recurring_opinions: string[];
+  opener_styles: string[];
+};
+
+function loadVoiceCard(): VoiceCard {
+  return JSON.parse(fs.readFileSync(VOICE_CARD_PATH, "utf-8"));
+}
+
+function sampleIncidents(count = 4): string[] {
+  const bank: string[] = JSON.parse(fs.readFileSync(INCIDENT_BANK_PATH, "utf-8"));
+  const shuffled = bank.sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
+}
+
+function pickFormat(): { name: string; word_count: string; structure_prompt: string } {
+  const files = fs.readdirSync(FORMATS_DIR).filter((f: string) => f.endsWith(".json"));
+  const picked = files[Math.floor(Math.random() * files.length)];
+  const format = JSON.parse(fs.readFileSync(path.join(FORMATS_DIR, picked), "utf-8"));
+  console.log(`Format: ${format.name} (${format.word_count} words)`);
+  return format;
+}
 
 type QueueItem = {
   id: string;
@@ -93,41 +122,50 @@ async function generatePost(opts: {
   const today = new Date().toISOString().split("T")[0];
   const existingCoverage = existingSlugs.join(", ") || "none yet";
 
-  const systemPrompt = `You are a skilled technology writer for Windrose AI, a publication about the agentic web.
-Write clearly, accurately, and engagingly. Avoid hype and buzzwords.
-The blog serves both human readers (developers, founders, general public) and AI agents.`;
+  const voice = loadVoiceCard();
+  const incidents = sampleIncidents(4);
+  const format = pickFormat();
+  const openerStyle = voice.opener_styles[Math.floor(Math.random() * voice.opener_styles.length)];
 
-  const contentPrompt = `${systemPrompt}
-
-Write a complete MDX blog post:
+  const contentPrompt = `Write a blog post about the agentic web.
 
 Title: ${title}
 Angle: ${angle}
 ${groundingContext}
 Already covered (avoid repeating): ${existingCoverage}
 
-Available affiliate programs (only if genuinely relevant):
-${affiliates.programs.map(a => `- ${a.name}: ${a.context_tags.join(", ")}`).join("\n")}
+AUTHOR VOICE: ${voice.persona}
+TONE: ${voice.tone}
+RECURRING OPINIONS (weave in naturally if relevant, don't force): ${voice.recurring_opinions.join("; ")}
 
-Non-negotiable quality constraints:
+FORMAT: ${format.name} (${format.word_count} words)
+STRUCTURE: ${format.structure_prompt}
+
+OPENER INSTRUCTION: ${openerStyle}. Do NOT copy any example verbatim — use your own words and a different example each time.
+
+AVAILABLE EXAMPLES (use 1-2 if relevant, do NOT use all of them):
+${incidents.map((i: string) => "- " + i).join("\n")}
+
+Available affiliate programs (only if genuinely relevant):
+${affiliates.programs.map((a: AffiliateProgram) => `- ${a.name}: ${a.context_tags.join(", ")}`).join("\n")}
+
+NON-NEGOTIABLE RULES:
 - MUST name at least 2 real tools, companies, protocols, or projects
-- MUST include a contrarian or nuanced angle
-- Open with a concrete scenario, example, or claim — NOT a generic "why this matters" paragraph
-- Section headings must be specific to the post topic, not generic ("Why This Matters", "Background", "Introduction" are forbidden)
-- Vary sentence and paragraph length — mix short punchy sentences with longer explanations
-- End with "## The Bottom Line"
-- End with "## References" — 3-5 real links:
-  - [Title](URL)
+- Every ## heading must be specific to this post's topic (generic headings like "Why This Matters", "Background", "Introduction" are forbidden)
+- Every paragraph must contain at least one specific, verifiable claim
+- Do NOT start any paragraph with "In today's landscape", "As AI continues to", "It's no secret that", "Organizations are increasingly"
+
+PET PEEVES TO AVOID: ${voice.pet_peeves.join("; ")}
 
 Output ONLY the complete MDX file starting with ---. Include:
 1. Full frontmatter with these fields: title, slug (${slug}), date (${today}), updated (${today}), summary, tags, category (${category}), audience (${JSON.stringify(audience)}), affiliate_links (array, empty if none relevant), reading_time_minutes (integer estimate), human_url (/blog/${slug}), agent_url (/blog/${slug}.md), canonical (https://windrose-ai.com/blog/${slug})
-   IMPORTANT: ALL string values in frontmatter (title, summary, etc.) MUST be wrapped in double quotes. Example: title: "My Post Title: A Subtitle"
+   IMPORTANT: ALL string values in frontmatter (title, summary, etc.) MUST be wrapped in double quotes.
 2. agent_context YAML block (as part of frontmatter) with:
    - key_claims: list of 3-5 specific factual claims
    - tools_mentioned: list of objects with name, role, url
    - recommended_actions: list of 3-4 actionable steps
    - related: list of 2-3 related post paths like /blog/some-post.md
-3. Post body — 700-1000 words, ## headings, The Bottom Line section, References section`;
+3. Post body with ## headings following the format structure`;
 
   const contentResponse = await withRetry(() => openai.chat.completions.create({
     model: "gpt-5.4-mini",
@@ -143,9 +181,14 @@ Output ONLY the complete MDX file starting with ---. Include:
   let mdx = contentResponse.choices[0].message.content!.trim();
 
   // Self-critique pass
-  const critiquePrompt = `You are editing a blog post about the agentic web. Review each section: does it contain specific, concrete information a reader couldn't find in 30 seconds on Google?
+  const critiquePrompt = `You are a strict editor. Your author's voice: ${voice.persona}. Tone: ${voice.tone}.
 
-For any weak section, rewrite it to be more specific and concrete. Output ONLY the complete improved post — start with the frontmatter (---) and include the entire file. No commentary, no preamble, no "Here is the improved post:".
+Review the post below. For each section:
+1. Does it sound like this specific author, or like generic AI content? Rewrite to match the voice.
+2. Does the opening contain a specific, concrete example or claim? Fix if not.
+3. Are any paragraphs generic enough to appear in any post? Replace with specifics.
+
+Output ONLY the complete improved post — start with the frontmatter (---) and include the entire file. No commentary, no preamble, no "Here is the improved post:".
 
 Post to review:
 ${mdx}`;
