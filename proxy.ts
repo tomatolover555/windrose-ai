@@ -17,10 +17,10 @@ function extractToken(req: NextRequest): string | null {
   return null;
 }
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Rewrite /blog/<slug>.md → /api/blog-markdown/<slug>
+  // Rewrite /blog/<slug>.md -> /api/blog-markdown/<slug>
   const mdMatch = pathname.match(/^\/blog\/(.+)\.md$/);
   if (mdMatch) {
     const slug = mdMatch[1];
@@ -36,4 +36,3 @@ export function middleware(req: NextRequest) {
 
   return NextResponse.next();
 }
-
