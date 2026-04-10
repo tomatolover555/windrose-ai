@@ -3,12 +3,21 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://windrose-ai.com"),
   title: "Windrose AI",
   description: "Thinking about the agentic web.",
+  openGraph: {
+    title: "Windrose AI",
+    description: "Thinking about the agentic web.",
+    url: "https://windrose-ai.com",
+    siteName: "Windrose AI",
+    images: [{ url: "https://windrose-ai.com/logo.png" }],
+  },
   twitter: {
     card: "summary_large_image",
     title: "Windrose AI",
     description: "Thinking about the agentic web.",
+    images: ["https://windrose-ai.com/logo.png"],
   },
   alternates: {
     types: {

@@ -4,6 +4,8 @@ import matter from "gray-matter";
 import readingTime from "reading-time";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
+const SITE_URL = "https://windrose-ai.com";
+const DEFAULT_OG_IMAGE = `${SITE_URL}/logo.png`;
 
 export type AffiliateLink = {
   label: string;
@@ -32,6 +34,7 @@ export type PostMeta = {
   human_url: string;
   agent_url: string;
   canonical: string;
+  ogImage: string;
   agent_context: AgentContext;
 };
 
@@ -60,14 +63,26 @@ export function getPostBySlug(slug: string): Post | null {
     const raw = fs.readFileSync(filePath, "utf-8");
     const { data, content } = matter(raw);
     const rt = readingTime(content);
+    const dateValue =
+      data.date instanceof Date
+        ? data.date.toISOString()
+        : typeof data.date === "string"
+          ? new Date(data.date).toISOString()
+          : new Date().toISOString();
+    const updatedValue =
+      data.updated instanceof Date
+        ? data.updated.toISOString()
+        : typeof data.updated === "string"
+          ? new Date(data.updated).toISOString()
+          : dateValue;
 
     // Provide explicit defaults for every field so a malformed post never
     // crashes the build. Arrays default to [] and strings to "".
     return {
       title: data.title ?? "Untitled",
       slug: data.slug ?? slug,
-      date: data.date ?? new Date().toISOString().split("T")[0],
-      updated: data.updated ?? data.date ?? new Date().toISOString().split("T")[0],
+      date: dateValue,
+      updated: updatedValue,
       summary: data.summary ?? data.description ?? "",
       tags: Array.isArray(data.tags) ? data.tags : [],
       category: data.category ?? "general",
@@ -77,7 +92,8 @@ export function getPostBySlug(slug: string): Post | null {
       reading_time_minutes: Math.max(1, Math.ceil(rt.minutes)),
       human_url: `/blog/${slug}`,
       agent_url: `/blog/${slug}.md`,
-      canonical: `https://windrose-ai.com/blog/${slug}`,
+      canonical: `${SITE_URL}/blog/${slug}`,
+      ogImage: typeof data.ogImage === "string" && data.ogImage.trim().length > 0 ? data.ogImage : DEFAULT_OG_IMAGE,
       content: content.replace(/^\s*#[^\n]*\n+/, ""),
       rawContent: raw,
     };

@@ -10,7 +10,19 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) return {};
+  if (!post) {
+    return {
+      title: "Post unavailable — Windrose AI",
+      robots: {
+        index: false,
+        follow: true,
+      },
+    };
+  }
+
+  const publishedTime = new Date(post.date).toISOString();
+  const modifiedTime = new Date(post.updated || post.date).toISOString();
+
   return {
     title: `${post.title} — Windrose AI`,
     description: post.summary,
@@ -20,15 +32,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: post.summary,
       type: "article",
       url: post.canonical,
-      publishedTime: post.date,
-      modifiedTime: post.updated || post.date,
+      publishedTime,
+      modifiedTime,
       siteName: "Windrose AI",
       tags: post.tags,
+      images: [{ url: post.ogImage }],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.summary,
+      images: [post.ogImage],
     },
   };
 }
