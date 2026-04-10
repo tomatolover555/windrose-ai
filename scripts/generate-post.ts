@@ -26,6 +26,15 @@ const AFFILIATES_PATH = path.join(process.cwd(), "content/affiliates.json");
 const VOICE_CARD_PATH = path.join(process.cwd(), "content/voice-card.json");
 const INCIDENT_BANK_PATH = path.join(process.cwd(), "content/incident-bank.json");
 const FORMATS_DIR = path.join(process.cwd(), "content/formats");
+const TOPIC_STOP_WORDS = new Set([
+  "the", "and", "for", "with", "that", "this", "from", "into", "your", "about",
+  "when", "what", "why", "how", "are", "have", "has", "will", "need", "needs",
+  "just", "than", "they", "them", "their", "more", "less", "over", "under",
+  "after", "before", "because", "still", "being", "where", "which", "while",
+  "between", "using", "used", "does", "doesn", "isn", "is", "now", "new",
+  "2026", "2025", "2024", "blog", "guide", "agentic", "agents", "agent", "web",
+  "payments", "commerce", "protocols", "website"
+]);
 
 type VoiceCard = {
   persona: string;
@@ -84,6 +93,130 @@ function getExistingPosts(): string[] {
   return fs.readdirSync(BLOG_DIR)
     .filter(f => f.endsWith(".mdx") || f.endsWith(".md"))
     .map(f => f.replace(/\.(mdx|md)$/, ""));
+}
+
+function extractKeywords(text: string, limit = 8): string[] {
+  const seen = new Set<string>();
+  const tokens = text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter((token) => token.length >= 4 && !TOPIC_STOP_WORDS.has(token));
+
+  const keywords: string[] = [];
+  for (const token of tokens) {
+    if (seen.has(token)) continue;
+    seen.add(token);
+    keywords.push(token);
+    if (keywords.length >= limit) break;
+  }
+  return keywords;
+}
+
+function loadRecentPosts(limit = 5): { title: string; summary: string; date: string; keywords: string[] }[] {
+  if (!fs.existsSync(BLOG_DIR)) return [];
+
+  return fs.readdirSync(BLOG_DIR)
+    .filter((file) => file.endsWith(".mdx") || file.endsWith(".md"))
+    .map((file) => {
+      try {
+        const fullPath = path.join(BLOG_DIR, file);
+        const raw = fs.readFileSync(fullPath, "utf-8");
+        const { data } = matter(raw);
+        const title = typeof data.title === "string" ? data.title.trim() : "";
+        const summary = typeof data.summary === "string" ? data.summary.trim() : "";
+        const date =
+          data.date instanceof Date
+            ? data.date.toISOString()
+            : typeof data.date === "string"
+              ? data.date
+              : "";
+
+        return {
+          title,
+          summary,
+          date,
+          keywords: Array.isArray(data.tags) && data.tags.length > 0
+            ? data.tags.map((tag: string) => String(tag).trim()).filter(Boolean).slice(0, 8)
+            : extractKeywords(`${title} ${summary}`),
+        };
+      } catch {
+        return null;
+      }
+    })
+    .filter((post): post is { title: string; summary: string; date: string; keywords: string[] } => post !== null)
+    .sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime())
+    .slice(0, limit);
+}
+
+function buildRecentCoverageContext(posts: { title: string; summary: string; keywords: string[] }[]): string {
+  if (!posts.length) return "No recent coverage.";
+  return posts
+    .map((post, index) => {
+      const keywords = post.keywords.length ? post.keywords.join(", ") : "none";
+      return `${index + 1}. Title: ${post.title}\n   Summary: ${post.summary}\n   Keywords: ${keywords}`;
+    })
+    .join("\n");
+}
+
+function keywordSet(text: string): Set<string> {
+  return new Set(extractKeywords(text, 12));
+}
+
+function overlapScore(a: Set<string>, b: Set<string>): number {
+  if (a.size === 0 || b.size === 0) return 0;
+  let intersection = 0;
+  for (const token of a) {
+    if (b.has(token)) intersection += 1;
+  }
+  return intersection / Math.min(a.size, b.size);
+}
+
+function isTopicTooSimilar(
+  topic: { title: string; summary: string },
+  recentPosts: { title: string; summary: string; keywords: string[] }[]
+): boolean {
+  const topicTitleKeywords = keywordSet(topic.title || "");
+  const topicSummaryKeywords = keywordSet(topic.summary || "");
+
+  return recentPosts.some((post) => {
+    const recentTitleKeywords = keywordSet(post.title || "");
+    const recentSummaryKeywords = keywordSet(post.summary || "");
+    const titleScore = overlapScore(topicTitleKeywords, recentTitleKeywords);
+    const summaryScore = overlapScore(topicSummaryKeywords, recentSummaryKeywords);
+    const combinedScore = overlapScore(
+      keywordSet(`${topic.title} ${topic.summary}`),
+      keywordSet(`${post.title} ${post.summary}`)
+    );
+    return titleScore >= 0.6 || summaryScore >= 0.7 || combinedScore >= 0.65;
+  });
+}
+
+function pickQueueItem(
+  queue: QueueItem[],
+  existingSlugs: string[],
+  recentPosts: { title: string; summary: string; keywords: string[] }[]
+): QueueItem | null {
+  const candidates = queue
+    .filter((item) => !existingSlugs.includes(item.slug))
+    .sort((a, b) => a.priority - b.priority);
+
+  if (!candidates.length) return null;
+
+  const distinctCandidate = candidates.find(
+    (item) => !isTopicTooSimilar({ title: item.title, summary: item.angle }, recentPosts)
+  );
+
+  if (!distinctCandidate) return candidates[0];
+
+  if (distinctCandidate.slug !== candidates[0].slug) {
+    console.log(
+      `Skipping similar queue item "${candidates[0].title}" in favor of more distinct topic "${distinctCandidate.title}"`
+    );
+  }
+
+  return distinctCandidate;
 }
 
 async function getTavilyStory(): Promise<{ title: string; url: string; content: string } | null> {
@@ -309,6 +442,7 @@ async function main() {
   console.log(`Mode: ${mode}`);
 
   const existingSlugs = getExistingPosts();
+  const recentPosts = loadRecentPosts(5);
   const affiliates: { programs: AffiliateProgram[] } = JSON.parse(
     fs.readFileSync(AFFILIATES_PATH, "utf-8")
   );
@@ -330,20 +464,38 @@ async function main() {
     if (story) console.log(`News grounding: "${story.title}"`);
 
     const today = new Date().toISOString().split("T")[0];
-    const topicResponse = await withRetry(() => openai.chat.completions.create({
+    const recentCoverageContext = buildRecentCoverageContext(recentPosts);
+    const createTopic = async (retryReason = "") => withRetry(() => openai.chat.completions.create({
       model: "gpt-5.4-mini",
       messages: [{
         role: "user",
-        content: `Today is ${today}. Suggest a blog post title, 1-2 sentence summary, and URL slug for Windrose AI (publication about the agentic web).${groundingContext}\nReturn JSON: {"title": "...", "summary": "...", "slug": "..."}`
+        content: `Today is ${today}. Suggest a blog post title, 1-2 sentence summary, and URL slug for Windrose AI (publication about the agentic web).${groundingContext}
+
+Recent coverage to avoid overlapping with:
+${recentCoverageContext}
+
+Avoid topics that overlap with recent posts in core subject, angle, or conclusion.
+If a topic is similar, choose a different angle or subtopic.
+Avoid repeating recent coverage. If a similar topic was recently published, choose a narrower, more specific, or different angle.
+Prefer topics framed around specific incidents, tools, failure modes, or defenses rather than broad claims like "AI attacks are increasing."${retryReason ? `\nPrevious suggestion was too similar to recent coverage: ${retryReason}\nChoose a meaningfully different angle this time.` : ""}
+
+Return JSON: {"title": "...", "summary": "...", "slug": "..."}`
       }],
       response_format: { type: "json_object" },
     }));
+
+    let topicResponse = await createTopic();
 
     if (topicResponse.choices[0].finish_reason === "length") {
       console.warn("  WARNING: output was truncated (finish_reason=length)");
     }
 
-    const topic = JSON.parse(topicResponse.choices[0].message.content!) as { title: string; summary: string; slug: string };
+    let topic = JSON.parse(topicResponse.choices[0].message.content!) as { title: string; summary: string; slug: string };
+    if (isTopicTooSimilar(topic, recentPosts)) {
+      console.warn("  WARNING: topic too similar to recent coverage, regenerating once");
+      topicResponse = await createTopic(`${topic.title} — ${topic.summary}`);
+      topic = JSON.parse(topicResponse.choices[0].message.content!) as { title: string; summary: string; slug: string };
+    }
     outSlug = topic.slug || `${today}-${topic.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`;
 
     mdx = await generatePost({
@@ -363,9 +515,7 @@ async function main() {
       process.exit(1);
     }
     const queue: QueueItem[] = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf-8"));
-    const next = queue
-      .filter(item => !existingSlugs.includes(item.slug))
-      .sort((a, b) => a.priority - b.priority)[0];
+    const next = pickQueueItem(queue, existingSlugs, recentPosts);
 
     if (!next) {
       console.log("Queue exhausted — no evergreen posts to generate.");

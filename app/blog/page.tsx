@@ -18,19 +18,25 @@ export default function BlogIndexPage() {
           borderBottom: "1px dotted #ccc8bf",
         }}
       >
-        <p
+        <div
           style={{
             fontFamily: "Georgia, 'Times New Roman', serif",
             fontSize: "1rem",
             lineHeight: "1.7",
             color: "#3a3a3a",
-            margin: 0,
           }}
         >
-          Windrose AI covers the agentic web: the protocols, APIs, trust layers, and commercial
-          systems that make software usable by AI agents. These posts stay focused on how the stack
-          actually works in production, not just the buzzwords around it.
-        </p>
+          <p style={{ margin: "0 0 0.9rem 0" }}>Windrose AI is about how the agentic web actually works.</p>
+          <p style={{ margin: "0 0 0.9rem 0" }}>Not the demos. Not the buzzwords.</p>
+          <p style={{ margin: "0 0 0.9rem 0" }}>
+            The real systems - protocols, APIs, trust layers, and the messy constraints that show
+            up in production when software is used by agents instead of humans.
+          </p>
+          <p style={{ margin: 0 }}>
+            If you&apos;re building or reasoning about these systems, this is where the details
+            matter.
+          </p>
+        </div>
       </div>
       {posts.length === 0 ? (
         <p style={{ color: "#6b7f96" }}>No posts yet.</p>
