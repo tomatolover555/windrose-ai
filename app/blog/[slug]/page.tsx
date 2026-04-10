@@ -25,6 +25,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       siteName: "Windrose AI",
       tags: post.tags,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.summary,
+    },
   };
 }
 
