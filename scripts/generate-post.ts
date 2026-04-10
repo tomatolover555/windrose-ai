@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import OpenAI from "openai";
+import matter from "gray-matter";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -72,6 +73,12 @@ type AffiliateProgram = {
   disclosure: string;
 };
 
+type AffiliateLink = {
+  label: string;
+  url: string;
+  context: string;
+};
+
 function getExistingPosts(): string[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
   return fs.readdirSync(BLOG_DIR)
@@ -106,6 +113,70 @@ async function getTavilyStory(): Promise<{ title: string; url: string; content: 
   const results = data.results || [];
   if (!results.length) return null;
   return results.sort((a, b) => ((b as any).score || 0) - ((a as any).score || 0))[0];
+}
+
+function normalizeForMatch(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function getRelevantAffiliateLinks(input: {
+  title: string;
+  angle: string;
+  slug: string;
+  category: string;
+  content: string;
+  affiliates: AffiliateProgram[];
+}): AffiliateLink[] {
+  const haystack = normalizeForMatch(
+    [input.title, input.angle, input.slug.replace(/-/g, " "), input.category, input.content]
+      .filter(Boolean)
+      .join(" ")
+  );
+
+  const links: AffiliateLink[] = [];
+
+  for (const program of input.affiliates) {
+    const matchedTag = program.context_tags.find((tag) => {
+      const normalizedTag = normalizeForMatch(tag);
+      return normalizedTag.length > 0 && haystack.includes(normalizedTag);
+    });
+
+    if (!matchedTag) continue;
+
+    links.push({
+      label: program.name,
+      url: program.url,
+      context: matchedTag,
+    });
+  }
+
+  return links;
+}
+
+function injectAffiliateLinks(
+  mdx: string,
+  input: {
+    title: string;
+    angle: string;
+    slug: string;
+    category: string;
+    affiliates: AffiliateProgram[];
+  }
+): string {
+  try {
+    const parsed = matter(mdx);
+    const affiliateLinks = getRelevantAffiliateLinks({
+      ...input,
+      content: parsed.content,
+      affiliates: input.affiliates,
+    });
+
+    parsed.data.affiliate_links = affiliateLinks;
+    return matter.stringify(parsed.content, parsed.data);
+  } catch (err: any) {
+    console.warn(`  WARNING: unable to inject affiliate links: ${err.message}`);
+    return mdx;
+  }
 }
 
 async function generatePost(opts: {
@@ -216,7 +287,13 @@ ${mdx}`;
     return mdx;
   }
 
-  return critiqued;
+  return injectAffiliateLinks(critiqued, {
+    title,
+    angle,
+    slug,
+    category,
+    affiliates: affiliates.programs,
+  });
 }
 
 async function main() {

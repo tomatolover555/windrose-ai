@@ -11,6 +11,27 @@ export default function BlogIndexPage() {
 
   return (
     <div>
+      <div
+        style={{
+          marginBottom: "1.75rem",
+          paddingBottom: "1.25rem",
+          borderBottom: "1px dotted #ccc8bf",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "Georgia, 'Times New Roman', serif",
+            fontSize: "1rem",
+            lineHeight: "1.7",
+            color: "#3a3a3a",
+            margin: 0,
+          }}
+        >
+          Windrose AI covers the agentic web: the protocols, APIs, trust layers, and commercial
+          systems that make software usable by AI agents. These posts stay focused on how the stack
+          actually works in production, not just the buzzwords around it.
+        </p>
+      </div>
       {posts.length === 0 ? (
         <p style={{ color: "#6b7f96" }}>No posts yet.</p>
       ) : (
