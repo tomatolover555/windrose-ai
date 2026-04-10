@@ -3,6 +3,21 @@ import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPostSlugs, getPostBySlug } from "@/lib/blog";
 
+function normalizeRelatedSlug(value: string): string {
+  return value
+    .trim()
+    .replace(/^\/blog\//, "")
+    .replace(/\.(mdx|md)$/, "");
+}
+
+function formatSlugTitle(slug: string): string {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
 export async function generateStaticParams() {
   return getAllPostSlugs().map((slug) => ({ slug }));
 }
@@ -51,6 +66,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+  const relatedPosts = [...new Set((post.agent_context?.related ?? []).map(normalizeRelatedSlug))]
+    .filter((relatedSlug) => relatedSlug && relatedSlug !== post.slug)
+    .map((relatedSlug) => {
+      const relatedPost = getPostBySlug(relatedSlug);
+      return {
+        slug: relatedSlug,
+        title: relatedPost?.title ?? formatSlugTitle(relatedSlug),
+      };
+    });
 
   const metaSans: React.CSSProperties = {
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
@@ -178,6 +202,42 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           >
             This post contains affiliate links. Windrose may earn a commission if you purchase through them.
           </p>
+        )}
+
+        {relatedPosts.length > 0 && (
+          <div style={{ marginTop: "1.5rem" }}>
+            <h2
+              style={{
+                fontFamily: "Georgia, 'Times New Roman', serif",
+                fontSize: "1.1rem",
+                color: "#1b3a6b",
+                marginBottom: "0.75rem",
+              }}
+            >
+              Related posts
+            </h2>
+            <ul
+              style={{
+                margin: 0,
+                paddingLeft: "1.25rem",
+                color: "#6b7f96",
+              }}
+            >
+              {relatedPosts.map((relatedPost) => (
+                <li key={relatedPost.slug} style={{ marginBottom: "0.5rem" }}>
+                  <Link
+                    href={`/blog/${relatedPost.slug}`}
+                    style={{
+                      color: "#1b3a6b",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {relatedPost.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
       </div>
 
