@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "scan:webmcp": "tsx scripts/scan_webmcp_directory.ts"
+    "scan:webmcp": "tsx scripts/scan_webmcp_directory.ts",
+    "test:smoke": "node scripts/smoke-test.js"
   },
   "dependencies": {
     "@upstash/ratelimit": "^2.0.8",
