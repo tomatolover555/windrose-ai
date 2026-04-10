@@ -153,6 +153,8 @@ NON-NEGOTIABLE RULES:
 - MUST name at least 2 real tools, companies, protocols, or projects
 - Every ## heading must be specific to this post's topic (generic headings like "Why This Matters", "Background", "Introduction" are forbidden)
 - Every paragraph must contain at least one specific, verifiable claim
+- Include at least one clear, concrete example to improve understanding
+- Aim for clarity over complexity when explaining concepts
 - Do NOT start any paragraph with "In today's landscape", "As AI continues to", "It's no secret that", "Organizations are increasingly"
 
 PET PEEVES TO AVOID: ${voice.pet_peeves.join("; ")}
@@ -187,6 +189,8 @@ Review the post below. For each section:
 1. Does it sound like this specific author, or like generic AI content? Rewrite to match the voice.
 2. Does the opening contain a specific, concrete example or claim? Fix if not.
 3. Are any paragraphs generic enough to appear in any post? Replace with specifics.
+4. Improve clarity of explanations where they are harder to follow than they need to be.
+5. Keep the tone consistent, readable, and natural throughout.
 
 Output ONLY the complete improved post — start with the frontmatter (---) and include the entire file. No commentary, no preamble, no "Here is the improved post:".
 
