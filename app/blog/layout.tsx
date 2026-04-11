@@ -85,6 +85,12 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
             <Link href="/blog" style={{ color: "#1b3a6b", textDecoration: "none" }}>
               Blog
             </Link>
+            <Link
+              href="/blog/affiliate-disclosure"
+              style={{ color: "#1b3a6b", textDecoration: "none" }}
+            >
+              Affiliate Disclosure
+            </Link>
           </div>
         </div>
       </footer>
