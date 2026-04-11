@@ -17,6 +17,7 @@ Topics covered:
 
 Agent-readable blog index: https://windrose-ai.com/blog/agent.json
 Each post has a machine-readable version at /blog/[slug].md
+Each post also has a structured JSON version at /blog/[slug].json
 
 ## Agent API
 

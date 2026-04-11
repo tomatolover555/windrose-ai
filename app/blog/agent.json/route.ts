@@ -25,6 +25,8 @@ export async function GET(req: Request) {
       audience: p.audience,
       human_url: `https://windrose-ai.com${p.human_url}`,
       agent_url: `https://windrose-ai.com${p.agent_url}`,
+      markdown_url: `https://windrose-ai.com${p.agent_url}`,
+      json_url: `https://windrose-ai.com/blog/${p.slug}.json`,
     })),
   };
 

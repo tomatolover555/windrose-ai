@@ -16,6 +16,8 @@ export async function GET() {
     agent_index: "https://windrose-ai.com/blog/agent.json",
     agent_index_filtered_example: "https://windrose-ai.com/blog/agent.json?tag=autonomous-payments",
     post_format: "markdown-with-frontmatter",
+    post_markdown_url_pattern: "https://windrose-ai.com/blog/[slug].md",
+    post_json_url_pattern: "https://windrose-ai.com/blog/[slug].json",
     agent_context_block: true,
     human_base_url: "https://windrose-ai.com/blog",
     contact: "windrose-ai.com",

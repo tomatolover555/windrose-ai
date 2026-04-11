@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 export const config = {
-  matcher: ["/dashboard", "/blog/:slug*.md", "/blog/page/:path*"],
+  matcher: ["/dashboard", "/blog/:slug*.md", "/blog/:slug*.json", "/blog/page/:path*"],
 };
 
 function extractToken(req: NextRequest): string | null {
@@ -31,6 +31,16 @@ export function proxy(req: NextRequest) {
   if (mdMatch) {
     const slug = mdMatch[1];
     return NextResponse.rewrite(new URL(`/api/blog-markdown/${slug}`, req.url));
+  }
+
+  // Rewrite /blog/<slug>.json -> /api/blog-json/<slug>
+  const jsonMatch = pathname.match(/^\/blog\/(.+)\.json$/);
+  if (jsonMatch) {
+    const slug = jsonMatch[1];
+    if (slug === "agent") {
+      return NextResponse.next();
+    }
+    return NextResponse.rewrite(new URL(`/api/blog-json/${slug}`, req.url));
   }
 
   // Dashboard auth
