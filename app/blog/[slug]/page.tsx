@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPostSlugs, getPostBySlug } from "@/lib/blog";
+import { PostAffiliateDisclosure } from "@/app/blog/_components/post-affiliate-disclosure";
 
 function normalizeRelatedSlug(value: string): string {
   return value
@@ -164,6 +165,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {post.summary}
       </p>
 
+      {post.hasAffiliateLinks === true && <PostAffiliateDisclosure />}
+
       {/* Body */}
       <div className="prose prose-windrose max-w-none">
         <MDXRemote source={post.content} />
@@ -188,20 +191,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           >
             {(post.tags ?? []).join("  ·  ")}
           </div>
-        )}
-
-        {/* Affiliate disclosure */}
-        {(post.affiliate_links ?? []).length > 0 && (
-          <p
-            style={{
-              fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-              fontSize: "0.75rem",
-              color: "#6b7f96",
-              marginBottom: "1.25rem",
-            }}
-          >
-            This post contains affiliate links. Windrose may earn a commission if you purchase through them.
-          </p>
         )}
 
         {relatedPosts.length > 0 && (

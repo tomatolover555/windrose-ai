@@ -31,6 +31,11 @@ export type PostMeta = {
   audience: string[];
   reading_time_minutes: number;
   affiliate_links: AffiliateLink[];
+  postType?: string;
+  commercialIntent?: boolean;
+  eligibleModules?: string[];
+  hasAffiliateLinks?: boolean;
+  affiliatePrograms?: string[];
   human_url: string;
   agent_url: string;
   canonical: string;
@@ -75,6 +80,20 @@ export function getPostBySlug(slug: string): Post | null {
         : typeof data.updated === "string"
           ? new Date(data.updated).toISOString()
           : dateValue;
+    const affiliatePrograms = Array.isArray(data.affiliatePrograms)
+      ? data.affiliatePrograms.filter(
+          (value: unknown): value is string => typeof value === "string" && value.trim().length > 0
+        )
+      : [];
+    const postType = typeof data.postType === "string" && data.postType.trim().length > 0 ? data.postType : undefined;
+    const commercialIntent = data.commercialIntent === true;
+    const eligibleModules = Array.isArray(data.eligibleModules)
+      ? data.eligibleModules.filter(
+          (value: unknown): value is string => typeof value === "string" && value.trim().length > 0
+        )
+      : [];
+    const affiliateLinks = Array.isArray(data.affiliate_links) ? data.affiliate_links : [];
+    const hasAffiliateLinks = data.hasAffiliateLinks === true || affiliateLinks.length > 0;
 
     // Provide explicit defaults for every field so a malformed post never
     // crashes the build. Arrays default to [] and strings to "".
@@ -87,7 +106,12 @@ export function getPostBySlug(slug: string): Post | null {
       tags: Array.isArray(data.tags) ? data.tags : [],
       category: data.category ?? "general",
       audience: Array.isArray(data.audience) ? data.audience : [],
-      affiliate_links: Array.isArray(data.affiliate_links) ? data.affiliate_links : [],
+      affiliate_links: affiliateLinks,
+      postType,
+      commercialIntent,
+      eligibleModules,
+      hasAffiliateLinks,
+      affiliatePrograms,
       agent_context: data.agent_context ?? null,
       reading_time_minutes: Math.max(1, Math.ceil(rt.minutes)),
       human_url: `/blog/${slug}`,

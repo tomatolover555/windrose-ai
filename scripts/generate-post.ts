@@ -22,10 +22,33 @@ async function withRetry<T>(fn: () => Promise<T>, retries = 2): Promise<T> {
 const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const QUEUE_PATH = path.join(process.cwd(), "content/content-queue.json");
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
-const AFFILIATES_PATH = path.join(process.cwd(), "content/affiliates.json");
 const VOICE_CARD_PATH = path.join(process.cwd(), "content/voice-card.json");
 const INCIDENT_BANK_PATH = path.join(process.cwd(), "content/incident-bank.json");
 const FORMATS_DIR = path.join(process.cwd(), "content/formats");
+const ALLOWED_POST_TYPES = new Set([
+  "news",
+  "analysis",
+  "explainer",
+  "deep-dive",
+  "roundup",
+  "comparison",
+  "buyer-guide",
+  "course-guide",
+  "tools-list",
+  "implementation-guide",
+]);
+const POST_TYPE_POLICY = {
+  news: { eligibleModules: [] },
+  analysis: { eligibleModules: [] },
+  explainer: { eligibleModules: [] },
+  "deep-dive": { eligibleModules: [] },
+  roundup: { eligibleModules: ["recommended-tools", "resource-box"] },
+  comparison: { eligibleModules: ["comparison-table", "recommended-tools"] },
+  "buyer-guide": { eligibleModules: ["recommended-tools", "resource-box"] },
+  "course-guide": { eligibleModules: ["recommended-tools", "resource-box"] },
+  "tools-list": { eligibleModules: ["recommended-tools", "resource-box"] },
+  "implementation-guide": { eligibleModules: ["resource-box"] },
+} as const;
 const TOPIC_STOP_WORDS = new Set([
   "the", "and", "for", "with", "that", "this", "from", "into", "your", "about",
   "when", "what", "why", "how", "are", "have", "has", "will", "need", "needs",
@@ -72,20 +95,22 @@ type QueueItem = {
   category: string;
   audience: string[];
   priority: number;
+  postType?: string;
+  commercialIntent?: boolean;
+  monetizationIntent?: string;
+  hasAffiliateLinks?: boolean;
+  affiliatePrograms?: string[];
 };
 
-type AffiliateProgram = {
-  id: string;
-  name: string;
-  url: string;
-  context_tags: string[];
-  disclosure: string;
+type AffiliatePolicy = {
+  hasAffiliateLinks: boolean;
+  affiliatePrograms: string[];
 };
 
-type AffiliateLink = {
-  label: string;
-  url: string;
-  context: string;
+type PostTaxonomy = {
+  postType: string;
+  commercialIntent: boolean;
+  eligibleModules: string[];
 };
 
 function getExistingPosts(): string[] {
@@ -248,66 +273,127 @@ async function getTavilyStory(): Promise<{ title: string; url: string; content: 
   return results.sort((a, b) => ((b as any).score || 0) - ((a as any).score || 0))[0];
 }
 
-function normalizeForMatch(value: string): string {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+function parseBooleanFlag(name: string): boolean {
+  return process.argv.includes(`--${name}`);
 }
 
-function getRelevantAffiliateLinks(input: {
-  title: string;
-  angle: string;
-  slug: string;
-  category: string;
-  content: string;
-  affiliates: AffiliateProgram[];
-}): AffiliateLink[] {
-  const haystack = normalizeForMatch(
-    [input.title, input.angle, input.slug.replace(/-/g, " "), input.category, input.content]
-      .filter(Boolean)
-      .join(" ")
-  );
+function parseStringFlag(name: string): string | null {
+  const arg = process.argv.find((value) => value.startsWith(`--${name}=`));
+  if (!arg) return null;
+  return arg.slice(name.length + 3).trim() || null;
+}
 
-  const links: AffiliateLink[] = [];
+function parseStringListFlag(name: string): string[] {
+  const value = parseStringFlag(name);
+  if (!value) return [];
+  return value
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
 
-  for (const program of input.affiliates) {
-    const matchedTag = program.context_tags.find((tag) => {
-      const normalizedTag = normalizeForMatch(tag);
-      return normalizedTag.length > 0 && haystack.includes(normalizedTag);
-    });
+function normalizeAffiliatePrograms(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value
+    .filter((item): item is string => typeof item === "string")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
 
-    if (!matchedTag) continue;
-
-    links.push({
-      label: program.name,
-      url: program.url,
-      context: matchedTag,
-    });
+function resolveAffiliatePolicy(input: {
+  explicitAffiliate: boolean;
+  affiliatePrograms?: string[];
+}): AffiliatePolicy {
+  if (input.explicitAffiliate !== true) {
+    return { hasAffiliateLinks: false, affiliatePrograms: [] };
   }
 
-  return links;
+  return {
+    hasAffiliateLinks: true,
+    affiliatePrograms: normalizeAffiliatePrograms(input.affiliatePrograms),
+  };
 }
 
-function injectAffiliateLinks(
+function normalizePostType(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const normalized = value.trim().toLowerCase();
+  return ALLOWED_POST_TYPES.has(normalized) ? normalized : null;
+}
+
+function resolvePostTaxonomy(input: {
+  mode: string;
+  explicitPostType?: string | null;
+  queuePostType?: string;
+  explicitCommercial?: boolean;
+  queueCommercialIntent?: boolean;
+}): PostTaxonomy {
+  const defaultPostType = input.mode === "news" ? "news" : "explainer";
+  const postType =
+    normalizePostType(input.explicitPostType) ||
+    normalizePostType(input.queuePostType) ||
+    defaultPostType;
+  const policy = POST_TYPE_POLICY[postType as keyof typeof POST_TYPE_POLICY] || { eligibleModules: [] };
+
+  return {
+    postType,
+    commercialIntent: input.explicitCommercial === true || input.queueCommercialIntent === true,
+    eligibleModules: [...policy.eligibleModules],
+  };
+}
+
+function applyAffiliateMetadata(
   mdx: string,
-  input: {
-    title: string;
-    angle: string;
-    slug: string;
-    category: string;
-    affiliates: AffiliateProgram[];
-  }
+  policy: AffiliatePolicy
 ): string {
   try {
     const parsed = matter(mdx);
-    const affiliateLinks = getRelevantAffiliateLinks({
-      ...input,
-      content: parsed.content,
-      affiliates: input.affiliates,
-    });
 
-    parsed.data.affiliate_links = affiliateLinks;
+    if (!Array.isArray(parsed.data.affiliate_links)) {
+      parsed.data.affiliate_links = [];
+    }
+
+    if (policy.hasAffiliateLinks) {
+      parsed.data.hasAffiliateLinks = true;
+      if (policy.affiliatePrograms.length > 0) {
+        parsed.data.affiliatePrograms = policy.affiliatePrograms;
+      } else {
+        delete parsed.data.affiliatePrograms;
+      }
+    } else {
+      delete parsed.data.hasAffiliateLinks;
+      delete parsed.data.affiliatePrograms;
+    }
+
     return matter.stringify(parsed.content, parsed.data);
   } catch (err: any) {
-    console.warn(`  WARNING: unable to inject affiliate links: ${err.message}`);
+    console.warn(`  WARNING: unable to apply affiliate metadata: ${err.message}`);
+    return mdx;
+  }
+}
+
+function applyPostTaxonomyMetadata(
+  mdx: string,
+  taxonomy: PostTaxonomy
+): string {
+  try {
+    const parsed = matter(mdx);
+    parsed.data.postType = taxonomy.postType;
+
+    if (taxonomy.commercialIntent) {
+      parsed.data.commercialIntent = true;
+    } else {
+      delete parsed.data.commercialIntent;
+    }
+
+    if (taxonomy.eligibleModules.length > 0) {
+      parsed.data.eligibleModules = taxonomy.eligibleModules;
+    } else {
+      delete parsed.data.eligibleModules;
+    }
+
+    return matter.stringify(parsed.content, parsed.data);
+  } catch (err: any) {
+    console.warn(`  WARNING: unable to apply taxonomy metadata: ${err.message}`);
     return mdx;
   }
 }
@@ -318,11 +404,12 @@ async function generatePost(opts: {
   slug: string;
   category: string;
   audience: string[];
-  affiliates: { programs: AffiliateProgram[] };
+  affiliatePolicy: AffiliatePolicy;
+  postTaxonomy: PostTaxonomy;
   existingSlugs: string[];
   groundingContext: string;
 }): Promise<string> {
-  const { title, angle, slug, category, audience, affiliates, existingSlugs, groundingContext } = opts;
+  const { title, angle, slug, category, audience, affiliatePolicy, postTaxonomy, existingSlugs, groundingContext } = opts;
   const today = new Date().toISOString().split("T")[0];
   const existingCoverage = existingSlugs.join(", ") || "none yet";
 
@@ -337,6 +424,7 @@ Title: ${title}
 Angle: ${angle}
 ${groundingContext}
 Already covered (avoid repeating): ${existingCoverage}
+POST TYPE: ${postTaxonomy.postType}
 
 AUTHOR VOICE: ${voice.persona}
 TONE: ${voice.tone}
@@ -349,9 +437,6 @@ OPENER INSTRUCTION: ${openerStyle}. Do NOT copy any example verbatim — use you
 
 AVAILABLE EXAMPLES (use 1-2 if relevant, do NOT use all of them):
 ${incidents.map((i: string) => "- " + i).join("\n")}
-
-Available affiliate programs (only if genuinely relevant):
-${affiliates.programs.map((a: AffiliateProgram) => `- ${a.name}: ${a.context_tags.join(", ")}`).join("\n")}
 
 NON-NEGOTIABLE RULES:
 - MUST name at least 2 real tools, companies, protocols, or projects
@@ -420,19 +505,17 @@ ${mdx}`;
     return mdx;
   }
 
-  return injectAffiliateLinks(critiqued, {
-    title,
-    angle,
-    slug,
-    category,
-    affiliates: affiliates.programs,
-  });
+  return applyAffiliateMetadata(applyPostTaxonomyMetadata(critiqued, postTaxonomy), affiliatePolicy);
 }
 
 async function main() {
   const modeArg = process.argv.find(a => a.startsWith("--mode="));
   const mode = modeArg ? modeArg.split("=")[1] : "news";
   const dryRun = process.argv.includes("--dry-run");
+  const hasAffiliateLinks = parseBooleanFlag("affiliate");
+  const affiliatePrograms = parseStringListFlag("affiliate-programs");
+  const postType = parseStringFlag("post-type");
+  const commercialIntent = parseBooleanFlag("commercial");
 
   if (!["news", "evergreen"].includes(mode)) {
     console.error("Unknown mode:", mode, "(use --mode=news or --mode=evergreen)");
@@ -440,12 +523,20 @@ async function main() {
   }
 
   console.log(`Mode: ${mode}`);
+  if (hasAffiliateLinks) {
+    console.log(
+      `Affiliate metadata enabled${affiliatePrograms.length ? ` (${affiliatePrograms.join(", ")})` : ""}`
+    );
+  }
+  if (postType) {
+    console.log(`Post type override: ${postType}`);
+  }
+  if (commercialIntent) {
+    console.log("Commercial intent enabled");
+  }
 
   const existingSlugs = getExistingPosts();
   const recentPosts = loadRecentPosts(5);
-  const affiliates: { programs: AffiliateProgram[] } = JSON.parse(
-    fs.readFileSync(AFFILIATES_PATH, "utf-8")
-  );
 
   if (dryRun) {
     console.log("Dry run — skipping generation.");
@@ -504,7 +595,15 @@ Return JSON: {"title": "...", "summary": "...", "slug": "..."}`
       slug: outSlug,
       category: "news",
       audience: ["developers", "founders"],
-      affiliates,
+      affiliatePolicy: resolveAffiliatePolicy({
+        explicitAffiliate: hasAffiliateLinks,
+        affiliatePrograms,
+      }),
+      postTaxonomy: resolvePostTaxonomy({
+        mode,
+        explicitPostType: postType,
+        explicitCommercial: commercialIntent,
+      }),
       existingSlugs,
       groundingContext,
     });
@@ -531,7 +630,18 @@ Return JSON: {"title": "...", "summary": "...", "slug": "..."}`
       slug: next.slug,
       category: next.category,
       audience: next.audience,
-      affiliates,
+      affiliatePolicy: resolveAffiliatePolicy({
+        explicitAffiliate:
+          hasAffiliateLinks || next.hasAffiliateLinks === true || next.monetizationIntent === "affiliate",
+        affiliatePrograms: affiliatePrograms.length > 0 ? affiliatePrograms : next.affiliatePrograms,
+      }),
+      postTaxonomy: resolvePostTaxonomy({
+        mode,
+        explicitPostType: postType,
+        queuePostType: next.postType,
+        explicitCommercial: commercialIntent,
+        queueCommercialIntent: next.commercialIntent === true,
+      }),
       existingSlugs,
       groundingContext: "",
     });
