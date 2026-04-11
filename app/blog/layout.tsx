@@ -69,7 +69,24 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
       </main>
 
       <footer style={{ borderTop: "1px dotted #ccc8bf", marginTop: "3rem" }}>
-        <div className="max-w-[680px] mx-auto px-6 py-6" />
+        <div className="max-w-[680px] mx-auto px-6 py-6">
+          <div
+            style={{
+              fontFamily: "Georgia, 'Times New Roman', serif",
+              fontSize: "0.95rem",
+              color: "#5a5a52",
+              display: "flex",
+              gap: "0.75rem",
+              alignItems: "center",
+              flexWrap: "wrap",
+            }}
+          >
+            <span>© 2026 Windrose AI</span>
+            <Link href="/blog" style={{ color: "#1b3a6b", textDecoration: "none" }}>
+              Blog
+            </Link>
+          </div>
+        </div>
       </footer>
     </div>
   );
