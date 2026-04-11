@@ -30,6 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <meta {...({
+          name: "impact-site-verification",
+          value: "9e24e876-72a0-40ae-8f22-a1e0b7e2c7b1",
+        } as any)} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
