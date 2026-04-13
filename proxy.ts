@@ -11,9 +11,6 @@ function extractToken(req: NextRequest): string | null {
   const headerToken = req.headers.get("x-admin-token");
   if (headerToken) return headerToken.trim() || null;
 
-  const qp = req.nextUrl.searchParams.get("token");
-  if (qp) return qp.trim() || null;
-
   return null;
 }
 

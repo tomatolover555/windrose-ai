@@ -50,6 +50,21 @@ function normalizeDomain(input: string): string | null {
   }
 }
 
+function normalizeProofUrl(input: string): string | null {
+  const raw = input.trim();
+  if (!raw) return null;
+  if (raw.length > 2048) return null;
+
+  try {
+    const asUrl = raw.includes("://") ? new URL(raw) : new URL(`https://${raw}`);
+    if (asUrl.protocol !== "https:") return null;
+    if (!asUrl.hostname || !asUrl.hostname.includes(".")) return null;
+    return asUrl.toString();
+  } catch {
+    return null;
+  }
+}
+
 function getRedis(): Redis | null {
   const url = process.env.UPSTASH_REDIS_REST_URL;
   const token = process.env.UPSTASH_REDIS_REST_TOKEN;
@@ -152,7 +167,11 @@ export async function POST(req: Request) {
   const domain = normalizeDomain(domainRaw);
   if (!domain) return NextResponse.json({ error: "invalid_domain" }, { status: 400 });
 
-  const proofUrl = typeof obj?.proof_url === "string" ? obj.proof_url.trim() : undefined;
+  const proofUrlRaw = typeof obj?.proof_url === "string" ? obj.proof_url : undefined;
+  const proofUrl = proofUrlRaw ? normalizeProofUrl(proofUrlRaw) : undefined;
+  if (proofUrlRaw && !proofUrl) {
+    return NextResponse.json({ error: "invalid_proof_url" }, { status: 400 });
+  }
   const notes = typeof obj?.notes === "string" ? obj.notes.trim().slice(0, 1000) : undefined;
 
   const now = new Date().toISOString();

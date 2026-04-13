@@ -30,7 +30,7 @@ function getContext(path: string): ContextResponse | null {
         purpose:
           "Protected dashboard listing recent framework executions. Requires ADMIN_TOKEN; does not expose logs via /api/context.",
         key_actions: [
-          "If authorized, open /dashboard in a browser with token to view recent executions",
+          "If authorized, open /dashboard using an Authorization bearer header or x-admin-token header to view recent executions",
           "For programmatic usage, prefer /api/frameworks/<id> and inspect responses",
         ],
         relevant_tools: ["ping", "directory.search", "directory.webmcp", "site.audit.agent_ready"],

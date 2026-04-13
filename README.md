@@ -138,7 +138,6 @@ and the dashboard reads the last 100.
 
 `/dashboard` is protected by `ADMIN_TOKEN` using middleware:
 
-- Provide `?token=...` query param, or
 - `Authorization: Bearer ...`, or
 - `x-admin-token: ...`
 
