@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T05:56:46.409Z",
+  "updated_at": "2026-04-14T05:39:50.888Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -80,7 +80,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -88,7 +88,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-09T05:21:44.411Z",
+      "last_checked": "2026-04-14T05:33:00.012Z",
       "last_seen": "2026-04-09T05:21:44.411Z",
       "sponsored": false,
       "verification_available": true
@@ -140,6 +140,29 @@
       "verification_available": true
     },
     {
+      "domain": "00-tanium-platform-foundation.mdx",
+      "name": "00-tanium-platform-foundation.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:01.793Z",
+      "last_seen": "2026-04-14T05:33:01.793Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "00b894.svg",
       "name": "00b894.svg",
       "type": [],
@@ -163,6 +186,121 @@
       "verification_available": true
     },
     {
+      "domain": "01-asking-questions.mdx",
+      "name": "01-asking-questions.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:03.882Z",
+      "last_seen": "2026-04-14T05:33:03.882Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "02-refining-questions-targeting.mdx",
+      "name": "02-refining-questions-targeting.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:05.814Z",
+      "last_seen": "2026-04-14T05:33:05.814Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "03-taking-action-packages-actions.mdx",
+      "name": "03-taking-action-packages-actions.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:07.835Z",
+      "last_seen": "2026-04-14T05:33:07.835Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "04-navigation-basic-modules.mdx",
+      "name": "04-navigation-basic-modules.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:09.811Z",
+      "last_seen": "2026-04-14T05:33:09.811Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "05-reporting-data-export.mdx",
+      "name": "05-reporting-data-export.mdx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:11.800Z",
+      "last_seen": "2026-04-14T05:33:11.800Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "101.42.26.70:3000",
       "name": "101.42.26.70:3000",
       "type": [],
@@ -182,6 +320,29 @@
       ],
       "last_checked": "2026-03-26T05:17:23.428Z",
       "last_seen": "2026-03-01T05:03:12.519Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "127.0.0.1:3101",
+      "name": "127.0.0.1:3101",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:13.820Z",
+      "last_seen": "2026-04-14T05:33:13.820Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -2054,6 +2215,29 @@
       "verification_available": true
     },
     {
+      "domain": "2026-03-07-ml-methodology-postmortem.md",
+      "name": "2026-03-07-ml-methodology-postmortem.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:15.793Z",
+      "last_seen": "2026-04-14T05:33:15.793Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "2026-03.md",
       "name": "2026-03.md",
       "type": [],
@@ -3043,6 +3227,29 @@
       "verification_available": true
     },
     {
+      "domain": "agent-fingerprint.cjs",
+      "name": "agent-fingerprint.cjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:17.995Z",
+      "last_seen": "2026-04-14T05:33:17.995Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "agent-history.png",
       "name": "agent-history.png",
       "type": [],
@@ -3108,6 +3315,29 @@
       ],
       "last_checked": "2026-03-30T05:35:15.684Z",
       "last_seen": "2026-03-30T05:35:15.684Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-prompts.ts",
+      "name": "agent-prompts.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:19.832Z",
+      "last_seen": "2026-04-14T05:33:19.832Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3207,21 +3437,26 @@
       "domain": "agent.requestuserinteraction",
       "name": "agent.requestuserinteraction",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: victorhuangwq/webmcp-kit",
           "url": "https://github.com/victorhuangwq/webmcp-kit"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-02-25T05:07:21.310Z",
+      "last_checked": "2026-04-14T05:33:21.809Z",
       "last_seen": "2026-02-18T05:05:14.244Z",
       "sponsored": false,
       "verification_available": true
@@ -3246,6 +3481,29 @@
       ],
       "last_checked": "2026-02-17T05:04:53.822Z",
       "last_seen": "2026-02-16T05:12:41.973Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agentchat.tsx",
+      "name": "agentchat.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:23.806Z",
+      "last_seen": "2026-04-14T05:33:23.806Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3315,6 +3573,29 @@
       ],
       "last_checked": "2026-03-06T04:53:09.818Z",
       "last_seen": "2026-03-06T04:53:09.818Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agentic-web-learning-tool.git",
+      "name": "agentic-web-learning-tool.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: amedina/agentic-web-learning-tool",
+          "url": "https://github.com/amedina/agentic-web-learning-tool"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:25.809Z",
+      "last_seen": "2026-04-14T05:33:25.809Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3511,7 +3792,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-04-12T05:32:38.877Z",
+      "last_checked": "2026-04-14T05:33:28.013Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -3706,6 +3987,29 @@
       "verification_available": true
     },
     {
+      "domain": "ai-providers.json",
+      "name": "ai-providers.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:29.815Z",
+      "last_seen": "2026-04-14T05:33:29.815Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "ai.google.dev",
       "name": "ai.google.dev",
       "type": [],
@@ -3805,6 +4109,29 @@
       "verification_available": true
     },
     {
+      "domain": "ailivestatus.tsx",
+      "name": "ailivestatus.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:31.869Z",
+      "last_seen": "2026-04-14T05:33:31.869Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "airflow.apache.org",
       "name": "airflow.apache.org",
       "type": [],
@@ -3831,8 +4158,8 @@
       "domain": "aistudio.google.com",
       "name": "aistudio.google.com",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -3843,9 +4170,14 @@
           "kind": "github_hit",
           "detail": "repo: pocketpaw/pocketpaw",
           "url": "https://github.com/pocketpaw/pocketpaw"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-demo",
+          "url": "https://github.com/Jeethula/webmcp-demo"
         }
       ],
-      "last_checked": "2026-03-28T05:04:45.864Z",
+      "last_checked": "2026-04-14T05:33:33.820Z",
       "last_seen": "2026-03-24T05:07:47.598Z",
       "sponsored": false,
       "verification_available": true
@@ -3962,6 +4294,29 @@
       ],
       "last_checked": "2026-02-18T05:05:40.356Z",
       "last_seen": "2026-02-16T05:12:51.133Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "analysis-paralysis-guard.cjs",
+      "name": "analysis-paralysis-guard.cjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:35.973Z",
+      "last_seen": "2026-04-14T05:33:35.973Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4178,6 +4533,52 @@
       "verification_available": true
     },
     {
+      "domain": "anomaly-detector.cjs",
+      "name": "anomaly-detector.cjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:37.866Z",
+      "last_seen": "2026-04-14T05:33:37.866Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "anthropic-service.ts",
+      "name": "anthropic-service.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:40.004Z",
+      "last_seen": "2026-04-14T05:33:40.004Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "anthropic.com",
       "name": "anthropic.com",
       "type": [],
@@ -4239,6 +4640,29 @@
       "verification_available": true
     },
     {
+      "domain": "anthropic.ts",
+      "name": "anthropic.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:42.001Z",
+      "last_seen": "2026-04-14T05:33:42.001Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "apache.org",
       "name": "apache.org",
       "type": [],
@@ -4263,6 +4687,29 @@
       ],
       "last_checked": "2026-04-13T05:50:48.141Z",
       "last_seen": "2026-02-27T04:59:53.446Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "api-spec.md",
+      "name": "api-spec.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:43.819Z",
+      "last_seen": "2026-04-14T05:33:43.819Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4678,6 +5125,29 @@
       "verification_available": true
     },
     {
+      "domain": "app-header.tsx",
+      "name": "app-header.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:45.871Z",
+      "last_seen": "2026-04-14T05:33:45.871Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "app.element.io",
       "name": "app.element.io",
       "type": [],
@@ -4720,6 +5190,34 @@
       ],
       "last_checked": "2026-02-19T05:07:31.239Z",
       "last_seen": "2026-02-16T05:13:02.652Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "app.jsx",
+      "name": "app.jsx",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-demo",
+          "url": "https://github.com/Jeethula/webmcp-demo"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:47.956Z",
+      "last_seen": "2026-04-14T05:33:47.956Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4902,9 +5400,19 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-04-13T05:51:02.282Z",
+      "last_checked": "2026-04-14T05:33:49.960Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -4965,7 +5473,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4973,7 +5481,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-13T05:51:06.144Z",
+      "last_checked": "2026-04-14T05:33:51.868Z",
       "last_seen": "2026-02-27T05:00:07.348Z",
       "sponsored": false,
       "verification_available": true
@@ -5140,6 +5648,29 @@
       "verification_available": true
     },
     {
+      "domain": "artifact-quality-daemon-state.json",
+      "name": "artifact-quality-daemon-state.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:53.877Z",
+      "last_seen": "2026-04-14T05:33:53.877Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "artifactpersistence.ts",
       "name": "artifactpersistence.ts",
       "type": [],
@@ -5186,11 +5717,34 @@
       "verification_available": true
     },
     {
-      "domain": "ast-grep.github.io",
-      "name": "ast-grep.github.io",
+      "domain": "assessment-distribution-report.md",
+      "name": "assessment-distribution-report.md",
       "type": [],
       "confidence": 30,
       "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:55.872Z",
+      "last_seen": "2026-04-14T05:33:55.872Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ast-grep.github.io",
+      "name": "ast-grep.github.io",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -5201,9 +5755,14 @@
           "kind": "github_hit",
           "detail": "repo: simonw/research",
           "url": "https://github.com/simonw/research"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-04-06T05:35:38.884Z",
+      "last_checked": "2026-04-14T05:33:58.000Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -5551,6 +6110,29 @@
       ],
       "last_checked": "2026-02-18T05:06:28.282Z",
       "last_seen": "2026-02-17T05:06:06.838Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "authcontext.tsx",
+      "name": "authcontext.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:33:59.880Z",
+      "last_seen": "2026-04-14T05:33:59.880Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -5947,7 +6529,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 53,
+      "fail_streak": 54,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6010,7 +6592,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-04-13T05:51:19.396Z",
+      "last_checked": "2026-04-14T05:34:02.078Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -6109,6 +6691,29 @@
       ],
       "last_checked": "2026-03-06T04:54:52.991Z",
       "last_seen": "2026-03-06T04:54:52.991Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "base.tsx",
+      "name": "base.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:04.075Z",
+      "last_seen": "2026-04-14T05:34:04.075Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7128,7 +7733,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7136,7 +7741,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-04-12T05:34:10.659Z",
+      "last_checked": "2026-04-14T05:34:05.871Z",
       "last_seen": "2026-04-12T05:34:10.659Z",
       "sponsored": false,
       "verification_available": true
@@ -7398,7 +8003,7 @@
       "domain": "bun.sh",
       "name": "bun.sh",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -7415,9 +8020,14 @@
           "kind": "github_hit",
           "detail": "repo: pocketpaw/pocketpaw",
           "url": "https://github.com/pocketpaw/pocketpaw"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-06T05:36:24.048Z",
+      "last_checked": "2026-04-14T05:34:07.873Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
       "sponsored": false,
       "verification_available": true
@@ -7584,6 +8194,29 @@
       "verification_available": true
     },
     {
+      "domain": "calendarmcptools.tsx",
+      "name": "calendarmcptools.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:09.927Z",
+      "last_seen": "2026-04-14T05:34:09.927Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "call-ipc.md",
       "name": "call-ipc.md",
       "type": [],
@@ -7695,6 +8328,52 @@
       ],
       "last_checked": "2026-03-12T05:03:43.429Z",
       "last_seen": "2026-02-27T05:00:49.367Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ccusage-status.txt",
+      "name": "ccusage-status.txt",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:11.875Z",
+      "last_seen": "2026-04-14T05:34:11.875Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ccusage-statusline.cjs",
+      "name": "ccusage-statusline.cjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:13.878Z",
+      "last_seen": "2026-04-14T05:34:13.878Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7854,9 +8533,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/examples",
           "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-04-12T05:34:30.573Z",
+      "last_checked": "2026-04-14T05:34:15.878Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -7959,6 +8643,29 @@
       "verification_available": true
     },
     {
+      "domain": "chat-store.ts",
+      "name": "chat-store.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:18.116Z",
+      "last_seen": "2026-04-14T05:34:18.116Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "chat.mozilla.org",
       "name": "chat.mozilla.org",
       "type": [],
@@ -7978,6 +8685,29 @@
       ],
       "last_checked": "2026-03-28T05:06:41.844Z",
       "last_seen": "2026-03-06T04:56:18.607Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "chatsession.context",
+      "name": "chatsession.context",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:19.885Z",
+      "last_seen": "2026-04-14T05:34:19.885Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8047,6 +8777,29 @@
       ],
       "last_checked": "2026-04-13T05:51:51.662Z",
       "last_seen": "2026-03-24T05:10:09.026Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "checkpoint-taxonomy.schema.json",
+      "name": "checkpoint-taxonomy.schema.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:21.871Z",
+      "last_seen": "2026-04-14T05:34:21.871Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8226,9 +8979,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/examples",
           "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
         }
       ],
-      "last_checked": "2026-04-13T05:51:53.450Z",
+      "last_checked": "2026-04-14T05:34:23.937Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -8335,7 +9093,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 52,
+      "fail_streak": 53,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8378,8 +9136,31 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-04-13T05:51:55.369Z",
+      "last_checked": "2026-04-14T05:34:25.980Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "circuit-breaker.ts",
+      "name": "circuit-breaker.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:27.876Z",
+      "last_seen": "2026-04-14T05:34:27.876Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8697,7 +9478,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 0,
+      "fail_streak": 1,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8733,9 +9514,24 @@
           "kind": "github_hit",
           "detail": "repo: escapeboy/ai-prompts",
           "url": "https://github.com/escapeboy/ai-prompts"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
         }
       ],
-      "last_checked": "2026-04-13T05:52:03.313Z",
+      "last_checked": "2026-04-14T05:34:29.943Z",
       "last_seen": "2026-02-16T05:13:44.623Z",
       "sponsored": false,
       "verification_available": true
@@ -8859,21 +9655,26 @@
       "domain": "cli.html",
       "name": "cli.html",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: simonw/research",
           "url": "https://github.com/simonw/research"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-04-06T05:36:55.879Z",
+      "last_checked": "2026-04-14T05:34:36.364Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -9297,7 +10098,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-13T05:52:13.437Z",
+      "last_checked": "2026-04-14T05:34:37.380Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -9375,6 +10176,29 @@
       ],
       "last_checked": "2026-03-06T04:57:20.188Z",
       "last_seen": "2026-03-06T04:57:20.188Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "columns.tsx",
+      "name": "columns.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:39.394Z",
+      "last_seen": "2026-04-14T05:34:39.394Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9513,6 +10337,29 @@
       ],
       "last_checked": "2026-02-17T05:07:19.021Z",
       "last_seen": "2026-02-16T05:13:58.625Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "comprehensive-assessment-bank.json",
+      "name": "comprehensive-assessment-bank.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:41.386Z",
+      "last_seen": "2026-04-14T05:34:41.386Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9665,6 +10512,29 @@
       "verification_available": true
     },
     {
+      "domain": "consensuschat.tsx",
+      "name": "consensuschat.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:43.459Z",
+      "last_seen": "2026-04-14T05:34:43.459Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "console.anthropic.com",
       "name": "console.anthropic.com",
       "type": [],
@@ -9716,6 +10586,29 @@
       "verification_available": true
     },
     {
+      "domain": "console.error",
+      "name": "console.error",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:45.457Z",
+      "last_seen": "2026-04-14T05:34:45.457Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "console.log",
       "name": "console.log",
       "type": [],
@@ -9725,7 +10618,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9756,9 +10649,29 @@
           "kind": "github_hit",
           "detail": "repo: flekschas/mcp-web",
           "url": "https://github.com/flekschas/mcp-web"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-04-13T05:52:25.287Z",
+      "last_checked": "2026-04-14T05:34:47.388Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -9949,6 +10862,52 @@
       ],
       "last_checked": "2026-03-06T04:57:48.153Z",
       "last_seen": "2026-02-16T05:14:08.619Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "context.auth",
+      "name": "context.auth",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:49.377Z",
+      "last_seen": "2026-04-14T05:34:49.377Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "context.human",
+      "name": "context.human",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:51.391Z",
+      "last_seen": "2026-04-14T05:34:51.391Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -10191,9 +11150,19 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/examples",
           "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
         }
       ],
-      "last_checked": "2026-04-13T05:52:37.383Z",
+      "last_checked": "2026-04-14T05:34:53.400Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -10468,6 +11437,75 @@
       ],
       "last_checked": "2026-04-13T05:52:50.437Z",
       "last_seen": "2026-04-01T05:35:38.590Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "core.fsmonitor",
+      "name": "core.fsmonitor",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:55.431Z",
+      "last_seen": "2026-04-14T05:34:55.431Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "core.hookspath",
+      "name": "core.hookspath",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:57.383Z",
+      "last_seen": "2026-04-14T05:34:57.383Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "core.untrackedcache",
+      "name": "core.untrackedcache",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:34:59.394Z",
+      "last_seen": "2026-04-14T05:34:59.394Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11280,21 +12318,26 @@
       "domain": "d.ts",
       "name": "d.ts",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: jay-framework/jay",
           "url": "https://github.com/jay-framework/jay"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-02-17T05:08:24.771Z",
+      "last_checked": "2026-04-14T05:35:01.387Z",
       "last_seen": "2026-02-16T05:14:38.707Z",
       "sponsored": false,
       "verification_available": true
@@ -11309,7 +12352,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11317,7 +12360,7 @@
           "url": "https://github.com/rohitg00/devrelguide"
         }
       ],
-      "last_checked": "2026-03-01T05:08:23.824Z",
+      "last_checked": "2026-04-14T05:35:03.386Z",
       "last_seen": "2026-02-16T05:14:40.612Z",
       "sponsored": false,
       "verification_available": true
@@ -11411,6 +12454,29 @@
       ],
       "last_checked": "2026-04-13T05:52:58.307Z",
       "last_seen": "2026-03-28T05:08:40.853Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dashboardcontent.tsx",
+      "name": "dashboardcontent.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:05.391Z",
+      "last_seen": "2026-04-14T05:35:05.391Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11553,6 +12619,29 @@
       "verification_available": true
     },
     {
+      "domain": "databasecontext.tsx",
+      "name": "databasecontext.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:07.421Z",
+      "last_seen": "2026-04-14T05:35:07.421Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "datasette.io",
       "name": "datasette.io",
       "type": [],
@@ -11599,24 +12688,52 @@
       "verification_available": true
     },
     {
+      "domain": "datatable.tsx",
+      "name": "datatable.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:09.395Z",
+      "last_seen": "2026-04-14T05:35:09.395Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "date.now",
       "name": "date.now",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/npm-packages",
           "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-04-13T05:53:02.294Z",
+      "last_checked": "2026-04-14T05:35:11.397Z",
       "last_seen": "2026-02-16T05:14:42.607Z",
       "sponsored": false,
       "verification_available": true
@@ -12018,6 +13135,29 @@
       "verification_available": true
     },
     {
+      "domain": "declarative.ts",
+      "name": "declarative.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:13.407Z",
+      "last_seen": "2026-04-14T05:35:13.407Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "deepagentedittools.ts",
       "name": "deepagentedittools.ts",
       "type": [],
@@ -12083,6 +13223,29 @@
       ],
       "last_checked": "2026-03-01T05:08:39.872Z",
       "last_seen": "2026-02-16T05:14:44.631Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "definitions.ts",
+      "name": "definitions.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:15.450Z",
+      "last_seen": "2026-04-14T05:35:15.450Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12179,6 +13342,52 @@
       "verification_available": true
     },
     {
+      "domain": "dep.dosideeffect",
+      "name": "dep.dosideeffect",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:17.392Z",
+      "last_seen": "2026-04-14T05:35:17.392Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dep.dosomething",
+      "name": "dep.dosomething",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:19.395Z",
+      "last_seen": "2026-04-14T05:35:19.395Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "dependency-audit.md",
       "name": "dependency-audit.md",
       "type": [],
@@ -12251,21 +13460,26 @@
       "domain": "deployment.md",
       "name": "deployment.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: ecucondorSA/Devaltamedica-Independent",
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-02-18T05:09:15.673Z",
+      "last_checked": "2026-04-14T05:35:21.390Z",
       "last_seen": "2026-02-16T05:14:48.784Z",
       "sponsored": false,
       "verification_available": true
@@ -12510,9 +13724,19 @@
           "kind": "github_hit",
           "detail": "repo: keak-ai/webmcp-core",
           "url": "https://github.com/keak-ai/webmcp-core"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: amedina/agentic-web-learning-tool",
+          "url": "https://github.com/amedina/agentic-web-learning-tool"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-13T05:53:22.439Z",
+      "last_checked": "2026-04-14T05:35:31.381Z",
       "last_seen": "2026-02-18T05:09:33.132Z",
       "sponsored": false,
       "verification_available": true
@@ -12770,7 +13994,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-09T05:22:12.257Z",
+      "last_checked": "2026-04-14T05:35:33.068Z",
       "last_seen": "2026-04-09T05:22:12.257Z",
       "sponsored": false,
       "verification_available": true
@@ -12915,8 +14139,54 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-13T05:53:32.300Z",
+      "last_checked": "2026-04-14T05:35:34.733Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "discussion.spec.ts",
+      "name": "discussion.spec.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:36.734Z",
+      "last_seen": "2026-04-14T05:35:36.734Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "discussionchat.tsx",
+      "name": "discussionchat.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:38.712Z",
+      "last_seen": "2026-04-14T05:35:38.712Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12993,13 +14263,13 @@
       "domain": "docker-compose.yml",
       "name": "docker-compose.yml",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13010,9 +14280,14 @@
           "kind": "github_hit",
           "detail": "repo: heywood8/telegram-LeoLM-bot",
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
         }
       ],
-      "last_checked": "2026-03-01T05:08:57.860Z",
+      "last_checked": "2026-04-14T05:35:40.721Z",
       "last_seen": "2026-02-16T05:15:12.235Z",
       "sponsored": false,
       "verification_available": true
@@ -13188,7 +14463,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13196,7 +14471,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-09T05:22:16.294Z",
+      "last_checked": "2026-04-14T05:35:42.738Z",
       "last_seen": "2026-04-09T05:22:16.294Z",
       "sponsored": false,
       "verification_available": true
@@ -13215,10 +14490,10 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-04-13T05:53:38.296Z"
+          "last_success": "2026-04-14T05:35:44.793Z"
         }
       ],
-      "last_verified_success": "2026-04-13T05:53:38.296Z",
+      "last_verified_success": "2026-04-14T05:35:44.793Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -13265,10 +14540,15 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/examples",
           "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-13T05:53:38.296Z",
-      "last_seen": "2026-04-13T05:53:38.296Z",
+      "last_checked": "2026-04-14T05:35:44.793Z",
+      "last_seen": "2026-04-14T05:35:44.793Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13368,13 +14648,13 @@
       "domain": "document.getelementbyid",
       "name": "document.getelementbyid",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13385,9 +14665,14 @@
           "kind": "github_hit",
           "detail": "repo: WordPress/wordpress-playground",
           "url": "https://github.com/WordPress/wordpress-playground"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
         }
       ],
-      "last_checked": "2026-04-13T05:53:40.372Z",
+      "last_checked": "2026-04-14T05:35:46.817Z",
       "last_seen": "2026-02-16T05:15:18.203Z",
       "sponsored": false,
       "verification_available": true
@@ -13448,7 +14733,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13471,7 +14756,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-13T05:53:44.292Z",
+      "last_checked": "2026-04-14T05:35:48.717Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -13565,6 +14850,29 @@
       ],
       "last_checked": "2026-04-13T05:53:48.295Z",
       "last_seen": "2026-03-28T05:09:58.761Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "domainstatstable.tsx",
+      "name": "domainstatstable.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:50.778Z",
+      "last_seen": "2026-04-14T05:35:50.778Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13854,7 +15162,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 17,
+      "fail_streak": 18,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13862,7 +15170,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-13T05:53:52.488Z",
+      "last_checked": "2026-04-14T05:35:52.714Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -13910,6 +15218,29 @@
       ],
       "last_checked": "2026-04-13T05:53:56.340Z",
       "last_seen": "2026-02-16T05:15:32.203Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ecosystem.config.js",
+      "name": "ecosystem.config.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:54.720Z",
+      "last_seen": "2026-04-14T05:35:54.720Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14351,6 +15682,29 @@
       "verification_available": true
     },
     {
+      "domain": "end-of-turn-check.sh",
+      "name": "end-of-turn-check.sh",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:35:56.781Z",
+      "last_seen": "2026-04-14T05:35:56.781Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "enhancedclaimverification.ts",
       "name": "enhancedclaimverification.ts",
       "type": [],
@@ -14434,7 +15788,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14465,9 +15819,24 @@
           "kind": "github_hit",
           "detail": "repo: happyhj/webmcp-blackjack",
           "url": "https://github.com/happyhj/webmcp-blackjack"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-04-13T05:54:18.305Z",
+      "last_checked": "2026-04-14T05:35:58.714Z",
       "last_seen": "2026-02-16T05:15:48.263Z",
       "sponsored": false,
       "verification_available": true
@@ -14482,7 +15851,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14503,9 +15872,19 @@
           "kind": "github_hit",
           "detail": "repo: eser/aya.is",
           "url": "https://github.com/eser/aya.is"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
         }
       ],
-      "last_checked": "2026-04-13T05:54:20.294Z",
+      "last_checked": "2026-04-14T05:36:00.804Z",
       "last_seen": "2026-02-16T05:15:50.204Z",
       "sponsored": false,
       "verification_available": true
@@ -14537,22 +15916,50 @@
       "domain": "error.message",
       "name": "error.message",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: MCPCat/webmcp-react",
           "url": "https://github.com/MCPCat/webmcp-react"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-04-13T05:54:22.277Z",
+      "last_checked": "2026-04-14T05:36:02.712Z",
       "last_seen": "2026-03-28T05:10:22.740Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "error.tsx",
+      "name": "error.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:04.748Z",
+      "last_seen": "2026-04-14T05:36:04.748Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14675,21 +16082,26 @@
       "domain": "events.json",
       "name": "events.json",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: w3c/webref",
           "url": "https://github.com/w3c/webref"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-03-01T05:09:52.369Z",
+      "last_checked": "2026-04-14T05:36:06.722Z",
       "last_seen": "2026-02-19T05:10:22.397Z",
       "sponsored": false,
       "verification_available": true
@@ -14737,6 +16149,29 @@
       ],
       "last_checked": "2026-03-01T05:09:54.387Z",
       "last_seen": "2026-03-01T05:09:54.387Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "examcontext.tsx",
+      "name": "examcontext.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:08.730Z",
+      "last_seen": "2026-04-14T05:36:08.730Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14813,13 +16248,13 @@
       "domain": "example.com",
       "name": "example.com",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14835,9 +16270,14 @@
           "kind": "github_hit",
           "detail": "repo: keak-ai/webmcp-core",
           "url": "https://github.com/keak-ai/webmcp-core"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: hank199599/hank199599.github.io",
+          "url": "https://github.com/hank199599/hank199599.github.io"
         }
       ],
-      "last_checked": "2026-04-13T05:54:28.429Z",
+      "last_checked": "2026-04-14T05:36:10.720Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -14852,7 +16292,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14860,7 +16300,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-04-12T05:37:16.714Z",
+      "last_checked": "2026-04-14T05:36:12.720Z",
       "last_seen": "2026-04-12T05:37:16.714Z",
       "sponsored": false,
       "verification_available": true
@@ -14921,7 +16361,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14939,7 +16379,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-04-12T05:37:18.733Z",
+      "last_checked": "2026-04-14T05:36:14.737Z",
       "last_seen": "2026-02-16T05:15:56.213Z",
       "sponsored": false,
       "verification_available": true
@@ -15079,6 +16519,29 @@
       ],
       "last_checked": "2026-04-12T05:37:20.843Z",
       "last_seen": "2026-02-16T05:15:58.356Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "failure-taxonomy.schema.json",
+      "name": "failure-taxonomy.schema.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:17.547Z",
+      "last_seen": "2026-04-14T05:36:17.547Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -15359,6 +16822,52 @@
       "verification_available": true
     },
     {
+      "domain": "features.json",
+      "name": "features.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:18.790Z",
+      "last_seen": "2026-04-14T05:36:18.790Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "features.md",
+      "name": "features.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:20.922Z",
+      "last_seen": "2026-04-14T05:36:20.922Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "feed.json",
       "name": "feed.json",
       "type": [],
@@ -15498,6 +17007,29 @@
       ],
       "last_checked": "2026-02-18T05:11:17.070Z",
       "last_seen": "2026-02-17T05:10:56.558Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "filterbuilder.tsx",
+      "name": "filterbuilder.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:22.724Z",
+      "last_seen": "2026-04-14T05:36:22.724Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -15659,6 +17191,52 @@
       ],
       "last_checked": "2026-02-18T05:11:23.263Z",
       "last_seen": "2026-02-16T05:16:08.639Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "floodsafe-mvp.git",
+      "name": "floodsafe-mvp.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:24.783Z",
+      "last_seen": "2026-04-14T05:36:24.783Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "floodsafe.live",
+      "name": "floodsafe.live",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:26.798Z",
+      "last_seen": "2026-04-14T05:36:26.798Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -15916,6 +17494,29 @@
       "verification_available": true
     },
     {
+      "domain": "framework-upgrade-plan-2026-03-17.md",
+      "name": "framework-upgrade-plan-2026-03-17.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:28.734Z",
+      "last_seen": "2026-04-14T05:36:28.734Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "from-local-system.html",
       "name": "from-local-system.html",
       "type": [],
@@ -16100,6 +17701,29 @@
       "verification_available": true
     },
     {
+      "domain": "get.scoop.sh",
+      "name": "get.scoop.sh",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:30.845Z",
+      "last_seen": "2026-04-14T05:36:30.845Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "getting-started.md",
       "name": "getting-started.md",
       "type": [],
@@ -16172,7 +17796,7 @@
       "domain": "git-scm.com",
       "name": "git-scm.com",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -16194,9 +17818,14 @@
           "kind": "github_hit",
           "detail": "repo: eser/aya.is",
           "url": "https://github.com/eser/aya.is"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
         }
       ],
-      "last_checked": "2026-04-13T05:54:54.288Z",
+      "last_checked": "2026-04-14T05:36:32.713Z",
       "last_seen": "2026-02-21T04:54:45.623Z",
       "sponsored": false,
       "verification_available": true
@@ -16363,6 +17992,29 @@
       "verification_available": true
     },
     {
+      "domain": "global-error.tsx",
+      "name": "global-error.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:34.714Z",
+      "last_seen": "2026-04-14T05:36:34.714Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "global-guide.md",
       "name": "global-guide.md",
       "type": [],
@@ -16372,7 +18024,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16380,7 +18032,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-13T05:54:56.286Z",
+      "last_checked": "2026-04-14T05:36:36.717Z",
       "last_seen": "2026-02-16T05:16:18.353Z",
       "sponsored": false,
       "verification_available": true
@@ -16509,7 +18161,7 @@
       "domain": "google.com",
       "name": "google.com",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -16526,9 +18178,14 @@
           "kind": "github_hit",
           "detail": "repo: Doriandarko/webmcp-starter",
           "url": "https://github.com/Doriandarko/webmcp-starter"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-04-13T05:55:02.329Z",
+      "last_checked": "2026-04-14T05:36:38.846Z",
       "last_seen": "2026-02-16T05:16:22.749Z",
       "sponsored": false,
       "verification_available": true
@@ -16622,6 +18279,29 @@
       ],
       "last_checked": "2026-02-18T05:11:43.147Z",
       "last_seen": "2026-02-18T05:11:43.147Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "grzeti.ch",
+      "name": "grzeti.ch",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: grzetich/webmcp-kanban",
+          "url": "https://github.com/grzetich/webmcp-kanban"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:40.762Z",
+      "last_seen": "2026-04-14T05:36:40.762Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -16764,6 +18444,29 @@
       "verification_available": true
     },
     {
+      "domain": "heartbeat-active.json",
+      "name": "heartbeat-active.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:42.729Z",
+      "last_seen": "2026-04-14T05:36:42.729Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "hero.tsx",
       "name": "hero.tsx",
       "type": [],
@@ -16842,7 +18545,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16850,7 +18553,7 @@
           "url": "https://github.com/rohitg00/devrelguide"
         }
       ],
-      "last_checked": "2026-02-22T05:06:55.026Z",
+      "last_checked": "2026-04-14T05:36:44.802Z",
       "last_seen": "2026-02-16T05:16:38.642Z",
       "sponsored": false,
       "verification_available": true
@@ -17009,6 +18712,75 @@
       "verification_available": true
     },
     {
+      "domain": "human-in-the-loop.ts",
+      "name": "human-in-the-loop.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:46.720Z",
+      "last_seen": "2026-04-14T05:36:46.720Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "husky.sh",
+      "name": "husky.sh",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:48.798Z",
+      "last_seen": "2026-04-14T05:36:48.798Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "hybrid-lazy-indexer.cjs",
+      "name": "hybrid-lazy-indexer.cjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:50.946Z",
+      "last_seen": "2026-04-14T05:36:50.946Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "i18n.md",
       "name": "i18n.md",
       "type": [],
@@ -17114,10 +18886,10 @@
         {
           "type": "well_known",
           "url": "https://img.shields.io/.well-known/mcp.json",
-          "last_success": "2026-04-13T05:55:16.434Z"
+          "last_success": "2026-04-14T05:36:52.716Z"
         }
       ],
-      "last_verified_success": "2026-04-13T05:55:16.434Z",
+      "last_verified_success": "2026-04-14T05:36:52.716Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -17259,10 +19031,61 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/examples",
           "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
         }
       ],
-      "last_checked": "2026-04-13T05:55:16.434Z",
-      "last_seen": "2026-04-13T05:55:16.434Z",
+      "last_checked": "2026-04-14T05:36:52.716Z",
+      "last_seen": "2026-04-14T05:36:52.716Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "imperative.ts",
+      "name": "imperative.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:54.749Z",
+      "last_seen": "2026-04-14T05:36:54.749Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "import.meta.env",
+      "name": "import.meta.env",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
+        }
+      ],
+      "last_checked": "2026-04-14T05:36:56.748Z",
+      "last_seen": "2026-04-14T05:36:56.748Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -17362,7 +19185,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17375,7 +19198,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-04-13T05:55:22.284Z",
+      "last_checked": "2026-04-14T05:36:58.723Z",
       "last_seen": "2026-04-03T05:23:32.245Z",
       "sponsored": false,
       "verification_available": true
@@ -17384,13 +19207,13 @@
       "domain": "index.js",
       "name": "index.js",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17406,9 +19229,14 @@
           "kind": "github_hit",
           "detail": "repo: WordPress/wordpress-playground",
           "url": "https://github.com/WordPress/wordpress-playground"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
         }
       ],
-      "last_checked": "2026-04-13T05:55:24.303Z",
+      "last_checked": "2026-04-14T05:37:00.804Z",
       "last_seen": "2026-02-16T05:16:54.201Z",
       "sponsored": false,
       "verification_available": true
@@ -17440,22 +19268,55 @@
       "domain": "index.ts",
       "name": "index.ts",
       "type": [],
-      "confidence": 30,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: iodigital-com/io-technology",
           "url": "https://github.com/iodigital-com/io-technology"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-02-20T05:06:23.251Z",
+      "last_checked": "2026-04-14T05:37:02.748Z",
       "last_seen": "2026-02-16T05:16:56.304Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "individualchat.tsx",
+      "name": "individualchat.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:04.929Z",
+      "last_seen": "2026-04-14T05:37:04.929Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -17645,6 +19506,29 @@
       ],
       "last_checked": "2026-02-19T05:11:18.526Z",
       "last_seen": "2026-02-19T05:11:18.526Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "interfaces.ts",
+      "name": "interfaces.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:06.729Z",
+      "last_seen": "2026-04-14T05:37:06.729Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18089,13 +19973,13 @@
       "domain": "json.stringify",
       "name": "json.stringify",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18111,10 +19995,43 @@
           "kind": "github_hit",
           "detail": "repo: flekschas/mcp-web",
           "url": "https://github.com/flekschas/mcp-web"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-04-13T05:55:50.310Z",
+      "last_checked": "2026-04-14T05:37:08.746Z",
       "last_seen": "2026-02-16T05:17:12.752Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "junegunn.github.io",
+      "name": "junegunn.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:10.731Z",
+      "last_seen": "2026-04-14T05:37:10.731Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18138,6 +20055,52 @@
       ],
       "last_checked": "2026-04-02T05:21:15.048Z",
       "last_seen": "2026-03-31T05:27:18.507Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "kanban-board-rules.md",
+      "name": "kanban-board-rules.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:12.737Z",
+      "last_seen": "2026-04-14T05:37:12.737Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "kanban-usage.md",
+      "name": "kanban-usage.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:14.854Z",
+      "last_seen": "2026-04-14T05:37:14.854Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18258,6 +20221,29 @@
       ],
       "last_checked": "2026-04-13T05:55:58.332Z",
       "last_seen": "2026-04-01T05:39:12.617Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "landingpage.tsx",
+      "name": "landingpage.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:16.857Z",
+      "last_seen": "2026-04-14T05:37:16.857Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18403,21 +20389,31 @@
       "domain": "layout.tsx",
       "name": "layout.tsx",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 90,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/big-calendar",
           "url": "https://github.com/WebMCP-org/big-calendar"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-04-09T05:22:36.391Z",
+      "last_checked": "2026-04-14T05:37:18.935Z",
       "last_seen": "2026-04-09T05:22:36.391Z",
       "sponsored": false,
       "verification_available": true
@@ -18442,6 +20438,121 @@
       ],
       "last_checked": "2026-02-16T05:17:14.677Z",
       "last_seen": "2026-02-16T05:17:14.677Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "learningdashboard.tsx",
+      "name": "learningdashboard.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:20.728Z",
+      "last_seen": "2026-04-14T05:37:20.728Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "learnings.md",
+      "name": "learnings.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:22.741Z",
+      "last_seen": "2026-04-14T05:37:22.741Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "legit-calendar-context.tsx",
+      "name": "legit-calendar-context.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:24.733Z",
+      "last_seen": "2026-04-14T05:37:24.733Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "legit.readstate",
+      "name": "legit.readstate",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:26.736Z",
+      "last_seen": "2026-04-14T05:37:26.736Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "legit.writestate",
+      "name": "legit.writestate",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:28.733Z",
+      "last_seen": "2026-04-14T05:37:28.733Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18501,7 +20612,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18522,9 +20633,19 @@
           "kind": "github_hit",
           "detail": "repo: majiayu000/claude-skill-registry",
           "url": "https://github.com/majiayu000/claude-skill-registry"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-04-13T05:56:14.315Z",
+      "last_checked": "2026-04-14T05:37:30.821Z",
       "last_seen": "2026-02-16T05:17:18.656Z",
       "sponsored": false,
       "verification_available": true
@@ -18539,7 +20660,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18552,7 +20673,7 @@
           "url": "https://github.com/teaguesterling/duckdb_mcp"
         }
       ],
-      "last_checked": "2026-04-13T05:56:16.315Z",
+      "last_checked": "2026-04-14T05:37:32.810Z",
       "last_seen": "2026-02-16T05:17:20.673Z",
       "sponsored": false,
       "verification_available": true
@@ -18743,7 +20864,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18761,7 +20882,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-13T05:56:24.382Z",
+      "last_checked": "2026-04-14T05:37:34.812Z",
       "last_seen": "2026-02-16T05:17:32.838Z",
       "sponsored": false,
       "verification_available": true
@@ -18862,13 +20983,13 @@
       "domain": "localhost:3000",
       "name": "localhost:3000",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18879,9 +21000,14 @@
           "kind": "github_hit",
           "detail": "repo: ecucondorSA/Devaltamedica-Independent",
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
         }
       ],
-      "last_checked": "2026-02-16T05:17:36.831Z",
+      "last_checked": "2026-04-14T05:37:36.731Z",
       "last_seen": "2026-02-16T05:17:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -19038,6 +21164,34 @@
       "domain": "localhost:5173",
       "name": "localhost:5173",
       "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/mcp-ui-webmcp",
+          "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:38.718Z",
+      "last_seen": "2026-04-09T05:22:44.260Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:5174",
+      "name": "localhost:5174",
+      "type": [],
       "confidence": 30,
       "status": "unverified",
       "verification_status": "unverified",
@@ -19048,12 +21202,81 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: WebMCP-org/mcp-ui-webmcp",
-          "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+          "detail": "repo: grzetich/webmcp-kanban",
+          "url": "https://github.com/grzetich/webmcp-kanban"
         }
       ],
-      "last_checked": "2026-04-09T05:22:44.260Z",
-      "last_seen": "2026-04-09T05:22:44.260Z",
+      "last_checked": "2026-04-14T05:37:40.718Z",
+      "last_seen": "2026-04-14T05:37:40.718Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:5175",
+      "name": "localhost:5175",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:42.721Z",
+      "last_seen": "2026-04-14T05:37:42.721Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:6200",
+      "name": "localhost:6200",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:44.720Z",
+      "last_seen": "2026-04-14T05:37:44.720Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:6260",
+      "name": "localhost:6260",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:46.721Z",
+      "last_seen": "2026-04-14T05:37:46.721Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19061,13 +21284,13 @@
       "domain": "localhost:8000",
       "name": "localhost:8000",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19083,9 +21306,14 @@
           "kind": "github_hit",
           "detail": "repo: majiayu000/claude-skill-registry",
           "url": "https://github.com/majiayu000/claude-skill-registry"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
         }
       ],
-      "last_checked": "2026-04-13T05:56:34.292Z",
+      "last_checked": "2026-04-14T05:37:48.721Z",
       "last_seen": "2026-02-16T05:17:50.823Z",
       "sponsored": false,
       "verification_available": true
@@ -19202,6 +21430,29 @@
       ],
       "last_checked": "2026-04-13T05:56:42.291Z",
       "last_seen": "2026-04-10T05:40:54.829Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localstorage.removeitem",
+      "name": "localstorage.removeitem",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:50.723Z",
+      "last_seen": "2026-04-14T05:37:50.723Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19326,6 +21577,29 @@
       "verification_available": true
     },
     {
+      "domain": "loom.com",
+      "name": "loom.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:52.764Z",
+      "last_seen": "2026-04-14T05:37:52.764Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "loop-monitor.md",
       "name": "loop-monitor.md",
       "type": [],
@@ -19441,6 +21715,29 @@
       "verification_available": true
     },
     {
+      "domain": "main-layout.tsx",
+      "name": "main-layout.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:54.798Z",
+      "last_seen": "2026-04-14T05:37:54.798Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "main.cjs",
       "name": "main.cjs",
       "type": [],
@@ -19487,6 +21784,52 @@
       "verification_available": true
     },
     {
+      "domain": "mandatory-ai-collaboration-rules.md",
+      "name": "mandatory-ai-collaboration-rules.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:56.739Z",
+      "last_seen": "2026-04-14T05:37:56.739Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mandatory-nco-master-rules.md",
+      "name": "mandatory-nco-master-rules.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:37:58.881Z",
+      "last_seen": "2026-04-14T05:37:58.881Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "manifest.json",
       "name": "manifest.json",
       "type": [],
@@ -19513,21 +21856,26 @@
       "domain": "mcp-b-logo.png",
       "name": "mcp-b-logo.png",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-04-09T05:22:50.255Z",
+      "last_checked": "2026-04-14T05:38:01.030Z",
       "last_seen": "2026-04-09T05:22:50.255Z",
       "sponsored": false,
       "verification_available": true
@@ -19546,10 +21894,10 @@
         {
           "type": "homepage",
           "url": "https://mcp-b.ai/",
-          "last_success": "2026-04-09T05:22:52.350Z"
+          "last_success": "2026-04-14T05:38:02.764Z"
         }
       ],
-      "last_verified_success": "2026-04-09T05:22:52.350Z",
+      "last_verified_success": "2026-04-14T05:38:02.764Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -19571,10 +21919,20 @@
           "kind": "github_hit",
           "detail": "repo: MiguelsPizza/MiguelsPizza",
           "url": "https://github.com/MiguelsPizza/MiguelsPizza"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-04-09T05:22:52.350Z",
-      "last_seen": "2026-04-09T05:22:52.350Z",
+      "last_checked": "2026-04-14T05:38:02.764Z",
+      "last_seen": "2026-04-14T05:38:02.764Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19598,6 +21956,29 @@
       ],
       "last_checked": "2026-02-16T05:18:07.615Z",
       "last_seen": "2026-02-16T05:18:07.615Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp-tools.ts",
+      "name": "mcp-tools.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:04.742Z",
+      "last_seen": "2026-04-14T05:38:04.742Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19628,6 +22009,29 @@
       ],
       "last_checked": "2026-04-09T05:22:54.261Z",
       "last_seen": "2026-04-09T05:22:54.261Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.json",
+      "name": "mcp.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:06.941Z",
+      "last_seen": "2026-04-14T05:38:06.941Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19664,9 +22068,9 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [],
-      "last_checked": "2026-04-09T05:22:56.365Z",
+      "last_checked": "2026-04-14T05:38:08.739Z",
       "last_seen": "2026-02-15T06:22:21.111Z",
       "sponsored": false,
       "verification_available": true
@@ -19714,6 +22118,75 @@
       ],
       "last_checked": "2026-02-16T05:18:12.862Z",
       "last_seen": "2026-02-16T05:18:12.862Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "medium.com",
+      "name": "medium.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:10.764Z",
+      "last_seen": "2026-04-14T05:38:10.764Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "memory-ci.yml",
+      "name": "memory-ci.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:12.748Z",
+      "last_seen": "2026-04-14T05:38:12.748Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "memory-mvp-gate.yml",
+      "name": "memory-mvp-gate.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:14.738Z",
+      "last_seen": "2026-04-14T05:38:14.738Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19781,8 +22254,31 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-09T05:23:00.280Z",
+      "last_checked": "2026-04-14T05:38:16.739Z",
       "last_seen": "2026-04-09T05:23:00.280Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "model-selection-guidelines.md",
+      "name": "model-selection-guidelines.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:18.807Z",
+      "last_seen": "2026-04-14T05:38:18.807Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19790,7 +22286,7 @@
       "domain": "modelcontextprotocol.io",
       "name": "modelcontextprotocol.io",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -19812,10 +22308,53 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: amedina/agentic-web-learning-tool",
+          "url": "https://github.com/amedina/agentic-web-learning-tool"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-demo",
+          "url": "https://github.com/Jeethula/webmcp-demo"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-04-09T05:23:02.395Z",
+      "last_checked": "2026-04-14T05:38:20.872Z",
       "last_seen": "2026-02-16T05:18:18.927Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "modulevideos.tsx",
+      "name": "modulevideos.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:22.901Z",
+      "last_seen": "2026-04-14T05:38:22.901Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19843,6 +22382,52 @@
       "verification_available": true
     },
     {
+      "domain": "montes.makes",
+      "name": "montes.makes",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:24.743Z",
+      "last_seen": "2026-04-14T05:38:24.743Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "must-haves.schema.json",
+      "name": "must-haves.schema.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:26.953Z",
+      "last_seen": "2026-04-14T05:38:26.953Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "named-counter.jay",
       "name": "named-counter.jay",
       "type": [],
@@ -19866,16 +22451,39 @@
       "verification_available": true
     },
     {
-      "domain": "navigator.modelcontext",
-      "name": "navigator.modelcontext",
+      "domain": "naturallanguageinput.tsx",
+      "name": "naturallanguageinput.tsx",
       "type": [],
-      "confidence": 100,
-      "status": "likely",
+      "confidence": 30,
+      "status": "unverified",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:28.749Z",
+      "last_seen": "2026-04-14T05:38:28.749Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontext",
+      "name": "navigator.modelcontext",
+      "type": [],
+      "confidence": 100,
+      "status": "dead",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19911,10 +22519,91 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/docs",
           "url": "https://github.com/WebMCP-org/docs"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: amedina/agentic-web-learning-tool",
+          "url": "https://github.com/amedina/agentic-web-learning-tool"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: grzetich/webmcp-kanban",
+          "url": "https://github.com/grzetich/webmcp-kanban"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-04-09T05:23:04.542Z",
+      "last_checked": "2026-04-14T05:38:30.782Z",
       "last_seen": "2026-02-16T05:18:27.806Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontext.calltool",
+      "name": "navigator.modelcontext.calltool",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:32.758Z",
+      "last_seen": "2026-04-14T05:38:32.758Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontext.listtools",
+      "name": "navigator.modelcontext.listtools",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:34.749Z",
+      "last_seen": "2026-04-14T05:38:34.749Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19922,13 +22611,13 @@
       "domain": "navigator.modelcontext.registertool",
       "name": "navigator.modelcontext.registertool",
       "type": [],
-      "confidence": 60,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19939,9 +22628,19 @@
           "kind": "github_hit",
           "detail": "repo: tech-sumit/react-webmcp",
           "url": "https://github.com/tech-sumit/react-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-02-16T05:18:29.800Z",
+      "last_checked": "2026-04-14T05:38:36.834Z",
       "last_seen": "2026-02-16T05:18:29.800Z",
       "sponsored": false,
       "verification_available": true
@@ -19970,16 +22669,108 @@
       "verification_available": true
     },
     {
-      "domain": "next.js",
-      "name": "next.js",
+      "domain": "nco-client.ts",
+      "name": "nco-client.ts",
       "type": [],
-      "confidence": 100,
-      "status": "likely",
+      "confidence": 30,
+      "status": "unverified",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:38.760Z",
+      "last_seen": "2026-04-14T05:38:38.760Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "nco-websocket.ts",
+      "name": "nco-websocket.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:40.813Z",
+      "last_seen": "2026-04-14T05:38:40.813Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "next.config.js",
+      "name": "next.config.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:42.786Z",
+      "last_seen": "2026-04-14T05:38:42.786Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "next.config.mjs",
+      "name": "next.config.mjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:44.836Z",
+      "last_seen": "2026-04-14T05:38:44.836Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "next.js",
+      "name": "next.js",
+      "type": [],
+      "confidence": 100,
+      "status": "dead",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20010,9 +22801,34 @@
           "kind": "github_hit",
           "detail": "repo: zylos-ai/zylos-timeline",
           "url": "https://github.com/zylos-ai/zylos-timeline"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cristiantx/next-webmcp",
+          "url": "https://github.com/cristiantx/next-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: hank199599/hank199599.github.io",
+          "url": "https://github.com/hank199599/hank199599.github.io"
         }
       ],
-      "last_checked": "2026-04-09T05:23:06.280Z",
+      "last_checked": "2026-04-14T05:38:46.946Z",
       "last_seen": "2026-02-16T05:18:33.884Z",
       "sponsored": false,
       "verification_available": true
@@ -20073,12 +22889,12 @@
       "name": "node.js",
       "type": [],
       "confidence": 100,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20104,9 +22920,64 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: amedina/agentic-web-learning-tool",
+          "url": "https://github.com/amedina/agentic-web-learning-tool"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-demo",
+          "url": "https://github.com/Jeethula/webmcp-demo"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-04-09T05:23:12.259Z",
+      "last_checked": "2026-04-14T05:38:48.766Z",
       "last_seen": "2026-02-16T05:18:37.827Z",
       "sponsored": false,
       "verification_available": true
@@ -20115,7 +22986,7 @@
       "domain": "nodejs.org",
       "name": "nodejs.org",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -20137,10 +23008,53 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
+          "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Jeethula/webmcp-demo",
+          "url": "https://github.com/Jeethula/webmcp-demo"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-09T05:23:14.288Z",
+      "last_checked": "2026-04-14T05:38:50.786Z",
       "last_seen": "2026-02-16T05:18:39.884Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "not-found.tsx",
+      "name": "not-found.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:52.842Z",
+      "last_seen": "2026-04-14T05:38:52.842Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20154,7 +23068,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20162,7 +23076,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-16T05:18:41.920Z",
+      "last_checked": "2026-04-14T05:38:54.762Z",
       "last_seen": "2026-02-16T05:18:41.920Z",
       "sponsored": false,
       "verification_available": true
@@ -20172,12 +23086,12 @@
       "name": "npmjs.com",
       "type": [],
       "confidence": 100,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20198,10 +23112,43 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/examples",
+          "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: grzetich/webmcp-kanban",
+          "url": "https://github.com/grzetich/webmcp-kanban"
         }
       ],
-      "last_checked": "2026-04-09T05:23:16.425Z",
+      "last_checked": "2026-04-14T05:38:56.745Z",
       "last_seen": "2026-02-16T05:18:43.882Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "observations.jsonl",
+      "name": "observations.jsonl",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:38:58.791Z",
+      "last_seen": "2026-04-14T05:38:58.791Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20269,7 +23216,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-02-16T05:18:49.799Z",
+      "last_checked": "2026-04-14T05:39:00.747Z",
       "last_seen": "2026-02-16T05:18:49.799Z",
       "sponsored": false,
       "verification_available": true
@@ -20298,6 +23245,29 @@
       "verification_available": true
     },
     {
+      "domain": "orm.drizzle.team",
+      "name": "orm.drizzle.team",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:02.839Z",
+      "last_seen": "2026-04-14T05:39:02.839Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "overview.html",
       "name": "overview.html",
       "type": [],
@@ -20321,8 +23291,8 @@
       "verification_available": true
     },
     {
-      "domain": "package-lock.json",
-      "name": "package-lock.json",
+      "domain": "owner.md",
+      "name": "owner.md",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -20334,11 +23304,39 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
-          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+          "detail": "repo: Jeethula/webmcp-chat",
+          "url": "https://github.com/Jeethula/webmcp-chat"
         }
       ],
-      "last_checked": "2026-02-16T05:18:56.099Z",
+      "last_checked": "2026-04-14T05:39:04.890Z",
+      "last_seen": "2026-04-14T05:39:04.890Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "package-lock.json",
+      "name": "package-lock.json",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ecucondorSA/Devaltamedica-Independent",
+          "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:06.946Z",
       "last_seen": "2026-02-16T05:18:56.099Z",
       "sponsored": false,
       "verification_available": true
@@ -20347,13 +23345,13 @@
       "domain": "package.json",
       "name": "package.json",
       "type": [],
-      "confidence": 60,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20364,9 +23362,29 @@
           "kind": "github_hit",
           "detail": "repo: ecucondorSA/Devaltamedica-Independent",
           "url": "https://github.com/ecucondorSA/Devaltamedica-Independent"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MasterKN48/webmcpTodoList",
+          "url": "https://github.com/MasterKN48/webmcpTodoList"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
         }
       ],
-      "last_checked": "2026-02-16T05:18:58.030Z",
+      "last_checked": "2026-04-14T05:39:08.816Z",
       "last_seen": "2026-02-16T05:18:58.030Z",
       "sponsored": false,
       "verification_available": true
@@ -20395,6 +23413,52 @@
       "verification_available": true
     },
     {
+      "domain": "page.tsx",
+      "name": "page.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:10.874Z",
+      "last_seen": "2026-04-14T05:39:10.874Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "parallelchat.tsx",
+      "name": "parallelchat.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:12.922Z",
+      "last_seen": "2026-04-14T05:39:12.922Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "parelon.it",
       "name": "parelon.it",
       "type": [],
@@ -20414,6 +23478,121 @@
       ],
       "last_checked": "2026-02-16T05:19:02.013Z",
       "last_seen": "2026-02-16T05:19:02.013Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "pattern-detector.ts",
+      "name": "pattern-detector.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:14.877Z",
+      "last_seen": "2026-04-14T05:39:14.877Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "pattern-syntax.html",
+      "name": "pattern-syntax.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:16.913Z",
+      "last_seen": "2026-04-14T05:39:16.913Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "pglite.dev",
+      "name": "pglite.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:18.844Z",
+      "last_seen": "2026-04-14T05:39:18.844Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "plan-board-rules.md",
+      "name": "plan-board-rules.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:20.807Z",
+      "last_seen": "2026-04-14T05:39:20.807Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "plan-usage.md",
+      "name": "plan-usage.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:22.939Z",
+      "last_seen": "2026-04-14T05:39:22.939Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20487,6 +23666,52 @@
       "verification_available": true
     },
     {
+      "domain": "preview.summary.eventsadded",
+      "name": "preview.summary.eventsadded",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Legit-Control/webMCP-exploration",
+          "url": "https://github.com/Legit-Control/webMCP-exploration"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:24.936Z",
+      "last_seen": "2026-04-14T05:39:24.936Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "process.env",
+      "name": "process.env",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:26.815Z",
+      "last_seen": "2026-04-14T05:39:26.815Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "prod.vars",
       "name": "prod.vars",
       "type": [],
@@ -20506,6 +23731,259 @@
       ],
       "last_checked": "2026-04-09T05:23:24.273Z",
       "last_seen": "2026-04-09T05:23:24.273Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "progresscontext.tsx",
+      "name": "progresscontext.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:28.812Z",
+      "last_seen": "2026-04-14T05:39:28.812Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "project-context.md",
+      "name": "project-context.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: oimiragieo/agent-studio",
+          "url": "https://github.com/oimiragieo/agent-studio"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:30.833Z",
+      "last_seen": "2026-04-14T05:39:30.833Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "public.questions",
+      "name": "public.questions",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:32.942Z",
+      "last_seen": "2026-04-14T05:39:32.942Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "pwa-512x512.png",
+      "name": "pwa-512x512.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aniru888/floodsafe-mvp",
+          "url": "https://github.com/aniru888/floodsafe-mvp"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:34.844Z",
+      "last_seen": "2026-04-14T05:39:34.844Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "qnwcwoutgarhqxlgsjzs.supabase.co",
+      "name": "qnwcwoutgarhqxlgsjzs.supabase.co",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:36.896Z",
+      "last_seen": "2026-04-14T05:39:36.896Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "querypreview.tsx",
+      "name": "querypreview.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:38.813Z",
+      "last_seen": "2026-04-14T05:39:38.813Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "questionbuilder.tsx",
+      "name": "questionbuilder.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:40.819Z",
+      "last_seen": "2026-04-14T05:39:40.819Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "questionscontext.tsx",
+      "name": "questionscontext.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:42.815Z",
+      "last_seen": "2026-04-14T05:39:42.815Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ratelimitanalytics.tsx",
+      "name": "ratelimitanalytics.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: soh963/NCO-Dashboard",
+          "url": "https://github.com/soh963/NCO-Dashboard"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:44.908Z",
+      "last_seen": "2026-04-14T05:39:44.908Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "react-19-blue.svg",
+      "name": "react-19-blue.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-sh",
+          "url": "https://github.com/WebMCP-org/webmcp-sh"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:46.897Z",
+      "last_seen": "2026-04-14T05:39:46.897Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "react-hook.tsx",
+      "name": "react-hook.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: mandelbro/webmcp-react-task-manager",
+          "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        }
+      ],
+      "last_checked": "2026-04-14T05:39:48.825Z",
+      "last_seen": "2026-04-14T05:39:48.825Z",
       "sponsored": false,
       "verification_available": true
     },
