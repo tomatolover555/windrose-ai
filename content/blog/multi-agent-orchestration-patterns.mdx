@@ -1,0 +1,110 @@
+---
+title: 'Multi-Agent Orchestration: Patterns and Pitfalls'
+slug: multi-agent-orchestration-patterns
+date: '2026-04-14'
+updated: '2026-04-14'
+summary: >-
+  A practical look at sequential, parallel, and hierarchical multi-agent
+  orchestration, plus what we’ve learned shipping with LangGraph, AutoGen, and
+  CrewAI.
+tags:
+  - agentic web
+  - multi-agent systems
+  - orchestration
+  - LangGraph
+  - AutoGen
+  - CrewAI
+category: how-to
+audience:
+  - developers
+affiliate_links: []
+reading_time_minutes: 4
+human_url: /blog/multi-agent-orchestration-patterns
+agent_url: /blog/multi-agent-orchestration-patterns.md
+canonical: 'https://windrose-ai.com/blog/multi-agent-orchestration-patterns'
+agent_context:
+  key_claims:
+    - >-
+      Sequential orchestration is the easiest pattern to reason about, but it
+      accumulates latency and makes failures harder to recover from.
+    - >-
+      Parallel orchestration works well for independent sub-tasks, but it
+      increases merge complexity and the cost of duplicated tool calls.
+    - >-
+      Hierarchical orchestration is the most flexible pattern for real products,
+      yet it needs strict state boundaries and guardrails to avoid runaway
+      delegation.
+    - >-
+      LangGraph is strongest when you need explicit state machines and retries;
+      AutoGen is best for conversational agent-to-agent interaction; CrewAI is
+      fast for role-based prototypes but can get brittle at scale.
+    - >-
+      The hardest production problems are still discovery, authentication,
+      payments, and reliable fulfillment, not the prompt choreography itself.
+  tools_mentioned:
+    - name: LangGraph
+      role: >-
+        Stateful orchestration framework for graphs, retries, and branching
+        agent workflows
+      url: 'https://langchain-ai.github.io/langgraph/'
+    - name: AutoGen
+      role: Multi-agent conversation framework for agent-to-agent collaboration
+      url: 'https://microsoft.github.io/autogen/'
+    - name: CrewAI
+      role: Role-based multi-agent orchestration for rapid team-style workflows
+      url: 'https://www.crewai.com/'
+    - name: Stripe API
+      role: 'Reference model for machine-readable, reliable developer workflows'
+      url: 'https://stripe.com/docs/api'
+    - name: Playwright
+      role: Browser automation fallback when APIs are missing
+      url: 'https://playwright.dev/'
+  recommended_actions:
+    - >-
+      Start with the simplest orchestration pattern that matches the task
+      dependency graph, not the fanciest framework.
+    - >-
+      Make every agent step idempotent and observable with explicit inputs,
+      outputs, and retry rules.
+    - >-
+      Design tool interfaces as if another service will call them without a
+      human in the loop.
+    - >-
+      Add strict limits for delegation depth, tool budgets, and fallback paths
+      before you scale beyond a demo.
+  related:
+    - /blog/agentic-web-stack-explained.md
+    - /blog/testing-autonomous-agent-workflows.md
+    - /blog/designing-apis-for-ai-agents.md
+postType: explainer
+---
+
+We’re past the stage where “multi-agent” means “cool demo.” In the last few months, we’ve watched teams wire agents into payment flows, browser automation, and internal ops tools — and the same pattern keeps showing up: the hard part is not getting agents to talk to each other, it’s getting them to do useful work without breaking auth, duplicating tool calls, or losing state halfway through a task.
+
+Anthropic, Microsoft, and LangChain all have public agent frameworks now, but the real question is which orchestration pattern survives contact with production. The answer is less glamorous than the demos: sequential, parallel, and hierarchical workflows all work, but each one breaks in a different way. The agentic web is still mostly plumbing, and orchestration is the plumbing inside the plumbing.
+
+## Sequential chains are the easiest to reason about, and the easiest to slow down
+
+Sequential orchestration is the “do this, then that” pattern: one agent extracts a purchase order number, the next validates it against a billing system, and the last one calls Stripe or a similar payment API. We like this pattern first because it is easy to debug. If step two fails, we know exactly which input caused it.
+
+LangGraph is a good fit here because it makes the workflow explicit: nodes, edges, state, retries, and branching are all visible instead of hidden inside a giant prompt. That matters when we need to recover from a partial failure, like a payment intent created successfully but the fulfillment step timing out. The tradeoff is latency. Three 2-second calls are not “basically instant” anymore — they are a 6-second path, plus whatever time we spend waiting on retries or human review.
+
+## Parallel fan-out works for independent checks, not for shared truth
+
+Parallel orchestration is useful when agents can work on separate slices of the same problem. A common example for us is checking inventory, pricing, and policy at the same time before we let an agent place an order. Another is running one agent against a docs API while another checks a browser fallback with Playwright when the API is incomplete.
+
+AutoGen is often used this way because it makes agent-to-agent conversation easy. That is genuinely helpful when we want agents to critique each other or compare interpretations of the same input. The catch is the merge step. If one agent says “approved,” another says “blocked,” and a third found a stale cache entry, somebody still has to decide what the system should do. Nobody has solved that generically. In practice, we end up writing a lot of boring arbitration logic, and parallelism can still double tool calls before we even get to the aggregator.
+
+## Hierarchical teams look elegant until delegation starts leaking
+
+CrewAI popularized the “manager plus specialists” pattern, and the mental model is appealing because it mirrors how we already work: one coordinator delegates to a researcher, a verifier, and an executor. That can be a good fit for tasks like “research a vendor, verify the API, then draft the integration plan.”
+
+Where it gets messy is when delegation becomes the product instead of the workflow. We’ve seen managers keep handing work downward because they don’t have a clean stop condition, or specialists make assumptions that never get surfaced back up. In one integration, a top-level agent handed a checkout task to a browser agent, which then asked for shipping data the manager had never collected. The fix was not clever prompting. It was stricter schemas, a hard cap on delegation depth, and explicit stop conditions for when the system should ask the user instead of inventing the missing state.
+
+## LangGraph, AutoGen, and CrewAI solve different parts of the same problem
+
+If we need control flow, state, and retries we can inspect later, LangGraph is the strongest of the three. If we want agents to talk through a problem, critique each other, or iterate on an answer, AutoGen is usually the better fit. If we want to stand up a role-based workflow quickly, CrewAI is fast and easy to understand.
+
+But none of these frameworks solve the hardest production problems for us. Discovery is still messy. Authentication is still fragile. Payments still need exactness. Fulfillment still fails in weird ways. If an agent cannot find the right service, authenticate without a human in the loop, pay reliably, and confirm the outcome, orchestration does not save it.
+
+That is the part we keep coming back to: the orchestration pattern matters, but the real product work is still in the interfaces around it. We need APIs that agents can call predictably, fallback paths when they cannot, and enough observability to know where the system actually broke.
