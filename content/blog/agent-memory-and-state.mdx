@@ -1,0 +1,147 @@
+---
+title: 'Agent Memory and State: What Persists Between Conversations'
+slug: agent-memory-and-state
+date: '2026-04-16'
+updated: '2026-04-16'
+summary: >-
+  A builder’s map of agent memory: in-context, episodic, semantic, and
+  procedural state; the tools that implement each; and the failure modes we keep
+  hitting when memory gets it wrong.
+tags:
+  - agentic web
+  - memory
+  - state
+  - LLM agents
+  - MCP
+  - AI infrastructure
+category: explainer
+audience:
+  - developers
+  - founders
+affiliate_links: []
+reading_time_minutes: 6
+human_url: /blog/agent-memory-and-state
+agent_url: /blog/agent-memory-and-state.md
+canonical: 'https://windrose-ai.com/blog/agent-memory-and-state'
+agent_context:
+  key_claims:
+    - >-
+      Most agent 'memory' is really a mix of short-lived context, stored
+      conversation history, retrieval indexes, and explicit user profiles.
+    - >-
+      Tools like OpenAI thread storage, LangGraph state, and vector databases
+      such as Pinecone or pgvector each solve different parts of persistence.
+    - >-
+      Memory failures usually come from stale facts, overgeneralized
+      preferences, and accidental leakage of private or task-specific data.
+    - >-
+      Procedural memory is not the same as remembering facts; it is usually
+      encoded in prompts, workflows, or tool policies rather than a database.
+  tools_mentioned:
+    - name: OpenAI Threads
+      role: Conversation persistence and session state
+      url: 'https://platform.openai.com/docs'
+    - name: LangGraph
+      role: Workflow state and agent graph persistence
+      url: 'https://langchain-ai.github.io/langgraph/'
+    - name: Pinecone
+      role: Vector retrieval for episodic and semantic memory
+      url: 'https://www.pinecone.io/'
+    - name: pgvector
+      role: Postgres-based vector storage for memory retrieval
+      url: 'https://github.com/pgvector/pgvector'
+    - name: Mem0
+      role: Memory layer for extracting and storing durable agent memories
+      url: 'https://mem0.ai/'
+  recommended_actions:
+    - >-
+      Separate short-term conversation state from long-term user memory in your
+      architecture.
+    - >-
+      Store preferences only after explicit confirmation or repeated evidence,
+      not from a single turn.
+    - >-
+      Add recency and source metadata to every remembered fact so you can expire
+      or explain it later.
+    - >-
+      Test memory with adversarial cases: changed preferences, conflicting
+      facts, and privacy-sensitive data.
+  related:
+    - /blog/what-is-the-agentic-web.md
+    - /blog/mcp-model-context-protocol-explained.md
+    - /blog/testing-autonomous-agent-workflows.md
+postType: explainer
+---
+
+I watched an agent book the wrong meeting room because it “remembered” a team preference from one conversation three weeks earlier. The preference was real at the time. It was also obsolete: the room had been changed for a one-off demo, and nobody had updated the agent. The workflow was fine. The memory layer lied.
+
+## The Standard Take
+
+People still talk about agent memory like it’s one thing: “save the chat history and the agent will remember.” That’s a nice demo story, and it falls apart fast in production.
+
+In practice, we’re dealing with at least four different kinds of persistence:
+
+- **In-context memory**: what fits in the current prompt window
+- **Episodic memory**: what happened in past conversations or runs
+- **Semantic memory**: stable facts we believe about the user, account, or domain
+- **Procedural memory**: how the agent should behave, step by step
+
+Each one persists differently. Each one fails differently.
+
+In-context memory is just the active context window. It’s useful, but it disappears as soon as the model runs out of room or the session ends.
+
+Episodic memory is the record of prior interactions. That might be a thread store, a database row, or a vector index that can pull back old turns. It helps the agent say, “we talked about this before,” but it does not tell you whether the old detail is still true.
+
+Semantic memory is where we keep facts we want to treat as durable: “this account uses Stripe,” “the team is in UTC,” “the user prefers USDC payouts.” This is the layer people usually mean when they say “memory,” even though it’s really a curated set of facts with rules around freshness.
+
+Procedural memory is the playbook. It’s the refund policy, the escalation rule, the tool sequence, the “don’t issue credits until identity is verified” part. This is not a database problem. It’s a workflow problem.
+
+The tools map to those layers pretty cleanly. OpenAI Threads and similar session stores handle conversation continuity. LangGraph gives you explicit state and checkpoints, which is much closer to real workflow persistence than “chat memory.” Pinecone and pgvector are useful when you need retrieval over past interactions or stored facts. Mem0 is one of the more interesting attempts at extracting durable memories from noisy conversations. None of these are magic. They just solve different persistence problems.
+
+## Why It Breaks
+
+The standard take breaks because agents do not need “more memory” so much as better memory boundaries.
+
+A vector database can retrieve a past preference, but it cannot tell you whether that preference still applies. A thread store can preserve the conversation, but it won’t distinguish a one-off instruction from a durable rule. We hit this constantly when user intent, system policy, and stale history all get mixed into one blob.
+
+The biggest failure mode is false permanence.
+
+If an agent stores “always use the cheapest shipping option” after one complaint, it may keep optimizing for cost when the next order is urgent. If it stores “book the larger meeting room” after one successful meeting, it may keep doing that long after the team has changed rooms, changed office layouts, or changed priorities.
+
+The opposite failure is forgetting too aggressively. Then the agent feels stateless and useless, like it has to rediscover the same preferences every time. We see both extremes when teams treat memory as a single retrieval problem instead of a data governance problem.
+
+Procedural memory gets misunderstood too. A lot of teams try to “teach” an agent by stuffing examples into context. That can help for a demo, but it’s brittle. If a refund flow requires identity verification before issuing credits, that rule should live in the workflow code or graph logic, not in a recalled conversation snippet.
+
+We learned this the hard way while wiring payment rails. The agent could explain the refund policy perfectly and still take the wrong branch if the policy was only remembered, not enforced. Nobody has solved this well by just adding more tokens.
+
+## What To Do Instead
+
+Build memory the same way we build permissions: by scope, by source, and by expiration.
+
+Keep in-context state short and disposable. Use episodic memory for traceability, but attach timestamps, provenance, and confidence. Promote a fact to semantic memory only after repeated confirmation or explicit user approval. Put procedural memory in deterministic workflow code, not in retrieval.
+
+A concrete pattern helps.
+
+Say a user tells us: “I prefer USDC on Base for payouts, and I’m in New York.”
+
+We should not store the payout preference from a single throwaway sentence if it affects real money. That belongs in a settings flow or some other explicit confirmation step. If the user confirms it there, great — now we have a durable preference with a clear source.
+
+The location is different. If we need it for time zone handling or scheduling, we can store it as semantic memory, but we should also keep the source and date. If the user later says they moved to London, the newer fact should override the older one automatically. If we can’t explain why the agent believes something, we probably shouldn’t trust it.
+
+If you’re shipping this now, split the jobs:
+
+- **OpenAI Threads** or your own session DB for conversation continuity
+- **LangGraph** for workflow checkpoints and state transitions
+- **pgvector** or **Pinecone** for retrieval over past interactions and stored facts
+
+Then add a memory review UI. Let users inspect, edit, and delete what the agent thinks it knows. That is not a nice-to-have. It’s how we keep trust when the agent is handling real actions, real money, or real customer data.
+
+The agentic web is still 90% plumbing and 10% magic. Memory is plumbing.
+
+## The Bottom Line
+
+Agent memory is not a feature checkbox. It is a set of contracts about what persists, for how long, and with what confidence.
+
+When memory is wrong, agents do not just feel awkward. They make stale decisions, leak private context, and execute the right workflow for the wrong user state.
+
+The teams that win here will make memory legible, bounded, and reversible. Not the teams that store the most tokens.
