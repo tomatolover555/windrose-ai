@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 
 export const config = {
-  matcher: ["/dashboard", "/blog/:slug*.md", "/blog/:slug*.json", "/blog/page/:path*"],
+  matcher: ["/dashboard", "/blog/:slug*.md", "/blog/:slug*.json"],
 };
 
 function extractToken(req: NextRequest): string | null {
@@ -16,12 +16,6 @@ function extractToken(req: NextRequest): string | null {
 
 export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
-
-  const paginationMatch = pathname.match(/^\/blog\/page\/(\d+)$/);
-  if (paginationMatch) {
-    const page = paginationMatch[1];
-    return NextResponse.rewrite(new URL(`/blog/p/${page}`, req.url));
-  }
 
   // Rewrite /blog/<slug>.md -> /api/blog-markdown/<slug>
   const mdMatch = pathname.match(/^\/blog\/(.+)\.md$/);
