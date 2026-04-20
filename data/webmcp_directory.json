@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T05:43:59.934Z",
+  "updated_at": "2026-04-20T05:56:34.384Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -75,12 +75,12 @@
       "name": "-system.mdx",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -88,7 +88,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-14T05:33:00.012Z",
+      "last_checked": "2026-04-20T05:49:12.162Z",
       "last_seen": "2026-04-09T05:21:44.411Z",
       "sponsored": false,
       "verification_available": true
@@ -320,6 +320,29 @@
       ],
       "last_checked": "2026-03-26T05:17:23.428Z",
       "last_seen": "2026-03-01T05:03:12.519Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "127.0.0.1:12306",
+      "name": "127.0.0.1:12306",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:14.009Z",
+      "last_seen": "2026-04-20T05:49:14.009Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -2376,6 +2399,29 @@
       "verification_available": true
     },
     {
+      "domain": "20v3-blue.svg",
+      "name": "20v3-blue.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:16.011Z",
+      "last_seen": "2026-04-20T05:49:16.011Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "20validation-high-brightgreen.svg",
       "name": "20validation-high-brightgreen.svg",
       "type": [],
@@ -2776,7 +2822,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2784,8 +2830,31 @@
           "url": "https://github.com/pawn-4-git/webmcp_test"
         }
       ],
-      "last_checked": "2026-02-16T05:12:29.678Z",
+      "last_checked": "2026-04-20T05:49:18.081Z",
       "last_seen": "2026-02-16T05:12:29.678Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "40jason.today",
+      "name": "40jason.today",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jasonjmcghee/WebMCP",
+          "url": "https://github.com/jasonjmcghee/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:20.033Z",
+      "last_seen": "2026-04-20T05:49:20.033Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -2799,7 +2868,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2807,7 +2876,7 @@
           "url": "https://github.com/pawn-4-git/webmcp_test"
         }
       ],
-      "last_checked": "2026-02-16T05:12:31.483Z",
+      "last_checked": "2026-04-20T05:49:22.044Z",
       "last_seen": "2026-02-16T05:12:31.483Z",
       "sponsored": false,
       "verification_available": true
@@ -2891,7 +2960,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 56,
+      "fail_streak": 57,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2899,7 +2968,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:37:31.430Z",
+      "last_checked": "2026-04-20T05:49:24.250Z",
       "last_seen": "2026-02-16T05:12:35.486Z",
       "sponsored": false,
       "verification_available": true
@@ -3388,6 +3457,29 @@
       "verification_available": true
     },
     {
+      "domain": "agent.js",
+      "name": "agent.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:26.028Z",
+      "last_seen": "2026-04-20T05:49:26.028Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "agent.json",
       "name": "agent.json",
       "type": [],
@@ -3792,7 +3884,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-04-14T05:33:28.013Z",
+      "last_checked": "2026-04-20T05:49:28.030Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -4006,6 +4098,29 @@
       ],
       "last_checked": "2026-04-14T05:33:29.815Z",
       "last_seen": "2026-04-14T05:33:29.815Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ai.azure.com",
+      "name": "ai.azure.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:30.037Z",
+      "last_seen": "2026-04-20T05:49:30.037Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4275,6 +4390,29 @@
       "verification_available": true
     },
     {
+      "domain": "allitems.aspx",
+      "name": "allitems.aspx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:32.033Z",
+      "last_seen": "2026-04-20T05:49:32.033Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "altamedica.com",
       "name": "altamedica.com",
       "type": [],
@@ -4353,7 +4491,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4366,7 +4504,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-04-19T05:37:39.588Z",
+      "last_checked": "2026-04-20T05:49:34.107Z",
       "last_seen": "2026-02-20T05:02:27.341Z",
       "sponsored": false,
       "verification_available": true
@@ -4907,7 +5045,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4915,7 +5053,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-19T05:37:58.765Z",
+      "last_checked": "2026-04-20T05:49:36.112Z",
       "last_seen": "2026-02-20T05:02:34.916Z",
       "sponsored": false,
       "verification_available": true
@@ -5096,7 +5234,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:38:06.709Z",
+      "last_checked": "2026-04-20T05:49:38.029Z",
       "last_seen": "2026-02-16T05:13:00.672Z",
       "sponsored": false,
       "verification_available": true
@@ -5410,9 +5548,14 @@
           "kind": "github_hit",
           "detail": "repo: TomahawkCM/modern-tco",
           "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
         }
       ],
-      "last_checked": "2026-04-19T05:38:12.633Z",
+      "last_checked": "2026-04-20T05:49:40.063Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -5460,6 +5603,29 @@
       ],
       "last_checked": "2026-04-19T05:38:16.508Z",
       "last_seen": "2026-02-20T05:02:46.920Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "args.question",
+      "name": "args.question",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:42.032Z",
+      "last_seen": "2026-04-20T05:49:42.032Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6369,6 +6535,52 @@
       "verification_available": true
     },
     {
+      "domain": "azure-openai.js",
+      "name": "azure-openai.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:44.046Z",
+      "last_seen": "2026-04-20T05:49:44.046Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "azure.microsoft.com",
+      "name": "azure.microsoft.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:46.096Z",
+      "last_seen": "2026-04-20T05:49:46.096Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "b.webp",
       "name": "b.webp",
       "type": [],
@@ -6447,6 +6659,29 @@
       ],
       "last_checked": "2026-04-19T05:38:27.467Z",
       "last_seen": "2026-03-03T05:01:44.298Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "background.js",
+      "name": "background.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:56.026Z",
+      "last_seen": "2026-04-20T05:49:56.026Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6691,6 +6926,29 @@
       ],
       "last_checked": "2026-03-06T04:54:52.991Z",
       "last_seen": "2026-03-06T04:54:52.991Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "base.js",
+      "name": "base.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:57.039Z",
+      "last_seen": "2026-04-20T05:49:57.039Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7793,6 +8051,29 @@
       "verification_available": true
     },
     {
+      "domain": "browser.py",
+      "name": "browser.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:49:59.072Z",
+      "last_seen": "2026-04-20T05:49:59.072Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "bsky.app",
       "name": "bsky.app",
       "type": [],
@@ -7842,8 +8123,8 @@
       "domain": "bughunters.google.com",
       "name": "bughunters.google.com",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -7854,9 +8135,14 @@
           "kind": "github_hit",
           "detail": "repo: GoogleChromeLabs/webmcp-tools",
           "url": "https://github.com/GoogleChromeLabs/webmcp-tools"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: beaufortfrancois/model-context-tool-inspector",
+          "url": "https://github.com/beaufortfrancois/model-context-tool-inspector"
         }
       ],
-      "last_checked": "2026-04-19T05:39:07.576Z",
+      "last_checked": "2026-04-20T05:50:05.528Z",
       "last_seen": "2026-02-17T05:06:30.888Z",
       "sponsored": false,
       "verification_available": true
@@ -7940,7 +8226,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 56,
+      "fail_streak": 57,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7948,7 +8234,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:39:09.543Z",
+      "last_checked": "2026-04-20T05:50:06.632Z",
       "last_seen": "2026-02-16T05:13:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -7973,6 +8259,29 @@
       ],
       "last_checked": "2026-03-22T05:07:06.344Z",
       "last_seen": "2026-02-19T05:08:01.444Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "build.js",
+      "name": "build.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:08.647Z",
+      "last_seen": "2026-04-20T05:50:08.647Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8029,6 +8338,29 @@
       ],
       "last_checked": "2026-04-14T05:34:07.873Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bundle.js",
+      "name": "bundle.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:10.555Z",
+      "last_seen": "2026-04-20T05:50:10.555Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8305,6 +8637,52 @@
       ],
       "last_checked": "2026-04-19T05:39:15.525Z",
       "last_seen": "2026-03-04T04:56:42.948Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "card.export",
+      "name": "card.export",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:12.571Z",
+      "last_seen": "2026-04-20T05:50:12.571Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "card.updatefield",
+      "name": "card.updatefield",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:14.571Z",
+      "last_seen": "2026-04-20T05:50:14.571Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8601,7 +8979,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8614,7 +8992,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:51:47.300Z",
+      "last_checked": "2026-04-20T05:50:16.592Z",
       "last_seen": "2026-02-21T04:52:19.307Z",
       "sponsored": false,
       "verification_available": true
@@ -8919,6 +9297,29 @@
       "verification_available": true
     },
     {
+      "domain": "chrome.storage.local",
+      "name": "chrome.storage.local",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:18.741Z",
+      "last_seen": "2026-04-20T05:50:18.741Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "chromewebstore.google.com",
       "name": "chromewebstore.google.com",
       "type": [],
@@ -8984,9 +9385,19 @@
           "kind": "github_hit",
           "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
           "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: beaufortfrancois/model-context-tool-inspector",
+          "url": "https://github.com/beaufortfrancois/model-context-tool-inspector"
         }
       ],
-      "last_checked": "2026-04-19T05:39:27.524Z",
+      "last_checked": "2026-04-20T05:50:20.535Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -9093,7 +9504,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9134,9 +9545,14 @@
           "kind": "github_hit",
           "detail": "repo: nucliweb/webperf-snippets",
           "url": "https://github.com/nucliweb/webperf-snippets"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-19T05:39:29.542Z",
+      "last_checked": "2026-04-20T05:50:22.649Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -9529,9 +9945,14 @@
           "kind": "github_hit",
           "detail": "repo: soh963/NCO-Dashboard",
           "url": "https://github.com/soh963/NCO-Dashboard"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: nathan-gage/webmcp-bridge",
+          "url": "https://github.com/nathan-gage/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-04-19T05:39:37.595Z",
+      "last_checked": "2026-04-20T05:50:24.629Z",
       "last_seen": "2026-02-16T05:13:44.623Z",
       "sponsored": false,
       "verification_available": true
@@ -9699,6 +10120,29 @@
       ],
       "last_checked": "2026-04-19T05:39:41.544Z",
       "last_seen": "2026-03-30T05:37:22.181Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cli.py",
+      "name": "cli.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:28.919Z",
+      "last_seen": "2026-04-20T05:50:28.919Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -10058,6 +10502,29 @@
       "verification_available": true
     },
     {
+      "domain": "code.visualstudio.com",
+      "name": "code.visualstudio.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:30.699Z",
+      "last_seen": "2026-04-20T05:50:30.699Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "codebase-conventions.md",
       "name": "codebase-conventions.md",
       "type": [],
@@ -10249,6 +10716,29 @@
       "verification_available": true
     },
     {
+      "domain": "community.cisco.com",
+      "name": "community.cisco.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:32.628Z",
+      "last_seen": "2026-04-20T05:50:32.628Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "community.json",
       "name": "community.json",
       "type": [],
@@ -10367,13 +10857,13 @@
       "domain": "config.json",
       "name": "config.json",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 47,
+      "fail_streak": 48,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10384,9 +10874,14 @@
           "kind": "github_hit",
           "detail": "repo: eser/aya.is",
           "url": "https://github.com/eser/aya.is"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
         }
       ],
-      "last_checked": "2026-04-19T05:39:55.444Z",
+      "last_checked": "2026-04-20T05:50:34.588Z",
       "last_seen": "2026-02-17T05:07:21.015Z",
       "sponsored": false,
       "verification_available": true
@@ -10446,21 +10941,26 @@
       "domain": "configuration.md",
       "name": "configuration.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 38,
+      "fail_streak": 39,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: openakita/openakita",
           "url": "https://github.com/openakita/openakita"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
         }
       ],
-      "last_checked": "2026-03-30T05:37:38.265Z",
+      "last_checked": "2026-04-20T05:50:36.663Z",
       "last_seen": "2026-02-16T05:14:04.759Z",
       "sponsored": false,
       "verification_available": true
@@ -10618,7 +11118,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 31,
+      "fail_streak": 32,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10671,7 +11171,7 @@
           "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-04-19T05:40:03.521Z",
+      "last_checked": "2026-04-20T05:50:46.568Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -10811,6 +11311,29 @@
       ],
       "last_checked": "2026-04-19T05:40:11.432Z",
       "last_seen": "2026-03-27T05:25:48.835Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "content.js",
+      "name": "content.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:47.591Z",
+      "last_seen": "2026-04-20T05:50:47.591Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11160,9 +11683,19 @@
           "kind": "github_hit",
           "detail": "repo: LincolnSteinLab/jbrowse-plugin-assistant-chatbot",
           "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
         }
       ],
-      "last_checked": "2026-04-19T05:40:19.436Z",
+      "last_checked": "2026-04-20T05:50:49.584Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -11895,7 +12428,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:40:33.515Z",
+      "last_checked": "2026-04-20T05:50:51.625Z",
       "last_seen": "2026-02-16T05:14:32.626Z",
       "sponsored": false,
       "verification_available": true
@@ -12346,21 +12879,26 @@
       "domain": "d3.js",
       "name": "d3.js",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: rohitg00/devrelguide",
           "url": "https://github.com/rohitg00/devrelguide"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
         }
       ],
-      "last_checked": "2026-04-14T05:35:03.386Z",
+      "last_checked": "2026-04-20T05:50:53.616Z",
       "last_seen": "2026-02-16T05:14:40.612Z",
       "sponsored": false,
       "verification_available": true
@@ -12569,6 +13107,29 @@
       ],
       "last_checked": "2026-02-18T05:08:51.462Z",
       "last_seen": "2026-02-17T05:08:34.818Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "data.answer",
+      "name": "data.answer",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:55.585Z",
+      "last_seen": "2026-04-20T05:50:55.585Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13600,6 +14161,29 @@
       "verification_available": true
     },
     {
+      "domain": "detect.py",
+      "name": "detect.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:57.580Z",
+      "last_seen": "2026-04-20T05:50:57.580Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "dev.to",
       "name": "dev.to",
       "type": [],
@@ -13624,6 +14208,52 @@
       ],
       "last_checked": "2026-02-20T05:04:35.052Z",
       "last_seen": "2026-02-16T05:15:00.351Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dev.vars",
+      "name": "dev.vars",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:50:59.696Z",
+      "last_seen": "2026-04-20T05:50:59.696Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dev.vars.example",
+      "name": "dev.vars.example",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:01.634Z",
+      "last_seen": "2026-04-20T05:51:01.634Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13741,9 +14371,14 @@
           "kind": "heuristic_html",
           "detail": "heuristic match in homepage html",
           "url": "https://developer.chrome.com/"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-04-19T05:41:17.549Z",
+      "last_checked": "2026-04-20T05:51:03.585Z",
       "last_seen": "2026-04-19T05:41:17.549Z",
       "sponsored": false,
       "verification_available": true
@@ -14001,7 +14636,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-14T05:35:33.068Z",
+      "last_checked": "2026-04-20T05:51:06.265Z",
       "last_seen": "2026-04-09T05:22:12.257Z",
       "sponsored": false,
       "verification_available": true
@@ -14144,9 +14779,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/docs",
           "url": "https://github.com/WebMCP-org/docs"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-19T05:41:37.407Z",
+      "last_checked": "2026-04-20T05:51:07.589Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -14207,7 +14847,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 28,
+      "fail_streak": 29,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14215,7 +14855,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-04-19T05:41:39.442Z",
+      "last_checked": "2026-04-20T05:51:09.610Z",
       "last_seen": "2026-02-16T05:15:08.240Z",
       "sponsored": false,
       "verification_available": true
@@ -14270,13 +14910,13 @@
       "domain": "docker-compose.yml",
       "name": "docker-compose.yml",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14292,9 +14932,14 @@
           "kind": "github_hit",
           "detail": "repo: aniru888/floodsafe-mvp",
           "url": "https://github.com/aniru888/floodsafe-mvp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: jasonjmcghee/WebMCP",
+          "url": "https://github.com/jasonjmcghee/WebMCP"
         }
       ],
-      "last_checked": "2026-04-14T05:35:40.721Z",
+      "last_checked": "2026-04-20T05:51:11.607Z",
       "last_seen": "2026-02-16T05:15:12.235Z",
       "sponsored": false,
       "verification_available": true
@@ -14470,12 +15115,12 @@
       "name": "docs.json",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14483,7 +15128,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-14T05:35:42.738Z",
+      "last_checked": "2026-04-20T05:51:13.639Z",
       "last_seen": "2026-04-09T05:22:16.294Z",
       "sponsored": false,
       "verification_available": true
@@ -14502,10 +15147,10 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-04-19T05:41:49.435Z"
+          "last_success": "2026-04-20T05:51:15.625Z"
         }
       ],
-      "last_verified_success": "2026-04-19T05:41:49.435Z",
+      "last_verified_success": "2026-04-20T05:51:15.625Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -14559,8 +15204,8 @@
           "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-19T05:41:49.435Z",
-      "last_seen": "2026-04-19T05:41:49.435Z",
+      "last_checked": "2026-04-20T05:51:15.625Z",
+      "last_seen": "2026-04-20T05:51:15.625Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14634,6 +15279,29 @@
       "verification_available": true
     },
     {
+      "domain": "docs.saas-tool.com",
+      "name": "docs.saas-tool.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:17.671Z",
+      "last_seen": "2026-04-20T05:51:17.671Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "document.documentelement.outerhtml",
       "name": "document.documentelement.outerhtml",
       "type": [],
@@ -14643,7 +15311,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14651,7 +15319,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-19T05:41:53.475Z",
+      "last_checked": "2026-04-20T05:51:19.593Z",
       "last_seen": "2026-02-20T05:04:54.457Z",
       "sponsored": false,
       "verification_available": true
@@ -14745,7 +15413,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14766,9 +15434,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/npm-packages",
           "url": "https://github.com/WebMCP-org/npm-packages"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-19T05:41:57.434Z",
+      "last_checked": "2026-04-20T05:51:21.648Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -14829,7 +15502,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14837,7 +15510,7 @@
           "url": "https://github.com/WebMCP-org/webmcp-userscripts"
         }
       ],
-      "last_checked": "2026-04-19T05:42:01.508Z",
+      "last_checked": "2026-04-20T05:51:23.581Z",
       "last_seen": "2026-04-17T05:40:59.855Z",
       "sponsored": false,
       "verification_available": true
@@ -15220,7 +15893,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15228,7 +15901,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:42:11.702Z",
+      "last_checked": "2026-04-20T05:51:25.565Z",
       "last_seen": "2026-02-16T05:15:30.224Z",
       "sponsored": false,
       "verification_available": true
@@ -15243,7 +15916,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15251,7 +15924,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:42:13.401Z",
+      "last_checked": "2026-04-20T05:51:27.683Z",
       "last_seen": "2026-02-16T05:15:32.203Z",
       "sponsored": false,
       "verification_available": true
@@ -15823,7 +16496,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15869,9 +16542,14 @@
           "kind": "github_hit",
           "detail": "repo: TomahawkCM/modern-tco",
           "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-17T05:41:31.842Z",
+      "last_checked": "2026-04-20T05:51:29.559Z",
       "last_seen": "2026-02-16T05:15:48.263Z",
       "sponsored": false,
       "verification_available": true
@@ -16280,6 +16958,29 @@
       "verification_available": true
     },
     {
+      "domain": "example-store.com",
+      "name": "example-store.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:31.647Z",
+      "last_seen": "2026-04-20T05:51:31.647Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "example.com",
       "name": "example.com",
       "type": [],
@@ -16310,9 +17011,14 @@
           "kind": "github_hit",
           "detail": "repo: hank199599/hank199599.github.io",
           "url": "https://github.com/hank199599/hank199599.github.io"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-04-17T05:41:42.021Z",
+      "last_checked": "2026-04-20T05:51:33.909Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -16552,7 +17258,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-04-19T05:42:43.432Z",
+      "last_checked": "2026-04-20T05:51:35.565Z",
       "last_seen": "2026-02-16T05:15:58.356Z",
       "sponsored": false,
       "verification_available": true
@@ -16600,6 +17306,29 @@
       ],
       "last_checked": "2026-02-20T05:05:33.580Z",
       "last_seen": "2026-02-16T05:16:00.391Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "faq.md",
+      "name": "faq.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:38.312Z",
+      "last_seen": "2026-04-20T05:51:38.312Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -16811,6 +17540,52 @@
       "verification_available": true
     },
     {
+      "domain": "feather.js",
+      "name": "feather.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:39.697Z",
+      "last_seen": "2026-04-20T05:51:39.697Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "feathericons.com",
+      "name": "feathericons.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:41.565Z",
+      "last_seen": "2026-04-20T05:51:41.565Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "featured.json",
       "name": "featured.json",
       "type": [],
@@ -16883,8 +17658,8 @@
       "domain": "features.md",
       "name": "features.md",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -16895,9 +17670,14 @@
           "kind": "github_hit",
           "detail": "repo: aniru888/floodsafe-mvp",
           "url": "https://github.com/aniru888/floodsafe-mvp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
         }
       ],
-      "last_checked": "2026-04-14T05:36:20.922Z",
+      "last_checked": "2026-04-20T05:51:43.691Z",
       "last_seen": "2026-04-14T05:36:20.922Z",
       "sponsored": false,
       "verification_available": true
@@ -17226,6 +18006,29 @@
       ],
       "last_checked": "2026-02-18T05:11:23.263Z",
       "last_seen": "2026-02-16T05:16:08.639Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "flask.pocoo.org",
+      "name": "flask.pocoo.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:45.576Z",
+      "last_seen": "2026-04-20T05:51:45.576Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -17621,6 +18424,29 @@
       "verification_available": true
     },
     {
+      "domain": "fullarch.png",
+      "name": "fullarch.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:48.007Z",
+      "last_seen": "2026-04-20T05:51:48.007Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "fundingbriefview.tsx",
       "name": "fundingbriefview.tsx",
       "type": [],
@@ -17759,6 +18585,29 @@
       "verification_available": true
     },
     {
+      "domain": "getbootstrap.com",
+      "name": "getbootstrap.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:49.562Z",
+      "last_seen": "2026-04-20T05:51:49.562Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "getting-started.md",
       "name": "getting-started.md",
       "type": [],
@@ -17801,6 +18650,29 @@
       ],
       "last_checked": "2026-04-06T05:40:31.794Z",
       "last_seen": "2026-02-21T04:54:43.747Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "gist.github.com",
+      "name": "gist.github.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:51:51.566Z",
+      "last_seen": "2026-04-20T05:51:51.566Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -17921,7 +18793,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17929,7 +18801,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-19T05:43:17.531Z",
+      "last_checked": "2026-04-20T05:51:53.962Z",
       "last_seen": "2026-02-20T05:05:45.395Z",
       "sponsored": false,
       "verification_available": true
@@ -17944,7 +18816,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17952,7 +18824,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-19T05:43:19.618Z",
+      "last_checked": "2026-04-20T05:51:55.575Z",
       "last_seen": "2026-02-20T05:05:47.256Z",
       "sponsored": false,
       "verification_available": true
@@ -17967,7 +18839,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17975,7 +18847,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-19T05:43:21.532Z",
+      "last_checked": "2026-04-20T05:51:57.755Z",
       "last_seen": "2026-02-20T05:05:49.251Z",
       "sponsored": false,
       "verification_available": true
@@ -18122,7 +18994,7 @@
       "domain": "gmail.com",
       "name": "gmail.com",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -18139,9 +19011,14 @@
           "kind": "github_hit",
           "detail": "repo: pocketpaw/pocketpaw",
           "url": "https://github.com/pocketpaw/pocketpaw"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-03-30T05:40:39.669Z",
+      "last_checked": "2026-04-20T05:51:59.593Z",
       "last_seen": "2026-02-16T05:16:20.348Z",
       "sponsored": false,
       "verification_available": true
@@ -18150,21 +19027,26 @@
       "domain": "gnu.org",
       "name": "gnu.org",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: eser/aya.is",
           "url": "https://github.com/eser/aya.is"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-19T05:43:25.661Z",
+      "last_checked": "2026-04-20T05:52:01.811Z",
       "last_seen": "2026-04-02T05:20:21.683Z",
       "sponsored": false,
       "verification_available": true
@@ -18220,7 +19102,7 @@
           "url": "https://github.com/mandelbro/webmcp-react-task-manager"
         }
       ],
-      "last_checked": "2026-04-19T05:43:29.539Z",
+      "last_checked": "2026-04-20T05:52:03.581Z",
       "last_seen": "2026-02-16T05:16:22.749Z",
       "sponsored": false,
       "verification_available": true
@@ -18229,21 +19111,26 @@
       "domain": "googlechromelabs.github.io",
       "name": "googlechromelabs.github.io",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: tech-sumit/react-webmcp",
           "url": "https://github.com/tech-sumit/react-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: nathan-gage/webmcp-bridge",
+          "url": "https://github.com/nathan-gage/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-02-19T05:10:50.499Z",
+      "last_checked": "2026-04-20T05:52:05.617Z",
       "last_seen": "2026-02-16T05:16:24.275Z",
       "sponsored": false,
       "verification_available": true
@@ -18668,6 +19555,29 @@
       "verification_available": true
     },
     {
+      "domain": "hosting.md",
+      "name": "hosting.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:07.548Z",
+      "last_seen": "2026-04-20T05:52:07.548Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "http.crossoriginprotection",
       "name": "http.crossoriginprotection",
       "type": [],
@@ -18700,7 +19610,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18718,7 +19628,7 @@
           "url": "https://github.com/gabrielreve96/webmcp"
         }
       ],
-      "last_checked": "2026-04-19T05:43:37.535Z",
+      "last_checked": "2026-04-20T05:52:10.454Z",
       "last_seen": "2026-02-16T05:16:44.199Z",
       "sponsored": false,
       "verification_available": true
@@ -18921,10 +19831,10 @@
         {
           "type": "well_known",
           "url": "https://img.shields.io/.well-known/mcp.json",
-          "last_success": "2026-04-19T05:43:43.540Z"
+          "last_success": "2026-04-20T05:52:11.713Z"
         }
       ],
-      "last_verified_success": "2026-04-19T05:43:43.540Z",
+      "last_verified_success": "2026-04-20T05:52:11.713Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -19071,10 +19981,20 @@
           "kind": "github_hit",
           "detail": "repo: aniru888/floodsafe-mvp",
           "url": "https://github.com/aniru888/floodsafe-mvp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: jasonjmcghee/WebMCP",
+          "url": "https://github.com/jasonjmcghee/WebMCP"
         }
       ],
-      "last_checked": "2026-04-19T05:43:43.540Z",
-      "last_seen": "2026-04-19T05:43:43.540Z",
+      "last_checked": "2026-04-20T05:52:11.713Z",
+      "last_seen": "2026-04-20T05:52:11.713Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19157,7 +20077,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19203,9 +20123,14 @@
           "kind": "github_hit",
           "detail": "repo: WordPress/wordpress-playground",
           "url": "https://github.com/WordPress/wordpress-playground"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
         }
       ],
-      "last_checked": "2026-04-19T05:43:47.625Z",
+      "last_checked": "2026-04-20T05:52:13.748Z",
       "last_seen": "2026-02-16T05:16:52.275Z",
       "sponsored": false,
       "verification_available": true
@@ -19508,7 +20433,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19516,7 +20441,7 @@
           "url": "https://github.com/creuzerm/tinyinsulationcalculator"
         }
       ],
-      "last_checked": "2026-02-21T04:55:21.775Z",
+      "last_checked": "2026-04-20T05:52:15.707Z",
       "last_seen": "2026-02-21T04:55:21.775Z",
       "sponsored": false,
       "verification_available": true
@@ -19775,6 +20700,36 @@
       "verification_available": true
     },
     {
+      "domain": "jason.today",
+      "name": "jason.today",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jasonjmcghee/WebMCP",
+          "url": "https://github.com/jasonjmcghee/WebMCP"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://jason.today/"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:17.714Z",
+      "last_seen": "2026-04-20T05:52:17.714Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "jay-file.md",
       "name": "jay-file.md",
       "type": [],
@@ -19844,6 +20799,29 @@
       "verification_available": true
     },
     {
+      "domain": "jetbrains.com",
+      "name": "jetbrains.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:19.716Z",
+      "last_seen": "2026-04-20T05:52:19.716Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "jfrog.com",
       "name": "jfrog.com",
       "type": [],
@@ -19863,6 +20841,29 @@
       ],
       "last_checked": "2026-04-02T05:21:01.691Z",
       "last_seen": "2026-03-31T05:27:07.133Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "jinja.pocoo.org",
+      "name": "jinja.pocoo.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:21.712Z",
+      "last_seen": "2026-04-20T05:52:21.712Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20014,7 +21015,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20040,9 +21041,19 @@
           "kind": "github_hit",
           "detail": "repo: mandelbro/webmcp-react-task-manager",
           "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-04-17T05:43:07.866Z",
+      "last_checked": "2026-04-20T05:52:24.153Z",
       "last_seen": "2026-02-16T05:17:12.752Z",
       "sponsored": false,
       "verification_available": true
@@ -20292,7 +21303,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20300,7 +21311,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-17T05:43:15.904Z",
+      "last_checked": "2026-04-20T05:52:25.709Z",
       "last_seen": "2026-04-01T05:39:13.934Z",
       "sponsored": false,
       "verification_available": true
@@ -20601,7 +21612,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20609,7 +21620,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-17T05:43:27.886Z",
+      "last_checked": "2026-04-20T05:52:27.789Z",
       "last_seen": "2026-02-16T05:17:17.342Z",
       "sponsored": false,
       "verification_available": true
@@ -20634,6 +21645,29 @@
       ],
       "last_checked": "2026-04-17T05:43:29.845Z",
       "last_seen": "2026-04-13T05:56:12.361Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "lian0123.github.io",
+      "name": "lian0123.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:29.741Z",
+      "last_seen": "2026-04-20T05:52:29.741Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20797,7 +21831,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-04-17T05:43:40.019Z",
+      "last_checked": "2026-04-20T05:52:31.732Z",
       "last_seen": "2026-02-16T05:17:24.824Z",
       "sponsored": false,
       "verification_available": true
@@ -20898,13 +21932,13 @@
       "domain": "llms.txt",
       "name": "llms.txt",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20920,9 +21954,14 @@
           "kind": "github_hit",
           "detail": "repo: pubkey/rxdb",
           "url": "https://github.com/pubkey/rxdb"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: creuzerm/tinyinsulationcalculator",
+          "url": "https://github.com/creuzerm/tinyinsulationcalculator"
         }
       ],
-      "last_checked": "2026-04-16T05:45:22.307Z",
+      "last_checked": "2026-04-20T05:52:34.141Z",
       "last_seen": "2026-02-16T05:17:32.838Z",
       "sponsored": false,
       "verification_available": true
@@ -21000,22 +22039,50 @@
       "domain": "localhost:11434",
       "name": "localhost:11434",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: igrigorik/AgentBoard",
           "url": "https://github.com/igrigorik/AgentBoard"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
         }
       ],
-      "last_checked": "2026-04-16T05:45:30.190Z",
+      "last_checked": "2026-04-20T05:52:35.870Z",
       "last_seen": "2026-02-16T05:17:34.867Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "localhost:1234",
+      "name": "localhost:1234",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:37.858Z",
+      "last_seen": "2026-04-20T05:52:37.858Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -21497,6 +22564,29 @@
       "verification_available": true
     },
     {
+      "domain": "location.href",
+      "name": "location.href",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:39.857Z",
+      "last_seen": "2026-04-20T05:52:39.857Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "logger.html",
       "name": "logger.html",
       "type": [],
@@ -21804,21 +22894,26 @@
       "domain": "main.py",
       "name": "main.py",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: heywood8/telegram-LeoLM-bot",
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
         }
       ],
-      "last_checked": "2026-02-16T05:18:00.941Z",
+      "last_checked": "2026-04-20T05:52:41.868Z",
       "last_seen": "2026-02-16T05:18:00.941Z",
       "sponsored": false,
       "verification_available": true
@@ -21873,6 +22968,39 @@
       "domain": "manifest.json",
       "name": "manifest.json",
       "type": [],
+      "confidence": 90,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: r/Harbor",
+          "url": "https://github.com/r/Harbor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: beaufortfrancois/model-context-tool-inspector",
+          "url": "https://github.com/beaufortfrancois/model-context-tool-inspector"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:43.873Z",
+      "last_seen": "2026-02-16T05:18:02.848Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "manifest.webmanifest",
+      "name": "manifest.webmanifest",
+      "type": [],
       "confidence": 30,
       "status": "unverified",
       "verification_status": "unverified",
@@ -21883,12 +23011,81 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: r/Harbor",
-          "url": "https://github.com/r/Harbor"
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
         }
       ],
-      "last_checked": "2026-02-16T05:18:02.848Z",
-      "last_seen": "2026-02-16T05:18:02.848Z",
+      "last_checked": "2026-04-20T05:52:45.881Z",
+      "last_seen": "2026-04-20T05:52:45.881Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "maslowcnc.com",
+      "name": "maslowcnc.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:47.893Z",
+      "last_seen": "2026-04-20T05:52:47.893Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "maslowcommunitygarden.org",
+      "name": "maslowcommunitygarden.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:49.906Z",
+      "last_seen": "2026-04-20T05:52:49.906Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "materials.json",
+      "name": "materials.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: creuzerm/tinyinsulationcalculator",
+          "url": "https://github.com/creuzerm/tinyinsulationcalculator"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:51.876Z",
+      "last_seen": "2026-04-20T05:52:51.876Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -21934,10 +23131,10 @@
         {
           "type": "homepage",
           "url": "https://mcp-b.ai/",
-          "last_success": "2026-04-14T05:38:02.764Z"
+          "last_success": "2026-04-20T05:52:53.865Z"
         }
       ],
-      "last_verified_success": "2026-04-14T05:38:02.764Z",
+      "last_verified_success": "2026-04-20T05:52:53.865Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -21969,10 +23166,15 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/webmcp-sh",
           "url": "https://github.com/WebMCP-org/webmcp-sh"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-14T05:38:02.764Z",
-      "last_seen": "2026-04-14T05:38:02.764Z",
+      "last_checked": "2026-04-20T05:52:53.865Z",
+      "last_seen": "2026-04-20T05:52:53.865Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -22053,8 +23255,8 @@
       "verification_available": true
     },
     {
-      "domain": "mcp.json",
-      "name": "mcp.json",
+      "domain": "mcp.calltool",
+      "name": "mcp.calltool",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -22066,12 +23268,114 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: TomahawkCM/modern-tco",
-          "url": "https://github.com/TomahawkCM/modern-tco"
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-14T05:38:06.941Z",
+      "last_checked": "2026-04-20T05:52:55.872Z",
+      "last_seen": "2026-04-20T05:52:55.872Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.connect",
+      "name": "mcp.connect",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:57.942Z",
+      "last_seen": "2026-04-20T05:52:57.942Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.js",
+      "name": "mcp.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:52:59.865Z",
+      "last_seen": "2026-04-20T05:52:59.865Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.json",
+      "name": "mcp.json",
+      "type": [],
+      "confidence": 90,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: TomahawkCM/modern-tco",
+          "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:01.866Z",
       "last_seen": "2026-04-14T05:38:06.941Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "mcp.register",
+      "name": "mcp.register",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:03.896Z",
+      "last_seen": "2026-04-20T05:53:03.896Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -22085,7 +23389,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22093,7 +23397,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-02-16T05:18:08.980Z",
+      "last_checked": "2026-04-20T05:53:05.865Z",
       "last_seen": "2026-02-16T05:18:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -22108,9 +23412,9 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [],
-      "last_checked": "2026-04-15T05:32:55.269Z",
+      "last_checked": "2026-04-20T05:53:07.866Z",
       "last_seen": "2026-02-15T06:22:21.111Z",
       "sponsored": false,
       "verification_available": true
@@ -22254,11 +23558,34 @@
       "verification_available": true
     },
     {
-      "domain": "microsoft.com",
-      "name": "microsoft.com",
+      "domain": "methods.md",
+      "name": "methods.md",
       "type": [],
       "confidence": 30,
       "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: creuzerm/tinyinsulationcalculator",
+          "url": "https://github.com/creuzerm/tinyinsulationcalculator"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:09.879Z",
+      "last_seen": "2026-04-20T05:53:09.879Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "microsoft.com",
+      "name": "microsoft.com",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -22269,10 +23596,38 @@
           "kind": "github_hit",
           "detail": "repo: webmachinelearning/webmcp",
           "url": "https://github.com/webmachinelearning/webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
         }
       ],
-      "last_checked": "2026-02-16T05:18:16.941Z",
+      "last_checked": "2026-04-20T05:53:19.854Z",
       "last_seen": "2026-02-16T05:18:16.941Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "microsoft.sharepoint.com",
+      "name": "microsoft.sharepoint.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:20.944Z",
+      "last_seen": "2026-04-20T05:53:20.944Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -22294,7 +23649,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-04-14T05:38:16.739Z",
+      "last_checked": "2026-04-20T05:53:22.923Z",
       "last_seen": "2026-04-09T05:23:00.280Z",
       "sponsored": false,
       "verification_available": true
@@ -22368,9 +23723,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/webmcp-sh",
           "url": "https://github.com/WebMCP-org/webmcp-sh"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-04-14T05:38:20.872Z",
+      "last_checked": "2026-04-20T05:53:24.961Z",
       "last_seen": "2026-02-16T05:18:18.927Z",
       "sponsored": false,
       "verification_available": true
@@ -22445,6 +23805,52 @@
       "verification_available": true
     },
     {
+      "domain": "mqtt.js",
+      "name": "mqtt.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:27.269Z",
+      "last_seen": "2026-04-20T05:53:27.269Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "multi-user.target",
+      "name": "multi-user.target",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:29.065Z",
+      "last_seen": "2026-04-20T05:53:29.065Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "must-haves.schema.json",
       "name": "must-haves.schema.json",
       "type": [],
@@ -22464,6 +23870,52 @@
       ],
       "last_checked": "2026-04-14T05:38:26.953Z",
       "last_seen": "2026-04-14T05:38:26.953Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "my-provider.js",
+      "name": "my-provider.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:31.212Z",
+      "last_seen": "2026-04-20T05:53:31.212Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "myapi.getanswer",
+      "name": "myapi.getanswer",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:32.898Z",
+      "last_seen": "2026-04-20T05:53:32.898Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -22523,7 +23975,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22594,10 +24046,48 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/webmcp-sh",
           "url": "https://github.com/WebMCP-org/webmcp-sh"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: nathan-gage/webmcp-bridge",
+          "url": "https://github.com/nathan-gage/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-04-14T05:38:30.782Z",
+      "last_checked": "2026-04-20T05:53:34.873Z",
       "last_seen": "2026-02-16T05:18:27.806Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "navigator.modelcontext.addtool",
+      "name": "navigator.modelcontext.addtool",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:36.939Z",
+      "last_seen": "2026-04-20T05:53:36.939Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -22652,12 +24142,12 @@
       "name": "navigator.modelcontext.registertool",
       "type": [],
       "confidence": 100,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22678,9 +24168,14 @@
           "kind": "github_hit",
           "detail": "repo: mandelbro/webmcp-react-task-manager",
           "url": "https://github.com/mandelbro/webmcp-react-task-manager"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-04-14T05:38:36.834Z",
+      "last_checked": "2026-04-20T05:53:38.880Z",
       "last_seen": "2026-02-16T05:18:29.800Z",
       "sponsored": false,
       "verification_available": true
@@ -22689,21 +24184,26 @@
       "domain": "navigator.modelcontexttesting",
       "name": "navigator.modelcontexttesting",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: tech-sumit/react-webmcp",
           "url": "https://github.com/tech-sumit/react-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: beaufortfrancois/model-context-tool-inspector",
+          "url": "https://github.com/beaufortfrancois/model-context-tool-inspector"
         }
       ],
-      "last_checked": "2026-02-16T05:18:31.789Z",
+      "last_checked": "2026-04-20T05:53:40.948Z",
       "last_seen": "2026-02-16T05:18:31.789Z",
       "sponsored": false,
       "verification_available": true
@@ -22751,6 +24251,29 @@
       ],
       "last_checked": "2026-04-14T05:38:40.813Z",
       "last_seen": "2026-04-14T05:38:40.813Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "network.target",
+      "name": "network.target",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:42.873Z",
+      "last_seen": "2026-04-20T05:53:42.873Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -22934,7 +24457,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23015,9 +24538,19 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/webmcp-sh",
           "url": "https://github.com/WebMCP-org/webmcp-sh"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: gabrielreve96/webmcp",
+          "url": "https://github.com/gabrielreve96/webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-14T05:38:48.766Z",
+      "last_checked": "2026-04-20T05:53:44.878Z",
       "last_seen": "2026-02-16T05:18:37.827Z",
       "sponsored": false,
       "verification_available": true
@@ -23131,7 +24664,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23162,10 +24695,43 @@
           "kind": "github_hit",
           "detail": "repo: grzetich/webmcp-kanban",
           "url": "https://github.com/grzetich/webmcp-kanban"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: jasonjmcghee/WebMCP",
+          "url": "https://github.com/jasonjmcghee/WebMCP"
         }
       ],
-      "last_checked": "2026-04-14T05:38:56.745Z",
+      "last_checked": "2026-04-20T05:53:46.937Z",
       "last_seen": "2026-02-16T05:18:43.882Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "numpy.org",
+      "name": "numpy.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:48.902Z",
+      "last_seen": "2026-04-20T05:53:48.902Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -23216,6 +24782,98 @@
       "verification_available": true
     },
     {
+      "domain": "openai-bundle.js",
+      "name": "openai-bundle.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:50.868Z",
+      "last_seen": "2026-04-20T05:53:50.868Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "openai-compat.js",
+      "name": "openai-compat.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:53.072Z",
+      "last_seen": "2026-04-20T05:53:53.072Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "openai.com",
+      "name": "openai.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: gabrielreve96/webmcp",
+          "url": "https://github.com/gabrielreve96/webmcp"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:54.946Z",
+      "last_seen": "2026-04-20T05:53:54.946Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "openai.js",
+      "name": "openai.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:56.873Z",
+      "last_seen": "2026-04-20T05:53:56.873Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "openakita.git",
       "name": "openakita.git",
       "type": [],
@@ -23235,6 +24893,29 @@
       ],
       "last_checked": "2026-02-16T05:18:47.825Z",
       "last_seen": "2026-02-16T05:18:47.825Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "opencode.ai",
+      "name": "opencode.ai",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
+        }
+      ],
+      "last_checked": "2026-04-20T05:53:58.947Z",
+      "last_seen": "2026-04-20T05:53:58.947Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -23386,12 +25067,12 @@
       "name": "package.json",
       "type": [],
       "confidence": 100,
-      "status": "likely",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23422,9 +25103,14 @@
           "kind": "github_hit",
           "detail": "repo: soh963/NCO-Dashboard",
           "url": "https://github.com/soh963/NCO-Dashboard"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
         }
       ],
-      "last_checked": "2026-04-14T05:39:08.816Z",
+      "last_checked": "2026-04-20T05:54:01.038Z",
       "last_seen": "2026-02-16T05:18:58.030Z",
       "sponsored": false,
       "verification_available": true
@@ -23508,7 +25194,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23516,7 +25202,7 @@
           "url": "https://github.com/Movimento5StelleLazio/ParlamentoElettronicoM5S"
         }
       ],
-      "last_checked": "2026-02-16T05:19:02.013Z",
+      "last_checked": "2026-04-20T05:54:02.933Z",
       "last_seen": "2026-02-16T05:19:02.013Z",
       "sponsored": false,
       "verification_available": true
@@ -23564,6 +25250,29 @@
       ],
       "last_checked": "2026-04-14T05:39:16.913Z",
       "last_seen": "2026-04-14T05:39:16.913Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "performance-profiling.md",
+      "name": "performance-profiling.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:04.963Z",
+      "last_seen": "2026-04-20T05:54:04.963Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -23637,6 +25346,34 @@
       "verification_available": true
     },
     {
+      "domain": "platform.openai.com",
+      "name": "platform.openai.com",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: gabrielreve96/webmcp",
+          "url": "https://github.com/gabrielreve96/webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:06.985Z",
+      "last_seen": "2026-04-20T05:54:06.985Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "playwright.dev",
       "name": "playwright.dev",
       "type": [],
@@ -23656,6 +25393,52 @@
       ],
       "last_checked": "2026-04-09T05:23:18.327Z",
       "last_seen": "2026-04-09T05:23:18.327Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "plugins.jetbrains.com",
+      "name": "plugins.jetbrains.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:08.866Z",
+      "last_seen": "2026-04-20T05:54:08.866Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "postinstall.js",
+      "name": "postinstall.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:10.924Z",
+      "last_seen": "2026-04-20T05:54:10.924Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -23821,6 +25604,29 @@
       "verification_available": true
     },
     {
+      "domain": "proposal.md",
+      "name": "proposal.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: webmachinelearning/webmcp",
+          "url": "https://github.com/webmachinelearning/webmcp"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:12.854Z",
+      "last_seen": "2026-04-20T05:54:12.854Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "public.questions",
       "name": "public.questions",
       "type": [],
@@ -23959,6 +25765,52 @@
       "verification_available": true
     },
     {
+      "domain": "quickstart.md",
+      "name": "quickstart.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:14.854Z",
+      "last_seen": "2026-04-20T05:54:14.854Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "raspberrypi.org",
+      "name": "raspberrypi.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:16.931Z",
+      "last_seen": "2026-04-20T05:54:16.931Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "ratelimitanalytics.tsx",
       "name": "ratelimitanalytics.tsx",
       "type": [],
@@ -24028,8 +25880,368 @@
       "verification_available": true
     },
     {
+      "domain": "readme.ar.md",
+      "name": "readme.ar.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:18.889Z",
+      "last_seen": "2026-04-20T05:54:18.889Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.de.md",
+      "name": "readme.de.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:20.999Z",
+      "last_seen": "2026-04-20T05:54:20.999Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.en.md",
+      "name": "readme.en.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:22.992Z",
+      "last_seen": "2026-04-20T05:54:22.992Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.es.md",
+      "name": "readme.es.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:25.168Z",
+      "last_seen": "2026-04-20T05:54:25.168Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.fr.md",
+      "name": "readme.fr.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:27.404Z",
+      "last_seen": "2026-04-20T05:54:27.404Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.id.md",
+      "name": "readme.id.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:28.989Z",
+      "last_seen": "2026-04-20T05:54:28.989Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.ja.md",
+      "name": "readme.ja.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:30.997Z",
+      "last_seen": "2026-04-20T05:54:30.997Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.ko.md",
+      "name": "readme.ko.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:33.003Z",
+      "last_seen": "2026-04-20T05:54:33.003Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "readme.md",
       "name": "readme.md",
+      "type": [],
+      "confidence": 100,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/mcp-ui-webmcp",
+          "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: gabrielreve96/webmcp",
+          "url": "https://github.com/gabrielreve96/webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-userscripts",
+          "url": "https://github.com/WebMCP-org/webmcp-userscripts"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:42.848Z",
+      "last_seen": "2026-04-09T05:23:26.262Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.pl.md",
+      "name": "readme.pl.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:45.479Z",
+      "last_seen": "2026-04-20T05:54:45.479Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.pt.md",
+      "name": "readme.pt.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:47.759Z",
+      "last_seen": "2026-04-20T05:54:47.759Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.ru.md",
+      "name": "readme.ru.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:49.653Z",
+      "last_seen": "2026-04-20T05:54:49.653Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.th.md",
+      "name": "readme.th.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:51.397Z",
+      "last_seen": "2026-04-20T05:54:51.397Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "readme.tr.md",
+      "name": "readme.tr.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:53.660Z",
+      "last_seen": "2026-04-20T05:54:53.660Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "registry.js",
+      "name": "registry.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:55.381Z",
+      "last_seen": "2026-04-20T05:54:55.381Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "requirements.in",
+      "name": "requirements.in",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -24041,12 +26253,426 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: WebMCP-org/mcp-ui-webmcp",
-          "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
         }
       ],
-      "last_checked": "2026-04-09T05:23:26.262Z",
-      "last_seen": "2026-04-09T05:23:26.262Z",
+      "last_checked": "2026-04-20T05:54:57.298Z",
+      "last_seen": "2026-04-20T05:54:57.298Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "requirements.txt",
+      "name": "requirements.txt",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:54:59.726Z",
+      "last_seen": "2026-04-20T05:54:59.726Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "resp.json",
+      "name": "resp.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:01.283Z",
+      "last_seen": "2026-04-20T05:55:01.283Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "response.json",
+      "name": "response.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:03.335Z",
+      "last_seen": "2026-04-20T05:55:03.335Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "result.content",
+      "name": "result.content",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:05.250Z",
+      "last_seen": "2026-04-20T05:55:05.250Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "rickandmortyapi.com",
+      "name": "rickandmortyapi.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: gabrielreve96/webmcp",
+          "url": "https://github.com/gabrielreve96/webmcp"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:07.249Z",
+      "last_seen": "2026-04-20T05:55:07.249Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "rpmsphere.github.io",
+      "name": "rpmsphere.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: rpmsphere/spec",
+          "url": "https://github.com/rpmsphere/spec"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:09.262Z",
+      "last_seen": "2026-04-20T05:55:09.262Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "scipy.org",
+      "name": "scipy.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:11.274Z",
+      "last_seen": "2026-04-20T05:55:11.274Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "screenshot.png",
+      "name": "screenshot.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:13.275Z",
+      "last_seen": "2026-04-20T05:55:13.275Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "script.user.js",
+      "name": "script.user.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-userscripts",
+          "url": "https://github.com/WebMCP-org/webmcp-userscripts"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:15.262Z",
+      "last_seen": "2026-04-20T05:55:15.262Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "sentry.captureexception",
+      "name": "sentry.captureexception",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:17.344Z",
+      "last_seen": "2026-04-20T05:55:17.344Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "server.connect",
+      "name": "server.connect",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:19.276Z",
+      "last_seen": "2026-04-20T05:55:19.276Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "server.py",
+      "name": "server.py",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:21.290Z",
+      "last_seen": "2026-04-20T05:55:21.290Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "server.tool",
+      "name": "server.tool",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:23.406Z",
+      "last_seen": "2026-04-20T05:55:23.406Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "session.prompt",
+      "name": "session.prompt",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:25.336Z",
+      "last_seen": "2026-04-20T05:55:25.336Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "settings.js",
+      "name": "settings.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:27.261Z",
+      "last_seen": "2026-04-20T05:55:27.261Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "sidebar.css",
+      "name": "sidebar.css",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:29.260Z",
+      "last_seen": "2026-04-20T05:55:29.260Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "sidebar.html",
+      "name": "sidebar.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:31.460Z",
+      "last_seen": "2026-04-20T05:55:31.460Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "sidebar.js",
+      "name": "sidebar.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:33.271Z",
+      "last_seen": "2026-04-20T05:55:33.271Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24070,6 +26696,52 @@
       ],
       "last_checked": "2026-04-09T05:23:29.148Z",
       "last_seen": "2026-04-09T05:23:29.148Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "site-a.com",
+      "name": "site-a.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:35.272Z",
+      "last_seen": "2026-04-20T05:55:35.272Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "site-b.com",
+      "name": "site-b.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:37.383Z",
+      "last_seen": "2026-04-20T05:55:37.383Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24120,6 +26792,144 @@
       "verification_available": true
     },
     {
+      "domain": "state.js",
+      "name": "state.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: creuzerm/tinyinsulationcalculator",
+          "url": "https://github.com/creuzerm/tinyinsulationcalculator"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:39.356Z",
+      "last_seen": "2026-04-20T05:55:39.356Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "sw.js",
+      "name": "sw.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:41.349Z",
+      "last_seen": "2026-04-20T05:55:41.349Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "systemd.md",
+      "name": "systemd.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:43.324Z",
+      "last_seen": "2026-04-20T05:55:43.324Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "t.description",
+      "name": "t.description",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:45.396Z",
+      "last_seen": "2026-04-20T05:55:45.396Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "t.inputschema",
+      "name": "t.inputschema",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:47.266Z",
+      "last_seen": "2026-04-20T05:55:47.266Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "t.name",
+      "name": "t.name",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:49.273Z",
+      "last_seen": "2026-04-20T05:55:49.273Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "tailwindcss.com",
       "name": "tailwindcss.com",
       "type": [],
@@ -24139,6 +26949,29 @@
       ],
       "last_checked": "2026-04-09T05:23:35.373Z",
       "last_seen": "2026-04-09T05:23:35.373Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "test.js",
+      "name": "test.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: creuzerm/tinyinsulationcalculator",
+          "url": "https://github.com/creuzerm/tinyinsulationcalculator"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:51.302Z",
+      "last_seen": "2026-04-20T05:55:51.302Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24166,6 +26999,75 @@
       "verification_available": true
     },
     {
+      "domain": "thumbnail.png",
+      "name": "thumbnail.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: MiguelsPizza/WebMCP",
+          "url": "https://github.com/MiguelsPizza/WebMCP"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:53.351Z",
+      "last_seen": "2026-04-20T05:55:53.351Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "tool.execute",
+      "name": "tool.execute",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:55.359Z",
+      "last_seen": "2026-04-20T05:55:55.359Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "tools.map",
+      "name": "tools.map",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:57.303Z",
+      "last_seen": "2026-04-20T05:55:57.303Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "transformers.js",
       "name": "transformers.js",
       "type": [],
@@ -24185,6 +27087,29 @@
       ],
       "last_checked": "2026-04-09T05:23:39.119Z",
       "last_seen": "2026-04-09T05:23:39.119Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "travel-site.com",
+      "name": "travel-site.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:55:59.370Z",
+      "last_seen": "2026-04-20T05:55:59.370Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24350,6 +27275,29 @@
       "verification_available": true
     },
     {
+      "domain": "user.js",
+      "name": "user.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebMCP-org/webmcp-userscripts",
+          "url": "https://github.com/WebMCP-org/webmcp-userscripts"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:09.262Z",
+      "last_seen": "2026-04-20T05:56:09.262Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "usewebmcpintegration.ts",
       "name": "usewebmcpintegration.ts",
       "type": [],
@@ -24369,6 +27317,52 @@
       ],
       "last_checked": "2026-04-09T05:23:55.122Z",
       "last_seen": "2026-04-09T05:23:55.122Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "vendor-site.com",
+      "name": "vendor-site.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:10.471Z",
+      "last_seen": "2026-04-20T05:56:10.471Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "victorhuangwq.github.io",
+      "name": "victorhuangwq.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: victorhuangwq/webmcp-explorer",
+          "url": "https://github.com/victorhuangwq/webmcp-explorer"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:12.397Z",
+      "last_seen": "2026-04-20T05:56:12.397Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24419,11 +27413,103 @@
       "verification_available": true
     },
     {
-      "domain": "webmachinelearning.github.io",
-      "name": "webmachinelearning.github.io",
+      "domain": "visualiser.png",
+      "name": "visualiser.png",
       "type": [],
       "confidence": 30,
       "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ryanbateman/mqtt_vis",
+          "url": "https://github.com/ryanbateman/mqtt_vis"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:14.379Z",
+      "last_seen": "2026-04-20T05:56:14.379Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webcontrol-0.920-linux-singledirectory.tar.gz",
+      "name": "webcontrol-0.920-linux-singledirectory.tar.gz",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:16.460Z",
+      "last_seen": "2026-04-20T05:56:16.460Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webcontrol-0.920-rpi-singledirectory.tar.gz",
+      "name": "webcontrol-0.920-rpi-singledirectory.tar.gz",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:18.460Z",
+      "last_seen": "2026-04-20T05:56:18.460Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webcontrol.service",
+      "name": "webcontrol.service",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: WebControlCNC/WebControl",
+          "url": "https://github.com/WebControlCNC/WebControl"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:20.462Z",
+      "last_seen": "2026-04-20T05:56:20.462Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webmachinelearning.github.io",
+      "name": "webmachinelearning.github.io",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -24434,10 +27520,137 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/docs",
           "url": "https://github.com/WebMCP-org/docs"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: hemanth/webmcp-connect",
+          "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-04-09T05:24:01.120Z",
+      "last_checked": "2026-04-20T05:56:22.387Z",
       "last_seen": "2026-04-09T05:24:01.120Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webmcp-api.js",
+      "name": "webmcp-api.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pawn-4-git/webmcp_test",
+          "url": "https://github.com/pawn-4-git/webmcp_test"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:24.387Z",
+      "last_seen": "2026-04-20T05:56:24.387Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webmcp-example.html",
+      "name": "webmcp-example.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:26.415Z",
+      "last_seen": "2026-04-20T05:56:26.415Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webmcp-gateway.git",
+      "name": "webmcp-gateway.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: salespeak-ai/webmcp-gateway",
+          "url": "https://github.com/salespeak-ai/webmcp-gateway"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:28.466Z",
+      "last_seen": "2026-04-20T05:56:28.466Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webmcp-smoke-test.mjs",
+      "name": "webmcp-smoke-test.mjs",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Lian0123/virtual-business-card-project",
+          "url": "https://github.com/Lian0123/virtual-business-card-project"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:30.388Z",
+      "last_seen": "2026-04-20T05:56:30.388Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "webmcp.dev",
+      "name": "webmcp.dev",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: jasonjmcghee/WebMCP",
+          "url": "https://github.com/jasonjmcghee/WebMCP"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://webmcp.dev/"
+        }
+      ],
+      "last_checked": "2026-04-20T05:56:32.394Z",
+      "last_seen": "2026-04-20T05:56:32.394Z",
       "sponsored": false,
       "verification_available": true
     },
