@@ -1,0 +1,127 @@
+---
+title: 'OpenAPI Specs for Agents: Beyond Human Developers'
+slug: openapi-specs-for-agents
+date: '2026-04-21'
+updated: '2026-04-21'
+summary: >-
+  How to write OpenAPI specs for LLMs that need to choose the right operation,
+  understand edge cases, and recover from failures without a human reading the
+  docs first.
+tags:
+  - OpenAPI
+  - agentic web
+  - LLMs
+  - API design
+  - developer experience
+category: how-to
+audience:
+  - developers
+affiliate_links: []
+reading_time_minutes: 8
+human_url: /blog/openapi-specs-for-agents
+agent_url: /blog/openapi-specs-for-agents.md
+canonical: 'https://windrose-ai.com/blog/openapi-specs-for-agents'
+agent_context:
+  key_claims:
+    - >-
+      LLMs use OpenAPI descriptions, examples, and operationIds as navigation
+      signals, not just documentation.
+    - >-
+      High-quality error semantics improve agent recovery because the model can
+      distinguish retryable, validation, and authorization failures.
+    - >-
+      Example-rich specs help agents infer parameter shape, required fields, and
+      acceptable edge cases faster than prose alone.
+    - >-
+      OperationId naming works best when it is stable, verb-first, and
+      semantically distinct across related endpoints.
+  tools_mentioned:
+    - name: OpenAPI
+      role: API specification format used by agents to discover and call operations
+      url: 'https://www.openapis.org/'
+    - name: Swagger UI
+      role: >-
+        Interactive API documentation viewer that reflects how specs are
+        rendered for humans and can expose gaps in machine-readable detail
+      url: 'https://swagger.io/tools/swagger-ui/'
+    - name: Postman
+      role: >-
+        API client and testing tool for validating request/response shapes and
+        error behavior
+      url: 'https://www.postman.com/'
+    - name: Perplexity
+      role: >-
+        Example of AI-native retrieval behavior that rewards structured,
+        explicit information
+      url: 'https://www.perplexity.ai/'
+  recommended_actions:
+    - >-
+      Rewrite descriptions so each operation states the exact preconditions,
+      side effects, and success criteria in plain language.
+    - >-
+      Add at least two examples per important operation, including one happy
+      path and one edge case or invalid input.
+    - >-
+      Standardize error responses with machine-readable codes and actionable
+      remediation hints.
+    - >-
+      Audit operationIds for uniqueness, verb clarity, and stable naming across
+      versions.
+  related:
+    - /blog/how-agents-discover-services.md
+    - /blog/what-agents-read-on-your-website.md
+    - /blog/designing-apis-for-ai-agents.md
+postType: explainer
+---
+
+## The day our agent shipped a label to the wrong endpoint
+
+I was wiring up an agent to create shipping labels, and it kept calling `POST /orders/{id}` instead of `POST /shipments`. Both endpoints looked “close enough” in the spec, which is exactly the problem. We had thin descriptions, one happy-path example, and operationIds like `create` and `update` that made sense to us but gave the model almost nothing to work with. Once we rewrote the spec to say, in plain language, “this creates a label for an already-paid order and does not capture payment,” the agent stopped improvising.
+
+That pattern shows up everywhere we build agent workflows. An LLM does not skim an API reference the way a human developer does. It hunts for signals: what this operation does, when to use it, what can go wrong, and which endpoint is the safest match for the current task. If the spec is vague, the model will guess. In production, guessing turns into retries, failed transactions, duplicate side effects, or the wrong record getting touched.
+
+## Descriptions need to read like instructions, not marketing copy
+
+For a human developer, “Create a shipment” is often enough because they can click around, inspect examples, and ask follow-up questions. For an agent, the description has to answer the questions it would otherwise infer: does this reserve inventory, does it charge the customer, is it idempotent, and what state must already exist before calling it? OpenAPI `description` fields are one of the few places where we can encode that logic directly into the spec, and they matter more than most teams expect.
+
+A good agent-facing description is specific about preconditions, side effects, and success criteria. For example: “Creates a shipping label for an already-paid order. The order must be in `fulfilled` or `packable` status. This operation does not capture payment. Returns a label URL and tracking number when the carrier accepts the request.” That one paragraph tells the model when to call the endpoint, what not to assume, and what success looks like.
+
+This is where a lot of specs fail: they describe the endpoint name instead of the operational contract. If an endpoint requires a currency code, a shipping country, or a verified email, say so in the description and schema. If a field is optional but changes behavior, say that too. We have all seen APIs where “optional” really means “required unless you want the default behavior to break your workflow.” Agents do not handle that kind of ambiguity gracefully.
+
+## Examples are the shortest path from text to action
+
+Examples do more than teach syntax. They anchor the model’s guess about which fields matter, what valid data looks like, and how nested objects are structured. In practice, a spec with rich examples is easier for an agent to use than a spec with perfect prose and no examples. That matters because models often generalize from examples faster than from schema constraints alone, especially when the payload has multiple valid shapes.
+
+The strongest pattern is to include at least one happy-path example and one failure or edge-case example for important operations. If the endpoint accepts a discount code, show a valid code and a rejected code. If a search endpoint supports pagination, show the first page and a page-token continuation. If a payment or fulfillment API has a country-specific branch, show the branch explicitly.
+
+Concrete example: imagine an agent calling `POST /refunds`. A weak spec says only `amount: number`. A stronger spec shows `amount: 2500`, `currency: "usd"`, `reason: "customer_request"`, and a second example where `amount` is omitted because the full remaining balance is being refunded. That second example can prevent a model from inventing a partial refund when the business rule only allows full refunds. The more your examples reflect real edge cases, the less the agent has to hallucinate the shape of the request.
+
+## Error semantics are how agents recover instead of spiraling
+
+Human developers can read a 400 response, inspect logs, and try again. Agents need the response itself to tell them what happened and what to do next. That means your error model should separate validation failures, authentication failures, authorization failures, rate limits, conflict errors, and transient upstream problems. A single generic `error: true` field is not enough for an LLM to choose the right recovery path.
+
+At minimum, use consistent HTTP status codes and machine-readable error codes. A `422` with `code: invalid_address` is much more actionable than a `400` with “bad request.” A `409` should mean a real conflict, like duplicate order creation or a stale state transition. A `401` should tell the agent whether credentials are missing, expired, or scoped incorrectly. If the API is retryable, say that plainly in the body or headers. Postman tests help here because they force you to exercise these branches instead of assuming the happy path covers everything.
+
+This matters a lot in agentic commerce and fulfillment, where the wrong retry can create duplicate charges, duplicate shipments, or repeated webhooks. Nobody has solved the boring parts of auth, payments, and fulfillment perfectly yet, and that is exactly why error semantics matter. If the agent sees a `429` with a `retry_after_seconds` hint, it can back off. If it sees a `403` with a scope issue, it can stop trying. That distinction is plumbing, but the agentic web is mostly plumbing, so the plumbing wins.
+
+## OperationId naming is the agent’s map, not just your codegen key
+
+Humans can tolerate operationIds like `create`, `list`, and `getById` because they infer context from the surrounding text. Agents do much better when operationIds are stable, verb-first, and semantically distinct. `createShipment`, `cancelShipment`, and `trackShipment` are much easier to navigate than `create1`, `create2`, and `shipmentAction`. The name becomes a retrieval hint, a disambiguation signal, and often the first thing the model uses when choosing between similar operations.
+
+Good naming also reduces cross-endpoint confusion. If you have both `createOrder` and `createDraftOrder`, the model can reason about lifecycle stages. If you have `updateOrder`, `patchOrder`, and `modifyOrder` for the same resource, you are making the agent guess about semantics that should be explicit. Keep names stable across versions, because agents may have cached or learned prior tool mappings. Renaming `refundPayment` to `issueRefund` might look harmless to a human, but it can degrade tool selection in ways that are hard to debug.
+
+The pattern I keep coming back to is a consistent verb-object convention with lifecycle qualifiers when needed. `listInvoices`, `getInvoice`, `sendInvoice`, `voidInvoice` is clear. `startCheckoutSession` and `confirmCheckoutSession` are clearer than `checkout` and `confirm`. Perplexity is a useful reminder here: AI-native systems work best when the information is structured into obvious paths. Your operationIds should do the same for APIs. If the model can navigate the spec without reading a novel, you have done your job.
+
+## The bottom line
+
+Write OpenAPI for the agent that has to act, not the developer who already knows the domain. Make descriptions explicit, examples rich, errors machine-actionable, and operationIds stable and specific.
+
+If you do one thing this week, audit your top five endpoints as if an LLM had to choose between them with no human in the loop. The spec should tell it what to call, when not to call it, and how to recover when the world is messy.
+
+## References
+
+- https://spec.openapis.org/oas/latest.html
+- https://swagger.io/specification/
+- https://www.postman.com/
+- https://www.perplexity.ai/
+- https://www.openapis.org/
