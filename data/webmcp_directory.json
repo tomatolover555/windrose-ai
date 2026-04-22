@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T05:42:43.351Z",
+  "updated_at": "2026-04-22T05:41:51.761Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -126,7 +126,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +134,7 @@
           "url": "https://github.com/edward-playground/aidefense-framework"
         }
       ],
-      "last_checked": "2026-03-12T04:58:14.145Z",
+      "last_checked": "2026-04-22T05:35:04.308Z",
       "last_seen": "2026-03-12T04:58:14.145Z",
       "sponsored": false,
       "verification_available": true
@@ -471,7 +471,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 34,
+      "fail_streak": 35,
       "evidence": [
         {
           "kind": "github_hit",
@@ -484,7 +484,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:49:56.582Z",
+      "last_checked": "2026-04-22T05:35:06.176Z",
       "last_seen": "2026-03-02T04:59:03.766Z",
       "sponsored": false,
       "verification_available": true
@@ -2362,7 +2362,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2370,7 +2370,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:34:26.898Z",
+      "last_checked": "2026-04-22T05:35:08.165Z",
       "last_seen": "2026-02-21T04:51:00.085Z",
       "sponsored": false,
       "verification_available": true
@@ -2960,7 +2960,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2968,7 +2968,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:49:24.250Z",
+      "last_checked": "2026-04-22T05:35:10.101Z",
       "last_seen": "2026-02-16T05:12:35.486Z",
       "sponsored": false,
       "verification_available": true
@@ -2983,7 +2983,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -2991,7 +2991,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:34:38.925Z",
+      "last_checked": "2026-04-22T05:35:12.101Z",
       "last_seen": "2026-02-21T04:51:05.624Z",
       "sponsored": false,
       "verification_available": true
@@ -3006,7 +3006,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3014,7 +3014,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:37:33.427Z",
+      "last_checked": "2026-04-22T05:35:14.102Z",
       "last_seen": "2026-03-24T05:07:25.405Z",
       "sponsored": false,
       "verification_available": true
@@ -3029,7 +3029,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3037,7 +3037,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:01.979Z",
+      "last_checked": "2026-04-22T05:35:16.372Z",
       "last_seen": "2026-03-02T05:01:42.822Z",
       "sponsored": false,
       "verification_available": true
@@ -3052,7 +3052,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3060,7 +3060,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:03.795Z",
+      "last_checked": "2026-04-22T05:35:18.253Z",
       "last_seen": "2026-03-02T05:01:44.964Z",
       "sponsored": false,
       "verification_available": true
@@ -3075,7 +3075,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3083,7 +3083,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:05.969Z",
+      "last_checked": "2026-04-22T05:35:20.227Z",
       "last_seen": "2026-03-02T05:01:46.966Z",
       "sponsored": false,
       "verification_available": true
@@ -3098,7 +3098,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3106,7 +3106,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:07.963Z",
+      "last_checked": "2026-04-22T05:35:22.239Z",
       "last_seen": "2026-03-02T05:01:48.955Z",
       "sponsored": false,
       "verification_available": true
@@ -3121,7 +3121,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3129,7 +3129,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:09.968Z",
+      "last_checked": "2026-04-22T05:35:24.228Z",
       "last_seen": "2026-03-02T05:01:50.966Z",
       "sponsored": false,
       "verification_available": true
@@ -3144,7 +3144,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3152,7 +3152,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:11.967Z",
+      "last_checked": "2026-04-22T05:35:26.230Z",
       "last_seen": "2026-03-02T05:01:52.964Z",
       "sponsored": false,
       "verification_available": true
@@ -3167,7 +3167,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3175,7 +3175,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:13.968Z",
+      "last_checked": "2026-04-22T05:35:28.576Z",
       "last_seen": "2026-03-02T05:01:54.923Z",
       "sponsored": false,
       "verification_available": true
@@ -3259,7 +3259,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3267,7 +3267,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:50:12.741Z",
+      "last_checked": "2026-04-22T05:35:30.226Z",
       "last_seen": "2026-03-07T04:44:48.021Z",
       "sponsored": false,
       "verification_available": true
@@ -3282,7 +3282,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3290,7 +3290,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:50:14.610Z",
+      "last_checked": "2026-04-22T05:35:32.103Z",
       "last_seen": "2026-03-07T04:44:49.979Z",
       "sponsored": false,
       "verification_available": true
@@ -3328,7 +3328,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3336,7 +3336,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:50:16.639Z",
+      "last_checked": "2026-04-22T05:35:34.100Z",
       "last_seen": "2026-03-07T04:44:51.974Z",
       "sponsored": false,
       "verification_available": true
@@ -3420,7 +3420,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3428,7 +3428,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:21.817Z",
+      "last_checked": "2026-04-22T05:35:36.166Z",
       "last_seen": "2026-03-02T05:01:56.965Z",
       "sponsored": false,
       "verification_available": true
@@ -3443,7 +3443,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3451,7 +3451,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:37:35.684Z",
+      "last_checked": "2026-04-22T05:35:38.227Z",
       "last_seen": "2026-03-24T05:07:43.507Z",
       "sponsored": false,
       "verification_available": true
@@ -3573,6 +3573,52 @@
       ],
       "last_checked": "2026-02-17T05:04:53.822Z",
       "last_seen": "2026-02-16T05:12:41.973Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent.stub.decrement",
+      "name": "agent.stub.decrement",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/agents",
+          "url": "https://github.com/cloudflare/agents"
+        }
+      ],
+      "last_checked": "2026-04-22T05:35:40.102Z",
+      "last_seen": "2026-04-22T05:35:40.102Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent.stub.increment",
+      "name": "agent.stub.increment",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/agents",
+          "url": "https://github.com/cloudflare/agents"
+        }
+      ],
+      "last_checked": "2026-04-22T05:35:42.171Z",
+      "last_seen": "2026-04-22T05:35:42.171Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3807,6 +3853,29 @@
       "verification_available": true
     },
     {
+      "domain": "agents.cloudflare.com",
+      "name": "agents.cloudflare.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/agents",
+          "url": "https://github.com/cloudflare/agents"
+        }
+      ],
+      "last_checked": "2026-04-22T05:35:44.098Z",
+      "last_seen": "2026-04-22T05:35:44.098Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "agents.keak.com",
       "name": "agents.keak.com",
       "type": [
@@ -3882,9 +3951,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/examples",
           "url": "https://github.com/WebMCP-org/examples"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/agents",
+          "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-04-21T05:36:20.234Z",
+      "last_checked": "2026-04-22T05:35:46.107Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -3899,7 +3973,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3907,7 +3981,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:50:20.763Z",
+      "last_checked": "2026-04-22T05:35:48.106Z",
       "last_seen": "2026-03-07T04:44:59.889Z",
       "sponsored": false,
       "verification_available": true
@@ -3958,7 +4032,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-04-19T05:37:37.734Z",
+      "last_checked": "2026-04-22T05:35:50.179Z",
       "last_seen": "2026-02-16T05:12:44.995Z",
       "sponsored": false,
       "verification_available": true
@@ -4142,7 +4216,7 @@
           "url": "https://github.com/happyhj/webmcp-blackjack"
         }
       ],
-      "last_checked": "2026-04-17T05:37:18.541Z",
+      "last_checked": "2026-04-22T05:35:52.353Z",
       "last_seen": "2026-02-25T05:07:29.271Z",
       "sponsored": false,
       "verification_available": true
@@ -4195,8 +4269,8 @@
           "url": "https://aidefend.net/"
         }
       ],
-      "last_checked": "2026-03-12T05:01:33.923Z",
-      "last_seen": "2026-03-12T05:01:33.923Z",
+      "last_checked": "2026-04-22T05:35:54.297Z",
+      "last_seen": "2026-04-22T05:35:54.297Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4353,7 +4427,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4361,7 +4435,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:21:37.858Z",
+      "last_checked": "2026-04-22T05:35:56.113Z",
       "last_seen": "2026-03-02T05:02:09.893Z",
       "sponsored": false,
       "verification_available": true
@@ -4468,7 +4542,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4476,7 +4550,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:50:27.700Z",
+      "last_checked": "2026-04-22T05:35:58.221Z",
       "last_seen": "2026-03-07T04:45:09.885Z",
       "sponsored": false,
       "verification_available": true
@@ -4491,7 +4565,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4504,7 +4578,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-04-20T05:49:34.107Z",
+      "last_checked": "2026-04-22T05:36:00.158Z",
       "last_seen": "2026-02-20T05:02:27.341Z",
       "sponsored": false,
       "verification_available": true
@@ -4565,7 +4639,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4573,7 +4647,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:37:41.466Z",
+      "last_checked": "2026-04-22T05:36:02.095Z",
       "last_seen": "2026-03-24T05:07:53.498Z",
       "sponsored": false,
       "verification_available": true
@@ -4588,7 +4662,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4596,7 +4670,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:37:43.841Z",
+      "last_checked": "2026-04-22T05:36:04.232Z",
       "last_seen": "2026-03-24T05:07:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -4611,7 +4685,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4619,7 +4693,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:37:45.565Z",
+      "last_checked": "2026-04-22T05:36:06.220Z",
       "last_seen": "2026-03-24T05:07:57.525Z",
       "sponsored": false,
       "verification_available": true
@@ -4634,7 +4708,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4642,7 +4716,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:37:47.674Z",
+      "last_checked": "2026-04-22T05:36:08.222Z",
       "last_seen": "2026-03-04T04:54:51.107Z",
       "sponsored": false,
       "verification_available": true
@@ -4657,7 +4731,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4665,7 +4739,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:37:49.515Z",
+      "last_checked": "2026-04-22T05:36:10.110Z",
       "last_seen": "2026-03-04T04:54:53.217Z",
       "sponsored": false,
       "verification_available": true
@@ -4749,7 +4823,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:37:51.437Z",
+      "last_checked": "2026-04-22T05:36:12.104Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -4804,7 +4878,7 @@
       "domain": "apache.org",
       "name": "apache.org",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -4821,9 +4895,14 @@
           "kind": "github_hit",
           "detail": "repo: JayantDevkar/claude-code-karma",
           "url": "https://github.com/JayantDevkar/claude-code-karma"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Xceptance/posters-demo-store",
+          "url": "https://github.com/Xceptance/posters-demo-store"
         }
       ],
-      "last_checked": "2026-04-13T05:50:48.141Z",
+      "last_checked": "2026-04-22T05:36:17.725Z",
       "last_seen": "2026-02-27T04:59:53.446Z",
       "sponsored": false,
       "verification_available": true
@@ -5068,7 +5147,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5076,7 +5155,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:38:00.501Z",
+      "last_checked": "2026-04-22T05:36:19.588Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -5104,7 +5183,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-04-19T05:38:02.598Z",
+      "last_checked": "2026-04-22T05:36:21.656Z",
       "last_seen": "2026-02-16T05:12:56.678Z",
       "sponsored": false,
       "verification_available": true
@@ -5165,7 +5244,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 52,
+      "fail_streak": 53,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5188,7 +5267,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-04-19T05:38:04.789Z",
+      "last_checked": "2026-04-22T05:36:23.862Z",
       "last_seen": "2026-02-20T05:02:36.897Z",
       "sponsored": false,
       "verification_available": true
@@ -5234,7 +5313,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:49:38.029Z",
+      "last_checked": "2026-04-22T05:36:25.696Z",
       "last_seen": "2026-02-16T05:13:00.672Z",
       "sponsored": false,
       "verification_available": true
@@ -5406,6 +5485,29 @@
       "verification_available": true
     },
     {
+      "domain": "application.yml",
+      "name": "application.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Xceptance/posters-demo-store",
+          "url": "https://github.com/Xceptance/posters-demo-store"
+        }
+      ],
+      "last_checked": "2026-04-22T05:36:27.749Z",
+      "last_seen": "2026-04-22T05:36:27.749Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "appspot.com",
       "name": "appspot.com",
       "type": [],
@@ -5438,7 +5540,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5446,7 +5548,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:08.096Z",
+      "last_checked": "2026-04-22T05:36:29.784Z",
       "last_seen": "2026-03-02T05:02:25.675Z",
       "sponsored": false,
       "verification_available": true
@@ -5461,7 +5563,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5469,7 +5571,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:10.184Z",
+      "last_checked": "2026-04-22T05:36:31.721Z",
       "last_seen": "2026-03-02T05:02:27.919Z",
       "sponsored": false,
       "verification_available": true
@@ -5484,7 +5586,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5492,7 +5594,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:38:10.520Z",
+      "last_checked": "2026-04-22T05:36:33.713Z",
       "last_seen": "2026-03-24T05:08:25.011Z",
       "sponsored": false,
       "verification_available": true
@@ -5555,7 +5657,7 @@
           "url": "https://github.com/ryanbateman/mqtt_vis"
         }
       ],
-      "last_checked": "2026-04-21T05:36:44.206Z",
+      "last_checked": "2026-04-22T05:36:35.712Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -5570,7 +5672,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 29,
+      "fail_streak": 30,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5578,7 +5680,7 @@
           "url": "https://github.com/MCPCat/webmcp-react"
         }
       ],
-      "last_checked": "2026-04-19T05:38:14.516Z",
+      "last_checked": "2026-04-22T05:36:37.602Z",
       "last_seen": "2026-03-07T04:45:42.161Z",
       "sponsored": false,
       "verification_available": true
@@ -5639,7 +5741,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5647,7 +5749,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-21T05:36:46.328Z",
+      "last_checked": "2026-04-22T05:36:39.587Z",
       "last_seen": "2026-02-27T05:00:07.348Z",
       "sponsored": false,
       "verification_available": true
@@ -5928,7 +6030,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-04-21T05:36:52.384Z",
+      "last_checked": "2026-04-22T05:36:41.658Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -5974,7 +6076,7 @@
           "url": "https://github.com/edward-playground/aidefense-framework"
         }
       ],
-      "last_checked": "2026-03-12T05:02:11.912Z",
+      "last_checked": "2026-04-22T05:36:43.592Z",
       "last_seen": "2026-03-12T05:02:11.912Z",
       "sponsored": false,
       "verification_available": true
@@ -5997,7 +6099,7 @@
           "url": "https://github.com/edward-playground/aidefense-framework"
         }
       ],
-      "last_checked": "2026-03-12T05:02:13.908Z",
+      "last_checked": "2026-04-22T05:36:45.581Z",
       "last_seen": "2026-03-12T05:02:13.908Z",
       "sponsored": false,
       "verification_available": true
@@ -6043,7 +6145,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:22.069Z",
+      "last_checked": "2026-04-22T05:36:47.599Z",
       "last_seen": "2026-03-02T05:02:41.728Z",
       "sponsored": false,
       "verification_available": true
@@ -6058,7 +6160,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6066,7 +6168,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:24.196Z",
+      "last_checked": "2026-04-22T05:36:49.605Z",
       "last_seen": "2026-03-02T05:02:43.685Z",
       "sponsored": false,
       "verification_available": true
@@ -6081,7 +6183,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6089,7 +6191,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:26.182Z",
+      "last_checked": "2026-04-22T05:36:51.713Z",
       "last_seen": "2026-03-02T05:02:45.789Z",
       "sponsored": false,
       "verification_available": true
@@ -6104,7 +6206,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6112,7 +6214,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:28.183Z",
+      "last_checked": "2026-04-22T05:36:53.715Z",
       "last_seen": "2026-03-02T05:02:47.785Z",
       "sponsored": false,
       "verification_available": true
@@ -6127,7 +6229,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6135,7 +6237,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:30.186Z",
+      "last_checked": "2026-04-22T05:36:55.724Z",
       "last_seen": "2026-03-02T05:02:49.786Z",
       "sponsored": false,
       "verification_available": true
@@ -6181,7 +6283,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:22:32.189Z",
+      "last_checked": "2026-04-22T05:36:57.715Z",
       "last_seen": "2026-03-02T05:02:51.784Z",
       "sponsored": false,
       "verification_available": true
@@ -6335,7 +6437,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6343,7 +6445,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:35:40.930Z",
+      "last_checked": "2026-04-22T05:36:59.925Z",
       "last_seen": "2026-02-21T04:51:41.124Z",
       "sponsored": false,
       "verification_available": true
@@ -6718,7 +6820,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6726,7 +6828,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:38:29.479Z",
+      "last_checked": "2026-04-22T05:37:01.797Z",
       "last_seen": "2026-03-04T04:55:50.829Z",
       "sponsored": false,
       "verification_available": true
@@ -6741,7 +6843,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6749,7 +6851,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:35:52.188Z",
+      "last_checked": "2026-04-22T05:37:03.592Z",
       "last_seen": "2026-02-21T04:51:51.178Z",
       "sponsored": false,
       "verification_available": true
@@ -6764,7 +6866,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 59,
+      "fail_streak": 60,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6827,7 +6929,7 @@
           "url": "https://github.com/nucliweb/webperf-snippets"
         }
       ],
-      "last_checked": "2026-04-21T05:36:56.307Z",
+      "last_checked": "2026-04-22T05:37:05.700Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -6888,7 +6990,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6901,7 +7003,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-04-13T05:51:21.351Z",
+      "last_checked": "2026-04-22T05:37:07.654Z",
       "last_seen": "2026-03-07T04:46:27.419Z",
       "sponsored": false,
       "verification_available": true
@@ -7077,7 +7179,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7085,7 +7187,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:38:37.652Z",
+      "last_checked": "2026-04-22T05:37:09.597Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -7123,7 +7225,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7131,7 +7233,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:38:40.019Z",
+      "last_checked": "2026-04-22T05:37:11.617Z",
       "last_seen": "2026-03-24T05:09:06.980Z",
       "sponsored": false,
       "verification_available": true
@@ -7169,7 +7271,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7177,7 +7279,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:05.936Z",
+      "last_checked": "2026-04-22T05:37:13.609Z",
       "last_seen": "2026-03-02T05:03:13.956Z",
       "sponsored": false,
       "verification_available": true
@@ -7445,7 +7547,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7463,7 +7565,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:51:27.392Z",
+      "last_checked": "2026-04-22T05:37:15.723Z",
       "last_seen": "2026-02-16T05:13:20.609Z",
       "sponsored": false,
       "verification_available": true
@@ -7577,7 +7679,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7585,7 +7687,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:38:47.445Z",
+      "last_checked": "2026-04-22T05:37:17.685Z",
       "last_seen": "2026-03-24T05:09:16.897Z",
       "sponsored": false,
       "verification_available": true
@@ -7646,7 +7748,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7654,7 +7756,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:14.172Z",
+      "last_checked": "2026-04-22T05:37:19.597Z",
       "last_seen": "2026-03-02T05:03:21.929Z",
       "sponsored": false,
       "verification_available": true
@@ -7669,7 +7771,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7677,7 +7779,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:16.289Z",
+      "last_checked": "2026-04-22T05:37:21.726Z",
       "last_seen": "2026-03-02T05:03:24.080Z",
       "sponsored": false,
       "verification_available": true
@@ -7692,7 +7794,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7700,7 +7802,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:18.287Z",
+      "last_checked": "2026-04-22T05:37:23.731Z",
       "last_seen": "2026-03-02T05:03:26.073Z",
       "sponsored": false,
       "verification_available": true
@@ -7715,7 +7817,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7723,7 +7825,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:20.283Z",
+      "last_checked": "2026-04-22T05:37:25.726Z",
       "last_seen": "2026-03-02T05:03:28.070Z",
       "sponsored": false,
       "verification_available": true
@@ -7738,7 +7840,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7746,7 +7848,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:22.282Z",
+      "last_checked": "2026-04-22T05:37:27.726Z",
       "last_seen": "2026-03-02T05:03:30.069Z",
       "sponsored": false,
       "verification_available": true
@@ -8014,7 +8116,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8022,7 +8124,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:39:01.449Z",
+      "last_checked": "2026-04-22T05:37:29.728Z",
       "last_seen": "2026-03-04T04:56:19.119Z",
       "sponsored": false,
       "verification_available": true
@@ -8037,7 +8139,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8045,7 +8147,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:03.529Z",
+      "last_checked": "2026-04-22T05:37:31.602Z",
       "last_seen": "2026-03-24T05:09:34.904Z",
       "sponsored": false,
       "verification_available": true
@@ -8106,7 +8208,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8114,7 +8216,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:39:05.579Z",
+      "last_checked": "2026-04-22T05:37:33.737Z",
       "last_seen": "2026-03-04T04:56:20.961Z",
       "sponsored": false,
       "verification_available": true
@@ -8142,7 +8244,7 @@
           "url": "https://github.com/beaufortfrancois/model-context-tool-inspector"
         }
       ],
-      "last_checked": "2026-04-20T05:50:05.528Z",
+      "last_checked": "2026-04-22T05:37:35.730Z",
       "last_seen": "2026-02-17T05:06:30.888Z",
       "sponsored": false,
       "verification_available": true
@@ -8203,7 +8305,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8211,7 +8313,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:34.663Z",
+      "last_checked": "2026-04-22T05:37:37.725Z",
       "last_seen": "2026-03-02T05:03:34.433Z",
       "sponsored": false,
       "verification_available": true
@@ -8226,7 +8328,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8234,7 +8336,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:50:06.632Z",
+      "last_checked": "2026-04-22T05:37:39.733Z",
       "last_seen": "2026-02-16T05:13:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -8295,7 +8397,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8303,7 +8405,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:38.160Z",
+      "last_checked": "2026-04-22T05:37:41.788Z",
       "last_seen": "2026-03-02T05:03:39.927Z",
       "sponsored": false,
       "verification_available": true
@@ -8336,7 +8438,7 @@
           "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-21T05:37:02.249Z",
+      "last_checked": "2026-04-22T05:37:43.731Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
       "sponsored": false,
       "verification_available": true
@@ -8397,7 +8499,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8405,7 +8507,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:42.192Z",
+      "last_checked": "2026-04-22T05:37:45.641Z",
       "last_seen": "2026-03-02T05:03:43.974Z",
       "sponsored": false,
       "verification_available": true
@@ -8558,7 +8660,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8566,7 +8668,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:46.378Z",
+      "last_checked": "2026-04-22T05:37:47.732Z",
       "last_seen": "2026-03-02T05:03:47.919Z",
       "sponsored": false,
       "verification_available": true
@@ -8604,7 +8706,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8612,7 +8714,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:39:13.547Z",
+      "last_checked": "2026-04-22T05:37:49.741Z",
       "last_seen": "2026-03-04T04:56:41.097Z",
       "sponsored": false,
       "verification_available": true
@@ -8627,7 +8729,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8635,7 +8737,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:39:15.525Z",
+      "last_checked": "2026-04-22T05:37:51.689Z",
       "last_seen": "2026-03-04T04:56:42.948Z",
       "sponsored": false,
       "verification_available": true
@@ -8819,7 +8921,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:39:17.444Z",
+      "last_checked": "2026-04-22T05:37:53.611Z",
       "last_seen": "2026-03-04T04:56:44.945Z",
       "sponsored": false,
       "verification_available": true
@@ -8857,7 +8959,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8865,7 +8967,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:23:48.287Z",
+      "last_checked": "2026-04-22T05:37:55.616Z",
       "last_seen": "2026-03-02T05:03:50.065Z",
       "sponsored": false,
       "verification_available": true
@@ -8918,7 +9020,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-04-21T05:37:10.248Z",
+      "last_checked": "2026-04-22T05:37:57.735Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -8979,7 +9081,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8992,7 +9094,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-20T05:50:16.592Z",
+      "last_checked": "2026-04-22T05:37:59.822Z",
       "last_seen": "2026-02-21T04:52:19.307Z",
       "sponsored": false,
       "verification_available": true
@@ -9122,7 +9224,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9130,7 +9232,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:19.455Z",
+      "last_checked": "2026-04-22T05:38:01.630Z",
       "last_seen": "2026-03-24T05:10:07.095Z",
       "sponsored": false,
       "verification_available": true
@@ -9145,7 +9247,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9153,7 +9255,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:21.581Z",
+      "last_checked": "2026-04-22T05:38:03.737Z",
       "last_seen": "2026-03-24T05:10:09.026Z",
       "sponsored": false,
       "verification_available": true
@@ -9245,7 +9347,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:39:23.725Z",
+      "last_checked": "2026-04-22T05:38:05.734Z",
       "last_seen": "2026-02-23T05:15:03.395Z",
       "sponsored": false,
       "verification_available": true
@@ -9397,7 +9499,7 @@
           "url": "https://github.com/beaufortfrancois/model-context-tool-inspector"
         }
       ],
-      "last_checked": "2026-04-21T05:37:18.202Z",
+      "last_checked": "2026-04-22T05:38:07.627Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -9481,7 +9583,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9489,7 +9591,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:04.255Z",
+      "last_checked": "2026-04-22T05:38:09.718Z",
       "last_seen": "2026-03-02T05:04:02.154Z",
       "sponsored": false,
       "verification_available": true
@@ -9504,7 +9606,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 59,
+      "fail_streak": 60,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9552,7 +9654,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-21T05:37:20.338Z",
+      "last_checked": "2026-04-22T05:38:12.034Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -9751,7 +9853,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9759,7 +9861,7 @@
           "url": "https://github.com/JayantDevkar/claude-code-karma"
         }
       ],
-      "last_checked": "2026-04-13T05:51:57.396Z",
+      "last_checked": "2026-04-22T05:38:13.686Z",
       "last_seen": "2026-03-07T04:47:35.701Z",
       "sponsored": false,
       "verification_available": true
@@ -9774,7 +9876,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9782,7 +9884,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:10.152Z",
+      "last_checked": "2026-04-22T05:38:15.617Z",
       "last_seen": "2026-03-02T05:04:05.997Z",
       "sponsored": false,
       "verification_available": true
@@ -9797,7 +9899,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9805,7 +9907,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:31.447Z",
+      "last_checked": "2026-04-22T05:38:17.640Z",
       "last_seen": "2026-03-24T05:10:24.892Z",
       "sponsored": false,
       "verification_available": true
@@ -9879,7 +9981,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:39:35.465Z",
+      "last_checked": "2026-04-22T05:38:19.702Z",
       "last_seen": "2026-02-23T05:15:11.409Z",
       "sponsored": false,
       "verification_available": true
@@ -9952,7 +10054,7 @@
           "url": "https://github.com/nathan-gage/webmcp-bridge"
         }
       ],
-      "last_checked": "2026-04-21T05:37:24.212Z",
+      "last_checked": "2026-04-22T05:38:21.792Z",
       "last_seen": "2026-02-16T05:13:44.623Z",
       "sponsored": false,
       "verification_available": true
@@ -9975,7 +10077,7 @@
           "url": "https://github.com/openclaw/skills"
         }
       ],
-      "last_checked": "2026-03-28T05:07:06.041Z",
+      "last_checked": "2026-04-22T05:38:24.622Z",
       "last_seen": "2026-02-16T05:13:46.967Z",
       "sponsored": false,
       "verification_available": true
@@ -9990,7 +10092,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9998,7 +10100,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:18.823Z",
+      "last_checked": "2026-04-22T05:38:26.300Z",
       "last_seen": "2026-03-02T05:04:14.234Z",
       "sponsored": false,
       "verification_available": true
@@ -10036,7 +10138,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10044,7 +10146,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:20.368Z",
+      "last_checked": "2026-04-22T05:38:28.417Z",
       "last_seen": "2026-03-02T05:04:18.092Z",
       "sponsored": false,
       "verification_available": true
@@ -10082,7 +10184,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10095,7 +10197,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-04-21T05:37:27.017Z",
+      "last_checked": "2026-04-22T05:38:30.412Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -10164,7 +10266,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:24.224Z",
+      "last_checked": "2026-04-22T05:38:32.366Z",
       "last_seen": "2026-03-02T05:04:24.113Z",
       "sponsored": false,
       "verification_available": true
@@ -10216,6 +10318,29 @@
       "verification_available": true
     },
     {
+      "domain": "client.tsx",
+      "name": "client.tsx",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/agents",
+          "url": "https://github.com/cloudflare/agents"
+        }
+      ],
+      "last_checked": "2026-04-22T05:38:34.552Z",
+      "last_seen": "2026-04-22T05:38:34.552Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "clinicaltrials.gov",
       "name": "clinicaltrials.gov",
       "type": [],
@@ -10253,7 +10378,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10261,7 +10386,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:26.661Z",
+      "last_checked": "2026-04-22T05:38:36.290Z",
       "last_seen": "2026-03-02T05:04:26.562Z",
       "sponsored": false,
       "verification_available": true
@@ -10284,7 +10409,7 @@
           "url": "https://github.com/edward-playground/aidefense-framework"
         }
       ],
-      "last_checked": "2026-03-12T05:04:29.552Z",
+      "last_checked": "2026-04-22T05:38:38.408Z",
       "last_seen": "2026-03-12T05:04:29.552Z",
       "sponsored": false,
       "verification_available": true
@@ -10345,7 +10470,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10353,7 +10478,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:36:59.478Z",
+      "last_checked": "2026-04-22T05:38:40.382Z",
       "last_seen": "2026-02-21T04:52:37.154Z",
       "sponsored": false,
       "verification_available": true
@@ -10368,7 +10493,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10376,7 +10501,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:30.399Z",
+      "last_checked": "2026-04-22T05:38:42.417Z",
       "last_seen": "2026-03-02T05:04:30.467Z",
       "sponsored": false,
       "verification_available": true
@@ -10391,7 +10516,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10399,7 +10524,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:32.561Z",
+      "last_checked": "2026-04-22T05:38:44.408Z",
       "last_seen": "2026-03-02T05:04:32.471Z",
       "sponsored": false,
       "verification_available": true
@@ -10414,7 +10539,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10422,7 +10547,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:45.918Z",
+      "last_checked": "2026-04-22T05:38:46.419Z",
       "last_seen": "2026-03-24T05:10:49.014Z",
       "sponsored": false,
       "verification_available": true
@@ -10437,7 +10562,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10445,7 +10570,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:36.564Z",
+      "last_checked": "2026-04-22T05:38:48.410Z",
       "last_seen": "2026-03-02T05:04:34.465Z",
       "sponsored": false,
       "verification_available": true
@@ -10496,7 +10621,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:47.867Z",
+      "last_checked": "2026-04-22T05:38:50.408Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -10534,7 +10659,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10542,7 +10667,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:39:49.659Z",
+      "last_checked": "2026-04-22T05:38:52.443Z",
       "last_seen": "2026-03-24T05:10:55.044Z",
       "sponsored": false,
       "verification_available": true
@@ -10565,7 +10690,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-21T05:37:28.503Z",
+      "last_checked": "2026-04-22T05:38:54.409Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -10670,6 +10795,29 @@
       "verification_available": true
     },
     {
+      "domain": "com.xceptance.posters.orderprocessing",
+      "name": "com.xceptance.posters.orderprocessing",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Xceptance/posters-demo-store",
+          "url": "https://github.com/Xceptance/posters-demo-store"
+        }
+      ],
+      "last_checked": "2026-04-22T05:38:56.302Z",
+      "last_seen": "2026-04-22T05:38:56.302Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "commit.md",
       "name": "commit.md",
       "type": [],
@@ -10687,7 +10835,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:24:45.167Z",
+      "last_checked": "2026-04-22T05:38:58.484Z",
       "last_seen": "2026-03-02T05:04:38.608Z",
       "sponsored": false,
       "verification_available": true
@@ -10998,7 +11146,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11006,7 +11154,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:39:59.614Z",
+      "last_checked": "2026-04-22T05:39:00.311Z",
       "last_seen": "2026-02-23T05:15:43.722Z",
       "sponsored": false,
       "verification_available": true
@@ -11072,7 +11220,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 30,
+      "fail_streak": 31,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11080,7 +11228,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:01.515Z",
+      "last_checked": "2026-04-22T05:39:02.368Z",
       "last_seen": "2026-03-04T04:57:55.957Z",
       "sponsored": false,
       "verification_available": true
@@ -11186,7 +11334,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11194,7 +11342,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:40:05.440Z",
+      "last_checked": "2026-04-22T05:39:04.283Z",
       "last_seen": "2026-03-24T05:11:12.959Z",
       "sponsored": false,
       "verification_available": true
@@ -11209,7 +11357,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11217,7 +11365,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:40:07.564Z",
+      "last_checked": "2026-04-22T05:39:06.423Z",
       "last_seen": "2026-03-24T05:11:15.008Z",
       "sponsored": false,
       "verification_available": true
@@ -11232,7 +11380,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11240,7 +11388,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:11.392Z",
+      "last_checked": "2026-04-22T05:39:08.286Z",
       "last_seen": "2026-03-02T05:04:54.706Z",
       "sponsored": false,
       "verification_available": true
@@ -11255,7 +11403,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 38,
+      "fail_streak": 39,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11263,7 +11411,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:09.435Z",
+      "last_checked": "2026-04-22T05:39:10.478Z",
       "last_seen": "2026-02-23T05:15:49.593Z",
       "sponsored": false,
       "verification_available": true
@@ -11278,7 +11426,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11286,7 +11434,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:15.553Z",
+      "last_checked": "2026-04-22T05:39:12.481Z",
       "last_seen": "2026-03-02T05:04:58.297Z",
       "sponsored": false,
       "verification_available": true
@@ -11301,7 +11449,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11309,7 +11457,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:40:11.432Z",
+      "last_checked": "2026-04-22T05:39:14.484Z",
       "last_seen": "2026-03-27T05:25:48.835Z",
       "sponsored": false,
       "verification_available": true
@@ -11347,7 +11495,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 36,
+      "fail_streak": 37,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11355,7 +11503,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:13.697Z",
+      "last_checked": "2026-04-22T05:39:16.410Z",
       "last_seen": "2026-02-23T05:15:51.592Z",
       "sponsored": false,
       "verification_available": true
@@ -11528,7 +11676,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11536,7 +11684,7 @@
           "url": "https://github.com/koumoul-dev/vuetify-jsonschema-form"
         }
       ],
-      "last_checked": "2026-04-19T05:40:15.431Z",
+      "last_checked": "2026-04-22T05:39:18.346Z",
       "last_seen": "2026-03-28T05:08:03.896Z",
       "sponsored": false,
       "verification_available": true
@@ -11574,7 +11722,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11582,7 +11730,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:17.573Z",
+      "last_checked": "2026-04-22T05:39:20.411Z",
       "last_seen": "2026-03-04T04:58:09.535Z",
       "sponsored": false,
       "verification_available": true
@@ -11693,9 +11841,14 @@
           "kind": "github_hit",
           "detail": "repo: WebControlCNC/WebControl",
           "url": "https://github.com/WebControlCNC/WebControl"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: pastelsky/prettyfish",
+          "url": "https://github.com/pastelsky/prettyfish"
         }
       ],
-      "last_checked": "2026-04-21T05:37:44.613Z",
+      "last_checked": "2026-04-22T05:39:22.367Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -11710,7 +11863,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11718,7 +11871,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:21.479Z",
+      "last_checked": "2026-04-22T05:39:24.334Z",
       "last_seen": "2026-03-04T04:58:13.598Z",
       "sponsored": false,
       "verification_available": true
@@ -11756,7 +11909,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11774,7 +11927,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-04-06T05:37:37.256Z",
+      "last_checked": "2026-04-22T05:39:26.316Z",
       "last_seen": "2026-02-16T05:14:20.614Z",
       "sponsored": false,
       "verification_available": true
@@ -11789,7 +11942,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11797,7 +11950,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:40:23.427Z",
+      "last_checked": "2026-04-22T05:39:32.775Z",
       "last_seen": "2026-03-28T05:08:10.773Z",
       "sponsored": false,
       "verification_available": true
@@ -12144,7 +12297,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12152,7 +12305,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:29.433Z",
+      "last_checked": "2026-04-22T05:39:33.912Z",
       "last_seen": "2026-03-04T04:58:20.284Z",
       "sponsored": false,
       "verification_available": true
@@ -12167,7 +12320,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12175,7 +12328,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:31.510Z",
+      "last_checked": "2026-04-22T05:39:35.993Z",
       "last_seen": "2026-02-23T05:16:05.871Z",
       "sponsored": false,
       "verification_available": true
@@ -12190,7 +12343,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12198,7 +12351,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:31.428Z",
+      "last_checked": "2026-04-22T05:39:37.877Z",
       "last_seen": "2026-03-02T05:05:16.318Z",
       "sponsored": false,
       "verification_available": true
@@ -12213,7 +12366,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12221,7 +12374,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:33.557Z",
+      "last_checked": "2026-04-22T05:39:39.907Z",
       "last_seen": "2026-03-02T05:05:18.462Z",
       "sponsored": false,
       "verification_available": true
@@ -12236,7 +12389,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12244,7 +12397,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:35.555Z",
+      "last_checked": "2026-04-22T05:39:41.906Z",
       "last_seen": "2026-03-02T05:05:20.478Z",
       "sponsored": false,
       "verification_available": true
@@ -12259,7 +12412,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12267,7 +12420,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:37.379Z",
+      "last_checked": "2026-04-22T05:39:43.907Z",
       "last_seen": "2026-03-02T05:05:22.474Z",
       "sponsored": false,
       "verification_available": true
@@ -12282,7 +12435,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12290,8 +12443,31 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:39.680Z",
+      "last_checked": "2026-04-22T05:39:45.915Z",
       "last_seen": "2026-03-02T05:05:24.472Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "creativecommons.org",
+      "name": "creativecommons.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: edward-playground/aidefense-framework",
+          "url": "https://github.com/edward-playground/aidefense-framework"
+        }
+      ],
+      "last_checked": "2026-04-22T05:39:47.907Z",
+      "last_seen": "2026-04-22T05:39:47.907Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12397,7 +12573,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12405,7 +12581,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:41.690Z",
+      "last_checked": "2026-04-22T05:39:49.790Z",
       "last_seen": "2026-03-02T05:05:28.342Z",
       "sponsored": false,
       "verification_available": true
@@ -12428,7 +12604,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:50:51.625Z",
+      "last_checked": "2026-04-22T05:39:51.778Z",
       "last_seen": "2026-02-16T05:14:32.626Z",
       "sponsored": false,
       "verification_available": true
@@ -12522,6 +12698,29 @@
       ],
       "last_checked": "2026-02-20T05:04:15.330Z",
       "last_seen": "2026-02-16T05:14:36.712Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "csrc.nist.gov",
+      "name": "csrc.nist.gov",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: edward-playground/aidefense-framework",
+          "url": "https://github.com/edward-playground/aidefense-framework"
+        }
+      ],
+      "last_checked": "2026-04-22T05:39:53.812Z",
+      "last_seen": "2026-04-22T05:39:53.812Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12742,7 +12941,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12750,7 +12949,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:25:45.441Z",
+      "last_checked": "2026-04-22T05:39:55.817Z",
       "last_seen": "2026-03-02T05:05:40.338Z",
       "sponsored": false,
       "verification_available": true
@@ -12788,7 +12987,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12796,7 +12995,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:35.457Z",
+      "last_checked": "2026-04-22T05:39:57.906Z",
       "last_seen": "2026-02-23T05:16:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -12811,7 +13010,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12819,7 +13018,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:37.430Z",
+      "last_checked": "2026-04-22T05:39:59.815Z",
       "last_seen": "2026-02-23T05:16:21.753Z",
       "sponsored": false,
       "verification_available": true
@@ -12834,7 +13033,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12842,7 +13041,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:39.430Z",
+      "last_checked": "2026-04-22T05:40:01.783Z",
       "last_seen": "2026-02-23T05:16:23.721Z",
       "sponsored": false,
       "verification_available": true
@@ -12904,6 +13103,29 @@
       "verification_available": true
     },
     {
+      "domain": "d3fend.mitre.org",
+      "name": "d3fend.mitre.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: edward-playground/aidefense-framework",
+          "url": "https://github.com/edward-playground/aidefense-framework"
+        }
+      ],
+      "last_checked": "2026-04-22T05:40:03.985Z",
+      "last_seen": "2026-04-22T05:40:03.985Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "dailymorningbrief.ts",
       "name": "dailymorningbrief.ts",
       "type": [],
@@ -12959,7 +13181,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12967,8 +13189,31 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:40:41.442Z",
+      "last_checked": "2026-04-22T05:40:05.818Z",
       "last_seen": "2026-03-28T05:08:38.748Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dark-workspace.png",
+      "name": "dark-workspace.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pastelsky/prettyfish",
+          "url": "https://github.com/pastelsky/prettyfish"
+        }
+      ],
+      "last_checked": "2026-04-22T05:40:07.856Z",
+      "last_seen": "2026-04-22T05:40:07.856Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12982,7 +13227,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12990,7 +13235,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:40:43.436Z",
+      "last_checked": "2026-04-22T05:40:09.861Z",
       "last_seen": "2026-03-28T05:08:40.853Z",
       "sponsored": false,
       "verification_available": true
@@ -13143,7 +13388,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 23,
+      "fail_streak": 24,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13151,7 +13396,7 @@
           "url": "https://github.com/teaguesterling/duckdb_mcp"
         }
       ],
-      "last_checked": "2026-04-19T05:40:45.561Z",
+      "last_checked": "2026-04-22T05:40:11.904Z",
       "last_seen": "2026-02-25T05:09:46.628Z",
       "sponsored": false,
       "verification_available": true
@@ -13166,7 +13411,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13174,7 +13419,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:38:03.241Z",
+      "last_checked": "2026-04-22T05:40:13.783Z",
       "last_seen": "2026-02-21T04:53:24.664Z",
       "sponsored": false,
       "verification_available": true
@@ -13203,6 +13448,29 @@
       "verification_available": true
     },
     {
+      "domain": "databricks.com",
+      "name": "databricks.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: edward-playground/aidefense-framework",
+          "url": "https://github.com/edward-playground/aidefense-framework"
+        }
+      ],
+      "last_checked": "2026-04-22T05:40:15.784Z",
+      "last_seen": "2026-04-22T05:40:15.784Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "datasette.io",
       "name": "datasette.io",
       "type": [],
@@ -13220,7 +13488,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:47.443Z",
+      "last_checked": "2026-04-22T05:40:17.898Z",
       "last_seen": "2026-02-23T05:16:29.718Z",
       "sponsored": false,
       "verification_available": true
@@ -13243,7 +13511,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:49.697Z",
+      "last_checked": "2026-04-22T05:40:19.946Z",
       "last_seen": "2026-02-23T05:16:36.194Z",
       "sponsored": false,
       "verification_available": true
@@ -13281,7 +13549,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13294,7 +13562,7 @@
           "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-04-21T05:38:04.551Z",
+      "last_checked": "2026-04-22T05:40:21.824Z",
       "last_seen": "2026-02-16T05:14:42.607Z",
       "sponsored": false,
       "verification_available": true
@@ -13309,7 +13577,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13317,7 +13585,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:51.464Z",
+      "last_checked": "2026-04-22T05:40:23.807Z",
       "last_seen": "2026-02-23T05:16:39.295Z",
       "sponsored": false,
       "verification_available": true
@@ -13332,7 +13600,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13340,7 +13608,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:40:53.430Z",
+      "last_checked": "2026-04-22T05:40:25.785Z",
       "last_seen": "2026-02-23T05:16:41.226Z",
       "sponsored": false,
       "verification_available": true
@@ -13378,7 +13646,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13386,7 +13654,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:55.496Z",
+      "last_checked": "2026-04-22T05:40:27.784Z",
       "last_seen": "2026-03-06T04:59:06.244Z",
       "sponsored": false,
       "verification_available": true
@@ -13401,7 +13669,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13409,7 +13677,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:57.517Z",
+      "last_checked": "2026-04-22T05:40:29.864Z",
       "last_seen": "2026-03-06T04:59:08.237Z",
       "sponsored": false,
       "verification_available": true
@@ -13424,7 +13692,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13432,7 +13700,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:40:59.456Z",
+      "last_checked": "2026-04-22T05:40:32.041Z",
       "last_seen": "2026-03-06T04:59:10.255Z",
       "sponsored": false,
       "verification_available": true
@@ -13562,7 +13830,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13570,7 +13838,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:11.384Z",
+      "last_checked": "2026-04-22T05:40:33.857Z",
       "last_seen": "2026-03-06T04:59:12.251Z",
       "sponsored": false,
       "verification_available": true
@@ -13585,7 +13853,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13598,7 +13866,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:41:01.489Z",
+      "last_checked": "2026-04-22T05:40:35.912Z",
       "last_seen": "2026-03-06T04:59:14.522Z",
       "sponsored": false,
       "verification_available": true
@@ -13613,7 +13881,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13621,7 +13889,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:41:03.551Z",
+      "last_checked": "2026-04-22T05:40:37.903Z",
       "last_seen": "2026-03-28T05:08:58.880Z",
       "sponsored": false,
       "verification_available": true
@@ -13636,7 +13904,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13644,7 +13912,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:41:05.553Z",
+      "last_checked": "2026-04-22T05:40:39.986Z",
       "last_seen": "2026-04-01T05:36:12.812Z",
       "sponsored": false,
       "verification_available": true
@@ -13659,7 +13927,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13667,7 +13935,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:17.529Z",
+      "last_checked": "2026-04-22T05:40:41.904Z",
       "last_seen": "2026-03-06T04:59:16.338Z",
       "sponsored": false,
       "verification_available": true
@@ -13682,7 +13950,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13690,7 +13958,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:19.530Z",
+      "last_checked": "2026-04-22T05:40:43.905Z",
       "last_seen": "2026-03-06T04:59:18.526Z",
       "sponsored": false,
       "verification_available": true
@@ -13843,7 +14111,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13851,7 +14119,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:07.569Z",
+      "last_checked": "2026-04-22T05:40:45.911Z",
       "last_seen": "2026-02-23T05:16:45.264Z",
       "sponsored": false,
       "verification_available": true
@@ -13889,7 +14157,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13897,7 +14165,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:11.427Z",
+      "last_checked": "2026-04-22T05:40:47.790Z",
       "last_seen": "2026-02-23T05:16:47.214Z",
       "sponsored": false,
       "verification_available": true
@@ -13958,7 +14226,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13966,7 +14234,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:25.403Z",
+      "last_checked": "2026-04-22T05:40:49.777Z",
       "last_seen": "2026-03-06T04:59:24.225Z",
       "sponsored": false,
       "verification_available": true
@@ -13976,12 +14244,12 @@
       "name": "dependency-mapper.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13989,7 +14257,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:27.534Z",
+      "last_checked": "2026-04-22T05:40:51.898Z",
       "last_seen": "2026-03-28T05:09:10.881Z",
       "sponsored": false,
       "verification_available": true
@@ -14050,12 +14318,12 @@
       "name": "design-database-schema.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14063,7 +14331,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:31.467Z",
+      "last_checked": "2026-04-22T05:40:53.903Z",
       "last_seen": "2026-03-28T05:09:15.000Z",
       "sponsored": false,
       "verification_available": true
@@ -14073,12 +14341,12 @@
       "name": "design-rest-api.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14086,7 +14354,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:33.523Z",
+      "last_checked": "2026-04-22T05:40:55.906Z",
       "last_seen": "2026-03-28T05:09:16.881Z",
       "sponsored": false,
       "verification_available": true
@@ -14124,7 +14392,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14132,7 +14400,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:41:13.418Z",
+      "last_checked": "2026-04-22T05:40:57.898Z",
       "last_seen": "2026-03-28T05:09:18.881Z",
       "sponsored": false,
       "verification_available": true
@@ -14147,7 +14415,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14155,7 +14423,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:41:15.547Z",
+      "last_checked": "2026-04-22T05:40:59.897Z",
       "last_seen": "2026-03-28T05:09:20.879Z",
       "sponsored": false,
       "verification_available": true
@@ -14378,7 +14646,7 @@
           "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-04-21T05:38:24.480Z",
+      "last_checked": "2026-04-22T05:41:01.902Z",
       "last_seen": "2026-04-19T05:41:17.549Z",
       "sponsored": false,
       "verification_available": true
@@ -14410,7 +14678,7 @@
       "domain": "developers.cloudflare.com",
       "name": "developers.cloudflare.com",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -14427,9 +14695,14 @@
           "kind": "github_hit",
           "detail": "repo: WebMCP-org/mcp-ui-webmcp",
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/agents",
+          "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-04-19T05:41:21.760Z",
+      "last_checked": "2026-04-22T05:41:04.223Z",
       "last_seen": "2026-02-23T05:16:57.877Z",
       "sponsored": false,
       "verification_available": true
@@ -14462,12 +14735,12 @@
       "name": "development.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14475,7 +14748,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:43.391Z",
+      "last_checked": "2026-04-22T05:41:05.793Z",
       "last_seen": "2026-03-28T05:09:26.757Z",
       "sponsored": false,
       "verification_available": true
@@ -14485,12 +14758,12 @@
       "name": "devtools.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14498,7 +14771,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:45.779Z",
+      "last_checked": "2026-04-22T05:41:07.947Z",
       "last_seen": "2026-03-28T05:09:29.031Z",
       "sponsored": false,
       "verification_available": true
@@ -14513,7 +14786,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14521,7 +14794,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-04-19T05:41:25.611Z",
+      "last_checked": "2026-04-22T05:41:09.905Z",
       "last_seen": "2026-04-03T05:21:11.303Z",
       "sponsored": false,
       "verification_available": true
@@ -14669,12 +14942,12 @@
       "name": "digital-twin-creator.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14682,7 +14955,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:47.528Z",
+      "last_checked": "2026-04-22T05:41:11.773Z",
       "last_seen": "2026-03-28T05:09:30.877Z",
       "sponsored": false,
       "verification_available": true
@@ -14692,12 +14965,12 @@
       "name": "directory-deep-dive.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14705,7 +14978,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:49.526Z",
+      "last_checked": "2026-04-22T05:41:13.896Z",
       "last_seen": "2026-03-28T05:09:32.889Z",
       "sponsored": false,
       "verification_available": true
@@ -14786,7 +15059,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-21T05:38:27.895Z",
+      "last_checked": "2026-04-22T05:41:15.894Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -14865,12 +15138,12 @@
       "name": "doc-api.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14878,7 +15151,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:26:57.398Z",
+      "last_checked": "2026-04-22T05:41:17.801Z",
       "last_seen": "2026-03-28T05:09:38.731Z",
       "sponsored": false,
       "verification_available": true
@@ -14954,7 +15227,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14962,7 +15235,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-04-19T05:41:41.499Z",
+      "last_checked": "2026-04-22T05:41:19.893Z",
       "last_seen": "2026-03-28T05:09:40.878Z",
       "sponsored": false,
       "verification_available": true
@@ -14990,7 +15263,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:43.552Z",
+      "last_checked": "2026-04-22T05:41:21.892Z",
       "last_seen": "2026-03-29T05:27:01.520Z",
       "sponsored": false,
       "verification_available": true
@@ -15059,7 +15332,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:45.427Z",
+      "last_checked": "2026-04-22T05:41:23.780Z",
       "last_seen": "2026-02-23T05:17:05.201Z",
       "sponsored": false,
       "verification_available": true
@@ -15082,7 +15355,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:47.573Z",
+      "last_checked": "2026-04-22T05:41:25.954Z",
       "last_seen": "2026-02-23T05:17:07.572Z",
       "sponsored": false,
       "verification_available": true
@@ -15147,10 +15420,10 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-04-21T05:38:37.886Z"
+          "last_success": "2026-04-22T05:41:27.800Z"
         }
       ],
-      "last_verified_success": "2026-04-21T05:38:37.886Z",
+      "last_verified_success": "2026-04-22T05:41:27.800Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -15204,8 +15477,8 @@
           "url": "https://github.com/MasterKN48/webmcpTodoList"
         }
       ],
-      "last_checked": "2026-04-21T05:38:37.886Z",
-      "last_seen": "2026-04-21T05:38:37.886Z",
+      "last_checked": "2026-04-22T05:41:27.800Z",
+      "last_seen": "2026-04-22T05:41:27.800Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -15273,7 +15546,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:51.578Z",
+      "last_checked": "2026-04-22T05:41:29.860Z",
       "last_seen": "2026-02-23T05:17:15.259Z",
       "sponsored": false,
       "verification_available": true
@@ -15413,7 +15686,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 28,
+      "fail_streak": 29,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15441,7 +15714,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-04-21T05:38:41.885Z",
+      "last_checked": "2026-04-22T05:41:31.830Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -15456,7 +15729,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15464,7 +15737,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:41:59.481Z",
+      "last_checked": "2026-04-22T05:41:33.765Z",
       "last_seen": "2026-04-04T05:07:31.483Z",
       "sponsored": false,
       "verification_available": true
@@ -15640,7 +15913,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15648,7 +15921,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-04-19T05:42:07.487Z",
+      "last_checked": "2026-04-22T05:41:35.849Z",
       "last_seen": "2026-02-23T05:17:21.244Z",
       "sponsored": false,
       "verification_available": true
@@ -15694,7 +15967,7 @@
           "url": "https://github.com/SveltyCMS/SveltyCMS"
         }
       ],
-      "last_checked": "2026-04-06T05:39:19.196Z",
+      "last_checked": "2026-04-22T05:41:37.771Z",
       "last_seen": "2026-03-28T05:10:02.815Z",
       "sponsored": false,
       "verification_available": true
@@ -15723,6 +15996,29 @@
       "verification_available": true
     },
     {
+      "domain": "dspring-boot.build-image.imagename",
+      "name": "dspring-boot.build-image.imagename",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Xceptance/posters-demo-store",
+          "url": "https://github.com/Xceptance/posters-demo-store"
+        }
+      ],
+      "last_checked": "2026-04-22T05:41:39.941Z",
+      "last_seen": "2026-04-22T05:41:39.941Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "duckdb-mcp.readthedocs.io",
       "name": "duckdb-mcp.readthedocs.io",
       "type": [],
@@ -15740,7 +16036,7 @@
           "url": "https://github.com/teaguesterling/duckdb_mcp"
         }
       ],
-      "last_checked": "2026-04-19T05:42:09.418Z",
+      "last_checked": "2026-04-22T05:41:41.962Z",
       "last_seen": "2026-02-25T05:10:46.676Z",
       "sponsored": false,
       "verification_available": true
@@ -15842,12 +16138,12 @@
       "name": "e2e-setup.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15855,7 +16151,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-03-29T05:27:27.663Z",
+      "last_checked": "2026-04-22T05:41:44.054Z",
       "last_seen": "2026-03-28T05:10:06.934Z",
       "sponsored": false,
       "verification_available": true
@@ -15870,7 +16166,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15878,7 +16174,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-04-21T05:38:45.845Z",
+      "last_checked": "2026-04-22T05:41:45.890Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -15893,7 +16189,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15901,7 +16197,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:51:25.565Z",
+      "last_checked": "2026-04-22T05:41:47.851Z",
       "last_seen": "2026-02-16T05:15:30.224Z",
       "sponsored": false,
       "verification_available": true
@@ -15916,7 +16212,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15924,7 +16220,7 @@
           "url": "https://github.com/webmachinelearning/webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:51:27.683Z",
+      "last_checked": "2026-04-22T05:41:49.772Z",
       "last_seen": "2026-02-16T05:15:32.203Z",
       "sponsored": false,
       "verification_available": true
