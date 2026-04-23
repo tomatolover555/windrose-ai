@@ -1,0 +1,103 @@
+---
+title: 'Agent Observability: Logging What Machines Do on Your Behalf'
+slug: agent-observability-logging
+date: '2026-04-23'
+updated: '2026-04-23'
+summary: >-
+  When an agent acts autonomously, debugging it requires more than server logs:
+  you need structured event trails, tool call traces, and decision snapshots
+  that show why the machine did what it did.
+tags:
+  - agentic web
+  - observability
+  - logging
+  - debugging
+  - developer tools
+category: how-to
+audience:
+  - developers
+affiliate_links: []
+reading_time_minutes: 4
+human_url: /blog/agent-observability-logging
+agent_url: /blog/agent-observability-logging.md
+canonical: 'https://windrose-ai.com/blog/agent-observability-logging'
+agent_context:
+  key_claims:
+    - >-
+      Traditional APM tools like Datadog and New Relic are optimized for
+      latency, errors, and infrastructure health, while agent telemetry needs to
+      capture tool calls, prompts, intermediate decisions, and retries.
+    - >-
+      Structured event logging makes autonomous agent behavior searchable and
+      replayable because each action can be stored as a typed event with
+      timestamps, inputs, outputs, and correlation IDs.
+    - >-
+      Tool call traces are essential because many agent failures happen at the
+      boundary between the model and external systems such as APIs, browsers,
+      and payment rails.
+    - >-
+      Decision snapshots help explain why an agent chose one path over another,
+      which is different from simply recording the final answer.
+    - >-
+      OpenAI-style function calling and Anthropic Claude tool use provide
+      structured interfaces that make agent observability easier to implement.
+  tools_mentioned:
+    - name: Datadog
+      role: 'Traditional APM baseline for latency, errors, and infra monitoring'
+      url: 'https://www.datadoghq.com/'
+    - name: New Relic
+      role: Traditional APM baseline for application performance monitoring
+      url: 'https://newrelic.com/'
+    - name: Anthropic Claude tool use
+      role: Structured tool calling pattern that creates traceable agent actions
+      url: 'https://docs.anthropic.com/'
+    - name: OpenAI function calling
+      role: Structured tool invocation interface for logging agent actions
+      url: 'https://platform.openai.com/docs/guides/function-calling'
+  recommended_actions:
+    - >-
+      Log every tool invocation as a structured event with tool name, arguments,
+      result status, latency, and correlation ID.
+    - >-
+      Store decision snapshots at each major branch so you can reconstruct why
+      the agent picked a path.
+    - >-
+      Separate model tokens and prompt logs from tool traces so failures are
+      easier to isolate.
+    - >-
+      Build a replay view that lets engineers re-run an agent session against
+      the same inputs and external responses.
+  related:
+    - /blog/testing-autonomous-agent-workflows.md
+    - /blog/streaming-responses-tool-calls-llm-apis.md
+    - /blog/human-in-the-loop-autonomous-agents.md
+postType: explainer
+---
+
+Last month I was debugging an agent that could draft a refund email, but kept failing on the actual refund step because the payment API returned a stale authorization. The model looked fine. The UI looked fine. The only way to see the bug was to trace the tool call, the quote ID it used, the rejection from the payments service, and the retry it attempted next. That is the part we keep running into in the agentic web: the failure is usually not “the model was dumb,” it is “the machine did the wrong thing at the boundary.”
+
+Twilio got this right years ago. Its API is boring in the best way: clear request/response shapes, predictable delivery semantics, and enough metadata to tell whether a message actually went out. Agents need the same kind of boring reliability. If an agent sent a text, booked a slot, retried a failed step, or handed off to a human, we need a machine-readable trail. A screenshot of the chat is not enough. Logging is part of the plumbing.
+
+## Structured event logs beat “the model said X”
+
+A useful agent log is not a blob of text. It is a stream of typed events: `plan_started`, `tool_called`, `tool_returned`, `retry_scheduled`, `handoff_requested`. Each event should carry a timestamp, correlation ID, actor, and redacted payload. That gives us something we can search across services when a workflow spans Claude, our API, and a payment provider.
+
+The important part is that the log should read like a timeline, not a transcript. If the agent tried `create_order`, then got a 409, then switched to `reserve_inventory`, we should be able to see that sequence without digging through prompt dumps. If your API isn’t machine-readable, agents can’t use it reliably — and your logs won’t help you much either.
+
+## Tool call traces are where most failures actually live
+
+Anthropic Claude tool use and OpenAI function calling both give us structured tool invocations, which is a big step up from free-form text. The real win is tracing the boundary between model intent and external action: `search_inventory`, `create_order`, `send_email`, `capture_payment`.
+
+In practice, a lot of “agent bugs” are just bad arguments, stale schemas, or a tool timeout that the model tried to paper over. We’ve seen the model confidently retry the same broken call three times because the trace never made it clear the upstream service had already rejected the request. A good trace should show the tool name, arguments, latency, status, and the exact error returned. If an agent calls `book_flight` with an expired fare quote, the trace should show the original quote ID, the rejection, and the retry path.
+
+## Decision snapshots explain the “why,” not just the “what”
+
+Traditional logs tell you what happened; decision snapshots tell you why the agent thought it should happen. We’ve found it useful to capture a compact state dump at key branches: goal, constraints, selected tool, confidence, and any policy checks. That is not full memory, and it is not the same as prompt logging. It is a checkpoint.
+
+This matters when the agent has to choose between two valid-looking paths. For example: refund the customer, issue a replacement, or escalate to a human. The final answer alone does not tell us why it picked one branch. A decision snapshot should make that branch legible: what the agent knew, what it was optimizing for, and what rule or constraint pushed it one way. Nobody has solved this well yet, but without it, debugging becomes archaeology.
+
+## Agent telemetry is not APM with extra tokens
+
+Datadog and New Relic are still useful, but they answer different questions. APM tells you whether the service is healthy: latency, error rates, CPU, queue depth. Agent telemetry asks whether the agent behaved correctly: did it choose the right tool, obey constraints, recover from failure, and stop when it should?
+
+We need both views side by side. If the model is “working” but the payment rail is timing out, APM should show the infrastructure problem. If the infrastructure is healthy but the agent keeps choosing the wrong tool, telemetry should show that too. That is the difference between shipping a demo and shipping something that can actually move money, send messages, or complete a workflow without a human cleaning up after it.
