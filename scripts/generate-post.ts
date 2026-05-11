@@ -398,6 +398,23 @@ function applyPostTaxonomyMetadata(
   }
 }
 
+function validateGeneratedPost(mdx: string): void {
+  const parsed = matter(mdx);
+  const requiredFields = ["title", "slug", "date", "summary"];
+  const missingFields = requiredFields.filter((field) => {
+    const value = parsed.data[field];
+    return typeof value !== "string" || value.trim().length === 0;
+  });
+
+  if (parsed.content.trimStart().startsWith("---")) {
+    throw new Error("duplicate frontmatter block detected after metadata parsing");
+  }
+
+  if (missingFields.length > 0) {
+    throw new Error(`missing required frontmatter fields: ${missingFields.join(", ")}`);
+  }
+}
+
 async function generatePost(opts: {
   title: string;
   angle: string;
@@ -681,6 +698,13 @@ Return JSON: {"title": "...", "summary": "...", "slug": "..."}`
       console.error(`Skipping write — unquoted YAML value with colon: ${badLine.trim()}`);
       process.exit(1);
     }
+  }
+
+  try {
+    validateGeneratedPost(mdx);
+  } catch (err: any) {
+    console.error(`Skipping write — invalid frontmatter: ${err.message}`);
+    process.exit(1);
   }
 
   const outPath = path.join(BLOG_DIR, `${outSlug}.mdx`);
