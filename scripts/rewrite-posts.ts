@@ -4,14 +4,18 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
+
 async function withRetry<T>(fn: () => Promise<T>, retries = 2): Promise<T> {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       return await fn();
-    } catch (err: any) {
+    } catch (err: unknown) {
       if (attempt === retries) throw err;
       const delay = 2000 * (attempt + 1);
-      console.warn(`  Retry ${attempt + 1}/${retries} after error: ${err.message} (waiting ${delay}ms)`);
+      console.warn(`  Retry ${attempt + 1}/${retries} after error: ${errorMessage(err)} (waiting ${delay}ms)`);
       await new Promise((r) => setTimeout(r, delay));
     }
   }

@@ -5,14 +5,18 @@ import matter from "gray-matter";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
+
 async function withRetry<T>(fn: () => Promise<T>, retries = 2): Promise<T> {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       return await fn();
-    } catch (err: any) {
+    } catch (err: unknown) {
       if (attempt === retries) throw err;
       const delay = 2000 * (attempt + 1);
-      console.warn(`  Retry ${attempt + 1}/${retries} after error: ${err.message} (waiting ${delay}ms)`);
+      console.warn(`  Retry ${attempt + 1}/${retries} after error: ${errorMessage(err)} (waiting ${delay}ms)`);
       await new Promise((r) => setTimeout(r, delay));
     }
   }
@@ -267,10 +271,10 @@ async function getTavilyStory(): Promise<{ title: string; url: string; content: 
     return null;
   }
 
-  const data = await response.json() as { results: { title: string; url: string; content: string }[] };
+  const data = await response.json() as { results: { title: string; url: string; content: string; score?: number }[] };
   const results = data.results || [];
   if (!results.length) return null;
-  return results.sort((a, b) => ((b as any).score || 0) - ((a as any).score || 0))[0];
+  return results.sort((a, b) => (b.score || 0) - (a.score || 0))[0];
 }
 
 function parseBooleanFlag(name: string): boolean {
@@ -365,8 +369,8 @@ function applyAffiliateMetadata(
     }
 
     return matter.stringify(parsed.content, parsed.data);
-  } catch (err: any) {
-    console.warn(`  WARNING: unable to apply affiliate metadata: ${err.message}`);
+  } catch (err: unknown) {
+    console.warn(`  WARNING: unable to apply affiliate metadata: ${errorMessage(err)}`);
     return mdx;
   }
 }
@@ -392,8 +396,8 @@ function applyPostTaxonomyMetadata(
     }
 
     return matter.stringify(parsed.content, parsed.data);
-  } catch (err: any) {
-    console.warn(`  WARNING: unable to apply taxonomy metadata: ${err.message}`);
+  } catch (err: unknown) {
+    console.warn(`  WARNING: unable to apply taxonomy metadata: ${errorMessage(err)}`);
     return mdx;
   }
 }
@@ -486,7 +490,7 @@ Output ONLY the complete MDX file starting with ---. Include:
     console.warn("  WARNING: output was truncated (finish_reason=length)");
   }
 
-  let mdx = contentResponse.choices[0].message.content!.trim();
+  const mdx = contentResponse.choices[0].message.content!.trim();
 
   // Self-critique pass
   const critiquePrompt = `You are a strict editor. Your author's voice: ${voice.persona}. Tone: ${voice.tone}.
@@ -514,7 +518,7 @@ ${mdx}`;
     console.warn("  WARNING: critique pass was truncated (finish_reason=length)");
   }
 
-  let critiqued = critiqueResponse.choices[0].message.content?.trim() || "";
+  const critiqued = critiqueResponse.choices[0].message.content?.trim() || "";
 
   // If critique returned empty or too short, fall back to pre-critique content
   if (!critiqued || critiqued.length < 500 || !critiqued.startsWith("---")) {
@@ -702,8 +706,8 @@ Return JSON: {"title": "...", "summary": "...", "slug": "..."}`
 
   try {
     validateGeneratedPost(mdx);
-  } catch (err: any) {
-    console.error(`Skipping write — invalid frontmatter: ${err.message}`);
+  } catch (err: unknown) {
+    console.error(`Skipping write — invalid frontmatter: ${errorMessage(err)}`);
     process.exit(1);
   }
 
