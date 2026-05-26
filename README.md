@@ -113,7 +113,7 @@ Frameworks are allowed by environment variable allowlist:
 ENABLED_FRAMEWORKS=ping,directory.search,directory.webmcp,site.audit.agent_ready,agent.selection.simulate,report.agent_selection.v1,report.agent_selection.run
 ```
 
-Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag).
+Only IDs listed in `ENABLED_FRAMEWORKS` are active (plus the framework's own `enabled: true` flag). If `ENABLED_FRAMEWORKS` is unset or empty, no frameworks are exposed.
 
 ### Logging
 

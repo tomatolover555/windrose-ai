@@ -27,7 +27,7 @@ export function getFramework(
   if (!def) return null;
 
   const allowlist = getEnabledFrameworkAllowlist();
-  const enabledByConfig = allowlist ? allowlist.has(def.id) : true;
+  const enabledByConfig = allowlist.has(def.id);
 
   return {
     ...def,
@@ -40,7 +40,7 @@ export function listFrameworks(): Array<AgenticFrameworkDefinition & { enabled: 
   const allowlist = getEnabledFrameworkAllowlist();
 
   return Array.from(registry.values()).map((def) => {
-    const enabledByConfig = allowlist ? allowlist.has(def.id) : true;
+    const enabledByConfig = allowlist.has(def.id);
     return { ...def, enabled: Boolean(def.enabled && enabledByConfig) };
   });
 }

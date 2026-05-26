@@ -55,6 +55,7 @@ const DEFAULT_MAX_FETCH_MS = 4500;
 const MAX_MAX_FETCH_MS = 10000;
 const MAX_BYTES_JSON = 64 * 1024;
 const MAX_BYTES_HTML = 256 * 1024;
+const MAX_REDIRECTS = 3;
 
 const HTML_HINTS = [
   "navigator.modelContext",
@@ -167,19 +168,52 @@ async function readUpTo(res: Response, maxBytes: number): Promise<{ text: string
   return { text: buf.toString("utf8"), truncated };
 }
 
-async function fetchWithTimeout(url: string, timeoutMs: number, accept: string): Promise<Response> {
+function isRedirect(status: number): boolean {
+  return status >= 300 && status < 400;
+}
+
+async function assertPublicHttpsUrl(url: URL, timeoutMs: number): Promise<void> {
+  if (url.protocol !== "https:") throw new Error("blocked_redirect");
+  const host = normalizeDomain(url.hostname);
+  if (!host) throw new Error("blocked_redirect");
+  await resolveAndBlockPrivate(url.hostname, Math.min(1500, timeoutMs));
+}
+
+async function fetchOnceWithTimeout(url: string, timeoutMs: number, accept: string): Promise<Response> {
   const controller = new AbortController();
   const t = setTimeout(() => controller.abort(), timeoutMs);
   try {
     return await fetch(url, {
       method: "GET",
       headers: { Accept: accept, "User-Agent": "windrose-agent-audit" },
-      redirect: "follow",
+      redirect: "manual",
       signal: controller.signal,
     });
   } finally {
     clearTimeout(t);
   }
+}
+
+async function fetchWithTimeout(url: string, timeoutMs: number, accept: string): Promise<Response> {
+  let current = new URL(url);
+
+  for (let redirectCount = 0; redirectCount <= MAX_REDIRECTS; redirectCount++) {
+    await assertPublicHttpsUrl(current, timeoutMs);
+    const response = await fetchOnceWithTimeout(current.toString(), timeoutMs, accept);
+    const location = response.headers.get("location");
+
+    if (!isRedirect(response.status) || !location) {
+      return response;
+    }
+
+    if (redirectCount === MAX_REDIRECTS) {
+      throw new Error("too_many_redirects");
+    }
+
+    current = new URL(location, current);
+  }
+
+  throw new Error("too_many_redirects");
 }
 
 function computeConfidence(wellKnownOk: boolean, modelContextHit: boolean, otherHits: boolean): number {
