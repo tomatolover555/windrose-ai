@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     images: ["https://windrose-ai.com/logo.png"],
   },
   alternates: {
+    canonical: "/",
     types: {
       "application/rss+xml": "/feed.xml",
     },
