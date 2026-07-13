@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T06:20:18.110Z",
+  "updated_at": "2026-07-13T06:32:41.030Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -195,7 +195,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -203,7 +203,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-05-22T06:57:08.781Z",
+      "last_checked": "2026-07-13T06:30:20.853Z",
       "last_seen": "2026-04-09T05:21:44.411Z",
       "sponsored": false,
       "verification_available": true
@@ -7296,7 +7296,7 @@
           "url": "https://github.com/msitarzewski/agency-agents"
         }
       ],
-      "last_checked": "2026-07-12T06:15:05.256Z",
+      "last_checked": "2026-07-13T06:30:22.634Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -7634,7 +7634,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7642,7 +7642,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-07-04T06:30:16.367Z",
+      "last_checked": "2026-07-13T06:30:24.662Z",
       "last_seen": "2026-04-09T05:21:48.243Z",
       "sponsored": false,
       "verification_available": true
@@ -10552,7 +10552,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-12T06:16:20.406Z",
+      "last_checked": "2026-07-13T06:30:26.669Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -12662,7 +12662,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 111,
+      "fail_streak": 112,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12820,7 +12820,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-12T06:16:58.874Z",
+      "last_checked": "2026-07-13T06:30:28.664Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -13167,7 +13167,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T06:59:01.740Z",
+      "last_checked": "2026-07-13T06:30:30.659Z",
       "last_seen": "2026-04-09T05:21:54.267Z",
       "sponsored": false,
       "verification_available": true
@@ -16264,7 +16264,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16272,7 +16272,7 @@
           "url": "https://github.com/WebMCP-org/big-calendar"
         }
       ],
-      "last_checked": "2026-05-22T06:59:03.733Z",
+      "last_checked": "2026-07-13T06:30:32.651Z",
       "last_seen": "2026-04-09T05:21:56.241Z",
       "sponsored": false,
       "verification_available": true
@@ -16287,7 +16287,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16295,7 +16295,7 @@
           "url": "https://github.com/WebMCP-org/big-calendar"
         }
       ],
-      "last_checked": "2026-05-22T06:59:05.736Z",
+      "last_checked": "2026-07-13T06:30:34.645Z",
       "last_seen": "2026-04-09T05:21:58.250Z",
       "sponsored": false,
       "verification_available": true
@@ -18246,7 +18246,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-07-12T06:18:37.672Z",
+      "last_checked": "2026-07-13T06:30:36.647Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -18432,7 +18432,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 110,
+      "fail_streak": 111,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18520,7 +18520,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-12T06:18:47.596Z",
+      "last_checked": "2026-07-13T06:30:38.750Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -22518,9 +22518,14 @@
           "kind": "github_hit",
           "detail": "repo: opensumi/core",
           "url": "https://github.com/opensumi/core"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
         }
       ],
-      "last_checked": "2026-07-11T05:55:52.264Z",
+      "last_checked": "2026-07-13T06:30:40.680Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -24874,7 +24879,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24882,7 +24887,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-07-04T06:34:12.807Z",
+      "last_checked": "2026-07-13T06:30:42.691Z",
       "last_seen": "2026-04-09T05:22:06.317Z",
       "sponsored": false,
       "verification_available": true
@@ -26499,7 +26504,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26507,7 +26512,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-07-04T06:34:33.463Z",
+      "last_checked": "2026-07-13T06:30:44.644Z",
       "last_seen": "2026-04-09T05:22:08.260Z",
       "sponsored": false,
       "verification_available": true
@@ -27462,7 +27467,7 @@
           "url": "https://github.com/ThHanke/ontosphere"
         }
       ],
-      "last_checked": "2026-06-22T09:27:57.771Z",
+      "last_checked": "2026-07-13T06:30:46.655Z",
       "last_seen": "2026-02-23T05:16:57.877Z",
       "sponsored": false,
       "verification_available": true
@@ -27750,7 +27755,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-05-22T06:59:55.307Z",
+      "last_checked": "2026-07-13T06:30:48.675Z",
       "last_seen": "2026-04-09T05:22:12.257Z",
       "sponsored": false,
       "verification_available": true
@@ -28168,7 +28173,7 @@
           "url": "https://github.com/dm94/stiletto-web"
         }
       ],
-      "last_checked": "2026-07-10T07:00:19.392Z",
+      "last_checked": "2026-07-13T06:30:50.653Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -28678,7 +28683,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28686,7 +28691,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-05-22T06:59:59.338Z",
+      "last_checked": "2026-07-13T06:30:52.676Z",
       "last_seen": "2026-04-09T05:22:16.294Z",
       "sponsored": false,
       "verification_available": true
@@ -28706,15 +28711,15 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-07-10T07:00:30.398Z"
+          "last_success": "2026-07-13T06:30:54.654Z"
         },
         {
           "type": "well_known",
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json",
-          "last_success": "2026-07-10T07:00:30.398Z"
+          "last_success": "2026-07-13T06:30:54.654Z"
         }
       ],
-      "last_verified_success": "2026-07-10T07:00:30.398Z",
+      "last_verified_success": "2026-07-13T06:30:54.654Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -28773,8 +28778,8 @@
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-07-10T07:00:30.398Z",
-      "last_seen": "2026-07-10T07:00:30.398Z",
+      "last_checked": "2026-07-13T06:30:54.654Z",
+      "last_seen": "2026-07-13T06:30:54.654Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -29155,7 +29160,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29186,9 +29191,14 @@
           "kind": "github_hit",
           "detail": "repo: agentcathq/webmcp-react",
           "url": "https://github.com/agentcathq/webmcp-react"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
         }
       ],
-      "last_checked": "2026-07-10T07:00:34.494Z",
+      "last_checked": "2026-07-13T06:30:56.737Z",
       "last_seen": "2026-05-28T07:09:04.754Z",
       "sponsored": false,
       "verification_available": true
@@ -31142,7 +31152,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31150,7 +31160,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:00:15.303Z",
+      "last_checked": "2026-07-13T06:30:58.665Z",
       "last_seen": "2026-04-09T05:22:20.339Z",
       "sponsored": false,
       "verification_available": true
@@ -31428,7 +31438,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31436,7 +31446,7 @@
           "url": "https://github.com/WebMCP-org/big-calendar"
         }
       ],
-      "last_checked": "2026-05-22T07:00:17.296Z",
+      "last_checked": "2026-07-13T06:31:00.725Z",
       "last_seen": "2026-04-09T05:22:22.271Z",
       "sponsored": false,
       "verification_available": true
@@ -31451,7 +31461,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31459,7 +31469,7 @@
           "url": "https://github.com/WebMCP-org/big-calendar"
         }
       ],
-      "last_checked": "2026-05-22T07:00:19.327Z",
+      "last_checked": "2026-07-13T06:31:02.732Z",
       "last_seen": "2026-04-09T05:22:24.248Z",
       "sponsored": false,
       "verification_available": true
@@ -31882,7 +31892,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31900,7 +31910,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-07-04T06:36:06.864Z",
+      "last_checked": "2026-07-13T06:31:04.726Z",
       "last_seen": "2026-02-16T05:15:56.213Z",
       "sponsored": false,
       "verification_available": true
@@ -36231,10 +36241,10 @@
         {
           "type": "well_known",
           "url": "https://img.shields.io/.well-known/mcp.json",
-          "last_success": "2026-07-09T07:01:22.717Z"
+          "last_success": "2026-07-13T06:31:06.777Z"
         }
       ],
-      "last_verified_success": "2026-07-09T07:01:22.717Z",
+      "last_verified_success": "2026-07-13T06:31:06.777Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -36443,8 +36453,8 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-07-09T07:01:22.717Z",
-      "last_seen": "2026-07-09T07:01:22.717Z",
+      "last_checked": "2026-07-13T06:31:06.777Z",
+      "last_seen": "2026-07-13T06:31:06.777Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -38090,7 +38100,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38108,7 +38118,7 @@
           "url": "https://github.com/TomahawkCM/modern-tco"
         }
       ],
-      "last_checked": "2026-05-22T07:00:43.451Z",
+      "last_checked": "2026-07-13T06:31:08.692Z",
       "last_seen": "2026-04-09T05:22:36.391Z",
       "sponsored": false,
       "verification_available": true
@@ -38422,7 +38432,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38455,7 +38465,7 @@
           "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-05-22T07:00:49.310Z",
+      "last_checked": "2026-07-13T06:31:10.652Z",
       "last_seen": "2026-02-16T05:17:18.656Z",
       "sponsored": false,
       "verification_available": true
@@ -38572,7 +38582,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-05-22T07:00:51.301Z",
+      "last_checked": "2026-07-13T06:31:12.687Z",
       "last_seen": "2026-02-16T05:17:22.669Z",
       "sponsored": false,
       "verification_available": true
@@ -38748,7 +38758,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38771,7 +38781,7 @@
           "url": "https://github.com/creuzerm/tinyinsulationcalculator"
         }
       ],
-      "last_checked": "2026-05-22T07:00:53.476Z",
+      "last_checked": "2026-07-13T06:31:14.856Z",
       "last_seen": "2026-02-16T05:17:32.838Z",
       "sponsored": false,
       "verification_available": true
@@ -39114,21 +39124,26 @@
       "domain": "localhost:4200",
       "name": "localhost:4200",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: sahassakhare/agentic-ui",
           "url": "https://github.com/sahassakhare/agentic-ui"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
         }
       ],
-      "last_checked": "2026-05-22T07:00:57.270Z",
+      "last_checked": "2026-07-13T06:31:16.685Z",
       "last_seen": "2026-05-22T07:00:57.270Z",
       "sponsored": false,
       "verification_available": true
@@ -39226,6 +39241,29 @@
       "verification_available": true
     },
     {
+      "domain": "localhost:4300",
+      "name": "localhost:4300",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
+        }
+      ],
+      "last_checked": "2026-07-13T06:31:18.638Z",
+      "last_seen": "2026-07-13T06:31:18.638Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "localhost:5173",
       "name": "localhost:5173",
       "type": [],
@@ -39235,7 +39273,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39248,7 +39286,7 @@
           "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-05-22T07:01:07.267Z",
+      "last_checked": "2026-07-13T06:31:20.640Z",
       "last_seen": "2026-04-09T05:22:44.260Z",
       "sponsored": false,
       "verification_available": true
@@ -39904,7 +39942,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39912,7 +39950,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:01:13.308Z",
+      "last_checked": "2026-07-13T06:31:22.641Z",
       "last_seen": "2026-04-09T05:22:48.295Z",
       "sponsored": false,
       "verification_available": true
@@ -40205,7 +40243,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40218,7 +40256,7 @@
           "url": "https://github.com/WebMCP-org/webmcp-sh"
         }
       ],
-      "last_checked": "2026-05-22T07:01:15.300Z",
+      "last_checked": "2026-07-13T06:31:24.657Z",
       "last_seen": "2026-04-09T05:22:50.255Z",
       "sponsored": false,
       "verification_available": true
@@ -40230,7 +40268,7 @@
         "webmcp"
       ],
       "confidence": 100,
-      "status": "verified",
+      "status": "likely",
       "verification_status": "verified",
       "verification_method": "modelContext_detected",
       "proof": [
@@ -40279,8 +40317,8 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-05-22T07:01:17.273Z",
-      "last_seen": "2026-05-22T07:01:17.273Z",
+      "last_checked": "2026-07-13T06:31:26.654Z",
+      "last_seen": "2026-07-13T06:31:26.654Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -40378,8 +40416,8 @@
           "url": "https://mcp-ui.mcp-b.ai/"
         }
       ],
-      "last_checked": "2026-05-22T07:01:21.448Z",
-      "last_seen": "2026-05-22T07:01:21.448Z",
+      "last_checked": "2026-07-13T06:31:28.665Z",
+      "last_seen": "2026-07-13T06:31:28.665Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -40546,9 +40584,9 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 46,
+      "fail_streak": 47,
       "evidence": [],
-      "last_checked": "2026-07-07T06:55:35.441Z",
+      "last_checked": "2026-07-13T06:31:30.667Z",
       "last_seen": "2026-02-15T06:22:21.111Z",
       "sponsored": false,
       "verification_available": true
@@ -40594,7 +40632,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:01:25.369Z",
+      "last_checked": "2026-07-13T06:31:32.673Z",
       "last_seen": "2026-04-09T05:22:58.300Z",
       "sponsored": false,
       "verification_available": true
@@ -40990,7 +41028,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-05-22T07:01:31.291Z",
+      "last_checked": "2026-07-13T06:31:34.662Z",
       "last_seen": "2026-04-09T05:23:00.280Z",
       "sponsored": false,
       "verification_available": true
@@ -41090,13 +41128,22 @@
     {
       "domain": "modelcontextprotocol.io",
       "name": "modelcontextprotocol.io",
-      "type": [],
+      "type": [
+        "mcp-server",
+        "webmcp"
+      ],
       "confidence": 100,
-      "status": "likely",
-      "verification_status": "unverified",
-      "verification_method": null,
-      "proof": [],
-      "last_verified_success": null,
+      "status": "verified",
+      "verification_status": "verified",
+      "verification_method": "well_known",
+      "proof": [
+        {
+          "type": "well_known",
+          "url": "https://modelcontextprotocol.io/.well-known/mcp.json",
+          "last_success": "2026-07-13T06:31:36.722Z"
+        }
+      ],
+      "last_verified_success": "2026-07-13T06:31:36.722Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -41148,10 +41195,20 @@
           "kind": "github_hit",
           "detail": "repo: MCPCat/webmcp-react",
           "url": "https://github.com/MCPCat/webmcp-react"
+        },
+        {
+          "kind": "well_known_mcp_json",
+          "detail": "found .well-known/mcp.json",
+          "url": "https://modelcontextprotocol.io/.well-known/mcp.json"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://modelcontextprotocol.io/"
         }
       ],
-      "last_checked": "2026-05-22T07:01:33.442Z",
-      "last_seen": "2026-02-16T05:18:18.927Z",
+      "last_checked": "2026-07-13T06:31:36.722Z",
+      "last_seen": "2026-07-13T06:31:36.722Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -41441,7 +41498,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41539,7 +41596,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T07:01:42.276Z",
+      "last_checked": "2026-07-13T06:31:38.892Z",
       "last_seen": "2026-02-16T05:18:27.806Z",
       "sponsored": false,
       "verification_available": true
@@ -41910,7 +41967,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41918,7 +41975,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:01:48.201Z",
+      "last_checked": "2026-07-13T06:31:40.743Z",
       "last_seen": "2026-04-09T05:23:10.303Z",
       "sponsored": false,
       "verification_available": true
@@ -41933,7 +41990,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -42031,7 +42088,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T07:01:50.152Z",
+      "last_checked": "2026-07-13T06:31:42.720Z",
       "last_seen": "2026-02-16T05:18:37.827Z",
       "sponsored": false,
       "verification_available": true
@@ -42089,7 +42146,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T07:01:52.138Z",
+      "last_checked": "2026-07-13T06:31:44.683Z",
       "last_seen": "2026-02-16T05:18:39.884Z",
       "sponsored": false,
       "verification_available": true
@@ -42150,7 +42207,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -42201,9 +42258,14 @@
           "kind": "github_hit",
           "detail": "repo: sahassakhare/agentic-ui",
           "url": "https://github.com/sahassakhare/agentic-ui"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
         }
       ],
-      "last_checked": "2026-05-22T07:01:54.327Z",
+      "last_checked": "2026-07-13T06:31:46.755Z",
       "last_seen": "2026-02-16T05:18:43.882Z",
       "sponsored": false,
       "verification_available": true
@@ -42228,6 +42290,29 @@
       ],
       "last_checked": "2026-04-20T05:53:48.902Z",
       "last_seen": "2026-04-20T05:53:48.902Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "nx.dev",
+      "name": "nx.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
+        }
+      ],
+      "last_checked": "2026-07-13T06:31:48.690Z",
+      "last_seen": "2026-07-13T06:31:48.690Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -43030,7 +43115,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:02:17.338Z",
+      "last_checked": "2026-07-13T06:31:50.745Z",
       "last_seen": "2026-04-09T05:23:18.327Z",
       "sponsored": false,
       "verification_available": true
@@ -43160,7 +43245,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43168,7 +43253,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:02:25.176Z",
+      "last_checked": "2026-07-13T06:31:52.662Z",
       "last_seen": "2026-04-09T05:23:22.366Z",
       "sponsored": false,
       "verification_available": true
@@ -43252,7 +43337,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43260,7 +43345,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:02:29.192Z",
+      "last_checked": "2026-07-13T06:31:54.674Z",
       "last_seen": "2026-04-09T05:23:24.273Z",
       "sponsored": false,
       "verification_available": true
@@ -43949,7 +44034,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T07:02:37.494Z",
+      "last_checked": "2026-07-13T06:31:56.676Z",
       "last_seen": "2026-04-09T05:23:26.262Z",
       "sponsored": false,
       "verification_available": true
@@ -44935,7 +45020,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -44943,7 +45028,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:03.818Z",
+      "last_checked": "2026-07-13T06:31:59.226Z",
       "last_seen": "2026-04-09T05:23:29.148Z",
       "sponsored": false,
       "verification_available": true
@@ -45012,7 +45097,7 @@
           "url": "https://github.com/MiguelsPizza/MiguelsPizza"
         }
       ],
-      "last_checked": "2026-05-22T07:03:05.818Z",
+      "last_checked": "2026-07-13T06:32:01.077Z",
       "last_seen": "2026-04-09T05:23:30.853Z",
       "sponsored": false,
       "verification_available": true
@@ -45027,7 +45112,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45035,7 +45120,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:07.872Z",
+      "last_checked": "2026-07-13T06:32:03.023Z",
       "last_seen": "2026-04-09T05:23:32.893Z",
       "sponsored": false,
       "verification_available": true
@@ -45334,7 +45419,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:20.578Z",
+      "last_checked": "2026-07-13T06:32:05.448Z",
       "last_seen": "2026-04-09T05:23:37.156Z",
       "sponsored": false,
       "verification_available": true
@@ -45441,7 +45526,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45449,7 +45534,7 @@
           "url": "https://github.com/MiguelsPizza/MiguelsPizza"
         }
       ],
-      "last_checked": "2026-05-22T07:03:24.553Z",
+      "last_checked": "2026-07-13T06:32:07.189Z",
       "last_seen": "2026-04-09T05:23:39.119Z",
       "sponsored": false,
       "verification_available": true
@@ -45487,7 +45572,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45495,7 +45580,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:26.576Z",
+      "last_checked": "2026-07-13T06:32:09.025Z",
       "last_seen": "2026-04-09T05:23:41.096Z",
       "sponsored": false,
       "verification_available": true
@@ -45518,7 +45603,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:28.532Z",
+      "last_checked": "2026-07-13T06:32:11.008Z",
       "last_seen": "2026-04-09T05:23:43.121Z",
       "sponsored": false,
       "verification_available": true
@@ -45556,7 +45641,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45564,7 +45649,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:32.587Z",
+      "last_checked": "2026-07-13T06:32:13.099Z",
       "last_seen": "2026-04-09T05:23:47.147Z",
       "sponsored": false,
       "verification_available": true
@@ -45579,7 +45664,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45587,7 +45672,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:34.554Z",
+      "last_checked": "2026-07-13T06:32:15.029Z",
       "last_seen": "2026-04-09T05:23:49.120Z",
       "sponsored": false,
       "verification_available": true
@@ -45602,7 +45687,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45610,7 +45695,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:36.549Z",
+      "last_checked": "2026-07-13T06:32:17.104Z",
       "last_seen": "2026-04-09T05:23:51.128Z",
       "sponsored": false,
       "verification_available": true
@@ -45625,7 +45710,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45633,7 +45718,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:38.548Z",
+      "last_checked": "2026-07-13T06:32:19.013Z",
       "last_seen": "2026-04-09T05:23:53.108Z",
       "sponsored": false,
       "verification_available": true
@@ -45671,7 +45756,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45679,7 +45764,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:40.554Z",
+      "last_checked": "2026-07-13T06:32:21.066Z",
       "last_seen": "2026-04-09T05:23:55.122Z",
       "sponsored": false,
       "verification_available": true
@@ -45740,7 +45825,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45748,7 +45833,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:42.581Z",
+      "last_checked": "2026-07-13T06:32:23.039Z",
       "last_seen": "2026-04-09T05:23:57.205Z",
       "sponsored": false,
       "verification_available": true
@@ -45763,7 +45848,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45771,7 +45856,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:44.555Z",
+      "last_checked": "2026-07-13T06:32:25.014Z",
       "last_seen": "2026-04-09T05:23:59.128Z",
       "sponsored": false,
       "verification_available": true
@@ -45891,7 +45976,7 @@
           "url": "https://github.com/hemanth/webmcp-connect"
         }
       ],
-      "last_checked": "2026-05-22T07:03:46.573Z",
+      "last_checked": "2026-07-13T06:32:27.023Z",
       "last_seen": "2026-04-09T05:24:01.120Z",
       "sponsored": false,
       "verification_available": true
@@ -46028,7 +46113,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46036,7 +46121,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:48.592Z",
+      "last_checked": "2026-07-13T06:32:29.027Z",
       "last_seen": "2026-04-09T05:24:03.138Z",
       "sponsored": false,
       "verification_available": true
@@ -46051,7 +46136,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46059,7 +46144,7 @@
           "url": "https://github.com/chenjingdev-archive/mcp_b_vmc"
         }
       ],
-      "last_checked": "2026-05-22T07:03:50.552Z",
+      "last_checked": "2026-07-13T06:32:31.067Z",
       "last_seen": "2026-04-09T05:24:05.134Z",
       "sponsored": false,
       "verification_available": true
@@ -46105,8 +46190,31 @@
           "url": "https://github.com/danduh/window-ai"
         }
       ],
-      "last_checked": "2026-05-22T07:03:54.703Z",
+      "last_checked": "2026-07-13T06:32:33.018Z",
       "last_seen": "2026-05-22T07:03:54.703Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "windowai.danduh.me",
+      "name": "windowai.danduh.me",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: danduh/window-ai",
+          "url": "https://github.com/danduh/window-ai"
+        }
+      ],
+      "last_checked": "2026-07-13T06:32:35.632Z",
+      "last_seen": "2026-07-13T06:32:35.632Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -46120,7 +46228,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46128,7 +46236,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:56.732Z",
+      "last_checked": "2026-07-13T06:32:37.014Z",
       "last_seen": "2026-04-09T05:24:07.202Z",
       "sponsored": false,
       "verification_available": true
@@ -46143,7 +46251,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46151,7 +46259,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-05-22T07:03:58.567Z",
+      "last_checked": "2026-07-13T06:32:39.088Z",
       "last_seen": "2026-04-09T05:24:09.122Z",
       "sponsored": false,
       "verification_available": true
