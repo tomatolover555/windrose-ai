@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T06:32:41.030Z",
+  "updated_at": "2026-07-14T05:47:42.484Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -126,7 +126,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +134,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:13:27.391Z",
+      "last_checked": "2026-07-14T05:40:33.541Z",
       "last_seen": "2026-05-11T06:50:11.751Z",
       "sponsored": false,
       "verification_available": true
@@ -366,6 +366,29 @@
       ],
       "last_checked": "2026-04-21T05:35:56.180Z",
       "last_seen": "2026-04-14T05:33:01.793Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "00-toc.md",
+      "name": "00-toc.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
+        }
+      ],
+      "last_checked": "2026-07-14T05:40:35.285Z",
+      "last_seen": "2026-07-14T05:40:35.285Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -991,6 +1014,29 @@
       "verification_available": true
     },
     {
+      "domain": "01-introduction.md",
+      "name": "01-introduction.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
+        }
+      ],
+      "last_checked": "2026-07-14T05:40:37.488Z",
+      "last_seen": "2026-07-14T05:40:37.488Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "02-refining-questions-targeting.mdx",
       "name": "02-refining-questions-targeting.mdx",
       "type": [],
@@ -1299,7 +1345,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 34,
+      "fail_streak": 35,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1307,7 +1353,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-12T06:13:33.207Z",
+      "last_checked": "2026-07-14T05:40:39.605Z",
       "last_seen": "2026-04-01T05:32:37.673Z",
       "sponsored": false,
       "verification_available": true
@@ -3849,7 +3895,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3857,7 +3903,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:13:45.319Z",
+      "last_checked": "2026-07-14T05:40:41.285Z",
       "last_seen": "2026-06-22T09:21:40.379Z",
       "sponsored": false,
       "verification_available": true
@@ -3918,7 +3964,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3926,7 +3972,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:13:47.234Z",
+      "last_checked": "2026-07-14T05:40:43.315Z",
       "last_seen": "2026-06-22T09:21:42.153Z",
       "sponsored": false,
       "verification_available": true
@@ -3964,7 +4010,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3972,7 +4018,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:13:49.319Z",
+      "last_checked": "2026-07-14T05:40:45.362Z",
       "last_seen": "2026-05-11T06:50:21.570Z",
       "sponsored": false,
       "verification_available": true
@@ -4010,7 +4056,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 34,
+      "fail_streak": 35,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4018,7 +4064,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-12T06:13:53.233Z",
+      "last_checked": "2026-07-14T05:40:47.420Z",
       "last_seen": "2026-04-01T05:32:45.766Z",
       "sponsored": false,
       "verification_available": true
@@ -4033,7 +4079,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 34,
+      "fail_streak": 35,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4041,7 +4087,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-12T06:13:55.248Z",
+      "last_checked": "2026-07-14T05:40:49.393Z",
       "last_seen": "2026-04-01T05:32:47.720Z",
       "sponsored": false,
       "verification_available": true
@@ -4176,7 +4222,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4184,7 +4230,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:14:01.226Z",
+      "last_checked": "2026-07-14T05:40:51.402Z",
       "last_seen": "2026-05-11T06:50:27.591Z",
       "sponsored": false,
       "verification_available": true
@@ -4199,7 +4245,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4207,7 +4253,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:14:03.329Z",
+      "last_checked": "2026-07-14T05:40:53.437Z",
       "last_seen": "2026-05-11T06:50:29.584Z",
       "sponsored": false,
       "verification_available": true
@@ -4360,7 +4406,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4368,7 +4414,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:14:05.265Z",
+      "last_checked": "2026-07-14T05:40:55.313Z",
       "last_seen": "2026-05-11T06:50:31.606Z",
       "sponsored": false,
       "verification_available": true
@@ -4429,7 +4475,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4437,7 +4483,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:14:07.238Z",
+      "last_checked": "2026-07-14T05:40:57.404Z",
       "last_seen": "2026-05-11T06:50:33.661Z",
       "sponsored": false,
       "verification_available": true
@@ -4521,7 +4567,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4529,7 +4575,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:14:09.317Z",
+      "last_checked": "2026-07-14T05:40:59.310Z",
       "last_seen": "2026-05-11T06:50:35.608Z",
       "sponsored": false,
       "verification_available": true
@@ -5264,7 +5310,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5272,7 +5318,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:14:33.377Z",
+      "last_checked": "2026-07-14T05:41:01.407Z",
       "last_seen": "2026-03-24T05:07:25.405Z",
       "sponsored": false,
       "verification_available": true
@@ -6207,7 +6253,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6215,7 +6261,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:14:53.378Z",
+      "last_checked": "2026-07-14T05:41:03.499Z",
       "last_seen": "2026-03-24T05:07:43.507Z",
       "sponsored": false,
       "verification_available": true
@@ -6350,7 +6396,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6358,7 +6404,7 @@
           "url": "https://github.com/r/Harbor"
         }
       ],
-      "last_checked": "2026-06-22T09:22:04.252Z",
+      "last_checked": "2026-07-14T05:41:05.380Z",
       "last_seen": "2026-02-16T05:12:41.973Z",
       "sponsored": false,
       "verification_available": true
@@ -6618,6 +6664,29 @@
       ],
       "last_checked": "2026-05-24T06:47:41.323Z",
       "last_seen": "2026-05-24T06:47:41.323Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agentic-readiness-guide.git",
+      "name": "agentic-readiness-guide.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
+        }
+      ],
+      "last_checked": "2026-07-14T05:41:07.509Z",
+      "last_seen": "2026-07-14T05:41:07.509Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7296,7 +7365,7 @@
           "url": "https://github.com/msitarzewski/agency-agents"
         }
       ],
-      "last_checked": "2026-07-13T06:30:22.634Z",
+      "last_checked": "2026-07-14T05:41:09.347Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -7362,10 +7431,10 @@
         {
           "type": "well_known",
           "url": "https://agentskills.io/.well-known/mcp.json",
-          "last_success": "2026-07-12T06:15:07.250Z"
+          "last_success": "2026-07-14T05:41:11.330Z"
         }
       ],
-      "last_verified_success": "2026-07-12T06:15:07.250Z",
+      "last_verified_success": "2026-07-14T05:41:11.330Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -7389,8 +7458,8 @@
           "url": "https://agentskills.io/"
         }
       ],
-      "last_checked": "2026-07-12T06:15:07.250Z",
-      "last_seen": "2026-07-12T06:15:07.250Z",
+      "last_checked": "2026-07-14T05:41:11.330Z",
+      "last_seen": "2026-07-14T05:41:11.330Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7849,6 +7918,29 @@
       "verification_available": true
     },
     {
+      "domain": "aladin.co.kr",
+      "name": "aladin.co.kr",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: fru1tworld/cs-study",
+          "url": "https://github.com/fru1tworld/cs-study"
+        }
+      ],
+      "last_checked": "2026-07-14T05:41:13.513Z",
+      "last_seen": "2026-07-14T05:41:13.513Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "alkemi.ai",
       "name": "alkemi.ai",
       "type": [],
@@ -8128,7 +8220,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8141,7 +8233,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-12T06:15:17.383Z",
+      "last_checked": "2026-07-14T05:41:17.654Z",
       "last_seen": "2026-06-12T08:02:53.250Z",
       "sponsored": false,
       "verification_available": true
@@ -8225,7 +8317,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8233,7 +8325,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:15:19.298Z",
+      "last_checked": "2026-07-14T05:41:18.671Z",
       "last_seen": "2026-03-24T05:07:53.498Z",
       "sponsored": false,
       "verification_available": true
@@ -8248,7 +8340,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8256,7 +8348,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:15:21.444Z",
+      "last_checked": "2026-07-14T05:41:20.850Z",
       "last_seen": "2026-03-24T05:07:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -8271,7 +8363,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8279,7 +8371,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:15:23.438Z",
+      "last_checked": "2026-07-14T05:41:23.348Z",
       "last_seen": "2026-03-24T05:07:57.525Z",
       "sponsored": false,
       "verification_available": true
@@ -8363,7 +8455,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8371,7 +8463,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:15:29.292Z",
+      "last_checked": "2026-07-14T05:41:24.750Z",
       "last_seen": "2026-06-22T09:22:32.129Z",
       "sponsored": false,
       "verification_available": true
@@ -8386,7 +8478,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8394,7 +8486,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:15:31.390Z",
+      "last_checked": "2026-07-14T05:41:26.756Z",
       "last_seen": "2026-06-22T09:22:34.138Z",
       "sponsored": false,
       "verification_available": true
@@ -8468,7 +8560,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:15:33.393Z",
+      "last_checked": "2026-07-14T05:41:28.680Z",
       "last_seen": "2026-06-22T09:22:36.224Z",
       "sponsored": false,
       "verification_available": true
@@ -8800,7 +8892,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:15:43.291Z",
+      "last_checked": "2026-07-14T05:41:31.041Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -9068,7 +9160,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-12T06:15:54.274Z",
+      "last_checked": "2026-07-14T05:41:36.305Z",
       "last_seen": "2026-05-12T06:23:12.997Z",
       "sponsored": false,
       "verification_available": true
@@ -9359,7 +9451,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 82,
+      "fail_streak": 83,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9367,7 +9459,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-12T06:15:56.739Z",
+      "last_checked": "2026-07-14T05:41:38.537Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -9415,7 +9507,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9428,7 +9520,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-12T06:15:58.257Z",
+      "last_checked": "2026-07-14T05:41:40.227Z",
       "last_seen": "2026-06-12T08:03:18.743Z",
       "sponsored": false,
       "verification_available": true
@@ -9494,7 +9586,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 91,
+      "fail_streak": 92,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9537,7 +9629,7 @@
           "url": "https://github.com/jnMetaCode/agency-agents-zh"
         }
       ],
-      "last_checked": "2026-07-12T06:16:00.279Z",
+      "last_checked": "2026-07-14T05:41:42.222Z",
       "last_seen": "2026-02-20T05:02:36.897Z",
       "sponsored": false,
       "verification_available": true
@@ -9961,7 +10053,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-12T06:16:06.351Z",
+      "last_checked": "2026-07-14T05:41:44.268Z",
       "last_seen": "2026-06-22T09:22:53.666Z",
       "sponsored": false,
       "verification_available": true
@@ -10257,7 +10349,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:16:12.275Z",
+      "last_checked": "2026-07-14T05:41:46.233Z",
       "last_seen": "2026-05-11T06:51:42.600Z",
       "sponsored": false,
       "verification_available": true
@@ -10456,7 +10548,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10464,7 +10556,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:16:18.405Z",
+      "last_checked": "2026-07-14T05:41:48.212Z",
       "last_seen": "2026-03-24T05:08:25.011Z",
       "sponsored": false,
       "verification_available": true
@@ -10552,7 +10644,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-13T06:30:26.669Z",
+      "last_checked": "2026-07-14T05:41:50.354Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -10595,7 +10687,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10603,7 +10695,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-07-10T06:56:58.738Z",
+      "last_checked": "2026-07-14T05:41:52.241Z",
       "last_seen": "2026-02-20T05:02:46.920Z",
       "sponsored": false,
       "verification_available": true
@@ -10907,7 +10999,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-12T06:16:22.291Z",
+      "last_checked": "2026-07-14T05:41:54.292Z",
       "last_seen": "2026-07-02T06:52:48.071Z",
       "sponsored": false,
       "verification_available": true
@@ -11027,7 +11119,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-07-12T06:16:24.257Z",
+      "last_checked": "2026-07-14T05:41:56.189Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -11623,9 +11715,14 @@
           "kind": "well_known_mcp_json",
           "detail": "found .well-known/mcp.json",
           "url": "https://audit.md/.well-known/mcp.json"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-12T06:16:36.406Z",
+      "last_checked": "2026-07-14T05:41:58.199Z",
       "last_seen": "2026-06-27T06:39:38.166Z",
       "sponsored": false,
       "verification_available": true
@@ -11710,7 +11807,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11718,7 +11815,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:16:41.087Z",
+      "last_checked": "2026-07-14T05:42:01.647Z",
       "last_seen": "2026-06-22T09:23:24.028Z",
       "sponsored": false,
       "verification_available": true
@@ -11733,7 +11830,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11741,7 +11838,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:16:42.896Z",
+      "last_checked": "2026-07-14T05:42:02.720Z",
       "last_seen": "2026-06-22T09:23:25.725Z",
       "sponsored": false,
       "verification_available": true
@@ -11764,7 +11861,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:16:44.976Z",
+      "last_checked": "2026-07-14T05:42:04.710Z",
       "last_seen": "2026-06-22T09:23:27.641Z",
       "sponsored": false,
       "verification_available": true
@@ -12110,10 +12207,10 @@
         {
           "type": "well_known",
           "url": "https://avatars.githubusercontent.com/.well-known/mcp.json",
-          "last_success": "2026-07-12T06:16:50.901Z"
+          "last_success": "2026-07-14T05:42:06.769Z"
         }
       ],
-      "last_verified_success": "2026-07-12T06:16:50.901Z",
+      "last_verified_success": "2026-07-14T05:42:06.769Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -12132,8 +12229,8 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:16:50.901Z",
-      "last_seen": "2026-07-12T06:16:50.901Z",
+      "last_checked": "2026-07-14T05:42:06.769Z",
+      "last_seen": "2026-07-14T05:42:06.769Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12662,7 +12759,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 112,
+      "fail_streak": 113,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12820,7 +12917,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-13T06:30:28.664Z",
+      "last_checked": "2026-07-14T05:42:08.827Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -13205,7 +13302,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13213,7 +13310,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-07-10T06:57:24.842Z",
+      "last_checked": "2026-07-14T05:42:10.679Z",
       "last_seen": "2026-02-20T05:03:02.901Z",
       "sponsored": false,
       "verification_available": true
@@ -13228,7 +13325,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 82,
+      "fail_streak": 83,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13236,7 +13333,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-12T06:17:00.888Z",
+      "last_checked": "2026-07-14T05:42:12.775Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -13274,7 +13371,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13287,7 +13384,7 @@
           "url": "https://github.com/lightpanda-io/browser"
         }
       ],
-      "last_checked": "2026-06-22T09:23:37.727Z",
+      "last_checked": "2026-07-14T05:42:14.783Z",
       "last_seen": "2026-06-05T07:19:55.222Z",
       "sponsored": false,
       "verification_available": true
@@ -13302,7 +13399,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13310,7 +13407,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:17:02.912Z",
+      "last_checked": "2026-07-14T05:42:24.645Z",
       "last_seen": "2026-03-24T05:09:06.980Z",
       "sponsored": false,
       "verification_available": true
@@ -13486,7 +13583,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13494,7 +13591,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:17:07.020Z",
+      "last_checked": "2026-07-14T05:42:25.701Z",
       "last_seen": "2026-06-22T09:23:50.727Z",
       "sponsored": false,
       "verification_available": true
@@ -14152,7 +14249,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 55,
+      "fail_streak": 56,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14160,7 +14257,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-12T06:17:13.014Z",
+      "last_checked": "2026-07-14T05:42:27.804Z",
       "last_seen": "2026-03-24T05:09:16.897Z",
       "sponsored": false,
       "verification_available": true
@@ -14785,7 +14882,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14793,7 +14890,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:17:26.888Z",
+      "last_checked": "2026-07-14T05:42:29.748Z",
       "last_seen": "2026-03-24T05:09:34.904Z",
       "sponsored": false,
       "verification_available": true
@@ -15907,7 +16004,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:17:36.899Z",
+      "last_checked": "2026-07-14T05:42:31.880Z",
       "last_seen": "2026-06-22T09:24:20.825Z",
       "sponsored": false,
       "verification_available": true
@@ -16014,7 +16111,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-12T06:17:38.977Z",
+      "last_checked": "2026-07-14T05:42:33.958Z",
       "last_seen": "2026-06-22T09:24:22.729Z",
       "sponsored": false,
       "verification_available": true
@@ -16106,7 +16203,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:17:45.173Z",
+      "last_checked": "2026-07-14T05:42:35.728Z",
       "last_seen": "2026-05-11T06:52:52.738Z",
       "sponsored": false,
       "verification_available": true
@@ -17305,7 +17402,7 @@
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
         }
       ],
-      "last_checked": "2026-07-12T06:18:05.021Z",
+      "last_checked": "2026-07-14T05:42:37.719Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -17417,7 +17514,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17425,7 +17522,7 @@
           "url": "https://github.com/w3c/webextensions"
         }
       ],
-      "last_checked": "2026-07-12T06:18:08.881Z",
+      "last_checked": "2026-07-14T05:42:40.824Z",
       "last_seen": "2026-05-11T06:53:08.687Z",
       "sponsored": false,
       "verification_available": true
@@ -17670,7 +17767,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17678,7 +17775,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:18:19.459Z",
+      "last_checked": "2026-07-14T05:42:42.433Z",
       "last_seen": "2026-03-24T05:10:07.095Z",
       "sponsored": false,
       "verification_available": true
@@ -17693,7 +17790,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17701,7 +17798,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:18:21.567Z",
+      "last_checked": "2026-07-14T05:42:44.155Z",
       "last_seen": "2026-03-24T05:10:09.026Z",
       "sponsored": false,
       "verification_available": true
@@ -17816,7 +17913,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-12T06:18:23.561Z",
+      "last_checked": "2026-07-14T05:42:46.156Z",
       "last_seen": "2026-02-23T05:15:03.395Z",
       "sponsored": false,
       "verification_available": true
@@ -17992,7 +18089,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18000,7 +18097,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-07-10T06:58:05.445Z",
+      "last_checked": "2026-07-14T05:42:48.086Z",
       "last_seen": "2026-02-20T05:03:25.018Z",
       "sponsored": false,
       "verification_available": true
@@ -18246,7 +18343,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-07-13T06:30:36.647Z",
+      "last_checked": "2026-07-14T05:42:50.046Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -18366,7 +18463,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-12T06:18:43.433Z",
+      "last_checked": "2026-07-14T05:42:52.111Z",
       "last_seen": "2026-05-11T06:53:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -18432,7 +18529,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 111,
+      "fail_streak": 112,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18520,7 +18617,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-13T06:30:38.750Z",
+      "last_checked": "2026-07-14T05:42:54.281Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -19041,7 +19138,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19049,7 +19146,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:18:57.430Z",
+      "last_checked": "2026-07-14T05:42:56.269Z",
       "last_seen": "2026-03-24T05:10:24.892Z",
       "sponsored": false,
       "verification_available": true
@@ -19138,7 +19235,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-12T06:18:59.514Z",
+      "last_checked": "2026-07-14T05:42:58.195Z",
       "last_seen": "2026-02-23T05:15:11.409Z",
       "sponsored": false,
       "verification_available": true
@@ -19233,8 +19330,8 @@
           "url": "https://github.com/kleinmatic/nyc-schools-agentic"
         }
       ],
-      "last_checked": "2026-07-12T06:19:01.527Z",
-      "last_seen": "2026-07-12T06:19:01.527Z",
+      "last_checked": "2026-07-14T05:43:00.334Z",
+      "last_seen": "2026-07-14T05:43:00.334Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19363,7 +19460,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 85,
+      "fail_streak": 86,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19376,7 +19473,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-07-12T06:19:07.555Z",
+      "last_checked": "2026-07-14T05:43:04.949Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -19483,7 +19580,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19491,7 +19588,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-12T06:19:13.707Z",
+      "last_checked": "2026-07-14T05:43:06.013Z",
       "last_seen": "2026-07-02T06:53:48.467Z",
       "sponsored": false,
       "verification_available": true
@@ -19560,7 +19657,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-12T06:19:15.500Z",
+      "last_checked": "2026-07-14T05:43:08.012Z",
       "last_seen": "2026-04-01T05:35:04.536Z",
       "sponsored": false,
       "verification_available": true
@@ -19680,7 +19777,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:19:23.492Z",
+      "last_checked": "2026-07-14T05:43:10.630Z",
       "last_seen": "2026-06-22T09:25:16.794Z",
       "sponsored": false,
       "verification_available": true
@@ -19990,7 +20087,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19998,7 +20095,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:19:35.626Z",
+      "last_checked": "2026-07-14T05:43:12.068Z",
       "last_seen": "2026-03-24T05:10:49.014Z",
       "sponsored": false,
       "verification_available": true
@@ -20077,7 +20174,7 @@
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
         }
       ],
-      "last_checked": "2026-07-12T06:19:39.643Z",
+      "last_checked": "2026-07-14T05:43:14.140Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -20120,7 +20217,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 62,
+      "fail_streak": 63,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20128,7 +20225,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:19:44.230Z",
+      "last_checked": "2026-07-14T05:43:16.311Z",
       "last_seen": "2026-03-24T05:10:55.044Z",
       "sponsored": false,
       "verification_available": true
@@ -20209,7 +20306,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-12T06:19:48.228Z",
+      "last_checked": "2026-07-14T05:43:18.143Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -20638,7 +20735,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20646,7 +20743,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:19:59.980Z",
+      "last_checked": "2026-07-14T05:43:20.030Z",
       "last_seen": "2026-06-22T09:25:40.803Z",
       "sponsored": false,
       "verification_available": true
@@ -20960,7 +21057,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20968,7 +21065,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-12T06:20:02.007Z",
+      "last_checked": "2026-07-14T05:43:22.076Z",
       "last_seen": "2026-06-22T09:25:42.785Z",
       "sponsored": false,
       "verification_available": true
@@ -21345,7 +21442,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 79,
+      "fail_streak": 80,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21353,7 +21450,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-12T06:20:10.350Z",
+      "last_checked": "2026-07-14T05:43:23.970Z",
       "last_seen": "2026-02-23T05:15:43.722Z",
       "sponsored": false,
       "verification_available": true
@@ -21488,7 +21585,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21591,7 +21688,7 @@
           "url": "https://github.com/puppeteer/puppeteer"
         }
       ],
-      "last_checked": "2026-07-12T06:20:13.964Z",
+      "last_checked": "2026-07-14T05:43:26.000Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -21629,7 +21726,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21637,7 +21734,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-12T06:20:15.961Z",
+      "last_checked": "2026-07-14T05:43:28.016Z",
       "last_seen": "2026-03-24T05:11:12.959Z",
       "sponsored": false,
       "verification_available": true
@@ -21652,7 +21749,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21660,7 +21757,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:58:53.039Z",
+      "last_checked": "2026-07-14T05:43:30.147Z",
       "last_seen": "2026-03-24T05:11:15.008Z",
       "sponsored": false,
       "verification_available": true
@@ -21721,7 +21818,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21729,7 +21826,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-11T05:55:38.435Z",
+      "last_checked": "2026-07-14T05:43:32.003Z",
       "last_seen": "2026-02-23T05:15:49.593Z",
       "sponsored": false,
       "verification_available": true
@@ -21790,7 +21887,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 59,
+      "fail_streak": 60,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21798,7 +21895,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:58:54.896Z",
+      "last_checked": "2026-07-14T05:43:34.162Z",
       "last_seen": "2026-03-27T05:25:48.835Z",
       "sponsored": false,
       "verification_available": true
@@ -21864,7 +21961,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 74,
+      "fail_streak": 75,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21872,7 +21969,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-11T05:55:42.308Z",
+      "last_checked": "2026-07-14T05:43:36.036Z",
       "last_seen": "2026-02-23T05:15:51.592Z",
       "sponsored": false,
       "verification_available": true
@@ -22175,7 +22272,7 @@
           "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
         }
       ],
-      "last_checked": "2026-07-11T05:55:46.262Z",
+      "last_checked": "2026-07-14T05:43:37.974Z",
       "last_seen": "2026-02-16T05:14:12.757Z",
       "sponsored": false,
       "verification_available": true
@@ -22236,7 +22333,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22249,7 +22346,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-11T05:55:48.250Z",
+      "last_checked": "2026-07-14T05:43:40.000Z",
       "last_seen": "2026-06-12T08:06:25.297Z",
       "sponsored": false,
       "verification_available": true
@@ -22523,9 +22620,14 @@
           "kind": "github_hit",
           "detail": "repo: danduh/window-ai",
           "url": "https://github.com/danduh/window-ai"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-13T06:30:40.680Z",
+      "last_checked": "2026-07-14T05:43:41.964Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -22693,7 +22795,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22701,7 +22803,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:04.961Z",
+      "last_checked": "2026-07-14T05:43:44.055Z",
       "last_seen": "2026-03-28T05:08:10.773Z",
       "sponsored": false,
       "verification_available": true
@@ -23127,12 +23229,12 @@
       "name": "corepack.html",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23140,7 +23242,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-07-11T05:56:02.535Z",
+      "last_checked": "2026-07-14T05:43:46.137Z",
       "last_seen": "2026-06-22T09:26:24.915Z",
       "sponsored": false,
       "verification_available": true
@@ -23252,7 +23354,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 51,
+      "fail_streak": 52,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23260,7 +23362,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-07-10T06:59:09.056Z",
+      "last_checked": "2026-07-14T05:43:47.991Z",
       "last_seen": "2026-02-20T05:04:05.458Z",
       "sponsored": false,
       "verification_available": true
@@ -23349,7 +23451,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23357,7 +23459,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-11T05:56:08.635Z",
+      "last_checked": "2026-07-14T05:43:49.968Z",
       "last_seen": "2026-02-23T05:16:05.871Z",
       "sponsored": false,
       "verification_available": true
@@ -23441,7 +23543,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23449,7 +23551,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-11T05:56:16.524Z",
+      "last_checked": "2026-07-14T05:43:52.168Z",
       "last_seen": "2026-07-02T06:54:25.527Z",
       "sponsored": false,
       "verification_available": true
@@ -23553,7 +23655,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-07-10T06:59:12.896Z",
+      "last_checked": "2026-07-14T05:43:53.971Z",
       "last_seen": "2026-04-22T05:39:47.907Z",
       "sponsored": false,
       "verification_available": true
@@ -23683,7 +23785,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23691,7 +23793,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:14.896Z",
+      "last_checked": "2026-07-14T05:43:58.272Z",
       "last_seen": "2026-06-12T08:06:56.412Z",
       "sponsored": false,
       "verification_available": true
@@ -24143,7 +24245,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24151,7 +24253,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-06-22T09:26:48.884Z",
+      "last_checked": "2026-07-14T05:44:00.234Z",
       "last_seen": "2026-06-22T09:26:48.884Z",
       "sponsored": false,
       "verification_available": true
@@ -24225,7 +24327,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24233,7 +24335,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-06-22T09:26:50.819Z",
+      "last_checked": "2026-07-14T05:44:02.239Z",
       "last_seen": "2026-06-22T09:26:50.819Z",
       "sponsored": false,
       "verification_available": true
@@ -24463,7 +24565,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-06-22T09:26:54.919Z",
+      "last_checked": "2026-07-14T05:44:04.255Z",
       "last_seen": "2026-06-22T09:26:54.919Z",
       "sponsored": false,
       "verification_available": true
@@ -24478,7 +24580,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24486,7 +24588,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:26:56.899Z",
+      "last_checked": "2026-07-14T05:44:06.431Z",
       "last_seen": "2026-02-23T05:16:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -24501,7 +24603,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24509,7 +24611,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:26:58.803Z",
+      "last_checked": "2026-07-14T05:44:08.272Z",
       "last_seen": "2026-02-23T05:16:21.753Z",
       "sponsored": false,
       "verification_available": true
@@ -24695,7 +24797,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24703,7 +24805,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:19.013Z",
+      "last_checked": "2026-07-14T05:44:10.249Z",
       "last_seen": "2026-03-28T05:08:38.748Z",
       "sponsored": false,
       "verification_available": true
@@ -24741,7 +24843,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24749,7 +24851,7 @@
           "url": "https://github.com/pastelsky/prettyfish"
         }
       ],
-      "last_checked": "2026-07-10T06:59:20.913Z",
+      "last_checked": "2026-07-14T05:44:12.366Z",
       "last_seen": "2026-04-22T05:40:07.856Z",
       "sponsored": false,
       "verification_available": true
@@ -24810,7 +24912,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24818,7 +24920,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:24.955Z",
+      "last_checked": "2026-07-14T05:44:14.246Z",
       "last_seen": "2026-03-28T05:08:40.853Z",
       "sponsored": false,
       "verification_available": true
@@ -24833,7 +24935,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24841,7 +24943,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-10T06:59:27.044Z",
+      "last_checked": "2026-07-14T05:44:16.411Z",
       "last_seen": "2026-07-02T06:54:39.644Z",
       "sponsored": false,
       "verification_available": true
@@ -25017,7 +25119,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25025,7 +25127,7 @@
           "url": "https://github.com/teaguesterling/duckdb_mcp"
         }
       ],
-      "last_checked": "2026-07-10T06:59:28.911Z",
+      "last_checked": "2026-07-14T05:44:18.237Z",
       "last_seen": "2026-02-25T05:09:46.628Z",
       "sponsored": false,
       "verification_available": true
@@ -25324,7 +25426,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:27:04.911Z",
+      "last_checked": "2026-07-14T05:44:20.232Z",
       "last_seen": "2026-02-23T05:16:29.718Z",
       "sponsored": false,
       "verification_available": true
@@ -25347,7 +25449,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:27:06.932Z",
+      "last_checked": "2026-07-14T05:44:22.543Z",
       "last_seen": "2026-02-23T05:16:36.194Z",
       "sponsored": false,
       "verification_available": true
@@ -25459,7 +25561,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25467,7 +25569,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:27:10.811Z",
+      "last_checked": "2026-07-14T05:44:24.339Z",
       "last_seen": "2026-02-23T05:16:39.295Z",
       "sponsored": false,
       "verification_available": true
@@ -25482,7 +25584,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25490,7 +25592,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:27:12.787Z",
+      "last_checked": "2026-07-14T05:44:26.282Z",
       "last_seen": "2026-02-23T05:16:41.226Z",
       "sponsored": false,
       "verification_available": true
@@ -25781,7 +25883,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 67,
+      "fail_streak": 68,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25794,7 +25896,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:32.912Z",
+      "last_checked": "2026-07-14T05:44:28.255Z",
       "last_seen": "2026-03-06T04:59:14.522Z",
       "sponsored": false,
       "verification_available": true
@@ -25817,7 +25919,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:35.044Z",
+      "last_checked": "2026-07-14T05:44:30.411Z",
       "last_seen": "2026-03-28T05:08:58.880Z",
       "sponsored": false,
       "verification_available": true
@@ -25832,7 +25934,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 54,
+      "fail_streak": 55,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25840,7 +25942,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T06:59:44.883Z",
+      "last_checked": "2026-07-14T05:44:34.675Z",
       "last_seen": "2026-04-01T05:36:12.812Z",
       "sponsored": false,
       "verification_available": true
@@ -26016,7 +26118,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26029,7 +26131,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-10T06:59:46.052Z",
+      "last_checked": "2026-07-14T05:44:35.697Z",
       "last_seen": "2026-06-12T08:07:35.303Z",
       "sponsored": false,
       "verification_available": true
@@ -26527,7 +26629,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26535,7 +26637,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:27:37.784Z",
+      "last_checked": "2026-07-14T05:44:37.709Z",
       "last_seen": "2026-02-23T05:16:45.264Z",
       "sponsored": false,
       "verification_available": true
@@ -26550,7 +26652,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26558,7 +26660,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-06-10T07:22:32.206Z",
+      "last_checked": "2026-07-14T05:44:39.706Z",
       "last_seen": "2026-04-01T05:36:16.453Z",
       "sponsored": false,
       "verification_available": true
@@ -26573,7 +26675,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26581,7 +26683,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:27:39.801Z",
+      "last_checked": "2026-07-14T05:44:41.708Z",
       "last_seen": "2026-02-23T05:16:47.214Z",
       "sponsored": false,
       "verification_available": true
@@ -26946,7 +27048,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26954,7 +27056,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:00:06.012Z",
+      "last_checked": "2026-07-14T05:44:43.697Z",
       "last_seen": "2026-03-28T05:09:18.881Z",
       "sponsored": false,
       "verification_available": true
@@ -26969,7 +27071,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 57,
+      "fail_streak": 58,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26977,7 +27079,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:00:08.046Z",
+      "last_checked": "2026-07-14T05:44:45.778Z",
       "last_seen": "2026-03-28T05:09:20.879Z",
       "sponsored": false,
       "verification_available": true
@@ -27317,7 +27419,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-07-10T07:00:10.055Z",
+      "last_checked": "2026-07-14T05:44:47.882Z",
       "last_seen": "2026-05-19T07:01:47.826Z",
       "sponsored": false,
       "verification_available": true
@@ -27378,7 +27480,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-06-22T09:27:56.299Z",
+      "last_checked": "2026-07-14T05:44:50.010Z",
       "last_seen": "2026-06-22T09:27:56.299Z",
       "sponsored": false,
       "verification_available": true
@@ -27401,7 +27503,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-06-10T07:22:51.105Z",
+      "last_checked": "2026-07-14T05:44:51.702Z",
       "last_seen": "2026-04-01T05:36:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -27467,7 +27569,7 @@
           "url": "https://github.com/ThHanke/ontosphere"
         }
       ],
-      "last_checked": "2026-07-13T06:30:46.655Z",
+      "last_checked": "2026-07-14T05:44:54.088Z",
       "last_seen": "2026-02-23T05:16:57.877Z",
       "sponsored": false,
       "verification_available": true
@@ -28173,7 +28275,7 @@
           "url": "https://github.com/dm94/stiletto-web"
         }
       ],
-      "last_checked": "2026-07-13T06:30:50.653Z",
+      "last_checked": "2026-07-14T05:44:55.753Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -28415,7 +28517,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 55,
+      "fail_streak": 56,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28423,7 +28525,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:00:20.431Z",
+      "last_checked": "2026-07-14T05:44:57.771Z",
       "last_seen": "2026-03-28T05:09:40.878Z",
       "sponsored": false,
       "verification_available": true
@@ -28456,7 +28558,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-10T07:00:22.567Z",
+      "last_checked": "2026-07-14T05:44:59.871Z",
       "last_seen": "2026-03-29T05:27:01.520Z",
       "sponsored": false,
       "verification_available": true
@@ -28582,6 +28684,29 @@
       "verification_available": true
     },
     {
+      "domain": "docs.claude.com",
+      "name": "docs.claude.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:01.744Z",
+      "last_seen": "2026-07-14T05:45:01.744Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "docs.convex.dev",
       "name": "docs.convex.dev",
       "type": [],
@@ -28622,7 +28747,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:28:23.816Z",
+      "last_checked": "2026-07-14T05:45:04.216Z",
       "last_seen": "2026-02-23T05:17:05.201Z",
       "sponsored": false,
       "verification_available": true
@@ -28645,7 +28770,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:28:25.927Z",
+      "last_checked": "2026-07-14T05:45:05.907Z",
       "last_seen": "2026-02-23T05:17:07.572Z",
       "sponsored": false,
       "verification_available": true
@@ -28711,15 +28836,15 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-07-13T06:30:54.654Z"
+          "last_success": "2026-07-14T05:45:07.810Z"
         },
         {
           "type": "well_known",
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json",
-          "last_success": "2026-07-13T06:30:54.654Z"
+          "last_success": "2026-07-14T05:45:07.810Z"
         }
       ],
-      "last_verified_success": "2026-07-13T06:30:54.654Z",
+      "last_verified_success": "2026-07-14T05:45:07.810Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -28778,8 +28903,8 @@
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-07-13T06:30:54.654Z",
-      "last_seen": "2026-07-13T06:30:54.654Z",
+      "last_checked": "2026-07-14T05:45:07.810Z",
+      "last_seen": "2026-07-14T05:45:07.810Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -28905,7 +29030,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-22T09:28:29.896Z",
+      "last_checked": "2026-07-14T05:45:09.817Z",
       "last_seen": "2026-02-23T05:17:15.259Z",
       "sponsored": false,
       "verification_available": true
@@ -28930,6 +29055,29 @@
       ],
       "last_checked": "2026-06-01T08:50:06.017Z",
       "last_seen": "2026-04-20T05:51:17.671Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docs.streamlit.io",
+      "name": "docs.streamlit.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:11.833Z",
+      "last_seen": "2026-07-14T05:45:11.833Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -29104,7 +29252,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29122,7 +29270,7 @@
           "url": "https://github.com/Jeethula/webmcp-chat"
         }
       ],
-      "last_checked": "2026-07-04T06:35:12.838Z",
+      "last_checked": "2026-07-14T05:45:13.721Z",
       "last_seen": "2026-02-16T05:15:18.203Z",
       "sponsored": false,
       "verification_available": true
@@ -29292,7 +29440,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 65,
+      "fail_streak": 66,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29320,7 +29468,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-07-10T07:00:40.454Z",
+      "last_checked": "2026-07-14T05:45:15.709Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -29335,7 +29483,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 38,
+      "fail_streak": 39,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29343,7 +29491,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-21T08:17:09.063Z",
+      "last_checked": "2026-07-14T05:45:17.730Z",
       "last_seen": "2026-04-04T05:07:31.483Z",
       "sponsored": false,
       "verification_available": true
@@ -29593,7 +29741,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 51,
+      "fail_streak": 52,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29601,7 +29749,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-21T08:17:17.028Z",
+      "last_checked": "2026-07-14T05:45:19.701Z",
       "last_seen": "2026-02-23T05:17:21.244Z",
       "sponsored": false,
       "verification_available": true
@@ -29739,7 +29887,7 @@
           "url": "https://github.com/teaguesterling/duckdb_mcp"
         }
       ],
-      "last_checked": "2026-07-10T07:00:48.499Z",
+      "last_checked": "2026-07-14T05:45:21.860Z",
       "last_seen": "2026-02-25T05:10:46.676Z",
       "sponsored": false,
       "verification_available": true
@@ -30357,7 +30505,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 48,
+      "fail_streak": 49,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30365,7 +30513,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:08.919Z",
+      "last_checked": "2026-07-14T05:45:24.019Z",
       "last_seen": "2026-03-28T05:10:12.718Z",
       "sponsored": false,
       "verification_available": true
@@ -30403,7 +30551,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 46,
+      "fail_streak": 47,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30411,7 +30559,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:11.116Z",
+      "last_checked": "2026-07-14T05:45:25.767Z",
       "last_seen": "2026-03-28T05:10:14.883Z",
       "sponsored": false,
       "verification_available": true
@@ -30426,7 +30574,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30434,7 +30582,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:12.966Z",
+      "last_checked": "2026-07-14T05:45:27.876Z",
       "last_seen": "2026-03-28T05:10:16.881Z",
       "sponsored": false,
       "verification_available": true
@@ -30716,6 +30864,29 @@
       "verification_available": true
     },
     {
+      "domain": "empty-warning-component.svg",
+      "name": "empty-warning-component.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:29.867Z",
+      "last_seen": "2026-07-14T05:45:29.867Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "en.wikipedia.org",
       "name": "en.wikipedia.org",
       "type": [],
@@ -30988,7 +31159,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31054,9 +31225,14 @@
           "kind": "github_hit",
           "detail": "repo: aptos-labs/aptos-docs",
           "url": "https://github.com/aptos-labs/aptos-docs"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-10T07:01:28.794Z",
+      "last_checked": "2026-07-14T05:45:31.711Z",
       "last_seen": "2026-02-16T05:15:48.263Z",
       "sponsored": false,
       "verification_available": true
@@ -31241,6 +31417,82 @@
       ],
       "last_checked": "2026-04-21T05:38:57.862Z",
       "last_seen": "2026-04-14T05:36:04.748Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "esim-tools.git",
+      "name": "esim-tools.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:33.704Z",
+      "last_seen": "2026-07-14T05:45:33.704Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "esim-tools.svg",
+      "name": "esim-tools.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:35.709Z",
+      "last_seen": "2026-07-14T05:45:35.709Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "esim.cosr.eu.org",
+      "name": "esim.cosr.eu.org",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://esim.cosr.eu.org/"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:37.701Z",
+      "last_seen": "2026-07-14T05:45:37.701Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -31475,6 +31727,98 @@
       "verification_available": true
     },
     {
+      "domain": "event-pub-sub.svg",
+      "name": "event-pub-sub.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:39.854Z",
+      "last_seen": "2026-07-14T05:45:39.854Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "event.preventdefault",
+      "name": "event.preventdefault",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:41.743Z",
+      "last_seen": "2026-07-14T05:45:41.743Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "event.stoppropagation",
+      "name": "event.stoppropagation",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:43.746Z",
+      "last_seen": "2026-07-14T05:45:43.746Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "event.target.value",
+      "name": "event.target.value",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:45.731Z",
+      "last_seen": "2026-07-14T05:45:45.731Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "events.json",
       "name": "events.json",
       "type": [],
@@ -31581,7 +31925,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31589,7 +31933,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:31.833Z",
+      "last_checked": "2026-07-14T05:45:47.706Z",
       "last_seen": "2026-03-28T05:10:26.885Z",
       "sponsored": false,
       "verification_available": true
@@ -31604,7 +31948,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31612,7 +31956,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:37.437Z",
+      "last_checked": "2026-07-14T05:45:49.857Z",
       "last_seen": "2026-03-28T05:10:28.882Z",
       "sponsored": false,
       "verification_available": true
@@ -31627,7 +31971,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31635,7 +31979,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-17T08:43:28.279Z",
+      "last_checked": "2026-07-14T05:45:51.855Z",
       "last_seen": "2026-02-23T05:17:49.850Z",
       "sponsored": false,
       "verification_available": true
@@ -31714,9 +32058,14 @@
           "kind": "github_hit",
           "detail": "repo: wraps-team/wraps",
           "url": "https://github.com/wraps-team/wraps"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-10T07:01:39.432Z",
+      "last_checked": "2026-07-14T05:45:53.844Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -31739,7 +32088,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-05-11T06:56:30.249Z",
+      "last_checked": "2026-07-14T05:45:55.679Z",
       "last_seen": "2026-05-11T06:56:30.249Z",
       "sponsored": false,
       "verification_available": true
@@ -31810,6 +32159,29 @@
       ],
       "last_checked": "2026-07-04T06:36:04.768Z",
       "last_seen": "2026-06-17T08:43:34.144Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "excel-export.svg",
+      "name": "excel-export.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:45:57.679Z",
+      "last_seen": "2026-07-14T05:45:57.679Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -31892,7 +32264,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31910,7 +32282,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-07-13T06:31:04.726Z",
+      "last_checked": "2026-07-14T05:46:02.614Z",
       "last_seen": "2026-02-16T05:15:56.213Z",
       "sponsored": false,
       "verification_available": true
@@ -31933,7 +32305,7 @@
           "url": "https://github.com/aptos-labs/explorer"
         }
       ],
-      "last_checked": "2026-06-17T08:43:40.275Z",
+      "last_checked": "2026-07-14T05:46:04.772Z",
       "last_seen": "2026-05-01T06:29:28.988Z",
       "sponsored": false,
       "verification_available": true
@@ -31948,7 +32320,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31956,7 +32328,7 @@
           "url": "https://github.com/aptos-labs/explorer"
         }
       ],
-      "last_checked": "2026-06-17T08:43:42.162Z",
+      "last_checked": "2026-07-14T05:46:06.839Z",
       "last_seen": "2026-05-01T06:29:31.062Z",
       "sponsored": false,
       "verification_available": true
@@ -32086,7 +32458,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32094,7 +32466,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-10T07:24:07.854Z",
+      "last_checked": "2026-07-14T05:46:08.570Z",
       "last_seen": "2026-02-23T05:17:53.826Z",
       "sponsored": false,
       "verification_available": true
@@ -32109,7 +32481,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32117,7 +32489,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-10T07:24:09.997Z",
+      "last_checked": "2026-07-14T05:46:10.600Z",
       "last_seen": "2026-02-23T05:17:55.990Z",
       "sponsored": false,
       "verification_available": true
@@ -32165,6 +32537,52 @@
       ],
       "last_checked": "2026-07-04T06:36:08.900Z",
       "last_seen": "2026-04-14T05:36:17.547Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "family.gdz",
+      "name": "family.gdz",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: PeWu/topola-viewer",
+          "url": "https://github.com/PeWu/topola-viewer"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:12.601Z",
+      "last_seen": "2026-07-14T05:46:12.601Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "family.ged",
+      "name": "family.ged",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: PeWu/topola-viewer",
+          "url": "https://github.com/PeWu/topola-viewer"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:14.596Z",
+      "last_seen": "2026-07-14T05:46:14.596Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -32439,8 +32857,31 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:47.328Z",
+      "last_checked": "2026-07-14T05:46:16.622Z",
       "last_seen": "2026-03-28T05:10:45.272Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "favicon-c49brna2.svg",
+      "name": "favicon-c49brna2.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:18.904Z",
+      "last_seen": "2026-07-14T05:46:18.904Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -32773,6 +33214,98 @@
       ],
       "last_checked": "2026-06-01T08:50:47.579Z",
       "last_seen": "2026-02-19T05:10:36.662Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "field.handleblur",
+      "name": "field.handleblur",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:20.604Z",
+      "last_seen": "2026-07-14T05:46:20.604Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "field.handlechange",
+      "name": "field.handlechange",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:22.712Z",
+      "last_seen": "2026-07-14T05:46:22.712Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "field.name",
+      "name": "field.name",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:24.643Z",
+      "last_seen": "2026-07-14T05:46:24.643Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "field.state.value",
+      "name": "field.state.value",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:26.607Z",
+      "last_seen": "2026-07-14T05:46:26.607Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33430,7 +33963,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33438,7 +33971,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:01:59.285Z",
+      "last_checked": "2026-07-14T05:46:28.614Z",
       "last_seen": "2026-03-30T05:40:07.600Z",
       "sponsored": false,
       "verification_available": true
@@ -33453,7 +33986,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33461,7 +33994,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:02:01.422Z",
+      "last_checked": "2026-07-14T05:46:30.782Z",
       "last_seen": "2026-03-30T05:40:09.622Z",
       "sponsored": false,
       "verification_available": true
@@ -33476,7 +34009,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33484,7 +34017,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:02:03.430Z",
+      "last_checked": "2026-07-14T05:46:32.785Z",
       "last_seen": "2026-03-30T05:40:11.618Z",
       "sponsored": false,
       "verification_available": true
@@ -33532,6 +34065,52 @@
       ],
       "last_checked": "2026-04-11T05:10:02.598Z",
       "last_seen": "2026-03-30T05:40:13.630Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "form.field",
+      "name": "form.field",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:34.777Z",
+      "last_seen": "2026-07-14T05:46:34.777Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "form.handlesubmit",
+      "name": "form.handlesubmit",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:36.632Z",
+      "last_seen": "2026-07-14T05:46:36.632Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33624,6 +34203,71 @@
       ],
       "last_checked": "2026-02-20T05:05:41.265Z",
       "last_seen": "2026-02-16T05:16:12.310Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "forter-agentic-readiness-guide.pdf",
+      "name": "forter-agentic-readiness-guide.pdf",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:38.614Z",
+      "last_seen": "2026-07-14T05:46:38.614Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "forter.com",
+      "name": "forter.com",
+      "type": [
+        "mcp-server",
+        "webmcp"
+      ],
+      "confidence": 100,
+      "status": "verified",
+      "verification_status": "verified",
+      "verification_method": "well_known",
+      "proof": [
+        {
+          "type": "well_known",
+          "url": "https://forter.com/.well-known/mcp.json",
+          "last_success": "2026-07-14T05:46:40.619Z"
+        }
+      ],
+      "last_verified_success": "2026-07-14T05:46:40.619Z",
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: forter/agentic-readiness-guide",
+          "url": "https://github.com/forter/agentic-readiness-guide"
+        },
+        {
+          "kind": "well_known_mcp_json",
+          "detail": "found .well-known/mcp.json",
+          "url": "https://forter.com/.well-known/mcp.json"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://forter.com/"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:40.619Z",
+      "last_seen": "2026-07-14T05:46:40.619Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33959,7 +34603,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33967,7 +34611,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-06-10T07:24:29.851Z",
+      "last_checked": "2026-07-14T05:46:42.734Z",
       "last_seen": "2026-03-30T05:40:15.439Z",
       "sponsored": false,
       "verification_available": true
@@ -34235,7 +34879,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34243,7 +34887,7 @@
           "url": "https://github.com/r/Harbor"
         }
       ],
-      "last_checked": "2026-02-16T05:16:14.216Z",
+      "last_checked": "2026-07-14T05:46:44.632Z",
       "last_seen": "2026-02-16T05:16:14.216Z",
       "sponsored": false,
       "verification_available": true
@@ -34321,8 +34965,8 @@
       "domain": "getbootstrap.com",
       "name": "getbootstrap.com",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -34333,9 +34977,14 @@
           "kind": "github_hit",
           "detail": "repo: WebControlCNC/WebControl",
           "url": "https://github.com/WebControlCNC/WebControl"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-06-01T08:51:21.587Z",
+      "last_checked": "2026-07-14T05:46:46.625Z",
       "last_seen": "2026-04-20T05:51:49.562Z",
       "sponsored": false,
       "verification_available": true
@@ -34392,8 +35041,59 @@
       "verification_available": true
     },
     {
+      "domain": "gh-pages.zip",
+      "name": "gh-pages.zip",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: PeWu/topola-viewer",
+          "url": "https://github.com/PeWu/topola-viewer"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:48.620Z",
+      "last_seen": "2026-07-14T05:46:48.620Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "ghcr.io",
       "name": "ghcr.io",
+      "type": [],
+      "confidence": 60,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: openstatusHQ/openstatus",
+          "url": "https://github.com/openstatusHQ/openstatus"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: PeWu/topola-viewer",
+          "url": "https://github.com/PeWu/topola-viewer"
+        }
+      ],
+      "last_checked": "2026-07-14T05:46:50.685Z",
+      "last_seen": "2026-05-08T05:41:17.400Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ghiscoding.gitbook.io",
+      "name": "ghiscoding.gitbook.io",
       "type": [],
       "confidence": 30,
       "status": "unverified",
@@ -34405,12 +35105,81 @@
       "evidence": [
         {
           "kind": "github_hit",
-          "detail": "repo: openstatusHQ/openstatus",
-          "url": "https://github.com/openstatusHQ/openstatus"
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-05-10T06:24:08.831Z",
-      "last_seen": "2026-05-08T05:41:17.400Z",
+      "last_checked": "2026-07-14T05:46:53.085Z",
+      "last_seen": "2026-07-14T05:46:53.085Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ghiscoding.github.io",
+      "name": "ghiscoding.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:00.227Z",
+      "last_seen": "2026-07-14T05:47:00.227Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "giffgaff-preview.jpg",
+      "name": "giffgaff-preview.jpg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:01.332Z",
+      "last_seen": "2026-07-14T05:47:01.332Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "giffgaff.com",
+      "name": "giffgaff.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:03.362Z",
+      "last_seen": "2026-07-14T05:47:03.362Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -34455,7 +35224,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-05-21T07:07:37.948Z",
+      "last_checked": "2026-07-14T05:47:05.649Z",
       "last_seen": "2026-03-30T05:40:23.544Z",
       "sponsored": false,
       "verification_available": true
@@ -34493,7 +35262,7 @@
           "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
         }
       ],
-      "last_checked": "2026-05-21T07:07:40.434Z",
+      "last_checked": "2026-07-14T05:47:07.712Z",
       "last_seen": "2026-02-21T04:54:45.623Z",
       "sponsored": false,
       "verification_available": true
@@ -34807,7 +35576,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34815,7 +35584,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:02:21.423Z",
+      "last_checked": "2026-07-14T05:47:09.253Z",
       "last_seen": "2026-03-30T05:40:37.504Z",
       "sponsored": false,
       "verification_available": true
@@ -34922,7 +35691,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-05-21T07:07:56.076Z",
+      "last_checked": "2026-07-14T05:47:11.426Z",
       "last_seen": "2026-03-30T05:40:41.996Z",
       "sponsored": false,
       "verification_available": true
@@ -35054,6 +35823,52 @@
       ],
       "last_checked": "2026-02-20T05:05:57.321Z",
       "last_seen": "2026-02-16T05:16:26.286Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "gramps-project.org",
+      "name": "gramps-project.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: PeWu/topola-viewer",
+          "url": "https://github.com/PeWu/topola-viewer"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:13.338Z",
+      "last_seen": "2026-07-14T05:47:13.338Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "graphql.svg",
+      "name": "graphql.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:15.312Z",
+      "last_seen": "2026-07-14T05:47:15.312Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -35190,7 +36005,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:02:25.288Z",
+      "last_checked": "2026-07-14T05:47:17.261Z",
       "last_seen": "2026-03-30T05:40:47.542Z",
       "sponsored": false,
       "verification_available": true
@@ -35228,7 +36043,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35236,7 +36051,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-05-21T07:08:02.039Z",
+      "last_checked": "2026-07-14T05:47:19.654Z",
       "last_seen": "2026-03-30T05:40:49.631Z",
       "sponsored": false,
       "verification_available": true
@@ -35366,7 +36181,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35374,7 +36189,7 @@
           "url": "https://github.com/r/Harbor"
         }
       ],
-      "last_checked": "2026-02-16T05:16:32.303Z",
+      "last_checked": "2026-07-14T05:47:21.250Z",
       "last_seen": "2026-02-16T05:16:32.303Z",
       "sponsored": false,
       "verification_available": true
@@ -35435,7 +36250,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35443,7 +36258,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:02:31.307Z",
+      "last_checked": "2026-07-14T05:47:23.286Z",
       "last_seen": "2026-07-02T06:57:47.220Z",
       "sponsored": false,
       "verification_available": true
@@ -35504,7 +36319,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35512,7 +36327,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-10T07:02:33.427Z",
+      "last_checked": "2026-07-14T05:47:25.430Z",
       "last_seen": "2026-07-02T06:57:49.278Z",
       "sponsored": false,
       "verification_available": true
@@ -35611,6 +36426,29 @@
       ],
       "last_checked": "2026-02-16T05:16:36.319Z",
       "last_seen": "2026-02-16T05:16:36.319Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "home-preview.jpg",
+      "name": "home-preview.jpg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Silentely/eSIM-Tools",
+          "url": "https://github.com/Silentely/eSIM-Tools"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:27.334Z",
+      "last_seen": "2026-07-14T05:47:27.334Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -35859,7 +36697,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35867,7 +36705,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-05-18T07:12:33.519Z",
+      "last_checked": "2026-07-14T05:47:29.352Z",
       "last_seen": "2026-03-30T05:40:55.579Z",
       "sponsored": false,
       "verification_available": true
@@ -35946,7 +36784,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-09T07:01:10.724Z",
+      "last_checked": "2026-07-14T05:47:31.359Z",
       "last_seen": "2026-05-16T06:14:43.749Z",
       "sponsored": false,
       "verification_available": true
@@ -36145,7 +36983,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36153,8 +36991,31 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-09T07:01:18.724Z",
+      "last_checked": "2026-07-14T05:47:33.365Z",
       "last_seen": "2026-03-30T05:40:59.483Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "icon-square-small.9e8aff7a67a5dd20.svg",
+      "name": "icon-square-small.9e8aff7a67a5dd20.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ghiscoding/slickgrid-universal",
+          "url": "https://github.com/ghiscoding/slickgrid-universal"
+        }
+      ],
+      "last_checked": "2026-07-14T05:47:35.437Z",
+      "last_seen": "2026-07-14T05:47:35.437Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -36214,7 +37075,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36222,7 +37083,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-07-09T07:01:20.715Z",
+      "last_checked": "2026-07-14T05:47:37.296Z",
       "last_seen": "2026-02-20T05:06:13.321Z",
       "sponsored": false,
       "verification_available": true
