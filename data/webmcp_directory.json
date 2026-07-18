@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T06:00:44.162Z",
+  "updated_at": "2026-07-18T05:43:50.768Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -126,7 +126,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +134,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:53:48.003Z",
+      "last_checked": "2026-07-18T05:36:49.766Z",
       "last_seen": "2026-05-11T06:50:11.751Z",
       "sponsored": false,
       "verification_available": true
@@ -374,12 +374,12 @@
       "name": "00-toc.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -387,7 +387,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:53:49.806Z",
+      "last_checked": "2026-07-18T05:36:51.482Z",
       "last_seen": "2026-07-14T05:40:35.285Z",
       "sponsored": false,
       "verification_available": true
@@ -1018,12 +1018,12 @@
       "name": "01-introduction.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1031,7 +1031,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:53:51.944Z",
+      "last_checked": "2026-07-18T05:36:53.678Z",
       "last_seen": "2026-07-14T05:40:37.488Z",
       "sponsored": false,
       "verification_available": true
@@ -1253,7 +1253,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1261,7 +1261,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:53:54.080Z",
+      "last_checked": "2026-07-18T05:36:55.677Z",
       "last_seen": "2026-06-12T08:01:42.542Z",
       "sponsored": false,
       "verification_available": true
@@ -1345,7 +1345,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1353,7 +1353,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T05:53:55.852Z",
+      "last_checked": "2026-07-18T05:36:57.542Z",
       "last_seen": "2026-04-01T05:32:37.673Z",
       "sponsored": false,
       "verification_available": true
@@ -1511,7 +1511,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1519,7 +1519,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:53:57.811Z",
+      "last_checked": "2026-07-18T05:36:59.482Z",
       "last_seen": "2026-06-12T08:01:44.378Z",
       "sponsored": false,
       "verification_available": true
@@ -3941,7 +3941,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3949,7 +3949,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:53:59.835Z",
+      "last_checked": "2026-07-18T05:37:01.543Z",
       "last_seen": "2026-06-12T08:01:48.376Z",
       "sponsored": false,
       "verification_available": true
@@ -4010,7 +4010,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4018,7 +4018,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:54:01.913Z",
+      "last_checked": "2026-07-18T05:37:03.525Z",
       "last_seen": "2026-05-11T06:50:21.570Z",
       "sponsored": false,
       "verification_available": true
@@ -4056,7 +4056,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4064,7 +4064,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T05:54:03.843Z",
+      "last_checked": "2026-07-18T05:37:05.588Z",
       "last_seen": "2026-04-01T05:32:45.766Z",
       "sponsored": false,
       "verification_available": true
@@ -4079,7 +4079,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4087,7 +4087,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T05:54:06.058Z",
+      "last_checked": "2026-07-18T05:37:07.689Z",
       "last_seen": "2026-04-01T05:32:47.720Z",
       "sponsored": false,
       "verification_available": true
@@ -4222,7 +4222,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4230,7 +4230,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:54:07.885Z",
+      "last_checked": "2026-07-18T05:37:09.499Z",
       "last_seen": "2026-05-11T06:50:27.591Z",
       "sponsored": false,
       "verification_available": true
@@ -4245,7 +4245,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4253,7 +4253,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:54:09.911Z",
+      "last_checked": "2026-07-18T05:37:11.566Z",
       "last_seen": "2026-05-11T06:50:29.584Z",
       "sponsored": false,
       "verification_available": true
@@ -4406,7 +4406,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4414,7 +4414,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:54:11.855Z",
+      "last_checked": "2026-07-18T05:37:13.570Z",
       "last_seen": "2026-05-11T06:50:31.606Z",
       "sponsored": false,
       "verification_available": true
@@ -4475,7 +4475,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4483,7 +4483,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:54:13.834Z",
+      "last_checked": "2026-07-18T05:37:15.597Z",
       "last_seen": "2026-05-11T06:50:33.661Z",
       "sponsored": false,
       "verification_available": true
@@ -4521,7 +4521,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4529,7 +4529,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:15.830Z",
+      "last_checked": "2026-07-18T05:37:17.505Z",
       "last_seen": "2026-06-12T08:01:50.388Z",
       "sponsored": false,
       "verification_available": true
@@ -4567,7 +4567,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4575,7 +4575,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:54:17.836Z",
+      "last_checked": "2026-07-18T05:37:19.504Z",
       "last_seen": "2026-05-11T06:50:35.608Z",
       "sponsored": false,
       "verification_available": true
@@ -4774,7 +4774,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4782,7 +4782,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:19.834Z",
+      "last_checked": "2026-07-18T05:37:21.553Z",
       "last_seen": "2026-06-12T08:01:52.485Z",
       "sponsored": false,
       "verification_available": true
@@ -5379,7 +5379,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5387,7 +5387,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:21.834Z",
+      "last_checked": "2026-07-18T05:37:23.500Z",
       "last_seen": "2026-06-12T08:01:58.526Z",
       "sponsored": false,
       "verification_available": true
@@ -5425,7 +5425,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5433,7 +5433,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:23.898Z",
+      "last_checked": "2026-07-18T05:37:25.548Z",
       "last_seen": "2026-06-12T08:02:00.473Z",
       "sponsored": false,
       "verification_available": true
@@ -5456,7 +5456,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:25.873Z",
+      "last_checked": "2026-07-18T05:37:27.505Z",
       "last_seen": "2026-06-12T08:02:02.430Z",
       "sponsored": false,
       "verification_available": true
@@ -5479,7 +5479,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:27.835Z",
+      "last_checked": "2026-07-18T05:37:29.505Z",
       "last_seen": "2026-06-12T08:02:04.375Z",
       "sponsored": false,
       "verification_available": true
@@ -5701,7 +5701,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5709,7 +5709,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:32.495Z",
+      "last_checked": "2026-07-18T05:37:34.937Z",
       "last_seen": "2026-06-12T08:02:23.314Z",
       "sponsored": false,
       "verification_available": true
@@ -5732,7 +5732,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:33.542Z",
+      "last_checked": "2026-07-18T05:37:36.280Z",
       "last_seen": "2026-06-12T08:02:25.265Z",
       "sponsored": false,
       "verification_available": true
@@ -5755,7 +5755,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:35.963Z",
+      "last_checked": "2026-07-18T05:37:38.899Z",
       "last_seen": "2026-06-12T08:02:27.638Z",
       "sponsored": false,
       "verification_available": true
@@ -5770,7 +5770,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5778,7 +5778,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:37.526Z",
+      "last_checked": "2026-07-18T05:37:40.300Z",
       "last_seen": "2026-06-12T08:02:29.190Z",
       "sponsored": false,
       "verification_available": true
@@ -6396,7 +6396,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6404,7 +6404,7 @@
           "url": "https://github.com/r/Harbor"
         }
       ],
-      "last_checked": "2026-07-17T05:54:41.084Z",
+      "last_checked": "2026-07-18T05:37:42.877Z",
       "last_seen": "2026-02-16T05:12:41.973Z",
       "sponsored": false,
       "verification_available": true
@@ -6672,12 +6672,12 @@
       "name": "agentic-readiness-guide.git",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6685,7 +6685,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:54:42.728Z",
+      "last_checked": "2026-07-18T05:37:44.679Z",
       "last_seen": "2026-07-14T05:41:07.509Z",
       "sponsored": false,
       "verification_available": true
@@ -7365,7 +7365,7 @@
           "url": "https://github.com/msitarzewski/agency-agents"
         }
       ],
-      "last_checked": "2026-07-17T05:54:44.503Z",
+      "last_checked": "2026-07-18T05:37:46.356Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -7431,10 +7431,10 @@
         {
           "type": "well_known",
           "url": "https://agentskills.io/.well-known/mcp.json",
-          "last_success": "2026-07-17T05:54:46.410Z"
+          "last_success": "2026-07-18T05:37:48.294Z"
         }
       ],
-      "last_verified_success": "2026-07-17T05:54:46.410Z",
+      "last_verified_success": "2026-07-18T05:37:48.294Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -7458,8 +7458,8 @@
           "url": "https://agentskills.io/"
         }
       ],
-      "last_checked": "2026-07-17T05:54:46.410Z",
-      "last_seen": "2026-07-17T05:54:46.410Z",
+      "last_checked": "2026-07-18T05:37:48.294Z",
+      "last_seen": "2026-07-18T05:37:48.294Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7935,7 +7935,7 @@
           "url": "https://github.com/fru1tworld/cs-study"
         }
       ],
-      "last_checked": "2026-07-17T05:54:48.588Z",
+      "last_checked": "2026-07-18T05:37:50.434Z",
       "last_seen": "2026-07-14T05:41:13.513Z",
       "sponsored": false,
       "verification_available": true
@@ -8220,7 +8220,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8233,7 +8233,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-17T05:54:52.985Z",
+      "last_checked": "2026-07-18T05:37:54.769Z",
       "last_seen": "2026-06-12T08:02:53.250Z",
       "sponsored": false,
       "verification_available": true
@@ -8961,7 +8961,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:53.993Z",
+      "last_checked": "2026-07-18T05:37:55.784Z",
       "last_seen": "2026-06-12T08:03:08.805Z",
       "sponsored": false,
       "verification_available": true
@@ -8999,7 +8999,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9007,7 +9007,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:54:56.009Z",
+      "last_checked": "2026-07-18T05:37:57.867Z",
       "last_seen": "2026-06-12T08:03:10.716Z",
       "sponsored": false,
       "verification_available": true
@@ -9451,7 +9451,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 85,
+      "fail_streak": 86,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9459,7 +9459,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:54:58.051Z",
+      "last_checked": "2026-07-18T05:37:59.845Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -9507,7 +9507,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9520,7 +9520,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-17T05:54:59.992Z",
+      "last_checked": "2026-07-18T05:38:01.876Z",
       "last_seen": "2026-06-12T08:03:18.743Z",
       "sponsored": false,
       "verification_available": true
@@ -9586,7 +9586,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 94,
+      "fail_streak": 95,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9629,7 +9629,7 @@
           "url": "https://github.com/jnMetaCode/agency-agents-zh"
         }
       ],
-      "last_checked": "2026-07-17T05:55:02.001Z",
+      "last_checked": "2026-07-18T05:38:03.850Z",
       "last_seen": "2026-02-20T05:02:36.897Z",
       "sponsored": false,
       "verification_available": true
@@ -10349,7 +10349,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:55:04.075Z",
+      "last_checked": "2026-07-18T05:38:05.917Z",
       "last_seen": "2026-05-11T06:51:42.600Z",
       "sponsored": false,
       "verification_available": true
@@ -10644,7 +10644,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-17T05:55:05.980Z",
+      "last_checked": "2026-07-18T05:38:07.836Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -10733,7 +10733,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10741,7 +10741,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-07-17T05:55:07.980Z",
+      "last_checked": "2026-07-18T05:38:09.798Z",
       "last_seen": "2026-02-27T05:00:07.348Z",
       "sponsored": false,
       "verification_available": true
@@ -11119,7 +11119,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-07-17T05:55:10.045Z",
+      "last_checked": "2026-07-18T05:38:11.784Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -11722,7 +11722,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:55:11.996Z",
+      "last_checked": "2026-07-18T05:38:13.951Z",
       "last_seen": "2026-06-27T06:39:38.166Z",
       "sponsored": false,
       "verification_available": true
@@ -12244,7 +12244,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12252,7 +12252,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:55:14.296Z",
+      "last_checked": "2026-07-18T05:38:17.242Z",
       "last_seen": "2026-06-12T08:03:55.222Z",
       "sponsored": false,
       "verification_available": true
@@ -12759,7 +12759,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 115,
+      "fail_streak": 116,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12917,7 +12917,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-17T05:55:16.064Z",
+      "last_checked": "2026-07-18T05:38:18.288Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -12963,7 +12963,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:55:17.989Z",
+      "last_checked": "2026-07-18T05:38:20.280Z",
       "last_seen": "2026-06-12T08:03:58.711Z",
       "sponsored": false,
       "verification_available": true
@@ -13325,7 +13325,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 85,
+      "fail_streak": 86,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13333,7 +13333,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:55:20.184Z",
+      "last_checked": "2026-07-18T05:38:22.410Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -13371,7 +13371,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13384,7 +13384,7 @@
           "url": "https://github.com/lightpanda-io/browser"
         }
       ],
-      "last_checked": "2026-07-17T05:55:21.990Z",
+      "last_checked": "2026-07-18T05:38:24.258Z",
       "last_seen": "2026-06-05T07:19:55.222Z",
       "sponsored": false,
       "verification_available": true
@@ -13606,7 +13606,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13614,7 +13614,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T05:55:31.975Z",
+      "last_checked": "2026-07-18T05:38:34.246Z",
       "last_seen": "2026-05-12T06:23:59.419Z",
       "sponsored": false,
       "verification_available": true
@@ -13629,7 +13629,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13637,7 +13637,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T05:55:33.057Z",
+      "last_checked": "2026-07-18T05:38:35.439Z",
       "last_seen": "2026-05-12T06:24:01.272Z",
       "sponsored": false,
       "verification_available": true
@@ -13652,7 +13652,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13660,7 +13660,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T05:55:35.099Z",
+      "last_checked": "2026-07-18T05:38:37.438Z",
       "last_seen": "2026-05-12T06:24:03.251Z",
       "sponsored": false,
       "verification_available": true
@@ -13675,7 +13675,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13683,7 +13683,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T05:55:37.062Z",
+      "last_checked": "2026-07-18T05:38:39.403Z",
       "last_seen": "2026-05-12T06:24:05.244Z",
       "sponsored": false,
       "verification_available": true
@@ -13706,7 +13706,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T05:55:39.035Z",
+      "last_checked": "2026-07-18T05:38:41.437Z",
       "last_seen": "2026-05-12T06:24:07.249Z",
       "sponsored": false,
       "verification_available": true
@@ -13725,10 +13725,10 @@
         {
           "type": "homepage",
           "url": "https://binkyfiles.com/",
-          "last_success": "2026-07-17T05:55:41.046Z"
+          "last_success": "2026-07-18T05:38:43.530Z"
         }
       ],
-      "last_verified_success": "2026-07-17T05:55:41.046Z",
+      "last_verified_success": "2026-07-18T05:38:43.530Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -13742,8 +13742,8 @@
           "url": "https://binkyfiles.com/"
         }
       ],
-      "last_checked": "2026-07-17T05:55:41.046Z",
-      "last_seen": "2026-07-17T05:55:41.046Z",
+      "last_checked": "2026-07-18T05:38:43.530Z",
+      "last_seen": "2026-07-18T05:38:43.530Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13816,7 +13816,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-17T05:55:44.634Z",
+      "last_checked": "2026-07-18T05:38:46.896Z",
       "last_seen": "2026-03-03T05:02:03.189Z",
       "sponsored": false,
       "verification_available": true
@@ -14249,7 +14249,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14257,7 +14257,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:55:45.774Z",
+      "last_checked": "2026-07-18T05:38:48.267Z",
       "last_seen": "2026-03-24T05:09:16.897Z",
       "sponsored": false,
       "verification_available": true
@@ -16111,7 +16111,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:55:47.643Z",
+      "last_checked": "2026-07-18T05:38:49.918Z",
       "last_seen": "2026-06-22T09:24:22.729Z",
       "sponsored": false,
       "verification_available": true
@@ -16203,7 +16203,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:55:49.647Z",
+      "last_checked": "2026-07-18T05:38:51.924Z",
       "last_seen": "2026-05-11T06:52:52.738Z",
       "sponsored": false,
       "verification_available": true
@@ -16241,7 +16241,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16249,7 +16249,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T05:55:51.669Z",
+      "last_checked": "2026-07-18T05:38:53.934Z",
       "last_seen": "2026-03-27T05:24:14.986Z",
       "sponsored": false,
       "verification_available": true
@@ -16995,7 +16995,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:55:53.801Z",
+      "last_checked": "2026-07-18T05:38:56.192Z",
       "last_seen": "2026-02-16T05:13:30.620Z",
       "sponsored": false,
       "verification_available": true
@@ -17402,7 +17402,7 @@
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
         }
       ],
-      "last_checked": "2026-07-17T05:55:55.759Z",
+      "last_checked": "2026-07-18T05:38:58.127Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -17514,7 +17514,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17522,7 +17522,7 @@
           "url": "https://github.com/w3c/webextensions"
         }
       ],
-      "last_checked": "2026-07-17T05:55:57.842Z",
+      "last_checked": "2026-07-18T05:39:01.274Z",
       "last_seen": "2026-05-11T06:53:08.687Z",
       "sponsored": false,
       "verification_available": true
@@ -17882,7 +17882,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17890,7 +17890,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:55:59.971Z",
+      "last_checked": "2026-07-18T05:39:02.793Z",
       "last_seen": "2026-06-12T08:05:07.341Z",
       "sponsored": false,
       "verification_available": true
@@ -17913,7 +17913,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:01.653Z",
+      "last_checked": "2026-07-18T05:39:04.378Z",
       "last_seen": "2026-02-23T05:15:03.395Z",
       "sponsored": false,
       "verification_available": true
@@ -18343,7 +18343,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-07-17T05:56:03.654Z",
+      "last_checked": "2026-07-18T05:39:06.388Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -18463,7 +18463,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:56:05.750Z",
+      "last_checked": "2026-07-18T05:39:08.378Z",
       "last_seen": "2026-05-11T06:53:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -18529,7 +18529,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 114,
+      "fail_streak": 115,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18617,7 +18617,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-17T05:56:07.824Z",
+      "last_checked": "2026-07-18T05:39:10.675Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -18793,7 +18793,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18801,7 +18801,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:56:09.709Z",
+      "last_checked": "2026-07-18T05:39:12.629Z",
       "last_seen": "2026-06-12T08:05:19.182Z",
       "sponsored": false,
       "verification_available": true
@@ -19235,7 +19235,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:11.665Z",
+      "last_checked": "2026-07-18T05:39:14.560Z",
       "last_seen": "2026-02-23T05:15:11.409Z",
       "sponsored": false,
       "verification_available": true
@@ -19460,7 +19460,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 88,
+      "fail_streak": 89,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19473,7 +19473,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-07-17T05:56:13.733Z",
+      "last_checked": "2026-07-18T05:39:16.617Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -19657,7 +19657,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T05:56:15.679Z",
+      "last_checked": "2026-07-18T05:39:18.537Z",
       "last_seen": "2026-04-01T05:35:04.536Z",
       "sponsored": false,
       "verification_available": true
@@ -19911,7 +19911,7 @@
           "url": "https://github.com/Piotr1215/cloudrumble"
         }
       ],
-      "last_checked": "2026-07-17T05:56:17.997Z",
+      "last_checked": "2026-07-18T05:39:20.727Z",
       "last_seen": "2026-07-17T05:56:17.997Z",
       "sponsored": false,
       "verification_available": true
@@ -20329,7 +20329,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-07-17T05:56:19.828Z",
+      "last_checked": "2026-07-18T05:39:22.554Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -20545,7 +20545,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20558,7 +20558,7 @@
           "url": "https://github.com/heyderekj/dinky"
         }
       ],
-      "last_checked": "2026-07-17T05:56:21.681Z",
+      "last_checked": "2026-07-18T05:39:24.627Z",
       "last_seen": "2026-05-12T06:26:06.237Z",
       "sponsored": false,
       "verification_available": true
@@ -21233,7 +21233,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21251,7 +21251,7 @@
           "url": "https://github.com/kleinmatic/nyc-schools-agentic"
         }
       ],
-      "last_checked": "2026-07-17T05:56:23.720Z",
+      "last_checked": "2026-07-18T05:39:26.568Z",
       "last_seen": "2026-02-16T05:14:00.627Z",
       "sponsored": false,
       "verification_available": true
@@ -21465,7 +21465,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 82,
+      "fail_streak": 83,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21473,7 +21473,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:26.024Z",
+      "last_checked": "2026-07-18T05:39:28.540Z",
       "last_seen": "2026-02-23T05:15:43.722Z",
       "sponsored": false,
       "verification_available": true
@@ -21608,7 +21608,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 79,
+      "fail_streak": 80,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21711,7 +21711,7 @@
           "url": "https://github.com/puppeteer/puppeteer"
         }
       ],
-      "last_checked": "2026-07-17T05:56:27.660Z",
+      "last_checked": "2026-07-18T05:39:30.570Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -21841,7 +21841,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 79,
+      "fail_streak": 80,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21849,7 +21849,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:29.660Z",
+      "last_checked": "2026-07-18T05:39:32.635Z",
       "last_seen": "2026-02-23T05:15:49.593Z",
       "sponsored": false,
       "verification_available": true
@@ -21984,7 +21984,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 77,
+      "fail_streak": 78,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21992,7 +21992,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:31.870Z",
+      "last_checked": "2026-07-18T05:39:34.543Z",
       "last_seen": "2026-02-23T05:15:51.592Z",
       "sponsored": false,
       "verification_available": true
@@ -22295,7 +22295,7 @@
           "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
         }
       ],
-      "last_checked": "2026-07-17T05:56:33.667Z",
+      "last_checked": "2026-07-18T05:39:36.570Z",
       "last_seen": "2026-02-16T05:14:12.757Z",
       "sponsored": false,
       "verification_available": true
@@ -22356,7 +22356,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22369,7 +22369,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-17T05:56:35.668Z",
+      "last_checked": "2026-07-18T05:39:38.563Z",
       "last_seen": "2026-06-12T08:06:25.297Z",
       "sponsored": false,
       "verification_available": true
@@ -22650,7 +22650,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:56:37.692Z",
+      "last_checked": "2026-07-18T05:39:40.634Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -23474,7 +23474,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 63,
+      "fail_streak": 64,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23482,7 +23482,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:39.711Z",
+      "last_checked": "2026-07-18T05:39:43.812Z",
       "last_seen": "2026-02-23T05:16:05.871Z",
       "sponsored": false,
       "verification_available": true
@@ -23678,7 +23678,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-07-17T05:56:41.751Z",
+      "last_checked": "2026-07-18T05:39:44.819Z",
       "last_seen": "2026-04-22T05:39:47.907Z",
       "sponsored": false,
       "verification_available": true
@@ -24603,7 +24603,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24611,7 +24611,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:43.666Z",
+      "last_checked": "2026-07-18T05:39:46.828Z",
       "last_seen": "2026-02-23T05:16:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -24626,7 +24626,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24634,7 +24634,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:45.681Z",
+      "last_checked": "2026-07-18T05:39:48.873Z",
       "last_seen": "2026-02-23T05:16:21.753Z",
       "sponsored": false,
       "verification_available": true
@@ -24866,7 +24866,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24874,7 +24874,7 @@
           "url": "https://github.com/pastelsky/prettyfish"
         }
       ],
-      "last_checked": "2026-07-17T05:56:47.737Z",
+      "last_checked": "2026-07-18T05:39:50.855Z",
       "last_seen": "2026-04-22T05:40:07.856Z",
       "sponsored": false,
       "verification_available": true
@@ -24889,7 +24889,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24897,7 +24897,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:56:49.670Z",
+      "last_checked": "2026-07-18T05:39:52.852Z",
       "last_seen": "2026-06-12T08:07:10.294Z",
       "sponsored": false,
       "verification_available": true
@@ -25449,7 +25449,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:51.708Z",
+      "last_checked": "2026-07-18T05:39:54.878Z",
       "last_seen": "2026-02-23T05:16:29.718Z",
       "sponsored": false,
       "verification_available": true
@@ -25472,7 +25472,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:53.818Z",
+      "last_checked": "2026-07-18T05:39:57.130Z",
       "last_seen": "2026-02-23T05:16:36.194Z",
       "sponsored": false,
       "verification_available": true
@@ -25556,7 +25556,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25569,7 +25569,7 @@
           "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-07-17T05:56:55.688Z",
+      "last_checked": "2026-07-18T05:39:58.995Z",
       "last_seen": "2026-02-16T05:14:42.607Z",
       "sponsored": false,
       "verification_available": true
@@ -25584,7 +25584,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25592,7 +25592,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:57.675Z",
+      "last_checked": "2026-07-18T05:40:00.848Z",
       "last_seen": "2026-02-23T05:16:39.295Z",
       "sponsored": false,
       "verification_available": true
@@ -25607,7 +25607,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25615,7 +25615,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:56:59.661Z",
+      "last_checked": "2026-07-18T05:40:02.851Z",
       "last_seen": "2026-02-23T05:16:41.226Z",
       "sponsored": false,
       "verification_available": true
@@ -26141,7 +26141,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26154,7 +26154,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-07-17T05:57:01.651Z",
+      "last_checked": "2026-07-18T05:40:04.868Z",
       "last_seen": "2026-06-12T08:07:35.303Z",
       "sponsored": false,
       "verification_available": true
@@ -26652,7 +26652,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26660,7 +26660,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:03.738Z",
+      "last_checked": "2026-07-18T05:40:06.842Z",
       "last_seen": "2026-02-23T05:16:45.264Z",
       "sponsored": false,
       "verification_available": true
@@ -26675,7 +26675,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26683,7 +26683,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T05:57:05.650Z",
+      "last_checked": "2026-07-18T05:40:08.912Z",
       "last_seen": "2026-04-01T05:36:16.453Z",
       "sponsored": false,
       "verification_available": true
@@ -26698,7 +26698,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26706,7 +26706,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:07.649Z",
+      "last_checked": "2026-07-18T05:40:10.850Z",
       "last_seen": "2026-02-23T05:16:47.214Z",
       "sponsored": false,
       "verification_available": true
@@ -27442,7 +27442,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-07-17T05:57:09.651Z",
+      "last_checked": "2026-07-18T05:40:12.817Z",
       "last_seen": "2026-05-19T07:01:47.826Z",
       "sponsored": false,
       "verification_available": true
@@ -27526,7 +27526,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T05:57:12.337Z",
+      "last_checked": "2026-07-18T05:40:15.318Z",
       "last_seen": "2026-04-01T05:36:26.669Z",
       "sponsored": false,
       "verification_available": true
@@ -27592,7 +27592,7 @@
           "url": "https://github.com/ThHanke/ontosphere"
         }
       ],
-      "last_checked": "2026-07-17T05:57:13.874Z",
+      "last_checked": "2026-07-18T05:40:17.122Z",
       "last_seen": "2026-02-23T05:16:57.877Z",
       "sponsored": false,
       "verification_available": true
@@ -28106,10 +28106,10 @@
         {
           "type": "homepage",
           "url": "https://dinkyfiles.com/",
-          "last_success": "2026-07-17T05:57:15.676Z"
+          "last_success": "2026-07-18T05:40:18.835Z"
         }
       ],
-      "last_verified_success": "2026-07-17T05:57:15.676Z",
+      "last_verified_success": "2026-07-18T05:40:18.835Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -28123,8 +28123,8 @@
           "url": "https://dinkyfiles.com/"
         }
       ],
-      "last_checked": "2026-07-17T05:57:15.676Z",
-      "last_seen": "2026-07-17T05:57:15.676Z",
+      "last_checked": "2026-07-18T05:40:18.835Z",
+      "last_seen": "2026-07-18T05:40:18.835Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -28581,7 +28581,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-17T05:57:19.069Z",
+      "last_checked": "2026-07-18T05:40:22.712Z",
       "last_seen": "2026-03-29T05:27:01.520Z",
       "sponsored": false,
       "verification_available": true
@@ -28724,7 +28724,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:57:20.096Z",
+      "last_checked": "2026-07-18T05:40:23.760Z",
       "last_seen": "2026-07-14T05:45:01.744Z",
       "sponsored": false,
       "verification_available": true
@@ -28770,7 +28770,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:22.405Z",
+      "last_checked": "2026-07-18T05:40:26.146Z",
       "last_seen": "2026-02-23T05:17:05.201Z",
       "sponsored": false,
       "verification_available": true
@@ -28793,7 +28793,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:24.218Z",
+      "last_checked": "2026-07-18T05:40:27.947Z",
       "last_seen": "2026-02-23T05:17:07.572Z",
       "sponsored": false,
       "verification_available": true
@@ -28859,15 +28859,15 @@
         {
           "type": "homepage",
           "url": "https://docs.mcp-b.ai/",
-          "last_success": "2026-07-17T05:57:26.091Z"
+          "last_success": "2026-07-18T05:40:29.776Z"
         },
         {
           "type": "well_known",
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json",
-          "last_success": "2026-07-17T05:57:26.091Z"
+          "last_success": "2026-07-18T05:40:29.776Z"
         }
       ],
-      "last_verified_success": "2026-07-17T05:57:26.091Z",
+      "last_verified_success": "2026-07-18T05:40:29.776Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -28926,8 +28926,8 @@
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-07-17T05:57:26.091Z",
-      "last_seen": "2026-07-17T05:57:26.091Z",
+      "last_checked": "2026-07-18T05:40:29.776Z",
+      "last_seen": "2026-07-18T05:40:29.776Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -29053,7 +29053,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:28.159Z",
+      "last_checked": "2026-07-18T05:40:31.811Z",
       "last_seen": "2026-02-23T05:17:15.259Z",
       "sponsored": false,
       "verification_available": true
@@ -29275,7 +29275,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29293,7 +29293,7 @@
           "url": "https://github.com/Jeethula/webmcp-chat"
         }
       ],
-      "last_checked": "2026-07-17T05:57:30.151Z",
+      "last_checked": "2026-07-18T05:40:33.756Z",
       "last_seen": "2026-02-16T05:15:18.203Z",
       "sponsored": false,
       "verification_available": true
@@ -29331,7 +29331,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29369,7 +29369,7 @@
           "url": "https://github.com/danduh/window-ai"
         }
       ],
-      "last_checked": "2026-07-17T05:57:32.160Z",
+      "last_checked": "2026-07-18T05:40:35.723Z",
       "last_seen": "2026-05-28T07:09:04.754Z",
       "sponsored": false,
       "verification_available": true
@@ -29384,7 +29384,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29402,7 +29402,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-07-17T05:57:34.094Z",
+      "last_checked": "2026-07-18T05:40:37.752Z",
       "last_seen": "2026-06-05T07:24:33.217Z",
       "sponsored": false,
       "verification_available": true
@@ -29463,7 +29463,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 68,
+      "fail_streak": 69,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29491,7 +29491,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-07-17T05:57:36.136Z",
+      "last_checked": "2026-07-18T05:40:39.787Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -29506,7 +29506,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29514,7 +29514,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:38.148Z",
+      "last_checked": "2026-07-18T05:40:41.812Z",
       "last_seen": "2026-04-04T05:07:31.483Z",
       "sponsored": false,
       "verification_available": true
@@ -29626,7 +29626,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29634,7 +29634,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T05:57:40.158Z",
+      "last_checked": "2026-07-18T05:40:43.810Z",
       "last_seen": "2026-03-28T05:09:56.764Z",
       "sponsored": false,
       "verification_available": true
@@ -29649,7 +29649,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29657,7 +29657,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T05:57:42.296Z",
+      "last_checked": "2026-07-18T05:40:45.716Z",
       "last_seen": "2026-03-28T05:09:58.761Z",
       "sponsored": false,
       "verification_available": true
@@ -29764,7 +29764,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 54,
+      "fail_streak": 55,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29772,7 +29772,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:57:44.093Z",
+      "last_checked": "2026-07-18T05:40:47.747Z",
       "last_seen": "2026-02-23T05:17:21.244Z",
       "sponsored": false,
       "verification_available": true
@@ -30137,7 +30137,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 30,
+      "fail_streak": 31,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30145,7 +30145,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-07-17T05:57:46.092Z",
+      "last_checked": "2026-07-18T05:40:49.956Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -30229,7 +30229,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30237,7 +30237,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:57:48.130Z",
+      "last_checked": "2026-07-18T05:40:51.804Z",
       "last_seen": "2026-06-27T06:43:49.928Z",
       "sponsored": false,
       "verification_available": true
@@ -30252,7 +30252,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30260,7 +30260,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:57:51.001Z",
+      "last_checked": "2026-07-18T05:40:55.673Z",
       "last_seen": "2026-06-27T06:43:52.734Z",
       "sponsored": false,
       "verification_available": true
@@ -30275,7 +30275,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30283,7 +30283,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:57:52.082Z",
+      "last_checked": "2026-07-18T05:40:56.703Z",
       "last_seen": "2026-06-27T06:43:53.852Z",
       "sponsored": false,
       "verification_available": true
@@ -30298,7 +30298,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30306,7 +30306,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:57:54.097Z",
+      "last_checked": "2026-07-18T05:40:58.744Z",
       "last_seen": "2026-06-27T06:43:55.845Z",
       "sponsored": false,
       "verification_available": true
@@ -30321,7 +30321,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30329,7 +30329,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:57:56.112Z",
+      "last_checked": "2026-07-18T05:41:00.735Z",
       "last_seen": "2026-06-27T06:43:57.840Z",
       "sponsored": false,
       "verification_available": true
@@ -31782,7 +31782,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31790,7 +31790,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:57:58.093Z",
+      "last_checked": "2026-07-18T05:41:02.779Z",
       "last_seen": "2026-07-14T05:45:41.743Z",
       "sponsored": false,
       "verification_available": true
@@ -31805,7 +31805,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31813,7 +31813,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:00.076Z",
+      "last_checked": "2026-07-18T05:41:04.686Z",
       "last_seen": "2026-07-14T05:45:43.746Z",
       "sponsored": false,
       "verification_available": true
@@ -31828,7 +31828,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31836,7 +31836,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:02.105Z",
+      "last_checked": "2026-07-18T05:41:06.710Z",
       "last_seen": "2026-07-14T05:45:45.731Z",
       "sponsored": false,
       "verification_available": true
@@ -31994,7 +31994,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 46,
+      "fail_streak": 47,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32002,7 +32002,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:58:04.074Z",
+      "last_checked": "2026-07-18T05:41:08.715Z",
       "last_seen": "2026-02-23T05:17:49.850Z",
       "sponsored": false,
       "verification_available": true
@@ -32088,7 +32088,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:58:06.074Z",
+      "last_checked": "2026-07-18T05:41:10.934Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -32111,7 +32111,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:08.072Z",
+      "last_checked": "2026-07-18T05:41:12.690Z",
       "last_seen": "2026-05-11T06:56:30.249Z",
       "sponsored": false,
       "verification_available": true
@@ -32287,7 +32287,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 15,
+      "fail_streak": 16,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32305,7 +32305,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-07-17T05:58:10.073Z",
+      "last_checked": "2026-07-18T05:41:14.683Z",
       "last_seen": "2026-02-16T05:15:56.213Z",
       "sponsored": false,
       "verification_available": true
@@ -32328,7 +32328,7 @@
           "url": "https://github.com/aptos-labs/explorer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:12.198Z",
+      "last_checked": "2026-07-18T05:41:16.866Z",
       "last_seen": "2026-05-01T06:29:28.988Z",
       "sponsored": false,
       "verification_available": true
@@ -32343,7 +32343,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32351,7 +32351,7 @@
           "url": "https://github.com/aptos-labs/explorer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:14.244Z",
+      "last_checked": "2026-07-18T05:41:18.950Z",
       "last_seen": "2026-05-01T06:29:31.062Z",
       "sponsored": false,
       "verification_available": true
@@ -32481,7 +32481,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32489,7 +32489,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:58:16.063Z",
+      "last_checked": "2026-07-18T05:41:20.669Z",
       "last_seen": "2026-02-23T05:17:53.826Z",
       "sponsored": false,
       "verification_available": true
@@ -32504,7 +32504,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 43,
+      "fail_streak": 44,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32512,7 +32512,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:58:18.344Z",
+      "last_checked": "2026-07-18T05:41:23.202Z",
       "last_seen": "2026-02-23T05:17:55.990Z",
       "sponsored": false,
       "verification_available": true
@@ -32573,7 +32573,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32581,7 +32581,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:20.130Z",
+      "last_checked": "2026-07-18T05:41:24.745Z",
       "last_seen": "2026-07-14T05:46:12.601Z",
       "sponsored": false,
       "verification_available": true
@@ -32596,7 +32596,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32604,7 +32604,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:22.129Z",
+      "last_checked": "2026-07-18T05:41:26.717Z",
       "last_seen": "2026-07-14T05:46:14.596Z",
       "sponsored": false,
       "verification_available": true
@@ -32642,7 +32642,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32650,7 +32650,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:58:24.157Z",
+      "last_checked": "2026-07-18T05:41:28.769Z",
       "last_seen": "2026-07-02T06:56:57.146Z",
       "sponsored": false,
       "verification_available": true
@@ -32665,7 +32665,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32673,7 +32673,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:58:26.078Z",
+      "last_checked": "2026-07-18T05:41:30.706Z",
       "last_seen": "2026-07-02T06:56:59.007Z",
       "sponsored": false,
       "verification_available": true
@@ -33250,7 +33250,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33258,7 +33258,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:28.128Z",
+      "last_checked": "2026-07-18T05:41:32.775Z",
       "last_seen": "2026-07-14T05:46:20.604Z",
       "sponsored": false,
       "verification_available": true
@@ -33273,7 +33273,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33281,7 +33281,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:30.072Z",
+      "last_checked": "2026-07-18T05:41:34.704Z",
       "last_seen": "2026-07-14T05:46:22.712Z",
       "sponsored": false,
       "verification_available": true
@@ -33296,7 +33296,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33304,7 +33304,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:32.154Z",
+      "last_checked": "2026-07-18T05:41:36.769Z",
       "last_seen": "2026-07-14T05:46:24.643Z",
       "sponsored": false,
       "verification_available": true
@@ -33319,7 +33319,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33327,7 +33327,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:34.134Z",
+      "last_checked": "2026-07-18T05:41:38.701Z",
       "last_seen": "2026-07-14T05:46:26.607Z",
       "sponsored": false,
       "verification_available": true
@@ -33457,7 +33457,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33465,7 +33465,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:58:36.073Z",
+      "last_checked": "2026-07-18T05:41:40.680Z",
       "last_seen": "2026-07-02T06:57:12.512Z",
       "sponsored": false,
       "verification_available": true
@@ -33526,7 +33526,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33534,7 +33534,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:58:38.070Z",
+      "last_checked": "2026-07-18T05:41:42.772Z",
       "last_seen": "2026-07-02T06:57:14.285Z",
       "sponsored": false,
       "verification_available": true
@@ -33549,7 +33549,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33557,7 +33557,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:58:41.264Z",
+      "last_checked": "2026-07-18T05:41:46.201Z",
       "last_seen": "2026-07-02T06:57:17.278Z",
       "sponsored": false,
       "verification_available": true
@@ -34101,7 +34101,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34109,7 +34109,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:42.623Z",
+      "last_checked": "2026-07-18T05:41:47.384Z",
       "last_seen": "2026-07-14T05:46:34.777Z",
       "sponsored": false,
       "verification_available": true
@@ -34124,7 +34124,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34132,7 +34132,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:58:44.530Z",
+      "last_checked": "2026-07-18T05:41:49.405Z",
       "last_seen": "2026-07-14T05:46:36.632Z",
       "sponsored": false,
       "verification_available": true
@@ -34234,12 +34234,12 @@
       "name": "forter-agentic-readiness-guide.pdf",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34247,7 +34247,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:58:46.611Z",
+      "last_checked": "2026-07-18T05:41:51.450Z",
       "last_seen": "2026-07-14T05:46:38.614Z",
       "sponsored": false,
       "verification_available": true
@@ -34267,10 +34267,10 @@
         {
           "type": "well_known",
           "url": "https://forter.com/.well-known/mcp.json",
-          "last_success": "2026-07-17T05:58:48.623Z"
+          "last_success": "2026-07-18T05:41:53.348Z"
         }
       ],
-      "last_verified_success": "2026-07-17T05:58:48.623Z",
+      "last_verified_success": "2026-07-18T05:41:53.348Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -34289,8 +34289,8 @@
           "url": "https://forter.com/"
         }
       ],
-      "last_checked": "2026-07-17T05:58:48.623Z",
-      "last_seen": "2026-07-17T05:58:48.623Z",
+      "last_checked": "2026-07-18T05:41:53.348Z",
+      "last_seen": "2026-07-18T05:41:53.348Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -34626,7 +34626,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 28,
+      "fail_streak": 29,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34634,7 +34634,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:58:50.561Z",
+      "last_checked": "2026-07-18T05:41:55.393Z",
       "last_seen": "2026-03-30T05:40:15.439Z",
       "sponsored": false,
       "verification_available": true
@@ -34902,7 +34902,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34910,7 +34910,7 @@
           "url": "https://github.com/r/Harbor"
         }
       ],
-      "last_checked": "2026-07-17T05:58:52.593Z",
+      "last_checked": "2026-07-18T05:41:57.379Z",
       "last_seen": "2026-02-16T05:16:14.216Z",
       "sponsored": false,
       "verification_available": true
@@ -34979,7 +34979,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:58:54.588Z",
+      "last_checked": "2026-07-18T05:41:59.372Z",
       "last_seen": "2026-07-02T06:57:32.982Z",
       "sponsored": false,
       "verification_available": true
@@ -35073,7 +35073,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35081,7 +35081,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:56.537Z",
+      "last_checked": "2026-07-18T05:42:01.733Z",
       "last_seen": "2026-07-14T05:46:48.620Z",
       "sponsored": false,
       "verification_available": true
@@ -35109,7 +35109,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:58:58.729Z",
+      "last_checked": "2026-07-18T05:42:03.852Z",
       "last_seen": "2026-05-08T05:41:17.400Z",
       "sponsored": false,
       "verification_available": true
@@ -35247,7 +35247,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:00.624Z",
+      "last_checked": "2026-07-18T05:42:05.830Z",
       "last_seen": "2026-03-30T05:40:23.544Z",
       "sponsored": false,
       "verification_available": true
@@ -35285,7 +35285,7 @@
           "url": "https://github.com/LincolnSteinLab/jbrowse-plugin-assistant-chatbot"
         }
       ],
-      "last_checked": "2026-07-17T05:59:02.744Z",
+      "last_checked": "2026-07-18T05:42:08.566Z",
       "last_seen": "2026-02-21T04:54:45.623Z",
       "sponsored": false,
       "verification_available": true
@@ -35507,7 +35507,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35515,7 +35515,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:04.526Z",
+      "last_checked": "2026-07-18T05:42:09.708Z",
       "last_seen": "2026-07-02T06:57:37.103Z",
       "sponsored": false,
       "verification_available": true
@@ -35576,7 +35576,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35584,7 +35584,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-07-17T05:59:06.525Z",
+      "last_checked": "2026-07-18T05:42:11.799Z",
       "last_seen": "2026-02-16T05:16:18.353Z",
       "sponsored": false,
       "verification_available": true
@@ -35714,7 +35714,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:08.652Z",
+      "last_checked": "2026-07-18T05:42:13.974Z",
       "last_seen": "2026-03-30T05:40:41.996Z",
       "sponsored": false,
       "verification_available": true
@@ -35867,7 +35867,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:59:10.542Z",
+      "last_checked": "2026-07-18T05:42:15.773Z",
       "last_seen": "2026-07-14T05:47:13.338Z",
       "sponsored": false,
       "verification_available": true
@@ -36066,7 +36066,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 23,
+      "fail_streak": 24,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36074,7 +36074,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:12.548Z",
+      "last_checked": "2026-07-18T05:42:17.757Z",
       "last_seen": "2026-03-30T05:40:49.631Z",
       "sponsored": false,
       "verification_available": true
@@ -36112,7 +36112,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36120,7 +36120,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:14.525Z",
+      "last_checked": "2026-07-18T05:42:19.798Z",
       "last_seen": "2026-07-02T06:57:43.282Z",
       "sponsored": false,
       "verification_available": true
@@ -36204,7 +36204,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36212,7 +36212,7 @@
           "url": "https://github.com/r/Harbor"
         }
       ],
-      "last_checked": "2026-07-17T05:59:16.589Z",
+      "last_checked": "2026-07-18T05:42:21.730Z",
       "last_seen": "2026-02-16T05:16:32.303Z",
       "sponsored": false,
       "verification_available": true
@@ -36258,7 +36258,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:18.541Z",
+      "last_checked": "2026-07-18T05:42:23.739Z",
       "last_seen": "2026-07-02T06:57:45.192Z",
       "sponsored": false,
       "verification_available": true
@@ -36424,7 +36424,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T05:59:20.570Z",
+      "last_checked": "2026-07-18T05:42:25.761Z",
       "last_seen": "2026-07-02T06:57:56.474Z",
       "sponsored": false,
       "verification_available": true
@@ -36674,7 +36674,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36682,7 +36682,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:22.545Z",
+      "last_checked": "2026-07-18T05:42:27.786Z",
       "last_seen": "2026-07-02T06:57:59.521Z",
       "sponsored": false,
       "verification_available": true
@@ -36720,7 +36720,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36728,7 +36728,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:24.524Z",
+      "last_checked": "2026-07-18T05:42:29.748Z",
       "last_seen": "2026-03-30T05:40:55.579Z",
       "sponsored": false,
       "verification_available": true
@@ -36899,7 +36899,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:26.540Z",
+      "last_checked": "2026-07-18T05:42:31.800Z",
       "last_seen": "2026-07-02T06:58:03.636Z",
       "sponsored": false,
       "verification_available": true
@@ -36945,7 +36945,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:28.959Z",
+      "last_checked": "2026-07-18T05:42:33.738Z",
       "last_seen": "2026-07-02T06:58:15.482Z",
       "sponsored": false,
       "verification_available": true
@@ -36968,7 +36968,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T05:59:30.926Z",
+      "last_checked": "2026-07-18T05:42:35.755Z",
       "last_seen": "2026-07-02T06:58:17.258Z",
       "sponsored": false,
       "verification_available": true
@@ -37125,10 +37125,10 @@
         {
           "type": "well_known",
           "url": "https://img.shields.io/.well-known/mcp.json",
-          "last_success": "2026-07-17T05:59:32.736Z"
+          "last_success": "2026-07-18T05:42:37.721Z"
         }
       ],
-      "last_verified_success": "2026-07-17T05:59:32.736Z",
+      "last_verified_success": "2026-07-18T05:42:37.721Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -37347,8 +37347,8 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T05:59:32.736Z",
-      "last_seen": "2026-07-17T05:59:32.736Z",
+      "last_checked": "2026-07-18T05:42:37.721Z",
+      "last_seen": "2026-07-18T05:42:37.721Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -37431,7 +37431,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 29,
+      "fail_streak": 30,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37494,7 +37494,7 @@
           "url": "https://github.com/tikoci/restraml"
         }
       ],
-      "last_checked": "2026-07-17T05:59:34.754Z",
+      "last_checked": "2026-07-18T05:42:39.740Z",
       "last_seen": "2026-02-16T05:16:52.275Z",
       "sponsored": false,
       "verification_available": true
@@ -37509,7 +37509,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37522,7 +37522,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-07-17T05:59:36.729Z",
+      "last_checked": "2026-07-18T05:42:41.795Z",
       "last_seen": "2026-04-03T05:23:32.245Z",
       "sponsored": false,
       "verification_available": true
@@ -37537,7 +37537,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 23,
+      "fail_streak": 24,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37560,7 +37560,7 @@
           "url": "https://github.com/Jeethula/webmcp-chat"
         }
       ],
-      "last_checked": "2026-07-17T05:59:38.814Z",
+      "last_checked": "2026-07-18T05:42:43.793Z",
       "last_seen": "2026-02-16T05:16:54.201Z",
       "sponsored": false,
       "verification_available": true
@@ -37598,7 +37598,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37606,7 +37606,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T05:59:40.816Z",
+      "last_checked": "2026-07-18T05:42:45.724Z",
       "last_seen": "2026-07-17T05:59:40.816Z",
       "sponsored": false,
       "verification_available": true
@@ -37616,12 +37616,12 @@
       "name": "index.php",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37629,7 +37629,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-07-17T05:59:45.703Z",
+      "last_checked": "2026-07-18T05:42:51.324Z",
       "last_seen": "2026-07-15T05:46:17.567Z",
       "sponsored": false,
       "verification_available": true
@@ -37754,7 +37754,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T05:59:46.743Z",
+      "last_checked": "2026-07-18T05:42:52.400Z",
       "last_seen": "2026-03-30T05:41:13.495Z",
       "sponsored": false,
       "verification_available": true
@@ -37792,7 +37792,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37805,7 +37805,7 @@
           "url": "https://github.com/pocketpaw/pocketpaw"
         }
       ],
-      "last_checked": "2026-07-17T05:59:49.168Z",
+      "last_checked": "2026-07-18T05:42:55.870Z",
       "last_seen": "2026-02-16T05:16:58.200Z",
       "sponsored": false,
       "verification_available": true
@@ -38012,7 +38012,7 @@
           "url": "https://github.com/fru1tworld/cs-study"
         }
       ],
-      "last_checked": "2026-07-17T05:59:50.878Z",
+      "last_checked": "2026-07-18T05:42:57.085Z",
       "last_seen": "2026-07-15T05:46:23.779Z",
       "sponsored": false,
       "verification_available": true
@@ -38392,7 +38392,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:52.933Z",
+      "last_checked": "2026-07-18T05:42:59.250Z",
       "last_seen": "2026-03-31T05:27:07.133Z",
       "sponsored": false,
       "verification_available": true
@@ -38453,7 +38453,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38461,7 +38461,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:56.214Z",
+      "last_checked": "2026-07-18T05:43:02.751Z",
       "last_seen": "2026-03-31T05:27:10.520Z",
       "sponsored": false,
       "verification_available": true
@@ -38476,7 +38476,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38484,7 +38484,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T05:59:58.413Z",
+      "last_checked": "2026-07-18T05:43:05.071Z",
       "last_seen": "2026-03-31T05:27:12.756Z",
       "sponsored": false,
       "verification_available": true
@@ -38499,7 +38499,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38507,7 +38507,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:00.226Z",
+      "last_checked": "2026-07-18T05:43:06.776Z",
       "last_seen": "2026-03-31T05:27:14.517Z",
       "sponsored": false,
       "verification_available": true
@@ -38530,7 +38530,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T06:00:02.232Z",
+      "last_checked": "2026-07-18T05:43:08.711Z",
       "last_seen": "2026-07-08T06:13:58.838Z",
       "sponsored": false,
       "verification_available": true
@@ -38591,7 +38591,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38629,7 +38629,7 @@
           "url": "https://github.com/salespeak-ai/webmcp-gateway"
         }
       ],
-      "last_checked": "2026-07-17T06:00:04.157Z",
+      "last_checked": "2026-07-18T05:43:10.707Z",
       "last_seen": "2026-02-16T05:17:12.752Z",
       "sponsored": false,
       "verification_available": true
@@ -38675,7 +38675,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:06.201Z",
+      "last_checked": "2026-07-18T05:43:12.749Z",
       "last_seen": "2026-03-31T05:27:18.507Z",
       "sponsored": false,
       "verification_available": true
@@ -38782,7 +38782,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38790,7 +38790,7 @@
           "url": "https://github.com/Silentely/AdBlock-Acceleration"
         }
       ],
-      "last_checked": "2026-07-17T06:00:08.638Z",
+      "last_checked": "2026-07-18T05:43:15.092Z",
       "last_seen": "2026-07-08T06:14:02.923Z",
       "sponsored": false,
       "verification_available": true
@@ -38828,12 +38828,12 @@
       "name": "ko-fi.com",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38841,7 +38841,7 @@
           "url": "https://github.com/eduardoborges/use-mask-input"
         }
       ],
-      "last_checked": "2026-07-17T06:00:10.242Z",
+      "last_checked": "2026-07-18T05:43:16.744Z",
       "last_seen": "2026-07-15T05:46:42.930Z",
       "sponsored": false,
       "verification_available": true
@@ -38902,7 +38902,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38910,7 +38910,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T06:00:12.147Z",
+      "last_checked": "2026-07-18T05:43:18.690Z",
       "last_seen": "2026-07-17T06:00:12.147Z",
       "sponsored": false,
       "verification_available": true
@@ -39303,7 +39303,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39311,7 +39311,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T06:00:14.349Z",
+      "last_checked": "2026-07-18T05:43:20.846Z",
       "last_seen": "2026-04-13T05:56:12.361Z",
       "sponsored": false,
       "verification_available": true
@@ -39349,7 +39349,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39357,7 +39357,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:16.233Z",
+      "last_checked": "2026-07-18T05:43:22.688Z",
       "last_seen": "2026-05-03T06:17:55.968Z",
       "sponsored": false,
       "verification_available": true
@@ -39494,7 +39494,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39512,7 +39512,7 @@
           "url": "https://github.com/keak-ai/webmcp-core"
         }
       ],
-      "last_checked": "2026-07-17T06:00:18.299Z",
+      "last_checked": "2026-07-18T05:43:24.706Z",
       "last_seen": "2026-02-16T05:17:20.673Z",
       "sponsored": false,
       "verification_available": true
@@ -39550,7 +39550,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39558,7 +39558,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:20.181Z",
+      "last_checked": "2026-07-18T05:43:26.714Z",
       "last_seen": "2026-05-03T06:18:01.968Z",
       "sponsored": false,
       "verification_available": true
@@ -39601,7 +39601,7 @@
           "url": "https://github.com/telerik/kendo-react"
         }
       ],
-      "last_checked": "2026-07-17T06:00:22.232Z",
+      "last_checked": "2026-07-18T05:43:28.782Z",
       "last_seen": "2026-02-16T05:17:22.669Z",
       "sponsored": false,
       "verification_available": true
@@ -39670,7 +39670,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:24.492Z",
+      "last_checked": "2026-07-18T05:43:30.955Z",
       "last_seen": "2026-05-03T06:18:08.017Z",
       "sponsored": false,
       "verification_available": true
@@ -39762,7 +39762,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:26.145Z",
+      "last_checked": "2026-07-18T05:43:32.764Z",
       "last_seen": "2026-05-03T06:18:10.018Z",
       "sponsored": false,
       "verification_available": true
@@ -39777,7 +39777,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39805,7 +39805,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-07-17T06:00:28.252Z",
+      "last_checked": "2026-07-18T05:43:34.881Z",
       "last_seen": "2026-02-16T05:17:32.838Z",
       "sponsored": false,
       "verification_available": true
@@ -39820,7 +39820,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39828,7 +39828,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T06:00:30.157Z",
+      "last_checked": "2026-07-18T05:43:36.695Z",
       "last_seen": "2026-04-13T05:56:26.303Z",
       "sponsored": false,
       "verification_available": true
@@ -39838,12 +39838,12 @@
       "name": "local-agent-bridge.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39851,7 +39851,7 @@
           "url": "https://github.com/pastelsky/prettyfish"
         }
       ],
-      "last_checked": "2026-07-17T06:00:32.152Z",
+      "last_checked": "2026-07-18T05:43:38.688Z",
       "last_seen": "2026-07-15T05:47:02.982Z",
       "sponsored": false,
       "verification_available": true
@@ -39866,7 +39866,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39874,7 +39874,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-07-17T06:00:34.473Z",
+      "last_checked": "2026-07-18T05:43:40.888Z",
       "last_seen": "2026-07-17T06:00:34.473Z",
       "sponsored": false,
       "verification_available": true
@@ -40468,7 +40468,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40496,7 +40496,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T06:00:36.283Z",
+      "last_checked": "2026-07-18T05:43:42.873Z",
       "last_seen": "2026-02-16T05:17:50.823Z",
       "sponsored": false,
       "verification_available": true
@@ -40511,7 +40511,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40524,7 +40524,7 @@
           "url": "https://github.com/frkndncr/WebAnalyzer"
         }
       ],
-      "last_checked": "2026-07-17T06:00:38.145Z",
+      "last_checked": "2026-07-18T05:43:44.677Z",
       "last_seen": "2026-04-10T05:40:48.829Z",
       "sponsored": false,
       "verification_available": true
@@ -40585,7 +40585,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40593,7 +40593,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-17T06:00:40.147Z",
+      "last_checked": "2026-07-18T05:43:46.678Z",
       "last_seen": "2026-04-10T05:40:52.828Z",
       "sponsored": false,
       "verification_available": true
@@ -40874,7 +40874,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-17T06:00:42.147Z",
+      "last_checked": "2026-07-18T05:43:48.680Z",
       "last_seen": "2026-05-03T06:18:22.109Z",
       "sponsored": false,
       "verification_available": true
