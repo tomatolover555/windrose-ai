@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T05:13:11.329Z",
+  "updated_at": "2026-08-14T05:10:25.724Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -126,7 +126,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +134,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:06:28.063Z",
+      "last_checked": "2026-08-14T05:03:34.911Z",
       "last_seen": "2026-05-11T06:50:11.751Z",
       "sponsored": false,
       "verification_available": true
@@ -333,7 +333,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -341,7 +341,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-20T06:26:42.064Z",
+      "last_checked": "2026-08-14T05:03:36.520Z",
       "last_seen": "2026-07-11T05:49:43.994Z",
       "sponsored": false,
       "verification_available": true
@@ -1276,7 +1276,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 23,
+      "fail_streak": 24,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1284,7 +1284,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-08-12T05:03:46.496Z",
+      "last_checked": "2026-08-14T05:03:38.542Z",
       "last_seen": "2026-04-20T05:49:14.009Z",
       "sponsored": false,
       "verification_available": true
@@ -1345,7 +1345,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1353,7 +1353,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-30T05:59:52.767Z",
+      "last_checked": "2026-08-14T05:03:40.523Z",
       "last_seen": "2026-04-01T05:32:37.673Z",
       "sponsored": false,
       "verification_available": true
@@ -1429,6 +1429,29 @@
       ],
       "last_checked": "2026-07-12T06:13:37.209Z",
       "last_seen": "2026-07-12T06:13:37.209Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "127.0.0.1:9272",
+      "name": "127.0.0.1:9272",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:42.523Z",
+      "last_seen": "2026-08-14T05:03:42.523Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -1567,6 +1590,75 @@
       ],
       "last_checked": "2026-02-18T05:04:52.371Z",
       "last_seen": "2026-02-16T05:12:09.643Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2017.md",
+      "name": "2017.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:44.522Z",
+      "last_seen": "2026-08-14T05:03:44.522Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2018.md",
+      "name": "2018.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:46.790Z",
+      "last_seen": "2026-08-14T05:03:46.790Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2019.md",
+      "name": "2019.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:48.598Z",
+      "last_seen": "2026-08-14T05:03:48.598Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -1908,6 +2000,29 @@
       "verification_available": true
     },
     {
+      "domain": "2020.md",
+      "name": "2020.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:50.609Z",
+      "last_seen": "2026-08-14T05:03:50.609Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "2021-01.md",
       "name": "2021-01.md",
       "type": [],
@@ -2180,6 +2295,29 @@
       ],
       "last_checked": "2026-08-13T05:07:17.854Z",
       "last_seen": "2026-02-19T05:05:18.073Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2021.md",
+      "name": "2021.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:52.594Z",
+      "last_seen": "2026-08-14T05:03:52.594Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -2483,6 +2621,29 @@
       "verification_available": true
     },
     {
+      "domain": "2022.md",
+      "name": "2022.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:54.593Z",
+      "last_seen": "2026-08-14T05:03:54.593Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "2023-01.md",
       "name": "2023-01.md",
       "type": [],
@@ -2755,6 +2916,29 @@
       ],
       "last_checked": "2026-08-13T05:08:05.865Z",
       "last_seen": "2026-02-19T05:06:06.077Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "2023.md",
+      "name": "2023.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:03:56.594Z",
+      "last_seen": "2026-08-14T05:03:56.594Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3642,7 +3826,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3650,7 +3834,7 @@
           "url": "https://github.com/jdevalk/specification.website"
         }
       ],
-      "last_checked": "2026-07-31T06:24:12.048Z",
+      "last_checked": "2026-08-14T05:03:58.711Z",
       "last_seen": "2026-06-05T07:18:08.545Z",
       "sponsored": false,
       "verification_available": true
@@ -3688,7 +3872,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3696,7 +3880,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-20T06:29:24.246Z",
+      "last_checked": "2026-08-14T05:04:00.673Z",
       "last_seen": "2026-07-11T05:49:47.994Z",
       "sponsored": false,
       "verification_available": true
@@ -3721,6 +3905,29 @@
       ],
       "last_checked": "2026-07-22T06:05:25.089Z",
       "last_seen": "2026-06-05T07:18:12.395Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "20aa-22c55e.svg",
+      "name": "20aa-22c55e.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:02.547Z",
+      "last_seen": "2026-08-14T05:04:02.547Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -3826,7 +4033,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3834,7 +4041,7 @@
           "url": "https://github.com/jdevalk/specification.website"
         }
       ],
-      "last_checked": "2026-07-31T06:24:14.105Z",
+      "last_checked": "2026-08-14T05:04:04.624Z",
       "last_seen": "2026-06-05T07:18:14.391Z",
       "sponsored": false,
       "verification_available": true
@@ -3918,7 +4125,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 26,
+      "fail_streak": 27,
       "evidence": [
         {
           "kind": "github_hit",
@@ -3931,7 +4138,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-08-12T05:06:26.612Z",
+      "last_checked": "2026-08-14T05:04:06.581Z",
       "last_seen": "2026-04-20T05:49:16.011Z",
       "sponsored": false,
       "verification_available": true
@@ -3992,7 +4199,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4000,7 +4207,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:09:11.796Z",
+      "last_checked": "2026-08-14T05:04:08.596Z",
       "last_seen": "2026-06-22T09:21:40.379Z",
       "sponsored": false,
       "verification_available": true
@@ -4061,7 +4268,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4069,7 +4276,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:09:13.734Z",
+      "last_checked": "2026-08-14T05:04:10.578Z",
       "last_seen": "2026-06-22T09:21:42.153Z",
       "sponsored": false,
       "verification_available": true
@@ -4107,7 +4314,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4115,7 +4322,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:09:15.738Z",
+      "last_checked": "2026-08-14T05:04:12.531Z",
       "last_seen": "2026-05-11T06:50:21.570Z",
       "sponsored": false,
       "verification_available": true
@@ -4153,7 +4360,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4161,7 +4368,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-30T06:00:04.884Z",
+      "last_checked": "2026-08-14T05:04:14.545Z",
       "last_seen": "2026-04-01T05:32:45.766Z",
       "sponsored": false,
       "verification_available": true
@@ -4176,7 +4383,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 41,
+      "fail_streak": 42,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4184,7 +4391,7 @@
           "url": "https://github.com/WordPress/wordpress-playground"
         }
       ],
-      "last_checked": "2026-07-30T06:00:06.917Z",
+      "last_checked": "2026-08-14T05:04:16.537Z",
       "last_seen": "2026-04-01T05:32:47.720Z",
       "sponsored": false,
       "verification_available": true
@@ -4319,7 +4526,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4327,7 +4534,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:09:17.740Z",
+      "last_checked": "2026-08-14T05:04:18.527Z",
       "last_seen": "2026-05-11T06:50:27.591Z",
       "sponsored": false,
       "verification_available": true
@@ -4342,7 +4549,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4350,7 +4557,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:09:19.748Z",
+      "last_checked": "2026-08-14T05:04:20.598Z",
       "last_seen": "2026-05-11T06:50:29.584Z",
       "sponsored": false,
       "verification_available": true
@@ -4503,7 +4710,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4511,7 +4718,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:09:21.869Z",
+      "last_checked": "2026-08-14T05:04:22.543Z",
       "last_seen": "2026-05-11T06:50:31.606Z",
       "sponsored": false,
       "verification_available": true
@@ -4572,7 +4779,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4580,7 +4787,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:09:23.740Z",
+      "last_checked": "2026-08-14T05:04:24.534Z",
       "last_seen": "2026-05-11T06:50:33.661Z",
       "sponsored": false,
       "verification_available": true
@@ -4664,7 +4871,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4672,7 +4879,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:09:25.751Z",
+      "last_checked": "2026-08-14T05:04:26.536Z",
       "last_seen": "2026-05-11T06:50:35.608Z",
       "sponsored": false,
       "verification_available": true
@@ -4733,7 +4940,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4741,7 +4948,7 @@
           "url": "https://github.com/jasonjmcghee/WebMCP"
         }
       ],
-      "last_checked": "2026-08-12T05:06:44.561Z",
+      "last_checked": "2026-08-14T05:04:28.545Z",
       "last_seen": "2026-04-20T05:49:20.033Z",
       "sponsored": false,
       "verification_available": true
@@ -5055,7 +5262,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5063,7 +5270,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-08-13T05:09:30.045Z",
+      "last_checked": "2026-08-14T05:04:30.522Z",
       "last_seen": "2026-07-11T05:50:20.068Z",
       "sponsored": false,
       "verification_available": true
@@ -5301,6 +5508,29 @@
       "verification_available": true
     },
     {
+      "domain": "accessibility.getfullaxtree",
+      "name": "accessibility.getfullaxtree",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:32.531Z",
+      "last_seen": "2026-08-14T05:04:32.531Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "accessibility.mdx",
       "name": "accessibility.mdx",
       "type": [],
@@ -5421,6 +5651,29 @@
       "verification_available": true
     },
     {
+      "domain": "action-manifest-conformance.sh",
+      "name": "action-manifest-conformance.sh",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:34.522Z",
+      "last_seen": "2026-08-14T05:04:34.522Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "actions.ts",
       "name": "actions.ts",
       "type": [],
@@ -5453,7 +5706,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5461,7 +5714,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:09:33.776Z",
+      "last_checked": "2026-08-14T05:04:36.541Z",
       "last_seen": "2026-03-24T05:07:25.405Z",
       "sponsored": false,
       "verification_available": true
@@ -5509,6 +5762,52 @@
       ],
       "last_checked": "2026-08-03T06:36:09.926Z",
       "last_seen": "2026-06-05T07:18:26.273Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "actuallab.fusion",
+      "name": "actuallab.fusion",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:38.714Z",
+      "last_seen": "2026-08-14T05:04:38.714Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "actuallab.rpc",
+      "name": "actuallab.rpc",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:40.523Z",
+      "last_seen": "2026-08-14T05:04:40.523Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -5660,7 +5959,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5668,7 +5967,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:38.046Z",
+      "last_checked": "2026-08-14T05:04:42.566Z",
       "last_seen": "2026-03-02T05:01:42.822Z",
       "sponsored": false,
       "verification_available": true
@@ -5683,7 +5982,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5691,7 +5990,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:40.043Z",
+      "last_checked": "2026-08-14T05:04:44.584Z",
       "last_seen": "2026-03-02T05:01:44.964Z",
       "sponsored": false,
       "verification_available": true
@@ -5706,7 +6005,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5714,7 +6013,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:42.186Z",
+      "last_checked": "2026-08-14T05:04:46.708Z",
       "last_seen": "2026-03-02T05:01:46.966Z",
       "sponsored": false,
       "verification_available": true
@@ -5729,7 +6028,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5737,7 +6036,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:44.012Z",
+      "last_checked": "2026-08-14T05:04:48.581Z",
       "last_seen": "2026-03-02T05:01:48.955Z",
       "sponsored": false,
       "verification_available": true
@@ -5752,7 +6051,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5760,7 +6059,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:46.050Z",
+      "last_checked": "2026-08-14T05:04:50.698Z",
       "last_seen": "2026-03-02T05:01:50.966Z",
       "sponsored": false,
       "verification_available": true
@@ -5775,7 +6074,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5783,7 +6082,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:47.947Z",
+      "last_checked": "2026-08-14T05:04:52.702Z",
       "last_seen": "2026-03-02T05:01:52.964Z",
       "sponsored": false,
       "verification_available": true
@@ -5798,7 +6097,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5806,7 +6105,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:49.913Z",
+      "last_checked": "2026-08-14T05:04:54.578Z",
       "last_seen": "2026-03-02T05:01:54.923Z",
       "sponsored": false,
       "verification_available": true
@@ -6088,6 +6387,29 @@
       "verification_available": true
     },
     {
+      "domain": "adrientorris.github.io",
+      "name": "adrientorris.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:56.578Z",
+      "last_seen": "2026-08-14T05:04:56.578Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "advanced-config.json",
       "name": "advanced-config.json",
       "type": [],
@@ -6153,6 +6475,29 @@
       ],
       "last_checked": "2026-02-18T05:05:10.214Z",
       "last_seen": "2026-02-17T05:04:48.897Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aesalazar.github.io",
+      "name": "aesalazar.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:04:58.618Z",
+      "last_seen": "2026-08-14T05:04:58.618Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6465,7 +6810,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6473,8 +6818,31 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:40:57.932Z",
+      "last_checked": "2026-08-14T05:05:00.592Z",
       "last_seen": "2026-03-02T05:01:56.965Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-task-benchmark-v1.json",
+      "name": "agent-task-benchmark-v1.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:02.599Z",
+      "last_seen": "2026-08-14T05:05:02.599Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6488,7 +6856,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6496,8 +6864,77 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:09:43.742Z",
+      "last_checked": "2026-08-14T05:05:04.559Z",
       "last_seen": "2026-03-24T05:07:43.507Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-workflow-report.json",
+      "name": "agent-workflow-report.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:06.698Z",
+      "last_seen": "2026-08-14T05:05:06.698Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-workflow.json",
+      "name": "agent-workflow.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:08.557Z",
+      "last_seen": "2026-08-14T05:05:08.557Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agent-workflows.md",
+      "name": "agent-workflows.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:10.552Z",
+      "last_seen": "2026-08-14T05:05:10.552Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6659,7 +7096,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6667,7 +7104,7 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-07-30T06:01:00.389Z",
+      "last_checked": "2026-08-14T05:05:12.707Z",
       "last_seen": "2026-04-22T05:35:40.102Z",
       "sponsored": false,
       "verification_available": true
@@ -6682,7 +7119,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6690,7 +7127,7 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-07-30T06:01:02.359Z",
+      "last_checked": "2026-08-14T05:05:14.516Z",
       "last_seen": "2026-04-22T05:35:42.171Z",
       "sponsored": false,
       "verification_available": true
@@ -7482,7 +7919,7 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-07-30T06:01:04.917Z",
+      "last_checked": "2026-08-14T05:05:16.612Z",
       "last_seen": "2026-04-22T05:35:44.098Z",
       "sponsored": false,
       "verification_available": true
@@ -7603,9 +8040,14 @@
           "kind": "github_hit",
           "detail": "repo: msitarzewski/agency-agents",
           "url": "https://github.com/msitarzewski/agency-agents"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
         }
       ],
-      "last_checked": "2026-08-12T05:07:06.787Z",
+      "last_checked": "2026-08-14T05:05:18.523Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -7671,10 +8113,10 @@
         {
           "type": "well_known",
           "url": "https://agentskills.io/.well-known/mcp.json",
-          "last_success": "2026-08-13T05:09:49.743Z"
+          "last_success": "2026-08-14T05:05:20.523Z"
         }
       ],
-      "last_verified_success": "2026-08-13T05:09:49.743Z",
+      "last_verified_success": "2026-08-14T05:05:20.523Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -7698,8 +8140,8 @@
           "url": "https://agentskills.io/"
         }
       ],
-      "last_checked": "2026-08-13T05:09:49.743Z",
-      "last_seen": "2026-08-13T05:09:49.743Z",
+      "last_checked": "2026-08-14T05:05:20.523Z",
+      "last_seen": "2026-08-14T05:05:20.523Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7819,6 +8261,29 @@
       "verification_available": true
     },
     {
+      "domain": "agricidaniel.com",
+      "name": "agricidaniel.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AgriciDaniel/claude-seo",
+          "url": "https://github.com/AgriciDaniel/claude-seo"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:22.840Z",
+      "last_seen": "2026-08-14T05:05:22.840Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "ai-agents-analysis.md",
       "name": "ai-agents-analysis.md",
       "type": [],
@@ -7861,6 +8326,29 @@
       ],
       "last_checked": "2026-04-21T05:36:22.213Z",
       "last_seen": "2026-04-14T05:33:29.815Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ai-sdk.dev",
+      "name": "ai-sdk.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:24.519Z",
+      "last_seen": "2026-08-14T05:05:24.519Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8101,7 +8589,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-20T06:29:54.295Z",
+      "last_checked": "2026-08-14T05:05:26.541Z",
       "last_seen": "2026-07-11T05:51:20.892Z",
       "sponsored": false,
       "verification_available": true
@@ -8138,8 +8626,8 @@
       "domain": "aka.ms",
       "name": "aka.ms",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -8150,10 +8638,38 @@
           "kind": "github_hit",
           "detail": "repo: punkpeye/awesome-mcp-servers",
           "url": "https://github.com/punkpeye/awesome-mcp-servers"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
         }
       ],
-      "last_checked": "2026-03-06T04:53:26.717Z",
+      "last_checked": "2026-08-14T05:05:28.602Z",
       "last_seen": "2026-03-06T04:53:26.717Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "akka.net",
+      "name": "akka.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:30.641Z",
+      "last_seen": "2026-08-14T05:05:30.641Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8213,7 +8729,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8221,7 +8737,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:41:12.997Z",
+      "last_checked": "2026-08-14T05:05:32.669Z",
       "last_seen": "2026-03-02T05:02:09.893Z",
       "sponsored": false,
       "verification_available": true
@@ -8250,6 +8766,29 @@
       "verification_available": true
     },
     {
+      "domain": "allegiance-consulting.github.io",
+      "name": "allegiance-consulting.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:34.598Z",
+      "last_seen": "2026-08-14T05:05:34.598Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "allitems.aspx",
       "name": "allitems.aspx",
       "type": [],
@@ -8273,6 +8812,52 @@
       "verification_available": true
     },
     {
+      "domain": "alpine.js",
+      "name": "alpine.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:36.605Z",
+      "last_seen": "2026-08-14T05:05:36.605Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "alpine.start",
+      "name": "alpine.start",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:38.515Z",
+      "last_seen": "2026-08-14T05:05:38.515Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "altamedica.com",
       "name": "altamedica.com",
       "type": [],
@@ -8292,6 +8877,75 @@
       ],
       "last_checked": "2026-02-18T05:05:40.356Z",
       "last_seen": "2026-02-16T05:12:51.133Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "amazon.com",
+      "name": "amazon.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:40.612Z",
+      "last_seen": "2026-08-14T05:05:40.612Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "amazon.de",
+      "name": "amazon.de",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:42.633Z",
+      "last_seen": "2026-08-14T05:05:42.633Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "amazon.in",
+      "name": "amazon.in",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:44.657Z",
+      "last_seen": "2026-08-14T05:05:44.657Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8322,6 +8976,29 @@
       ],
       "last_checked": "2026-07-12T06:15:15.382Z",
       "last_seen": "2026-07-12T06:15:15.382Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "amzn1.sym",
+      "name": "amzn1.sym",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:46.808Z",
+      "last_seen": "2026-08-14T05:05:46.808Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8548,6 +9225,29 @@
       "verification_available": true
     },
     {
+      "domain": "andrewlock.net",
+      "name": "andrewlock.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:48.626Z",
+      "last_seen": "2026-08-14T05:05:48.626Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "andrewmohawk.com",
       "name": "andrewmohawk.com",
       "type": [],
@@ -8580,7 +9280,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8588,7 +9288,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:09:57.113Z",
+      "last_checked": "2026-08-14T05:05:50.528Z",
       "last_seen": "2026-03-24T05:07:53.498Z",
       "sponsored": false,
       "verification_available": true
@@ -8603,7 +9303,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8611,7 +9311,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:09:59.173Z",
+      "last_checked": "2026-08-14T05:05:52.577Z",
       "last_seen": "2026-03-24T05:07:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -8626,7 +9326,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8634,7 +9334,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:10:01.255Z",
+      "last_checked": "2026-08-14T05:05:54.695Z",
       "last_seen": "2026-03-24T05:07:57.525Z",
       "sponsored": false,
       "verification_available": true
@@ -8663,6 +9363,29 @@
       "verification_available": true
     },
     {
+      "domain": "andrzejolszak.github.io",
+      "name": "andrzejolszak.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:05:56.578Z",
+      "last_seen": "2026-08-14T05:05:56.578Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "angular-database.html",
       "name": "angular-database.html",
       "type": [],
@@ -8672,7 +9395,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8685,7 +9408,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:06:12.225Z",
+      "last_checked": "2026-08-14T05:05:58.601Z",
       "last_seen": "2026-03-04T04:54:51.107Z",
       "sponsored": false,
       "verification_available": true
@@ -8723,7 +9446,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8736,7 +9459,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:06:14.152Z",
+      "last_checked": "2026-08-14T05:06:00.608Z",
       "last_seen": "2026-03-04T04:54:53.217Z",
       "sponsored": false,
       "verification_available": true
@@ -8751,7 +9474,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8759,7 +9482,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:10:05.115Z",
+      "last_checked": "2026-08-14T05:06:02.522Z",
       "last_seen": "2026-06-22T09:22:32.129Z",
       "sponsored": false,
       "verification_available": true
@@ -8774,7 +9497,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8782,7 +9505,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:10:07.215Z",
+      "last_checked": "2026-08-14T05:06:04.515Z",
       "last_seen": "2026-06-22T09:22:34.138Z",
       "sponsored": false,
       "verification_available": true
@@ -8856,7 +9579,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:10:09.167Z",
+      "last_checked": "2026-08-14T05:06:06.502Z",
       "last_seen": "2026-06-22T09:22:36.224Z",
       "sponsored": false,
       "verification_available": true
@@ -9258,6 +9981,29 @@
       "verification_available": true
     },
     {
+      "domain": "ant-design-blazor.github.io",
+      "name": "ant-design-blazor.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:08.881Z",
+      "last_seen": "2026-08-14T05:06:08.881Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "ant-design.git",
       "name": "ant-design.git",
       "type": [],
@@ -9340,6 +10086,29 @@
       "verification_available": true
     },
     {
+      "domain": "antdesigndemo.blazorise.com",
+      "name": "antdesigndemo.blazorise.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:10.576Z",
+      "last_seen": "2026-08-14T05:06:10.576Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "antdesignui.svg",
       "name": "antdesignui.svg",
       "type": [],
@@ -9418,7 +10187,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:10:33.183Z",
+      "last_checked": "2026-08-14T05:06:13.082Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -9632,7 +10401,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9640,8 +10409,31 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-20T06:30:04.104Z",
+      "last_checked": "2026-08-14T05:06:14.827Z",
       "last_seen": "2026-07-11T05:51:42.685Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "apexcharts.com",
+      "name": "apexcharts.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:16.804Z",
+      "last_seen": "2026-08-14T05:06:16.804Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9686,7 +10478,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-31T06:25:58.114Z",
+      "last_checked": "2026-08-14T05:06:18.961Z",
       "last_seen": "2026-05-12T06:23:12.997Z",
       "sponsored": false,
       "verification_available": true
@@ -9982,7 +10774,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 110,
+      "fail_streak": 111,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9990,7 +10782,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-13T05:10:35.195Z",
+      "last_checked": "2026-08-14T05:06:21.086Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -10140,7 +10932,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 120,
+      "fail_streak": 121,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10188,7 +10980,7 @@
           "url": "https://github.com/SandeepVashishtha/Eventra"
         }
       ],
-      "last_checked": "2026-08-13T05:10:39.623Z",
+      "last_checked": "2026-08-14T05:06:22.790Z",
       "last_seen": "2026-02-20T05:02:36.897Z",
       "sponsored": false,
       "verification_available": true
@@ -10414,6 +11206,52 @@
       "verification_available": true
     },
     {
+      "domain": "app.css",
+      "name": "app.css",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:24.887Z",
+      "last_seen": "2026-08-14T05:06:24.887Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "app.directive",
+      "name": "app.directive",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eduardoborges/use-mask-input",
+          "url": "https://github.com/eduardoborges/use-mask-input"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:26.894Z",
+      "last_seen": "2026-08-14T05:06:26.894Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "app.element.io",
       "name": "app.element.io",
       "type": [],
@@ -10506,16 +11344,39 @@
       "verification_available": true
     },
     {
+      "domain": "app.ididit.today",
+      "name": "app.ididit.today",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:28.801Z",
+      "last_seen": "2026-08-14T05:06:28.801Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "app.js",
       "name": "app.js",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10526,9 +11387,14 @@
           "kind": "github_hit",
           "detail": "repo: opentiny/webmcp-sdk",
           "url": "https://github.com/opentiny/webmcp-sdk"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
         }
       ],
-      "last_checked": "2026-07-05T06:54:36.378Z",
+      "last_checked": "2026-08-14T05:06:31.168Z",
       "last_seen": "2026-02-16T05:13:02.652Z",
       "sponsored": false,
       "verification_available": true
@@ -10596,6 +11462,29 @@
       ],
       "last_checked": "2026-06-25T07:00:17.355Z",
       "last_seen": "2026-06-23T07:02:34.478Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "app.money.neptuo.com",
+      "name": "app.money.neptuo.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:32.889Z",
+      "last_seen": "2026-08-14T05:06:32.889Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -10790,7 +11679,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10798,7 +11687,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:10:45.229Z",
+      "last_checked": "2026-08-14T05:06:34.851Z",
       "last_seen": "2026-07-21T06:08:03.551Z",
       "sponsored": false,
       "verification_available": true
@@ -10859,7 +11748,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10867,7 +11756,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-08-13T05:10:47.269Z",
+      "last_checked": "2026-08-14T05:06:36.969Z",
       "last_seen": "2026-07-11T05:52:00.707Z",
       "sponsored": false,
       "verification_available": true
@@ -10882,7 +11771,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10890,7 +11779,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-08-13T05:10:49.117Z",
+      "last_checked": "2026-08-14T05:06:38.785Z",
       "last_seen": "2026-07-11T05:52:02.732Z",
       "sponsored": false,
       "verification_available": true
@@ -10959,7 +11848,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-08-13T05:10:51.220Z",
+      "last_checked": "2026-08-14T05:06:40.881Z",
       "last_seen": "2026-05-11T06:51:42.600Z",
       "sponsored": false,
       "verification_available": true
@@ -11030,6 +11919,29 @@
       ],
       "last_checked": "2026-07-10T06:56:50.810Z",
       "last_seen": "2026-05-23T06:21:00.019Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "apress.com",
+      "name": "apress.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:42.837Z",
+      "last_seen": "2026-08-14T05:06:42.837Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11112,7 +12024,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11120,7 +12032,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:12.023Z",
+      "last_checked": "2026-08-14T05:06:45.563Z",
       "last_seen": "2026-03-02T05:02:25.675Z",
       "sponsored": false,
       "verification_available": true
@@ -11135,7 +12047,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11143,7 +12055,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:14.135Z",
+      "last_checked": "2026-08-14T05:06:46.939Z",
       "last_seen": "2026-03-02T05:02:27.919Z",
       "sponsored": false,
       "verification_available": true
@@ -11158,7 +12070,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11166,7 +12078,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:10:53.178Z",
+      "last_checked": "2026-08-14T05:06:49.069Z",
       "last_seen": "2026-03-24T05:08:25.011Z",
       "sponsored": false,
       "verification_available": true
@@ -11262,9 +12174,14 @@
           "kind": "github_hit",
           "detail": "repo: SunboX/ecadforge_app",
           "url": "https://github.com/SunboX/ecadforge_app"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: AgriciDaniel/claude-seo",
+          "url": "https://github.com/AgriciDaniel/claude-seo"
         }
       ],
-      "last_checked": "2026-08-13T05:10:55.194Z",
+      "last_checked": "2026-08-14T05:06:51.059Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -11294,6 +12211,52 @@
       ],
       "last_checked": "2026-07-10T06:56:56.854Z",
       "last_seen": "2026-03-07T04:45:42.161Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ard-report.json",
+      "name": "ard-report.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:53.032Z",
+      "last_seen": "2026-08-14T05:06:53.032Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ard.md",
+      "name": "ard.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:06:54.879Z",
+      "last_seen": "2026-08-14T05:06:54.879Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11688,7 +12651,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-07-31T06:26:36.072Z",
+      "last_checked": "2026-08-14T05:06:58.668Z",
       "last_seen": "2026-07-02T06:52:48.071Z",
       "sponsored": false,
       "verification_available": true
@@ -11743,7 +12706,7 @@
       "domain": "asp.net",
       "name": "asp.net",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
@@ -11755,10 +12718,38 @@
           "kind": "github_hit",
           "detail": "repo: telerik/kendo-react",
           "url": "https://github.com/telerik/kendo-react"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
         }
       ],
-      "last_checked": "2026-07-05T06:54:58.369Z",
+      "last_checked": "2026-08-14T05:06:59.675Z",
       "last_seen": "2026-06-05T07:19:30.290Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aspireify.net",
+      "name": "aspireify.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:01.761Z",
+      "last_seen": "2026-08-14T05:07:01.761Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11808,7 +12799,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-08-13T05:11:05.182Z",
+      "last_checked": "2026-08-14T05:07:03.687Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -12255,7 +13246,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:28.112Z",
+      "last_checked": "2026-08-14T05:07:05.778Z",
       "last_seen": "2026-03-02T05:02:41.728Z",
       "sponsored": false,
       "verification_available": true
@@ -12270,7 +13261,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12278,7 +13269,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:30.040Z",
+      "last_checked": "2026-08-14T05:07:07.772Z",
       "last_seen": "2026-03-02T05:02:43.685Z",
       "sponsored": false,
       "verification_available": true
@@ -12293,7 +13284,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12301,7 +13292,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:32.062Z",
+      "last_checked": "2026-08-14T05:07:09.858Z",
       "last_seen": "2026-03-02T05:02:45.789Z",
       "sponsored": false,
       "verification_available": true
@@ -12316,7 +13307,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12324,7 +13315,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:34.126Z",
+      "last_checked": "2026-08-14T05:07:11.859Z",
       "last_seen": "2026-03-02T05:02:47.785Z",
       "sponsored": false,
       "verification_available": true
@@ -12339,7 +13330,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12347,7 +13338,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:42:36.204Z",
+      "last_checked": "2026-08-14T05:07:13.861Z",
       "last_seen": "2026-03-02T05:02:49.786Z",
       "sponsored": false,
       "verification_available": true
@@ -12411,7 +13402,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-08-13T05:11:07.267Z",
+      "last_checked": "2026-08-14T05:07:15.864Z",
       "last_seen": "2026-08-01T06:12:03.424Z",
       "sponsored": false,
       "verification_available": true
@@ -12481,7 +13472,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-20T06:30:24.541Z",
+      "last_checked": "2026-08-14T05:07:19.134Z",
       "last_seen": "2026-07-11T05:52:30.255Z",
       "sponsored": false,
       "verification_available": true
@@ -12496,7 +13487,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12504,7 +13495,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:11:09.672Z",
+      "last_checked": "2026-08-14T05:07:20.801Z",
       "last_seen": "2026-06-22T09:23:24.028Z",
       "sponsored": false,
       "verification_available": true
@@ -12519,7 +13510,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12527,7 +13518,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:11:11.182Z",
+      "last_checked": "2026-08-14T05:07:22.841Z",
       "last_seen": "2026-06-22T09:23:25.725Z",
       "sponsored": false,
       "verification_available": true
@@ -12550,7 +13541,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:11:13.132Z",
+      "last_checked": "2026-08-14T05:07:24.713Z",
       "last_seen": "2026-06-22T09:23:27.641Z",
       "sponsored": false,
       "verification_available": true
@@ -12598,6 +13589,29 @@
       ],
       "last_checked": "2026-08-13T05:11:17.182Z",
       "last_seen": "2026-07-30T06:02:55.079Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "austincummings.razor",
+      "name": "austincummings.razor",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:26.781Z",
+      "last_seen": "2026-08-14T05:07:26.781Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -12680,7 +13694,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12688,7 +13702,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-07-20T06:30:33.053Z",
+      "last_checked": "2026-08-14T05:07:28.715Z",
       "last_seen": "2026-07-11T05:52:40.865Z",
       "sponsored": false,
       "verification_available": true
@@ -12988,10 +14002,10 @@
         {
           "type": "well_known",
           "url": "https://avatars.githubusercontent.com/.well-known/mcp.json",
-          "last_success": "2026-08-13T05:11:22.106Z"
+          "last_success": "2026-08-14T05:07:30.854Z"
         }
       ],
-      "last_verified_success": "2026-08-13T05:11:22.106Z",
+      "last_verified_success": "2026-08-14T05:07:30.854Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -13015,8 +14029,8 @@
           "url": "https://github.com/SandeepVashishtha/Eventra"
         }
       ],
-      "last_checked": "2026-08-13T05:11:22.106Z",
-      "last_seen": "2026-08-13T05:11:22.106Z",
+      "last_checked": "2026-08-14T05:07:30.854Z",
+      "last_seen": "2026-08-14T05:07:30.854Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13047,7 +14061,7 @@
       "domain": "awesome.re",
       "name": "awesome.re",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -13069,10 +14083,38 @@
           "kind": "github_hit",
           "detail": "repo: yigitkonur/awesome-webmcp",
           "url": "https://github.com/yigitkonur/awesome-webmcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
         }
       ],
-      "last_checked": "2026-07-10T06:57:10.738Z",
+      "last_checked": "2026-08-14T05:07:32.793Z",
       "last_seen": "2026-03-06T04:54:33.887Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "awp.hello",
+      "name": "awp.hello",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:35.223Z",
+      "last_seen": "2026-08-14T05:07:35.223Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13222,6 +14264,29 @@
       "verification_available": true
     },
     {
+      "domain": "azuredevopspodcast.clear-measure.com",
+      "name": "azuredevopspodcast.clear-measure.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:36.811Z",
+      "last_seen": "2026-08-14T05:07:36.811Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "b.webp",
       "name": "b.webp",
       "type": [],
@@ -13300,6 +14365,75 @@
       ],
       "last_checked": "2026-06-16T09:07:19.121Z",
       "last_seen": "2026-06-01T08:48:04.866Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "babylon.js",
+      "name": "babylon.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:43.394Z",
+      "last_seen": "2026-08-14T05:07:43.394Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "babylonblazorapp202208.azurewebsites.net",
+      "name": "babylonblazorapp202208.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:44.403Z",
+      "last_seen": "2026-08-14T05:07:44.403Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "babylonjs.com",
+      "name": "babylonjs.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:46.544Z",
+      "last_seen": "2026-08-14T05:07:46.544Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13515,7 +14649,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13528,8 +14662,31 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:06:38.147Z",
+      "last_checked": "2026-08-14T05:07:48.400Z",
       "last_seen": "2026-03-04T04:55:50.829Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "badge-flat2.svg",
+      "name": "badge-flat2.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:50.411Z",
+      "last_seen": "2026-08-14T05:07:50.411Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13596,7 +14753,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 141,
+      "fail_streak": 142,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13762,9 +14919,24 @@
           "kind": "github_hit",
           "detail": "repo: tech-sumit/LiveAvatarStream3D",
           "url": "https://github.com/tech-sumit/LiveAvatarStream3D"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: AgriciDaniel/claude-seo",
+          "url": "https://github.com/AgriciDaniel/claude-seo"
         }
       ],
-      "last_checked": "2026-08-13T05:11:26.107Z",
+      "last_checked": "2026-08-14T05:07:52.478Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -13933,6 +15105,29 @@
       "verification_available": true
     },
     {
+      "domain": "barcoderesource.com",
+      "name": "barcoderesource.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:54.403Z",
+      "last_seen": "2026-08-14T05:07:54.403Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "base.js",
       "name": "base.js",
       "type": [],
@@ -13975,6 +15170,29 @@
       ],
       "last_checked": "2026-07-04T06:31:52.256Z",
       "last_seen": "2026-04-14T05:34:04.075Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "baseballmlworkbench-v1.azurewebsites.net",
+      "name": "baseballmlworkbench-v1.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:56.537Z",
+      "last_seen": "2026-08-14T05:07:56.537Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14117,6 +15335,52 @@
       "verification_available": true
     },
     {
+      "domain": "becksblazor.azurewebsites.net",
+      "name": "becksblazor.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:07:58.401Z",
+      "last_seen": "2026-08-14T05:07:58.401Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "benchmark-latest.md",
+      "name": "benchmark-latest.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:00.403Z",
+      "last_seen": "2026-08-14T05:08:00.403Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "benchmark-qemu.sh",
       "name": "benchmark-qemu.sh",
       "type": [],
@@ -14172,7 +15436,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 110,
+      "fail_streak": 111,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14180,7 +15444,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-13T05:11:32.151Z",
+      "last_checked": "2026-08-14T05:08:02.592Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -14205,6 +15469,29 @@
       ],
       "last_checked": "2026-02-18T05:06:42.253Z",
       "last_seen": "2026-02-17T05:06:20.937Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "benchmarking.md",
+      "name": "benchmarking.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: plasmate-labs/plasmate",
+          "url": "https://github.com/plasmate-labs/plasmate"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:04.466Z",
+      "last_seen": "2026-08-14T05:08:04.466Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14292,7 +15579,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14300,7 +15587,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-08-13T05:11:38.169Z",
+      "last_checked": "2026-08-14T05:08:06.641Z",
       "last_seen": "2026-03-24T05:09:06.980Z",
       "sponsored": false,
       "verification_available": true
@@ -14361,7 +15648,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14369,7 +15656,7 @@
           "url": "https://github.com/qdhenry/Claude-Command-Suite"
         }
       ],
-      "last_checked": "2026-08-09T04:43:10.821Z",
+      "last_checked": "2026-08-14T05:08:08.415Z",
       "last_seen": "2026-03-02T05:03:13.956Z",
       "sponsored": false,
       "verification_available": true
@@ -14476,7 +15763,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14484,7 +15771,7 @@
           "url": "https://github.com/ghiscoding/slickgrid-universal"
         }
       ],
-      "last_checked": "2026-08-13T05:11:42.206Z",
+      "last_checked": "2026-08-14T05:08:10.588Z",
       "last_seen": "2026-06-22T09:23:50.727Z",
       "sponsored": false,
       "verification_available": true
@@ -14687,6 +15974,29 @@
       "verification_available": true
     },
     {
+      "domain": "bionicframework.github.io",
+      "name": "bionicframework.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:12.409Z",
+      "last_seen": "2026-08-14T05:08:12.409Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "bit.ly",
       "name": "bit.ly",
       "type": [],
@@ -14709,8 +16019,31 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-08-13T05:12:00.800Z",
+      "last_checked": "2026-08-14T05:08:14.471Z",
       "last_seen": "2026-03-03T05:02:03.189Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bitplatform.dev",
+      "name": "bitplatform.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:16.704Z",
+      "last_seen": "2026-08-14T05:08:16.704Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14757,6 +16090,1422 @@
       ],
       "last_checked": "2026-07-05T06:55:35.316Z",
       "last_seen": "2026-07-05T06:55:35.316Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blatui-core.js",
+      "name": "blatui-core.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:18.412Z",
+      "last_seen": "2026-08-14T05:08:18.412Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blatui.css",
+      "name": "blatui.css",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:20.401Z",
+      "last_seen": "2026-08-14T05:08:20.401Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blatui.js",
+      "name": "blatui.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:22.411Z",
+      "last_seen": "2026-08-14T05:08:22.411Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blatui.remix-it.com",
+      "name": "blatui.remix-it.com",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 100,
+      "status": "verified",
+      "verification_status": "verified",
+      "verification_method": "modelContext_detected",
+      "proof": [
+        {
+          "type": "homepage",
+          "url": "https://blatui.remix-it.com/",
+          "last_success": "2026-08-14T05:08:24.409Z"
+        }
+      ],
+      "last_verified_success": "2026-08-14T05:08:24.409Z",
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://blatui.remix-it.com/"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:24.409Z",
+      "last_seen": "2026-08-14T05:08:24.409Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blatui.svg",
+      "name": "blatui.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: anousss007/blatui",
+          "url": "https://github.com/anousss007/blatui"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:26.972Z",
+      "last_seen": "2026-08-14T05:08:26.972Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazeofcode.com",
+      "name": "blazeofcode.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:28.460Z",
+      "last_seen": "2026-08-14T05:08:28.460Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazm.bluetooth",
+      "name": "blazm.bluetooth",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:30.436Z",
+      "last_seen": "2026-08-14T05:08:30.436Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor-context-menu-demo.azurewebsites.net",
+      "name": "blazor-context-menu-demo.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:32.410Z",
+      "last_seen": "2026-08-14T05:08:32.410Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor-demo.github.io",
+      "name": "blazor-demo.github.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:34.558Z",
+      "last_seen": "2026-08-14T05:08:34.558Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor-on-asp.net",
+      "name": "blazor-on-asp.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:36.496Z",
+      "last_seen": "2026-08-14T05:08:36.496Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor-pro.masastack.com",
+      "name": "blazor-pro.masastack.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:38.404Z",
+      "last_seen": "2026-08-14T05:08:38.404Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor-university.com",
+      "name": "blazor-university.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:42.205Z",
+      "last_seen": "2026-08-14T05:08:42.205Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.browserextension",
+      "name": "blazor.browserextension",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:43.211Z",
+      "last_seen": "2026-08-14T05:08:43.211Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.canvas",
+      "name": "blazor.canvas",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:45.317Z",
+      "last_seen": "2026-08-14T05:08:45.317Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.components",
+      "name": "blazor.components",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:47.317Z",
+      "last_seen": "2026-08-14T05:08:47.317Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.diagrams",
+      "name": "blazor.diagrams",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:49.220Z",
+      "last_seen": "2026-08-14T05:08:49.220Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.downloadfilefast",
+      "name": "blazor.downloadfilefast",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:51.273Z",
+      "last_seen": "2026-08-14T05:08:51.273Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.dynamicjavascriptruntime.evaluator",
+      "name": "blazor.dynamicjavascriptruntime.evaluator",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:53.276Z",
+      "last_seen": "2026-08-14T05:08:53.276Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.eventaggregator",
+      "name": "blazor.eventaggregator",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:55.315Z",
+      "last_seen": "2026-08-14T05:08:55.315Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.filesystemaccess",
+      "name": "blazor.filesystemaccess",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:57.322Z",
+      "last_seen": "2026-08-14T05:08:57.322Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.grids",
+      "name": "blazor.grids",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:08:59.228Z",
+      "last_seen": "2026-08-14T05:08:59.228Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.ionic",
+      "name": "blazor.ionic",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:01.222Z",
+      "last_seen": "2026-08-14T05:09:01.222Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.lazystylesheet",
+      "name": "blazor.lazystylesheet",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:03.227Z",
+      "last_seen": "2026-08-14T05:09:03.227Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.localfiles",
+      "name": "blazor.localfiles",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:05.317Z",
+      "last_seen": "2026-08-14T05:09:05.317Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.masastack.com",
+      "name": "blazor.masastack.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:07.217Z",
+      "last_seen": "2026-08-14T05:09:07.217Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.mediacapturestreams",
+      "name": "blazor.mediacapturestreams",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:09.450Z",
+      "last_seen": "2026-08-14T05:09:09.450Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.net",
+      "name": "blazor.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:11.263Z",
+      "last_seen": "2026-08-14T05:09:11.263Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.polyfill",
+      "name": "blazor.polyfill",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:13.387Z",
+      "last_seen": "2026-08-14T05:09:13.387Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.printing",
+      "name": "blazor.printing",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:15.226Z",
+      "last_seen": "2026-08-14T05:09:15.226Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.ru",
+      "name": "blazor.ru",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:17.323Z",
+      "last_seen": "2026-08-14T05:09:17.323Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.scriptinjection",
+      "name": "blazor.scriptinjection",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:19.792Z",
+      "last_seen": "2026-08-14T05:09:19.792Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.sidepanel",
+      "name": "blazor.sidepanel",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:21.250Z",
+      "last_seen": "2026-08-14T05:09:21.250Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.speechsynthesis",
+      "name": "blazor.speechsynthesis",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:23.316Z",
+      "last_seen": "2026-08-14T05:09:23.316Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.svgeditor",
+      "name": "blazor.svgeditor",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:25.313Z",
+      "last_seen": "2026-08-14T05:09:25.313Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.syncfusion.com",
+      "name": "blazor.syncfusion.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:27.216Z",
+      "last_seen": "2026-08-14T05:09:27.216Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.treeviews",
+      "name": "blazor.treeviews",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:29.738Z",
+      "last_seen": "2026-08-14T05:09:29.738Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.webaudio",
+      "name": "blazor.webaudio",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:31.255Z",
+      "last_seen": "2026-08-14T05:09:31.255Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.webbluetooth",
+      "name": "blazor.webbluetooth",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:33.251Z",
+      "last_seen": "2026-08-14T05:09:33.251Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.webform.components",
+      "name": "blazor.webform.components",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:35.216Z",
+      "last_seen": "2026-08-14T05:09:35.216Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazor.zone",
+      "name": "blazor.zone",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:37.343Z",
+      "last_seen": "2026-08-14T05:09:37.343Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorbarcode.shtml",
+      "name": "blazorbarcode.shtml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:44.609Z",
+      "last_seen": "2026-08-14T05:09:44.609Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorblueprintui.com",
+      "name": "blazorblueprintui.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:45.676Z",
+      "last_seen": "2026-08-14T05:09:45.676Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorboilerplate.com",
+      "name": "blazorboilerplate.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:47.854Z",
+      "last_seen": "2026-08-14T05:09:47.854Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorct.azurewebsites.net",
+      "name": "blazorct.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:49.701Z",
+      "last_seen": "2026-08-14T05:09:49.701Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazordaterangepicker.azurewebsites.net",
+      "name": "blazordaterangepicker.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:51.770Z",
+      "last_seen": "2026-08-14T05:09:51.770Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazordev.it",
+      "name": "blazordev.it",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:53.655Z",
+      "last_seen": "2026-08-14T05:09:53.655Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazored.localstorage",
+      "name": "blazored.localstorage",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:55.793Z",
+      "last_seen": "2026-08-14T05:09:55.793Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazored.modal",
+      "name": "blazored.modal",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:57.658Z",
+      "last_seen": "2026-08-14T05:09:57.658Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazored.toast",
+      "name": "blazored.toast",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:09:59.642Z",
+      "last_seen": "2026-08-14T05:09:59.642Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazored.typeahead",
+      "name": "blazored.typeahead",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:01.720Z",
+      "last_seen": "2026-08-14T05:10:01.720Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorexamples.nevron.com",
+      "name": "blazorexamples.nevron.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:03.622Z",
+      "last_seen": "2026-08-14T05:10:03.622Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorextensions.z6.web.core.windows.net",
+      "name": "blazorextensions.z6.web.core.windows.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:05.682Z",
+      "last_seen": "2026-08-14T05:10:05.682Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorfabric.azurewebsites.net",
+      "name": "blazorfabric.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:07.753Z",
+      "last_seen": "2026-08-14T05:10:07.753Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorfiddle.com",
+      "name": "blazorfiddle.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:09.615Z",
+      "last_seen": "2026-08-14T05:10:09.615Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorgrid.z6.web.core.windows.net",
+      "name": "blazorgrid.z6.web.core.windows.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:11.912Z",
+      "last_seen": "2026-08-14T05:10:11.912Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorhelpwebsite.com",
+      "name": "blazorhelpwebsite.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:13.754Z",
+      "last_seen": "2026-08-14T05:10:13.754Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorimagerecognitionapp.azurewebsites.net",
+      "name": "blazorimagerecognitionapp.azurewebsites.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:15.626Z",
+      "last_seen": "2026-08-14T05:10:15.626Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorise.com",
+      "name": "blazorise.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:17.792Z",
+      "last_seen": "2026-08-14T05:10:17.792Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazority.com",
+      "name": "blazority.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:19.925Z",
+      "last_seen": "2026-08-14T05:10:19.925Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorocticons.net",
+      "name": "blazorocticons.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:21.616Z",
+      "last_seen": "2026-08-14T05:10:21.616Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blazorrepl.com",
+      "name": "blazorrepl.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: AdrienTorris/awesome-blazor",
+          "url": "https://github.com/AdrienTorris/awesome-blazor"
+        }
+      ],
+      "last_checked": "2026-08-14T05:10:23.699Z",
+      "last_seen": "2026-08-14T05:10:23.699Z",
       "sponsored": false,
       "verification_available": true
     },
