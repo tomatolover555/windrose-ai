@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T14:21:19.125Z",
+  "updated_at": "2026-08-29T10:13:52.995Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -34,7 +34,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -42,7 +42,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:49:30.248Z",
+      "last_checked": "2026-08-29T10:06:58.790Z",
       "last_seen": "2026-04-25T05:22:26.553Z",
       "sponsored": false,
       "verification_available": true
@@ -57,7 +57,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -65,7 +65,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:49:31.991Z",
+      "last_checked": "2026-08-29T10:07:00.423Z",
       "last_seen": "2026-07-11T05:49:31.991Z",
       "sponsored": false,
       "verification_available": true
@@ -80,7 +80,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -88,7 +88,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:49:33.991Z",
+      "last_checked": "2026-08-29T10:07:02.422Z",
       "last_seen": "2026-04-25T05:22:28.354Z",
       "sponsored": false,
       "verification_available": true
@@ -103,7 +103,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -111,7 +111,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:49:35.991Z",
+      "last_checked": "2026-08-29T10:07:04.421Z",
       "last_seen": "2026-04-25T05:22:30.354Z",
       "sponsored": false,
       "verification_available": true
@@ -218,7 +218,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -226,7 +226,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:49:39.992Z",
+      "last_checked": "2026-08-29T10:07:06.421Z",
       "last_seen": "2026-04-25T05:22:32.356Z",
       "sponsored": false,
       "verification_available": true
@@ -264,7 +264,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -272,7 +272,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:49:41.992Z",
+      "last_checked": "2026-08-29T10:07:08.424Z",
       "last_seen": "2026-04-25T05:22:34.357Z",
       "sponsored": false,
       "verification_available": true
@@ -281,21 +281,26 @@
       "domain": "0-blue.svg",
       "name": "0-blue.svg",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: block/goose",
           "url": "https://github.com/block/goose"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aaif-goose/goose",
+          "url": "https://github.com/aaif-goose/goose"
         }
       ],
-      "last_checked": "2026-03-26T05:17:21.419Z",
+      "last_checked": "2026-08-29T10:07:10.425Z",
       "last_seen": "2026-03-18T05:07:37.267Z",
       "sponsored": false,
       "verification_available": true
@@ -1672,7 +1677,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1693,9 +1698,14 @@
           "kind": "github_hit",
           "detail": "repo: SandeepVashishtha/Eventra",
           "url": "https://github.com/SandeepVashishtha/Eventra"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-07-21T06:06:29.680Z",
+      "last_checked": "2026-08-29T10:07:12.600Z",
       "last_seen": "2026-03-02T04:59:03.766Z",
       "sponsored": false,
       "verification_available": true
@@ -4125,7 +4135,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 38,
+      "fail_streak": 39,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4138,7 +4148,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-08-27T14:14:46.326Z",
+      "last_checked": "2026-08-29T10:07:14.448Z",
       "last_seen": "2026-04-20T05:49:16.011Z",
       "sponsored": false,
       "verification_available": true
@@ -4406,7 +4416,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4414,7 +4424,7 @@
           "url": "https://github.com/puppeteer/puppeteer"
         }
       ],
-      "last_checked": "2026-07-27T06:42:59.112Z",
+      "last_checked": "2026-08-29T10:07:16.453Z",
       "last_seen": "2026-07-11T05:50:02.035Z",
       "sponsored": false,
       "verification_available": true
@@ -4954,6 +4964,29 @@
       "verification_available": true
     },
     {
+      "domain": "404.md",
+      "name": "404.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:18.610Z",
+      "last_seen": "2026-08-29T10:07:18.610Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "40jason.today",
       "name": "40jason.today",
       "type": [],
@@ -5184,6 +5217,29 @@
       "verification_available": true
     },
     {
+      "domain": "a11ysupport.io",
+      "name": "a11ysupport.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:21.034Z",
+      "last_seen": "2026-08-29T10:07:21.034Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "a2a-protocol.org",
       "name": "a2a-protocol.org",
       "type": [],
@@ -5226,6 +5282,59 @@
       ],
       "last_checked": "2026-05-21T07:01:20.677Z",
       "last_seen": "2026-02-16T05:12:35.486Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aaif.io",
+      "name": "aaif.io",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: aaif-goose/goose",
+          "url": "https://github.com/aaif-goose/goose"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://aaif.io/"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:22.571Z",
+      "last_seen": "2026-08-29T10:07:22.571Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aaron-powell.com",
+      "name": "aaron-powell.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:25.968Z",
+      "last_seen": "2026-08-29T10:07:25.968Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -5341,6 +5450,29 @@
       ],
       "last_checked": "2026-07-05T06:53:28.381Z",
       "last_seen": "2026-05-17T06:30:25.274Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "about.me",
+      "name": "about.me",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:27.312Z",
+      "last_seen": "2026-08-29T10:07:27.312Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6460,21 +6592,26 @@
       "domain": "adopters.md",
       "name": "adopters.md",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: Agent-Threat-Rule/agent-threat-rules",
           "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-07-04T06:29:55.651Z",
+      "last_checked": "2026-08-29T10:07:29.364Z",
       "last_seen": "2026-07-04T06:29:55.651Z",
       "sponsored": false,
       "verification_available": true
@@ -6591,6 +6728,52 @@
       ],
       "last_checked": "2026-08-27T14:15:34.381Z",
       "last_seen": "2026-08-14T05:04:58.618Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aftermathtech.com",
+      "name": "aftermathtech.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:31.234Z",
+      "last_seen": "2026-08-29T10:07:31.234Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ag11.dev",
+      "name": "ag11.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:33.033Z",
+      "last_seen": "2026-08-29T10:07:33.033Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7236,7 +7419,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7244,7 +7427,7 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-08-14T05:05:12.707Z",
+      "last_checked": "2026-08-29T10:07:35.079Z",
       "last_seen": "2026-04-22T05:35:40.102Z",
       "sponsored": false,
       "verification_available": true
@@ -7259,7 +7442,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 21,
+      "fail_streak": 22,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7267,7 +7450,7 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-08-14T05:05:14.516Z",
+      "last_checked": "2026-08-29T10:07:37.148Z",
       "last_seen": "2026-04-22T05:35:42.171Z",
       "sponsored": false,
       "verification_available": true
@@ -8089,7 +8272,7 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-08-14T05:05:16.612Z",
+      "last_checked": "2026-08-29T10:07:39.149Z",
       "last_seen": "2026-04-22T05:35:44.098Z",
       "sponsored": false,
       "verification_available": true
@@ -8215,9 +8398,24 @@
           "kind": "github_hit",
           "detail": "repo: plasmate-labs/plasmate",
           "url": "https://github.com/plasmate-labs/plasmate"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: JackMeds/sizhu-astro-ai",
+          "url": "https://github.com/JackMeds/sizhu-astro-ai"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
         }
       ],
-      "last_checked": "2026-08-27T14:15:50.319Z",
+      "last_checked": "2026-08-29T10:07:40.992Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -8477,6 +8675,29 @@
       "verification_available": true
     },
     {
+      "domain": "ahnu.edu.cn",
+      "name": "ahnu.edu.cn",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:42.990Z",
+      "last_seen": "2026-08-29T10:07:42.990Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "ai-agents-analysis.md",
       "name": "ai-agents-analysis.md",
       "type": [],
@@ -8496,6 +8717,29 @@
       ],
       "last_checked": "2026-02-18T05:05:38.220Z",
       "last_seen": "2026-02-16T05:12:49.021Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ai-catalog.json",
+      "name": "ai-catalog.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:48.208Z",
+      "last_seen": "2026-08-29T10:07:48.208Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8882,10 +9126,33 @@
       "verification_available": true
     },
     {
+      "domain": "ajenns.com",
+      "name": "ajenns.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:49.332Z",
+      "last_seen": "2026-08-29T10:07:49.332Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "aka.ms",
       "name": "aka.ms",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -8902,10 +9169,38 @@
           "kind": "github_hit",
           "detail": "repo: AdrienTorris/awesome-blazor",
           "url": "https://github.com/AdrienTorris/awesome-blazor"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
         }
       ],
-      "last_checked": "2026-08-27T14:15:56.364Z",
+      "last_checked": "2026-08-29T10:07:53.746Z",
       "last_seen": "2026-03-06T04:53:26.717Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aka.readspeak.cn",
+      "name": "aka.readspeak.cn",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:54.864Z",
+      "last_seen": "2026-08-29T10:07:54.864Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8979,6 +9274,29 @@
       "verification_available": true
     },
     {
+      "domain": "all-contributors.js.org",
+      "name": "all-contributors.js.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:56.950Z",
+      "last_seen": "2026-08-29T10:07:56.950Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "all-tools.md",
       "name": "all-tools.md",
       "type": [],
@@ -9021,6 +9339,52 @@
       ],
       "last_checked": "2026-03-19T05:07:07.347Z",
       "last_seen": "2026-02-19T05:07:19.928Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "allaccounts.push",
+      "name": "allaccounts.push",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:07:59.128Z",
+      "last_seen": "2026-08-29T10:07:59.128Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "allcontributors.org",
+      "name": "allcontributors.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:00.939Z",
+      "last_seen": "2026-08-29T10:08:00.939Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9136,6 +9500,29 @@
       ],
       "last_checked": "2026-02-18T05:05:40.356Z",
       "last_seen": "2026-02-16T05:12:51.133Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "alvinashcraft.com",
+      "name": "alvinashcraft.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:02.986Z",
+      "last_seen": "2026-08-29T10:08:02.986Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9258,6 +9645,52 @@
       ],
       "last_checked": "2026-07-12T06:15:15.382Z",
       "last_seen": "2026-07-12T06:15:15.382Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "amplify-redirects.json",
+      "name": "amplify-redirects.json",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: dongju93/household-account-book",
+          "url": "https://github.com/dongju93/household-account-book"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:04.836Z",
+      "last_seen": "2026-08-29T10:08:04.836Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "amplify.yml",
+      "name": "amplify.yml",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: dongju93/household-account-book",
+          "url": "https://github.com/dongju93/household-account-book"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:06.985Z",
+      "last_seen": "2026-08-29T10:08:06.985Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9677,7 +10110,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9690,7 +10123,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-27T14:16:22.477Z",
+      "last_checked": "2026-08-29T10:08:08.923Z",
       "last_seen": "2026-03-04T04:54:51.107Z",
       "sponsored": false,
       "verification_available": true
@@ -9705,7 +10138,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9713,7 +10146,7 @@
           "url": "https://github.com/angular/angular"
         }
       ],
-      "last_checked": "2026-05-12T06:22:59.549Z",
+      "last_checked": "2026-08-29T10:08:10.892Z",
       "last_seen": "2026-05-07T06:19:43.584Z",
       "sponsored": false,
       "verification_available": true
@@ -9728,7 +10161,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9741,7 +10174,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-27T14:16:24.460Z",
+      "last_checked": "2026-08-29T10:08:12.893Z",
       "last_seen": "2026-03-04T04:54:53.217Z",
       "sponsored": false,
       "verification_available": true
@@ -9838,7 +10271,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:58:42.579Z",
+      "last_checked": "2026-08-29T10:08:14.836Z",
       "last_seen": "2026-05-07T06:19:45.454Z",
       "sponsored": false,
       "verification_available": true
@@ -10097,6 +10530,52 @@
       "verification_available": true
     },
     {
+      "domain": "animated-logo-banner-dark.apng",
+      "name": "animated-logo-banner-dark.apng",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: remotion-dev/remotion",
+          "url": "https://github.com/remotion-dev/remotion"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:16.823Z",
+      "last_seen": "2026-08-29T10:08:16.823Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "animated-logo-banner-light.gif",
+      "name": "animated-logo-banner-light.gif",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: remotion-dev/remotion",
+          "url": "https://github.com/remotion-dev/remotion"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:18.872Z",
+      "last_seen": "2026-08-29T10:08:18.872Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "animated-select-picker.md",
       "name": "animated-select-picker.md",
       "type": [],
@@ -10208,6 +10687,29 @@
       ],
       "last_checked": "2026-08-25T04:02:18.141Z",
       "last_seen": "2026-07-30T06:01:48.314Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "anime.js",
+      "name": "anime.js",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:20.870Z",
+      "last_seen": "2026-08-29T10:08:20.870Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11175,7 +11677,7 @@
       "domain": "api.md",
       "name": "api.md",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -11197,9 +11699,14 @@
           "kind": "github_hit",
           "detail": "repo: agentcathq/webmcp-react",
           "url": "https://github.com/agentcathq/webmcp-react"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-07-10T06:56:42.752Z",
+      "last_checked": "2026-08-29T10:08:22.929Z",
       "last_seen": "2026-02-16T05:12:56.678Z",
       "sponsored": false,
       "verification_available": true
@@ -11442,7 +11949,8 @@
       "domain": "api.worldmonitor.app",
       "name": "api.worldmonitor.app",
       "type": [
-        "mcp-server"
+        "mcp-server",
+        "webmcp"
       ],
       "confidence": 100,
       "status": "verified",
@@ -11452,10 +11960,10 @@
         {
           "type": "well_known",
           "url": "https://api.worldmonitor.app/.well-known/mcp.json",
-          "last_success": "2026-07-11T05:51:52.834Z"
+          "last_success": "2026-08-29T10:08:26.226Z"
         }
       ],
-      "last_verified_success": "2026-07-11T05:51:52.834Z",
+      "last_verified_success": "2026-08-29T10:08:26.226Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -11467,10 +11975,15 @@
           "kind": "well_known_mcp_json",
           "detail": "found .well-known/mcp.json",
           "url": "https://api.worldmonitor.app/.well-known/mcp.json"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://api.worldmonitor.app/"
         }
       ],
-      "last_checked": "2026-07-11T05:51:52.834Z",
-      "last_seen": "2026-07-11T05:51:52.834Z",
+      "last_checked": "2026-08-29T10:08:26.226Z",
+      "last_seen": "2026-08-29T10:08:26.226Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -11484,7 +11997,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11492,7 +12005,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-07-11T05:51:54.748Z",
+      "last_checked": "2026-08-29T10:08:27.389Z",
       "last_seen": "2026-07-11T05:51:54.748Z",
       "sponsored": false,
       "verification_available": true
@@ -12751,7 +13264,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12759,7 +13272,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-08-05T06:06:28.134Z",
+      "last_checked": "2026-08-29T10:08:29.229Z",
       "last_seen": "2026-02-27T05:00:07.348Z",
       "sponsored": false,
       "verification_available": true
@@ -13143,6 +13656,29 @@
       "verification_available": true
     },
     {
+      "domain": "asilva.dev",
+      "name": "asilva.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:31.403Z",
+      "last_seen": "2026-08-29T10:08:31.403Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "asp.net",
       "name": "asp.net",
       "type": [],
@@ -13360,6 +13896,36 @@
       "verification_available": true
     },
     {
+      "domain": "astrocopy.jackmeds.top",
+      "name": "astrocopy.jackmeds.top",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JackMeds/sizhu-astro-ai",
+          "url": "https://github.com/JackMeds/sizhu-astro-ai"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://astrocopy.jackmeds.top/"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:33.235Z",
+      "last_seen": "2026-08-29T10:08:33.235Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "asyncio.run",
       "name": "asyncio.run",
       "type": [],
@@ -13384,6 +13950,29 @@
       ],
       "last_checked": "2026-06-25T07:00:24.969Z",
       "last_seen": "2026-06-01T08:48:00.847Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "at.svg",
+      "name": "at.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:35.311Z",
+      "last_seen": "2026-08-29T10:08:35.311Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -13964,6 +14553,29 @@
       "verification_available": true
     },
     {
+      "domain": "aungmyokyaw.com",
+      "name": "aungmyokyaw.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:37.303Z",
+      "last_seen": "2026-08-29T10:08:37.303Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "aurelia-logo-9yszf-gf.png",
       "name": "aurelia-logo-9yszf-gf.png",
       "type": [],
@@ -14121,6 +14733,52 @@
       ],
       "last_checked": "2026-02-18T05:06:26.270Z",
       "last_seen": "2026-02-17T05:06:04.830Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "auth.example.com",
+      "name": "auth.example.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:39.274Z",
+      "last_seen": "2026-08-29T10:08:39.274Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "auth.md",
+      "name": "auth.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:41.249Z",
+      "last_seen": "2026-08-29T10:08:41.249Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14429,6 +15087,29 @@
       "verification_available": true
     },
     {
+      "domain": "automattic.com",
+      "name": "automattic.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:43.541Z",
+      "last_seen": "2026-08-29T10:08:43.541Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "autonomousconfig.ts",
       "name": "autonomousconfig.ts",
       "type": [],
@@ -14488,10 +15169,10 @@
         {
           "type": "well_known",
           "url": "https://avatars.githubusercontent.com/.well-known/mcp.json",
-          "last_success": "2026-08-27T14:17:36.401Z"
+          "last_success": "2026-08-29T10:08:45.253Z"
         }
       ],
-      "last_verified_success": "2026-08-27T14:17:36.401Z",
+      "last_verified_success": "2026-08-29T10:08:45.253Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -14513,10 +15194,15 @@
           "kind": "github_hit",
           "detail": "repo: SandeepVashishtha/Eventra",
           "url": "https://github.com/SandeepVashishtha/Eventra"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
         }
       ],
-      "last_checked": "2026-08-27T14:17:36.401Z",
-      "last_seen": "2026-08-27T14:17:36.401Z",
+      "last_checked": "2026-08-29T10:08:45.253Z",
+      "last_seen": "2026-08-29T10:08:45.253Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14563,6 +15249,29 @@
       ],
       "last_checked": "2026-07-22T06:07:59.997Z",
       "last_seen": "2026-06-12T08:03:55.222Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "awesome-copilot.github.com",
+      "name": "awesome-copilot.github.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:47.298Z",
+      "last_seen": "2026-08-29T10:08:47.298Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14689,8 +15398,8 @@
       "domain": "aws.amazon.com",
       "name": "aws.amazon.com",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -14701,10 +15410,61 @@
           "kind": "github_hit",
           "detail": "repo: webfuse-com/awesome-claude",
           "url": "https://github.com/webfuse-com/awesome-claude"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
         }
       ],
-      "last_checked": "2026-08-16T04:03:22.236Z",
+      "last_checked": "2026-08-29T10:08:49.314Z",
       "last_seen": "2026-08-16T04:03:22.236Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ax.config",
+      "name": "ax.config",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:51.322Z",
+      "last_seen": "2026-08-29T10:08:51.322Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ax.config.ts",
+      "name": "ax.config.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:53.352Z",
+      "last_seen": "2026-08-29T10:08:53.352Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14751,6 +15511,29 @@
       ],
       "last_checked": "2026-05-21T07:02:48.934Z",
       "last_seen": "2026-03-03T05:01:41.223Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "aymenfurter.ch",
+      "name": "aymenfurter.ch",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:55.264Z",
+      "last_seen": "2026-08-29T10:08:55.264Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -14873,6 +15656,29 @@
       ],
       "last_checked": "2026-08-27T14:17:42.371Z",
       "last_seen": "2026-08-14T05:07:36.811Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "azureincubations.io",
+      "name": "azureincubations.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:08:57.924Z",
+      "last_seen": "2026-08-29T10:08:57.924Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -15100,21 +15906,26 @@
       "domain": "backers.svg",
       "name": "backers.svg",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: ant-design/ant-design",
           "url": "https://github.com/ant-design/ant-design"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
         }
       ],
-      "last_checked": "2026-07-22T06:08:01.109Z",
+      "last_checked": "2026-08-29T10:08:59.292Z",
       "last_seen": "2026-06-05T07:19:48.150Z",
       "sponsored": false,
       "verification_available": true
@@ -15239,7 +16050,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15252,7 +16063,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-27T14:17:51.033Z",
+      "last_checked": "2026-08-29T10:09:01.359Z",
       "last_seen": "2026-03-04T04:55:50.829Z",
       "sponsored": false,
       "verification_available": true
@@ -15366,7 +16177,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 153,
+      "fail_streak": 154,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15562,9 +16373,14 @@
           "kind": "github_hit",
           "detail": "repo: LibreChat-AI/librechat.ai",
           "url": "https://github.com/LibreChat-AI/librechat.ai"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
         }
       ],
-      "last_checked": "2026-08-27T14:17:55.008Z",
+      "last_checked": "2026-08-29T10:09:03.271Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -15589,6 +16405,75 @@
       ],
       "last_checked": "2026-07-10T06:57:16.752Z",
       "last_seen": "2026-07-10T06:57:16.752Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bagisto-featured.png",
+      "name": "bagisto-featured.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:05.423Z",
+      "last_seen": "2026-08-29T10:09:05.423Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bagisto-starter-pack.html",
+      "name": "bagisto-starter-pack.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:07.418Z",
+      "last_seen": "2026-08-29T10:09:07.418Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bagisto.com",
+      "name": "bagisto.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:09.418Z",
+      "last_seen": "2026-08-29T10:09:09.418Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -15936,6 +16821,29 @@
       ],
       "last_checked": "2026-07-04T06:31:54.073Z",
       "last_seen": "2026-07-04T06:31:54.073Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "be.svg",
+      "name": "be.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:11.528Z",
+      "last_seen": "2026-08-29T10:09:11.528Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -16336,6 +17244,29 @@
       "verification_available": true
     },
     {
+      "domain": "biennale-yellow.png",
+      "name": "biennale-yellow.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:13.318Z",
+      "last_seen": "2026-08-29T10:09:13.318Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "bilibili-mcp.git",
       "name": "bilibili-mcp.git",
       "type": [],
@@ -16575,6 +17506,29 @@
       ],
       "last_checked": "2026-08-27T14:18:34.245Z",
       "last_seen": "2026-08-27T14:18:34.245Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bio.warengonzaga.com",
+      "name": "bio.warengonzaga.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:15.383Z",
+      "last_seen": "2026-08-29T10:09:15.383Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18442,6 +19396,29 @@
       "verification_available": true
     },
     {
+      "domain": "blockframe.png",
+      "name": "blockframe.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:17.325Z",
+      "last_seen": "2026-08-29T10:09:17.325Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "blockutils.ts",
       "name": "blockutils.ts",
       "type": [],
@@ -18474,7 +19451,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18482,8 +19459,77 @@
           "url": "https://github.com/angular/angular"
         }
       ],
-      "last_checked": "2026-05-12T06:24:13.955Z",
+      "last_checked": "2026-08-29T10:09:19.264Z",
       "last_seen": "2026-05-07T06:20:48.871Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blog.codewithdan.com",
+      "name": "blog.codewithdan.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:21.247Z",
+      "last_seen": "2026-08-29T10:09:21.247Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blog.fujiy.net",
+      "name": "blog.fujiy.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:23.320Z",
+      "last_seen": "2026-08-29T10:09:23.320Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "blog.miniasp.com",
+      "name": "blog.miniasp.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:25.811Z",
+      "last_seen": "2026-08-29T10:09:25.811Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -18649,6 +19695,29 @@
       "verification_available": true
     },
     {
+      "domain": "blue-professional.png",
+      "name": "blue-professional.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:27.562Z",
+      "last_seen": "2026-08-29T10:09:27.562Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "blue.svg",
       "name": "blue.svg",
       "type": [],
@@ -18792,6 +19861,29 @@
       "verification_available": true
     },
     {
+      "domain": "bneqets87.jpg",
+      "name": "bneqets87.jpg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:29.413Z",
+      "last_seen": "2026-08-29T10:09:29.413Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "board.holon.run",
       "name": "board.holon.run",
       "type": [
@@ -18864,6 +19956,29 @@
       ],
       "last_checked": "2026-04-19T05:38:45.447Z",
       "last_seen": "2026-03-30T05:36:33.847Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bold-poster.png",
+      "name": "bold-poster.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:31.320Z",
+      "last_seen": "2026-08-29T10:09:31.320Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19191,6 +20306,29 @@
       ],
       "last_checked": "2026-05-28T07:05:18.460Z",
       "last_seen": "2026-05-24T06:49:51.835Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "br.svg",
+      "name": "br.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:33.371Z",
+      "last_seen": "2026-08-29T10:09:33.371Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -19593,6 +20731,52 @@
       "verification_available": true
     },
     {
+      "domain": "broadside.png",
+      "name": "broadside.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:35.370Z",
+      "last_seen": "2026-08-29T10:09:35.370Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "browsehappy.com",
+      "name": "browsehappy.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:37.355Z",
+      "last_seen": "2026-08-29T10:09:37.355Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "browser-database.html",
       "name": "browser-database.html",
       "type": [],
@@ -19602,7 +20786,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 50,
+      "fail_streak": 51,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19615,7 +20799,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-16T04:06:46.579Z",
+      "last_checked": "2026-08-29T10:09:39.250Z",
       "last_seen": "2026-03-04T04:56:19.119Z",
       "sponsored": false,
       "verification_available": true
@@ -19837,7 +21021,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19850,7 +21034,7 @@
           "url": "https://github.com/plasmate-labs/plasmate"
         }
       ],
-      "last_checked": "2026-08-25T04:04:14.195Z",
+      "last_checked": "2026-08-29T10:09:41.354Z",
       "last_seen": "2026-07-11T05:53:16.887Z",
       "sponsored": false,
       "verification_available": true
@@ -20238,7 +21422,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20251,7 +21435,7 @@
           "url": "https://github.com/plasmate-labs/plasmate"
         }
       ],
-      "last_checked": "2026-08-25T04:04:18.187Z",
+      "last_checked": "2026-08-29T10:09:43.304Z",
       "last_seen": "2026-07-11T05:53:18.774Z",
       "sponsored": false,
       "verification_available": true
@@ -20464,6 +21648,29 @@
       "verification_available": true
     },
     {
+      "domain": "brunoborges.io",
+      "name": "brunoborges.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:45.259Z",
+      "last_seen": "2026-08-29T10:09:45.259Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "bsky.app",
       "name": "bsky.app",
       "type": [],
@@ -20486,8 +21693,31 @@
           "url": "https://github.com/angular/angular"
         }
       ],
-      "last_checked": "2026-05-12T06:24:33.843Z",
+      "last_checked": "2026-08-29T10:09:47.457Z",
       "last_seen": "2026-03-18T05:12:35.188Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "buffer.from",
+      "name": "buffer.from",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:49.307Z",
+      "last_seen": "2026-08-29T10:09:49.307Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20501,7 +21731,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 50,
+      "fail_streak": 51,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20514,7 +21744,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-16T04:06:54.571Z",
+      "last_checked": "2026-08-29T10:09:51.347Z",
       "last_seen": "2026-03-04T04:56:20.961Z",
       "sponsored": false,
       "verification_available": true
@@ -20588,7 +21818,7 @@
           "url": "https://github.com/mozilla-firefox/firefox"
         }
       ],
-      "last_checked": "2026-05-10T06:20:35.780Z",
+      "last_checked": "2026-08-29T10:09:53.460Z",
       "last_seen": "2026-03-06T04:55:42.614Z",
       "sponsored": false,
       "verification_available": true
@@ -20859,10 +22089,38 @@
           "kind": "github_hit",
           "detail": "repo: simonw/research",
           "url": "https://github.com/simonw/research"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-08-25T04:04:22.821Z",
+      "last_checked": "2026-08-29T10:09:55.327Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "bun.svg",
+      "name": "bun.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:57.266Z",
+      "last_seen": "2026-08-29T10:09:57.266Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20982,6 +22240,29 @@
       "verification_available": true
     },
     {
+      "domain": "bunnybox.info",
+      "name": "bunnybox.info",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:09:59.352Z",
+      "last_seen": "2026-08-29T10:09:59.352Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "business-scenario-explorer.md",
       "name": "business-scenario-explorer.md",
       "type": [],
@@ -21031,8 +22312,8 @@
       "domain": "buymeacoffee.com",
       "name": "buymeacoffee.com",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -21043,9 +22324,14 @@
           "kind": "github_hit",
           "detail": "repo: PeWu/topola-viewer",
           "url": "https://github.com/PeWu/topola-viewer"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
         }
       ],
-      "last_checked": "2026-08-25T04:04:28.177Z",
+      "last_checked": "2026-08-29T10:10:01.491Z",
       "last_seen": "2026-05-11T06:52:52.738Z",
       "sponsored": false,
       "verification_available": true
@@ -21162,6 +22448,29 @@
       ],
       "last_checked": "2026-07-20T06:31:18.712Z",
       "last_seen": "2026-03-27T05:24:14.986Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "caarlos0.dev",
+      "name": "caarlos0.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:03.267Z",
+      "last_seen": "2026-08-29T10:10:03.267Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -21309,6 +22618,29 @@
       "verification_available": true
     },
     {
+      "domain": "calendar.google.com",
+      "name": "calendar.google.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:05.258Z",
+      "last_seen": "2026-08-29T10:10:05.258Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "calendarmcptools.tsx",
       "name": "calendarmcptools.tsx",
       "type": [],
@@ -21397,6 +22729,75 @@
       ],
       "last_checked": "2026-03-06T04:56:02.775Z",
       "last_seen": "2026-03-06T04:56:02.775Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "calva.io",
+      "name": "calva.io",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:07.746Z",
+      "last_seen": "2026-08-29T10:10:07.746Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "calypso.localhost",
+      "name": "calypso.localhost",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:09.355Z",
+      "last_seen": "2026-08-29T10:10:09.355Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "calypso.localhost:3000",
+      "name": "calypso.localhost:3000",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:11.241Z",
+      "last_seen": "2026-08-29T10:10:11.241Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -21502,7 +22903,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21515,7 +22916,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:07:10.141Z",
+      "last_checked": "2026-08-29T10:10:13.241Z",
       "last_seen": "2026-03-04T04:56:41.097Z",
       "sponsored": false,
       "verification_available": true
@@ -21530,7 +22931,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21543,8 +22944,31 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:07:12.158Z",
+      "last_checked": "2026-08-29T10:10:15.317Z",
       "last_seen": "2026-03-04T04:56:42.948Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "capsule.png",
+      "name": "capsule.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:17.350Z",
+      "last_seen": "2026-08-29T10:10:17.350Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -21683,6 +23107,29 @@
       ],
       "last_checked": "2026-05-21T07:03:32.138Z",
       "last_seen": "2026-02-27T05:00:49.367Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cartesian.png",
+      "name": "cartesian.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:19.371Z",
+      "last_seen": "2026-08-29T10:10:19.371Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -21920,7 +23367,7 @@
       "domain": "cdn.jsdelivr.net",
       "name": "cdn.jsdelivr.net",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -21942,9 +23389,14 @@
           "kind": "github_hit",
           "detail": "repo: SandeepVashishtha/Eventra",
           "url": "https://github.com/SandeepVashishtha/Eventra"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-07-22T06:09:06.146Z",
+      "last_checked": "2026-08-29T10:10:21.318Z",
       "last_seen": "2026-02-16T05:13:30.620Z",
       "sponsored": false,
       "verification_available": true
@@ -22018,7 +23470,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:07:14.226Z",
+      "last_checked": "2026-08-29T10:10:23.484Z",
       "last_seen": "2026-03-04T04:56:44.945Z",
       "sponsored": false,
       "verification_available": true
@@ -22162,6 +23614,29 @@
       "verification_available": true
     },
     {
+      "domain": "ch.svg",
+      "name": "ch.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:25.301Z",
+      "last_seen": "2026-08-29T10:10:25.301Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "change-management-consultant.md",
       "name": "change-management-consultant.md",
       "type": [],
@@ -22263,7 +23738,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22356,7 +23831,7 @@
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
         }
       ],
-      "last_checked": "2026-08-25T04:04:38.168Z",
+      "last_checked": "2026-08-29T10:10:27.315Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -22614,7 +24089,7 @@
           "url": "https://github.com/mozilla-firefox/firefox"
         }
       ],
-      "last_checked": "2026-05-10T06:20:52.043Z",
+      "last_checked": "2026-08-29T10:10:37.235Z",
       "last_seen": "2026-03-06T04:56:18.607Z",
       "sponsored": false,
       "verification_available": true
@@ -23181,7 +24656,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23194,7 +24669,7 @@
           "url": "https://github.com/puppeteer/puppeteer"
         }
       ],
-      "last_checked": "2026-07-27T06:46:33.477Z",
+      "last_checked": "2026-08-29T10:10:38.304Z",
       "last_seen": "2026-06-01T08:48:47.045Z",
       "sponsored": false,
       "verification_available": true
@@ -23297,7 +24772,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-08-25T04:04:50.213Z",
+      "last_checked": "2026-08-29T10:10:40.363Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -23483,7 +24958,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 137,
+      "fail_streak": 138,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23579,9 +25054,14 @@
           "kind": "github_hit",
           "detail": "repo: tech-sumit/LiveAvatarStream3D",
           "url": "https://github.com/tech-sumit/LiveAvatarStream3D"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aaif-goose/goose",
+          "url": "https://github.com/aaif-goose/goose"
         }
       ],
-      "last_checked": "2026-08-25T04:04:54.418Z",
+      "last_checked": "2026-08-29T10:10:42.340Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -24047,6 +25527,29 @@
       "verification_available": true
     },
     {
+      "domain": "classic.yarnpkg.com",
+      "name": "classic.yarnpkg.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:44.309Z",
+      "last_seen": "2026-08-29T10:10:44.309Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "claude-code-karma.git",
       "name": "claude-code-karma.git",
       "type": [],
@@ -24323,6 +25826,29 @@
       "verification_available": true
     },
     {
+      "domain": "cldup.com",
+      "name": "cldup.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:46.241Z",
+      "last_seen": "2026-08-29T10:10:46.241Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "clean-branches.md",
       "name": "clean-branches.md",
       "type": [],
@@ -24558,6 +26084,52 @@
       "verification_available": true
     },
     {
+      "domain": "client.accounts.create",
+      "name": "client.accounts.create",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:48.444Z",
+      "last_seen": "2026-08-29T10:10:48.444Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.accounts.list",
+      "name": "client.accounts.list",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:50.330Z",
+      "last_seen": "2026-08-29T10:10:50.330Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "client.calltool",
       "name": "client.calltool",
       "type": [],
@@ -24604,6 +26176,52 @@
       "verification_available": true
     },
     {
+      "domain": "client.get",
+      "name": "client.get",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:52.258Z",
+      "last_seen": "2026-08-29T10:10:52.258Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.kv.namespaces.values.update",
+      "name": "client.kv.namespaces.values.update",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:54.325Z",
+      "last_seen": "2026-08-29T10:10:54.325Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "client.messages.create",
       "name": "client.messages.create",
       "type": [],
@@ -24623,6 +26241,29 @@
       ],
       "last_checked": "2026-08-25T04:05:07.908Z",
       "last_seen": "2026-07-28T06:08:19.634Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.post",
+      "name": "client.post",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:56.361Z",
+      "last_seen": "2026-08-29T10:10:56.361Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24650,6 +26291,29 @@
       "verification_available": true
     },
     {
+      "domain": "client.ts",
+      "name": "client.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: dongju93/household-account-book",
+          "url": "https://github.com/dongju93/household-account-book"
+        }
+      ],
+      "last_checked": "2026-08-29T10:10:58.558Z",
+      "last_seen": "2026-08-29T10:10:58.558Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "client.tsx",
       "name": "client.tsx",
       "type": [],
@@ -24659,7 +26323,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24667,8 +26331,100 @@
           "url": "https://github.com/cloudflare/agents"
         }
       ],
-      "last_checked": "2026-07-30T06:04:48.739Z",
+      "last_checked": "2026-08-29T10:11:00.324Z",
       "last_seen": "2026-04-22T05:38:34.552Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.zones",
+      "name": "client.zones",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:02.296Z",
+      "last_seen": "2026-08-29T10:11:02.296Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.zones.create",
+      "name": "client.zones.create",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:04.255Z",
+      "last_seen": "2026-08-29T10:11:04.255Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.zones.edit",
+      "name": "client.zones.edit",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:06.298Z",
+      "last_seen": "2026-08-29T10:11:06.298Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "client.zones.get",
+      "name": "client.zones.get",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:08.337Z",
+      "last_seen": "2026-08-29T10:11:08.337Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24793,6 +26549,29 @@
       "verification_available": true
     },
     {
+      "domain": "cloudblogger.eu",
+      "name": "cloudblogger.eu",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:10.396Z",
+      "last_seen": "2026-08-29T10:11:10.396Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "cloudfest-2026-hackathon.png",
       "name": "cloudfest-2026-hackathon.png",
       "type": [],
@@ -24839,6 +26618,29 @@
       "verification_available": true
     },
     {
+      "domain": "cloudflare-typescript.git",
+      "name": "cloudflare-typescript.git",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:12.296Z",
+      "last_seen": "2026-08-29T10:11:12.296Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "cloudflare-worker.md",
       "name": "cloudflare-worker.md",
       "type": [],
@@ -24862,6 +26664,29 @@
       "verification_available": true
     },
     {
+      "domain": "cloudflare.apierror",
+      "name": "cloudflare.apierror",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:14.338Z",
+      "last_seen": "2026-08-29T10:11:14.338Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "cloudflare.com",
       "name": "cloudflare.com",
       "type": [
@@ -24876,10 +26701,10 @@
         {
           "type": "well_known",
           "url": "https://cloudflare.com/.well-known/mcp.json",
-          "last_success": "2026-07-12T06:19:29.629Z"
+          "last_success": "2026-08-29T10:11:16.429Z"
         }
       ],
-      "last_verified_success": "2026-07-12T06:19:29.629Z",
+      "last_verified_success": "2026-08-29T10:11:16.429Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -24898,8 +26723,77 @@
           "url": "https://cloudflare.com/"
         }
       ],
-      "last_checked": "2026-07-12T06:19:29.629Z",
-      "last_seen": "2026-07-12T06:19:29.629Z",
+      "last_checked": "2026-08-29T10:11:16.429Z",
+      "last_seen": "2026-08-29T10:11:16.429Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cloudflare.svg",
+      "name": "cloudflare.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:18.402Z",
+      "last_seen": "2026-08-29T10:11:18.402Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cloudflare.zone",
+      "name": "cloudflare.zone",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:20.324Z",
+      "last_seen": "2026-08-29T10:11:20.324Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cloudflare.zonecreateparams",
+      "name": "cloudflare.zonecreateparams",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:22.548Z",
+      "last_seen": "2026-08-29T10:11:22.548Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -24969,6 +26863,52 @@
       ],
       "last_checked": "2026-05-22T06:59:23.267Z",
       "last_seen": "2026-05-22T06:59:23.267Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cn.svg",
+      "name": "cn.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:24.275Z",
+      "last_seen": "2026-08-29T10:11:24.275Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "cobalt-grid.png",
+      "name": "cobalt-grid.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:26.332Z",
+      "last_seen": "2026-08-29T10:11:26.332Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -25068,21 +27008,26 @@
       "domain": "code-of-conduct.md",
       "name": "code-of-conduct.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 59,
+      "fail_streak": 60,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: SveltyCMS/SveltyCMS",
           "url": "https://github.com/SveltyCMS/SveltyCMS"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
         }
       ],
-      "last_checked": "2026-06-04T08:03:34.483Z",
+      "last_checked": "2026-08-29T10:11:28.277Z",
       "last_seen": "2026-02-21T04:52:37.154Z",
       "sponsored": false,
       "verification_available": true
@@ -25206,7 +27151,7 @@
       "domain": "code.claude.com",
       "name": "code.claude.com",
       "type": [],
-      "confidence": 90,
+      "confidence": 100,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -25228,9 +27173,14 @@
           "kind": "github_hit",
           "detail": "repo: ChromeDevTools/chrome-devtools-mcp",
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: mashharuki/claude-code-sample",
+          "url": "https://github.com/mashharuki/claude-code-sample"
         }
       ],
-      "last_checked": "2026-08-25T04:05:17.927Z",
+      "last_checked": "2026-08-29T10:11:30.596Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -25239,7 +27189,7 @@
       "domain": "code.visualstudio.com",
       "name": "code.visualstudio.com",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -25256,9 +27206,14 @@
           "kind": "github_hit",
           "detail": "repo: ChromeDevTools/chrome-devtools-mcp",
           "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
         }
       ],
-      "last_checked": "2026-07-12T06:19:41.640Z",
+      "last_checked": "2026-08-29T10:11:32.594Z",
       "last_seen": "2026-04-20T05:50:30.699Z",
       "sponsored": false,
       "verification_available": true
@@ -25362,7 +27317,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-08-25T04:05:22.047Z",
+      "last_checked": "2026-08-29T10:11:35.223Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -25449,6 +27404,29 @@
       "verification_available": true
     },
     {
+      "domain": "codemilltech.com",
+      "name": "codemilltech.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:37.036Z",
+      "last_seen": "2026-08-29T10:11:37.036Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "codeql.yml",
       "name": "codeql.yml",
       "type": [],
@@ -25505,6 +27483,29 @@
       "verification_available": true
     },
     {
+      "domain": "codetriage.com",
+      "name": "codetriage.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:38.933Z",
+      "last_seen": "2026-08-29T10:11:38.933Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "codex.io",
       "name": "codex.io",
       "type": [],
@@ -25547,6 +27548,29 @@
       ],
       "last_checked": "2026-07-05T06:56:19.352Z",
       "last_seen": "2026-06-05T07:21:44.544Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "colorado.edu",
+      "name": "colorado.edu",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:42.775Z",
+      "last_seen": "2026-08-29T10:11:42.775Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -25789,8 +27813,7 @@
       "domain": "commodity.worldmonitor.app",
       "name": "commodity.worldmonitor.app",
       "type": [
-        "mcp-server",
-        "webmcp"
+        "mcp-server"
       ],
       "confidence": 100,
       "status": "verified",
@@ -25805,10 +27828,10 @@
         {
           "type": "well_known",
           "url": "https://commodity.worldmonitor.app/.well-known/mcp.json",
-          "last_success": "2026-07-11T05:55:22.272Z"
+          "last_success": "2026-08-29T10:11:43.792Z"
         }
       ],
-      "last_verified_success": "2026-07-11T05:55:22.272Z",
+      "last_verified_success": "2026-08-29T10:11:43.792Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -25827,8 +27850,8 @@
           "url": "https://commodity.worldmonitor.app/"
         }
       ],
-      "last_checked": "2026-07-11T05:55:22.272Z",
-      "last_seen": "2026-07-11T05:55:22.272Z",
+      "last_checked": "2026-08-29T10:11:43.792Z",
+      "last_seen": "2026-08-29T10:11:43.792Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -25944,6 +27967,29 @@
       ],
       "last_checked": "2026-07-10T06:58:35.936Z",
       "last_seen": "2026-07-04T06:33:20.142Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "community.png",
+      "name": "community.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:45.931Z",
+      "last_seen": "2026-08-29T10:11:45.931Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -26387,6 +28433,29 @@
       "verification_available": true
     },
     {
+      "domain": "config.test.ts",
+      "name": "config.test.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: dongju93/household-account-book",
+          "url": "https://github.com/dongju93/household-account-book"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:47.834Z",
+      "last_seen": "2026-08-29T10:11:47.834Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "config.toml",
       "name": "config.toml",
       "type": [],
@@ -26413,13 +28482,13 @@
       "domain": "config.ts",
       "name": "config.ts",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 11,
+      "fail_streak": 12,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26430,9 +28499,14 @@
           "kind": "github_hit",
           "detail": "repo: usevowel/docs",
           "url": "https://github.com/usevowel/docs"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: dongju93/household-account-book",
+          "url": "https://github.com/dongju93/household-account-book"
         }
       ],
-      "last_checked": "2026-08-12T05:10:19.247Z",
+      "last_checked": "2026-08-29T10:11:49.783Z",
       "last_seen": "2026-06-12T08:06:03.282Z",
       "sponsored": false,
       "verification_available": true
@@ -26614,6 +28688,29 @@
       "verification_available": true
     },
     {
+      "domain": "connexio.digital",
+      "name": "connexio.digital",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:11:51.797Z",
+      "last_seen": "2026-08-29T10:11:51.797Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "consensuschat.tsx",
       "name": "consensuschat.tsx",
       "type": [],
@@ -26697,7 +28794,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 46,
+      "fail_streak": 47,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26710,7 +28807,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:07:42.512Z",
+      "last_checked": "2026-08-29T10:11:53.849Z",
       "last_seen": "2026-03-04T04:57:55.957Z",
       "sponsored": false,
       "verification_available": true
@@ -26748,7 +28845,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 100,
+      "fail_streak": 101,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26869,9 +28966,14 @@
           "kind": "github_hit",
           "detail": "repo: plasmate-labs/plasmate",
           "url": "https://github.com/plasmate-labs/plasmate"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-08-25T04:05:52.939Z",
+      "last_checked": "2026-08-29T10:11:55.893Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -27529,7 +29631,7 @@
           "url": "https://github.com/SandeepVashishtha/Eventra"
         }
       ],
-      "last_checked": "2026-08-05T06:07:52.137Z",
+      "last_checked": "2026-08-29T10:11:57.787Z",
       "last_seen": "2026-02-16T05:14:12.757Z",
       "sponsored": false,
       "verification_available": true
@@ -27618,7 +29720,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 36,
+      "fail_streak": 37,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27631,7 +29733,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:07:54.144Z",
+      "last_checked": "2026-08-29T10:11:59.806Z",
       "last_seen": "2026-03-04T04:58:09.535Z",
       "sponsored": false,
       "verification_available": true
@@ -27917,9 +30019,39 @@
           "kind": "github_hit",
           "detail": "repo: ShivaBhattacharjee/Tokokino",
           "url": "https://github.com/ShivaBhattacharjee/Tokokino"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: Automattic/wp-calypso",
+          "url": "https://github.com/Automattic/wp-calypso"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: remotion-dev/remotion",
+          "url": "https://github.com/remotion-dev/remotion"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-08-25T04:06:10.940Z",
+      "last_checked": "2026-08-29T10:12:01.895Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -27957,7 +30089,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 36,
+      "fail_streak": 37,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27970,7 +30102,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:07:58.190Z",
+      "last_checked": "2026-08-29T10:12:03.934Z",
       "last_seen": "2026-03-04T04:58:13.598Z",
       "sponsored": false,
       "verification_available": true
@@ -27995,6 +30127,29 @@
       ],
       "last_checked": "2026-02-18T05:08:00.515Z",
       "last_seen": "2026-02-16T05:14:18.681Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "contributors.svg",
+      "name": "contributors.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:05.792Z",
+      "last_seen": "2026-08-29T10:12:05.792Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -28402,6 +30557,29 @@
       "verification_available": true
     },
     {
+      "domain": "coral.png",
+      "name": "coral.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:07.895Z",
+      "last_seen": "2026-08-29T10:12:07.895Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "core-abilities.test.js",
       "name": "core-abilities.test.js",
       "type": [],
@@ -28536,7 +30714,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28544,7 +30722,7 @@
           "url": "https://github.com/angular/angular"
         }
       ],
-      "last_checked": "2026-05-12T06:26:42.375Z",
+      "last_checked": "2026-08-29T10:12:09.897Z",
       "last_seen": "2026-05-07T06:22:57.317Z",
       "sponsored": false,
       "verification_available": true
@@ -28868,7 +31046,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 29,
+      "fail_streak": 30,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28881,7 +31059,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:08:04.228Z",
+      "last_checked": "2026-08-29T10:12:11.806Z",
       "last_seen": "2026-03-04T04:58:20.284Z",
       "sponsored": false,
       "verification_available": true
@@ -29048,6 +31226,29 @@
       "verification_available": true
     },
     {
+      "domain": "creative-mode.png",
+      "name": "creative-mode.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:13.901Z",
+      "last_seen": "2026-08-29T10:12:13.901Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "creativecommons.org",
       "name": "creativecommons.org",
       "type": [],
@@ -29100,7 +31301,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-08-03T06:42:05.347Z",
+      "last_checked": "2026-08-29T10:12:15.817Z",
       "last_seen": "2026-04-22T05:39:47.907Z",
       "sponsored": false,
       "verification_available": true
@@ -29263,6 +31464,29 @@
       ],
       "last_checked": "2026-08-03T06:42:09.229Z",
       "last_seen": "2026-03-02T05:05:28.342Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "crosscheck.differences",
+      "name": "crosscheck.differences",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: JackMeds/sizhu-astro-ai",
+          "url": "https://github.com/JackMeds/sizhu-astro-ai"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:17.811Z",
+      "last_seen": "2026-08-29T10:12:17.811Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -30302,6 +32526,52 @@
       "verification_available": true
     },
     {
+      "domain": "danielscottraynsford.com",
+      "name": "danielscottraynsford.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:19.819Z",
+      "last_seen": "2026-08-29T10:12:19.819Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dark-logo-p5h7mbtx.svg",
+      "name": "dark-logo-p5h7mbtx.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:21.877Z",
+      "last_seen": "2026-08-29T10:12:21.877Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "dark-mode.md",
       "name": "dark-mode.md",
       "type": [],
@@ -30344,6 +32614,29 @@
       ],
       "last_checked": "2026-07-27T06:48:51.889Z",
       "last_seen": "2026-04-22T05:40:07.856Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dark.svg",
+      "name": "dark.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:23.813Z",
+      "last_seen": "2026-08-29T10:12:23.813Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -31037,7 +33330,7 @@
           "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-08-05T06:08:10.219Z",
+      "last_checked": "2026-08-29T10:12:25.914Z",
       "last_seen": "2026-02-16T05:14:42.607Z",
       "sponsored": false,
       "verification_available": true
@@ -31121,7 +33414,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31134,7 +33427,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:08:12.147Z",
+      "last_checked": "2026-08-29T10:12:27.824Z",
       "last_seen": "2026-03-06T04:59:06.244Z",
       "sponsored": false,
       "verification_available": true
@@ -31149,7 +33442,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31162,7 +33455,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:08:14.141Z",
+      "last_checked": "2026-08-29T10:12:29.916Z",
       "last_seen": "2026-03-06T04:59:08.237Z",
       "sponsored": false,
       "verification_available": true
@@ -31177,7 +33470,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 27,
+      "fail_streak": 28,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31190,7 +33483,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:08:16.214Z",
+      "last_checked": "2026-08-29T10:12:31.918Z",
       "last_seen": "2026-03-06T04:59:10.255Z",
       "sponsored": false,
       "verification_available": true
@@ -31334,6 +33627,29 @@
       "verification_available": true
     },
     {
+      "domain": "de.svg",
+      "name": "de.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:33.925Z",
+      "last_seen": "2026-08-29T10:12:33.925Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "deallistpanel.tsx",
       "name": "deallistpanel.tsx",
       "type": [],
@@ -31353,6 +33669,29 @@
       ],
       "last_checked": "2026-02-18T05:09:05.499Z",
       "last_seen": "2026-02-17T05:08:46.803Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "debbie.codes",
+      "name": "debbie.codes",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:35.824Z",
+      "last_seen": "2026-08-29T10:12:35.824Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -31477,6 +33816,29 @@
       "verification_available": true
     },
     {
+      "domain": "decentralised-ecommerce.png",
+      "name": "decentralised-ecommerce.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:37.892Z",
+      "last_seen": "2026-08-29T10:12:37.892Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "decision-classification-guide.md",
       "name": "decision-classification-guide.md",
       "type": [],
@@ -31563,7 +33925,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-04-27T06:15:13.301Z",
+      "last_checked": "2026-08-29T10:12:39.823Z",
       "last_seen": "2026-04-25T05:27:24.566Z",
       "sponsored": false,
       "verification_available": true
@@ -32021,6 +34383,29 @@
       "verification_available": true
     },
     {
+      "domain": "delatorre.dev",
+      "name": "delatorre.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:42.043Z",
+      "last_seen": "2026-08-29T10:12:42.043Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "deliver-optimized-decorative-images.md",
       "name": "deliver-optimized-decorative-images.md",
       "type": [],
@@ -32149,6 +34534,29 @@
       "verification_available": true
     },
     {
+      "domain": "demo.bagisto.com",
+      "name": "demo.bagisto.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:43.988Z",
+      "last_seen": "2026-08-29T10:12:43.988Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "demo.gif",
       "name": "demo.gif",
       "type": [],
@@ -32242,6 +34650,75 @@
       ],
       "last_checked": "2026-08-25T04:07:12.804Z",
       "last_seen": "2026-02-23T05:16:47.214Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dennislembree.com",
+      "name": "dennislembree.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:46.420Z",
+      "last_seen": "2026-08-29T10:12:46.420Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "deno.createhttpclient",
+      "name": "deno.createhttpclient",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:48.049Z",
+      "last_seen": "2026-08-29T10:12:48.049Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "deno.svg",
+      "name": "deno.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:50.025Z",
+      "last_seen": "2026-08-29T10:12:50.025Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -32604,21 +35081,26 @@
       "domain": "design.md",
       "name": "design.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: heywood8/telegram-LeoLM-bot",
           "url": "https://github.com/heywood8/telegram-LeoLM-bot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-03-01T05:08:48.019Z",
+      "last_checked": "2026-08-29T10:12:52.097Z",
       "last_seen": "2026-02-16T05:14:58.598Z",
       "sponsored": false,
       "verification_available": true
@@ -32792,9 +35274,14 @@
           "kind": "github_hit",
           "detail": "repo: symbiotejs/symbiote.js",
           "url": "https://github.com/symbiotejs/symbiote.js"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
         }
       ],
-      "last_checked": "2026-08-25T04:07:18.846Z",
+      "last_checked": "2026-08-29T10:12:54.656Z",
       "last_seen": "2026-02-16T05:15:00.351Z",
       "sponsored": false,
       "verification_available": true
@@ -32865,6 +35352,29 @@
       ],
       "last_checked": "2026-02-18T05:09:29.120Z",
       "last_seen": "2026-02-16T05:15:02.211Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "devdocs.bagisto.com",
+      "name": "devdocs.bagisto.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:12:55.995Z",
+      "last_seen": "2026-08-29T10:12:55.995Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33014,7 +35524,7 @@
           "url": "https://github.com/puppeteer/puppeteer"
         }
       ],
-      "last_checked": "2026-08-25T04:07:24.897Z",
+      "last_checked": "2026-08-29T10:12:58.046Z",
       "last_seen": "2026-05-19T07:01:47.826Z",
       "sponsored": false,
       "verification_available": true
@@ -33140,10 +35650,10 @@
         {
           "type": "homepage",
           "url": "https://developers.cloudflare.com/",
-          "last_success": "2026-08-25T04:07:28.807Z"
+          "last_success": "2026-08-29T10:13:00.746Z"
         }
       ],
-      "last_verified_success": "2026-08-25T04:07:28.807Z",
+      "last_verified_success": "2026-08-29T10:13:00.746Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -33175,10 +35685,15 @@
           "kind": "heuristic_html",
           "detail": "heuristic match in homepage html",
           "url": "https://developers.cloudflare.com/"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-08-25T04:07:28.807Z",
-      "last_seen": "2026-08-25T04:07:28.807Z",
+      "last_checked": "2026-08-29T10:13:00.746Z",
+      "last_seen": "2026-08-29T10:13:00.746Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33292,6 +35807,29 @@
       "verification_available": true
     },
     {
+      "domain": "devkimchi.com",
+      "name": "devkimchi.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:01.989Z",
+      "last_seen": "2026-08-29T10:13:01.989Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "devmessages.js",
       "name": "devmessages.js",
       "type": [],
@@ -33311,6 +35849,29 @@
       ],
       "last_checked": "2026-08-25T04:07:33.330Z",
       "last_seen": "2026-07-20T06:33:21.882Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "devprodlogs.com",
+      "name": "devprodlogs.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:04.036Z",
+      "last_seen": "2026-08-29T10:13:04.036Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33370,7 +35931,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33383,8 +35944,31 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:08:34.161Z",
+      "last_checked": "2026-08-29T10:13:06.031Z",
       "last_seen": "2026-04-03T05:21:11.303Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dgamboa.com",
+      "name": "dgamboa.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:07.977Z",
+      "last_seen": "2026-08-29T10:13:07.977Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33665,6 +36249,29 @@
       "verification_available": true
     },
     {
+      "domain": "digio.es",
+      "name": "digio.es",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:09.990Z",
+      "last_seen": "2026-08-29T10:13:09.990Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "digital-twin-creator.md",
       "name": "digital-twin-creator.md",
       "type": [],
@@ -33684,6 +36291,29 @@
       ],
       "last_checked": "2026-06-27T06:43:13.316Z",
       "last_seen": "2026-03-28T05:09:30.877Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "digitarald.de",
+      "name": "digitarald.de",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:12.047Z",
+      "last_seen": "2026-08-29T10:13:12.047Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -33942,9 +36572,19 @@
           "kind": "github_hit",
           "detail": "repo: usevowel/docs",
           "url": "https://github.com/usevowel/docs"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: aaif-goose/goose",
+          "url": "https://github.com/aaif-goose/goose"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-08-05T06:08:38.136Z",
+      "last_checked": "2026-08-29T10:13:13.989Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -34038,6 +36678,29 @@
       ],
       "last_checked": "2026-06-01T08:49:56.036Z",
       "last_seen": "2026-02-16T05:15:08.240Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dk.svg",
+      "name": "dk.svg",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: bagisto/bagisto",
+          "url": "https://github.com/bagisto/bagisto"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:16.007Z",
+      "last_seen": "2026-08-29T10:13:16.007Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -34445,6 +37108,29 @@
       "verification_available": true
     },
     {
+      "domain": "docs.deno.com",
+      "name": "docs.deno.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:18.074Z",
+      "last_seen": "2026-08-29T10:13:18.074Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "docs.docker.com",
       "name": "docs.docker.com",
       "type": [],
@@ -34533,10 +37219,10 @@
         {
           "type": "well_known",
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json",
-          "last_success": "2026-08-05T06:08:46.212Z"
+          "last_success": "2026-08-29T10:13:20.328Z"
         }
       ],
-      "last_verified_success": "2026-08-05T06:08:46.212Z",
+      "last_verified_success": "2026-08-29T10:13:20.328Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -34595,8 +37281,54 @@
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-08-05T06:08:46.212Z",
-      "last_seen": "2026-08-05T06:08:46.212Z",
+      "last_checked": "2026-08-29T10:13:20.328Z",
+      "last_seen": "2026-08-29T10:13:20.328Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docs.md",
+      "name": "docs.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: eralabs-ai/ora-nextjs-plugin",
+          "url": "https://github.com/eralabs-ai/ora-nextjs-plugin"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:22.058Z",
+      "last_seen": "2026-08-29T10:13:22.058Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "docs.microsoft.com",
+      "name": "docs.microsoft.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:24.160Z",
+      "last_seen": "2026-08-29T10:13:24.160Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -34852,9 +37584,11 @@
     {
       "domain": "docs.worldmonitor.app",
       "name": "docs.worldmonitor.app",
-      "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -34865,10 +37599,15 @@
           "kind": "github_hit",
           "detail": "repo: koala73/worldmonitor",
           "url": "https://github.com/koala73/worldmonitor"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://docs.worldmonitor.app/"
         }
       ],
-      "last_checked": "2026-04-27T06:16:05.515Z",
-      "last_seen": "2026-04-25T05:28:18.501Z",
+      "last_checked": "2026-08-29T10:13:26.138Z",
+      "last_seen": "2026-08-29T10:13:26.138Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -35030,7 +37769,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35071,9 +37810,14 @@
           "kind": "github_hit",
           "detail": "repo: SunboX/ecadforge_app",
           "url": "https://github.com/SunboX/ecadforge_app"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: dongju93/household-account-book",
+          "url": "https://github.com/dongju93/household-account-book"
         }
       ],
-      "last_checked": "2026-08-05T06:08:50.137Z",
+      "last_checked": "2026-08-29T10:13:28.080Z",
       "last_seen": "2026-05-28T07:09:04.754Z",
       "sponsored": false,
       "verification_available": true
@@ -35088,7 +37832,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35106,7 +37850,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-08-05T06:08:52.147Z",
+      "last_checked": "2026-08-29T10:13:30.075Z",
       "last_seen": "2026-06-05T07:24:33.217Z",
       "sponsored": false,
       "verification_available": true
@@ -35172,7 +37916,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 70,
+      "fail_streak": 71,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35200,7 +37944,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-08-05T06:08:56.132Z",
+      "last_checked": "2026-08-29T10:13:32.073Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -35460,6 +38204,29 @@
       ],
       "last_checked": "2026-02-18T05:09:57.105Z",
       "last_seen": "2026-02-17T05:09:34.514Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "dotneteers.net",
+      "name": "dotneteers.net",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:34.018Z",
+      "last_seen": "2026-08-29T10:13:34.018Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -35869,7 +38636,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35877,7 +38644,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-08-05T06:09:00.147Z",
+      "last_checked": "2026-08-29T10:13:37.744Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -36281,6 +39048,29 @@
       "verification_available": true
     },
     {
+      "domain": "el.textcontent",
+      "name": "el.textcontent",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: puppeteer/puppeteer",
+          "url": "https://github.com/puppeteer/puppeteer"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:38.797Z",
+      "last_seen": "2026-08-29T10:13:38.797Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "el.textcontent.trim",
       "name": "el.textcontent.trim",
       "type": [],
@@ -36336,7 +39126,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36349,7 +39139,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:09:06.671Z",
+      "last_checked": "2026-08-29T10:13:40.798Z",
       "last_seen": "2026-04-03T05:21:58.285Z",
       "sponsored": false,
       "verification_available": true
@@ -36374,6 +39164,29 @@
       ],
       "last_checked": "2026-07-14T05:45:25.767Z",
       "last_seen": "2026-03-28T05:10:14.883Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "electron-sqlite.html",
+      "name": "electron-sqlite.html",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: pubkey/rxdb",
+          "url": "https://github.com/pubkey/rxdb"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:42.760Z",
+      "last_seen": "2026-08-29T10:13:42.760Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -36410,7 +39223,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36423,7 +39236,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:09:08.149Z",
+      "last_checked": "2026-08-29T10:13:44.859Z",
       "last_seen": "2026-04-03T05:22:04.287Z",
       "sponsored": false,
       "verification_available": true
@@ -36733,6 +39546,29 @@
       "verification_available": true
     },
     {
+      "domain": "enakdesign.com",
+      "name": "enakdesign.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: github/awesome-copilot",
+          "url": "https://github.com/github/awesome-copilot"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:46.857Z",
+      "last_seen": "2026-08-29T10:13:46.857Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "encryption.html",
       "name": "encryption.html",
       "type": [],
@@ -36742,7 +39578,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36755,7 +39591,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-05T06:09:12.136Z",
+      "last_checked": "2026-08-29T10:13:49.016Z",
       "last_seen": "2026-04-03T05:22:08.112Z",
       "sponsored": false,
       "verification_available": true
@@ -36780,6 +39616,29 @@
       ],
       "last_checked": "2026-04-21T05:38:49.885Z",
       "last_seen": "2026-04-14T05:35:56.781Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "endoflife.date",
+      "name": "endoflife.date",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: cloudflare/cloudflare-typescript",
+          "url": "https://github.com/cloudflare/cloudflare-typescript"
+        }
+      ],
+      "last_checked": "2026-08-29T10:13:50.811Z",
+      "last_seen": "2026-08-29T10:13:50.811Z",
       "sponsored": false,
       "verification_available": true
     },
