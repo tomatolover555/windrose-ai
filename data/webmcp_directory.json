@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T08:27:11.077Z",
+  "updated_at": "2026-09-08T08:13:52.058Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -126,7 +126,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -134,7 +134,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:18.172Z",
+      "last_checked": "2026-09-08T08:06:44.188Z",
       "last_seen": "2026-05-11T06:50:11.751Z",
       "sponsored": false,
       "verification_available": true
@@ -195,7 +195,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -203,7 +203,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-08-05T06:02:42.148Z",
+      "last_checked": "2026-09-08T08:06:45.731Z",
       "last_seen": "2026-04-09T05:21:44.411Z",
       "sponsored": false,
       "verification_available": true
@@ -412,7 +412,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -420,7 +420,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-09-07T08:20:22.016Z",
+      "last_checked": "2026-09-08T08:06:47.731Z",
       "last_seen": "2026-07-14T05:40:35.285Z",
       "sponsored": false,
       "verification_available": true
@@ -527,7 +527,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -535,7 +535,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:57:16.715Z",
+      "last_checked": "2026-09-08T08:06:50.119Z",
       "last_seen": "2026-05-22T06:57:16.715Z",
       "sponsored": false,
       "verification_available": true
@@ -665,7 +665,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -673,7 +673,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:57:28.660Z",
+      "last_checked": "2026-09-08T08:06:51.978Z",
       "last_seen": "2026-05-22T06:57:28.660Z",
       "sponsored": false,
       "verification_available": true
@@ -711,7 +711,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -719,7 +719,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:57:32.691Z",
+      "last_checked": "2026-09-08T08:06:53.809Z",
       "last_seen": "2026-05-22T06:57:32.691Z",
       "sponsored": false,
       "verification_available": true
@@ -780,7 +780,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -788,7 +788,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:57:38.688Z",
+      "last_checked": "2026-09-08T08:06:55.889Z",
       "last_seen": "2026-05-22T06:57:38.688Z",
       "sponsored": false,
       "verification_available": true
@@ -964,7 +964,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -972,7 +972,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:57:54.656Z",
+      "last_checked": "2026-09-08T08:06:57.816Z",
       "last_seen": "2026-05-22T06:57:54.656Z",
       "sponsored": false,
       "verification_available": true
@@ -997,6 +997,29 @@
       ],
       "last_checked": "2026-05-22T06:57:56.523Z",
       "last_seen": "2026-05-22T06:57:56.523Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "0051-agentic-experience-platform.md",
+      "name": "0051-agentic-experience-platform.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: sahassakhare/agentic-ui",
+          "url": "https://github.com/sahassakhare/agentic-ui"
+        }
+      ],
+      "last_checked": "2026-09-08T08:06:59.926Z",
+      "last_seen": "2026-09-08T08:06:59.926Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -1056,7 +1079,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1064,7 +1087,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-09-07T08:20:24.089Z",
+      "last_checked": "2026-09-08T08:07:01.926Z",
       "last_seen": "2026-07-14T05:40:37.488Z",
       "sponsored": false,
       "verification_available": true
@@ -4048,7 +4071,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4056,7 +4079,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-04T08:00:24.584Z",
+      "last_checked": "2026-09-08T08:07:03.836Z",
       "last_seen": "2026-07-04T06:29:18.709Z",
       "sponsored": false,
       "verification_available": true
@@ -4375,7 +4398,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4383,7 +4406,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:41.999Z",
+      "last_checked": "2026-09-08T08:07:05.817Z",
       "last_seen": "2026-05-11T06:50:21.570Z",
       "sponsored": false,
       "verification_available": true
@@ -4513,7 +4536,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4526,7 +4549,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:00:28.553Z",
+      "last_checked": "2026-09-08T08:07:07.764Z",
       "last_seen": "2026-06-05T07:18:16.266Z",
       "sponsored": false,
       "verification_available": true
@@ -4587,7 +4610,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4595,7 +4618,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:43.999Z",
+      "last_checked": "2026-09-08T08:07:09.800Z",
       "last_seen": "2026-05-11T06:50:27.591Z",
       "sponsored": false,
       "verification_available": true
@@ -4610,7 +4633,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4618,7 +4641,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:46.042Z",
+      "last_checked": "2026-09-08T08:07:11.758Z",
       "last_seen": "2026-05-11T06:50:29.584Z",
       "sponsored": false,
       "verification_available": true
@@ -4748,7 +4771,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4756,7 +4779,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:00:30.587Z",
+      "last_checked": "2026-09-08T08:07:13.824Z",
       "last_seen": "2026-07-10T06:55:32.506Z",
       "sponsored": false,
       "verification_available": true
@@ -4771,7 +4794,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4779,7 +4802,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:48.073Z",
+      "last_checked": "2026-09-08T08:07:15.874Z",
       "last_seen": "2026-05-11T06:50:31.606Z",
       "sponsored": false,
       "verification_available": true
@@ -4863,7 +4886,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4871,7 +4894,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:50.085Z",
+      "last_checked": "2026-09-08T08:07:17.865Z",
       "last_seen": "2026-05-11T06:50:33.661Z",
       "sponsored": false,
       "verification_available": true
@@ -4955,7 +4978,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4963,7 +4986,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:20:52.072Z",
+      "last_checked": "2026-09-08T08:07:19.806Z",
       "last_seen": "2026-05-11T06:50:35.608Z",
       "sponsored": false,
       "verification_available": true
@@ -6027,7 +6050,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6035,7 +6058,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:21:05.987Z",
+      "last_checked": "2026-09-08T08:07:21.833Z",
       "last_seen": "2026-03-24T05:07:25.405Z",
       "sponsored": false,
       "verification_available": true
@@ -6676,15 +6699,15 @@
         {
           "type": "homepage",
           "url": "https://admintoolkit.io/",
-          "last_success": "2026-09-07T08:21:21.203Z"
+          "last_success": "2026-09-08T08:07:23.940Z"
         },
         {
           "type": "well_known",
           "url": "https://admintoolkit.io/.well-known/mcp.json",
-          "last_success": "2026-09-07T08:21:21.203Z"
+          "last_success": "2026-09-08T08:07:23.940Z"
         }
       ],
-      "last_verified_success": "2026-09-07T08:21:21.203Z",
+      "last_verified_success": "2026-09-08T08:07:23.940Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -6703,8 +6726,8 @@
           "url": "https://admintoolkit.io/"
         }
       ],
-      "last_checked": "2026-09-07T08:21:21.203Z",
-      "last_seen": "2026-09-07T08:21:21.203Z",
+      "last_checked": "2026-09-08T08:07:23.940Z",
+      "last_seen": "2026-09-08T08:07:23.940Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -6815,7 +6838,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6823,7 +6846,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:00:48.613Z",
+      "last_checked": "2026-09-08T08:07:25.793Z",
       "last_seen": "2026-07-10T06:56:01.313Z",
       "sponsored": false,
       "verification_available": true
@@ -7188,15 +7211,15 @@
         {
           "type": "homepage",
           "url": "https://agent-ready.dev/",
-          "last_success": "2026-09-07T08:21:23.130Z"
+          "last_success": "2026-09-08T08:07:27.938Z"
         },
         {
           "type": "well_known",
           "url": "https://agent-ready.dev/.well-known/mcp.json",
-          "last_success": "2026-09-07T08:21:23.130Z"
+          "last_success": "2026-09-08T08:07:27.938Z"
         }
       ],
-      "last_verified_success": "2026-09-07T08:21:23.130Z",
+      "last_verified_success": "2026-09-08T08:07:27.938Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -7215,8 +7238,8 @@
           "url": "https://agent-ready.dev/"
         }
       ],
-      "last_checked": "2026-09-07T08:21:23.130Z",
-      "last_seen": "2026-09-07T08:21:23.130Z",
+      "last_checked": "2026-09-08T08:07:27.938Z",
+      "last_seen": "2026-09-08T08:07:27.938Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7345,7 +7368,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7353,7 +7376,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:21:27.203Z",
+      "last_checked": "2026-09-08T08:07:29.981Z",
       "last_seen": "2026-03-24T05:07:43.507Z",
       "sponsored": false,
       "verification_available": true
@@ -7884,6 +7907,29 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
+      "fail_streak": 2,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: sahassakhare/agentic-ui",
+          "url": "https://github.com/sahassakhare/agentic-ui"
+        }
+      ],
+      "last_checked": "2026-09-08T08:07:31.829Z",
+      "last_seen": "2026-05-22T06:58:04.728Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "agentic-experience-platform-plan.md",
+      "name": "agentic-experience-platform-plan.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
       "fail_streak": 1,
       "evidence": [
         {
@@ -7892,8 +7938,8 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:58:04.728Z",
-      "last_seen": "2026-05-22T06:58:04.728Z",
+      "last_checked": "2026-09-08T08:07:33.828Z",
+      "last_seen": "2026-09-08T08:07:33.828Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7981,7 +8027,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7989,7 +8035,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-09-07T08:21:33.134Z",
+      "last_checked": "2026-09-08T08:07:35.827Z",
       "last_seen": "2026-07-14T05:41:07.509Z",
       "sponsored": false,
       "verification_available": true
@@ -8096,7 +8142,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8104,7 +8150,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:58:14.601Z",
+      "last_checked": "2026-09-08T08:07:37.908Z",
       "last_seen": "2026-05-22T06:58:14.601Z",
       "sponsored": false,
       "verification_available": true
@@ -8119,7 +8165,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8127,7 +8173,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:58:16.539Z",
+      "last_checked": "2026-09-08T08:07:39.771Z",
       "last_seen": "2026-05-22T06:58:16.539Z",
       "sponsored": false,
       "verification_available": true
@@ -8326,7 +8372,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8334,7 +8380,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:58:34.553Z",
+      "last_checked": "2026-09-08T08:07:41.765Z",
       "last_seen": "2026-05-22T06:58:34.553Z",
       "sponsored": false,
       "verification_available": true
@@ -8456,8 +8502,8 @@
           "url": "https://agentk.stacktr.ee/"
         }
       ],
-      "last_checked": "2026-09-07T08:21:35.176Z",
-      "last_seen": "2026-09-07T08:21:35.176Z",
+      "last_checked": "2026-09-08T08:07:43.839Z",
+      "last_seen": "2026-09-08T08:07:43.839Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -8747,7 +8793,7 @@
           "url": "https://github.com/vinhnx/VTCode"
         }
       ],
-      "last_checked": "2026-09-07T08:21:39.206Z",
+      "last_checked": "2026-09-08T08:07:45.904Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -9832,7 +9878,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9840,7 +9886,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-09-07T08:21:47.207Z",
+      "last_checked": "2026-09-08T08:07:47.789Z",
       "last_seen": "2026-09-04T08:01:24.542Z",
       "sponsored": false,
       "verification_available": true
@@ -10314,7 +10360,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10327,7 +10373,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-09-07T08:21:51.143Z",
+      "last_checked": "2026-09-08T08:07:49.781Z",
       "last_seen": "2026-06-12T08:02:53.250Z",
       "sponsored": false,
       "verification_available": true
@@ -10365,7 +10411,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10373,7 +10419,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-07T08:21:53.118Z",
+      "last_checked": "2026-09-08T08:07:51.771Z",
       "last_seen": "2026-03-29T05:21:43.860Z",
       "sponsored": false,
       "verification_available": true
@@ -10434,7 +10480,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10442,7 +10488,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:21:55.121Z",
+      "last_checked": "2026-09-08T08:07:53.816Z",
       "last_seen": "2026-03-24T05:07:53.498Z",
       "sponsored": false,
       "verification_available": true
@@ -10457,7 +10503,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10465,7 +10511,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:21:57.211Z",
+      "last_checked": "2026-09-08T08:07:55.947Z",
       "last_seen": "2026-03-24T05:07:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -10480,7 +10526,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10488,7 +10534,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:21:59.215Z",
+      "last_checked": "2026-09-08T08:07:57.824Z",
       "last_seen": "2026-03-24T05:07:57.525Z",
       "sponsored": false,
       "verification_available": true
@@ -10549,7 +10595,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10562,7 +10608,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:22:01.134Z",
+      "last_checked": "2026-09-08T08:07:59.900Z",
       "last_seen": "2026-03-04T04:54:51.107Z",
       "sponsored": false,
       "verification_available": true
@@ -10600,7 +10646,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10613,7 +10659,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:22:03.120Z",
+      "last_checked": "2026-09-08T08:08:01.840Z",
       "last_seen": "2026-03-04T04:54:53.217Z",
       "sponsored": false,
       "verification_available": true
@@ -10710,7 +10756,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-08-31T09:48:05.428Z",
+      "last_checked": "2026-09-08T08:08:03.763Z",
       "last_seen": "2026-05-07T06:19:45.454Z",
       "sponsored": false,
       "verification_available": true
@@ -11466,7 +11512,7 @@
           "url": "https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada"
         }
       ],
-      "last_checked": "2026-09-07T08:22:07.175Z",
+      "last_checked": "2026-09-08T08:08:05.754Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -11818,7 +11864,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11826,7 +11872,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-04T08:01:47.134Z",
+      "last_checked": "2026-09-08T08:08:07.813Z",
       "last_seen": "2026-07-04T06:30:45.099Z",
       "sponsored": false,
       "verification_available": true
@@ -12122,7 +12168,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 121,
+      "fail_streak": 122,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12130,7 +12176,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:22:11.320Z",
+      "last_checked": "2026-09-08T08:08:17.747Z",
       "last_seen": "2026-02-23T05:14:06.709Z",
       "sponsored": false,
       "verification_available": true
@@ -12168,7 +12214,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12176,7 +12222,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-09-07T08:22:13.121Z",
+      "last_checked": "2026-09-08T08:08:18.929Z",
       "last_seen": "2026-09-05T07:43:27.571Z",
       "sponsored": false,
       "verification_available": true
@@ -12191,7 +12237,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12199,7 +12245,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-09-07T08:22:15.313Z",
+      "last_checked": "2026-09-08T08:08:20.959Z",
       "last_seen": "2026-09-05T07:43:29.406Z",
       "sponsored": false,
       "verification_available": true
@@ -12303,7 +12349,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 33,
+      "fail_streak": 34,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12316,7 +12362,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-09-07T08:22:17.111Z",
+      "last_checked": "2026-09-08T08:08:22.784Z",
       "last_seen": "2026-06-12T08:03:18.743Z",
       "sponsored": false,
       "verification_available": true
@@ -12694,7 +12740,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12702,7 +12748,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:58:44.543Z",
+      "last_checked": "2026-09-08T08:08:24.939Z",
       "last_seen": "2026-05-22T06:58:44.543Z",
       "sponsored": false,
       "verification_available": true
@@ -12794,7 +12840,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:02:02.674Z",
+      "last_checked": "2026-09-08T08:08:26.798Z",
       "last_seen": "2026-07-10T06:56:46.724Z",
       "sponsored": false,
       "verification_available": true
@@ -13041,7 +13087,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-09-07T08:22:19.139Z",
+      "last_checked": "2026-09-08T08:08:28.881Z",
       "last_seen": "2026-06-22T09:22:53.666Z",
       "sponsored": false,
       "verification_available": true
@@ -13056,7 +13102,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13069,7 +13115,7 @@
           "url": "https://github.com/devlint/GitWand"
         }
       ],
-      "last_checked": "2026-07-27T06:44:23.168Z",
+      "last_checked": "2026-09-08T08:08:30.817Z",
       "last_seen": "2026-05-22T06:58:48.556Z",
       "sponsored": false,
       "verification_available": true
@@ -13219,7 +13265,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 39,
+      "fail_streak": 40,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13227,7 +13273,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:22:23.135Z",
+      "last_checked": "2026-09-08T08:08:32.901Z",
       "last_seen": "2026-07-21T06:08:03.551Z",
       "sponsored": false,
       "verification_available": true
@@ -13434,7 +13480,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:22:27.150Z",
+      "last_checked": "2026-09-08T08:08:35.036Z",
       "last_seen": "2026-05-11T06:51:42.600Z",
       "sponsored": false,
       "verification_available": true
@@ -13656,7 +13702,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13664,7 +13710,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:22:33.225Z",
+      "last_checked": "2026-09-08T08:08:36.842Z",
       "last_seen": "2026-03-24T05:08:25.011Z",
       "sponsored": false,
       "verification_available": true
@@ -13785,9 +13831,14 @@
           "kind": "github_hit",
           "detail": "repo: Idk507/PaperPilot",
           "url": "https://github.com/Idk507/PaperPilot"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: sahassakhare/agentic-ui",
+          "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-09-07T08:22:35.212Z",
+      "last_checked": "2026-09-08T08:08:38.974Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -13876,7 +13927,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 82,
+      "fail_streak": 83,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13884,7 +13935,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-09-07T08:22:37.147Z",
+      "last_checked": "2026-09-08T08:08:40.970Z",
       "last_seen": "2026-02-20T05:02:46.920Z",
       "sponsored": false,
       "verification_available": true
@@ -13922,7 +13973,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 44,
+      "fail_streak": 45,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13930,7 +13981,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-09-04T08:02:20.967Z",
+      "last_checked": "2026-09-08T08:08:42.814Z",
       "last_seen": "2026-02-27T05:00:07.348Z",
       "sponsored": false,
       "verification_available": true
@@ -14461,7 +14512,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-09-07T08:22:41.157Z",
+      "last_checked": "2026-09-08T08:08:44.814Z",
       "last_seen": "2026-02-23T05:14:20.620Z",
       "sponsored": false,
       "verification_available": true
@@ -15137,7 +15188,7 @@
         }
       ],
       "last_verified_success": "2026-08-01T06:12:03.424Z",
-      "fail_streak": 0,
+      "fail_streak": 1,
       "evidence": [
         {
           "kind": "github_hit",
@@ -15155,7 +15206,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-09-07T08:22:53.214Z",
+      "last_checked": "2026-09-08T08:08:46.870Z",
       "last_seen": "2026-08-01T06:12:03.424Z",
       "sponsored": false,
       "verification_available": true
@@ -15175,7 +15226,7 @@
         {
           "type": "homepage",
           "url": "https://audit.wordlift.io/",
-          "last_success": "2026-09-07T08:23:01.910Z"
+          "last_success": "2026-09-08T08:08:56.788Z"
         },
         {
           "type": "well_known",
@@ -15183,7 +15234,7 @@
           "last_success": "2026-03-29T05:22:35.616Z"
         }
       ],
-      "last_verified_success": "2026-09-07T08:23:01.910Z",
+      "last_verified_success": "2026-09-08T08:08:56.788Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -15202,8 +15253,8 @@
           "url": "https://audit.wordlift.io/"
         }
       ],
-      "last_checked": "2026-09-07T08:23:01.910Z",
-      "last_seen": "2026-09-07T08:23:01.910Z",
+      "last_checked": "2026-09-08T08:08:56.788Z",
+      "last_seen": "2026-09-08T08:08:56.788Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -16047,7 +16098,7 @@
           "url": "https://github.com/webfuse-com/awesome-claude"
         }
       ],
-      "last_checked": "2026-09-07T08:23:04.926Z",
+      "last_checked": "2026-09-08T08:08:57.849Z",
       "last_seen": "2026-03-06T04:54:33.887Z",
       "sponsored": false,
       "verification_available": true
@@ -16784,7 +16835,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16797,7 +16848,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:23:12.978Z",
+      "last_checked": "2026-09-08T08:09:00.679Z",
       "last_seen": "2026-03-04T04:55:50.829Z",
       "sponsored": false,
       "verification_available": true
@@ -16911,7 +16962,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 163,
+      "fail_streak": 164,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17134,7 +17185,7 @@
           "url": "https://github.com/ClicShopping/ClicShopping"
         }
       ],
-      "last_checked": "2026-09-07T08:23:14.930Z",
+      "last_checked": "2026-09-08T08:09:01.813Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -17310,7 +17361,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 65,
+      "fail_streak": 66,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17343,7 +17394,7 @@
           "url": "https://github.com/telerik/kendo-react"
         }
       ],
-      "last_checked": "2026-09-07T08:23:16.957Z",
+      "last_checked": "2026-09-08T08:09:03.812Z",
       "last_seen": "2026-03-07T04:46:27.419Z",
       "sponsored": false,
       "verification_available": true
@@ -17619,7 +17670,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-09-04T08:03:04.244Z",
+      "last_checked": "2026-09-08T08:09:05.819Z",
       "last_seen": "2026-04-09T05:21:54.267Z",
       "sponsored": false,
       "verification_available": true
@@ -17795,7 +17846,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 82,
+      "fail_streak": 83,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17803,7 +17854,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-09-07T08:23:26.921Z",
+      "last_checked": "2026-09-08T08:09:07.825Z",
       "last_seen": "2026-02-20T05:03:02.901Z",
       "sponsored": false,
       "verification_available": true
@@ -17818,7 +17869,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 121,
+      "fail_streak": 122,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17826,7 +17877,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:23:28.915Z",
+      "last_checked": "2026-09-08T08:09:09.805Z",
       "last_seen": "2026-02-23T05:14:36.619Z",
       "sponsored": false,
       "verification_available": true
@@ -17961,7 +18012,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 103,
+      "fail_streak": 104,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17969,7 +18020,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:23:31.007Z",
+      "last_checked": "2026-09-08T08:09:12.035Z",
       "last_seen": "2026-03-24T05:09:06.980Z",
       "sponsored": false,
       "verification_available": true
@@ -18015,7 +18066,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-07T08:23:32.924Z",
+      "last_checked": "2026-09-08T08:09:13.819Z",
       "last_seen": "2026-03-29T05:23:03.925Z",
       "sponsored": false,
       "verification_available": true
@@ -18214,7 +18265,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18222,7 +18273,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-09-07T08:23:37.008Z",
+      "last_checked": "2026-09-08T08:09:15.824Z",
       "last_seen": "2026-05-12T06:23:59.419Z",
       "sponsored": false,
       "verification_available": true
@@ -18237,7 +18288,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18245,7 +18296,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-09-07T08:23:38.940Z",
+      "last_checked": "2026-09-08T08:09:17.923Z",
       "last_seen": "2026-05-12T06:24:01.272Z",
       "sponsored": false,
       "verification_available": true
@@ -18260,7 +18311,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18268,7 +18319,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-09-07T08:23:40.996Z",
+      "last_checked": "2026-09-08T08:09:19.824Z",
       "last_seen": "2026-05-12T06:24:03.251Z",
       "sponsored": false,
       "verification_available": true
@@ -18283,7 +18334,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18291,7 +18342,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-09-07T08:23:42.921Z",
+      "last_checked": "2026-09-08T08:09:21.817Z",
       "last_seen": "2026-05-12T06:24:05.244Z",
       "sponsored": false,
       "verification_available": true
@@ -18314,7 +18365,7 @@
           "url": "https://github.com/heyderekj/binky"
         }
       ],
-      "last_checked": "2026-09-07T08:23:44.933Z",
+      "last_checked": "2026-09-08T08:09:23.828Z",
       "last_seen": "2026-05-12T06:24:07.249Z",
       "sponsored": false,
       "verification_available": true
@@ -18333,10 +18384,10 @@
         {
           "type": "homepage",
           "url": "https://binkyfiles.com/",
-          "last_success": "2026-09-07T08:23:46.993Z"
+          "last_success": "2026-09-08T08:09:26.003Z"
         }
       ],
-      "last_verified_success": "2026-09-07T08:23:46.993Z",
+      "last_verified_success": "2026-09-08T08:09:26.003Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -18350,8 +18401,8 @@
           "url": "https://binkyfiles.com/"
         }
       ],
-      "last_checked": "2026-09-07T08:23:46.993Z",
-      "last_seen": "2026-09-07T08:23:46.993Z",
+      "last_checked": "2026-09-08T08:09:26.003Z",
+      "last_seen": "2026-09-08T08:09:26.003Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -20573,7 +20624,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 60,
+      "fail_streak": 61,
       "evidence": [
         {
           "kind": "github_hit",
@@ -20596,7 +20647,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-04T08:03:06.090Z",
+      "last_checked": "2026-09-08T08:09:29.358Z",
       "last_seen": "2026-02-16T05:13:20.609Z",
       "sponsored": false,
       "verification_available": true
@@ -20999,7 +21050,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 87,
+      "fail_streak": 88,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21007,7 +21058,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:23:52.951Z",
+      "last_checked": "2026-09-08T08:09:30.376Z",
       "last_seen": "2026-03-24T05:09:16.897Z",
       "sponsored": false,
       "verification_available": true
@@ -21632,7 +21683,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 8,
+      "fail_streak": 9,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21640,7 +21691,7 @@
           "url": "https://github.com/WebMCP-org/examples"
         }
       ],
-      "last_checked": "2026-09-04T08:03:20.347Z",
+      "last_checked": "2026-09-08T08:09:32.376Z",
       "last_seen": "2026-04-12T05:34:10.659Z",
       "sponsored": false,
       "verification_available": true
@@ -21701,7 +21752,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 56,
+      "fail_streak": 57,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21714,7 +21765,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:24:04.930Z",
+      "last_checked": "2026-09-08T08:09:34.379Z",
       "last_seen": "2026-03-04T04:56:19.119Z",
       "sponsored": false,
       "verification_available": true
@@ -21729,7 +21780,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 91,
+      "fail_streak": 92,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21737,7 +21788,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:24:06.932Z",
+      "last_checked": "2026-09-08T08:09:36.389Z",
       "last_seen": "2026-03-24T05:09:34.904Z",
       "sponsored": false,
       "verification_available": true
@@ -22646,7 +22697,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 56,
+      "fail_streak": 57,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22659,7 +22710,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:24:09.007Z",
+      "last_checked": "2026-09-08T08:09:38.562Z",
       "last_seen": "2026-03-04T04:56:20.961Z",
       "sponsored": false,
       "verification_available": true
@@ -22894,7 +22945,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-09-07T08:24:14.933Z",
+      "last_checked": "2026-09-08T08:09:40.557Z",
       "last_seen": "2026-09-04T08:03:24.199Z",
       "sponsored": false,
       "verification_available": true
@@ -23034,7 +23085,7 @@
           "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-09-07T08:24:19.016Z",
+      "last_checked": "2026-09-08T08:09:42.529Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
       "sponsored": false,
       "verification_available": true
@@ -23067,12 +23118,12 @@
       "name": "bun.webview",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23080,7 +23131,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:24:21.058Z",
+      "last_checked": "2026-09-08T08:09:44.523Z",
       "last_seen": "2026-08-25T04:04:24.198Z",
       "sponsored": false,
       "verification_available": true
@@ -23279,7 +23330,7 @@
           "url": "https://github.com/Auriti-Labs/geo-optimizer-skill"
         }
       ],
-      "last_checked": "2026-09-07T08:24:24.934Z",
+      "last_checked": "2026-09-08T08:09:46.386Z",
       "last_seen": "2026-05-11T06:52:52.738Z",
       "sponsored": false,
       "verification_available": true
@@ -23552,7 +23603,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23560,7 +23611,7 @@
           "url": "https://github.com/WebMCP-org/big-calendar"
         }
       ],
-      "last_checked": "2026-08-05T06:07:04.145Z",
+      "last_checked": "2026-09-08T08:09:48.411Z",
       "last_seen": "2026-04-09T05:21:56.241Z",
       "sponsored": false,
       "verification_available": true
@@ -23575,7 +23626,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23583,7 +23634,7 @@
           "url": "https://github.com/WebMCP-org/big-calendar"
         }
       ],
-      "last_checked": "2026-08-05T06:07:06.140Z",
+      "last_checked": "2026-09-08T08:09:50.388Z",
       "last_seen": "2026-04-09T05:21:58.250Z",
       "sponsored": false,
       "verification_available": true
@@ -23989,7 +24040,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 55,
+      "fail_streak": 56,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24002,7 +24053,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:24:38.969Z",
+      "last_checked": "2026-09-08T08:09:52.388Z",
       "last_seen": "2026-03-04T04:56:41.097Z",
       "sponsored": false,
       "verification_available": true
@@ -24017,7 +24068,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 55,
+      "fail_streak": 56,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24030,7 +24081,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:24:41.010Z",
+      "last_checked": "2026-09-08T08:09:54.382Z",
       "last_seen": "2026-03-04T04:56:42.948Z",
       "sponsored": false,
       "verification_available": true
@@ -24252,7 +24303,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24260,7 +24311,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:59:09.739Z",
+      "last_checked": "2026-09-08T08:09:56.388Z",
       "last_seen": "2026-05-22T06:59:09.739Z",
       "sponsored": false,
       "verification_available": true
@@ -24367,7 +24418,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24375,7 +24426,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-04T08:03:50.106Z",
+      "last_checked": "2026-09-08T08:09:58.397Z",
       "last_seen": "2026-07-04T06:32:26.617Z",
       "sponsored": false,
       "verification_available": true
@@ -24556,7 +24607,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:24:42.938Z",
+      "last_checked": "2026-09-08T08:10:00.484Z",
       "last_seen": "2026-03-04T04:56:44.945Z",
       "sponsored": false,
       "verification_available": true
@@ -24686,7 +24737,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24694,7 +24745,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-09-07T08:24:44.935Z",
+      "last_checked": "2026-09-08T08:10:02.406Z",
       "last_seen": "2026-06-05T07:20:40.424Z",
       "sponsored": false,
       "verification_available": true
@@ -24927,7 +24978,7 @@
           "url": "https://github.com/Auriti-Labs/geo-optimizer-skill"
         }
       ],
-      "last_checked": "2026-09-07T08:24:48.941Z",
+      "last_checked": "2026-09-08T08:10:04.391Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -25154,7 +25205,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25162,7 +25213,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:59:18.240Z",
+      "last_checked": "2026-09-08T08:10:07.209Z",
       "last_seen": "2026-05-22T06:59:18.240Z",
       "sponsored": false,
       "verification_available": true
@@ -25292,7 +25343,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25300,7 +25351,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-09-07T08:24:52.981Z",
+      "last_checked": "2026-09-08T08:10:08.429Z",
       "last_seen": "2026-06-05T07:20:52.241Z",
       "sponsored": false,
       "verification_available": true
@@ -25338,7 +25389,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 91,
+      "fail_streak": 92,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25346,7 +25397,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:24:54.929Z",
+      "last_checked": "2026-09-08T08:10:10.490Z",
       "last_seen": "2026-03-24T05:10:07.095Z",
       "sponsored": false,
       "verification_available": true
@@ -25361,7 +25412,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 91,
+      "fail_streak": 92,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25369,7 +25420,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:24:57.019Z",
+      "last_checked": "2026-09-08T08:10:12.561Z",
       "last_seen": "2026-03-24T05:10:09.026Z",
       "sponsored": false,
       "verification_available": true
@@ -25484,7 +25535,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:24:59.023Z",
+      "last_checked": "2026-09-08T08:10:14.566Z",
       "last_seen": "2026-02-23T05:15:03.395Z",
       "sponsored": false,
       "verification_available": true
@@ -25660,7 +25711,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25668,7 +25719,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-09-07T08:25:00.942Z",
+      "last_checked": "2026-09-08T08:10:16.476Z",
       "last_seen": "2026-02-20T05:03:25.018Z",
       "sponsored": false,
       "verification_available": true
@@ -25924,7 +25975,7 @@
           "url": "https://github.com/webfuse-com/awesome-claude"
         }
       ],
-      "last_checked": "2026-09-07T08:25:02.983Z",
+      "last_checked": "2026-09-08T08:10:18.489Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -26044,7 +26095,7 @@
           "url": "https://github.com/PeWu/topola-viewer"
         }
       ],
-      "last_checked": "2026-09-07T08:25:05.044Z",
+      "last_checked": "2026-09-08T08:10:20.529Z",
       "last_seen": "2026-05-11T06:53:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -26110,7 +26161,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 145,
+      "fail_streak": 146,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26228,7 +26279,7 @@
           "url": "https://github.com/Auriti-Labs/geo-optimizer-skill"
         }
       ],
-      "last_checked": "2026-09-07T08:25:09.015Z",
+      "last_checked": "2026-09-08T08:10:22.725Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -26805,7 +26856,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 87,
+      "fail_streak": 88,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26813,7 +26864,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:25:14.979Z",
+      "last_checked": "2026-09-08T08:10:24.707Z",
       "last_seen": "2026-03-24T05:10:24.892Z",
       "sponsored": false,
       "verification_available": true
@@ -26958,7 +27009,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:25:20.919Z",
+      "last_checked": "2026-09-08T08:10:26.666Z",
       "last_seen": "2026-02-23T05:15:11.409Z",
       "sponsored": false,
       "verification_available": true
@@ -27058,8 +27109,8 @@
           "url": "https://github.com/webfuse-com/awesome-claude"
         }
       ],
-      "last_checked": "2026-09-07T08:25:22.990Z",
-      "last_seen": "2026-09-07T08:25:22.990Z",
+      "last_checked": "2026-09-08T08:10:28.741Z",
+      "last_seen": "2026-09-08T08:10:28.741Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -27211,7 +27262,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 111,
+      "fail_streak": 112,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27224,7 +27275,7 @@
           "url": "https://github.com/oimiragieo/agent-studio"
         }
       ],
-      "last_checked": "2026-09-07T08:25:29.015Z",
+      "last_checked": "2026-09-08T08:10:30.986Z",
       "last_seen": "2026-02-23T05:15:21.615Z",
       "sponsored": false,
       "verification_available": true
@@ -27893,7 +27944,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27901,7 +27952,7 @@
           "url": "https://github.com/ShivaBhattacharjee/Tokokino"
         }
       ],
-      "last_checked": "2026-09-07T08:25:35.124Z",
+      "last_checked": "2026-09-08T08:10:32.604Z",
       "last_seen": "2026-08-25T04:05:11.952Z",
       "sponsored": false,
       "verification_available": true
@@ -28400,7 +28451,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 87,
+      "fail_streak": 88,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28408,7 +28459,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:25:42.963Z",
+      "last_checked": "2026-09-08T08:10:34.607Z",
       "last_seen": "2026-03-24T05:10:49.014Z",
       "sponsored": false,
       "verification_available": true
@@ -28497,7 +28548,7 @@
           "url": "https://github.com/webfuse-com/awesome-claude"
         }
       ],
-      "last_checked": "2026-09-07T08:25:47.020Z",
+      "last_checked": "2026-09-08T08:10:36.667Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -28545,7 +28596,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 86,
+      "fail_streak": 87,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28553,7 +28604,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:25:49.116Z",
+      "last_checked": "2026-09-08T08:10:38.867Z",
       "last_seen": "2026-03-24T05:10:55.044Z",
       "sponsored": false,
       "verification_available": true
@@ -28634,7 +28685,7 @@
           "url": "https://github.com/opensumi/core"
         }
       ],
-      "last_checked": "2026-09-04T08:04:35.656Z",
+      "last_checked": "2026-09-08T08:10:40.738Z",
       "last_seen": "2026-02-16T05:13:50.725Z",
       "sponsored": false,
       "verification_available": true
@@ -28715,8 +28766,8 @@
           "url": "https://codely.com/"
         }
       ],
-      "last_checked": "2026-09-07T08:25:51.021Z",
-      "last_seen": "2026-09-07T08:25:51.021Z",
+      "last_checked": "2026-09-08T08:10:42.655Z",
+      "last_seen": "2026-09-08T08:10:42.655Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -28970,7 +29021,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28983,7 +29034,7 @@
           "url": "https://github.com/heyderekj/dinky"
         }
       ],
-      "last_checked": "2026-09-07T08:25:55.052Z",
+      "last_checked": "2026-09-08T08:10:45.601Z",
       "last_seen": "2026-05-12T06:26:06.237Z",
       "sponsored": false,
       "verification_available": true
@@ -28998,7 +29049,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29006,7 +29057,7 @@
           "url": "https://github.com/heyderekj/dinky"
         }
       ],
-      "last_checked": "2026-09-03T08:09:13.172Z",
+      "last_checked": "2026-09-08T08:10:46.621Z",
       "last_seen": "2026-06-22T09:25:36.782Z",
       "sponsored": false,
       "verification_available": true
@@ -29343,7 +29394,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29351,7 +29402,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-04T08:04:47.082Z",
+      "last_checked": "2026-09-08T08:10:49.092Z",
       "last_seen": "2026-07-04T06:33:20.142Z",
       "sponsored": false,
       "verification_available": true
@@ -29481,7 +29532,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29489,7 +29540,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:04:59.162Z",
+      "last_checked": "2026-09-08T08:10:58.603Z",
       "last_seen": "2026-07-10T06:58:45.876Z",
       "sponsored": false,
       "verification_available": true
@@ -29633,6 +29684,29 @@
       "verification_available": true
     },
     {
+      "domain": "compose-an-experience.md",
+      "name": "compose-an-experience.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: sahassakhare/agentic-ui",
+          "url": "https://github.com/sahassakhare/agentic-ui"
+        }
+      ],
+      "last_checked": "2026-09-08T08:10:59.682Z",
+      "last_seen": "2026-09-08T08:10:59.682Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "composite-editor-component.svg",
       "name": "composite-editor-component.svg",
       "type": [],
@@ -29688,7 +29762,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29696,7 +29770,7 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T06:59:31.314Z",
+      "last_checked": "2026-09-08T08:11:01.794Z",
       "last_seen": "2026-05-22T06:59:31.314Z",
       "sponsored": false,
       "verification_available": true
@@ -29780,7 +29854,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29788,7 +29862,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-09-07T08:26:00.968Z",
+      "last_checked": "2026-09-08T08:11:03.971Z",
       "last_seen": "2026-09-05T07:46:10.701Z",
       "sponsored": false,
       "verification_available": true
@@ -29841,7 +29915,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29849,7 +29923,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-09-07T08:26:03.018Z",
+      "last_checked": "2026-09-08T08:11:05.741Z",
       "last_seen": "2026-09-05T07:46:12.625Z",
       "sponsored": false,
       "verification_available": true
@@ -30129,7 +30203,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 104,
+      "fail_streak": 105,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30137,7 +30211,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:26:05.023Z",
+      "last_checked": "2026-09-08T08:11:07.617Z",
       "last_seen": "2026-02-23T05:15:43.722Z",
       "sponsored": false,
       "verification_available": true
@@ -30254,7 +30328,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 52,
+      "fail_streak": 53,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30267,7 +30341,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:26:09.082Z",
+      "last_checked": "2026-09-08T08:11:09.724Z",
       "last_seen": "2026-03-04T04:57:55.957Z",
       "sponsored": false,
       "verification_available": true
@@ -30305,7 +30379,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 108,
+      "fail_streak": 109,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30433,7 +30507,7 @@
           "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-09-07T08:26:10.991Z",
+      "last_checked": "2026-09-08T08:11:11.642Z",
       "last_seen": "2026-02-16T05:14:06.713Z",
       "sponsored": false,
       "verification_available": true
@@ -30471,7 +30545,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 81,
+      "fail_streak": 82,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30479,7 +30553,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:26:12.944Z",
+      "last_checked": "2026-09-08T08:11:13.619Z",
       "last_seen": "2026-03-24T05:11:12.959Z",
       "sponsored": false,
       "verification_available": true
@@ -30494,7 +30568,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 80,
+      "fail_streak": 81,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30502,7 +30576,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:26:15.025Z",
+      "last_checked": "2026-09-08T08:11:15.791Z",
       "last_seen": "2026-03-24T05:11:15.008Z",
       "sponsored": false,
       "verification_available": true
@@ -30586,7 +30660,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 98,
+      "fail_streak": 99,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30594,7 +30668,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:26:19.032Z",
+      "last_checked": "2026-09-08T08:11:17.724Z",
       "last_seen": "2026-02-23T05:15:49.593Z",
       "sponsored": false,
       "verification_available": true
@@ -30655,7 +30729,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 79,
+      "fail_streak": 80,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30663,7 +30737,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:26:23.029Z",
+      "last_checked": "2026-09-08T08:11:19.626Z",
       "last_seen": "2026-03-27T05:25:48.835Z",
       "sponsored": false,
       "verification_available": true
@@ -30729,7 +30803,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 96,
+      "fail_streak": 97,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30737,7 +30811,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:26:25.029Z",
+      "last_checked": "2026-09-08T08:11:21.799Z",
       "last_seen": "2026-02-23T05:15:51.592Z",
       "sponsored": false,
       "verification_available": true
@@ -30826,7 +30900,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30834,7 +30908,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:05:13.676Z",
+      "last_checked": "2026-09-08T08:11:23.729Z",
       "last_seen": "2026-07-10T06:58:58.912Z",
       "sponsored": false,
       "verification_available": true
@@ -30987,7 +31061,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30995,7 +31069,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:26:26.939Z",
+      "last_checked": "2026-09-08T08:11:25.700Z",
       "last_seen": "2026-07-21T06:11:33.678Z",
       "sponsored": false,
       "verification_available": true
@@ -31091,7 +31165,7 @@
           "url": "https://github.com/SandeepVashishtha/Eventra"
         }
       ],
-      "last_checked": "2026-09-07T08:26:28.949Z",
+      "last_checked": "2026-09-08T08:11:27.683Z",
       "last_seen": "2026-02-16T05:14:12.757Z",
       "sponsored": false,
       "verification_available": true
@@ -31152,7 +31226,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31165,7 +31239,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-09-07T08:26:30.948Z",
+      "last_checked": "2026-09-08T08:11:29.633Z",
       "last_seen": "2026-06-12T08:06:25.297Z",
       "sponsored": false,
       "verification_available": true
@@ -31180,7 +31254,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31193,7 +31267,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:26:32.945Z",
+      "last_checked": "2026-09-08T08:11:31.633Z",
       "last_seen": "2026-03-04T04:58:09.535Z",
       "sponsored": false,
       "verification_available": true
@@ -31541,7 +31615,7 @@
           "url": "https://github.com/Jeomon/Web-Use"
         }
       ],
-      "last_checked": "2026-09-07T08:26:34.943Z",
+      "last_checked": "2026-09-08T08:11:33.633Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -31579,7 +31653,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31592,7 +31666,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:26:36.991Z",
+      "last_checked": "2026-09-08T08:11:35.711Z",
       "last_seen": "2026-03-04T04:58:13.598Z",
       "sponsored": false,
       "verification_available": true
@@ -31783,7 +31857,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 78,
+      "fail_streak": 79,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31791,7 +31865,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:26:45.048Z",
+      "last_checked": "2026-09-08T08:11:37.633Z",
       "last_seen": "2026-03-28T05:08:10.773Z",
       "sponsored": false,
       "verification_available": true
@@ -31908,7 +31982,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31916,7 +31990,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:05:23.626Z",
+      "last_checked": "2026-09-08T08:11:39.801Z",
       "last_seen": "2026-07-10T06:59:07.048Z",
       "sponsored": false,
       "verification_available": true
@@ -32194,7 +32268,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32212,7 +32286,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-07T08:26:47.024Z",
+      "last_checked": "2026-09-08T08:11:41.781Z",
       "last_seen": "2026-04-14T05:34:57.383Z",
       "sponsored": false,
       "verification_available": true
@@ -32416,7 +32490,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32424,7 +32498,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-09-07T08:26:50.952Z",
+      "last_checked": "2026-09-08T08:11:43.635Z",
       "last_seen": "2026-02-20T05:04:05.458Z",
       "sponsored": false,
       "verification_available": true
@@ -32651,7 +32725,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32664,7 +32738,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-07T08:26:59.029Z",
+      "last_checked": "2026-09-08T08:11:45.635Z",
       "last_seen": "2026-03-04T04:58:20.284Z",
       "sponsored": false,
       "verification_available": true
@@ -32679,7 +32753,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 82,
+      "fail_streak": 83,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32687,7 +32761,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-09-07T08:27:00.996Z",
+      "last_checked": "2026-09-08T08:11:47.698Z",
       "last_seen": "2026-02-23T05:16:05.871Z",
       "sponsored": false,
       "verification_available": true
@@ -32906,7 +32980,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-09-06T08:01:22.447Z",
+      "last_checked": "2026-09-08T08:11:49.701Z",
       "last_seen": "2026-04-22T05:39:47.907Z",
       "sponsored": false,
       "verification_available": true
@@ -33036,7 +33110,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 35,
+      "fail_streak": 36,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33044,7 +33118,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:01:24.445Z",
+      "last_checked": "2026-09-08T08:11:51.668Z",
       "last_seen": "2026-06-12T08:06:56.412Z",
       "sponsored": false,
       "verification_available": true
@@ -33992,7 +34066,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34000,7 +34074,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:06:41.010Z",
+      "last_checked": "2026-09-08T08:11:53.705Z",
       "last_seen": "2026-02-23T05:16:19.736Z",
       "sponsored": false,
       "verification_available": true
@@ -34015,7 +34089,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34023,7 +34097,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:06:42.920Z",
+      "last_checked": "2026-09-08T08:11:55.650Z",
       "last_seen": "2026-02-23T05:16:21.753Z",
       "sponsored": false,
       "verification_available": true
@@ -34055,13 +34129,13 @@
       "domain": "d.ts",
       "name": "d.ts",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34072,9 +34146,14 @@
           "kind": "github_hit",
           "detail": "repo: TomahawkCM/modern-tco",
           "url": "https://github.com/TomahawkCM/modern-tco"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: sahassakhare/agentic-ui",
+          "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-04-21T05:37:52.499Z",
+      "last_checked": "2026-09-08T08:11:57.682Z",
       "last_seen": "2026-02-16T05:14:38.707Z",
       "sponsored": false,
       "verification_available": true
@@ -34209,7 +34288,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 72,
+      "fail_streak": 73,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34217,7 +34296,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:01:26.618Z",
+      "last_checked": "2026-09-08T08:11:59.701Z",
       "last_seen": "2026-03-28T05:08:38.748Z",
       "sponsored": false,
       "verification_available": true
@@ -34393,7 +34472,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 72,
+      "fail_streak": 73,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34401,7 +34480,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:01:28.660Z",
+      "last_checked": "2026-09-08T08:12:01.856Z",
       "last_seen": "2026-03-28T05:08:40.853Z",
       "sponsored": false,
       "verification_available": true
@@ -34935,7 +35014,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:06:51.061Z",
+      "last_checked": "2026-09-08T08:12:04.068Z",
       "last_seen": "2026-02-23T05:16:29.718Z",
       "sponsored": false,
       "verification_available": true
@@ -34958,7 +35037,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:06:53.088Z",
+      "last_checked": "2026-09-08T08:12:05.912Z",
       "last_seen": "2026-02-23T05:16:36.194Z",
       "sponsored": false,
       "verification_available": true
@@ -35055,7 +35134,7 @@
           "url": "https://github.com/Legit-Control/webMCP-exploration"
         }
       ],
-      "last_checked": "2026-09-04T08:05:51.667Z",
+      "last_checked": "2026-09-08T08:12:07.765Z",
       "last_seen": "2026-02-16T05:14:42.607Z",
       "sponsored": false,
       "verification_available": true
@@ -35070,7 +35149,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 73,
+      "fail_streak": 74,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35078,7 +35157,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:06:54.972Z",
+      "last_checked": "2026-09-08T08:12:09.666Z",
       "last_seen": "2026-02-23T05:16:39.295Z",
       "sponsored": false,
       "verification_available": true
@@ -35093,7 +35172,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 73,
+      "fail_streak": 74,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35101,7 +35180,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:06:56.922Z",
+      "last_checked": "2026-09-08T08:12:11.759Z",
       "last_seen": "2026-02-23T05:16:41.226Z",
       "sponsored": false,
       "verification_available": true
@@ -35162,7 +35241,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35175,7 +35254,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-06T08:01:36.548Z",
+      "last_checked": "2026-09-08T08:12:13.646Z",
       "last_seen": "2026-03-06T04:59:06.244Z",
       "sponsored": false,
       "verification_available": true
@@ -35190,7 +35269,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35203,7 +35282,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-06T08:01:38.456Z",
+      "last_checked": "2026-09-08T08:12:15.648Z",
       "last_seen": "2026-03-06T04:59:08.237Z",
       "sponsored": false,
       "verification_available": true
@@ -35218,7 +35297,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 32,
+      "fail_streak": 33,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35231,7 +35310,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-06T08:01:40.429Z",
+      "last_checked": "2026-09-08T08:12:17.635Z",
       "last_seen": "2026-03-06T04:59:10.255Z",
       "sponsored": false,
       "verification_available": true
@@ -35499,7 +35578,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 81,
+      "fail_streak": 82,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35512,7 +35591,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:01:42.535Z",
+      "last_checked": "2026-09-08T08:12:19.649Z",
       "last_seen": "2026-03-06T04:59:14.522Z",
       "sponsored": false,
       "verification_available": true
@@ -35558,7 +35637,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:01:44.605Z",
+      "last_checked": "2026-09-08T08:12:21.821Z",
       "last_seen": "2026-03-28T05:08:58.880Z",
       "sponsored": false,
       "verification_available": true
@@ -35619,7 +35698,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 67,
+      "fail_streak": 68,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35627,7 +35706,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:01:47.725Z",
+      "last_checked": "2026-09-08T08:12:23.878Z",
       "last_seen": "2026-04-01T05:36:12.812Z",
       "sponsored": false,
       "verification_available": true
@@ -35803,7 +35882,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35816,7 +35895,7 @@
           "url": "https://github.com/Silentely/eSIM-Tools"
         }
       ],
-      "last_checked": "2026-09-06T08:01:48.923Z",
+      "last_checked": "2026-09-08T08:12:25.784Z",
       "last_seen": "2026-06-12T08:07:35.303Z",
       "sponsored": false,
       "verification_available": true
@@ -36546,7 +36625,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 68,
+      "fail_streak": 69,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36554,7 +36633,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:07:10.797Z",
+      "last_checked": "2026-09-08T08:12:27.743Z",
       "last_seen": "2026-02-23T05:16:45.264Z",
       "sponsored": false,
       "verification_available": true
@@ -36615,7 +36694,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 68,
+      "fail_streak": 69,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36623,8 +36702,31 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-08-25T04:07:12.804Z",
+      "last_checked": "2026-09-08T08:12:29.663Z",
       "last_seen": "2026-02-23T05:16:47.214Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "demos.md",
+      "name": "demos.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: sahassakhare/agentic-ui",
+          "url": "https://github.com/sahassakhare/agentic-ui"
+        }
+      ],
+      "last_checked": "2026-09-08T08:12:31.689Z",
+      "last_seen": "2026-09-08T08:12:31.689Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -37118,7 +37220,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37126,7 +37228,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:02:14.041Z",
+      "last_checked": "2026-09-08T08:12:38.906Z",
       "last_seen": "2026-03-28T05:09:18.881Z",
       "sponsored": false,
       "verification_available": true
@@ -37141,7 +37243,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37149,7 +37251,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:02:15.517Z",
+      "last_checked": "2026-09-08T08:12:39.983Z",
       "last_seen": "2026-03-28T05:09:20.879Z",
       "sponsored": false,
       "verification_available": true
@@ -37562,7 +37664,7 @@
           "url": "https://github.com/ErickWendel/localstudio"
         }
       ],
-      "last_checked": "2026-09-06T08:02:21.352Z",
+      "last_checked": "2026-09-08T08:12:42.095Z",
       "last_seen": "2026-05-19T07:01:47.826Z",
       "sponsored": false,
       "verification_available": true
@@ -37711,10 +37813,10 @@
         {
           "type": "homepage",
           "url": "https://developers.cloudflare.com/",
-          "last_success": "2026-09-06T08:02:24.200Z"
+          "last_success": "2026-09-08T08:12:44.420Z"
         }
       ],
-      "last_verified_success": "2026-09-06T08:02:24.200Z",
+      "last_verified_success": "2026-09-08T08:12:44.420Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -37753,8 +37855,8 @@
           "url": "https://github.com/cloudflare/cloudflare-typescript"
         }
       ],
-      "last_checked": "2026-09-06T08:02:24.200Z",
-      "last_seen": "2026-09-06T08:02:24.200Z",
+      "last_checked": "2026-09-08T08:12:44.420Z",
+      "last_seen": "2026-09-08T08:12:44.420Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -37764,7 +37866,7 @@
       "type": [
         "webmcp"
       ],
-      "confidence": 100,
+      "confidence": 90,
       "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
@@ -37793,7 +37895,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ],
-      "last_checked": "2026-09-03T08:11:12.130Z",
+      "last_checked": "2026-09-08T08:12:45.937Z",
       "last_seen": "2026-09-03T08:11:12.130Z",
       "sponsored": false,
       "verification_available": true
@@ -38027,7 +38129,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38040,7 +38142,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-09-06T08:02:25.368Z",
+      "last_checked": "2026-09-08T08:12:48.922Z",
       "last_seen": "2026-04-03T05:21:11.303Z",
       "sponsored": false,
       "verification_available": true
@@ -38201,7 +38303,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-08-05T06:08:36.129Z",
+      "last_checked": "2026-09-08T08:12:50.038Z",
       "last_seen": "2026-04-09T05:22:12.257Z",
       "sponsored": false,
       "verification_available": true
@@ -38431,7 +38533,7 @@
           "url": "https://github.com/heyderekj/dinky"
         }
       ],
-      "last_checked": "2026-09-03T08:11:22.084Z",
+      "last_checked": "2026-09-08T08:12:51.946Z",
       "last_seen": "2026-06-22T09:28:09.909Z",
       "sponsored": false,
       "verification_available": true
@@ -38446,7 +38548,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 4,
+      "fail_streak": 5,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38454,7 +38556,7 @@
           "url": "https://github.com/heyderekj/dinky"
         }
       ],
-      "last_checked": "2026-09-03T08:11:25.245Z",
+      "last_checked": "2026-09-08T08:12:56.822Z",
       "last_seen": "2026-06-22T09:28:12.594Z",
       "sponsored": false,
       "verification_available": true
@@ -38473,10 +38575,10 @@
         {
           "type": "homepage",
           "url": "https://dinkyfiles.com/",
-          "last_success": "2026-09-06T08:02:27.464Z"
+          "last_success": "2026-09-08T08:12:57.841Z"
         }
       ],
-      "last_verified_success": "2026-09-06T08:02:27.464Z",
+      "last_verified_success": "2026-09-08T08:12:57.841Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -38490,8 +38592,8 @@
           "url": "https://dinkyfiles.com/"
         }
       ],
-      "last_checked": "2026-09-06T08:02:27.464Z",
-      "last_seen": "2026-09-06T08:02:27.464Z",
+      "last_checked": "2026-09-08T08:12:57.841Z",
+      "last_seen": "2026-09-08T08:12:57.841Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -38690,7 +38792,7 @@
           "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-09-06T08:02:31.379Z",
+      "last_checked": "2026-09-08T08:13:01.024Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -38889,7 +38991,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 10,
+      "fail_streak": 11,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38897,7 +38999,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-09-06T08:02:33.406Z",
+      "last_checked": "2026-09-08T08:13:02.102Z",
       "last_seen": "2026-06-05T07:24:11.314Z",
       "sponsored": false,
       "verification_available": true
@@ -39070,7 +39172,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39078,7 +39180,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-09-06T08:02:45.349Z",
+      "last_checked": "2026-09-08T08:13:04.103Z",
       "last_seen": "2026-03-28T05:09:40.878Z",
       "sponsored": false,
       "verification_available": true
@@ -39111,7 +39213,7 @@
           "url": "https://github.com/SolidInvoice/SolidInvoice"
         }
       ],
-      "last_checked": "2026-09-06T08:02:47.534Z",
+      "last_checked": "2026-09-08T08:13:06.219Z",
       "last_seen": "2026-03-29T05:27:01.520Z",
       "sponsored": false,
       "verification_available": true
@@ -39236,7 +39338,7 @@
           "url": "https://github.com/clubpay/ronykit"
         }
       ],
-      "last_checked": "2026-09-04T08:07:01.658Z",
+      "last_checked": "2026-09-08T08:13:08.050Z",
       "last_seen": "2026-07-10T07:00:28.453Z",
       "sponsored": false,
       "verification_available": true
@@ -39259,7 +39361,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-09-06T08:02:49.358Z",
+      "last_checked": "2026-09-08T08:13:10.037Z",
       "last_seen": "2026-07-14T05:45:01.744Z",
       "sponsored": false,
       "verification_available": true
@@ -39347,7 +39449,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-18T05:40:26.146Z",
+      "last_checked": "2026-09-08T08:13:12.358Z",
       "last_seen": "2026-02-23T05:17:05.201Z",
       "sponsored": false,
       "verification_available": true
@@ -39435,7 +39537,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-18T05:40:27.947Z",
+      "last_checked": "2026-09-08T08:13:14.158Z",
       "last_seen": "2026-02-23T05:17:07.572Z",
       "sponsored": false,
       "verification_available": true
@@ -39496,7 +39598,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39504,7 +39606,7 @@
           "url": "https://github.com/WebMCP-org/docs"
         }
       ],
-      "last_checked": "2026-08-05T06:08:44.133Z",
+      "last_checked": "2026-09-08T08:13:16.161Z",
       "last_seen": "2026-04-09T05:22:16.294Z",
       "sponsored": false,
       "verification_available": true
@@ -39552,10 +39654,10 @@
         {
           "type": "well_known",
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json",
-          "last_success": "2026-09-06T08:02:51.823Z"
+          "last_success": "2026-09-08T08:13:18.146Z"
         }
       ],
-      "last_verified_success": "2026-09-06T08:02:51.823Z",
+      "last_verified_success": "2026-09-08T08:13:18.146Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -39614,8 +39716,8 @@
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-09-06T08:02:51.823Z",
-      "last_seen": "2026-09-06T08:02:51.823Z",
+      "last_checked": "2026-09-08T08:13:18.146Z",
+      "last_seen": "2026-09-08T08:13:18.146Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -39810,7 +39912,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-18T05:40:31.811Z",
+      "last_checked": "2026-09-08T08:13:20.199Z",
       "last_seen": "2026-02-23T05:17:15.259Z",
       "sponsored": false,
       "verification_available": true
@@ -40203,7 +40305,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40211,7 +40313,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-09-06T08:02:53.463Z",
+      "last_checked": "2026-09-08T08:13:22.074Z",
       "last_seen": "2026-06-05T07:24:29.166Z",
       "sponsored": false,
       "verification_available": true
@@ -40226,7 +40328,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 22,
+      "fail_streak": 23,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40294,7 +40396,7 @@
           "url": "https://github.com/GoogleChrome/modern-web-guidance"
         }
       ],
-      "last_checked": "2026-09-06T08:02:55.467Z",
+      "last_checked": "2026-09-08T08:13:24.048Z",
       "last_seen": "2026-05-28T07:09:04.754Z",
       "sponsored": false,
       "verification_available": true
@@ -40332,7 +40434,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40380,7 +40482,7 @@
           "url": "https://github.com/edward-playground/aidefense-framework"
         }
       ],
-      "last_checked": "2026-09-06T08:02:57.373Z",
+      "last_checked": "2026-09-08T08:13:26.157Z",
       "last_seen": "2026-06-05T07:24:33.217Z",
       "sponsored": false,
       "verification_available": true
@@ -40446,7 +40548,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 73,
+      "fail_streak": 74,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40474,7 +40576,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-09-04T08:07:13.669Z",
+      "last_checked": "2026-09-08T08:13:28.050Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -40489,7 +40591,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 42,
+      "fail_streak": 43,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40497,7 +40599,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-18T05:40:41.812Z",
+      "last_checked": "2026-09-08T08:13:30.113Z",
       "last_seen": "2026-04-04T05:07:31.483Z",
       "sponsored": false,
       "verification_available": true
@@ -40793,7 +40895,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 55,
+      "fail_streak": 56,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40801,7 +40903,7 @@
           "url": "https://github.com/simonw/research"
         }
       ],
-      "last_checked": "2026-07-18T05:40:47.747Z",
+      "last_checked": "2026-09-08T08:13:32.049Z",
       "last_seen": "2026-02-23T05:17:21.244Z",
       "sponsored": false,
       "verification_available": true
@@ -41046,7 +41148,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41054,7 +41156,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-06-21T08:17:30.959Z",
+      "last_checked": "2026-09-08T08:13:34.285Z",
       "last_seen": "2026-06-05T07:24:47.156Z",
       "sponsored": false,
       "verification_available": true
@@ -41069,7 +41171,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41077,7 +41179,7 @@
           "url": "https://github.com/ranuts/document"
         }
       ],
-      "last_checked": "2026-06-21T08:17:31.992Z",
+      "last_checked": "2026-09-08T08:13:36.058Z",
       "last_seen": "2026-06-05T07:24:49.221Z",
       "sponsored": false,
       "verification_available": true
@@ -41212,7 +41314,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 34,
+      "fail_streak": 35,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41220,7 +41322,7 @@
           "url": "https://github.com/WebMCP-org/npm-packages"
         }
       ],
-      "last_checked": "2026-08-31T09:52:18.996Z",
+      "last_checked": "2026-09-08T08:13:38.087Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -41541,7 +41643,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 0,
+      "fail_streak": 1,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41549,8 +41651,38 @@
           "url": "https://github.com/sahassakhare/agentic-ui"
         }
       ],
-      "last_checked": "2026-05-22T07:00:11.445Z",
+      "last_checked": "2026-09-08T08:13:40.055Z",
       "last_seen": "2026-05-22T07:00:11.445Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "edit.chaxus.com",
+      "name": "edit.chaxus.com",
+      "type": [
+        "webmcp"
+      ],
+      "confidence": 55,
+      "status": "likely",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: ranuts/document",
+          "url": "https://github.com/ranuts/document"
+        },
+        {
+          "kind": "heuristic_html",
+          "detail": "heuristic match in homepage html",
+          "url": "https://edit.chaxus.com/"
+        }
+      ],
+      "last_checked": "2026-09-08T08:13:42.119Z",
+      "last_seen": "2026-09-08T08:13:42.119Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -41679,7 +41811,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 49,
+      "fail_streak": 50,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41687,7 +41819,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-14T05:45:24.019Z",
+      "last_checked": "2026-09-08T08:13:44.082Z",
       "last_seen": "2026-03-28T05:10:12.718Z",
       "sponsored": false,
       "verification_available": true
@@ -41702,7 +41834,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 18,
+      "fail_streak": 19,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41715,7 +41847,7 @@
           "url": "https://github.com/transaurus/staging-pubkey-rxdb"
         }
       ],
-      "last_checked": "2026-08-31T09:52:22.117Z",
+      "last_checked": "2026-09-08T08:13:46.237Z",
       "last_seen": "2026-04-03T05:21:58.285Z",
       "sponsored": false,
       "verification_available": true
@@ -41730,7 +41862,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 47,
+      "fail_streak": 48,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41738,7 +41870,7 @@
           "url": "https://github.com/escapeboy/ai-prompts"
         }
       ],
-      "last_checked": "2026-07-14T05:45:25.767Z",
+      "last_checked": "2026-09-08T08:13:48.116Z",
       "last_seen": "2026-03-28T05:10:14.883Z",
       "sponsored": false,
       "verification_available": true
@@ -41748,12 +41880,12 @@
       "name": "electron-sqlite.html",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41761,7 +41893,7 @@
           "url": "https://github.com/pubkey/rxdb"
         }
       ],
-      "last_checked": "2026-08-31T09:52:24.054Z",
+      "last_checked": "2026-09-08T08:13:50.222Z",
       "last_seen": "2026-08-29T10:13:42.760Z",
       "sponsored": false,
       "verification_available": true
