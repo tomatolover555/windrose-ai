@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:36:08.258Z",
+  "updated_at": "2026-10-22T08:45:58.393Z",
   "items": [
     {
       "domain": "-4-38b2ac.svg",
@@ -412,7 +412,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 62,
+      "fail_streak": 63,
       "evidence": [
         {
           "kind": "github_hit",
@@ -420,7 +420,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-10-19T08:55:20.152Z",
+      "last_checked": "2026-10-22T08:38:52.204Z",
       "last_seen": "2026-07-14T05:40:35.285Z",
       "sponsored": false,
       "verification_available": true
@@ -1102,7 +1102,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 62,
+      "fail_streak": 63,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1110,7 +1110,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-10-19T08:55:21.758Z",
+      "last_checked": "2026-10-22T08:38:54.140Z",
       "last_seen": "2026-07-14T05:40:37.488Z",
       "sponsored": false,
       "verification_available": true
@@ -1355,7 +1355,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 75,
+      "fail_streak": 76,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1363,7 +1363,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-10-19T08:55:23.767Z",
+      "last_checked": "2026-10-22T08:38:56.018Z",
       "last_seen": "2026-04-20T05:49:14.009Z",
       "sponsored": false,
       "verification_available": true
@@ -1751,7 +1751,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 51,
+      "fail_streak": 52,
       "evidence": [
         {
           "kind": "github_hit",
@@ -1784,7 +1784,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T08:55:25.682Z",
+      "last_checked": "2026-10-22T08:38:57.891Z",
       "last_seen": "2026-03-02T04:59:03.766Z",
       "sponsored": false,
       "verification_available": true
@@ -4099,7 +4099,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4107,7 +4107,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-16T08:13:00.424Z",
+      "last_checked": "2026-10-22T08:38:59.918Z",
       "last_seen": "2026-07-04T06:29:18.709Z",
       "sponsored": false,
       "verification_available": true
@@ -4178,6 +4178,29 @@
       ],
       "last_checked": "2026-10-16T08:13:02.463Z",
       "last_seen": "2026-06-05T07:18:14.391Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "20placeholders.dev",
+      "name": "20placeholders.dev",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Cherry/placeholders.dev",
+          "url": "https://github.com/Cherry/placeholders.dev"
+        }
+      ],
+      "last_checked": "2026-10-22T08:39:01.920Z",
+      "last_seen": "2026-10-22T08:39:01.920Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -4283,7 +4306,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 81,
+      "fail_streak": 82,
       "evidence": [
         {
           "kind": "github_hit",
@@ -4296,7 +4319,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-10-19T08:55:27.703Z",
+      "last_checked": "2026-10-22T08:39:04.021Z",
       "last_seen": "2026-04-20T05:49:16.011Z",
       "sponsored": false,
       "verification_available": true
@@ -5113,8 +5136,8 @@
           "url": "https://3dstreet.app/"
         }
       ],
-      "last_checked": "2026-10-19T08:55:29.825Z",
-      "last_seen": "2026-10-19T08:55:29.825Z",
+      "last_checked": "2026-10-22T08:39:05.919Z",
+      "last_seen": "2026-10-22T08:39:05.919Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -5136,7 +5159,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:55:31.912Z",
+      "last_checked": "2026-10-22T08:39:07.950Z",
       "last_seen": "2026-10-15T08:20:34.080Z",
       "sponsored": false,
       "verification_available": true
@@ -5159,7 +5182,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:55:34.184Z",
+      "last_checked": "2026-10-22T08:39:10.019Z",
       "last_seen": "2026-10-15T08:20:36.082Z",
       "sponsored": false,
       "verification_available": true
@@ -5182,7 +5205,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:55:35.736Z",
+      "last_checked": "2026-10-22T08:39:11.935Z",
       "last_seen": "2026-10-15T08:20:38.044Z",
       "sponsored": false,
       "verification_available": true
@@ -5427,7 +5450,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5435,7 +5458,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:55:37.865Z",
+      "last_checked": "2026-10-22T08:39:14.052Z",
       "last_seen": "2026-10-15T08:20:40.226Z",
       "sponsored": false,
       "verification_available": true
@@ -5733,7 +5756,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -5741,7 +5764,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-10-19T08:55:39.700Z",
+      "last_checked": "2026-10-22T08:39:15.902Z",
       "last_seen": "2026-07-11T05:50:20.068Z",
       "sponsored": false,
       "verification_available": true
@@ -6034,7 +6057,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6042,7 +6065,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:55:41.725Z",
+      "last_checked": "2026-10-22T08:39:17.934Z",
       "last_seen": "2026-10-15T08:20:42.028Z",
       "sponsored": false,
       "verification_available": true
@@ -6292,7 +6315,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -6305,7 +6328,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:55:43.834Z",
+      "last_checked": "2026-10-22T08:39:20.105Z",
       "last_seen": "2026-03-24T05:07:25.405Z",
       "sponsored": false,
       "verification_available": true
@@ -6946,15 +6969,15 @@
         {
           "type": "homepage",
           "url": "https://admintoolkit.io/",
-          "last_success": "2026-10-19T08:55:45.762Z"
+          "last_success": "2026-10-22T08:39:21.941Z"
         },
         {
           "type": "well_known",
           "url": "https://admintoolkit.io/.well-known/mcp.json",
-          "last_success": "2026-10-19T08:55:45.762Z"
+          "last_success": "2026-10-22T08:39:21.941Z"
         }
       ],
-      "last_verified_success": "2026-10-19T08:55:45.762Z",
+      "last_verified_success": "2026-10-22T08:39:21.941Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -6973,8 +6996,8 @@
           "url": "https://admintoolkit.io/"
         }
       ],
-      "last_checked": "2026-10-19T08:55:45.762Z",
-      "last_seen": "2026-10-19T08:55:45.762Z",
+      "last_checked": "2026-10-22T08:39:21.941Z",
+      "last_seen": "2026-10-22T08:39:21.941Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7121,7 +7144,7 @@
           "url": "https://github.com/vercel-labs/mcp-handler"
         }
       ],
-      "last_checked": "2026-10-19T08:55:47.887Z",
+      "last_checked": "2026-10-22T08:39:24.060Z",
       "last_seen": "2026-10-15T08:20:57.119Z",
       "sponsored": false,
       "verification_available": true
@@ -7182,7 +7205,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7190,7 +7213,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:55:51.884Z",
+      "last_checked": "2026-10-22T08:39:28.381Z",
       "last_seen": "2026-10-15T08:21:07.077Z",
       "sponsored": false,
       "verification_available": true
@@ -7527,7 +7550,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7535,7 +7558,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T08:55:52.902Z",
+      "last_checked": "2026-10-22T08:39:29.404Z",
       "last_seen": "2026-10-15T08:21:10.159Z",
       "sponsored": false,
       "verification_available": true
@@ -7601,15 +7624,15 @@
         {
           "type": "homepage",
           "url": "https://agent-ready.dev/",
-          "last_success": "2026-10-19T08:55:54.940Z"
+          "last_success": "2026-10-22T08:39:31.399Z"
         },
         {
           "type": "well_known",
           "url": "https://agent-ready.dev/.well-known/mcp.json",
-          "last_success": "2026-10-19T08:55:54.940Z"
+          "last_success": "2026-10-22T08:39:31.399Z"
         }
       ],
-      "last_verified_success": "2026-10-19T08:55:54.940Z",
+      "last_verified_success": "2026-10-22T08:39:31.399Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -7628,8 +7651,8 @@
           "url": "https://agent-ready.dev/"
         }
       ],
-      "last_checked": "2026-10-19T08:55:54.940Z",
-      "last_seen": "2026-10-19T08:55:54.940Z",
+      "last_checked": "2026-10-22T08:39:31.399Z",
+      "last_seen": "2026-10-22T08:39:31.399Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -7781,7 +7804,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -7794,7 +7817,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:55:56.957Z",
+      "last_checked": "2026-10-22T08:39:33.438Z",
       "last_seen": "2026-03-24T05:07:43.507Z",
       "sponsored": false,
       "verification_available": true
@@ -8468,7 +8491,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 62,
+      "fail_streak": 63,
       "evidence": [
         {
           "kind": "github_hit",
@@ -8476,7 +8499,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-10-19T08:56:01.129Z",
+      "last_checked": "2026-10-22T08:39:35.537Z",
       "last_seen": "2026-07-14T05:41:07.509Z",
       "sponsored": false,
       "verification_available": true
@@ -8943,8 +8966,8 @@
           "url": "https://agentk.stacktr.ee/"
         }
       ],
-      "last_checked": "2026-10-19T08:56:02.901Z",
-      "last_seen": "2026-10-19T08:56:02.901Z",
+      "last_checked": "2026-10-22T08:39:37.404Z",
+      "last_seen": "2026-10-22T08:39:37.404Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9008,10 +9031,10 @@
         {
           "type": "homepage",
           "url": "https://agentpatterns.ai/",
-          "last_success": "2026-10-19T08:56:05.008Z"
+          "last_success": "2026-10-22T08:39:39.586Z"
         }
       ],
-      "last_verified_success": "2026-10-19T08:56:05.008Z",
+      "last_verified_success": "2026-10-22T08:39:39.586Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -9025,8 +9048,8 @@
           "url": "https://agentpatterns.ai/"
         }
       ],
-      "last_checked": "2026-10-19T08:56:05.008Z",
-      "last_seen": "2026-10-19T08:56:05.008Z",
+      "last_checked": "2026-10-22T08:39:39.586Z",
+      "last_seen": "2026-10-22T08:39:39.586Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -9081,12 +9104,12 @@
       "name": "agents-chrome-agent.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -9094,7 +9117,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:56:06.934Z",
+      "last_checked": "2026-10-22T08:39:41.448Z",
       "last_seen": "2026-10-17T07:50:54.078Z",
       "sponsored": false,
       "verification_available": true
@@ -9313,7 +9336,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:56:08.964Z",
+      "last_checked": "2026-10-22T08:39:43.586Z",
       "last_seen": "2026-02-16T05:12:43.361Z",
       "sponsored": false,
       "verification_available": true
@@ -10982,7 +11005,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -10990,7 +11013,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-19T08:56:12.904Z",
+      "last_checked": "2026-10-22T08:39:45.425Z",
       "last_seen": "2026-03-29T05:21:43.860Z",
       "sponsored": false,
       "verification_available": true
@@ -11051,7 +11074,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11064,7 +11087,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:56:14.966Z",
+      "last_checked": "2026-10-22T08:39:47.435Z",
       "last_seen": "2026-03-24T05:07:53.498Z",
       "sponsored": false,
       "verification_available": true
@@ -11079,7 +11102,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11092,7 +11115,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:56:16.982Z",
+      "last_checked": "2026-10-22T08:39:49.515Z",
       "last_seen": "2026-03-24T05:07:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -11107,7 +11130,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -11120,7 +11143,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:56:18.972Z",
+      "last_checked": "2026-10-22T08:39:51.523Z",
       "last_seen": "2026-03-24T05:07:57.525Z",
       "sponsored": false,
       "verification_available": true
@@ -12103,7 +12126,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:56:20.900Z",
+      "last_checked": "2026-10-22T08:39:53.516Z",
       "last_seen": "2026-02-16T05:12:52.998Z",
       "sponsored": false,
       "verification_available": true
@@ -12346,9 +12369,14 @@
           "kind": "github_hit",
           "detail": "repo: MystenLabs/walrus",
           "url": "https://github.com/MystenLabs/walrus"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: choas/sql-caterpillar-webmcp",
+          "url": "https://github.com/choas/sql-caterpillar-webmcp"
         }
       ],
-      "last_checked": "2026-07-10T06:56:28.762Z",
+      "last_checked": "2026-10-22T08:39:55.483Z",
       "last_seen": "2026-02-27T04:59:53.446Z",
       "sponsored": false,
       "verification_available": true
@@ -12455,7 +12483,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12463,7 +12491,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-16T08:13:46.465Z",
+      "last_checked": "2026-10-22T08:39:57.399Z",
       "last_seen": "2026-07-04T06:30:45.099Z",
       "sponsored": false,
       "verification_available": true
@@ -12805,7 +12833,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12813,7 +12841,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-10-19T08:56:22.955Z",
+      "last_checked": "2026-10-22T08:40:07.384Z",
       "last_seen": "2026-09-05T07:43:27.571Z",
       "sponsored": false,
       "verification_available": true
@@ -12828,7 +12856,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -12836,7 +12864,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-10-19T08:56:25.063Z",
+      "last_checked": "2026-10-22T08:40:08.567Z",
       "last_seen": "2026-09-05T07:43:29.406Z",
       "sponsored": false,
       "verification_available": true
@@ -13647,7 +13675,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13660,7 +13688,7 @@
           "url": "https://github.com/Idk507/PaperPilot"
         }
       ],
-      "last_checked": "2026-10-19T08:56:29.293Z",
+      "last_checked": "2026-10-22T08:40:10.497Z",
       "last_seen": "2026-06-23T07:02:34.478Z",
       "sponsored": false,
       "verification_available": true
@@ -13884,7 +13912,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 71,
+      "fail_streak": 72,
       "evidence": [
         {
           "kind": "github_hit",
@@ -13897,7 +13925,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:56:30.916Z",
+      "last_checked": "2026-10-22T08:40:12.525Z",
       "last_seen": "2026-07-21T06:08:03.551Z",
       "sponsored": false,
       "verification_available": true
@@ -14004,7 +14032,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14012,7 +14040,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-10-19T08:56:32.973Z",
+      "last_checked": "2026-10-22T08:40:14.620Z",
       "last_seen": "2026-07-11T05:52:00.707Z",
       "sponsored": false,
       "verification_available": true
@@ -14027,7 +14055,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 45,
+      "fail_streak": 46,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14035,7 +14063,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-10-19T08:56:34.916Z",
+      "last_checked": "2026-10-22T08:40:16.528Z",
       "last_seen": "2026-07-11T05:52:02.732Z",
       "sponsored": false,
       "verification_available": true
@@ -14372,7 +14400,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14385,7 +14413,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:56:36.911Z",
+      "last_checked": "2026-10-22T08:40:18.617Z",
       "last_seen": "2026-03-24T05:08:25.011Z",
       "sponsored": false,
       "verification_available": true
@@ -14533,7 +14561,7 @@
           "url": "https://github.com/Ikalus1988/MisakaNet"
         }
       ],
-      "last_checked": "2026-10-19T08:56:39.126Z",
+      "last_checked": "2026-10-22T08:40:20.499Z",
       "last_seen": "2026-02-16T05:13:08.980Z",
       "sponsored": false,
       "verification_available": true
@@ -14622,7 +14650,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 101,
+      "fail_streak": 102,
       "evidence": [
         {
           "kind": "github_hit",
@@ -14630,7 +14658,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-10-19T08:56:42.912Z",
+      "last_checked": "2026-10-22T08:40:22.549Z",
       "last_seen": "2026-02-20T05:02:46.920Z",
       "sponsored": false,
       "verification_available": true
@@ -15745,7 +15773,7 @@
           "url": "https://github.com/TheGreatAxios/faraday"
         }
       ],
-      "last_checked": "2026-10-19T08:56:44.912Z",
+      "last_checked": "2026-10-22T08:40:24.506Z",
       "last_seen": "2026-03-02T05:02:41.728Z",
       "sponsored": false,
       "verification_available": true
@@ -15901,7 +15929,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-10-19T08:56:49.535Z",
+      "last_checked": "2026-10-22T08:40:26.562Z",
       "last_seen": "2026-08-01T06:12:03.424Z",
       "sponsored": false,
       "verification_available": true
@@ -15921,7 +15949,7 @@
         {
           "type": "homepage",
           "url": "https://audit.wordlift.io/",
-          "last_success": "2026-10-19T08:56:54.411Z"
+          "last_success": "2026-10-22T08:40:31.658Z"
         },
         {
           "type": "well_known",
@@ -15929,7 +15957,7 @@
           "last_success": "2026-03-29T05:22:35.616Z"
         }
       ],
-      "last_verified_success": "2026-10-19T08:56:54.411Z",
+      "last_verified_success": "2026-10-22T08:40:31.658Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -15948,8 +15976,8 @@
           "url": "https://audit.wordlift.io/"
         }
       ],
-      "last_checked": "2026-10-19T08:56:54.411Z",
-      "last_seen": "2026-10-19T08:56:54.411Z",
+      "last_checked": "2026-10-22T08:40:31.658Z",
+      "last_seen": "2026-10-22T08:40:31.658Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -16359,7 +16387,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -16367,7 +16395,7 @@
           "url": "https://github.com/vercel-labs/mcp-handler"
         }
       ],
-      "last_checked": "2026-10-19T08:56:55.491Z",
+      "last_checked": "2026-10-22T08:40:32.727Z",
       "last_seen": "2026-10-15T08:22:09.248Z",
       "sponsored": false,
       "verification_available": true
@@ -16816,7 +16844,7 @@
           "url": "https://github.com/webfuse-com/awesome-claude"
         }
       ],
-      "last_checked": "2026-10-19T08:56:57.505Z",
+      "last_checked": "2026-10-22T08:40:35.021Z",
       "last_seen": "2026-03-06T04:54:33.887Z",
       "sponsored": false,
       "verification_available": true
@@ -17685,7 +17713,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 200,
+      "fail_streak": 201,
       "evidence": [
         {
           "kind": "github_hit",
@@ -17933,7 +17961,7 @@
           "url": "https://github.com/awlevin/typesafe-computer-use"
         }
       ],
-      "last_checked": "2026-10-19T08:57:00.202Z",
+      "last_checked": "2026-10-22T08:40:37.176Z",
       "last_seen": "2026-02-16T05:13:18.650Z",
       "sponsored": false,
       "verification_available": true
@@ -17956,7 +17984,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:57:01.438Z",
+      "last_checked": "2026-10-22T08:40:38.677Z",
       "last_seen": "2026-10-15T08:22:15.277Z",
       "sponsored": false,
       "verification_available": true
@@ -18178,7 +18206,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 69,
+      "fail_streak": 70,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18211,7 +18239,7 @@
           "url": "https://github.com/telerik/kendo-react"
         }
       ],
-      "last_checked": "2026-10-19T08:57:03.994Z",
+      "last_checked": "2026-10-22T08:40:40.693Z",
       "last_seen": "2026-03-07T04:46:27.419Z",
       "sponsored": false,
       "verification_available": true
@@ -18548,7 +18576,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18561,7 +18589,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:57:07.893Z",
+      "last_checked": "2026-10-22T08:40:42.683Z",
       "last_seen": "2026-09-24T08:30:38.870Z",
       "sponsored": false,
       "verification_available": true
@@ -18576,7 +18604,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18589,7 +18617,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:57:09.943Z",
+      "last_checked": "2026-10-22T08:40:44.796Z",
       "last_seen": "2026-09-24T08:30:41.030Z",
       "sponsored": false,
       "verification_available": true
@@ -18742,7 +18770,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 101,
+      "fail_streak": 102,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18750,7 +18778,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-10-19T08:57:11.979Z",
+      "last_checked": "2026-10-22T08:40:46.704Z",
       "last_seen": "2026-02-20T05:03:02.901Z",
       "sponsored": false,
       "verification_available": true
@@ -18931,7 +18959,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 135,
+      "fail_streak": 136,
       "evidence": [
         {
           "kind": "github_hit",
@@ -18944,7 +18972,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:57:13.980Z",
+      "last_checked": "2026-10-22T08:40:48.787Z",
       "last_seen": "2026-03-24T05:09:06.980Z",
       "sponsored": false,
       "verification_available": true
@@ -18990,7 +19018,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-19T08:57:15.982Z",
+      "last_checked": "2026-10-22T08:40:50.679Z",
       "last_seen": "2026-03-29T05:23:03.925Z",
       "sponsored": false,
       "verification_available": true
@@ -19363,7 +19391,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -19371,7 +19399,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:57:29.943Z",
+      "last_checked": "2026-10-22T08:40:52.690Z",
       "last_seen": "2026-10-15T08:22:52.258Z",
       "sponsored": false,
       "verification_available": true
@@ -21203,7 +21231,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 13,
+      "fail_streak": 14,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21216,7 +21244,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:57:31.892Z",
+      "last_checked": "2026-10-22T08:40:54.717Z",
       "last_seen": "2026-09-27T09:20:36.063Z",
       "sponsored": false,
       "verification_available": true
@@ -21469,7 +21497,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:57:33.884Z",
+      "last_checked": "2026-10-22T08:40:56.716Z",
       "last_seen": "2026-10-15T08:22:55.274Z",
       "sponsored": false,
       "verification_available": true
@@ -21622,7 +21650,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 71,
+      "fail_streak": 72,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21645,7 +21673,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-16T08:15:16.724Z",
+      "last_checked": "2026-10-22T08:40:58.694Z",
       "last_seen": "2026-02-16T05:13:20.609Z",
       "sponsored": false,
       "verification_available": true
@@ -21887,7 +21915,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -21895,7 +21923,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:57:35.884Z",
+      "last_checked": "2026-10-22T08:41:00.715Z",
       "last_seen": "2026-10-15T08:22:57.268Z",
       "sponsored": false,
       "verification_available": true
@@ -22194,7 +22222,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:57:37.913Z",
+      "last_checked": "2026-10-22T08:41:02.782Z",
       "last_seen": "2026-10-17T07:52:23.979Z",
       "sponsored": false,
       "verification_available": true
@@ -22870,7 +22898,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 123,
+      "fail_streak": 124,
       "evidence": [
         {
           "kind": "github_hit",
@@ -22883,7 +22911,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:57:41.950Z",
+      "last_checked": "2026-10-22T08:41:04.760Z",
       "last_seen": "2026-03-24T05:09:34.904Z",
       "sponsored": false,
       "verification_available": true
@@ -23082,7 +23110,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 16,
+      "fail_streak": 17,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23100,7 +23128,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:57:43.967Z",
+      "last_checked": "2026-10-22T08:41:06.835Z",
       "last_seen": "2026-07-11T05:53:16.887Z",
       "sponsored": false,
       "verification_available": true
@@ -23345,12 +23373,12 @@
       "name": "browser.getversion",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -23358,7 +23386,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:57:46.009Z",
+      "last_checked": "2026-10-22T08:41:08.685Z",
       "last_seen": "2026-10-17T07:52:32.016Z",
       "sponsored": false,
       "verification_available": true
@@ -24129,7 +24157,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24137,7 +24165,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:57:47.895Z",
+      "last_checked": "2026-10-22T08:41:10.785Z",
       "last_seen": "2026-10-15T08:23:03.432Z",
       "sponsored": false,
       "verification_available": true
@@ -24212,6 +24240,29 @@
       "verification_available": true
     },
     {
+      "domain": "bun.serve",
+      "name": "bun.serve",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: choas/sql-caterpillar-webmcp",
+          "url": "https://github.com/choas/sql-caterpillar-webmcp"
+        }
+      ],
+      "last_checked": "2026-10-22T08:41:12.701Z",
+      "last_seen": "2026-10-22T08:41:12.701Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "bun.sh",
       "name": "bun.sh",
       "type": [],
@@ -24257,9 +24308,14 @@
           "kind": "github_hit",
           "detail": "repo: hugodemenez/deltalytix",
           "url": "https://github.com/hugodemenez/deltalytix"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: choas/sql-caterpillar-webmcp",
+          "url": "https://github.com/choas/sql-caterpillar-webmcp"
         }
       ],
-      "last_checked": "2026-10-16T08:15:26.663Z",
+      "last_checked": "2026-10-22T08:41:14.688Z",
       "last_seen": "2026-02-21T04:52:15.203Z",
       "sponsored": false,
       "verification_available": true
@@ -24402,7 +24458,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:57:50.016Z",
+      "last_checked": "2026-10-22T08:41:16.742Z",
       "last_seen": "2026-06-05T07:20:32.585Z",
       "sponsored": false,
       "verification_available": true
@@ -24616,7 +24672,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -24624,7 +24680,7 @@
           "url": "https://github.com/vercel-labs/mcp-handler"
         }
       ],
-      "last_checked": "2026-10-19T08:57:51.898Z",
+      "last_checked": "2026-10-22T08:41:18.761Z",
       "last_seen": "2026-10-15T08:23:07.317Z",
       "sponsored": false,
       "verification_available": true
@@ -25058,7 +25114,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25066,7 +25122,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:57:53.893Z",
+      "last_checked": "2026-10-22T08:41:20.789Z",
       "last_seen": "2026-10-15T08:23:09.358Z",
       "sponsored": false,
       "verification_available": true
@@ -25081,7 +25137,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25089,7 +25145,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:57:55.896Z",
+      "last_checked": "2026-10-22T08:41:22.691Z",
       "last_seen": "2026-10-15T08:23:11.292Z",
       "sponsored": false,
       "verification_available": true
@@ -25735,7 +25791,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25743,7 +25799,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-16T08:15:36.628Z",
+      "last_checked": "2026-10-22T08:41:24.700Z",
       "last_seen": "2026-07-04T06:32:26.617Z",
       "sponsored": false,
       "verification_available": true
@@ -25934,12 +25990,12 @@
       "name": "cdp-wait.py",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -25947,7 +26003,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:57:57.895Z",
+      "last_checked": "2026-10-22T08:41:26.706Z",
       "last_seen": "2026-10-17T07:52:43.984Z",
       "sponsored": false,
       "verification_available": true
@@ -26049,12 +26105,12 @@
       "name": "cdpclient.send",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26062,7 +26118,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:58:00.162Z",
+      "last_checked": "2026-10-22T08:41:28.711Z",
       "last_seen": "2026-10-17T07:52:46.037Z",
       "sponsored": false,
       "verification_available": true
@@ -26131,7 +26187,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:58:01.936Z",
+      "last_checked": "2026-10-22T08:41:30.708Z",
       "last_seen": "2026-10-15T08:23:13.370Z",
       "sponsored": false,
       "verification_available": true
@@ -26154,7 +26210,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:58:04.190Z",
+      "last_checked": "2026-10-22T08:41:33.203Z",
       "last_seen": "2026-10-15T08:23:15.503Z",
       "sponsored": false,
       "verification_available": true
@@ -26407,7 +26463,7 @@
           "url": "https://github.com/agentcathq/webmcp-react"
         }
       ],
-      "last_checked": "2026-10-19T08:58:06.131Z",
+      "last_checked": "2026-10-22T08:41:34.828Z",
       "last_seen": "2026-02-16T05:13:34.671Z",
       "sponsored": false,
       "verification_available": true
@@ -26841,7 +26897,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 123,
+      "fail_streak": 124,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26854,7 +26910,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:58:08.124Z",
+      "last_checked": "2026-10-22T08:41:36.947Z",
       "last_seen": "2026-03-24T05:10:07.095Z",
       "sponsored": false,
       "verification_available": true
@@ -26869,7 +26925,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 123,
+      "fail_streak": 124,
       "evidence": [
         {
           "kind": "github_hit",
@@ -26882,7 +26938,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:58:09.954Z",
+      "last_checked": "2026-10-22T08:41:38.717Z",
       "last_seen": "2026-03-24T05:10:09.026Z",
       "sponsored": false,
       "verification_available": true
@@ -27173,7 +27229,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 95,
+      "fail_streak": 96,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27181,7 +27237,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-10-19T08:58:12.086Z",
+      "last_checked": "2026-10-22T08:41:40.815Z",
       "last_seen": "2026-02-20T05:03:25.018Z",
       "sponsored": false,
       "verification_available": true
@@ -27311,7 +27367,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 17,
+      "fail_streak": 18,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27334,7 +27390,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:58:13.883Z",
+      "last_checked": "2026-10-22T08:41:42.706Z",
       "last_seen": "2026-06-01T08:48:47.045Z",
       "sponsored": false,
       "verification_available": true
@@ -27442,7 +27498,7 @@
           "url": "https://github.com/webfuse-com/awesome-claude"
         }
       ],
-      "last_checked": "2026-10-19T08:58:15.887Z",
+      "last_checked": "2026-10-22T08:41:44.696Z",
       "last_seen": "2026-02-16T05:13:36.831Z",
       "sponsored": false,
       "verification_available": true
@@ -27651,7 +27707,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 182,
+      "fail_streak": 183,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27779,7 +27835,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:58:19.939Z",
+      "last_checked": "2026-10-22T08:41:46.796Z",
       "last_seen": "2026-02-16T05:13:40.611Z",
       "sponsored": false,
       "verification_available": true
@@ -27840,7 +27896,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -27858,7 +27914,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:58:21.896Z",
+      "last_checked": "2026-10-22T08:41:48.713Z",
       "last_seen": "2026-07-04T06:32:50.648Z",
       "sponsored": false,
       "verification_available": true
@@ -28361,7 +28417,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 119,
+      "fail_streak": 120,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28374,7 +28430,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:58:23.900Z",
+      "last_checked": "2026-10-22T08:41:50.728Z",
       "last_seen": "2026-03-24T05:10:24.892Z",
       "sponsored": false,
       "verification_available": true
@@ -28458,7 +28514,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 59,
+      "fail_streak": 60,
       "evidence": [
         {
           "kind": "github_hit",
@@ -28511,7 +28567,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T08:58:25.890Z",
+      "last_checked": "2026-10-22T08:41:52.709Z",
       "last_seen": "2026-02-16T05:13:42.634Z",
       "sponsored": false,
       "verification_available": true
@@ -28654,8 +28710,8 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T08:58:27.887Z",
-      "last_seen": "2026-10-19T08:58:27.887Z",
+      "last_checked": "2026-10-22T08:41:54.699Z",
+      "last_seen": "2026-10-22T08:41:54.699Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -29341,7 +29397,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29349,7 +29405,7 @@
           "url": "https://github.com/vercel-labs/mcp-handler"
         }
       ],
-      "last_checked": "2026-10-19T08:58:30.443Z",
+      "last_checked": "2026-10-22T08:41:57.035Z",
       "last_seen": "2026-10-15T08:23:43.304Z",
       "sponsored": false,
       "verification_available": true
@@ -29382,7 +29438,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:58:32.085Z",
+      "last_checked": "2026-10-22T08:41:58.817Z",
       "last_seen": "2026-02-17T05:07:09.022Z",
       "sponsored": false,
       "verification_available": true
@@ -29540,7 +29596,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29548,7 +29604,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:58:34.079Z",
+      "last_checked": "2026-10-22T08:42:00.756Z",
       "last_seen": "2026-10-15T08:23:47.293Z",
       "sponsored": false,
       "verification_available": true
@@ -29655,7 +29711,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -29663,7 +29719,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:58:36.028Z",
+      "last_checked": "2026-10-22T08:42:02.709Z",
       "last_seen": "2026-10-15T08:23:53.309Z",
       "sponsored": false,
       "verification_available": true
@@ -29734,10 +29790,10 @@
         {
           "type": "well_known",
           "url": "https://cloudflare.com/.well-known/mcp.json",
-          "last_success": "2026-10-19T08:58:38.069Z"
+          "last_success": "2026-10-22T08:42:04.723Z"
         }
       ],
-      "last_verified_success": "2026-10-19T08:58:38.069Z",
+      "last_verified_success": "2026-10-22T08:42:04.723Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -29766,8 +29822,8 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:58:38.069Z",
-      "last_seen": "2026-10-19T08:58:38.069Z",
+      "last_checked": "2026-10-22T08:42:04.723Z",
+      "last_seen": "2026-10-22T08:42:04.723Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -30154,7 +30210,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 119,
+      "fail_streak": 120,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30167,7 +30223,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:58:40.177Z",
+      "last_checked": "2026-10-22T08:42:06.807Z",
       "last_seen": "2026-03-24T05:10:49.014Z",
       "sponsored": false,
       "verification_available": true
@@ -30261,7 +30317,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:58:42.080Z",
+      "last_checked": "2026-10-22T08:42:08.854Z",
       "last_seen": "2026-02-20T05:03:37.066Z",
       "sponsored": false,
       "verification_available": true
@@ -30309,7 +30365,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 118,
+      "fail_streak": 119,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30322,7 +30378,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:58:44.233Z",
+      "last_checked": "2026-10-22T08:42:10.905Z",
       "last_seen": "2026-03-24T05:10:55.044Z",
       "sponsored": false,
       "verification_available": true
@@ -30484,8 +30540,8 @@
           "url": "https://codely.com/"
         }
       ],
-      "last_checked": "2026-10-19T08:58:46.161Z",
-      "last_seen": "2026-10-19T08:58:46.161Z",
+      "last_checked": "2026-10-22T08:42:12.823Z",
+      "last_seen": "2026-10-22T08:42:12.823Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -30522,7 +30578,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 19,
+      "fail_streak": 20,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30545,7 +30601,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T08:58:48.825Z",
+      "last_checked": "2026-10-22T08:42:15.575Z",
       "last_seen": "2026-02-16T05:13:52.644Z",
       "sponsored": false,
       "verification_available": true
@@ -30560,7 +30616,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30568,7 +30624,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:58:50.032Z",
+      "last_checked": "2026-10-22T08:42:16.717Z",
       "last_seen": "2026-10-15T08:24:10.296Z",
       "sponsored": false,
       "verification_available": true
@@ -30596,7 +30652,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T08:58:52.032Z",
+      "last_checked": "2026-10-22T08:42:18.812Z",
       "last_seen": "2026-06-05T07:21:42.584Z",
       "sponsored": false,
       "verification_available": true
@@ -30698,12 +30754,12 @@
       "name": "collaboration-guide.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -30711,7 +30767,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:58:54.103Z",
+      "last_checked": "2026-10-22T08:42:21.371Z",
       "last_seen": "2026-10-17T07:53:40.107Z",
       "sponsored": false,
       "verification_available": true
@@ -31168,7 +31224,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31176,7 +31232,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-16T08:16:22.726Z",
+      "last_checked": "2026-10-22T08:42:22.824Z",
       "last_seen": "2026-07-04T06:33:20.142Z",
       "sponsored": false,
       "verification_available": true
@@ -31237,7 +31293,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31245,7 +31301,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T08:59:00.486Z",
+      "last_checked": "2026-10-22T08:42:32.697Z",
       "last_seen": "2026-10-15T08:24:20.846Z",
       "sponsored": false,
       "verification_available": true
@@ -31679,7 +31735,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31687,7 +31743,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:02.127Z",
+      "last_checked": "2026-10-22T08:42:33.725Z",
       "last_seen": "2026-10-08T10:42:37.467Z",
       "sponsored": false,
       "verification_available": true
@@ -31725,7 +31781,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31733,7 +31789,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-10-19T08:59:04.039Z",
+      "last_checked": "2026-10-22T08:42:35.717Z",
       "last_seen": "2026-09-05T07:46:10.701Z",
       "sponsored": false,
       "verification_available": true
@@ -31786,7 +31842,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31794,7 +31850,7 @@
           "url": "https://github.com/kenrick95/ikuyo"
         }
       ],
-      "last_checked": "2026-10-19T08:59:06.038Z",
+      "last_checked": "2026-10-22T08:42:37.741Z",
       "last_seen": "2026-09-05T07:46:12.625Z",
       "sponsored": false,
       "verification_available": true
@@ -31967,7 +32023,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "evidence": [
         {
           "kind": "github_hit",
@@ -31995,7 +32051,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T08:59:08.033Z",
+      "last_checked": "2026-10-22T08:42:39.742Z",
       "last_seen": "2026-02-16T05:14:04.759Z",
       "sponsored": false,
       "verification_available": true
@@ -32421,7 +32477,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 113,
+      "fail_streak": 114,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32434,7 +32490,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:10.458Z",
+      "last_checked": "2026-10-22T08:42:42.041Z",
       "last_seen": "2026-03-24T05:11:12.959Z",
       "sponsored": false,
       "verification_available": true
@@ -32449,7 +32505,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 112,
+      "fail_streak": 113,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32462,7 +32518,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:12.208Z",
+      "last_checked": "2026-10-22T08:42:43.838Z",
       "last_seen": "2026-03-24T05:11:15.008Z",
       "sponsored": false,
       "verification_available": true
@@ -32615,7 +32671,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 111,
+      "fail_streak": 112,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32628,7 +32684,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:14.041Z",
+      "last_checked": "2026-10-22T08:42:45.721Z",
       "last_seen": "2026-03-27T05:25:48.835Z",
       "sponsored": false,
       "verification_available": true
@@ -32952,7 +33008,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 51,
+      "fail_streak": 52,
       "evidence": [
         {
           "kind": "github_hit",
@@ -32965,7 +33021,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:16.176Z",
+      "last_checked": "2026-10-22T08:42:47.742Z",
       "last_seen": "2026-07-21T06:11:33.678Z",
       "sponsored": false,
       "verification_available": true
@@ -33061,7 +33117,7 @@
           "url": "https://github.com/SandeepVashishtha/Eventra"
         }
       ],
-      "last_checked": "2026-10-19T08:59:18.421Z",
+      "last_checked": "2026-10-22T08:42:49.745Z",
       "last_seen": "2026-02-16T05:14:12.757Z",
       "sponsored": false,
       "verification_available": true
@@ -33561,7 +33617,7 @@
           "url": "https://github.com/awlevin/typesafe-computer-use"
         }
       ],
-      "last_checked": "2026-10-19T08:59:20.054Z",
+      "last_checked": "2026-10-22T08:42:51.786Z",
       "last_seen": "2026-02-16T05:14:16.611Z",
       "sponsored": false,
       "verification_available": true
@@ -33808,7 +33864,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 110,
+      "fail_streak": 111,
       "evidence": [
         {
           "kind": "github_hit",
@@ -33821,7 +33877,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:22.125Z",
+      "last_checked": "2026-10-22T08:42:53.799Z",
       "last_seen": "2026-03-28T05:08:10.773Z",
       "sponsored": false,
       "verification_available": true
@@ -34247,7 +34303,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 53,
+      "fail_streak": 54,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34270,7 +34326,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:24.111Z",
+      "last_checked": "2026-10-22T08:42:55.832Z",
       "last_seen": "2026-04-14T05:34:57.383Z",
       "sponsored": false,
       "verification_available": true
@@ -34474,7 +34530,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 84,
+      "fail_streak": 85,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34482,7 +34538,7 @@
           "url": "https://github.com/WebMCP-org/chrome-devtools-quickstart"
         }
       ],
-      "last_checked": "2026-10-19T08:59:26.050Z",
+      "last_checked": "2026-10-22T08:42:57.829Z",
       "last_seen": "2026-02-20T05:04:05.458Z",
       "sponsored": false,
       "verification_available": true
@@ -34658,12 +34714,12 @@
       "name": "crashreportcontext.getentries",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34671,7 +34727,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T08:59:28.049Z",
+      "last_checked": "2026-10-22T08:42:59.751Z",
       "last_seen": "2026-10-17T07:54:14.077Z",
       "sponsored": false,
       "verification_available": true
@@ -34829,7 +34885,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -34837,7 +34893,7 @@
           "url": "https://github.com/bagisto/bagisto-docs"
         }
       ],
-      "last_checked": "2026-10-19T08:59:30.045Z",
+      "last_checked": "2026-10-22T08:43:01.826Z",
       "last_seen": "2026-10-15T08:25:04.331Z",
       "sponsored": false,
       "verification_available": true
@@ -35043,7 +35099,7 @@
           "url": "https://github.com/3DStreet/3dstreet"
         }
       ],
-      "last_checked": "2026-10-19T08:59:32.180Z",
+      "last_checked": "2026-10-22T08:43:03.857Z",
       "last_seen": "2026-04-22T05:39:47.907Z",
       "sponsored": false,
       "verification_available": true
@@ -35173,7 +35229,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 66,
+      "fail_streak": 67,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35186,7 +35242,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:34.054Z",
+      "last_checked": "2026-10-22T08:43:05.724Z",
       "last_seen": "2026-06-12T08:06:56.412Z",
       "sponsored": false,
       "verification_available": true
@@ -35546,7 +35602,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -35554,7 +35610,7 @@
           "url": "https://github.com/vercel-labs/mcp-handler"
         }
       ],
-      "last_checked": "2026-10-19T08:59:36.111Z",
+      "last_checked": "2026-10-22T08:43:07.837Z",
       "last_seen": "2026-10-15T08:25:10.409Z",
       "sponsored": false,
       "verification_available": true
@@ -36490,7 +36546,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 12,
+      "fail_streak": 13,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36503,7 +36559,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:38.169Z",
+      "last_checked": "2026-10-22T08:43:09.829Z",
       "last_seen": "2026-09-27T09:24:03.467Z",
       "sponsored": false,
       "verification_available": true
@@ -36518,7 +36574,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 98,
+      "fail_streak": 99,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36531,7 +36587,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:40.143Z",
+      "last_checked": "2026-10-22T08:43:11.862Z",
       "last_seen": "2026-03-28T05:08:38.748Z",
       "sponsored": false,
       "verification_available": true
@@ -36707,7 +36763,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 98,
+      "fail_streak": 99,
       "evidence": [
         {
           "kind": "github_hit",
@@ -36720,7 +36776,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:42.040Z",
+      "last_checked": "2026-10-22T08:43:13.740Z",
       "last_seen": "2026-03-28T05:08:40.853Z",
       "sponsored": false,
       "verification_available": true
@@ -37864,7 +37920,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 93,
+      "fail_streak": 94,
       "evidence": [
         {
           "kind": "github_hit",
@@ -37882,7 +37938,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:44.110Z",
+      "last_checked": "2026-10-22T08:43:15.841Z",
       "last_seen": "2026-03-06T04:59:14.522Z",
       "sponsored": false,
       "verification_available": true
@@ -37933,7 +37989,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:46.226Z",
+      "last_checked": "2026-10-22T08:43:17.840Z",
       "last_seen": "2026-03-28T05:08:58.880Z",
       "sponsored": false,
       "verification_available": true
@@ -37994,7 +38050,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 79,
+      "fail_streak": 80,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38007,7 +38063,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:50.898Z",
+      "last_checked": "2026-10-22T08:43:23.797Z",
       "last_seen": "2026-04-01T05:36:12.812Z",
       "sponsored": false,
       "verification_available": true
@@ -38395,7 +38451,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
@@ -38403,7 +38459,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:52.057Z",
+      "last_checked": "2026-10-22T08:43:24.835Z",
       "last_seen": "2026-10-08T10:44:34.352Z",
       "sponsored": false,
       "verification_available": true
@@ -39318,6 +39374,29 @@
       "verification_available": true
     },
     {
+      "domain": "deploy.workers.cloudflare.com",
+      "name": "deploy.workers.cloudflare.com",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Cherry/placeholders.dev",
+          "url": "https://github.com/Cherry/placeholders.dev"
+        }
+      ],
+      "last_checked": "2026-10-22T08:43:26.924Z",
+      "last_seen": "2026-10-22T08:43:26.924Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
       "domain": "deployment.md",
       "name": "deployment.md",
       "type": [],
@@ -39572,7 +39651,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39585,7 +39664,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:53.986Z",
+      "last_checked": "2026-10-22T08:43:28.844Z",
       "last_seen": "2026-03-28T05:09:18.881Z",
       "sponsored": false,
       "verification_available": true
@@ -39600,7 +39679,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 76,
+      "fail_streak": 77,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39613,7 +39692,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T08:59:55.981Z",
+      "last_checked": "2026-10-22T08:43:30.845Z",
       "last_seen": "2026-03-28T05:09:20.879Z",
       "sponsored": false,
       "verification_available": true
@@ -39776,7 +39855,7 @@
           "url": "https://github.com/Auriti-Labs/geo-optimizer-skill"
         }
       ],
-      "last_checked": "2026-10-19T08:59:58.077Z",
+      "last_checked": "2026-10-22T08:43:32.955Z",
       "last_seen": "2026-02-16T05:15:00.351Z",
       "sponsored": false,
       "verification_available": true
@@ -39791,7 +39870,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39804,7 +39883,7 @@
           "url": "https://github.com/aliasist/aliasist-web"
         }
       ],
-      "last_checked": "2026-10-19T08:59:59.943Z",
+      "last_checked": "2026-10-22T08:43:34.842Z",
       "last_seen": "2026-04-20T05:50:59.696Z",
       "sponsored": false,
       "verification_available": true
@@ -39819,7 +39898,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 24,
+      "fail_streak": 25,
       "evidence": [
         {
           "kind": "github_hit",
@@ -39832,7 +39911,7 @@
           "url": "https://github.com/aliasist/aliasist-web"
         }
       ],
-      "last_checked": "2026-10-19T09:00:01.929Z",
+      "last_checked": "2026-10-22T08:43:36.839Z",
       "last_seen": "2026-04-20T05:51:01.634Z",
       "sponsored": false,
       "verification_available": true
@@ -39890,8 +39969,8 @@
           "url": "https://devdocs.bagisto.com/"
         }
       ],
-      "last_checked": "2026-10-19T09:00:03.942Z",
-      "last_seen": "2026-10-19T09:00:03.942Z",
+      "last_checked": "2026-10-22T08:43:38.918Z",
+      "last_seen": "2026-10-22T08:43:38.918Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -40066,7 +40145,7 @@
           "url": "https://github.com/sachio222/tampa-bay-directory"
         }
       ],
-      "last_checked": "2026-10-19T09:00:06.156Z",
+      "last_checked": "2026-10-22T08:43:40.813Z",
       "last_seen": "2026-05-19T07:01:47.826Z",
       "sponsored": false,
       "verification_available": true
@@ -40388,7 +40467,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 39,
+      "fail_streak": 40,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40406,7 +40485,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T09:00:10.081Z",
+      "last_checked": "2026-10-22T08:43:43.114Z",
       "last_seen": "2026-03-28T05:09:26.757Z",
       "sponsored": false,
       "verification_available": true
@@ -40444,7 +40523,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 7,
+      "fail_streak": 8,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40452,7 +40531,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-10-19T09:00:12.221Z",
+      "last_checked": "2026-10-22T08:43:45.112Z",
       "last_seen": "2026-07-20T06:33:21.882Z",
       "sponsored": false,
       "verification_available": true
@@ -40536,7 +40615,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40544,7 +40623,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T09:00:13.916Z",
+      "last_checked": "2026-10-22T08:43:46.835Z",
       "last_seen": "2026-10-15T08:25:53.576Z",
       "sponsored": false,
       "verification_available": true
@@ -40559,7 +40638,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -40567,7 +40646,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T09:00:15.915Z",
+      "last_checked": "2026-10-22T08:43:48.817Z",
       "last_seen": "2026-10-15T08:25:55.515Z",
       "sponsored": false,
       "verification_available": true
@@ -41152,7 +41231,7 @@
           "url": "https://github.com/TanStack/devtools"
         }
       ],
-      "last_checked": "2026-10-19T09:00:24.790Z",
+      "last_checked": "2026-10-22T08:43:50.825Z",
       "last_seen": "2026-05-13T06:38:41.192Z",
       "sponsored": false,
       "verification_available": true
@@ -41250,7 +41329,7 @@
           "url": "https://github.com/heygen-com/hyperframes"
         }
       ],
-      "last_checked": "2026-10-19T09:00:26.717Z",
+      "last_checked": "2026-10-22T08:43:52.834Z",
       "last_seen": "2026-02-16T05:15:06.268Z",
       "sponsored": false,
       "verification_available": true
@@ -41357,7 +41436,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41365,7 +41444,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T09:00:28.733Z",
+      "last_checked": "2026-10-22T08:43:54.852Z",
       "last_seen": "2026-10-15T08:26:07.525Z",
       "sponsored": false,
       "verification_available": true
@@ -41676,7 +41755,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 65,
+      "fail_streak": 66,
       "evidence": [
         {
           "kind": "github_hit",
@@ -41689,7 +41768,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:00:34.850Z",
+      "last_checked": "2026-10-22T08:44:00.273Z",
       "last_seen": "2026-03-28T05:09:40.878Z",
       "sponsored": false,
       "verification_available": true
@@ -41875,7 +41954,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-10-19T09:00:37.943Z",
+      "last_checked": "2026-10-22T08:44:01.311Z",
       "last_seen": "2026-07-14T05:45:01.744Z",
       "sponsored": false,
       "verification_available": true
@@ -42168,10 +42247,10 @@
         {
           "type": "well_known",
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json",
-          "last_success": "2026-10-19T09:00:40.281Z"
+          "last_success": "2026-10-22T08:44:03.661Z"
         }
       ],
-      "last_verified_success": "2026-10-19T09:00:40.281Z",
+      "last_verified_success": "2026-10-22T08:44:03.661Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -42230,8 +42309,8 @@
           "url": "https://docs.mcp-b.ai/.well-known/mcp.json"
         }
       ],
-      "last_checked": "2026-10-19T09:00:40.281Z",
-      "last_seen": "2026-10-19T09:00:40.281Z",
+      "last_checked": "2026-10-22T08:44:03.661Z",
+      "last_seen": "2026-10-22T08:44:03.661Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -42907,7 +42986,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 34,
+      "fail_streak": 35,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43000,7 +43079,7 @@
           "url": "https://github.com/WebMCP-org/mcp-ui-webmcp"
         }
       ],
-      "last_checked": "2026-10-19T09:00:43.942Z",
+      "last_checked": "2026-10-22T08:44:05.693Z",
       "last_seen": "2026-05-28T07:09:04.754Z",
       "sponsored": false,
       "verification_available": true
@@ -43066,7 +43145,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 25,
+      "fail_streak": 26,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43124,7 +43203,7 @@
           "url": "https://github.com/ThHanke/ontosphere"
         }
       ],
-      "last_checked": "2026-10-19T09:00:45.996Z",
+      "last_checked": "2026-10-22T08:44:07.412Z",
       "last_seen": "2026-06-05T07:24:33.217Z",
       "sponsored": false,
       "verification_available": true
@@ -43139,7 +43218,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 14,
+      "fail_streak": 15,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43157,7 +43236,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:00:47.875Z",
+      "last_checked": "2026-10-22T08:44:09.318Z",
       "last_seen": "2026-03-29T05:27:13.385Z",
       "sponsored": false,
       "verification_available": true
@@ -43195,7 +43274,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 85,
+      "fail_streak": 86,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43228,7 +43307,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:00:50.026Z",
+      "last_checked": "2026-10-22T08:44:11.294Z",
       "last_seen": "2026-02-18T05:09:55.123Z",
       "sponsored": false,
       "verification_available": true
@@ -43358,12 +43437,12 @@
       "name": "domain.method",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43371,7 +43450,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:00:51.878Z",
+      "last_checked": "2026-10-22T08:44:13.387Z",
       "last_seen": "2026-10-17T07:55:39.200Z",
       "sponsored": false,
       "verification_available": true
@@ -43427,12 +43506,12 @@
       "name": "domains.page",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43440,7 +43519,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:00:53.882Z",
+      "last_checked": "2026-10-22T08:44:15.296Z",
       "last_seen": "2026-10-17T07:55:41.292Z",
       "sponsored": false,
       "verification_available": true
@@ -43450,12 +43529,12 @@
       "name": "domains.runtime",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43463,7 +43542,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:00:55.934Z",
+      "last_checked": "2026-10-22T08:44:17.334Z",
       "last_seen": "2026-10-17T07:55:43.258Z",
       "sponsored": false,
       "verification_available": true
@@ -43685,7 +43764,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -43693,7 +43772,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T09:00:57.884Z",
+      "last_checked": "2026-10-22T08:44:19.297Z",
       "last_seen": "2026-10-15T08:26:37.916Z",
       "sponsored": false,
       "verification_available": true
@@ -44255,7 +44334,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 40,
+      "fail_streak": 41,
       "evidence": [
         {
           "kind": "github_hit",
@@ -44268,7 +44347,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T09:00:59.999Z",
+      "last_checked": "2026-10-22T08:44:21.309Z",
       "last_seen": "2026-02-16T05:15:28.205Z",
       "sponsored": false,
       "verification_available": true
@@ -44757,7 +44836,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 56,
+      "fail_streak": 57,
       "evidence": [
         {
           "kind": "github_hit",
@@ -44770,7 +44849,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:02.341Z",
+      "last_checked": "2026-10-22T08:44:23.314Z",
       "last_seen": "2026-03-28T05:10:12.718Z",
       "sponsored": false,
       "verification_available": true
@@ -44813,7 +44892,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 54,
+      "fail_streak": 55,
       "evidence": [
         {
           "kind": "github_hit",
@@ -44826,7 +44905,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:03.939Z",
+      "last_checked": "2026-10-22T08:44:25.325Z",
       "last_seen": "2026-03-28T05:10:14.883Z",
       "sponsored": false,
       "verification_available": true
@@ -44864,7 +44943,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 52,
+      "fail_streak": 53,
       "evidence": [
         {
           "kind": "github_hit",
@@ -44877,7 +44956,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:06.021Z",
+      "last_checked": "2026-10-22T08:44:27.324Z",
       "last_seen": "2026-03-28T05:10:16.881Z",
       "sponsored": false,
       "verification_available": true
@@ -44966,7 +45045,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -44974,7 +45053,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T09:01:07.947Z",
+      "last_checked": "2026-10-22T08:44:29.405Z",
       "last_seen": "2026-10-15T08:27:01.601Z",
       "sponsored": false,
       "verification_available": true
@@ -45173,7 +45252,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45181,7 +45260,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-19T09:01:10.023Z",
+      "last_checked": "2026-10-22T08:44:31.413Z",
       "last_seen": "2026-10-15T08:27:03.599Z",
       "sponsored": false,
       "verification_available": true
@@ -45518,7 +45597,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45526,7 +45605,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T09:01:11.946Z",
+      "last_checked": "2026-10-22T08:44:33.336Z",
       "last_seen": "2026-10-15T08:27:05.522Z",
       "sponsored": false,
       "verification_available": true
@@ -45620,7 +45699,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 58,
+      "fail_streak": 59,
       "evidence": [
         {
           "kind": "github_hit",
@@ -45728,7 +45807,7 @@
           "url": "https://github.com/awlevin/typesafe-computer-use"
         }
       ],
-      "last_checked": "2026-10-19T09:01:13.892Z",
+      "last_checked": "2026-10-22T08:44:35.317Z",
       "last_seen": "2026-02-16T05:15:48.263Z",
       "sponsored": false,
       "verification_available": true
@@ -46018,12 +46097,12 @@
       "name": "esim-checkout.lib.ts",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46031,7 +46110,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-19T09:01:17.877Z",
+      "last_checked": "2026-10-22T08:44:37.288Z",
       "last_seen": "2026-10-17T07:56:05.302Z",
       "sponsored": false,
       "verification_available": true
@@ -46130,7 +46209,7 @@
           "url": "https://github.com/symbiotejs/symbiote.js"
         }
       ],
-      "last_checked": "2026-10-19T09:01:19.883Z",
+      "last_checked": "2026-10-22T08:44:39.394Z",
       "last_seen": "2026-08-05T06:09:18.159Z",
       "sponsored": false,
       "verification_available": true
@@ -46347,12 +46426,12 @@
       "name": "event-driven-without-monitor.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46360,7 +46439,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:01:21.989Z",
+      "last_checked": "2026-10-22T08:44:42.214Z",
       "last_seen": "2026-10-17T07:56:09.295Z",
       "sponsored": false,
       "verification_available": true
@@ -46536,12 +46615,12 @@
       "name": "events.jsonl",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46549,7 +46628,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:01:24.014Z",
+      "last_checked": "2026-10-22T08:44:43.394Z",
       "last_seen": "2026-10-17T07:56:11.371Z",
       "sponsored": false,
       "verification_available": true
@@ -46633,7 +46712,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 47,
+      "fail_streak": 48,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46646,7 +46725,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:26.007Z",
+      "last_checked": "2026-10-22T08:44:45.294Z",
       "last_seen": "2026-03-28T05:10:26.885Z",
       "sponsored": false,
       "verification_available": true
@@ -46661,7 +46740,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 47,
+      "fail_streak": 48,
       "evidence": [
         {
           "kind": "github_hit",
@@ -46674,7 +46753,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:27.938Z",
+      "last_checked": "2026-10-22T08:44:47.324Z",
       "last_seen": "2026-03-28T05:10:28.882Z",
       "sponsored": false,
       "verification_available": true
@@ -46793,7 +46872,7 @@
           "url": "https://github.com/captivus/chrome-agent"
         }
       ],
-      "last_checked": "2026-10-19T09:01:29.940Z",
+      "last_checked": "2026-10-22T08:44:49.317Z",
       "last_seen": "2026-02-16T05:15:54.308Z",
       "sponsored": false,
       "verification_available": true
@@ -47033,7 +47112,7 @@
           "url": "https://github.com/aptos-labs/explorer"
         }
       ],
-      "last_checked": "2026-10-19T09:01:31.881Z",
+      "last_checked": "2026-10-22T08:44:51.289Z",
       "last_seen": "2026-05-01T06:29:28.988Z",
       "sponsored": false,
       "verification_available": true
@@ -47048,7 +47127,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 17,
+      "fail_streak": 18,
       "evidence": [
         {
           "kind": "github_hit",
@@ -47056,7 +47135,7 @@
           "url": "https://github.com/aptos-labs/explorer"
         }
       ],
-      "last_checked": "2026-10-19T09:01:33.972Z",
+      "last_checked": "2026-10-22T08:44:53.471Z",
       "last_seen": "2026-05-01T06:29:31.062Z",
       "sponsored": false,
       "verification_available": true
@@ -47181,12 +47260,12 @@
       "name": "extra.authinfo",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -47194,7 +47273,7 @@
           "url": "https://github.com/vercel-labs/mcp-handler"
         }
       ],
-      "last_checked": "2026-10-19T09:01:35.861Z",
+      "last_checked": "2026-10-22T08:44:55.279Z",
       "last_seen": "2026-10-17T07:56:23.174Z",
       "sponsored": false,
       "verification_available": true
@@ -47636,7 +47715,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:37.883Z",
+      "last_checked": "2026-10-22T08:44:57.312Z",
       "last_seen": "2026-03-28T05:10:45.272Z",
       "sponsored": false,
       "verification_available": true
@@ -48162,12 +48241,12 @@
       "name": "fieldvalue.committed",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -48175,7 +48254,7 @@
           "url": "https://github.com/Idk507/PaperPilot"
         }
       ],
-      "last_checked": "2026-10-19T09:01:40.342Z",
+      "last_checked": "2026-10-22T08:44:59.526Z",
       "last_seen": "2026-10-17T07:56:27.730Z",
       "sponsored": false,
       "verification_available": true
@@ -48778,7 +48857,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 1,
+      "fail_streak": 2,
       "evidence": [
         {
           "kind": "github_hit",
@@ -48786,7 +48865,7 @@
           "url": "https://github.com/yigitkonur/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-07-10T07:01:57.296Z",
+      "last_checked": "2026-10-22T08:45:01.311Z",
       "last_seen": "2026-07-10T07:01:57.296Z",
       "sponsored": false,
       "verification_available": true
@@ -48809,7 +48888,7 @@
           "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-10-19T09:01:41.879Z",
+      "last_checked": "2026-10-22T08:45:03.294Z",
       "last_seen": "2026-10-17T07:56:29.220Z",
       "sponsored": false,
       "verification_available": true
@@ -48893,7 +48972,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -48906,7 +48985,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:44.087Z",
+      "last_checked": "2026-10-22T08:45:05.455Z",
       "last_seen": "2026-03-30T05:40:07.600Z",
       "sponsored": false,
       "verification_available": true
@@ -48921,7 +49000,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 37,
+      "fail_streak": 38,
       "evidence": [
         {
           "kind": "github_hit",
@@ -48934,7 +49013,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:45.871Z",
+      "last_checked": "2026-10-22T08:45:07.410Z",
       "last_seen": "2026-03-30T05:40:09.622Z",
       "sponsored": false,
       "verification_available": true
@@ -48949,7 +49028,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 36,
+      "fail_streak": 37,
       "evidence": [
         {
           "kind": "github_hit",
@@ -48962,7 +49041,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:48.009Z",
+      "last_checked": "2026-10-22T08:45:09.400Z",
       "last_seen": "2026-03-30T05:40:11.618Z",
       "sponsored": false,
       "verification_available": true
@@ -49128,7 +49207,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:01:49.930Z",
+      "last_checked": "2026-10-22T08:45:11.317Z",
       "last_seen": "2026-09-24T08:35:44.015Z",
       "sponsored": false,
       "verification_available": true
@@ -49235,7 +49314,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 6,
+      "fail_streak": 7,
       "evidence": [
         {
           "kind": "github_hit",
@@ -49243,7 +49322,7 @@
           "url": "https://github.com/forter/agentic-readiness-guide"
         }
       ],
-      "last_checked": "2026-10-19T09:01:52.883Z",
+      "last_checked": "2026-10-22T08:45:13.445Z",
       "last_seen": "2026-07-14T05:46:38.614Z",
       "sponsored": false,
       "verification_available": true
@@ -49263,10 +49342,10 @@
         {
           "type": "well_known",
           "url": "https://forter.com/.well-known/mcp.json",
-          "last_success": "2026-10-19T09:01:53.906Z"
+          "last_success": "2026-10-22T08:45:15.308Z"
         }
       ],
-      "last_verified_success": "2026-10-19T09:01:53.906Z",
+      "last_verified_success": "2026-10-22T08:45:15.308Z",
       "fail_streak": 0,
       "evidence": [
         {
@@ -49285,8 +49364,8 @@
           "url": "https://forter.com/"
         }
       ],
-      "last_checked": "2026-10-19T09:01:53.906Z",
-      "last_seen": "2026-10-19T09:01:53.906Z",
+      "last_checked": "2026-10-22T08:45:15.308Z",
+      "last_seen": "2026-10-22T08:45:15.308Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -49714,7 +49793,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -49722,7 +49801,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-10-19T09:01:55.959Z",
+      "last_checked": "2026-10-22T08:45:17.395Z",
       "last_seen": "2026-04-20T05:51:48.007Z",
       "sponsored": false,
       "verification_available": true
@@ -49824,12 +49903,12 @@
       "name": "gaps.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -49837,7 +49916,7 @@
           "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-10-19T09:01:57.908Z",
+      "last_checked": "2026-10-22T08:45:19.305Z",
       "last_seen": "2026-10-17T07:56:45.487Z",
       "sponsored": false,
       "verification_available": true
@@ -50723,7 +50802,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T09:02:00.042Z",
+      "last_checked": "2026-10-22T08:45:21.410Z",
       "last_seen": "2026-10-17T07:56:47.635Z",
       "sponsored": false,
       "verification_available": true
@@ -50784,7 +50863,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 30,
+      "fail_streak": 31,
       "evidence": [
         {
           "kind": "github_hit",
@@ -50797,7 +50876,7 @@
           "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-10-19T09:02:02.084Z",
+      "last_checked": "2026-10-22T08:45:23.386Z",
       "last_seen": "2026-03-30T05:40:37.504Z",
       "sponsored": false,
       "verification_available": true
@@ -50922,12 +51001,12 @@
       "name": "gmail-local-setup.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -50935,7 +51014,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T09:02:03.976Z",
+      "last_checked": "2026-10-22T08:45:25.332Z",
       "last_seen": "2026-10-17T07:56:51.631Z",
       "sponsored": false,
       "verification_available": true
@@ -50968,7 +51047,7 @@
           "url": "https://github.com/MiguelsPizza/WebMCP"
         }
       ],
-      "last_checked": "2026-10-19T09:02:06.037Z",
+      "last_checked": "2026-10-22T08:45:27.407Z",
       "last_seen": "2026-02-16T05:16:20.348Z",
       "sponsored": false,
       "verification_available": true
@@ -50978,12 +51057,12 @@
       "name": "gmail.md",
       "type": [],
       "confidence": 30,
-      "status": "unverified",
+      "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 2,
+      "fail_streak": 3,
       "evidence": [
         {
           "kind": "github_hit",
@@ -50991,7 +51070,7 @@
           "url": "https://github.com/choyiny/saasmail"
         }
       ],
-      "last_checked": "2026-10-19T09:02:08.250Z",
+      "last_checked": "2026-10-22T08:45:29.679Z",
       "last_seen": "2026-10-17T07:56:55.927Z",
       "sponsored": false,
       "verification_available": true
@@ -51006,7 +51085,7 @@
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 20,
+      "fail_streak": 21,
       "evidence": [
         {
           "kind": "github_hit",
@@ -51024,7 +51103,7 @@
           "url": "https://github.com/koala73/worldmonitor"
         }
       ],
-      "last_checked": "2026-10-19T09:02:10.329Z",
+      "last_checked": "2026-10-22T08:45:31.428Z",
       "last_seen": "2026-04-02T05:20:21.683Z",
       "sponsored": false,
       "verification_available": true
@@ -51112,13 +51191,13 @@
       "domain": "googlechromelabs.github.io",
       "name": "googlechromelabs.github.io",
       "type": [],
-      "confidence": 60,
+      "confidence": 90,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 3,
+      "fail_streak": 4,
       "evidence": [
         {
           "kind": "github_hit",
@@ -51129,9 +51208,14 @@
           "kind": "github_hit",
           "detail": "repo: nathan-gage/webmcp-bridge",
           "url": "https://github.com/nathan-gage/webmcp-bridge"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: webfuse-com/awesome-webmcp",
+          "url": "https://github.com/webfuse-com/awesome-webmcp"
         }
       ],
-      "last_checked": "2026-04-20T05:52:05.617Z",
+      "last_checked": "2026-10-22T08:45:37.389Z",
       "last_seen": "2026-02-16T05:16:24.275Z",
       "sponsored": false,
       "verification_available": true
@@ -51225,6 +51309,52 @@
       ],
       "last_checked": "2026-07-18T05:42:15.773Z",
       "last_seen": "2026-07-14T05:47:13.338Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "graph.png",
+      "name": "graph.png",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: judegomila/OnCo",
+          "url": "https://github.com/judegomila/OnCo"
+        }
+      ],
+      "last_checked": "2026-10-22T08:45:38.402Z",
+      "last_seen": "2026-10-22T08:45:38.402Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "graph.ts",
+      "name": "graph.ts",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: judegomila/OnCo",
+          "url": "https://github.com/judegomila/OnCo"
+        }
+      ],
+      "last_checked": "2026-10-22T08:45:40.442Z",
+      "last_seen": "2026-10-22T08:45:40.442Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -51370,8 +51500,8 @@
       "domain": "guide.md",
       "name": "guide.md",
       "type": [],
-      "confidence": 30,
-      "status": "unverified",
+      "confidence": 60,
+      "status": "likely",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
@@ -51382,9 +51512,14 @@
           "kind": "github_hit",
           "detail": "repo: escapeboy/ai-prompts",
           "url": "https://github.com/escapeboy/ai-prompts"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/claude-code-kit",
+          "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-07-14T05:47:17.261Z",
+      "last_checked": "2026-10-22T08:45:42.420Z",
       "last_seen": "2026-03-30T05:40:47.542Z",
       "sponsored": false,
       "verification_available": true
@@ -51623,21 +51758,26 @@
       "domain": "headless-review-fanout-guide.md",
       "name": "headless-review-fanout-guide.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: escapeboy/ai-prompts",
           "url": "https://github.com/escapeboy/ai-prompts"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/claude-code-kit",
+          "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-07-14T05:47:23.286Z",
+      "last_checked": "2026-10-22T08:45:44.474Z",
       "last_seen": "2026-07-02T06:57:47.220Z",
       "sponsored": false,
       "verification_available": true
@@ -51692,21 +51832,26 @@
       "domain": "heartbeat-template.md",
       "name": "heartbeat-template.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 5,
+      "fail_streak": 6,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: escapeboy/ai-prompts",
           "url": "https://github.com/escapeboy/ai-prompts"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/claude-code-kit",
+          "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-07-14T05:47:25.430Z",
+      "last_checked": "2026-10-22T08:45:46.443Z",
       "last_seen": "2026-07-02T06:57:49.278Z",
       "sponsored": false,
       "verification_available": true
@@ -51835,21 +51980,26 @@
       "domain": "home.png",
       "name": "home.png",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
       "proof": [],
       "last_verified_success": null,
-      "fail_streak": 9,
+      "fail_streak": 10,
       "evidence": [
         {
           "kind": "github_hit",
           "detail": "repo: JayantDevkar/claude-code-karma",
           "url": "https://github.com/JayantDevkar/claude-code-karma"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: judegomila/OnCo",
+          "url": "https://github.com/judegomila/OnCo"
         }
       ],
-      "last_checked": "2026-04-13T05:55:08.472Z",
+      "last_checked": "2026-10-22T08:45:48.396Z",
       "last_seen": "2026-03-30T05:40:51.473Z",
       "sponsored": false,
       "verification_available": true
@@ -51897,6 +52047,29 @@
       ],
       "last_checked": "2026-05-10T06:24:28.833Z",
       "last_seen": "2026-05-08T05:41:37.402Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "hooks.md",
+      "name": "hooks.md",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: Idk507/PaperPilot",
+          "url": "https://github.com/Idk507/PaperPilot"
+        }
+      ],
+      "last_checked": "2026-10-22T08:45:50.405Z",
+      "last_seen": "2026-10-22T08:45:50.405Z",
       "sponsored": false,
       "verification_available": true
     },
@@ -52356,7 +52529,7 @@
       "domain": "i18n.md",
       "name": "i18n.md",
       "type": [],
-      "confidence": 30,
+      "confidence": 60,
       "status": "dead",
       "verification_status": "unverified",
       "verification_method": null,
@@ -52368,9 +52541,14 @@
           "kind": "github_hit",
           "detail": "repo: escapeboy/ai-prompts",
           "url": "https://github.com/escapeboy/ai-prompts"
+        },
+        {
+          "kind": "github_hit",
+          "detail": "repo: escapeboy/claude-code-kit",
+          "url": "https://github.com/escapeboy/claude-code-kit"
         }
       ],
-      "last_checked": "2026-07-14T05:47:33.365Z",
+      "last_checked": "2026-10-22T08:45:52.814Z",
       "last_seen": "2026-03-30T05:40:59.483Z",
       "sponsored": false,
       "verification_available": true
@@ -52395,6 +52573,52 @@
       ],
       "last_checked": "2026-07-14T05:47:35.437Z",
       "last_seen": "2026-07-14T05:47:35.437Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ikuyo.kenrick95.org",
+      "name": "ikuyo.kenrick95.org",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 0,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: kenrick95/ikuyo",
+          "url": "https://github.com/kenrick95/ikuyo"
+        }
+      ],
+      "last_checked": "2026-10-22T08:45:54.472Z",
+      "last_seen": "2026-10-22T08:45:54.472Z",
+      "sponsored": false,
+      "verification_available": true
+    },
+    {
+      "domain": "ikuyo.kenrick95.org`",
+      "name": "ikuyo.kenrick95.org`",
+      "type": [],
+      "confidence": 30,
+      "status": "unverified",
+      "verification_status": "unverified",
+      "verification_method": null,
+      "proof": [],
+      "last_verified_success": null,
+      "fail_streak": 1,
+      "evidence": [
+        {
+          "kind": "github_hit",
+          "detail": "repo: kenrick95/ikuyo",
+          "url": "https://github.com/kenrick95/ikuyo"
+        }
+      ],
+      "last_checked": "2026-10-22T08:45:56.709Z",
+      "last_seen": "2026-10-22T08:45:56.709Z",
       "sponsored": false,
       "verification_available": true
     },
