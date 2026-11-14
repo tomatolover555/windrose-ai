@@ -30,7 +30,7 @@ Rules to remember:
 - `postType` defines article structure, not automatic monetization.
 - `commercialIntent` is explicit.
 - `hasAffiliateLinks` is explicit.
-- The inline affiliate disclosure appears only when affiliate metadata is present.
+- The inline affiliate disclosure appears only when an enrolled program in `content/affiliates.json` has `status: active` and an `https` URL. Empty or `todo` programs are not linked.
 - Monetizable formats like `comparison`, `tools-list`, and `implementation-guide` do not automatically become affiliate posts.
 - If affiliate metadata is absent, no disclosure snippet is shown.
 
@@ -102,10 +102,10 @@ npx tsx scripts/generate-post.ts \
   --post-type=tools-list \
   --commercial \
   --affiliate \
-  --affiliate-programs=example-program,sample-vendor
+  --affiliate-programs=base44
 ```
 
-Expected emitted metadata:
+Expected emitted metadata when `base44` is still `status: todo` or has an empty URL:
 
 ```yaml
 postType: "tools-list"
@@ -114,13 +114,9 @@ eligibleModules:
   - "recommended-tools"
   - "resource-box"
 affiliate_links: []
-hasAffiliateLinks: true
-affiliatePrograms:
-  - "example-program"
-  - "sample-vendor"
 ```
 
 Notes:
-- Affiliate disclosure will render because `hasAffiliateLinks: true` is present.
-- `affiliate_links` remains available for compatibility.
-- The program slugs are placeholders only.
+- `hasAffiliateLinks` and `affiliatePrograms` are omitted until the program URL is real and `status` is `active`.
+- Do not use placeholder program ids such as `example-program`.
+- Published links use `rel="sponsored nofollow"`.

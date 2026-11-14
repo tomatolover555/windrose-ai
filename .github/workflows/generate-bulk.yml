@@ -1,5 +1,8 @@
 name: Bulk Generate Blog Posts
 
+# Manual only, and it spends OpenAI credits before pushing to main.
+# The normal publishing path is a pull request, not this workflow.
+
 on:
   workflow_dispatch:
     inputs:

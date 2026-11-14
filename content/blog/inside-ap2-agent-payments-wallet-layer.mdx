@@ -4,7 +4,7 @@ title: >-
   Layer
 slug: inside-ap2-agent-payments-wallet-layer
 date: '2026-05-15'
-updated: '2026-05-15'
+updated: '2026-11-14'
 summary: >-
   A practical incident-style look at AP2’s cryptographic authorization model and
   how Cobo Agentic Wallet moves payment control from the app into infrastructure
@@ -72,6 +72,8 @@ agent_context:
     - /blog/payment-authorization-hard-part-agentic-commerce-2026
 postType: news
 ---
+
+*An earlier post on AP2 and x402 across Web2 and Web3 covered the same Cobo wallet account. That URL now redirects here.*
 
 Last week I kept coming back to the same failure mode: an agent could find the right thing to buy, but it had no durable way to prove it was allowed to spend. In one flow, that meant a model could identify a coworking day pass, a data API, and a budget top-up in the same session — but the wallet still had to decide whether those were actually authorized. That is the part AP2 is trying to fix, and it is why the Cobo guide matters: it treats payment authorization as a cryptographic problem, not a prompt problem, and it pushes enforcement into the wallet layer instead of leaving it inside the app.
 

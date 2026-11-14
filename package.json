@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "scan:webmcp": "tsx scripts/scan_webmcp_directory.ts",
+    "test": "node scripts/check-content.mjs",
     "test:smoke": "node scripts/smoke-test.js"
   },
   "dependencies": {
