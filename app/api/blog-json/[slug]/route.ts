@@ -1,12 +1,7 @@
 import { NextResponse } from "next/server";
-import { getPostBySlug } from "@/lib/blog";
-
-function normalizeRelatedSlug(value: string): string {
-  return value
-    .trim()
-    .replace(/^\/blog\//, "")
-    .replace(/\.(mdx|md)$/, "");
-}
+import { affiliateLinksForPost } from "@/lib/affiliates";
+import { getPostBySlug, getRelatedPosts } from "@/lib/blog";
+import { author } from "@/lib/site";
 
 function parseHeadings(content: string) {
   return content
@@ -34,16 +29,12 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 });
   }
 
-  const relatedPosts = [...new Set((post.agent_context?.related ?? []).map(normalizeRelatedSlug))]
-    .filter((relatedSlug) => relatedSlug && relatedSlug !== post.slug)
-    .map((relatedSlug) => {
-      const relatedPost = getPostBySlug(relatedSlug);
-      return {
-        title: relatedPost?.title ?? null,
-        slug: relatedSlug,
-        url: `https://windrose-ai.com/blog/${relatedSlug}`,
-      };
-    });
+  const relatedPosts = getRelatedPosts(post).map((related) => ({
+    title: related.title,
+    slug: related.slug,
+    url: `https://windrose-ai.com/blog/${related.slug}`,
+  }));
+  const affiliatePrograms = affiliateLinksForPost(post).map((program) => program.id);
 
   return NextResponse.json(
     {
@@ -56,14 +47,15 @@ export async function GET(
       publishedAt: post.date,
       updatedAt: post.updated ?? null,
       summary: post.summary,
+      author: author.name,
       contentMarkdown: post.content,
       headings: parseHeadings(post.content),
       tags: post.tags ?? [],
       category: post.category ?? null,
       postType: post.postType ?? null,
       commercialIntent: post.commercialIntent === true ? true : null,
-      hasAffiliateLinks: post.hasAffiliateLinks === true,
-      affiliatePrograms: post.affiliatePrograms ?? [],
+      hasAffiliateLinks: affiliatePrograms.length > 0,
+      affiliatePrograms,
       eligibleModules: post.eligibleModules ?? [],
       relatedPosts,
     },

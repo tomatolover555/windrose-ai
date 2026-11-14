@@ -1,6 +1,18 @@
 import type { NextConfig } from "next";
+import { POST_REDIRECTS } from "./lib/redirects";
+
+const consolidatedPostRedirects = Object.entries(POST_REDIRECTS).flatMap(([from, to]) =>
+  ["", ".md", ".json"].map((suffix) => ({
+    source: `/blog/${from}${suffix}`,
+    destination: `/blog/${to}${suffix}`,
+    permanent: true,
+  }))
+);
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return consolidatedPostRedirects;
+  },
   async headers() {
     return [
       {

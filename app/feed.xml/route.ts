@@ -1,8 +1,9 @@
 import { getAllPosts } from "@/lib/blog";
+import { author, site } from "@/lib/site";
 
-const SITE_TITLE = "Windrose AI";
-const SITE_URL = "https://windrose-ai.com";
-const SITE_DESCRIPTION = "Thinking about the agentic web.";
+const SITE_TITLE = site.name;
+const SITE_URL = site.url;
+const SITE_DESCRIPTION = site.description;
 
 function escapeXml(str: string): string {
   return str
@@ -24,12 +25,14 @@ export async function GET() {
       <guid isPermaLink="true">${SITE_URL}/blog/${post.slug}</guid>
       <description>${escapeXml(post.summary)}</description>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
+      <category>${escapeXml(post.category || "")}</category>
+      <dc:creator>${escapeXml(author.name)}</dc:creator>
     </item>`
     )
     .join("\n");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>${escapeXml(SITE_TITLE)}</title>
     <link>${SITE_URL}</link>

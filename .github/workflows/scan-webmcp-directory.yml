@@ -2,7 +2,12 @@ name: Scan WebMCP Directory
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    # Weekly, Monday 03:17 UTC.
+    # /api/directory/webmcp/snapshot reads data/webmcp_directory.json from the
+    # deployed build, so this commit must still produce a Vercel deploy.
+    # Skipping the build (an ignored-build step) would freeze the live directory
+    # until the next unrelated deploy. Daily freshness is not required.
+    - cron: "17 3 * * 1"
   workflow_dispatch: {}
 
 permissions:

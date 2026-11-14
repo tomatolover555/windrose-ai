@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { POST_REDIRECTS } from "./lib/redirects";
 
 export const config = {
   matcher: ["/dashboard", "/blog/:slug*.md", "/blog/:slug*.json"],
@@ -21,6 +22,10 @@ export function proxy(req: NextRequest) {
   const mdMatch = pathname.match(/^\/blog\/(.+)\.md$/);
   if (mdMatch) {
     const slug = mdMatch[1];
+    const target = POST_REDIRECTS[slug];
+    if (target) {
+      return NextResponse.redirect(new URL(`/blog/${target}.md`, req.url), 308);
+    }
     return NextResponse.rewrite(new URL(`/api/blog-markdown/${slug}`, req.url));
   }
 
@@ -30,6 +35,10 @@ export function proxy(req: NextRequest) {
     const slug = jsonMatch[1];
     if (slug === "agent") {
       return NextResponse.next();
+    }
+    const target = POST_REDIRECTS[slug];
+    if (target) {
+      return NextResponse.redirect(new URL(`/blog/${target}.json`, req.url), 308);
     }
     return NextResponse.rewrite(new URL(`/api/blog-json/${slug}`, req.url));
   }

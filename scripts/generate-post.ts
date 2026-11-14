@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import OpenAI from "openai";
 import matter from "gray-matter";
+import { activeAffiliatePrograms } from "../lib/affiliates";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -345,27 +346,49 @@ function resolvePostTaxonomy(input: {
   };
 }
 
+function stripPlaceholderAffiliateUrls(mdx: string): string {
+  return mdx
+    .replaceAll("https://vercel.com/referral/windrose", "https://vercel.com")
+    .replaceAll("https://www.printful.com/a/windrose", "https://www.printful.com")
+    .replaceAll("https://openrouter.ai/?ref=windrose", "https://openrouter.ai");
+}
+
 function applyAffiliateMetadata(
   mdx: string,
   policy: AffiliatePolicy
 ): string {
   try {
-    const parsed = matter(mdx);
+    const parsed = matter(stripPlaceholderAffiliateUrls(mdx));
+    const active = activeAffiliatePrograms();
+    const activeIds = new Set(active.map((program) => program.id));
+    const allowedUrls = new Set(active.map((program) => program.url));
+    const requested = policy.affiliatePrograms.filter((id) => activeIds.has(id));
 
-    if (!Array.isArray(parsed.data.affiliate_links)) {
-      parsed.data.affiliate_links = [];
+    const rawLinks = Array.isArray(parsed.data.affiliate_links) ? parsed.data.affiliate_links : [];
+    const links = rawLinks.filter((link) => {
+      if (!link || typeof link !== "object") return false;
+      const url = (link as { url?: unknown }).url;
+      return typeof url === "string" && allowedUrls.has(url);
+    });
+
+    for (const program of active) {
+      if (!requested.includes(program.id)) continue;
+      if (links.some((link) => (link as { url?: string }).url === program.url)) continue;
+      links.push({ label: program.name, url: program.url, context: program.note ?? program.id });
     }
 
-    if (policy.hasAffiliateLinks) {
+    const publishAffiliates = policy.hasAffiliateLinks && (links.length > 0 || requested.length > 0);
+    parsed.data.affiliate_links = publishAffiliates ? links : [];
+
+    if (publishAffiliates) {
       parsed.data.hasAffiliateLinks = true;
-      if (policy.affiliatePrograms.length > 0) {
-        parsed.data.affiliatePrograms = policy.affiliatePrograms;
-      } else {
-        delete parsed.data.affiliatePrograms;
-      }
+      parsed.data.affiliatePrograms = requested;
     } else {
       delete parsed.data.hasAffiliateLinks;
       delete parsed.data.affiliatePrograms;
+      if (policy.hasAffiliateLinks) {
+        console.warn("  Affiliate flag ignored: no enrolled program has a tracking URL.");
+      }
     }
 
     return matter.stringify(parsed.content, parsed.data);
@@ -470,7 +493,7 @@ NON-NEGOTIABLE RULES:
 PET PEEVES TO AVOID: ${voice.pet_peeves.join("; ")}
 
 Output ONLY the complete MDX file starting with ---. Include:
-1. Full frontmatter with these fields: title, slug (${slug}), date (${today}), updated (${today}), summary, tags, category (${category}), audience (${JSON.stringify(audience)}), affiliate_links (array, empty if none relevant), reading_time_minutes (integer estimate), human_url (/blog/${slug}), agent_url (/blog/${slug}.md), canonical (https://windrose-ai.com/blog/${slug})
+1. Full frontmatter with these fields: title, slug (${slug}), date (${today}), updated (${today}), summary, tags, category (${category}), audience (${JSON.stringify(audience)}), affiliate_links (always an empty array — do not invent affiliate, referral, or tracking URLs), reading_time_minutes (integer estimate), human_url (/blog/${slug}), agent_url (/blog/${slug}.md), canonical (https://windrose-ai.com/blog/${slug})
    IMPORTANT: ALL string values in frontmatter (title, summary, etc.) MUST be wrapped in double quotes.
 2. agent_context YAML block (as part of frontmatter) with:
    - key_claims: list of 3-5 specific factual claims

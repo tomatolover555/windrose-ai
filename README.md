@@ -200,6 +200,16 @@ Body:
 
 Submissions are queued for review and are not auto-approved.
 
+## Blog
+
+Posts live in `content/blog` and are published by pull request, about once a week. The OpenAI generator (`scripts/generate-post.ts`) is manual only (`workflow_dispatch` on `.github/workflows/generate-post.yml`). Its schedule is off.
+
+The WebMCP directory scan commits `data/webmcp_directory.json` weekly. That commit still redeploys the site, because `GET /api/directory/webmcp/snapshot` reads the file from the build. An ignored Vercel build for that path would freeze the live directory until the next unrelated deploy.
+
+Author name and biography: `lib/site.ts` (`author`). Affiliate programs: `content/affiliates.json`. Leave `url` empty and `status` at `todo` until the tracking link is real, then set `status` to `active`. Published affiliate links use `rel="sponsored nofollow"`.
+
+Consolidated post URLs: `content/post-redirects.json` (permanent redirects).
+
 ## Local Development
 
 ```bash

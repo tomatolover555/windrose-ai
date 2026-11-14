@@ -1,146 +1,95 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { StaticPage } from "@/app/blog/_components/static-page";
+import { AFFILIATE_LINK_REL, loadAffiliatePrograms } from "@/lib/affiliates";
+import { site } from "@/lib/site";
+
+const description =
+  "Which affiliate programs Windrose AI is enrolled in, which links are published, and how editorial choices stay independent of commissions.";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — Windrose AI",
-  description:
-    "Affiliate Disclosure for Windrose AI, including how affiliate links are used and how editorial independence is maintained.",
-  alternates: {
-    canonical: "https://windrose-ai.com/blog/affiliate-disclosure",
+  title: `Affiliate disclosure — ${site.name}`,
+  description,
+  alternates: { canonical: `${site.url}/blog/affiliate-disclosure` },
+  openGraph: {
+    title: "Affiliate disclosure",
+    description,
+    url: `${site.url}/blog/affiliate-disclosure`,
+    siteName: site.name,
+    type: "website",
+    images: [{ url: site.ogImage, alt: site.name }],
   },
 };
 
 export default function AffiliateDisclosurePage() {
+  const programs = loadAffiliatePrograms();
+  const linked = programs.filter((program) => program.status === "active" && program.url.startsWith("https://"));
+  const pending = programs.filter((program) => !linked.includes(program));
+
   return (
-    <article className="max-w-[680px] mx-auto">
-      <h1
-        style={{
-          fontFamily: "Georgia, 'Times New Roman', serif",
-          fontWeight: "700",
-          fontSize: "2rem",
-          lineHeight: "1.2",
-          color: "#1b3a6b",
-          marginBottom: "1.5rem",
-          letterSpacing: "-0.01em",
-        }}
-      >
-        Affiliate Disclosure
-      </h1>
+    <StaticPage title="Affiliate disclosure" description={description} path="/blog/affiliate-disclosure">
+      <p>
+        Windrose AI sometimes recommends tools. When a recommendation is also an enrolled affiliate
+        program, the link is marked and uses <code>rel=&quot;{AFFILIATE_LINK_REL}&quot;</code>. A
+        purchase or signup through that link may earn the publication a commission, at no extra
+        price to you.
+      </p>
 
-      <div
-        style={{
-          fontFamily: "Georgia, 'Times New Roman', serif",
-          fontSize: "1rem",
-          lineHeight: "1.7",
-          color: "#3a3a3a",
-        }}
-      >
-        <p style={{ margin: "0 0 1.25rem 0" }}>Windrose AI may participate in affiliate programs.</p>
+      <h2>Programs</h2>
+      {linked.length === 0 ? (
+        <p>No affiliate tracking URL is published on this site right now.</p>
+      ) : (
+        <ul>
+          {linked.map((program) => (
+            <li key={program.id}>
+              <a href={program.url} rel={AFFILIATE_LINK_REL}>
+                {program.name}
+              </a>
+              {program.network ? ` via ${program.network}` : ""}
+            </li>
+          ))}
+        </ul>
+      )}
+      {pending.length > 0 ? (
+        <>
+          <p>Approved, but not linked until a tracking URL is added to the affiliate config:</p>
+          <ul>
+            {pending.map((program) => (
+              <li key={program.id}>
+                <strong>{program.name}</strong>
+                {program.network ? ` via ${program.network}` : ""}.{" "}
+                {program.note ?? "Tracking URL not published."}
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
 
-        <p style={{ margin: "0 0 1.25rem 0" }}>
-          This means that some links on this site may be affiliate links. If you click one of those
-          links and later make a purchase or sign up for a service, Windrose AI may earn a
-          commission at no additional cost to you.
-        </p>
+      <h2>What is not an affiliate link</h2>
+      <p>
+        A mention of a company, a link to documentation, or a citation is not an affiliate link
+        unless it is one of the enrolled URLs above. Placeholder and example referral URLs are not
+        used.
+      </p>
 
-        <h2
-          style={{
-            fontSize: "1.35rem",
-            lineHeight: "1.35",
-            color: "#1b3a6b",
-            margin: "2rem 0 0.75rem 0",
-            fontWeight: 700,
-          }}
-        >
-          Why this exists
-        </h2>
-        <p style={{ margin: "0 0 1.25rem 0" }}>
-          Affiliate commissions can help support the operation of Windrose AI and the continued
-          publication of free content about agents, tools, APIs, and the emerging agent-native web.
-        </p>
+      <h2>Editorial independence</h2>
+      <p>
+        A commission does not decide what gets published or how a product is described. The blog
+        can write about competitors, free tools, and products with no affiliate program. Sponsored
+        or paid placement, if it ever happens, will be labeled on that page. Ordinary posts are not
+        paid placement.
+      </p>
 
-        <h2
-          style={{
-            fontSize: "1.35rem",
-            lineHeight: "1.35",
-            color: "#1b3a6b",
-            margin: "2rem 0 0.75rem 0",
-            fontWeight: 700,
-          }}
-        >
-          How we use affiliate links
-        </h2>
-        <p style={{ margin: "0 0 1.25rem 0" }}>
-          We aim to include affiliate links only where they are contextually relevant and
-          potentially useful to readers. Not every tool we mention will be an affiliate partner,
-          and not every affiliate partner will be mentioned.
-        </p>
+      <h2>Not professional advice</h2>
+      <p>
+        Posts are information for builders. Evaluate any product yourself before you depend on it.
+      </p>
 
-        <h2
-          style={{
-            fontSize: "1.35rem",
-            lineHeight: "1.35",
-            color: "#1b3a6b",
-            margin: "2rem 0 0.75rem 0",
-            fontWeight: 700,
-          }}
-        >
-          Editorial independence
-        </h2>
-        <p style={{ margin: "0 0 1.25rem 0" }}>
-          The existence of an affiliate relationship does <strong>not</strong> determine what we
-          write about or how we describe it. We may reference competing tools, non-affiliate tools,
-          or open alternatives when they better serve the topic.
-        </p>
-
-        <h2
-          style={{
-            fontSize: "1.35rem",
-            lineHeight: "1.35",
-            color: "#1b3a6b",
-            margin: "2rem 0 0.75rem 0",
-            fontWeight: 700,
-          }}
-        >
-          Not investment, legal, or professional advice
-        </h2>
-        <p style={{ margin: "0 0 1.25rem 0" }}>
-          Content on Windrose AI is provided for informational and educational purposes only. You
-          should evaluate any product, platform, or service independently before making a purchase
-          or relying on it in production.
-        </p>
-
-        <h2
-          style={{
-            fontSize: "1.35rem",
-            lineHeight: "1.35",
-            color: "#1b3a6b",
-            margin: "2rem 0 0.75rem 0",
-            fontWeight: 700,
-          }}
-        >
-          Sponsored content
-        </h2>
-        <p style={{ margin: "0 0 1.25rem 0" }}>
-          Unless a page explicitly says otherwise, content on Windrose AI should not be treated as
-          sponsored content or paid placement.
-        </p>
-
-        <h2
-          style={{
-            fontSize: "1.35rem",
-            lineHeight: "1.35",
-            color: "#1b3a6b",
-            margin: "2rem 0 0.75rem 0",
-            fontWeight: 700,
-          }}
-        >
-          Contact
-        </h2>
-        <p style={{ margin: 0 }}>
-          For general site information, please use the pages and navigation available on Windrose
-          AI.
-        </p>
-      </div>
-    </article>
+      <p>
+        Questions about this policy are covered on the <Link href="/blog/contact">contact</Link> and{" "}
+        <Link href="/blog/privacy">privacy</Link> pages. Those pages do not publish a personal email
+        address.
+      </p>
+    </StaticPage>
   );
 }
