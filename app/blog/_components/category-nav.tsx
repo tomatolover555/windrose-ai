@@ -17,7 +17,7 @@ export function CategoryNav({ active = "all" }: { active?: string | null }) {
           aria-current={active === category.slug ? "page" : undefined}
         >
           {category.label}
-          <span style={{ marginLeft: "0.35rem", color: "#6b7f96" }}>{category.count}</span>
+          <span className="chip-count">{category.count}</span>
         </Link>
       ))}
     </nav>

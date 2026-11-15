@@ -22,12 +22,12 @@ export function StaticPage({
   ];
 
   return (
-    <article>
+    <article className="page-measure">
       <JsonLd data={webPageJsonLd({ title, description, path, type: pageType })} />
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs items={crumbs.map((crumb) => ({ name: crumb.name, href: crumb.path }))} />
-      <h1 className="blog-title">{title}</h1>
-      <div className="prose prose-windrose max-w-none">{children}</div>
+      <h1 className="page-title">{title}</h1>
+      <div className="prose prose-windrose">{children}</div>
     </article>
   );
 }

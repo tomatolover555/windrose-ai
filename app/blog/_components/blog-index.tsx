@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { CategoryNav } from "@/app/blog/_components/category-nav";
-import { categoryLabel, categoryPath, formatPostDate, type Post } from "@/lib/blog";
+import { FeaturedPost } from "@/components/featured-post";
+import { PostCard } from "@/components/post-card";
+import type { Post } from "@/lib/blog";
 
 type BlogIndexProps = {
   posts: Post[];
@@ -26,96 +28,79 @@ export function BlogIndex({
   const hasPrevious = currentPage > 1;
   const hasNext = currentPage < totalPages;
   const showSiteIntro = !title && currentPage === 1;
+  const feature = currentPage === 1 && posts.length > 0 ? posts[0] : null;
+  const gridPosts = feature ? posts.slice(1) : posts;
 
   return (
     <div>
-      {title ? <h1 className="blog-title">{title}</h1> : null}
-      {lede ? <p className="blog-lede">{lede}</p> : null}
-
       {showSiteIntro ? (
-        <div className="blog-intro">
+        <header className="index-intro">
+          <p className="eyebrow">Journal</p>
+          <h1 className="page-title">Blog</h1>
           <p>Windrose AI writes about how the agentic web actually works.</p>
           <p>Not the demos. Not the buzzwords.</p>
           <p>
             The real systems: protocols, APIs, trust layers, and the constraints that show up when
             software buys, authenticates, and fulfills on its own.
           </p>
-        </div>
-      ) : null}
+        </header>
+      ) : title ? (
+        <header className="index-intro">
+          <h1 className="page-title">{title}</h1>
+          {lede ? <p>{lede}</p> : null}
+        </header>
+      ) : (
+        <h1 className="page-title">Blog</h1>
+      )}
 
       <CategoryNav active={activeCategory} />
 
-      {posts.length === 0 ? (
-        <p style={{ color: "#6b7f96" }}>No posts yet.</p>
-      ) : (
-        <div>
-          {posts.map((post, index) => (
-            <article
-              key={post.slug}
-              style={{
-                padding: "1.5rem 0",
-                borderTop: index === 0 ? "none" : "1px dotted #ccc8bf",
-              }}
-            >
-              <p className="blog-kicker" style={{ margin: "0 0 0.4rem" }}>
-                <time dateTime={post.date}>{formatPostDate(post.date)}</time>
-                <span aria-hidden="true" style={{ margin: "0 0.45em", color: "#b8941e" }}>
-                  ★
-                </span>
-                <span>{post.reading_time_minutes} min read</span>
-                <span aria-hidden="true" style={{ margin: "0 0.45em", color: "#b8941e" }}>
-                  ★
-                </span>
-                <Link href={categoryPath(post.category)} style={{ color: "#1b3a6b" }}>
-                  {categoryLabel(post.category)}
-                </Link>
-              </p>
+      {posts.length === 0 ? <p className="empty">No posts yet.</p> : null}
 
-              <h2 className="blog-post-title">
-                <Link href={`/blog/${post.slug}`} style={{ color: "#1b3a6b", textDecoration: "none" }}>
-                  {post.title}
-                </Link>
+      {feature ? <FeaturedPost post={feature} /> : null}
+
+      {gridPosts.length > 0 ? (
+        <section aria-labelledby="more-posts">
+          {feature ? (
+            <div className="section-head">
+              <h2 id="more-posts" className="section-title">
+                More posts
               </h2>
+            </div>
+          ) : (
+            <h2 id="more-posts" className="sr-only">
+              Posts
+            </h2>
+          )}
+          <div className="post-grid">
+            {gridPosts.map((post) => (
+              <PostCard key={post.slug} post={post} heading={feature ? "h3" : "h2"} />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
-              <p style={{ margin: 0, fontSize: "1.02rem", lineHeight: 1.65 }}>{post.summary}</p>
-            </article>
-          ))}
-
-          {totalPages > 1 ? (
-            <nav
-              aria-label="Pagination"
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                gap: "1rem",
-                borderTop: "1px dotted #ccc8bf",
-                marginTop: "0.5rem",
-                paddingTop: "1.25rem",
-              }}
-              className="blog-kicker"
-            >
-              <div>
-                {hasPrevious ? (
-                  <Link href={getPageHref(currentPage - 1)} rel="prev" style={{ color: "#1b3a6b" }}>
-                    ← Previous
-                  </Link>
-                ) : null}
-              </div>
-              <div>
-                Page {currentPage} of {totalPages}
-              </div>
-              <div>
-                {hasNext ? (
-                  <Link href={getPageHref(currentPage + 1)} rel="next" style={{ color: "#1b3a6b" }}>
-                    Next →
-                  </Link>
-                ) : null}
-              </div>
-            </nav>
-          ) : null}
-        </div>
-      )}
+      {totalPages > 1 ? (
+        <nav className="pager" aria-label="Pagination">
+          <div>
+            {hasPrevious ? (
+              <Link href={getPageHref(currentPage - 1)} rel="prev">
+                Previous
+              </Link>
+            ) : null}
+          </div>
+          <div>
+            Page {currentPage} of {totalPages}
+          </div>
+          <div>
+            {hasNext ? (
+              <Link href={getPageHref(currentPage + 1)} rel="next">
+                Next
+              </Link>
+            ) : null}
+          </div>
+        </nav>
+      ) : null}
     </div>
   );
 }
