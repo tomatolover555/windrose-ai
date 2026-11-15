@@ -32,10 +32,10 @@ export default function AboutPage() {
         biography are a single setting in the site config, so they can be replaced together.
       </p>
       <p>
-        The same domain also hosts an{" "}
-        <Link href="/">agent-native decision platform</Link> and an experimental{" "}
-        <Link href="/api/agent">agent API</Link>, including a WebMCP directory. Those surfaces are
-        separate from the essays.
+        The same domain also publishes{" "}
+        <Link href="/for-agents">machine-readable surfaces for AI agents</Link>, including an
+        experimental <Link href="/api/agent">agent API</Link> and a WebMCP directory. Those
+        surfaces are separate from the essays.
       </p>
       <p>
         The blog may later be supported by advertising and by affiliate programs that have actually

@@ -5,6 +5,8 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { AffiliateLinks, PostAffiliateDisclosure } from "@/app/blog/_components/affiliate-links";
 import { Breadcrumbs } from "@/app/blog/_components/breadcrumbs";
 import { JsonLd } from "@/app/blog/_components/json-ld";
+import { PostCard } from "@/components/post-card";
+import { PostCover } from "@/components/post-cover";
 import { AFFILIATE_LINK_REL, affiliateLinksForPost, isAffiliateUrl } from "@/lib/affiliates";
 import {
   categoryLabel,
@@ -84,38 +86,67 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     { name: post.title, path: `/blog/${post.slug}` },
   ];
 
+  const updatedLabel =
+    post.updated && post.updated.slice(0, 10) !== post.date.slice(0, 10)
+      ? formatPostDate(post.updated)
+      : null;
+
   return (
-    <article>
+    <article className="post">
       <JsonLd data={articleJsonLd(post)} />
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
-      <Breadcrumbs items={crumbs.map((crumb) => ({ name: crumb.name, href: crumb.path }))} />
+      <div className="page-measure">
+        <Breadcrumbs items={crumbs.map((crumb) => ({ name: crumb.name, href: crumb.path }))} />
+      </div>
 
-      <p className="blog-kicker" style={{ display: "flex", flexWrap: "wrap", gap: "0.35rem 0.7rem", marginBottom: "0.9rem" }}>
-        <time dateTime={post.date}>{formatPostDate(post.date)}</time>
-        <span>{post.reading_time_minutes} min read</span>
-        <Link href={categoryPath(post.category)} style={{ color: "#1b3a6b" }}>
-          {category}
-        </Link>
-        <Link href="/blog/about" rel="author" style={{ color: "#1b3a6b" }}>
-          {author.name}
-        </Link>
-        <Link href={post.agent_url} title="Agent-readable markdown" style={{ color: "#6b7f96" }}>
-          For AI agents
-        </Link>
-      </p>
+      <div className="post-cover cover-frame">
+        <PostCover slug={post.slug} category={post.category} title={post.title} />
+      </div>
 
-      <h1 className="blog-title">{post.title}</h1>
-      <p className="blog-lede">{post.summary}</p>
+      <header className="page-measure post-header">
+        <p className="meta">
+          <Link href={categoryPath(post.category)} className="cat">
+            {category}
+          </Link>
+          <span aria-hidden="true">·</span>
+          <time dateTime={post.date}>{formatPostDate(post.date)}</time>
+          <span aria-hidden="true">·</span>
+          <span>{post.reading_time_minutes} min read</span>
+        </p>
+        <h1>{post.title}</h1>
+        <p className="byline">
+          By{" "}
+          <Link href="/blog/about" rel="author">
+            {author.name}
+          </Link>
+          {updatedLabel ? (
+            <>
+              {" "}
+              · Updated <time dateTime={post.updated}>{updatedLabel}</time>
+            </>
+          ) : null}
+        </p>
+        <p className="dek">{post.summary}</p>
+        <p className="agent-inline">
+          <Link href={post.agent_url} title="Agent-readable markdown">
+            For AI agents
+          </Link>
+        </p>
+      </header>
 
-      {programs.length > 0 ? <PostAffiliateDisclosure /> : null}
-      <AffiliateLinks programs={programs} />
+      {programs.length > 0 ? (
+        <div className="page-measure">
+          <PostAffiliateDisclosure />
+          <AffiliateLinks programs={programs} />
+        </div>
+      ) : null}
 
-      <div className="prose prose-windrose max-w-none">
+      <div className="page-measure post-body prose prose-windrose">
         <MDXRemote source={post.content} components={mdxComponents} />
       </div>
 
       {(post.tags ?? []).length > 0 ? (
-        <nav aria-label="Tags" className="blog-nav" style={{ marginTop: "2.25rem" }}>
+        <nav aria-label="Tags" className="blog-nav tag-row page-measure">
           {post.tags.map((tag) =>
             typeof tag === "string" ? (
               <Link key={tag} href={tagPath(tag)} className="blog-chip">
@@ -127,22 +158,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       ) : null}
 
       {relatedPosts.length > 0 ? (
-        <section style={{ marginTop: "1.5rem" }} aria-labelledby="related-posts">
-          <h2 id="related-posts" className="blog-post-title">
+        <section className="related" aria-labelledby="related-posts">
+          <h2 id="related-posts" className="section-title">
             Related posts
           </h2>
-          <ul style={{ margin: 0, paddingLeft: "1.15rem" }}>
+          <div className="post-grid">
             {relatedPosts.map((related) => (
-              <li key={related.slug} style={{ marginBottom: "0.45rem" }}>
-                <Link href={`/blog/${related.slug}`}>{related.title}</Link>
-              </li>
+              <PostCard key={related.slug} post={related} compact />
             ))}
-          </ul>
+          </div>
         </section>
       ) : null}
 
-      <p style={{ marginTop: "2rem" }}>
-        <Link href="/blog">← All posts</Link>
+      <p className="page-measure back-link">
+        <Link href="/blog">All posts</Link>
       </p>
     </article>
   );
