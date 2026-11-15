@@ -9,18 +9,24 @@
     "lint": "eslint",
     "scan:webmcp": "tsx scripts/scan_webmcp_directory.ts",
     "test": "node scripts/check-content.mjs",
-    "test:smoke": "node scripts/smoke-test.js"
+    "test:smoke": "node scripts/smoke-test.js",
+    "postinstall": "node scripts/embed-content.mjs",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare deploy"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "1.20.17",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.36.2",
     "gray-matter": "^4.0.3",
-    "next": "^16.2.6",
+    "next": "^16.4.6",
     "next-mdx-remote": "^6.0.0",
     "openai": "^6.33.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "reading-time": "^1.5.0"
+    "reading-time": "^1.5.0",
+    "wrangler": "^4.162.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
@@ -29,7 +35,7 @@
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.27",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^16.2.6",
+    "eslint-config-next": "^16.4.6",
     "postcss": "^8.5.14",
     "tailwindcss": "^3.4.19",
     "tsx": "^4.21.0",

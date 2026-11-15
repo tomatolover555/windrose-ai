@@ -2,12 +2,34 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
+import bundledPosts from "@/lib/generated/blog-posts.json";
 import { POST_REDIRECTS } from "@/lib/redirects";
 import { site } from "@/lib/site";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
+const BUNDLED_POSTS = bundledPosts as Record<string, string>;
 const SITE_URL = site.url;
 const DEFAULT_OG_IMAGE = site.ogImage;
+
+function blogDirectoryAvailable(): boolean {
+  try {
+    return fs.existsSync(BLOG_DIR);
+  } catch {
+    return false;
+  }
+}
+
+function readPostFromFilesystem(slug: string): string | null {
+  try {
+    const mdxPath = path.join(BLOG_DIR, `${slug}.mdx`);
+    const mdPath = path.join(BLOG_DIR, `${slug}.md`);
+    const filePath = fs.existsSync(mdxPath) ? mdxPath : fs.existsSync(mdPath) ? mdPath : null;
+    if (!filePath) return null;
+    return fs.readFileSync(filePath, "utf-8");
+  } catch {
+    return null;
+  }
+}
 
 export const BLOG_PAGE_SIZE = 10;
 
@@ -61,23 +83,22 @@ export type Post = PostMeta & {
 };
 
 export function getAllPostSlugs(): string[] {
-  if (!fs.existsSync(BLOG_DIR)) return [];
-  const slugs = fs
-    .readdirSync(BLOG_DIR)
-    .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"))
-    .map((f) => f.replace(/\.(mdx|md)$/, ""));
-  return [...new Set(slugs)];
+  if (blogDirectoryAvailable()) {
+    try {
+      const slugs = fs
+        .readdirSync(BLOG_DIR)
+        .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"))
+        .map((f) => f.replace(/\.(mdx|md)$/, ""));
+      return [...new Set(slugs)];
+    } catch {
+      // Workers expose a broken filesystem; use the build-time bundle.
+    }
+  }
+  return Object.keys(BUNDLED_POSTS);
 }
 
-export function getPostBySlug(slug: string): Post | null {
+function postFromRaw(slug: string, raw: string): Post | null {
   try {
-    const mdxPath = path.join(BLOG_DIR, `${slug}.mdx`);
-    const mdPath = path.join(BLOG_DIR, `${slug}.md`);
-    const filePath = fs.existsSync(mdxPath) ? mdxPath : fs.existsSync(mdPath) ? mdPath : null;
-
-    if (!filePath) return null;
-
-    const raw = fs.readFileSync(filePath, "utf-8");
     const { data, content } = matter(raw);
     const rt = readingTime(content);
     const dateValue =
@@ -136,6 +157,12 @@ export function getPostBySlug(slug: string): Post | null {
   } catch {
     return null;
   }
+}
+
+export function getPostBySlug(slug: string): Post | null {
+  const raw = blogDirectoryAvailable() ? readPostFromFilesystem(slug) : (BUNDLED_POSTS[slug] ?? null);
+  if (raw == null) return null;
+  return postFromRaw(slug, raw);
 }
 
 let postCache: Post[] | null = null;

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import affiliateFile from "@/content/affiliates.json";
 
 export const AFFILIATE_LINK_REL = "sponsored nofollow";
 
@@ -29,8 +30,15 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 export function loadAffiliatePrograms(): AffiliateProgram[] {
   if (cached) return cached;
 
-  const filePath = path.join(process.cwd(), "content", "affiliates.json");
-  const parsed = JSON.parse(fs.readFileSync(filePath, "utf8")) as AffiliateFile;
+  let parsed = affiliateFile as AffiliateFile;
+  try {
+    const filePath = path.join(process.cwd(), "content", "affiliates.json");
+    if (fs.existsSync(filePath)) {
+      parsed = JSON.parse(fs.readFileSync(filePath, "utf8")) as AffiliateFile;
+    }
+  } catch {
+    parsed = affiliateFile as AffiliateFile;
+  }
   const programs = Array.isArray(parsed.programs) ? parsed.programs : [];
 
   cached = programs.filter(isRecord).map((program) => ({

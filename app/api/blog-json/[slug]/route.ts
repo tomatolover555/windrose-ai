@@ -1,7 +1,13 @@
 import { NextResponse } from "next/server";
 import { affiliateLinksForPost } from "@/lib/affiliates";
-import { getPostBySlug, getRelatedPosts } from "@/lib/blog";
+import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { author } from "@/lib/site";
+
+export const dynamic = "force-static";
+
+export function generateStaticParams() {
+  return getAllPostSlugs().map((slug) => ({ slug }));
+}
 
 function parseHeadings(content: string) {
   return content
