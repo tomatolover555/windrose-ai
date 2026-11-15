@@ -4,6 +4,8 @@ import { StaticPage } from "@/app/blog/_components/static-page";
 import { AFFILIATE_LINK_REL, loadAffiliatePrograms } from "@/lib/affiliates";
 import { site } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 const description =
   "Which affiliate programs Windrose AI is enrolled in, which links are published, and how editorial choices stay independent of commissions.";
 

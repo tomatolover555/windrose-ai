@@ -17,6 +17,11 @@
 /.next/
 /out/
 
+# cloudflare / opennext
+.open-next/
+.wrangler/
+/lib/generated/
+
 # production
 /build
 

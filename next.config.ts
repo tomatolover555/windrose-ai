@@ -1,5 +1,14 @@
+import { spawnSync } from "node:child_process";
 import type { NextConfig } from "next";
 import { POST_REDIRECTS } from "./lib/redirects";
+
+const embedded = spawnSync(process.execPath, ["scripts/embed-content.mjs"], {
+  cwd: process.cwd(),
+  stdio: "inherit",
+});
+if (embedded.error || embedded.status !== 0) {
+  throw new Error("Failed to embed blog and directory content");
+}
 
 const consolidatedPostRedirects = Object.entries(POST_REDIRECTS).flatMap(([from, to]) =>
   ["", ".md", ".json"].map((suffix) => ({

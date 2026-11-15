@@ -1,6 +1,8 @@
 import { getAllPosts } from "@/lib/blog";
 import { author, site } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 const SITE_TITLE = site.name;
 const SITE_URL = site.url;
 const SITE_DESCRIPTION = site.description;

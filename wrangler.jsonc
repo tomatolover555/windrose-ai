@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "windrose-ai",
+  "account_id": "400612cb7fc635a0fc35541622479de6",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-11-15",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+    // Serve public files at their real path. The default HTML redirect
+    // strips .html and breaks the Search Console verification file.
+    "html_handling": "none"
+  }
+}
