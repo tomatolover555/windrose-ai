@@ -28,8 +28,7 @@ export default function AboutPage() {
         written for people building those systems. Posts are published about once a week.
       </p>
       <p>
-        {author.name} is a pen name for the publication, not a personal byline. The name and short
-        biography are a single setting in the site config, so they can be replaced together.
+        {author.name} is the pen name on every post.
       </p>
       <p>
         The same domain also publishes{" "}

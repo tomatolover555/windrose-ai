@@ -54,7 +54,8 @@ for (const [from, to] of Object.entries(redirects)) {
 }
 
 const site = read("lib/site.ts");
-if (!site.includes('name: "Windrose Editorial"')) fail("default author name missing");
+if (!site.includes('name: "Quinn Adler"')) fail("author name must be Quinn Adler");
+if (!site.includes("Quinn Adler writes about")) fail("author bio must use the Quinn Adler byline");
 if (!site.includes("bio:")) fail("author bio missing from the same config");
 if (!site.includes("G-BXKR6NMBT7")) fail("GA4 id missing from site config");
 

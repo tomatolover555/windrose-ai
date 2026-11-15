@@ -1,6 +1,6 @@
 /**
  * Site-wide editorial config.
- * The pen name and biography live only here. Change `author` when the byline is chosen.
+ * The pen name and one-line biography live only here and apply to every post.
  */
 export const site = {
   url: "https://windrose-ai.com",
@@ -11,6 +11,6 @@ export const site = {
 } as const;
 
 export const author = {
-  name: "Windrose Editorial",
-  bio: "Windrose Editorial writes about agentic commerce: how software finds services, gets permission to act, and pays.",
+  name: "Quinn Adler",
+  bio: "Quinn Adler writes about agentic commerce: how software finds services, gets permission to act, and pays.",
 } as const;
